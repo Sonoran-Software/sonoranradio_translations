@@ -1,0 +1,794 @@
+{
+  "config": {
+    "displayName": "Englanti (US)"
+  },
+  "common": {
+    "plans": {
+      "plan": "Suunnitelma",
+      "free": "Ilmainen",
+      "plus": "Plus",
+      "pro": "Ammattilainen"
+    },
+    "language": "Kieli",
+    "portal": "Portaali",
+    "search": "Hae",
+    "account": "Tili",
+    "billing": "Laskutus",
+    "management": "Hallinta",
+    "logout": "Kirjaudu ulos",
+    "signup": "Rekisteröidy",
+    "login": "Kirjaudu sisään",
+    "username": "Käyttäjänimi",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "learnMore": "Lisätietoja",
+    "actions": "Toiminnot",
+    "add": "Lisää",
+    "limited": "Rajoitettu",
+    "currently": "Tällä hetkellä",
+    "help": "Apua",
+    "select": "Valitse",
+    "confirm": "Vahvista",
+    "premium": "Premium",
+    "needsInteger": "Täytyy olla kokonaisluku",
+    "edit": "Muokkaa",
+    "delete": "Poista",
+    "reenable": "Aktivoi uudelleen",
+    "only": "{0} Vain",
+    "miscServer": "Palvelin {id}",
+    "clipboard": "Kopioitu leikepöydälle!",
+    "communityIdField": "Yhteisön ID",
+    "copy": "Kopioi",
+    "menu": "Valikko",
+    "refresh": "Päivitä",
+    "unlink": "Poista linkitys",
+    "upload": "Lähetä",
+    "startToday": "Aloita tänään",
+    "notApplicable": "Ei sovellu"
+  },
+  "hotkeys": {
+    "clearHotkey": "Tyhjennä pikanäppäin",
+    "pressAKey": "Paina näppäintä",
+    "noKeySet": "Ei asetettu näppäintä"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "Lähetyspaneeli",
+      "desc1": "Visualisoi helposti, hallitse käyttäjiä, soita säveliä ja paljon muuta!",
+      "desc2": "Sonoran Radion lähetys UI on saatavilla kaikkialla verkossa ja työpöydällä Windowsille ja OSX:lle."
+    },
+    "Cloud_Configurations": {
+      "title": "Pilvikonfiguraatiot",
+      "desc": "Radion mukauttaminen ei ole koskaan ollut helpompaa, suorilla päivityksillä helppokäyttöisestä konfiguraatiopaneelistamme."
+    },
+    "Custom_Voice_Effects": {
+      "title": "Mukautetut äänitehosteet",
+      "desc": "Mukauta digitaalista ja analogista tyyliä olevia äänitehosteita yhteisöllesi!"
+    },
+    "Customizable_SFX": {
+      "title": "Mukautettavat SFX",
+      "desc": "Konfiguroi signaalin menetys tunneleissa, maanalaisissa paikoissa ja enemmän!"
+    },
+    "ToneBoard": {
+      "title": "Säveltaulu",
+      "desc1": "Lataa ja mukauta lähetyssävelet yhteisöllesi!",
+      "desc2": "Sonoran Radion lähetyksen UI antaa sinun määritellä tietyt kanavat ja ryhmät, toistaa sävelmiä ja paljon muuta! Voit jopa soittaa sävelmiä pelin sisäisillä kaiuttimilla!"
+    },
+    "Transmission_Logs": {
+      "title": "Lähetyslokit",
+      "desc": "Katso ja toista lähetyslokeja valinnaisilla tekoälyllä tuotetuilla tekstiasiakirjoilla!"
+    },
+    "Destructible_towers": {
+      "title": "Tuhottavat tornit",
+      "desc1": "Pelin sisäiset fyysiset tornit voidaan tuhota rikollisten toimesta, mikä heikentää niiden ympärillä olevaa radiolaatua.",
+      "desc2": "Kolmella eri pelin sisäisellä mallityypillä Sonoran Radio vie eläytymisen seuraavalle tasolle!"
+    },
+    "Radio_Chattrer": {
+      "title": "Kuule lähistön radiopuhetta",
+      "desc": "Pysäytetty liikennevalvossa? Kuuntelet aitoa radiopuhetta, kun virkailijalla on aktiivinen radio läheisyydessä!"
+    },
+    "VehicleDisplay": {
+      "title": "Ajoneuvon näyttö",
+      "desc": "3D-ajoneuvoradionäyttömme heijastaa kanavan tietoja, lähettävää käyttäjää ja paniikkitilaa reaaliajassa, tuoden uusia tasoja eläytymiseen!"
+    },
+    "inGameToneBoard": {
+      "title": "Säveltaulu pelin sisäisille kaiuttimille",
+      "desc": "Sonoran Radion lähetyksen UI antaa sinun määritellä tietyt kanavat ja ryhmät, toistaa sävelmiä ja paljon muuta! Voit jopa soittaa sävelmiä pelin sisäisillä kaiuttimilla!"
+    },
+    "EmergencyCalls": {
+      "title": "Pelin sisäiset hätäpuhelut",
+      "desc": "Soita hätäpuheluja lähetykseen, kaikki pelin sisältä!"
+    },
+    "Scanners": {
+      "title": "Skannerit",
+      "desc": "Pelin sisäiset skannerit antavat sinulle ja muille lähistöllä mahdollisuuden kuunnella radioliikennettä!"
+    },
+    "BackgroundAudio": {
+      "title": "Taustaääni",
+      "desc": "Vastaamassa hälytykseen? Sonoran Radio syöttää reaaliaikaisia sireenejä, laukauksia ja muuta suoraan mikrofonin syötteeseen, tarjoten parhaan mahdollisen immersiivisen kokemuksen."
+    },
+    "tunnelSignalLoss": {
+      "title": "Tunnelisignaalin menetys",
+      "desc": "Konfiguroi signaalin menetys tunneleissa, maanalaisissa paikoissa ja enemmän!"
+    },
+    "MultipleRadioOperations": {
+      "title": "Useita radiovaihtoehtoja",
+      "desc1": "Sonoran Radio tarjoaa useita pelin sisäisiä käyttöliittymiä, joiden avulla voit pysyä yhteydessä jalkaisin, ajoneuvossa ja muualla!",
+      "desc2": "Valitse yksi radiotyyliemme vaihtoehdoista tai lisää omasi!"
+    },
+    "Sonoran_CAD": {
+      "title": "Sonoran CAD",
+      "desc": "Tämä lisäosa antaa Sonoran Radion asiakkaille mahdollisuuden yhdistää radio Sonoran CAD:ään. Katso yksikkötilasi, lähetystietosi, aktivoi paniikki ja muusta!"
+    },
+    "Sonoran_CMS": {
+      "title": "Sonoran CMS",
+      "desc": "Automatisoi Sonoran Radion luvat Sonoran CMS:n kanssa!"
+    },
+    "bigDaddyRadio": {
+      "title": "Big-Daddy Radio Animaatiot",
+      "desc": "Sonoran Radio on yhteistyössä Big Daddy Scripts kanssa tarjotakseen ILMAISEN kopion heidän radioanimaatioskriptistään!"
+    },
+    "mobileCommandCenter": {
+      "title": "Mobile Command Center",
+      "desc": "Sonoranin mobiilikomennuskeskus mahdollistaa komennon ottamisen ennenkuulumattomalla tavalla. Tämä ainutlaatuinen hyötyajoneuvo avaa loputtomia mahdollisuuksia!"
+    },
+    "Power_Grid": {
+      "title": "Sähköverkko",
+      "desc": "Murtaudu integroitua sähköverkkoa särkemään Sonoran Radion tornit alueellasi! Opi lisää tästä skriptistä!"
+    },
+    "intro": "Vie peliviestisi seuraavalle tasolle Sonoran Radiolla. Keskustele realistisissa radiokanavissa, mukauta äänitehosteita ja integroi vaivattomasti pelin sisäisiin ominaisuuksiin todellisen eläytymiskokemuksen aikaansaamiseksi."
+  },
+  "splash": {
+    "introducing": "Esittelyssä",
+    "marketExplain": "Julkisessa turvallisuudessa yksinkertaisuus ja luotettavuus ovat tärkeitä kommunikaatiojärjestelmän valinnassa. Sonoran Radio tarjoaa markkinoiden kattavimman ja monipuolisimman viestintäjärjestelmän. Tämä uusi radiolähetysjärjestelmä hyödyntää huipputeknologiaa, tarjoamalla sekä simplex- että duplex-konfiguraatiot, pilvipohjaiset ohjelmoinnit ja skaalautuvan, toistimeen perustuvan radion verkoston.",
+    "feats": "Täydellinen henkilöstön väliselle tekstiviestinnälle ja Sonoran CAD -integraatiolle, Sonoran Radio antaa täysin varustellut viestintälaitteet suoraan pelin sisäisten henkilöstösi ja lähetyhjiesi käsiin. Kokeile ilmaiseksi tänään!",
+    "getStarted": "Aloita Tänään",
+    "toPortal": "Siirry Portaalin",
+    "learnMore": "Lisätietoja"
+  },
+  "misc": {
+    "welcome": "Tervetuloa",
+    "welcomeTo": "Tervetuloa Sonoran Radioon!",
+    "learnMoreAboutRadio": "Opi lisää, miten Sonoran Radio voi mullistaa roolipelisi!"
+  },
+  "errors": {
+    "common": {
+      "enterPassword": "Anna salasana.",
+      "enterEmail": "Syötä sähköpostiosoitteesi."
+    },
+    "misc": {
+      "noLocalStorageSupport": "Selaimesi ei tue paikallista tallennusta tai se voi olla poistettu käytöstä."
+    },
+    "signup": {
+      "passwordNoUppercase": "Salasana ei sisällä yhtään suurta kirjainta",
+      "passwordNoNumber": "Salasana ei sisällä yhtään numeroa",
+      "passwordNoSymbol": "Salasana ei sisällä mitään symbolia ({'!@#$%^&*'})",
+      "invalidPassword": "Virheellinen salasana",
+      "passwordNotMoreThan": "Salasana ei ole yli 6 merkkiä pitkä",
+      "passwordsDontMatch": "Salasanat eivät täsmää keskenään.",
+      "noUsername": "Käyttäjänimeä ei ole määritetty.",
+      "noEmail": "Sähköpostia ei ole määritetty.",
+      "noPassword": "Salasanaa ei ole määritelty.",
+      "usernameNotLongEnough": "Käyttäjänimi ei ole yli 4 merkkiä pitkä.",
+      "usernameTooLong": "Käyttäjänimi on liian pitkä.",
+      "invalidEmail": "Annettu sähköpostiosoite ei ole kelvollinen, käytä toista sähköpostiosoitetta.",
+      "usernameInvalidCharacter": "Käyttäjänimessä on virheellinen merkki."
+    }
+  },
+  "login": {
+    "loginWithSonoran": "Kirjaudu sisään Sonoranilla",
+    "createAccount": "Luo tili",
+    "forgotPassword": "Unohditko salasanan",
+    "forgotPasswordDesc": "Unohditko Sonoran-tilisi salasanan? Anna sähköpostisi alla palauttaaksesi tunnuksesi."
+  },
+  "signup": {
+    "emailPreferencesDesc": "Lähetä minulle tärkeitä ilmoituksia, päivityksiä ja tarjouksia sähköpostitse.",
+    "verifyPassword": "Vahvista salasana",
+    "checkEmail": "Tarkista sähköpostisi ja vahvista tilisi.",
+    "checkSpam": "Muista tarkistaa roskapostikansiosi, jos et löydä sähköpostia."
+  },
+  "serverCommon": {
+    "nicknameInput": "Nimimerkki",
+    "nicknameInputDesc": "Aseta mukautettu nimimerkki yhteisöllesi, jonka näet sinä ja jäsensi",
+    "serverUidInput": "TeamSpeak-palvelimen UID",
+    "serverUidInputDesc": "Syötä TeamSpeak 3 -palvelimesi UID tänne"
+  },
+  "registerServer": {
+    "registerATSServer": "Rekisteröi TeamSpeak Server",
+    "registerATSServerDesc": "Rekisteröi TeamSpeak-palvelimesi, jotta palvelimesi voi käyttää Sonoran Radion TeamSpeak-lisäosaa.",
+    "registerAStandServer": "Rekisteröi yhteisö",
+    "registerAStandServerDesc": "Rekisteröi yhteisösi käyttämään Sonoran Radiota.",
+    "submit": "Rekisteröi palvelin",
+    "errExists": "Annettu TeamSpeak-palvelimen UID on jo käytössä varmennetussa palvelimessa, käytä toista TS-palvelimen UID:ia",
+    "errUnknown": "Virhe yritettäessä hakea palvelintietoa, yritä myöhemmin uudelleen."
+  },
+  "radio": {
+    "toneBoard": {
+      "broadcastTo": "Lähetä",
+      "noTones": "Ei säveliä",
+      "seconds": "Sekunnit",
+      "count": "Määrä",
+      "newTone": "Uusi sävel",
+      "title": "Säveltaulu",
+      "subtitle": "Mukauta yhteisösi lähetyssävelet",
+      "repeat": "Toista",
+      "stack": "Pinoa",
+      "aiTts": "Tekoälyn Tekstistä Puheeksi",
+      "audioMode": "Äänitila",
+      "aiMode": "Tekoälytila",
+      "generate": "Luo",
+      "preview": "Esikatselu",
+      "voices": "Äänet",
+      "toneLabel": "Sävytunniste",
+      "speed": "Nopeus",
+      "recording": "Tallennus",
+      "inGameSpeaker": "Pelin sisäinen kaiutin",
+      "inGameSpeakerGroup": "Pelin sisäinen kaiutinyhmys"
+    },
+    "channelDialog": {
+      "channelTitle": "Vaihda kanava",
+      "scanTitle": "Skannauslista"
+    },
+    "settingsDialog": {
+      "title": "Asetukset",
+      "audioTab": "Ääni",
+      "fivemTab": "FiveM",
+      "hotkeysTab": "Pikanäppäimet",
+      "sfxTab": "Äänitehosteet",
+      "troubleHearingInGame": "Oletko vaikeuksissa kuulla pelin sisällä?",
+      "volume": "Äänenvoimakkuus",
+      "sfxVolume": "Äänitehosteiden Äänenvoimakkuus",
+      "automaticGainControlEnabled": "Automaattinen voitonhallinta on käytössä",
+      "automaticGainControlDisabled": "Automaattinen voitonhallinta on poissa käytöstä",
+      "changingOutputsUnsupported": "Laitteesi ei tue äänilähtöjen muuttamista",
+      "volumeHotkeyChange": "Äänenvoimakkuuden pikanäppäimen muutos",
+      "pttOffDelay": "PTT-viive",
+      "resetPeerVolumes": "Nollaa Verkkokumppanien Äänenvoimakkuudet",
+      "resetSettings": "Nollaa Asetukset",
+      "macosPermWarning": "Laitteesi voi vaatia lisäoikeuksia: {link}",
+      "macosPermWarningLink": "Opi myöntämään oikeudet",
+      "webHotkeyWarning": "Pikanäppäimet toimivat vain, kun selainikkuna on keskittynyt. {link} saadaksesi globaalit pikanäppäimet",
+      "webHotkeyWarningLink": "Lataa työpöytäsovellus",
+      "moveResize": "Siirrä/Muuta kokoa",
+      "unlink": "Poista linkitys",
+      "toggleBackgroundAudio": "Taustaääni",
+      "volumeChangeSirens": "Äänenvoimakkuuden muutos/Sireenien kanssa",
+      "escapeMode": "Pakotila",
+      "escapeModeKeep": "Pidä Radio Näkyvissä",
+      "escapeModeKeepTooltip": "Radio pysyy näkyvissä ESC-painikkeella",
+      "escapeModeHide": "Piilota Radio",
+      "escapeModeHideTooltip": "Radio suljetaan ESC-painikkeella",
+      "escapeModeXmit": "LÄHETYS (PTT)",
+      "escapeModeXmitTooltip": "Radio suljetaan ESC-painikkeella, mutta on näkyvissä lähetyksen aikana",
+      "selectRadioFrame": "Radion Kehys",
+      "myPttSfx": "Minun PTT Äänitehoste",
+      "othersPttSfx": "Toisten PTT Äänitehoste",
+      "channelTts": "Kanavan Tekstistä Puheeksi",
+      "hearScannedWhileXmit": "Kuule Skannattu Lähetyksen Aikana",
+      "keyupSfx": "Päivitä SFX",
+      "keydownSfx": "Näppäin SFX"
+    },
+    "connect": "Yhdistä",
+    "selectServer": "Valitse palvelin",
+    "microphonePTT": "Mikrofoni PTT",
+    "openInNewWindow": "Avaa uuteen ikkunaan",
+    "backToPortal": "Takaisin portaalin",
+    "recvFreq": "VASTAANOTA: {0}MHz",
+    "xmitFreq": "LÄHETÄ: {0}MHz",
+    "stopXmit": "Lopeta LÄHETYS",
+    "multiXmit": "CTRL + Klikkaa Monilähetys",
+    "muteScan": "Mykistä {0}",
+    "listenScan": "Kuuntele {0}",
+    "setHotkeyFor": "Aseta pikanäppäin {0}",
+    "hiddenChannel": "Piilotettu kanava (näkyvissä sinulle)",
+    "configureChannel": "Määritä {0}",
+    "addNewChannel": "Lisää uusi kanava",
+    "showChannelIds": "Näytä kanavatunnukset",
+    "channelList": "Kanalista",
+    "scanList": "Skannauslista"
+  },
+  "authMember": {
+    "title": "Odotat Hyväksyntää",
+    "subtitle": "Ennen kuin voit käyttää Sonoran Radiota {serverName}-palvelimelle, palvelimen omistajan tai yhteisön ylläpitäjän on hyväksyttävä sinut. Odota hyväksyntää.",
+    "subtitleShort": "Ennen Sonoran Radion käyttöä tässä yhteisössä, yhteisön henkilökunnan on hyväksyttävä sinut",
+    "leaveMsg": "Oletko varma, että haluat lähteä tästä Sonoran Radion yhteisöstä?",
+    "errLeave": "Yhteisöstä poistuttaessa tapahtui odottamaton virhe."
+  },
+  "authServer": {
+    "title": "Tunnista TeamSpeak-palvelimesi",
+    "subtitle": "Tunnista TeamSpeak-palvelimesi helpon todennusprosessin avulla, jossa hyödynnetään Sonoran Radion laajennusta ja verkkopaneelia. Todennusprosessin aikana henkilöille, joilla on riittävät oikeudet TeamSpeak-palvelimellesi, näytetään ponnahdusikkuna, jossa kerrotaan odottava valtuutus. Kirjoita palvelun valtuutuskoodi TeamSpeak-ponnahdusikkunaan valtuuttaaksesi. Jos sattumalta syötät TeamSpeak-palvelimesi UID:n väärin, voit muuttaa sen alla. Jos et näe TeamSpeak-ponnahdusikkunaa Sonoran Radiosta, tarkista, että olet syöttänyt oikean UID:n ja sinulla on vähintään v0.2.0 laajennus asennettuna. Muussa tapauksessa ota yhteyttä tukeen.",
+    "authCodeTitle": "Valtuutuskoodi",
+    "clickToCopy": "Klikkaa kopioidaksesi",
+    "copiedCode": "Palvelimen todennuskoodi on kopioitu leikepöydälle",
+    "submit": "Tallenna Palvelin",
+    "errSave": "Palvelimen tallennuksessa tapahtui odottamaton virhe.",
+    "errDelete": "Palvelimen poistossa tapahtui odottamaton virhe."
+  },
+  "manageServer": {
+    "settings": {
+      "title": "Oletusasetukset",
+      "subtitle": "Määritä yhteisösi oletusasetukset. Käyttäjät voivat henkilökohtaistaa omat preferenssinsä, mutta nämä toimivat aloitusasetuksina.",
+      "agc": "Automaattinen Voitonhallinta",
+      "agcDesc": "Säädä mikrofonin syöttövoimakkuutta automaattisesti, jotta kaikkien käyttäjien äänenvoimakkuudet tasoittuvat.",
+      "hearPttSfx": "Soita PTT-Äänitehoste",
+      "hearPttSfxDesc": "Soita PTT-ääni, kun pohdit mikrofonisi.",
+      "hearOtherPttSfx": "Soita Toisten PTT-Äänitehoste",
+      "hearOtherPttSfxDesc": "Soita PTT-ääni, kun muut käyttäjät miettivät mikrofoniaan.",
+      "muteScannedWhileTransmitting": "Mykistä Skannattu Lähetyksen Aikana",
+      "muteScannedWhileTransmittingDesc": "Mykistä skannatut kanavat, kun lähetyt kanavalla.",
+      "sirenVolume": "Sireenin Äänenvoimakkuus",
+      "sirenVolumeDesc": "Kun pelin sisäinen sireeni on aktivoitu, lisää/vähennä äänenvoimakkuutta.",
+      "tts": "Kanavan Tekstistä Puheeksi",
+      "ttsDesc": "Soita tekstistä-puheeksi-kanavan ääni, kun vaihdat kanavia.",
+      "keyUpDelay": "Näppäimen Aktivointi Viive",
+      "keyUpDelayDesc": "Viive lähetyksen päättymisen jälkeen ennen kuin mikrofoni vapautetaan.",
+      "volChange": "Äänenvoimakkuuden Muutos",
+      "volChangeDesc": "Äänenvoimakkuuden muutos % käytettäessä äänenvoimakkuuden ylös/alas-pikanäppäimiä."
+    },
+    "importSAPR": {
+      "btn": "Tuo SAPR-konfiguraatio",
+      "jsonTitle": "Tuo SAPR-konfiguraatio",
+      "jsonMsg": "Liitä SAPR-konfiguraatiosi JSON tähän",
+      "confirmMsg": "Olet tuomassa {n} kanavaa. Oletko varma?"
+    },
+    "patrolChannels": {
+      "range": {
+        "short": "Lyhyt alue",
+        "medium": "Keskialue",
+        "long": "Pitkä alue"
+      },
+      "title": "Partiokanavat",
+      "subtitle": "Partiokanavat ovat TeamSpeak-kanavia, jotka on valkoisella listalla käytettäviksi Sonoran Radion TeamSpeak-laajennuksen toimivuuden kanssa.",
+      "nickname": "Nimimerkki",
+      "channelUid": "TS-kanavatunnus",
+      "allowTalkover": "Salli puheenläpäisy",
+      "talkAroundRange": "Puhu ympäristö",
+      "addChannel": "Lisää partiokanava",
+      "explainDisabled": "Partiokanava on poistettu käytöstä alempaan suunnitelmaan alentamisen vuoksi, sinun on poistettava muita partiokanavia, ennen kuin voit aktivoida tämän uudelleen.",
+      "explainDisabledCanReenable": "Partiokanava on poistettu käytöstä alempaan suunnitelmaan alentamisen vuoksi, mutta voit aktivoida sen uudelleen avattavassa valikossa!",
+      "dialogAddTitle": "Lisää Partiokanava",
+      "dialogEditTitle": "Muokkaa Partiokanavaa",
+      "dialogSubtitle": "Partiokanava on TeamSpeak-kanava, joka on valkoisella listalla käytettäväksi Sonoran Radion TeamSpeak-laajennuksen toimivuuden kanssa. Tässä voit asettaa TeamSpeak-kanavatunnuksen ja määrittää, sallitaanko vai ei puheenläpäisy.",
+      "channelUidInput": "TS-kanavatunnus - Pakollinen",
+      "customizeTalkaround": "Mukauta puheyhteysalue",
+      "legacyChannelUidWarn": "Tämä kanavatunnusmuoto on vanhentunut. Päivitä uusimpaan versioon Sonoran Radio TS:stä ja päivitä uusiin numeerisiin tunnuksiin",
+      "errSave": "Partiokanavan tallennuksessa tapahtui odottamaton virhe.",
+      "errReenable": "Partiokanavan aktivoimisessa tapahtui odottamaton virhe.",
+      "errDelete": "Partiokanavan poistamisessa tapahtui odottamaton virhe."
+    },
+    "profiles": {
+      "title": "Profiilit",
+      "titleStandalone": "Kanavat",
+      "subtitle": "Profiilit ovat ennalta asetettuja taajuusasetuksia, jotka mahdollistavat helpon siirtymisen tiettyjen taajuuksien välillä ilman, että tarvitsee manuaalisesti syöttää jokaista taajuutta.",
+      "addProfile": "Lisää Profiili",
+      "addProfileStandalone": "Lisää Kanava",
+      "reorder": "Järjestä Profiilit",
+      "reorderStandalone": "Järjestä Kanavat",
+      "displayName": "Näyttönimi",
+      "recvFreq": "Vastaanotetaajuus",
+      "xmitFreq": "Lähetystaajuus",
+      "repeatsXmit": "Toistaa Lähetystaajuus",
+      "pronounce": "Äännäminen",
+      "preventTalkover": "Estä Puheenläpäisy",
+      "talkoverPrevented": "Puheenläpäisy estetty",
+      "talkoverAllowed": "Puheenläpäisy sallittu",
+      "setAsDefault": "Aseta Oletusprofiiliksi",
+      "defaultProfile": "Oletusprofiili",
+      "explainDisabled": "Profiili on poistettu käytöstä alempaan suunnitelmaan alentamisen vuoksi, sinun on poistettava muita profiileja ennen kuin voit aktivoida tämän uudelleen.",
+      "explainDisabledCanReenable": "Profiili on poistettu käytöstä alempaan suunnitelmaan alentamisen vuoksi, mutta voit aktivoida tämän profiilin uudelleen avattavassa valikossa!",
+      "dialogAddTitle": "Lisää Profiili",
+      "dialogEditTitle": "Muokkaa profiilia",
+      "dialogAddTitleStandalone": "Lisää Kanava",
+      "dialogEditTitleStandalone": "Muokkaa Kanavaa",
+      "dialogSubtitle": "Profiili on ennalta asetettu taajuusasetuksia, joka mahdollistaa helpon siirtymisen tiettyjen taajuuksien välillä ilman, että tarvitsee syöttää jokainen taajuus manuaalisesti. Tässä voit asettaa Näyttönimen (vapaaehtoinen), Vastaanotetaajuuden (pakollinen), Lähetystaajuuden (vapaaehtoinen) ja onko Lähetystaajuus toistettu.",
+      "displayNameInput": "Näyttönimi - Pakollinen",
+      "errSave": "Profiilin tallennuksessa tapahtui odottamaton virhe.",
+      "errDelete": "Profiilin poistamisessa tapahtui odottamaton virhe.",
+      "errSetDefault": "Oletusprofiilin asettamisessa tapahtui odottamaton virhe.",
+      "errReenable": "Profiilin uudelleenaktivoimisessa tapahtui odottamaton virhe.",
+      "voiceEffect": "Äänitehoste",
+      "visibilityOptions": {
+        "public": "Julkinen",
+        "private": "Yksityinen"
+      },
+      "dialogSubtitleStandalone": "",
+      "basicMode": "Perus",
+      "advancedMode": "Kehittynyt",
+      "shareWith": "Jaa kanssa",
+      "sharedTooltip": "Jaetut kanavat heijastavat toisen linkitetyn kanavan käytön ja taajuudet. Kumpaan tahansa liittyminen antaa pääsyn samaan viestintävirtaan.",
+      "standardTooltip": "Vakiokanavat toimivat itsenäisesti omilla taajuuksillaan ja käytöllään. Käytä tätä tila, kun kanavan pitäisi olla itsenäinen.",
+      "visibility": "Näkyvyys",
+      "recvFreqTooltip": "Taajuus, jota käytetään viestien vastaanottamiseen. Tämä on vain estetiikkaa radion käyttöliittymässä.",
+      "xmitFreqTooltip": "Taajuus, jota käytetään viestien lähettämiseen. Tämä on vain estetiikkaa radion käyttöliittymässä.",
+      "editGroup": "Muokkaa ryhmää",
+      "deleteGroup": "Poista ryhmä",
+      "ttsPreview": "Teksti puheeksi esikatselu",
+      "ttsFailed": "Tekstistä puheeksi -muunnos epäonnistui tai ei ole olemassa.\nTallenna kanava uudelleen, jotta voidaan luoda.",
+      "privateChannel": "Yksityinen kanava",
+      "pronounceTooltip": "Edistynyt ääntäminen AI-kanavan tekstistä puheeksi.",
+      "addGroup": "Lisää ryhmä",
+      "groupName": "Ryhmän nimi"
+    },
+    "micClick": {
+      "header": "Äänitehosteiden Mukauttaminen",
+      "subheader": "Mukauta äänitehosteita koko yhteisöllesi.",
+      "keyUpSfx": "Näppäimen Ylöspäin SFX",
+      "keyDownSfx": "Näppäimen Alaspäin SFX",
+      "talkoverSfx": "Puheenläpäisy SFX",
+      "overrideSuccessSfx": "Puheenläpäisy Korvaus Onnistuminen SFX",
+      "emergencyCallSfx": "Hätäpuhelun SFX",
+      "panicSfx": "Paniikkinapin SFX",
+      "sfxVolUp": "Äänenvoimakkuus Ylös (Pikanäppäin) SFX",
+      "sfxVolDown": "Äänenvoimakkuus Alas (Pikanäppäin) SFX",
+      "simulatedAudio": "Pelin Sisäinen Taustaääni SFX",
+      "simulatedAudioSubtitle": "Taustaäänien injektio yhdistää pelin sisäiset äänet—kuten sireenit, helikopterin roottorit, veneen moottorit ja laukaukset—mikrofonilähtöön.",
+      "sfxGameSiren": "Pelin Sisäinen Sireeni SFX",
+      "sfxGameBoatEngine": "Pelin Sisäinen Veneen Moottori SFX",
+      "sfxGameHelicopterRotors": "Pelin Sisäinen Helikopterin Roottorit SFX",
+      "sfxGamePistol": "Pelin Sisäinen Pistooli SFX",
+      "sfxGamePistolSilenced": "Pelin Sisäinen Hiljennetty Pistooli SFX",
+      "sfxGameRifle": "Pelin Sisäinen Kivääri SFX",
+      "sfxGameRifleSilenced": "Pelin Sisäinen Hiljennetty Kivääri SFX"
+    },
+    "voiceCustomization": {
+      "header": "Äänen Mukauttaminen",
+      "subheader": "Mukauta radiopuhelimen äänitehosteet yhteisöllesi.",
+      "input": "Syöte",
+      "useForEmergency": "Käytä hätäpuheluissa",
+      "name": "Nimi",
+      "signalStrength": "Signaalin vahvuus",
+      "vocoderPreviewWarning": "Vocooterin esikatselu ei ole vielä saatavilla."
+    },
+    "perms": {
+      "types": {
+        "dispatch::open": {
+          "name": "Avaa Lähetyksen UI",
+          "desc": "Tämä oikeus antaa mahdollisuuden avata lähetyksen UI"
+        },
+        "dispatch::ext_commands": {
+          "name": "Muokkaa Kanavan Käyttäjää",
+          "desc": "Tämä oikeus antaa mahdollisuuden muuttaa kanavan käyttäjien taajuuksia ja nimimerkkejä Lähetyksen UI:n kautta"
+        },
+        "tg::talkover_override": {
+          "name": "Puheenläpäisyn Suojaus Ohitettu",
+          "desc": "Tämä oikeus antaa mahdollisuuden kaksoisnapsauta PTT-painiketta puhuaksesi toisen asiakkaan yli"
+        },
+        "menu::radio_lock": {
+          "name": "Radio Lukko",
+          "desc": "Tämä oikeus antaa sinulle mahdollisuuden pysäyttää toisen henkilön lähetyksen, jos he ovat jo lähettämässä"
+        },
+        "menu::radio_attn": {
+          "name": "Radion Huomio",
+          "desc": "Tämä oikeus antaa sinulle mahdollisuuden soittaa äänen toisen käyttäjän radiosta saadaksesi hänen huomionsa"
+        }
+      },
+      "title": "Oikeudet",
+      "subtitle": "Oikeudet antavat sinulle mahdollisuuden muuttaa, kuinka käyttäjät ovat vuorovaikutuksessa Sonoran Radion lisäosan kanssa ja mitä he voivat olla vuorovaikutuksessa.",
+      "addPerm": "Lisää Oikeus",
+      "nickname": "Nimimerkki",
+      "permName": "Oikeuden Nimi",
+      "serverGroup": "Palvelimeryhmä",
+      "dialogTitle": "Lisää Oikeus",
+      "dialogSubtitle": "Antaa palvelimelle ryhmälle tietyn oikeuden Sonoran Radiossa. Lisätietoja oikeuksista ja siitä, miten palvelinten ryhmät saadaan, katso Sonoran Radion Dokumentaatio.",
+      "serverGroupInput": "Palvelimeryhmä - Pakollinen",
+      "permInput": "Oikeuksien nimi",
+      "explainPrefix": "Mitä tämä tekee?",
+      "invalidGroupId": "Virheellinen Palvelimen Ryhmä, sen on oltava numero.",
+      "errSave": "Oikeuden tallennuksessa tapahtui odottamaton virhe.",
+      "errDelete": "Oikeuden poistamisessa tapahtui odottamaton virhe."
+    },
+    "myself": {
+      "title": "Yhteisösi Tiedot",
+      "subtitle": "Katso ja muokkaa yhteisöasetuksiasi"
+    },
+    "members": {
+      "title": "Yhteisön jäsenet",
+      "subtitle": "Hallitse käyttäjien oikeuksia ja pääsyä yhteisössäsi.",
+      "username": "Käyttäjänimi",
+      "displayName": "Näyttönimi",
+      "traits": "Ominaisuudet",
+      "actions": "Toiminnot",
+      "owner": "Omistaja",
+      "subOwner": "Tilauksen Haltija",
+      "remove": "Poista",
+      "explainDisabled": "Vain palvelimen omistajat voivat lisätä tai muokata hallinnoitsijoita",
+      "removeWarn": "Varoitus",
+      "removeWarnSubHolderMsg": "Tilauksen haltijan poistaminen alentaa tämän palvelimen ilmaiseen! Oletko varma, että haluat jatkaa?",
+      "removeWarnSelfMsg": "Oletko varma, että haluat poistaa itsesi tältä serveriltä? Menetät pääsyn ja palvelimen omistajan on lisättävä sinut takaisin.",
+      "errAddInvalidAccount": "Annettu käyttäjätunnus ei ole olemassa",
+      "errAddUnknown": "Tuntematon virhe lisättäessä hallinnoitsijaa",
+      "errRemoveUnknown": "Tuntematon virhe poistettaessa hallinnoitsijaa",
+      "permissionsBtn": "Oikeudet",
+      "approveBtn": "Hyväksy",
+      "kickBtn": "Poista",
+      "filterAll": "Kaikki",
+      "filterPending": "Odottaa",
+      "search": "Hae",
+      "pending": "Odottaa",
+      "paysSubscription": "Maksaa tilauksen",
+      "setDisplayName": "Aseta näyttönimi",
+      "editMemberPerms": "Muokkaa jäsenien oikeuksia",
+      "ownerHasAllPerms": "Yhteisön omistajalla on kaikki oikeudet",
+      "privateChannels": "Yksityiset kanavat",
+      "selectPrivateChannels": "Valitse yksityiset kanavat, joihin käyttäjällä on oikeus liittyä"
+    },
+    "ai": {
+      "services": {
+        "0": "Lähetyslokien Puheentunnistus",
+        "1": "Säveltaulun Puheentunnistus"
+      },
+      "title": "Tekoälyn API Avaimet",
+      "addKey": "Lisää Tekoälyn Avain"
+    },
+    "admin": {
+      "communityApiKeyField": "Yhteisön API-avain",
+      "updateApiKey": "Päivitä API Avain",
+      "apiInfoTitle": "API-tiedot",
+      "apiInfoHint": "Anna tämä jäsenillesi kutsuessasi heitä yhteisöön"
+    },
+    "guidesLink": "Sonoran Radio Tiedot & Oppaat",
+    "toPortal": "Takaisin Portaaliin",
+    "saveServer": "Tallenna Palvelin",
+    "unauthorizeServer": "Poista valtuutus palvelimelta",
+    "deleteServer": "Poista Yhteisö",
+    "transferServer": "Siirrä yhteisö",
+    "dispatchTab": "Lähetys",
+    "membersTab": "Jäsenet",
+    "customizeTab": "Mukauta",
+    "adminTab": "Hallinto",
+    "saveInfo": "Tallenna Palvelimen Tiedot",
+    "explainOwnerOnly": "Vain omistaja voi muuttaa tätä asetusta",
+    "noPermPage": "Sinulla ei ole oikeuksia nähdä tätä sivua",
+    "unauthorizeMsg": "Oletko varma, että haluat poistaa valtuutuksen tästä konfiguraatiosta?",
+    "deleteMsg": "Oletko varma, että haluat poistaa tämän konfiguraation? Tämä aiheuttaa peruuttamattoman tietojen menetyksen.",
+    "unauthorizeSuccess": "Palvelimesi valtuutus poistettiin onnistuneesti",
+    "deleteSuccess": "Palvelimesi poistettiin onnistuneesti",
+    "errServerCheck": "Palvelimesi tarkistuksessa tapahtui odottamaton virhe.",
+    "errUidTaken": "TeamSpeak-palvelimen UID on jo käytössä toisella valtuutetulla palvelimella.",
+    "errSaveInfo": "Palvelimesi tietojen tallennuksessa tapahtui odottamaton virhe.",
+    "errImport": "SAPR-konfiguraatiosi tuonnissa tapahtui odottamaton virhe.",
+    "errImportNotFound": "SAPR-konfiguraatiota ei löytynyt TeamSpeak UID-laitteesi.",
+    "errUnauthorize": "Palvelimesi valtuutuksen poistossa tapahtui odottamaton virhe.",
+    "customizeMenu": {
+      "info": "Tiedot",
+      "patrolChannels": "Partiokanavat",
+      "channelsGroups": "Kanavat & ryhmät",
+      "profiles": "Profiilit",
+      "permissions": "Oikeudet",
+      "voiceCustomization": "Äänikustomointi",
+      "sfxCustomization": "SFX-kustomointi",
+      "toneBoard": "Sävyluettelo",
+      "fivemIntegration": "FiveM-integraatio",
+      "defaultSettings": "Oletusasetukset",
+      "ai": "AI",
+      "customDomain": "Mukautettu Verkkotunnus"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Nimi",
+        "origin": "IP/Alkuperä",
+        "pushUrl": "Työnnä URL",
+        "actions": "Toiminnot"
+      },
+      "customCommunityIdHint": "Aseta mukautettu yhteisö-ID, jota käytetään näyttävässä URL-osoitteessa, FiveM-resurssissa ja yhteisöön liittymiseen",
+      "communityServers": "Yhteisöpalvelimet",
+      "communityServersSubtitle": "Lisää tai poista palvelimia radioyhteyden erottamiseksi",
+      "addServer": "Lisää palvelin"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Tyyppi",
+        "name": "Nimi",
+        "content": "Sisältö"
+      },
+      "requiresPro": "Sinulla on oltava Pro-tilaus asettaaksesi mukautetun verkkotunnuksen",
+      "chooseName": "Valitse verkkotunnuksen nimi",
+      "placeholder": "radio.esimerkki.com",
+      "ownershipHint": "Sinun on omistettava verkkotunnuksesi!",
+      "verifyTitle": "Vahvista verkkotunnuksesi",
+      "verified": "Onnittelut, mukautettu verkkotunnuksesi on vahvistettu!",
+      "tryItOut": "Kokeile",
+      "defaultRecordName": "@ tai tyhjä",
+      "verifyButton": "Vahvista mukautettu verkkotunnus",
+      "vanityTitle": "Ilmainen näyttävä URL",
+      "vanityLabel": "Näyttävä URL",
+      "vanityCopied": "Näyttävä URL kopioitu leikepöydälle!"
+    },
+    "transfer": {
+      "title": "Siirrä yhteisö",
+      "selectNewOwner": "Valitse uusi omistaja",
+      "warning": "Oletko varma, että haluat siirtää yhteisösi? Et ole enää tämän yhteisön omistaja, ja saatat menettää oikeutesi",
+      "confirmInstruction": "Kirjoita {code} vahvistaaksesi siirron (tarkka kirjainkoko)",
+      "confirmLabel": "Vahvista siirto",
+      "cancel": "Peruuta",
+      "ok": "Ok",
+      "requestCreatedTitle": "Siirtopyyntö luotu",
+      "requestCreatedMsg": "Siirto ei ole vielä valmis! Sinulle on lähetetty sähköposti lisävahvistusta varten"
+    }
+  },
+  "portal": {
+    "title": "Sonoran Radio Portaali",
+    "subtitle": "Tervetuloa operatiiviseen keskuspaikkaan! Täällä voit muokata tilauksia Laskutusportaalissa, hallinnoida yhteisön asetuksia helppokäyttöisellä Konfiguraatiopaneelilla tai rekisteröidä upouuden palvelimen asennusvelhon avulla.",
+    "myCommunities": "Omat Yhteisöt",
+    "beginTitle": "Aloita Matkasi",
+    "billingPortal": "Tilaus & Laskutus",
+    "documentation": "Dokumentaatio",
+    "pendingAuth": "Odottaa Valtuutusta",
+    "needsTsAuth": "Tarvitsee TeamSpeak3-valtuutusta",
+    "needsMemberAuth": "Odottaa Hyväksyntää",
+    "upgradeServer": "Päivitä",
+    "leaveServer": "Poistu",
+    "discovery": "Löydä",
+    "discoveryGrowingRapidly": "Tämä yhteisö kasvaa nopeasti",
+    "discoveryHighTraffic": "Tällä yhteisöllä on korkea verkkoliikenne",
+    "discoveryActiveMembers": "Tällä yhteisöllä on eniten aktiivisia jäseniä",
+    "discoveryRecentlyBumped": "This community was recently bumped",
+    "joinACommunity": "Liity Sonoran Radion yhteisöön",
+    "needACommunity": "Tarvitseko uutta Sonoran Radion yhteisöä?",
+    "beginYourJourney": "Aloita Matkasi!"
+  },
+  "billing": {
+    "statuses": {
+      "active": "Aktiivinen",
+      "unpaid": "Maksamaton",
+      "incomplete": "Epätäydellinen",
+      "incomplete_expired": "Epätäydellinen Vanheneminen",
+      "past_due": "Erääntynyt",
+      "canceled": "Peruuttu"
+    },
+    "newSubDialog": {
+      "title": "Uusi Tilaus",
+      "chooseSub": "Valitse Tilaus",
+      "chooseSv": "Valitse Palvelin",
+      "plus": "Plus Suunnitelma ($14.99/kk)",
+      "pro": "Ammattisuunnitelma ($19.99/kk)",
+      "one": "Sonoran Yksi ($49.99/kk)",
+      "mostPop": "Suurin Suosio",
+      "oneLearnMore": "Lisätietoja Sonoran Yhdestä",
+      "noServer": "Ei Palvelinta",
+      "noServerDesc": "Tämä tilaus ei tule liittymään yhteisöön. Voit muuttaa sitä myöhemmin.",
+      "errCreate": "Tilauksen luomisessa tapahtui odottamaton virhe",
+      "expertInstallation": "Asiantuntija-asennus"
+    },
+    "changeSvDialog": {
+      "title": "Päivitä Tilaus",
+      "subtitle": "Valitse Palvelin",
+      "removeServer": "Poista Palvelin",
+      "errSave": "Tilauksen muuttaessa tallennuksessa tapahtui odottamaton virhe"
+    },
+    "confirmChangeSub": {
+      "title": "Vaihda Tilaus",
+      "remove": "Oletko varma, että haluat poistaa tämän palvelimen tilauksestasi?",
+      "transfer": "Oletko varma, että haluat siirtää tämän tilauksen toiselle palvelimelle?",
+      "set": "Oletko varma, että haluat asettaa tämän palvelimen tilauksellesi?",
+      "possibleDataLoss": "Jos siirretään tai poistetaan tilaus, tiedon menettäminen edelliseltä palvelimelta voi tapahtua."
+    },
+    "toPortal": "Takaisin Portaaliin",
+    "newSub": "Uusi Tilaus",
+    "compPlans": "Vertaa Suunnitelmia",
+    "modifySub": "Muokkaa Tilausta",
+    "chooseSub": "Valitse Tilaussuunnitelma",
+    "alreadyActiveSub": "Jo aktiivinen tilaus",
+    "isUnauthorized": "Tilauksia ei voida käyttää valtuuttamattomiin palvelimiin",
+    "noServerAssociated": "Ei palvelinta Liitetty",
+    "setServer": "Aseta Palvelin",
+    "changeServer": "Vaihda palvelinta",
+    "errCheck": "Tilauksen tarkistuksessa tapahtui odottamaton virhe"
+  },
+  "account": {
+    "tokenTitle": "Radio Sisäänkirjautumisesta Salainen",
+    "tokenDesc": "Kopioi tämä tunnus käyttääksesi FiveM-radioon sisäänkirjautumiseen!",
+    "tokenDescWarning": "Tämä koodi on SALAINEN eikä sitä tule jakaa kenenkään kanssa!",
+    "tokenInputLabel": "Sisäänkirjautumissalaisuus",
+    "tokenLoadBtn": "Klikkaa Ladata",
+    "tokenCopied": "Salaisuus on kopioitu leikepöydälle!",
+    "serversTitle": "Palvelimesi",
+    "serversDesc": "Täällä voit katsoa kaikkia Sonoran Radio -yhteisöjä, joita omistat tai hallitset",
+    "noServers": "Ei Palvelimia"
+  },
+  "pricing": {
+    "plans": {
+      "free": "Ilmainen",
+      "plus": "Plus",
+      "pro": "Ammattilainen"
+    },
+    "toBilling": "Takaisin Laskutukseen",
+    "planPricing": "Suunnitelmien Hinnoittelu",
+    "pricing": "Hinnoittelu",
+    "howToPurchase": "Miten Ostaa",
+    "description": "Sonoran Radion maksulliset tilaukset tarjoavat pääsyn edistyneisiin ominaisuuksiin, mukauttamismahdollisuuksiin, lisääntyneisiin rajoituksiin ja paljon muuta!",
+    "monthCostDescription": "Kuukausittaisen tilauspaketin hinta.",
+    "patrolChannels": "Partiokanavat",
+    "patrolChannelsDescription": "Sonoran Radion pluginin käytettävissä olevien TeamSpeak-kanavien lukumäärä.",
+    "unlimited": "Rajoittamaton",
+    "profileLimits": "Profiilirajoitukset",
+    "profileLimitsDescription": "Sallittujen profiilien lukumäärä.",
+    "statewideFrequencyLimits": "Valtionlaajuisen Taajuusrajoitukset",
+    "statewideFrequencyLimitsDescription": "Sallittujen valtionlaajuisten taajuuksien lukumäärä.",
+    "talkaroundFrequencies": "Talkaround Taajuudet",
+    "talkaroundFrequenciesDescription": "Talkaround-taajudet sallivat yksilöiden puhua radiosta radioon tornin sijasta.",
+    "talkoverProtection": "Puheenläpäisyn Suojaus",
+    "talkoverProtectionDescription": "Puheenläpäisyn suojaus sallii vain yhden henkilön puhua taajuudesta kerrallaan.",
+    "dispatchPanel": "Lähetyspaneeli",
+    "dispatchPanelDescription": "TeamSpeak-dialogi, joka antaa sinun muuttaa radiosi tai toisten radioten asetukset.",
+    "fivemRadio": "FiveM Käsiradio",
+    "fivemRadioDescription": "FiveM käsiradio antaa sinun muuttaa taajuuksiasi, skannauslistaa ja muita radioasetuksia",
+    "fivemTowers": "FiveM Fyysiset Tornit",
+    "fivemTowersDescription": "Tornit simuloivat vastaanottoa fyysiselle tornille matkan perusteella. Paikat ja alueet ovat mukautettavissa.",
+    "fivemTowerDestruction": "FiveM Tornin Tuhoaminen",
+    "fivemTowerDestructionDescription": "(Valinnainen) pelin kyky tuhota fyysiset tornit vahingoittamaan radiovastaanottoa.",
+    "onlyOnStatewide": "Vain sallittua valtionlaajuisilla taajuuksilla.",
+    "onlySelfFrequencies": "Vain sallittua muuttaa omia taajuuksia"
+  },
+  "upgradePromo": {
+    "goProToday": "Päivitä Pro-versioon Tänään",
+    "learnMore": "Lisätietoja"
+  },
+  "error404": {
+    "message": "Hups. Ei mitään täällä...",
+    "goHome": "Mene kotiin"
+  },
+  "loginLink": {
+    "enterCode": "Anna 4-numeroinen koodi..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Kuvake",
+      "color": "Väri",
+      "textColor": "Tekstin väri"
+    },
+    "colorLabel": "Väri",
+    "textColorLabel": "Tekstin väri"
+  },
+  "importExport": {
+    "title": "JSON tuonti/vienti",
+    "export": "Vie",
+    "download": "Lataa",
+    "import": "Tuo",
+    "placeholder": "Liitä JSON tähän",
+    "tooltip": "Tuo JSON-tiedosto"
+  },
+  "getStartedButton": {
+    "learnMore": "Lue lisää"
+  },
+  "fivemView": {
+    "loginWithCode": "Kirjaudu sisään koodilla",
+    "browserLoginInstruction": "Siirry selaimessasi osoitteeseen {link} kirjautuaksesi",
+    "refresh": "Päivitä",
+    "unlink": "Poista linkitys"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Hätäpuhelut (911)",
+      "noEmergencyCalls": "Ei hätäpuheluita!",
+      "noTransmissions": "Ei lähetyksiä löytynyt",
+      "playAudio": "Toista ääni",
+      "downloadFile": "Lataa tiedosto",
+      "redial": "Soita uudelleen {name}"
+    },
+    "peers": {
+      "kick": "Poista",
+      "clearPanic": "Tyhjennä paniikki",
+      "moveTo": "Siirrä kohteeseen",
+      "displayName": "Näyttönimi",
+      "volume": "Äänenvoimakkuus"
+    },
+    "settings": {
+      "rightClickToClear": "Oikealla napsautuksella tyhjennät"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Takaisin portaalille",
+    "leaveServer": "Poistu palvelimelta",
+    "switchToStandalone": "Vaihda itsenäiseen",
+    "deleteCommunity": "Poista yhteisö"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Management Paneeli",
+    "subtitle": "Vain tuleville miljonääreille",
+    "searchTitle": "Hae yhteisöä"
+  }
+}

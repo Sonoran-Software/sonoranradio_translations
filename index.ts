@@ -1,5 +1,39 @@
+import ar from './ar.json';
+import cs from './cs.json';
+import da from './da.json';
+import de from './de.json';
 import enUS from './en-us.json';
+import esEs from './es-es.json';
+import fi from './fi.json';
+import fr from './fr.json';
+import it from './it.json';
+import ja from './ja.json';
+import ko from './ko.json';
+import nl from './nl.json';
+import pl from './pl.json';
+import pt from './pt.json';
+import ru from './ru.json';
+import sv from './sv.json';
+import tr from './tr.json';
+import zh from './zh.json';
 
 export default {
-  'en-US': enUS, // English (US)
+  ar: ar, // Arabic
+  cs: cs, // Czech
+  da: da, // Danish
+  de: de, // German
+  'en-US': enUS, // English
+  'es-ES': esEs, // Spanish
+  fi: fi, // Finnish
+  fr: fr, // French
+  it: it, // Italian
+  ja: ja, // Japanese
+  ko: ko, // Korean
+  nl: nl, // Dutch
+  pl: pl, // Polish
+  pt: pt, // Portuguese
+  ru: ru, // Russian
+  sv: sv, // Swedish
+  tr: tr, // Turkish
+  zh: zh, // Chinese
 };

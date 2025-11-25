@@ -1,0 +1,794 @@
+{
+  "config": {
+    "displayName": "Englisch (US)"
+  },
+  "common": {
+    "plans": {
+      "plan": "Plan",
+      "free": "Kostenlos",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "language": "Sprache",
+    "portal": "Portal",
+    "search": "Suchen",
+    "account": "Konto",
+    "billing": "Abrechnung",
+    "management": "Verwaltung",
+    "logout": "Abmelden",
+    "signup": "Anmelden",
+    "login": "Einloggen",
+    "username": "Benutzername",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "learnMore": "Mehr erfahren",
+    "actions": "Aktionen",
+    "add": "Hinzufügen",
+    "limited": "Begrenzt",
+    "currently": "Derzeit",
+    "help": "Hilfe",
+    "select": "Auswählen",
+    "confirm": "Bestätigen",
+    "premium": "Premium",
+    "needsInteger": "Muss eine ganze Zahl sein",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "reenable": "Erneut aktivieren",
+    "only": "{0} nur",
+    "miscServer": "Server {id}",
+    "clipboard": "In die Zwischenablage kopiert!",
+    "communityIdField": "Community-ID",
+    "copy": "Kopieren",
+    "menu": "Menü",
+    "refresh": "Aktualisieren",
+    "unlink": "Verknüpfung aufheben",
+    "upload": "Hochladen",
+    "startToday": "Heute anfangen",
+    "notApplicable": "N/A"
+  },
+  "hotkeys": {
+    "clearHotkey": "Hotkey löschen",
+    "pressAKey": "Drücken Sie eine Taste",
+    "noKeySet": "Keine Taste gesetzt"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "Dispatch Panel",
+      "desc1": "Visualisieren Sie einfach, verwalten Sie Benutzer, spielen Sie Töne ab und mehr!",
+      "desc2": "Sonoran Radios Dispatch-UI ist überall im Web und auf Desktop für Windows und OSX verfügbar."
+    },
+    "Cloud_Configurations": {
+      "title": "Cloud-Konfigurationen",
+      "desc": "Das Anpassen Ihres Radios war noch nie einfacher, mit Live-Updates aus unserem einfach zu bedienenden Konfigurations-Panel."
+    },
+    "Custom_Voice_Effects": {
+      "title": "Benutzerdefinierte Stimmeneffekte",
+      "desc": "Passen Sie digitale und analoge Stimmeneffekte für Ihre Community an!"
+    },
+    "Customizable_SFX": {
+      "title": "Anpassbare SFX",
+      "desc": "Konfigurieren Sie Signalverlust in Tunneln, unterirdischen Orten und mehr!"
+    },
+    "ToneBoard": {
+      "title": "Tonbrett",
+      "desc1": "Laden Sie Dispatch-Töne hoch und passen Sie sie für Ihre Community an!",
+      "desc2": "Sonoran Radios Dispatch-UI ermöglicht es Ihnen, spezifische Kanäle und Gruppen zu spezifizieren, Töne zu wiederholen und mehr! Sie können sogar Töne auf In-Game-Lautsprechern abspielen!"
+    },
+    "Transmission_Logs": {
+      "title": "Übertragungsprotokolle",
+      "desc": "Sehen Sie sich Übertragungsprotokolle an und spielen Sie sie mit optionalen, KI-gestützten Texttranskriptionen ab!"
+    },
+    "Destructible_towers": {
+      "title": "Zerstörbare Türme",
+      "desc1": "Die physischen In-Game-Türme können von Kriminellen zerstört werden, was die Qualität der Radios in der Umgebung massiv beeinträchtigen wird.",
+      "desc2": "Mit drei verschiedenen In-Game-Modelltypen hebt Sonoran Radio das Eintauchen in die nächste Stufe!"
+    },
+    "Radio_Chattrer": {
+      "title": "Hören Sie nahegelegene Funkgeräusche",
+      "desc": "Bei einer Verkehrskontrolle angehalten? Sie hören das echte Funkgeräusch, wenn ein Beamter in der Nähe ein aktives Radio hat!"
+    },
+    "VehicleDisplay": {
+      "title": "Fahrzeuginformationen",
+      "desc": "Unser 3D-Fahrzeugradiodisplay spiegelt Ihre Kanalinformationen, den übertragenden Benutzer und den Panikstatus in Echtzeit wider und bringt neue Ebenen der Immersion!"
+    },
+    "inGameToneBoard": {
+      "title": "Tonbrett zu In-Game-Lautsprechern",
+      "desc": "Sonoran Radios Dispatch-UI ermöglicht es Ihnen, spezifische Kanäle und Gruppen zu spezifizieren, Töne zu wiederholen und mehr! Sie können sogar Töne auf In-Game-Lautsprechern abspielen!"
+    },
+    "EmergencyCalls": {
+      "title": "Notrufe im Spiel",
+      "desc": "Tätigen Sie Notrufe an die Zentrale, alles im Spiel!"
+    },
+    "Scanners": {
+      "title": "Scanner",
+      "desc": "In-Game-Scanner ermöglichen es Ihnen und anderen in der Nähe, den Funkverkehr abzuhören!"
+    },
+    "BackgroundAudio": {
+      "title": "Hintergrundaudio",
+      "desc": "Antworten Sie auf einen Anruf? Sonoran Radio injiziert in Echtzeit Sirenen, Schüsse und mehr direkt in Ihren Mikrofon-Feed für das ultimative Eintauchen."
+    },
+    "tunnelSignalLoss": {
+      "title": "Signalverlust im Tunnel",
+      "desc": "Konfigurieren Sie Signalverlust in Tunneln, unterirdischen Orten und mehr!"
+    },
+    "MultipleRadioOperations": {
+      "title": "Mehrfache Radiooptionen",
+      "desc1": "Sonoran Radio bietet mehrere In-Game-Benutzeroberflächen, sodass Sie zu Fuß, im Fahrzeug und mehr verbunden bleiben können!",
+      "desc2": "Wählen Sie eine unserer Radio-Stiloptionen oder fügen Sie sogar Ihre eigene hinzu!"
+    },
+    "Sonoran_CAD": {
+      "title": "Sonoran CAD",
+      "desc": "Dieses Plugin ermöglicht es Sonoran Radio-Kunden, das Radio mit dem Sonoran CAD zu verbinden. Sehen Sie Ihren Einheitsstatus, Dispositionsinformationen, schalten Sie Panik ein und mehr!"
+    },
+    "Sonoran_CMS": {
+      "title": "Sonoran CMS",
+      "desc": "Automatisieren Sie Sonoran Radio-Berechtigungen mit Sonoran CMS!"
+    },
+    "bigDaddyRadio": {
+      "title": "Big-Daddy-Radio-Animationen",
+      "desc": "Sonoran Radio ist eine Partnerschaft mit Big Daddy Scripts eingegangen, um eine KOSTENLOSE Kopie ihres Radioanimationsskripts anzubieten!"
+    },
+    "mobileCommandCenter": {
+      "title": "Mobiles Befehlszentrum",
+      "desc": "Sonorans mobiles Befehlszentrum ermöglicht es Ihnen wie nie zuvor, das Kommando zu übernehmen. Dieses einzigartige Nutzfahrzeug eröffnet endlose Möglichkeiten!"
+    },
+    "Power_Grid": {
+      "title": "Stromnetz",
+      "desc": "Hacken Sie sich in das integrierte Stromnetz ein, um Sonoran Radio-Türme in Ihrer Gegend zu deaktivieren! Erfahren Sie mehr über dieses Skript!"
+    },
+    "intro": "Hebe deine Gaming-Kommunikation mit Sonoran Radio auf das nächste Level. Chatte in realistischen Radio-Kanälen, passe deine Stimmeneffekte an und verbinde dich mühelos mit In-Game-Features für ein wahrhaft immersives Erlebnis."
+  },
+  "splash": {
+    "introducing": "Vorstellung",
+    "marketExplain": "Im Bereich der öffentlichen Sicherheit sind Einfachheit und Zuverlässigkeit entscheidend bei der Wahl eines Kommunikationssystems. Sonoran Radio bietet das umfassendste und all-inclusive Kommunikationssystem auf dem heutigen Markt. Dieses neue Radiosystem verfügt über Spitzentechnologie, die sowohl Simplex- als auch Duplex-Konfigurationen, cloud-basierte Programmierung und ein skalierbares, auf Wiederholern basiertes Funknetzwerk bietet.",
+    "feats": "Komplett mit interpersoneller Textnachrichtenübertragung und Sonoran CAD-Integration stellt Sonoran Radio voll ausgestattete Kommunikationsgeräte direkt in die Hände Ihrer In-Game-Personen und Disponenten. Probieren Sie es noch heute kostenlos aus!",
+    "getStarted": "Starten Sie noch heute",
+    "toPortal": "Gehe zum Portal",
+    "learnMore": "Mehr erfahren"
+  },
+  "misc": {
+    "welcome": "Willkommen",
+    "welcomeTo": "Willkommen bei Sonoran Radio!",
+    "learnMoreAboutRadio": "Erfahren Sie mehr darüber, wie Sonoran Radio Ihr Rollenspiel revolutionieren kann!"
+  },
+  "errors": {
+    "common": {
+      "enterPassword": "Bitte geben Sie ein Passwort ein.",
+      "enterEmail": "Bitte geben Sie Ihre E-Mail-Adresse ein."
+    },
+    "misc": {
+      "noLocalStorageSupport": "Ihr Browser unterstützt keinen lokalen Speicher oder er ist möglicherweise deaktiviert."
+    },
+    "signup": {
+      "passwordNoUppercase": "Das Passwort enthält keine Großbuchstaben",
+      "passwordNoNumber": "Das Passwort enthält keine Zahl",
+      "passwordNoSymbol": "Das Passwort enthält kein Symbol ({'!@#$%^&*'})",
+      "invalidPassword": "Ungültiges Passwort",
+      "passwordNotMoreThan": "Das Passwort ist nicht länger als 6 Zeichen",
+      "passwordsDontMatch": "Passwörter stimmen nicht überein.",
+      "noUsername": "Kein Benutzername angegeben.",
+      "noEmail": "Keine E-Mail angegeben.",
+      "noPassword": "Kein Passwort angegeben.",
+      "usernameNotLongEnough": "Der Benutzername ist nicht länger als 4 Zeichen.",
+      "usernameTooLong": "Der Benutzername ist zu lang.",
+      "invalidEmail": "Die angegebene E-Mail-Adresse ist keine gültige E-Mail-Adresse, bitte verwenden Sie eine andere E-Mail-Adresse.",
+      "usernameInvalidCharacter": "Der Benutzername enthält ein ungültiges Zeichen."
+    }
+  },
+  "login": {
+    "loginWithSonoran": "Einloggen mit Sonoran",
+    "createAccount": "Konto erstellen",
+    "forgotPassword": "Passwort vergessen",
+    "forgotPasswordDesc": "Haben Sie Ihr Sonoran-Konto-Passwort vergessen? Geben Sie unten Ihre E-Mail ein, um Ihre Anmeldedaten zurückzusetzen."
+  },
+  "signup": {
+    "emailPreferencesDesc": "Senden Sie mir wichtige Ankündigungen, Updates und Werbeaktionen.",
+    "verifyPassword": "Passwort bestätigen",
+    "checkEmail": "Überprüfen Sie Ihre E-Mail und verifizieren Sie Ihr Konto.",
+    "checkSpam": "Vergewissern Sie sich, dass Sie Ihren Spam-Ordner überprüfen, wenn Sie die E-Mail nicht finden können."
+  },
+  "serverCommon": {
+    "nicknameInput": "Spitzname",
+    "nicknameInputDesc": "Legen Sie einen benutzerdefinierten Spitznamen für Ihre Community fest, den Sie und Ihre Mitglieder sehen werden",
+    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInputDesc": "Geben Sie hier die UID Ihres TeamSpeak 3-Servers ein"
+  },
+  "registerServer": {
+    "registerATSServer": "Registrieren Sie einen TeamSpeak-Server",
+    "registerATSServerDesc": "Registrieren Sie Ihren TeamSpeak-Server, um Ihrem Server die Verwendung des Sonoran Radio TeamSpeak-Plugins zu ermöglichen.",
+    "registerAStandServer": "Registriere eine Community",
+    "registerAStandServerDesc": "Registrieren Sie Ihre Community, um Sonoran Radio zu verwenden.",
+    "submit": "Server registrieren",
+    "errExists": "Die angegebene TeamSpeak-Server-UID existiert bereits auf einem verifizierten Server, bitte verwenden Sie eine andere TS-Server-UID",
+    "errUnknown": "Ein Fehler ist aufgetreten, während versucht wurde, Serverinformationen zu erhalten, bitte versuchen Sie es später erneut."
+  },
+  "radio": {
+    "toneBoard": {
+      "broadcastTo": "Übertragen an",
+      "noTones": "Keine Töne",
+      "seconds": "Sekunden",
+      "count": "Zählen",
+      "newTone": "Neuer Ton",
+      "title": "Tonbrett",
+      "subtitle": "Passen Sie Dispatch-Töne für Ihre Community an",
+      "repeat": "Wiederholen",
+      "stack": "Stapeln",
+      "aiTts": "KI-Text-zu-Sprache",
+      "audioMode": "Audiomodus",
+      "aiMode": "KI-Modus",
+      "generate": "Erzeugen",
+      "preview": "Vorschau",
+      "voices": "Stimmen",
+      "toneLabel": "Tonetikett",
+      "speed": "Geschwindigkeit",
+      "recording": "Aufnahme",
+      "inGameSpeaker": "In-Game Lautsprecher",
+      "inGameSpeakerGroup": "In-Game Lautsprechergruppe"
+    },
+    "channelDialog": {
+      "channelTitle": "Kanal ändern",
+      "scanTitle": "Scannen Liste"
+    },
+    "settingsDialog": {
+      "title": "Einstellungen",
+      "audioTab": "Audio",
+      "fivemTab": "FiveM",
+      "hotkeysTab": "Hotkeys",
+      "sfxTab": "SFX",
+      "troubleHearingInGame": "Probleme beim Hören im Spiel?",
+      "volume": "Lautstärke",
+      "sfxVolume": "SFX-Lautstärke",
+      "automaticGainControlEnabled": "Automatische Verstärkungsregelung aktiviert",
+      "automaticGainControlDisabled": "Automatische Verstärkungsregelung deaktiviert",
+      "changingOutputsUnsupported": "Ihr Gerät unterstützt keine Änderung der Audioausgänge",
+      "volumeHotkeyChange": "Lautstärke-Hotkey ändern",
+      "pttOffDelay": "PTT-Off-Verzögerung",
+      "resetPeerVolumes": "Peer-Lautstärken zurücksetzen",
+      "resetSettings": "Einstellungen zurücksetzen",
+      "macosPermWarning": "Ihr Gerät benötigt möglicherweise zusätzliche Berechtigungen: {link}",
+      "macosPermWarningLink": "Erfahren Sie, wie Sie Berechtigungen erteilen",
+      "webHotkeyWarning": "Hotkeys funktionieren nur, wenn das Browserfenster fokussiert ist. {link} für globale Hotkeys",
+      "webHotkeyWarningLink": "Laden Sie die Desktop App herunter",
+      "moveResize": "Verschieben/Größe ändern",
+      "unlink": "Entlinken",
+      "toggleBackgroundAudio": "Hintergrundaudio",
+      "volumeChangeSirens": "Lautstärkeänderung mit Sirenen",
+      "escapeMode": "Escape-Modus",
+      "escapeModeKeep": "Radio sichtbar halten",
+      "escapeModeKeepTooltip": "Das Radio bleibt bei ESC sichtbar",
+      "escapeModeHide": "Radio ausblenden",
+      "escapeModeHideTooltip": "Das Radio schließt sich bei ESC",
+      "escapeModeXmit": "SEND (PTT)",
+      "escapeModeXmitTooltip": "Das Radio schließt sich bei ESC, ist aber beim Übertragen sichtbar",
+      "selectRadioFrame": "Radio-Rahmen",
+      "myPttSfx": "Mein PTT-SFX",
+      "othersPttSfx": "Andere PTT-SFX",
+      "channelTts": "Kanal-TTS",
+      "hearScannedWhileXmit": "Gescannte hören während der Übertragung",
+      "keyupSfx": "Aufwärts-SFX",
+      "keydownSfx": "Abwärts-SFX"
+    },
+    "connect": "Verbinden",
+    "selectServer": "Server auswählen",
+    "microphonePTT": "Mikrofon PTT",
+    "openInNewWindow": "In neuem Fenster öffnen",
+    "backToPortal": "Zurück zum Portal",
+    "recvFreq": "EMPF: {0}MHz",
+    "xmitFreq": "SEND {0}MHz",
+    "stopXmit": "SEND stoppen",
+    "multiXmit": "STRG + Klick Mehrfach-SEND",
+    "muteScan": "Stummschalten {0}",
+    "listenScan": "Hören Sie {0}",
+    "setHotkeyFor": "Hotkey setzen für {0}",
+    "hiddenChannel": "Versteckter Kanal (sichtbar für Sie)",
+    "configureChannel": "Konfigurieren {0}",
+    "addNewChannel": "Neuen Kanal hinzufügen",
+    "showChannelIds": "Kanal-IDs anzeigen",
+    "channelList": "Kanalliste",
+    "scanList": "Scanliste"
+  },
+  "authMember": {
+    "title": "Sie warten auf Genehmigung",
+    "subtitle": "Bevor Sie Sonoran Radio für {serverName} verwenden können, müssen Sie vom Serverbesitzer oder Community-Administrator genehmigt werden. Bitte warten Sie auf die Genehmigung.",
+    "subtitleShort": "Bevor Sie Sonoran Radio in dieser Community verwenden, müssen Sie vom Community-Personal genehmigt werden",
+    "leaveMsg": "Möchten Sie diese Sonoran Radio-Community wirklich verlassen?",
+    "errLeave": "Ein unerwarteter Fehler ist aufgetreten, während Sie die Community verlassen."
+  },
+  "authServer": {
+    "title": "Authentifizieren Sie Ihren TeamSpeak-Server",
+    "subtitle": "Authentifizieren Sie Ihren TeamSpeak-Server durch einen einfachen Authentifizierungsprozess unter Verwendung des Sonoran Radio Plugins und des Web Panels. Während dieses Authentifizierungsprozesses wird Personen in Ihrem TeamSpeak-Server, die über ausreichende Berechtigungen verfügen, ein Popup-Fenster angezeigt, in dem Ihr anstehende Autorisierung angezeigt wird. Bitte geben Sie den Autorisierungscode unten in das TeamSpeak-Popup-Fenster ein, um die Autorisierung zu erteilen. Wenn Sie Ihre TeamSpeak-Server-UID versehentlich falsch gesetzt haben, können Sie diese unten ändern. Wenn Sie das TeamSpeak-Popup von Sonoran Radio nicht sehen, überprüfen Sie bitte, dass Sie die richtige UID eingegeben haben und mindestens v0.2.0 des Plugins installiert haben. Andernfalls kontaktieren Sie den Support.",
+    "authCodeTitle": "Autorisierungscode",
+    "clickToCopy": "Zum Kopieren klicken",
+    "copiedCode": "Server-Authentifizierungscode in die Zwischenablage kopiert",
+    "submit": "Server speichern",
+    "errSave": "Ein unerwarteter Fehler ist aufgetreten, während der Server gespeichert wurde.",
+    "errDelete": "Ein unerwarteter Fehler ist aufgetreten, während der Server gelöscht wurde."
+  },
+  "manageServer": {
+    "settings": {
+      "title": "Standardeinstellungen",
+      "subtitle": "Konfigurieren Sie die Standardeinstellungen für Ihre Community. Benutzer können ihre eigenen Vorlieben personalisieren, aber diese dienen als Ausgangsstandard.",
+      "agc": "Automatische Verstärkungsregelung",
+      "agcDesc": "Passen Sie die Eingangslautstärke des Mikrofons automatisch an, um die Lautstärke aller Benutzer zu egalisieren.",
+      "hearPttSfx": "PTT-SFX abspielen",
+      "hearPttSfxDesc": "Spielen Sie den PTT-Sound ab, wenn Sie Ihr Mikrofon aufdrehen.",
+      "hearOtherPttSfx": "PTT-SFX anderer abspielen",
+      "hearOtherPttSfxDesc": "Spielen Sie den PTT-Sound ab, wenn andere Benutzer ihr Mikrofon aufdrehen.",
+      "muteScannedWhileTransmitting": "Gescannte beim Übertragen stummschalten",
+      "muteScannedWhileTransmittingDesc": "Gescannte Kanäle stummschalten, während auf einem Kanal gesendet wird.",
+      "sirenVolume": "Sirenenlautstärke",
+      "sirenVolumeDesc": "Wenn im Spiel die Sirene aktiviert ist, zur Lautstärke hinzufügen/subtrahieren.",
+      "tts": "Kanaltext-zu-Sprache",
+      "ttsDesc": "Spielen einer Text-zu-Sprache-Sprachausgabe des Kanalnamens, wenn Sie die Kanäle wechseln.",
+      "keyUpDelay": "Hoch Key Verzögerung",
+      "keyUpDelayDesc": "Verzögerung nach dem Beenden einer Übertragung, bevor das Mikrofon freigegeben wird.",
+      "volChange": "Lautstärkeänderung",
+      "volChangeDesc": "Lautstärkeänderung % bei Verwendung der Lautstärke-Hotkeys hoch/runter."
+    },
+    "importSAPR": {
+      "btn": "SAPR-Konfiguration importieren",
+      "jsonTitle": "SAPR-Konfiguration importieren",
+      "jsonMsg": "Fügen Sie hier Ihre SAPR-Konfigurations-JSON ein",
+      "confirmMsg": "Sie sind dabei, {n} Kanäle zu importieren. Sind Sie sicher?"
+    },
+    "patrolChannels": {
+      "range": {
+        "short": "Kurze Reichweite",
+        "medium": "Mittlere Reichweite",
+        "long": "Lange Reichweite"
+      },
+      "title": "Patrouillenkanäle",
+      "subtitle": "Patrouillenkanäle sind die TeamSpeak-Kanäle, die für den Einsatz der Sonoran Radio TeamSpeak-Plugin-Funktionalität zugelassen sind.",
+      "nickname": "Spitzname",
+      "channelUid": "TS-Kanal-ID",
+      "allowTalkover": "Talkover erlauben",
+      "talkAroundRange": "Talk Around Bereich",
+      "addChannel": "Einen Patrouillenkanal hinzufügen",
+      "explainDisabled": "Patrouillenkanal ist aufgrund eines Downgrades auf einen niedrigeren Plan deaktiviert, Sie müssen andere Patrouillenkanäle entfernen, bevor Sie diesen erneut aktivieren können.",
+      "explainDisabledCanReenable": "Patrouillenkanal ist aufgrund eines Downgrades auf einen niedrigeren Plan deaktiviert, aber Sie können im Dropdown-Menü erneut aktivieren!",
+      "dialogAddTitle": "Patrouillenkanal hinzufügen",
+      "dialogEditTitle": "Patrouillenkanal bearbeiten",
+      "dialogSubtitle": "Ein Patrouillenkanal ist der TeamSpeak-Kanal, der zugelassen ist, um die Sonoran Radio TeamSpeak-Plugin-Funktionalität zu verwenden. Hier können Sie die TeamSpeak-Kanal-ID einstellen und festlegen, ob der 'Patrouillenkanal' Talkover erlauben sollte.",
+      "channelUidInput": "TS-Kanal-ID - Erforderlich",
+      "customizeTalkaround": "Talkaround-Bereich anpassen",
+      "legacyChannelUidWarn": "Diese Form der Kanal-ID ist veraltet. Bitte aktualisieren Sie auf die neueste Version von Sonoran Radio TS und aktualisieren Sie auf neue numerische IDs",
+      "errSave": "Ein unerwarteter Fehler ist aufgetreten, während der Patrouillenkanal gespeichert wurde.",
+      "errReenable": "Ein unerwarteter Fehler ist aufgetreten, während der Patrouillenkanal aktiviert wurde.",
+      "errDelete": "Ein unerwarteter Fehler ist aufgetreten, während der Patrouillenkanal gelöscht wurde."
+    },
+    "profiles": {
+      "title": "Profile",
+      "titleStandalone": "Kanäle",
+      "subtitle": "Profile sind die voreingestellten Frequenzeinstellungen, die den einfachen Übergang zwischen spezifischen Frequenzen ermöglichen, ohne dass jede Frequenz manuell eingegeben werden muss.",
+      "addProfile": "Ein Profil hinzufügen",
+      "addProfileStandalone": "Einen Kanal hinzufügen",
+      "reorder": "Profile neu ordnen",
+      "reorderStandalone": "Kanäle neu ordnen",
+      "displayName": "Anzeigename",
+      "recvFreq": "Empfangsfrequenz",
+      "xmitFreq": "Sendefrequenz",
+      "repeatsXmit": "Sendefrequenz wiederholt",
+      "pronounce": "Aussprache",
+      "preventTalkover": "Talkover verhindern",
+      "talkoverPrevented": "Talkover verhindert",
+      "talkoverAllowed": "Talkover erlaubt",
+      "setAsDefault": "Als Standardprofil festlegen",
+      "defaultProfile": "Standardprofil",
+      "explainDisabled": "Das Profil ist aufgrund eines Downgrades auf einen niedrigeren Plan deaktiviert, Sie müssen andere Profile entfernen, bevor Sie dieses erneut aktivieren können.",
+      "explainDisabledCanReenable": "Das Profil ist aufgrund eines Downgrades auf einen niedrigeren Plan deaktiviert, aber Sie können dieses Profil im Dropdown-Menü erneut aktivieren!",
+      "dialogAddTitle": "Profil hinzufügen",
+      "dialogEditTitle": "Profil bearbeiten",
+      "dialogAddTitleStandalone": "Kanal hinzufügen",
+      "dialogEditTitleStandalone": "Kanal bearbeiten",
+      "dialogSubtitle": "Ein Profil ist eine voreingestellte Frequenzeinstellung, die den einfachen Übergang zwischen spezifischen Frequenzen ermöglicht, ohne dass jede Frequenz manuell eingegeben werden muss. Hier legen Sie den Anzeigenamen (optional), die Empfangsfrequenz (erforderlich), die Sendefrequenz (optional) und ob die Sendefrequenz wiederholt wird, fest.",
+      "dialogSubtitleStandalone": "",
+      "displayNameInput": "Anzeigename - Erforderlich",
+      "errSave": "Ein unerwarteter Fehler ist aufgetreten, während das Profil gespeichert wurde.",
+      "errDelete": "Ein unerwarteter Fehler ist aufgetreten, während das Profil gelöscht wurde.",
+      "errSetDefault": "Ein unerwarteter Fehler ist aufgetreten, während das Standardprofil festgelegt wurde.",
+      "errReenable": "Ein unerwarteter Fehler ist aufgetreten, während das Profil wieder aktiviert wurde.",
+      "voiceEffect": "Stimmeffekt",
+      "visibilityOptions": {
+        "public": "Öffentlich",
+        "private": "Privat"
+      },
+      "basicMode": "Einfach",
+      "advancedMode": "Erweitert",
+      "shareWith": "Teilen mit",
+      "sharedTooltip": "Gemeinsame Kanäle spiegeln den Zugriff und die Frequenzen eines anderen verknüpften Kanals wider. Eine Verbindung zu einem der beiden verschafft Zugang zum selben Kommunikationsstrom.",
+      "standardTooltip": "Standardkanäle operieren unabhängig mit ihren eigenen Frequenzen und Zugriffsberechtigungen. Verwenden Sie diesen Modus, wenn der Kanal eigenständig sein soll.",
+      "visibility": "Sichtbarkeit",
+      "recvFreqTooltip": "Frequenz, um Übertragungen zu empfangen. Dies dient nur zur Ästhetik in der Radio-UI.",
+      "xmitFreqTooltip": "Frequenz, um zu senden. Dies dient nur zur Ästhetik in der Radio-UI.",
+      "editGroup": "Gruppe bearbeiten",
+      "deleteGroup": "Gruppe löschen",
+      "ttsPreview": "Text-zu-Sprache Vorschau",
+      "ttsFailed": "Text-zu-Sprache-Erstellung fehlgeschlagen oder existiert nicht.\nSpeichern Sie den Kanal erneut, um zu generieren.",
+      "privateChannel": "Privatkanal",
+      "pronounceTooltip": "Erweiterte Aussprache für den KI-Kanal Text-zu-Sprache.",
+      "addGroup": "Gruppe hinzufügen",
+      "groupName": "Gruppenname"
+    },
+    "micClick": {
+      "header": "SFX-Anpassung",
+      "subheader": "Passen Sie die Soundeffekte für Ihre gesamte Community an.",
+      "keyUpSfx": "Hoch SFX",
+      "keyDownSfx": "Abwärts SFX",
+      "talkoverSfx": "Talkover SFX",
+      "overrideSuccessSfx": "Talkover-Override-Erfolg SFX",
+      "emergencyCallSfx": "Notruf SFX",
+      "panicSfx": "Panikknopf SFX",
+      "sfxVolUp": "Lauter (Hotkey) SFX",
+      "sfxVolDown": "Leiser (Hotkey) SFX",
+      "simulatedAudio": "In-Game Hintergrundaudio SFX",
+      "simulatedAudioSubtitle": "Die Hintergrundaudioinjektion mischt In-Game-Sound—wie Sirenen, Hubschrauber-Rotoren, Bootsmotoren und Schüsse—in Ihre Mikrofon-Ausgabe ein.",
+      "sfxGameSiren": "In-Game Sirenen SFX",
+      "sfxGameBoatEngine": "In-Game Bootsmotor SFX",
+      "sfxGameHelicopterRotors": "In-Game Hubschrauberrotoren SFX",
+      "sfxGamePistol": "In-Game Pistole SFX",
+      "sfxGamePistolSilenced": "In-Game schallgedämpfte Pistole SFX",
+      "sfxGameRifle": "In-Game Gewehr SFX",
+      "sfxGameRifleSilenced": "In-Game schallgedämpftes Gewehr SFX"
+    },
+    "voiceCustomization": {
+      "header": "Stimmenanpassung",
+      "subheader": "Passen Sie die Funkstimmeffekte für Ihre Community an.",
+      "input": "Eingang",
+      "useForEmergency": "Für Notrufe verwenden",
+      "name": "Name",
+      "signalStrength": "Signalstärke",
+      "vocoderPreviewWarning": "Vocoder-Audiovorschau ist noch nicht verfügbar."
+    },
+    "perms": {
+      "types": {
+        "dispatch::open": {
+          "name": "Dispatch-UI öffnen",
+          "desc": "Diese Berechtigung gewährt die Fähigkeit, die Dispatch-UI zu öffnen"
+        },
+        "dispatch::ext_commands": {
+          "name": "Kanalbenutzer ändern",
+          "desc": "Diese Berechtigung gewährt die Fähigkeit, über die Dispatch-UI Frequenzen und Spitznamen von Kanalbenutzern zu ändern"
+        },
+        "tg::talkover_override": {
+          "name": "Talkover-Schutz-Override",
+          "desc": "Diese Berechtigung gewährt die Fähigkeit, Ihre PTT-Taste doppelt zu klicken, um über einen anderen Client zu sprechen"
+        },
+        "menu::radio_lock": {
+          "name": "Funk Sperre",
+          "desc": "Diese Berechtigung erlaubt es Ihnen, die Übertragung einer anderen Person anzuhalten, wenn sie bereits sendet"
+        },
+        "menu::radio_attn": {
+          "name": "Funk Aufmerksamkeit",
+          "desc": "Diese Berechtigung gewährt Ihnen die Fähigkeit, einen Ton auf dem Funkgerät eines anderen Benutzers abzuspielen, um seine Aufmerksamkeit zu erregen"
+        }
+      },
+      "title": "Berechtigungen",
+      "subtitle": "Berechtigungen ermöglichen es Ihnen, zu ändern, wie Benutzer mit dem Sonoran Radio Plugin interagieren und womit sie interagieren können.",
+      "addPerm": "Eine Berechtigung hinzufügen",
+      "nickname": "Spitzname",
+      "permName": "Berechtigungsname",
+      "serverGroup": "Servergruppe",
+      "dialogTitle": "Berechtigung hinzufügen",
+      "dialogSubtitle": "Gibt einer Servergruppe eine bestimmte Berechtigung im Sonoran Radio. Um mehr über Berechtigungen und die Beschaffung von Servergruppen zu erfahren, lesen Sie bitte die Sonoran Radio-Dokumentation.",
+      "serverGroupInput": "Servergruppe - Erforderlich",
+      "permInput": "Berechtigung",
+      "explainPrefix": "Was macht das?",
+      "invalidGroupId": "Ungültige Servergruppe, sie muss eine Zahl sein.",
+      "errSave": "Ein unerwarteter Fehler ist aufgetreten, während die Berechtigung gespeichert wurde.",
+      "errDelete": "Ein unerwarteter Fehler ist aufgetreten, während die Berechtigung gelöscht wurde."
+    },
+    "myself": {
+      "title": "Ihre Community-Informationen",
+      "subtitle": "Sehen Sie sich Ihre Community-Einstellungen an und bearbeiten Sie sie"
+    },
+    "members": {
+      "title": "Community-Mitglieder",
+      "subtitle": "Verwalten Sie Benutzerberechtigungen und Zugriffe in Ihrer Community.",
+      "username": "Benutzername",
+      "displayName": "Anzeigenname",
+      "traits": "Eigenschaften",
+      "actions": "Aktionen",
+      "owner": "Besitzer",
+      "subOwner": "Abonnent",
+      "remove": "Entfernen",
+      "explainDisabled": "Nur Serverbesitzer können Manager hinzufügen oder ändern",
+      "removeWarn": "Warnung",
+      "removeWarnSubHolderMsg": "Das Entfernen des Abonnenten wird dieses Server auf kostenlos umstellen! Sind Sie sicher, dass Sie fortfahren möchten?",
+      "removeWarnSelfMsg": "Sind Sie sicher, dass Sie sich von diesem Server entfernen möchten? Sie verlieren den Zugriff und der Serverbesitzer muss Sie wieder hinzufügen.",
+      "errAddInvalidAccount": "Der angegebene Benutzername existiert nicht",
+      "errAddUnknown": "Ein unbekannter Fehler ist aufgetreten, während der Manager hinzugefügt wurde",
+      "errRemoveUnknown": "Ein unbekannter Fehler ist aufgetreten, während der Manager entfernt wurde",
+      "permissionsBtn": "Berechtigungen",
+      "approveBtn": "Genehmigen",
+      "kickBtn": "Entfernen",
+      "filterAll": "Alle",
+      "filterPending": "Ausstehend",
+      "search": "Suchen",
+      "pending": "Ausstehend",
+      "paysSubscription": "Abonnement zahlt",
+      "setDisplayName": "Anzeigenamen festlegen",
+      "editMemberPerms": "Mitgliederrechte bearbeiten",
+      "ownerHasAllPerms": "Der Community-Besitzer hat alle Berechtigungen",
+      "privateChannels": "Private Kanäle",
+      "selectPrivateChannels": "Wählen Sie die privaten Kanäle aus, die der Benutzer betreten darf"
+    },
+    "ai": {
+      "services": {
+        "0": "Übertragungsprotokoll STT",
+        "1": "Tongruppe STT"
+      },
+      "title": "KI API-Schlüssel",
+      "addKey": "KI-Schlüssel hinzufügen"
+    },
+    "admin": {
+      "communityApiKeyField": "Community-API-Schlüssel",
+      "updateApiKey": "API-Schlüssel aktualisieren",
+      "apiInfoTitle": "API-Informationen",
+      "apiInfoHint": "Geben Sie dies Ihren Mitgliedern, wenn Sie sie zur Community einladen"
+    },
+    "guidesLink": "Sonoran Radio Informationen & Anleitungen",
+    "toPortal": "Zurück zum Portal",
+    "saveServer": "Server speichern",
+    "unauthorizeServer": "Server nicht autorisieren",
+    "deleteServer": "Community löschen",
+    "transferServer": "Community übertragen",
+    "dispatchTab": "Dispatch",
+    "membersTab": "Mitglieder",
+    "customizeTab": "Anpassen",
+    "adminTab": "Administration",
+    "saveInfo": "Serverinformationen speichern",
+    "explainOwnerOnly": "Nur der Besitzer kann diese Einstellung ändern",
+    "noPermPage": "Sie haben keine Berechtigung, diese Seite zu sehen",
+    "unauthorizeMsg": "Sind Sie sicher, dass Sie diese Konfiguration unauthorisieren möchten?",
+    "deleteMsg": "Sind Sie sicher, dass Sie diese Konfiguration löschen möchten? Dies führt zu einem unwiderruflichen Datenverlust.",
+    "unauthorizeSuccess": "Ihr Server wurde erfolgreich unauthorisiert",
+    "deleteSuccess": "Ihr Server wurde erfolgreich gelöscht",
+    "errServerCheck": "Ein unerwarteter Fehler ist aufgetreten, während Ihr Server überprüft wurde.",
+    "errUidTaken": "Die TeamSpeak-Server-UID wird bereits von einem anderen autorisierten Server verwendet.",
+    "errSaveInfo": "Ein unerwarteter Fehler ist aufgetreten, während Ihre Serverinformationen gespeichert wurden.",
+    "errImport": "Ein unerwarteter Fehler ist aufgetreten, während Ihre SAPR-Konfiguration importiert wurde.",
+    "errImportNotFound": "Es wurde keine SAPR-Konfiguration für Ihre TeamSpeak-UID gefunden.",
+    "errUnauthorize": "Ein unerwarteter Fehler ist aufgetreten, während Ihr Server nicht autorisiert wurde.",
+    "customizeMenu": {
+      "info": "Info",
+      "patrolChannels": "Patrouillenkanäle",
+      "channelsGroups": "Kanäle & Gruppen",
+      "profiles": "Profile",
+      "permissions": "Berechtigungen",
+      "voiceCustomization": "Stimmenanpassung",
+      "sfxCustomization": "SFX-Anpassung",
+      "toneBoard": "Tonboard",
+      "fivemIntegration": "FiveM-Integration",
+      "defaultSettings": "Standardeinstellungen",
+      "ai": "KI",
+      "customDomain": "Benutzerdefinierte Domain"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Name",
+        "origin": "IP/Ursprung",
+        "pushUrl": "Push-URL",
+        "actions": "Aktionen"
+      },
+      "customCommunityIdHint": "Legen Sie Ihre benutzerdefinierte Community-ID fest, die für die benutzerdefinierte URL, die FiveM-Ressource und den Beitritt zur Community vorgesehen ist",
+      "communityServers": "Community-Server",
+      "communityServersSubtitle": "Server hinzufügen oder entfernen, um Ihre Funkkommunikation zu trennen",
+      "addServer": "Server hinzufügen"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Typ",
+        "name": "Name",
+        "content": "Inhalt"
+      },
+      "requiresPro": "Sie müssen ein Pro-Abonnement haben, um eine benutzerdefinierte Domain festzulegen",
+      "chooseName": "Wählen Sie Ihren Domainnamen",
+      "placeholder": "radio.beispiel.de",
+      "ownershipHint": "Sie müssen Ihren Domainnamen besitzen!",
+      "verifyTitle": "Bestätigen Sie Ihre Domain",
+      "verified": "Glückwunsch, Ihre benutzerdefinierte Domain ist verifiziert!",
+      "tryItOut": "Probieren Sie es aus",
+      "defaultRecordName": "@ oder leer",
+      "verifyButton": "Benutzerdefinierte Domain überprüfen",
+      "vanityTitle": "Kostenlose Vanity-URL",
+      "vanityLabel": "Vanity-URL",
+      "vanityCopied": "Vanity-URL in die Zwischenablage kopiert!"
+    },
+    "transfer": {
+      "title": "Community übertragen",
+      "selectNewOwner": "Neuen Besitzer wählen",
+      "warning": "Sind Sie sicher, dass Sie Ihre Community übertragen möchten? Sie sind dann nicht mehr der Besitzer dieser Community und könnten Ihre Berechtigungen verlieren.",
+      "confirmInstruction": "Tippen Sie {code}, um die Übertragung zu bestätigen (Groß-/Kleinschreibung beachten)",
+      "confirmLabel": "Übertragung bestätigen",
+      "cancel": "Abbrechen",
+      "ok": "Ok",
+      "requestCreatedTitle": "Übertragungsanfrage erstellt",
+      "requestCreatedMsg": "Die Übertragung ist noch nicht abgeschlossen! Eine E-Mail wurde Ihnen zur weiteren Verifizierung gesendet"
+    }
+  },
+  "portal": {
+    "title": "Sonoran Radio Portal",
+    "subtitle": "Willkommen in der Basis der Operationen! Hier können Sie Abonnements im Abrechnungsportal bearbeiten, Community-Einstellungen mit unserem einfachen Konfigurationspanel verwalten oder einen brandneuen Server mit unserem Einrichtungsassistenten registrieren.",
+    "myCommunities": "Meine Gemeinschaften",
+    "beginTitle": "Beginnen Sie Ihre Reise",
+    "billingPortal": "Abonnement & Abrechnung",
+    "documentation": "Dokumentation",
+    "pendingAuth": "Ausstehende Autorisierung",
+    "needsTsAuth": "Benötigt TeamSpeak3-Autorisierung",
+    "needsMemberAuth": "Ausstehende Genehmigung",
+    "upgradeServer": "Upgrade",
+    "leaveServer": "Verlassen",
+    "discovery": "Entdeckung",
+    "discoveryGrowingRapidly": "Diese Community wächst schnell",
+    "discoveryHighTraffic": "Diese Community erhält einen hohen Website-Traffic",
+    "discoveryActiveMembers": "Diese Community hat einige der aktivsten Mitglieder",
+    "discoveryRecentlyBumped": "Diese Community wurde kürzlich hochgestuft",
+    "joinACommunity": "Treten Sie einer Sonoran Radio-Community bei",
+    "needACommunity": "Brauchen Sie eine neue Sonoran Radio-Community?",
+    "beginYourJourney": "Starten Sie Ihre Reise!"
+  },
+  "billing": {
+    "statuses": {
+      "active": "Aktiv",
+      "unpaid": "Unbezahlt",
+      "incomplete": "Unvollständig",
+      "incomplete_expired": "Unvollständig Abgelaufen",
+      "past_due": "Überfällig",
+      "canceled": "Storniert"
+    },
+    "newSubDialog": {
+      "title": "Neues Abonnement",
+      "chooseSub": "Ein Abonnement auswählen",
+      "chooseSv": "Einen Server auswählen",
+      "plus": "Plus-Plan (14,99 $/Monat)",
+      "pro": "Pro-Plan (19,99 $/Monat)",
+      "one": "Sonoran One (49,99 $/Monat)",
+      "mostPop": "Am beliebtesten",
+      "oneLearnMore": "Erfahren Sie mehr über Sonoran One",
+      "noServer": "Kein Server",
+      "noServerDesc": "Dieses Abonnement wird keiner Community zugeordnet. Sie können es später ändern.",
+      "errCreate": "Ein unerwarteter Fehler ist aufgetreten, während das Abonnement erstellt wurde",
+      "expertInstallation": "Experteninstallation"
+    },
+    "changeSvDialog": {
+      "title": "Abonnement aktualisieren",
+      "subtitle": "Einen Server auswählen",
+      "removeServer": "Server entfernen",
+      "errSave": "Ein unerwarteter Fehler ist aufgetreten, während das Abonnement geändert wurde"
+    },
+    "confirmChangeSub": {
+      "title": "Abonnement ändern",
+      "remove": "Sind Sie sicher, dass Sie diesen Server aus Ihrem Abonnement entfernen möchten?",
+      "transfer": "Sind Sie sicher, dass Sie dieses Abonnement auf einen anderen Server übertragen möchten?",
+      "set": "Sind Sie sicher, dass Sie diesen Server für Ihr Abonnement festlegen möchten?",
+      "possibleDataLoss": "Bei Übertragung oder Entfernung Ihres Abonnements kann es zu Datenverlust auf dem vorherigen Server kommen."
+    },
+    "toPortal": "Zurück zum Portal",
+    "newSub": "Neues Abonnement",
+    "compPlans": "Pläne vergleichen",
+    "modifySub": "Abonnement ändern",
+    "chooseSub": "Abonnement wählen",
+    "alreadyActiveSub": "Hat bereits ein aktives Abonnement",
+    "isUnauthorized": "Abonnements können nicht auf nicht autorisierte Server angewendet werden",
+    "noServerAssociated": "Kein zugeordneter Server",
+    "setServer": "Server festlegen",
+    "changeServer": "Server ändern",
+    "errCheck": "Ein unerwarteter Fehler ist aufgetreten, während Ihr Abonnement überprüft wurde"
+  },
+  "account": {
+    "tokenTitle": "Radio-Login-Geheimnis",
+    "tokenDesc": "Kopieren Sie diesen Token, um sich mit dem FiveM-Funkgerät anzumelden!",
+    "tokenDescWarning": "Dieser Code ist GEHEIM und sollte niemandem mitgeteilt werden!",
+    "tokenInputLabel": "Ihr Login-Geheimnis",
+    "tokenLoadBtn": "Zum Laden klicken",
+    "tokenCopied": "Das Geheimnis wurde in Ihre Zwischenablage kopiert!",
+    "serversTitle": "Ihre Server",
+    "serversDesc": "Hier können Sie alle Sonoran Radio Communities anzeigen, die Sie besitzen oder verwalten",
+    "noServers": "Keine Server"
+  },
+  "pricing": {
+    "plans": {
+      "free": "Kostenlos",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "toBilling": "Zurück zur Abrechnung",
+    "planPricing": "Planpreise",
+    "pricing": "Preisgestaltung",
+    "howToPurchase": "So kaufen Sie ein",
+    "description": "Die bezahlten Abonnements von Sonoran Radio gewähren Ihnen Zugriff auf erweiterte Funktionen, Anpassungsmöglichkeiten, erhöhte Limits und mehr!",
+    "monthCostDescription": "Die Kosten unseres monatlichen Abonnementpakets.",
+    "patrolChannels": "Patrouillenkanäle",
+    "patrolChannelsDescription": "# von TeamSpeak-Kanälen, in denen das Funk-Plugin verwendet werden kann.",
+    "unlimited": "Unbegrenzt",
+    "profileLimits": "Profilgrenzen",
+    "profileLimitsDescription": "# von erlaubten Profilen.",
+    "statewideFrequencyLimits": "Landesweite Frequenzgrenzen",
+    "statewideFrequencyLimitsDescription": "# der erlaubten landesweiten Frequenzen.",
+    "talkaroundFrequencies": "Talkaround-Frequenzen",
+    "talkaroundFrequenciesDescription": "Talkaround-Frequenzen ermöglichen Individuen, von Funk zu Funk zu sprechen, statt von Funk zu Turm.",
+    "talkoverProtection": "Talkover-Schutz",
+    "talkoverProtectionDescription": "Talkover-Schutz ermöglicht es nur einer Person, über eine Frequenz zu sprechen.",
+    "dispatchPanel": "Dispatch-Panel",
+    "dispatchPanelDescription": "Das TeamSpeak-Dialogfeld, mit dem Sie die Einstellungen Ihres Funkgeräts oder der Funkgeräte anderer ändern können.",
+    "fivemRadio": "FiveM-Handfunkgerät",
+    "fivemRadioDescription": "Das FiveM-Handfunkgerät ermöglicht es Ihnen, Ihre Frequenzen, die Scanliste und andere Funkeinstellungen zu ändern",
+    "fivemTowers": "FiveM-Physische Türme",
+    "fivemTowersDescription": "Türme simulieren den Empfang zu einem physischen Turm, basierend auf Ihrer Entfernung. Standorte und Reichweiten sind anpassbar.",
+    "fivemTowerDestruction": "FiveM-Turmzerstörung",
+    "fivemTowerDestructionDescription": "Die (optionale) Fähigkeit für Spieler, physische Türme zu zerstören, um den Funkempfang zu beeinträchtigen.",
+    "onlyOnStatewide": "Nur auf landesweiten Frequenzen erlaubt.",
+    "onlySelfFrequencies": "Darf nur eigene Frequenzen ändern"
+  },
+  "upgradePromo": {
+    "goProToday": "Auf Pro upgraden",
+    "learnMore": "Mehr erfahren"
+  },
+  "error404": {
+    "message": "Ups. Nichts hier...",
+    "goHome": "Zur Startseite"
+  },
+  "loginLink": {
+    "enterCode": "Geben Sie Ihren 4-stelligen Code ein..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Symbol",
+      "color": "Farbe",
+      "textColor": "Textfarbe"
+    },
+    "colorLabel": "Farbe",
+    "textColorLabel": "Textfarbe"
+  },
+  "importExport": {
+    "title": "JSON Import/Export",
+    "export": "Exportieren",
+    "download": "Herunterladen",
+    "import": "Importieren",
+    "placeholder": "JSON hier einfügen",
+    "tooltip": "JSON-Datei importieren"
+  },
+  "getStartedButton": {
+    "learnMore": "Mehr erfahren"
+  },
+  "fivemView": {
+    "loginWithCode": "Mit Code anmelden",
+    "browserLoginInstruction": "Gehen Sie zu {link} in Ihrem Browser, um sich anzumelden",
+    "refresh": "Aktualisieren",
+    "unlink": "Verknüpfung aufheben"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Notrufe (911)",
+      "noEmergencyCalls": "Keine Notrufe!",
+      "noTransmissions": "Keine Übertragungen gefunden",
+      "playAudio": "Audio abspielen",
+      "downloadFile": "Datei herunterladen",
+      "redial": "Wiederwahl {name}"
+    },
+    "peers": {
+      "kick": "Entfernen",
+      "clearPanic": "Panikalarm löschen",
+      "moveTo": "Verschieben nach",
+      "displayName": "Anzeigename",
+      "volume": "Lautstärke"
+    },
+    "settings": {
+      "rightClickToClear": "Rechtsklick zum Löschen"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Zurück zum Portal",
+    "leaveServer": "Server verlassen",
+    "switchToStandalone": "Wechsel zu Standalone",
+    "deleteCommunity": "Community löschen"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Verwaltungspanel",
+    "subtitle": "Nur für zukünftige Milliardäre",
+    "searchTitle": "Community suchen"
+  }
+}

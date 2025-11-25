@@ -1,0 +1,794 @@
+{
+  "config": {
+    "displayName": "Angličtina (USA)"
+  },
+  "common": {
+    "plans": {
+      "plan": "Plán",
+      "free": "Zdarma",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "language": "Jazyk",
+    "portal": "Portál",
+    "search": "Vyhledat",
+    "account": "Účet",
+    "billing": "Fakturace",
+    "management": "Správa",
+    "logout": "Odhlásit se",
+    "signup": "Registrace",
+    "login": "Přihlášení",
+    "username": "Uživatelské jméno",
+    "email": "E-mail",
+    "password": "Heslo",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "learnMore": "Více informací",
+    "actions": "Akce",
+    "add": "Přidat",
+    "limited": "Omezený",
+    "currently": "Aktuálně",
+    "help": "Pomoc",
+    "select": "Vybrat",
+    "confirm": "Potvrdit",
+    "premium": "Prémiový",
+    "needsInteger": "Musí být celé číslo",
+    "edit": "Upravit",
+    "delete": "Smazat",
+    "reenable": "Znovu povolit",
+    "only": "{0} Pouze",
+    "miscServer": "Server {id}",
+    "clipboard": "Zkopírováno do schránky!",
+    "communityIdField": "ID Komunity",
+    "copy": "Kopírovat",
+    "menu": "Menu",
+    "refresh": "Obnovit",
+    "unlink": "Odpojit",
+    "upload": "Nahrát",
+    "startToday": "Začněte dnes",
+    "notApplicable": "N/A"
+  },
+  "hotkeys": {
+    "clearHotkey": "Vyčistit klávesovou zkratku",
+    "pressAKey": "Stiskněte klávesu",
+    "noKeySet": "Klávesa není nastavena"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "Dispečerský Panel",
+      "desc1": "Snadno vizualizujte, spravujte uživatele, přehrávejte tóny a více!",
+      "desc2": "Dispečerské UI Sonoran Radios je dostupné všude na webu i na desktopu pro Windows a OSX."
+    },
+    "Cloud_Configurations": {
+      "title": "Konfigurace Cloud",
+      "desc": "Přizpůsobení vašeho rádia nebylo nikdy snazší s živými aktualizacemi z naší snadno použitelné konfigurační panel."
+    },
+    "Custom_Voice_Effects": {
+      "title": "Vlastní Hlasové Efekty",
+      "desc": "Přizpůsobte si digitální a analogové stylové hlasové efekty pro vaši komunitu!"
+    },
+    "Customizable_SFX": {
+      "title": "Přizpůsobitelné SFX",
+      "desc": "Konfigurujte ztrátu signálu v tunelech, podzemních prostorech a dalších!"
+    },
+    "ToneBoard": {
+      "title": "Toneboard",
+      "desc1": "Nahrajte a přizpůsobte tóny dispečinku pro vaši komunitu!",
+      "desc2": "Dispečerské UI Sonoran Radios vám umožňuje specifikovat konkrétní kanály a skupiny, opakovat tóny a další! Tóny můžete hrát dokonce na herních reproduktorech!"
+    },
+    "Transmission_Logs": {
+      "title": "Logy Přenosů",
+      "desc": "Prohlížejte a přehrávejte přenosové záznamy s volitelnými textovými přepisy řízenými AI!"
+    },
+    "Destructible_towers": {
+      "title": "Zničitelné Věže",
+      "desc1": "Fyzické herní věže mohou být zničeny kriminálníky, což zdevastuje kvalitu rádii okolo nich.",
+      "desc2": "S třemi různými modelovými typy ve hře, Sonoran Radio posouvá ponoření do hry na vyšší úroveň!"
+    },
+    "Radio_Chattrer": {
+      "title": "Slyšte Blízké Rádiové Praskání",
+      "desc": "Zastaveni při silniční kontrole? Uslyšíte skutečné rádiové praskání, když má policista aktivní rádio poblíž!"
+    },
+    "VehicleDisplay": {
+      "title": "Zobrazení Vozidla",
+      "desc": "Naše 3D zobrazení rádií vozidel odráží vaše informace o kanálu, přenášejícím uživateli a panic status v reálném čase – přináší nové úrovně ponoření do hry!"
+    },
+    "inGameToneBoard": {
+      "title": "Tone Board na Herní Reproduktory",
+      "desc": "Dispečerské UI Sonoran Radios umožňuje specifikovat konkrétní kanály a skupiny, opakovat tóny a další! Tóny můžete hrát dokonce na herních reproduktorech!"
+    },
+    "EmergencyCalls": {
+      "title": "Nouzové Volání ve Hře",
+      "desc": "Udělejte nouzová volání na dispečink, a to vše přímo ze hry!"
+    },
+    "Scanners": {
+      "title": "Skenery",
+      "desc": "Herní skenery umožňují vám a dalším v blízkosti poslouchat radiový provoz!"
+    },
+    "BackgroundAudio": {
+      "title": "Zvuk na Pozadí",
+      "desc": "Reagujete na hovor? Sonoran Radio vstřikuje reálná sirény, střelbu a další přímo do vašeho mikrofonu pro maximální ponoření."
+    },
+    "tunnelSignalLoss": {
+      "title": "Ztráta Signálu v Tunelu",
+      "desc": "Konfigurujte ztrátu signálu v tunelech, podzemních prostorech a dalších!"
+    },
+    "MultipleRadioOperations": {
+      "title": "Více Možností Rádií",
+      "desc1": "Sonoran Radio nabízí několik herních uživatelských rozhraní, které vám umožní zůstat ve spojení na místě, v autě, a více!",
+      "desc2": "Vyberte si z jedné naší možnosti vzhledu rádia, nebo dokonce přidejte vlastní!"
+    },
+    "Sonoran_CAD": {
+      "title": "Sonoran CAD",
+      "desc": "Tento plugin umožňuje zákazníkům Sonoran Radio připojit rádio k Sonoran CAD. Zobrazte stav vaší jednotky, informace o dispečerském volání, přepněte paniku a více!"
+    },
+    "Sonoran_CMS": {
+      "title": "Sonoran CMS",
+      "desc": "Automatizujte oprávnění Sonoran Radio se Sonoran CMS!"
+    },
+    "bigDaddyRadio": {
+      "title": "Big-Daddy Rádio Animace",
+      "desc": "Sonoran Radio spolupracuje s Big Daddy Scripts, aby nabídla ZDARMA kopii jejich radio animace skriptu!"
+    },
+    "mobileCommandCenter": {
+      "title": "Mobilní Velitelské Centrum",
+      "desc": "Mobilní velitelské centrum Sonoran vám umožňuje převzít velení jako nikdy předtím. Tento jedinečný užitkový vůz přináší nekonečné možnosti!"
+    },
+    "Power_Grid": {
+      "title": "Síťové Napájení",
+      "desc": "Nabourejte se do integrované elektrické sítě, abyste deaktivovali věže Sonoran Radio ve vaší oblasti! Naučte se více o tomto skriptu!"
+    },
+    "intro": "Pozvedněte svou herní komunikaci na vyšší úroveň se Sonoran Radio. Chatujte v realistických rádiových kanálech, upravujte zvukové efekty a snadno se připojte ke hrám pro opravdu intenzivní zážitek."
+  },
+  "splash": {
+    "introducing": "Představujeme",
+    "marketExplain": "Ve veřejné bezpečnosti jsou jednoduchost a spolehlivost klíčovými faktory při výběru komunikačního systému. Sonoran Radio poskytuje nejkomplexnější a all-inclusive komunikační systém na dnešním trhu. Tento nový radiový systém má špičkovou technologii, poskytující jak simplexní, tak duplexní konfigurace, programování na bázi cloudu a škálovatelnou, repeatery řízenou síť rádií.",
+    "feats": "Kompletní s inter-perzonálním textovým zprávováním a integrací Sonoran CAD, Sonoran Radio dodává plně vybavená komunikační zařízení přímo do rukou vaší herní posádky a dispečerů. Vyzkoušejte to zdarma dnes!",
+    "getStarted": "Začněte Dnes",
+    "toPortal": "Přejít na Portál",
+    "learnMore": "Více informací"
+  },
+  "misc": {
+    "welcome": "Vítejte",
+    "welcomeTo": "Vítejte u Sonoran Radio!",
+    "learnMoreAboutRadio": "Zjistěte více o tom, jak může Sonoran Radio revolučně proměnit váš roleplay!"
+  },
+  "errors": {
+    "common": {
+      "enterPassword": "Zadejte prosím heslo.",
+      "enterEmail": "Zadejte prosím svou emailovou adresu."
+    },
+    "misc": {
+      "noLocalStorageSupport": "Váš prohlížeč nepodporuje místní úložiště nebo může být vypnuto."
+    },
+    "signup": {
+      "passwordNoUppercase": "Heslo neobsahuje žádné velké písmeno",
+      "passwordNoNumber": "Heslo neobsahuje žádné číslo",
+      "passwordNoSymbol": "Heslo neobsahuje žádný symbol ({'!@#$%^&*'})",
+      "invalidPassword": "Neplatné heslo",
+      "passwordNotMoreThan": "Heslo není delší než 6 znaků",
+      "passwordsDontMatch": "Hesla se navzájem neshodují.",
+      "noUsername": "Nezadané uživatelské jméno.",
+      "noEmail": "Nezadaný email.",
+      "noPassword": "Nezadané heslo.",
+      "usernameNotLongEnough": "Uživatelské jméno nemá více než 4 znaky.",
+      "usernameTooLong": "Uživatelské jméno je příliš dlouhé.",
+      "invalidEmail": "Zadaný email není platná emailová adresa, použijte prosím jinou emailovou adresu.",
+      "usernameInvalidCharacter": "Uživatelské jméno obsahuje neplatný znak."
+    }
+  },
+  "login": {
+    "loginWithSonoran": "Přihlásit se přes Sonoran",
+    "createAccount": "Vytvořit účet",
+    "forgotPassword": "Zapomenuté heslo",
+    "forgotPasswordDesc": "Zapomněli jste heslo k účtu Sonoran? Zadejte svůj email níže a resetujte své přihlašovací údaje."
+  },
+  "signup": {
+    "emailPreferencesDesc": "Posílejte mi důležitá oznámení, aktualizace a akce.",
+    "verifyPassword": "Ověřit heslo",
+    "checkEmail": "Zkontrolujte svůj email a ověřte svůj účet.",
+    "checkSpam": "Pokud email nenajdete, ujistěte se, že jste zkontrolovali složku se spam."
+  },
+  "serverCommon": {
+    "nicknameInput": "Přezdívka",
+    "nicknameInputDesc": "Nastavte si vlastní přezdívku pro svou komunitu, kterou uvidíte vy i vaši členové",
+    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInputDesc": "Zadejte UID vašeho TeamSpeak 3 serveru zde"
+  },
+  "registerServer": {
+    "registerATSServer": "Registrace TeamSpeak Serveru",
+    "registerATSServerDesc": "Registrujte svůj TeamSpeak Server, abyste umožnili svému serveru používat plugin Sonoran Radio TeamSpeak.",
+    "registerAStandServer": "Registrace Komunity",
+    "registerAStandServerDesc": "Registrujte svou komunitu pro používání Sonoran Radio.",
+    "submit": "Registrace Serveru",
+    "errExists": "Zadaný TeamSpeak Server UID již existuje na ověřeném serveru, použijte prosím jiné UID TeamSpeak serveru",
+    "errUnknown": "Při pokusu o získání informací o serveru došlo k chybě, zkuste to prosím později."
+  },
+  "radio": {
+    "toneBoard": {
+      "broadcastTo": "Vysílat Do",
+      "noTones": "Žádné Tóny",
+      "seconds": "Sekundy",
+      "count": "Počet",
+      "newTone": "Nový Tón",
+      "title": "Tone Board",
+      "subtitle": "Přizpůsobte tóny dispečinku pro vaši komunitu",
+      "repeat": "Opakovat",
+      "stack": "Stack",
+      "aiTts": "AI Text-To-Speech",
+      "audioMode": "Audio Režim",
+      "aiMode": "AI Režim",
+      "generate": "Generovat",
+      "preview": "Náhled",
+      "voices": "Hlasy",
+      "toneLabel": "Popis Tónu",
+      "speed": "Rychlost",
+      "recording": "Nahrávání",
+      "inGameSpeaker": "Herní Reproduktor",
+      "inGameSpeakerGroup": "Skupina Herních Reproduktorů"
+    },
+    "channelDialog": {
+      "channelTitle": "Změnit Kanál",
+      "scanTitle": "Seznam Skenování"
+    },
+    "settingsDialog": {
+      "title": "Nastavení",
+      "audioTab": "Audio",
+      "fivemTab": "FiveM",
+      "hotkeysTab": "Klávesové Zkratky",
+      "sfxTab": "SFX",
+      "troubleHearingInGame": "Máte problémy s poslechem ve hře?:",
+      "volume": "Hlasitost",
+      "sfxVolume": "Hlasitost SFX",
+      "automaticGainControlEnabled": "Automatické řízení zisku povoleno",
+      "automaticGainControlDisabled": "Automatické řízení zisku zakázáno",
+      "changingOutputsUnsupported": "Vaše zařízení nepodporuje změnu výstupů zvuku",
+      "volumeHotkeyChange": "Změna Hlasitosti Klávesové Zkratky",
+      "pttOffDelay": "Zpoždění PTT-Off",
+      "resetPeerVolumes": "Obnovit Hlasitosti Peers",
+      "resetSettings": "Obnovit Nastavení",
+      "macosPermWarning": "Vaše zařízení může vyžadovat další oprávnění: {link}",
+      "macosPermWarningLink": "Zjistěte, jak přidělit oprávnění",
+      "webHotkeyWarning": "Klávesové zkratky fungují pouze tehdy, když je okno prohlížeče aktivní. {link} pro globální klávesové zkratky",
+      "webHotkeyWarningLink": "Stáhnout desktopovou aplikaci",
+      "moveResize": "Přesun/Úprava velikosti",
+      "unlink": "Odpojit",
+      "toggleBackgroundAudio": "Zvuk na Pozadí",
+      "volumeChangeSirens": "Změna Hlasitosti se Sirénami",
+      "escapeMode": "Režim Úniku",
+      "escapeModeKeep": "Udržet Rádio Viditelné",
+      "escapeModeKeepTooltip": "Rádio zůstává viditelné při ESC",
+      "escapeModeHide": "Skrýt Rádio",
+      "escapeModeHideTooltip": "Rádio se zavírá při ESC",
+      "escapeModeXmit": "XMIT (PTT)",
+      "escapeModeXmitTooltip": "Rádio se zavírá při ESC, ale je viditelné při přenosu",
+      "selectRadioFrame": "Rámec Rádia",
+      "myPttSfx": "Můj SFX při PTT",
+      "othersPttSfx": "SFX Ostatních při PTT",
+      "channelTts": "Kanál TTS",
+      "hearScannedWhileXmit": "Slyšet Skany Při Přenosu",
+      "keyupSfx": "SFX při Uvolnění Klávesy",
+      "keydownSfx": "SFX při Stisknutí Klávesy"
+    },
+    "connect": "Připojte se",
+    "selectServer": "Vybrat Server",
+    "microphonePTT": "Mikrofon PTT",
+    "openInNewWindow": "Otevřít v Novém Okne",
+    "backToPortal": "Zpět na Portál",
+    "recvFreq": "RECV: {0}MHz",
+    "xmitFreq": "XMIT {0}MHz",
+    "stopXmit": "Zastavit XMIT",
+    "multiXmit": "CTRL + Klikněte Multi-XMIT",
+    "muteScan": "Ztlumit {0}",
+    "listenScan": "Poslech {0}",
+    "setHotkeyFor": "Nastavit klávesovou zkratku pro {0}",
+    "hiddenChannel": "Skrytý Kanál (Viditelný pro vás)",
+    "configureChannel": "Konfigurovat {0}",
+    "addNewChannel": "Přidat Nový Kanál",
+    "showChannelIds": "Zobrazit ID kanálů",
+    "channelList": "Seznam Kanálů",
+    "scanList": "Seznam Skenování"
+  },
+  "authMember": {
+    "title": "Čekáte na Schválení",
+    "subtitle": "Než budete moci používat Sonoran Radio pro {serverName}, musíte být schváleni vlastníkem serveru nebo administrátorem komunity. Počkejte prosím na schválení.",
+    "subtitleShort": "Před použitím Sonoran Radio v této komunitě musíte být schváleni komunitním personálem",
+    "leaveMsg": "Jste si jisti, že chcete opustit tuto komunitu Sonoran Radio?",
+    "errLeave": "Při opuštění komunity došlo k neočekávané chybě."
+  },
+  "authServer": {
+    "title": "Autentizace Vašeho TeamSpeak Serveru",
+    "subtitle": "Autentizujte svůj TeamSpeak server prostřednictvím snadného autentizačního procesu využívajícího Sonoran Radio plugin a webový panel. Během tohoto autentizačního procesu budou jednotlivci v vašem TeamSpeak serveru, kteří mají dostatečná oprávnění, vidět vyskakovací okno oznamující vaše čekající schválení, zadejte prosím níže uvedený kód autorizace do vyskakovacího okna TeamSpeak pro autorizaci. Pokud jste náhodou zadali své UID TeamSpeak serveru nesprávně, můžete je změnit níže. Pokud nevidíte vyskakovací okno TeamSpeak ze Sonoran Radio, ujistěte se prosím, že jste zadali správné UID a máte nainstalován alespoň v0.2.0 pluginu. V opačném případě kontaktujte podporu.",
+    "authCodeTitle": "Autorizační Kód",
+    "clickToCopy": "Klikněte pro kopírování",
+    "copiedCode": "Zkopírováný autorizační kód serveru do schránky",
+    "submit": "Uložit Server",
+    "errSave": "Při ukládání serveru došlo k neočekávané chybě.",
+    "errDelete": "Při mazání serveru došlo k neočekávané chybě."
+  },
+  "manageServer": {
+    "settings": {
+      "title": "Výchozí Nastavení",
+      "subtitle": "Konfigurace výchozích nastavení pro vaši komunitu. Uživatelé si mohou personalizovat své vlastní preference, ale tyto budou sloužit jako výchozí.",
+      "agc": "Automatické řízení zisku",
+      "agcDesc": "Automaticky upravte vstupní hlasitost mikrofonu k vyrovnání hlasitosti všech uživatelů.",
+      "hearPttSfx": "Přehrát PTT SFX",
+      "hearPttSfxDesc": "Přehrát zvuk PTT při aktivaci mikrofonu.",
+      "hearOtherPttSfx": "Přehrát SFX Ostatních při PTT",
+      "hearOtherPttSfxDesc": "Přehrát zvuk PTT při aktivaci mikrofonu ostatními uživateli.",
+      "muteScannedWhileTransmitting": "Ztlumit Skany při Přenosu",
+      "muteScannedWhileTransmittingDesc": "Ztlumit skenované kanály při přenosu na kanálu.",
+      "sirenVolume": "Hlasitost Sirény",
+      "sirenVolumeDesc": "Když je aktivována herní siréna, přidejte/uberejte ke hlasitosti.",
+      "tts": "Kanál Text-to-Speech",
+      "ttsDesc": "Přehrát hlas TTS názvu kanálu při změně kanálů.",
+      "keyUpDelay": "Zpoždění Klávesy nahoru",
+      "keyUpDelayDesc": "Zpoždění po ukončení přenosu před uvolněním mikrofonu.",
+      "volChange": "Změna Hlasitosti",
+      "volChangeDesc": "Změna hlasitosti % při použití klávesových zkratek pro zvýšení/snížení hlasitosti."
+    },
+    "importSAPR": {
+      "btn": "Importovat SAPR Konfiguraci",
+      "jsonTitle": "Importovat SAPR Konfiguraci",
+      "jsonMsg": "Vložte sem svůj SAPR konfigurační JSON",
+      "confirmMsg": "Chystáte se importovat {n} kanálů. Jste si jisti?"
+    },
+    "patrolChannels": {
+      "range": {
+        "short": "Krátký Rozsah",
+        "medium": "Střední Rozsah",
+        "long": "Dlouhý Rozsah"
+      },
+      "title": "Patrolovací Kanály",
+      "subtitle": "Patrolovací Kanály jsou TeamSpeak kanály, které jsou na bílém listě pro použití funkčnosti pluginu Sonoran Radio TeamSpeak.",
+      "nickname": "Přezdívka",
+      "channelUid": "TS ID Kanálu",
+      "allowTalkover": "Povolit Překlapání",
+      "talkAroundRange": "Rozsah Překlapání",
+      "addChannel": "Přidat Patrolovací Kanál",
+      "explainDisabled": "Patrolovací Kanál je deaktivován kvůli downgradu na nižší plán, musíte odstranit další patrolovací kanály, než můžete tento znovu povolit.",
+      "explainDisabledCanReenable": "Patrolovací Kanál je deaktivován kvůli downgradu na nižší plán, ale můžete znovu povolit v rozbalovacím menu!",
+      "dialogAddTitle": "Přidat Patrolovací Kanál",
+      "dialogEditTitle": "Upravit Patrolovací Kanál",
+      "dialogSubtitle": "Patrolovací Kanál je TeamSpeak kanál, který je na bílém listě pro použití funkčnosti pluginu Sonoran Radio TeamSpeak. Zde nastavíte TS ID kanálu a určíte, zda má 'Patrolovací Kanál' umožnit překlapání.",
+      "channelUidInput": "TS ID Kanálu - Povinné",
+      "customizeTalkaround": "Přizpůsobit Rozsah Překlapání",
+      "legacyChannelUidWarn": "Tato forma ID Kanálu byla zastaralá. Prosíme, upgradujte na nejnovější verzi Sonoran Radio TS a aktualizujte na nové číselné ID",
+      "errSave": "Při ukládání patrolovacího kanálu došlo k neočekávané chybě.",
+      "errReenable": "Při povolení patrolovacího kanálu došlo k neočekávané chybě.",
+      "errDelete": "Při mazání patrolovacího kanálu došlo k neočekávané chybě."
+    },
+    "profiles": {
+      "title": "Profily",
+      "titleStandalone": "Kanály",
+      "subtitle": "Profily jsou přednastavené frekvenční nastavení, umožňující snadný přechod mezi specifickými frekvencemi bez potřeby ručně zadávat jednotlivé frekvence.",
+      "addProfile": "Přidat Profil",
+      "addProfileStandalone": "Přidat Kanál",
+      "reorder": "Přeskupit Profily",
+      "reorderStandalone": "Přeskupit Kanály",
+      "displayName": "Zobrazovaný Název",
+      "recvFreq": "Příjem Frekvence",
+      "xmitFreq": "Odesílání Frekvence",
+      "repeatsXmit": "Opakování Odesílání Frekvence",
+      "pronounce": "Výslovnost",
+      "preventTalkover": "Zamezit Překlapání",
+      "talkoverPrevented": "Překlapání Zamezeno",
+      "talkoverAllowed": "Překlapání Povolené",
+      "setAsDefault": "Nastavit jako Výchozí Profil",
+      "defaultProfile": "Výchozí Profil",
+      "explainDisabled": "Profil je deaktivován kvůli downgradu na nižší plán, musíte odstranit další profily, než můžete tento znovu povolit.",
+      "explainDisabledCanReenable": "Profil je deaktivován kvůli downgradu na nižší plán, ale můžete znovu povolit tento profil v rozbalovacím menu!",
+      "dialogAddTitle": "Přidat Profil",
+      "dialogEditTitle": "Editovat Profil",
+      "dialogAddTitleStandalone": "Přidat Kanál",
+      "dialogEditTitleStandalone": "Editovat Kanál",
+      "dialogSubtitle": "Profil je přednastavené frekvenční nastavení umožňující snadný přechod mezi specifickými frekvencemi bez potřeby ručně zadávat jednotlivé frekvence. Zde nastavíte Zobrazovaný Název (volitelně), Příjem Frekvence (povinné), Odesílání Frekvence (volitelně) a zda se Odesílání Frekvence bude opakovat.",
+      "dialogSubtitleStandalone": "",
+      "displayNameInput": "Zobrazovaný Název - Povinné",
+      "errSave": "Při ukládání profilu došlo k neočekávané chybě.",
+      "errDelete": "Při mazání profilu došlo k neočekávané chybě.",
+      "errSetDefault": "Při nastavení výchozího profilu došlo k neočekávané chybě.",
+      "errReenable": "Při znovu povolování profilu došlo k neočekávané chybě.",
+      "voiceEffect": "Hlasový Efekt",
+      "visibilityOptions": {
+        "public": "Veřejné",
+        "private": "Soukromé"
+      },
+      "basicMode": "Základní",
+      "advancedMode": "Pokročilý",
+      "shareWith": "Sdílet s",
+      "sharedTooltip": "Sdílené kanály zrcadlí přístup a frekvence jiného propojeného kanálu. Připojení k některému z nich poskytuje přístup ke stejnému komunikačnímu proudu.",
+      "standardTooltip": "Standardní kanály fungují nezávisle s vlastními frekvencemi a přístupem. Použijte tento režim, pokud by měl být kanál samostatný.",
+      "visibility": "Viditelnost",
+      "recvFreqTooltip": "Frekvence pro příjem přenosů. To je pouze estetické v radio UI.",
+      "xmitFreqTooltip": "Frekvence pro vysílání. To je pouze estetické v radio UI.",
+      "editGroup": "Upravit skupinu",
+      "deleteGroup": "Smazat skupinu",
+      "ttsPreview": "Náhled textu na řeč",
+      "ttsFailed": "Generování textu na řeč selhalo nebo neexistuje.\nUložte kanál znovu pro generování.",
+      "privateChannel": "Soukromý kanál",
+      "pronounceTooltip": "Pokročilá výslovnost pro text na řeč AI kanálu.",
+      "addGroup": "Přidat skupinu",
+      "groupName": "Název skupiny"
+    },
+    "micClick": {
+      "header": "SFX Přizpůsobení",
+      "subheader": "Přizpůsobte zvukové efekty pro celou vaši komunitu.",
+      "keyUpSfx": "SFX při Uvolnění Klávesy",
+      "keyDownSfx": "SFX při Stisknutí Klávesy",
+      "talkoverSfx": "Překlapání SFX",
+      "overrideSuccessSfx": "Překlapání Přepnutí Úspěch SFX",
+      "emergencyCallSfx": "Nouzové Volání SFX",
+      "panicSfx": "Tlačítko Panika SFX",
+      "sfxVolUp": "Zvuk Zvýšení Hlasitosti (Klávesová Zkratka) SFX",
+      "sfxVolDown": "Zvuk Snížení Hlasitosti (Klávesová Zkratka) SFX",
+      "simulatedAudio": "Zvuk na Pozadí ve Hře SFX",
+      "simulatedAudioSubtitle": "Vstřik zvuků na pozadí ve hrách, jako jsou sirény, rotory helikoptér, motory člunů a střelba, do vašeho mikrofonního výstupu.",
+      "sfxGameSiren": "Herní Siréna SFX",
+      "sfxGameBoatEngine": "Herní Motory Lodí SFX",
+      "sfxGameHelicopterRotors": "Herní Rotorové Helikoptéry SFX",
+      "sfxGamePistol": "Herní Pistole SFX",
+      "sfxGamePistolSilenced": "Herní Tišená Pistole SFX",
+      "sfxGameRifle": "Herní Puška SFX",
+      "sfxGameRifleSilenced": "Herní Tišená Puška SFX"
+    },
+    "voiceCustomization": {
+      "header": "Přizpůsobení Hlasu",
+      "subheader": "Přizpůsobte hlasové efekty rádia pro vaši komunitu.",
+      "input": "Vstup",
+      "useForEmergency": "Použít pro tísňová volání",
+      "name": "Název",
+      "signalStrength": "Síla signálu",
+      "vocoderPreviewWarning": "Náhled na vocoder audio není zatím k dispozici."
+    },
+    "perms": {
+      "types": {
+        "dispatch::open": {
+          "name": "Otevřít Dispečerské UI",
+          "desc": "Toto oprávnění uděluje schopnost otevřít Dispečerské UI"
+        },
+        "dispatch::ext_commands": {
+          "name": "Změnit Uživatele Kanálu",
+          "desc": "Toto oprávnění uděluje schopnost změnit frekvence a přezdívky uživatelů kanálu prostřednictvím Dispečerského UI"
+        },
+        "tg::talkover_override": {
+          "name": "Překrytí Překlapání Ochrany",
+          "desc": "Toto oprávnění uděluje schopnost dvojkliku na tlačítko PTT pro překlapání jiného klienta"
+        },
+        "menu::radio_lock": {
+          "name": "Zamknout Rádio",
+          "desc": "Toto oprávnění vám umožňuje zastavit přenos jiného člověka, pokud již vysílá"
+        },
+        "menu::radio_attn": {
+          "name": "Rádiová Pozornost",
+          "desc": "Toto oprávnění vám uděluje schopnost přehrát zvuk na rádiu jiného uživatele, abyste přitáhli jeho pozornost"
+        }
+      },
+      "title": "Oprávnění",
+      "subtitle": "Oprávnění vám umožňují změnit způsob, jakým uživatelé interagují s pluginem Sonoran Radio, a s čím mohou interagovat.",
+      "addPerm": "Přidat Oprávnění",
+      "nickname": "Přezdívka",
+      "permName": "Název Oprávnění",
+      "serverGroup": "Serverová Skupina",
+      "dialogTitle": "Přidat Oprávnění",
+      "dialogSubtitle": "Dává serverové skupině konkrétní oprávnění v Sonoran Radio. Chcete-li se dozvědět více o oprávněních a jak získat serverové skupiny, navštivte prosím Dokumentaci Sonoran Radio.",
+      "serverGroupInput": "Serverová Skupina - Povinné",
+      "permInput": "Oprávnění",
+      "explainPrefix": "Co toto dělá?",
+      "invalidGroupId": "Neplatná Serverová Skupina, musí to být číslo.",
+      "errSave": "Při ukládání oprávnění došlo k neočekávané chybě.",
+      "errDelete": "Při mazání oprávnění došlo k neočekávané chybě."
+    },
+    "myself": {
+      "title": "Informace o Vaší Komunitě",
+      "subtitle": "Zhlédněte a upravujte nastavení své komunity"
+    },
+    "members": {
+      "title": "Členové Komunity",
+      "subtitle": "Spravujte uživatelská oprávnění a přístup ve vaší komunitě.",
+      "username": "Uživatelské jméno",
+      "displayName": "Zobrazovaný Název",
+      "traits": "Vlastnosti",
+      "actions": "Akce",
+      "owner": "Vlastník",
+      "subOwner": "Držitel Předplatného",
+      "remove": "Odebrat",
+      "explainDisabled": "Pouze vlastníci serverů mohou přidávat nebo upravovat manažery",
+      "removeWarn": "Varování",
+      "removeWarnSubHolderMsg": "Odebráním držitele předplatného dojde ke snížení úrovně tohoto serveru na zdarma! Jste si jisti, že chcete pokračovat?",
+      "removeWarnSelfMsg": "Jste si jisti, že chcete odstranit sami sebe z tohoto serveru? Ztratíte přístup a vlastník serveru vás bude muset přidat zpět.",
+      "errAddInvalidAccount": "Zadané uživatelské jméno neexistuje",
+      "errAddUnknown": "Při přidávání manažera došlo k neznámé chybě",
+      "errRemoveUnknown": "Při odebírání manažera došlo k neznámé chybě",
+      "permissionsBtn": "Oprávnění",
+      "approveBtn": "Schválit",
+      "kickBtn": "Vyhodit",
+      "filterAll": "Vše",
+      "filterPending": "Čekající",
+      "search": "Hledat",
+      "pending": "Čekající",
+      "paysSubscription": "Platí předplatné",
+      "setDisplayName": "Nastavit zobrazovaný název",
+      "editMemberPerms": "Upravit oprávnění člena",
+      "ownerHasAllPerms": "Vlastník komunity má všechna oprávnění",
+      "privateChannels": "Soukromé kanály",
+      "selectPrivateChannels": "Vyberte soukromé kanály, které může uživatel připojit"
+    },
+    "ai": {
+      "services": {
+        "0": "Log STT Přenosů",
+        "1": "Tone Board STT"
+      },
+      "title": "AI API Klíče",
+      "addKey": "Přidat AI Klíč"
+    },
+    "admin": {
+      "communityApiKeyField": "Komunitní API Klíč",
+      "updateApiKey": "Aktualizovat API Klíč",
+      "apiInfoTitle": "API Informace",
+      "apiInfoHint": "Dejte to svým členům při jejich pozvání do komunity"
+    },
+    "guidesLink": "Informace & Průvodci Sonoran Radio",
+    "toPortal": "Zpět na Portál",
+    "saveServer": "Uložit Server",
+    "unauthorizeServer": "Odautorizovat Server",
+    "deleteServer": "Smazat Komunitu",
+    "transferServer": "Přenést Komunitu",
+    "dispatchTab": "Dispečink",
+    "membersTab": "Členové",
+    "customizeTab": "Přizpůsobit",
+    "adminTab": "Administrace",
+    "saveInfo": "Uložit Informace o Serveru",
+    "explainOwnerOnly": "Pouze vlastník může změnit toto nastavení",
+    "noPermPage": "Nemáte oprávnění zhlédnout tuto stránku",
+    "unauthorizeMsg": "Jste si jisti, že chcete odautorizovat tuto konfiguraci?",
+    "deleteMsg": "Jste si jisti, že chcete smazat tuto konfiguraci? Tímto dojde k nevratné ztrátě dat.",
+    "unauthorizeSuccess": "Váš server byl úspěšně odautorizován",
+    "deleteSuccess": "Váš server byl úspěšně smazán",
+    "errServerCheck": "Při kontrole vašeho serveru došlo k neočekávané chybě.",
+    "errUidTaken": "UID serveru TeamSpeak je již používáno jiným autorizovaným serverem.",
+    "errSaveInfo": "Při ukládání informací o vašem serveru došlo k neočekávané chybě.",
+    "errImport": "Při importování vaší SAPR Konfigurace došlo k neočekávané chybě.",
+    "errImportNotFound": "Pro váš TeamSpeak UID nebyla nalezena žádná SAPR Konfigurace.",
+    "errUnauthorize": "Při odautorizování vašeho serveru došlo k neočekávané chybě.",
+    "customizeMenu": {
+      "info": "Informace",
+      "patrolChannels": "Patrolovat kanály",
+      "channelsGroups": "Kanály a skupiny",
+      "profiles": "Profily",
+      "permissions": "Oprávnění",
+      "voiceCustomization": "Přizpůsobení hlasu",
+      "sfxCustomization": "Přizpůsobení efektů",
+      "toneBoard": "Tónová deska",
+      "fivemIntegration": "Integrace s FiveM",
+      "defaultSettings": "Výchozí nastavení",
+      "ai": "AI",
+      "customDomain": "Vlastní doména"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Název",
+        "origin": "IP/Původ",
+        "pushUrl": "URL pro odesílání",
+        "actions": "Akce"
+      },
+      "customCommunityIdHint": "Nastavte si vlastní ID komunity, které je pro vanity URL, FiveM zdroj, a pro připojení ke komunitě",
+      "communityServers": "Komunitní servery",
+      "communityServersSubtitle": "Přidejte nebo odeberte servery pro oddělení vašich rádiových komunikací",
+      "addServer": "Přidat server"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Typ",
+        "name": "Název",
+        "content": "Obsah"
+      },
+      "requiresPro": "Musíte mít Pro předplatné, abyste nastavili vlastní doménu",
+      "chooseName": "Vyberte si název domény",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "Musíte vlastnit svůj název domény!",
+      "verifyTitle": "Ověřte svou doménu",
+      "verified": "Gratulujeme, vaše vlastní doména je ověřena!",
+      "tryItOut": "Vyzkoušejte to",
+      "defaultRecordName": "@ nebo prázdné",
+      "verifyButton": "Ověřit vlastní doménu",
+      "vanityTitle": "Zdarma Vanity URL",
+      "vanityLabel": "Vanity URL",
+      "vanityCopied": "URL Vanity zkopírována do schránky!"
+    },
+    "transfer": {
+      "title": "Převést komunitu",
+      "selectNewOwner": "Vyberte nového vlastníka",
+      "warning": "Opravdu chcete převést svou komunitu? Nebudete již vlastníkem této komunity a můžete ztratit svá oprávnění.",
+      "confirmInstruction": "Zadejte {code} pro potvrzení převodu (rozeznává velikost)",
+      "confirmLabel": "Potvrdit převod",
+      "cancel": "Zrušit",
+      "ok": "Ok",
+      "requestCreatedTitle": "Žádost o převod vytvořena",
+      "requestCreatedMsg": "Převod není ještě dokončen! Na váš e-mail vám bylo zasláno potvrzení"
+    }
+  },
+  "portal": {
+    "title": "Portál Sonoran Radio",
+    "subtitle": "Vítejte na základně operací! Zde můžete upravovat předplatná v Billing Portálu, spravovat nastavení komunity pomocí snadno použitelného Konfiguračního Panelu nebo registrovat úplně nový server pomocí našeho průvodce nastavením.",
+    "myCommunities": "Moje Komunity",
+    "beginTitle": "Začněte Svou Cestu",
+    "billingPortal": "Předplatná & Fakturace",
+    "documentation": "Dokumentace",
+    "pendingAuth": "Čekající Autorizace",
+    "needsTsAuth": "Potřebuje TeamSpeak3 Autorizaci",
+    "needsMemberAuth": "Čeká na Schválení",
+    "upgradeServer": "Vylepšit",
+    "leaveServer": "Opustit",
+    "discovery": "Objev",
+    "discoveryGrowingRapidly": "Tato komunita rychle roste",
+    "discoveryHighTraffic": "Tato komunita dostává vysoký provoz na webových stránkách",
+    "discoveryActiveMembers": "Tato komunita má některé z nejaktivnějších členů",
+    "discoveryRecentlyBumped": "Tato komunita byla nedávno poskočena",
+    "joinACommunity": "Připojte se k Sonoran Radio Komunitě",
+    "needACommunity": "Potřebujete novou Sonoran Radio komunitu?",
+    "beginYourJourney": "Začněte Svou Cestu!"
+  },
+  "billing": {
+    "statuses": {
+      "active": "Aktivní",
+      "unpaid": "Nezaplacené",
+      "incomplete": "Neúplné",
+      "incomplete_expired": "Neúplně Vypršeno",
+      "past_due": "Po Termínu",
+      "canceled": "Zrušeno"
+    },
+    "newSubDialog": {
+      "title": "Nové Předplatné",
+      "chooseSub": "Vyberte Předplatné",
+      "chooseSv": "Vyberte Server",
+      "plus": "Plus Plán ($14.99/měsíc)",
+      "pro": "Pro Plán ($19.99/měsíc)",
+      "one": "Sonoran One ($49.99/měsíc)",
+      "mostPop": "Nejoblíbenější",
+      "oneLearnMore": "Zjistěte více o Sonoran One",
+      "noServer": "Žádný Server",
+      "noServerDesc": "Toto předplatné nebude přiřazeno ke komunitě. Můžete to změnit později.",
+      "errCreate": "Při vytváření předplatného došlo k neočekávané chybě",
+      "expertInstallation": "Odborná instalace"
+    },
+    "changeSvDialog": {
+      "title": "Aktualizace Předplatného",
+      "subtitle": "Vyberte server",
+      "removeServer": "Odstranit Server",
+      "errSave": "Při změně předplatného došlo k neočekávané chybě"
+    },
+    "confirmChangeSub": {
+      "title": "Změna Předplatného",
+      "remove": "Jste si jisti, že chcete odstranit tento server ze svého předplatného?",
+      "transfer": "Jste si jisti, že chcete převést toto předplatné na jiný server?",
+      "set": "Jste si jisti, že chcete nastavit tento server pro své předplatné?",
+      "possibleDataLoss": "Pokud převádíte nebo odebíráte své předplatné, může dojít k ztrátě dat na předchozím serveru."
+    },
+    "toPortal": "Zpět na Portál",
+    "newSub": "Nové Předplatné",
+    "compPlans": "Porovnat Plány",
+    "modifySub": "Upravit Předplatné",
+    "chooseSub": "Vyberte Plán Předplatného",
+    "alreadyActiveSub": "Již má aktivní předplatné",
+    "isUnauthorized": "Předplatné nelze uplatnit na neautorizované servery",
+    "noServerAssociated": "Žádný Server Nepřiřazen",
+    "setServer": "Nastavit Server",
+    "changeServer": "Změnit Server",
+    "errCheck": "Při kontrole vašeho předplatného došlo k neočekávané chybě"
+  },
+  "account": {
+    "tokenTitle": "Tajný Přihlašovací Údaj Rádia",
+    "tokenDesc": "Zkopírujte tento token pro přihlášení se s FiveM rádiem!",
+    "tokenDescWarning": "Tento kód je TAJNÝ a neměl by být sdílen s nikým!",
+    "tokenInputLabel": "Váš Tajný Přihlašovací Údaj",
+    "tokenLoadBtn": "Klikněte pro Načtení",
+    "tokenCopied": "Tajný údaj je zkopírován do schránky!",
+    "serversTitle": "Vaše Servery",
+    "serversDesc": "Zde si můžete prohlédnout všechny komunity Sonoran Radio, které vlastníte nebo spravujete",
+    "noServers": "Žádné Servery"
+  },
+  "pricing": {
+    "plans": {
+      "free": "Zdarma",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "toBilling": "Zpět na Fakturaci",
+    "planPricing": "Cenování Plánů",
+    "pricing": "Cenování",
+    "howToPurchase": "Jak Koupit",
+    "description": "Placené předplatné Sonoran Radio vám poskytuje přístup k pokročilým funkcím, přizpůsobení, zvýšeným limitům a dalším!",
+    "monthCostDescription": "Cena našeho měsíčního předplatného.",
+    "patrolChannels": "Patrolovací Kanály",
+    "patrolChannelsDescription": "# of TeamSpeak kanály, kde může být použit radiový plugin.",
+    "unlimited": "Neomezený",
+    "profileLimits": "Limity Profilů",
+    "profileLimitsDescription": "# povolených profilů.",
+    "statewideFrequencyLimits": "Limity Státních Frekvencí",
+    "statewideFrequencyLimitsDescription": "# povolených frekvencí po celém státě.",
+    "talkaroundFrequencies": "Talkaround Frekvence",
+    "talkaroundFrequenciesDescription": "Talkaround frekvence umožňují individuálním uživatelům hovořit rádio na rádio namísto rádio na věž.",
+    "talkoverProtection": "Ochrana Překlapání",
+    "talkoverProtectionDescription": "Ochrana překlapávání umožňuje pouze jednomu jednotlivci hovořit přes frekvenci najednou.",
+    "dispatchPanel": "Dispečerský Panel",
+    "dispatchPanelDescription": "Dialogové okno TeamSpeak, které vám umožňuje měnit nastavení vašeho rádia nebo rádií ostatních.",
+    "fivemRadio": "FiveM Ruční Rádio",
+    "fivemRadioDescription": "FiveM ruční rádio vám umožňuje měnit vaše frekvence, seznam skanování a další nastavení rádia",
+    "fivemTowers": "FiveM Fyzické Věže",
+    "fivemTowersDescription": "Věže simulují příjem na fyzickou věž, na základě vaší vzdálenosti. Lokality a dosahy jsou přizpůsobitelné.",
+    "fivemTowerDestruction": "FiveM Destrukce Věže",
+    "fivemTowerDestructionDescription": "Možnost (volitelně) umožnit hráčům demolovat fyzické věže, aby poškodili rádiový příjem.",
+    "onlyOnStatewide": "Povoleno pouze na státních frekvencích.",
+    "onlySelfFrequencies": "Povoleno měnit pouze vlastní frekvence"
+  },
+  "upgradePromo": {
+    "goProToday": "Upgradujte na Pro",
+    "learnMore": "Zjistit více"
+  },
+  "error404": {
+    "message": "Oops. Nic tu není...",
+    "goHome": "Jít domů"
+  },
+  "loginLink": {
+    "enterCode": "Zadejte svůj 4místný kód..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Ikona",
+      "color": "Barva",
+      "textColor": "Barva textu"
+    },
+    "colorLabel": "Barva",
+    "textColorLabel": "Barva textu"
+  },
+  "importExport": {
+    "title": "Import/Export JSON",
+    "export": "Exportovat",
+    "download": "Stáhnout",
+    "import": "Importovat",
+    "placeholder": "Vložte JSON zde",
+    "tooltip": "Importovat JSON soubor"
+  },
+  "getStartedButton": {
+    "learnMore": "Zjistit více"
+  },
+  "fivemView": {
+    "loginWithCode": "Přihlásit se s kódem",
+    "browserLoginInstruction": "Přejděte na {link} ve svém prohlížeči pro přihlášení",
+    "refresh": "Obnovit",
+    "unlink": "Odpojit"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Tísňová (911) volání",
+      "noEmergencyCalls": "Žádné tísňové volání!",
+      "noTransmissions": "Nenalezeny žádné přenosy",
+      "playAudio": "Přehrát zvuk",
+      "downloadFile": "Stáhnout soubor",
+      "redial": "Znovu vytočit {name}"
+    },
+    "peers": {
+      "kick": "Vyhodit",
+      "clearPanic": "Vymazat paniku",
+      "moveTo": "Přesunout do",
+      "displayName": "Zobrazovaný název",
+      "volume": "Hlasitost"
+    },
+    "settings": {
+      "rightClickToClear": "Klikněte pravým tlačítkem pro vyčištění"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Zpět na portál",
+    "leaveServer": "Opustit server",
+    "switchToStandalone": "Přepnout na samostatný režim",
+    "deleteCommunity": "Smazat komunitu"
+  },
+  "managementPage": {
+    "title": "Řídicí panel Sonoran Radio",
+    "subtitle": "Pouze pro budoucí miliardáře",
+    "searchTitle": "Hledat komunitu"
+  }
+}

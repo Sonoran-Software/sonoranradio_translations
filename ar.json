@@ -1,0 +1,794 @@
+{
+  "config": {
+    "displayName": "الإنجليزية (الولايات المتحدة)"
+  },
+  "common": {
+    "plans": {
+      "plan": "خطة",
+      "free": "مجاني",
+      "plus": "بلس",
+      "pro": "برو"
+    },
+    "language": "اللغة",
+    "portal": "البوابة",
+    "search": "بحث",
+    "account": "حساب",
+    "billing": "الفوترة",
+    "management": "إدارة",
+    "logout": "تسجيل الخروج",
+    "signup": "التسجيل",
+    "login": "تسجيل الدخول",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "learnMore": "تعرف على المزيد",
+    "actions": "الإجراءات",
+    "add": "إضافة",
+    "limited": "محدود",
+    "currently": "حاليًا",
+    "help": "مساعدة",
+    "select": "اختر",
+    "confirm": "تأكيد",
+    "premium": "متميز",
+    "needsInteger": "يجب أن يكون رقمًا صحيحًا",
+    "edit": "تحرير",
+    "delete": "حذف",
+    "reenable": "إعادة التفعيل",
+    "only": "{0} فقط",
+    "miscServer": "الخادم {id}",
+    "clipboard": "تم النسخ إلى الحافظة!",
+    "communityIdField": "معرّف المجتمع",
+    "copy": "نسخ",
+    "menu": "قائمة",
+    "refresh": "تحديث",
+    "unlink": "فصل",
+    "upload": "رفع",
+    "startToday": "ابدأ اليوم",
+    "notApplicable": "غير متوفر"
+  },
+  "hotkeys": {
+    "clearHotkey": "مسح مفتاح الاختصار",
+    "pressAKey": "اضغط على مفتاح",
+    "noKeySet": "لم يتم تعيين مفتاح"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "لوحة الإرسال",
+      "desc1": "بسهولة تصوّر وإدارة المستخدمين وتشغيل النغمات والمزيد!",
+      "desc2": "واجهة Sonoran Radios للإرسال متاحة في كل مكان على الويب وسطح المكتب لنظامي التشغيل Windows وOSX."
+    },
+    "Cloud_Configurations": {
+      "title": "التكوينات السحابية",
+      "desc": "لم يكن تخصيص راديوك أسهل من أي وقت مضى، مع التحديثات الحية من لوحة التكوين سهلة الاستخدام."
+    },
+    "Custom_Voice_Effects": {
+      "title": "تأثيرات صوتية مخصصة",
+      "desc": "خصص تأثيرات الصوت بأسلوب رقمي وتناظري لمجتمعك!"
+    },
+    "Customizable_SFX": {
+      "title": "تخصيص SFX",
+      "desc": "ضبط فقدان الإشارة في الأنفاق والمواقع تحت الأرض والمزيد!"
+    },
+    "ToneBoard": {
+      "title": "لوحة النغمات",
+      "desc1": "تحميل وتخصيص نغمات الإرسال لمجتمعك!",
+      "desc2": "واجهة Sonoran Radios للإرسال تسمح لك بتحديد قنوات ومجموعات محددة وتكرار النغمات والمزيد! يمكنك حتى تشغيل النغمات على مكبرات الصوت في اللعبة!"
+    },
+    "Transmission_Logs": {
+      "title": "سجلات الإرسال",
+      "desc": "عرض وتشغيل سجلات الإرسال مع خيارات النصوص المفهومة بالذكاء الاصطناعي!"
+    },
+    "Destructible_towers": {
+      "title": "الأبراج القابلة للتدمير",
+      "desc1": "الأبراج الفعلية في اللعبة يمكن تدميرها من قبل المجرمين، مما يؤدي إلى تراجع جودة الراديو حولها.",
+      "desc2": "مع ثلاثة أنواع مختلفة من نماذج اللعبة، تأخذ Sonoran Radio الانغماس إلى المستوى التالي!"
+    },
+    "Radio_Chattrer": {
+      "title": "سماع الثرثرة الراديوية القريبة",
+      "desc": "تم توقيفك في نقطة تفتيش مرور؟ سوف تسمع الثرثرة الراديوية الحقيقية عندما يكون لدى الضابط راديو نشط بالجوار!"
+    },
+    "VehicleDisplay": {
+      "title": "عرض المركبة",
+      "desc": "يعكس عرض الراديو ثلاثي الأبعاد الخاص بنا معلومات قناتك والمستخدم المرسل وحالة الذعر في الوقت الحقيقي، مما يجلب مستويات جديدة من الانغماس!"
+    },
+    "inGameToneBoard": {
+      "title": "لوحة النغمات إلى مكبرات الصوت في اللعبة",
+      "desc": "واجهة Sonoran Radios للإرسال تسمح لك بتحديد قنوات ومجموعات محددة وتكرار النغمات والمزيد! يمكنك حتى تشغيل النغمات على مكبرات الصوت في اللعبة!"
+    },
+    "EmergencyCalls": {
+      "title": "مكالمات الطوارئ في اللعبة",
+      "desc": "إجراء مكالمات الطوارئ إلى الإرسال، كل ذلك من داخل اللعبة!"
+    },
+    "Scanners": {
+      "title": "الماسحات الضوئية",
+      "desc": "تتيح لك الماسحات الضوئية في اللعبة وللآخرين القريبين الاستماع إلى حركة المرور الراديوية!"
+    },
+    "BackgroundAudio": {
+      "title": "الصوت الخلفي",
+      "desc": "تستجيب لنداء؟ تُدخل Sonoran Radio صفارات الإنذار والطلقات والمزيد في الوقت الحقيقي مباشرة إلى موجز الميكروفون الخاص بك للحصول على الانغماس النهائي."
+    },
+    "tunnelSignalLoss": {
+      "title": "فقدان إشارة النفق",
+      "desc": "ضبط فقدان الإشارة في الأنفاق والمواقع تحت الأرض والمزيد!"
+    },
+    "MultipleRadioOperations": {
+      "title": "خيارات راديو متعددة",
+      "desc1": "تقدم Sonoran Radio واجهات مستخدم داخل اللعبة متعددة، مما يسمح لك بالبقاء متصلاً أثناء التنقل أو أثناء القيادة وأكثر!",
+      "desc2": "اختر من بين أحد خيارات نمط الراديو لدينا، أو حتى أضف خيارك الخاص!"
+    },
+    "Sonoran_CAD": {
+      "title": "Sonoran CAD",
+      "desc": "يسمح هذا المكون الإضافي لعملاء Sonoran Radio بالاتصال بالراديو مع Sonoran CAD. عرض حالة الوحدة، معلومات مكالمة الإرسال، تفعيل حالة الذعر والمزيد!"
+    },
+    "Sonoran_CMS": {
+      "title": "Sonoran CMS",
+      "desc": "أتمتة أذونات Sonoran Radio باستخدام Sonoran CMS!"
+    },
+    "bigDaddyRadio": {
+      "title": "Big-Daddy Radio Animations",
+      "desc": "شراكة Sonoran Radio مع Big Daddy Scripts لتقديم نسخة مجانية من برنامج الرسوم المتحركة الراديو!"
+    },
+    "mobileCommandCenter": {
+      "title": "مركز القيادة المتحرك",
+      "desc": "يُمكّنك مركز القيادة المتنقل في Sonoran من القيادة بشكل لم يسبق له مثيل. يوفر هذا المركب متعدد الوظائف قدرات لا تنتهي!"
+    },
+    "Power_Grid": {
+      "title": "شبكة الطاقة",
+      "desc": "اخترق شبكة الطاقة المتكاملة لتعطيل أبراج الراديو في منطقتك! تعرف على المزيد حول هذه السكربت!"
+    },
+    "intro": "خذ تواصل ألعابك إلى المستوى التالي مع Sonoran Radio. تحدث في قنوات راديو واقعية، خصص تأثيرات الصوت واتصل بسهولة بميزات اللعبة للحصول على تجربة غامرة حقًا."
+  },
+  "splash": {
+    "introducing": "تقديم",
+    "marketExplain": "في السلامة العامة، البساطة والموثوقية أساسيتان عند اختيار نظام الاتصال. توفر Sonoran Radio نظام الاتصال الأكثر شمولاً وتكاملًا في السوق اليوم. يتميز هذا النظام الراديو بتكنولوجيا متقدمة، توفر تكوينات سمبلكس ودوبلكس، والبرمجة المستندة إلى السحابة، وشبكة راديوية قابلة للتوسع ومدعومة بالمكررات.",
+    "feats": "كاملة مع الرسائل النصية بين الأفراد وتكامل Sonoran CAD، تضع Sonoran Radio أجهزة الاتصالات المتكاملة في أيدي أفرادك والمراسلة داخل اللعبة. جربها مجانًا اليوم!",
+    "getStarted": "ابدأ اليوم",
+    "toPortal": "الذهاب إلى البوابة",
+    "learnMore": "تعرف على المزيد"
+  },
+  "misc": {
+    "welcome": "مرحبًا",
+    "welcomeTo": "مرحبًا بكم في Sonoran Radio!",
+    "learnMoreAboutRadio": "تعرف على المزيد حول كيف يمكن أن يُحدث Sonoran Radio ثورة في اللعب الخاص بك!"
+  },
+  "errors": {
+    "common": {
+      "enterPassword": "يرجى إدخال كلمة مرور.",
+      "enterEmail": "يرجى إدخال عنوان بريدك الإلكتروني."
+    },
+    "misc": {
+      "noLocalStorageSupport": "متصفحك لا يدعم التخزين المحلي أو قد يكون معطلًا."
+    },
+    "signup": {
+      "passwordNoUppercase": "كلمة المرور لا تحتوي على أي حروف كبيرة",
+      "passwordNoNumber": "كلمة المرور لا تحتوي على أي رقم",
+      "passwordNoSymbol": "كلمة المرور لا تحتوي على أي رمز ({'!@#$%^&*'})",
+      "invalidPassword": "كلمة مرور غير صالحة",
+      "passwordNotMoreThan": "كلمة المرور ليست أطول من 6 أحرف",
+      "passwordsDontMatch": "كلمات المرور لا تتطابق.",
+      "noUsername": "لم يتم تحديد اسم المستخدم.",
+      "noEmail": "لم يتم تحديد البريد الإلكتروني.",
+      "noPassword": "لم يتم تحديد كلمة المرور.",
+      "usernameNotLongEnough": "اسم المستخدم ليس أطول من 4 أحرف.",
+      "usernameTooLong": "اسم المستخدم طويل جدًا.",
+      "invalidEmail": "البريد الإلكتروني المحدد ليس عنوان بريد إلكتروني صالح، يرجى استخدام عنوان بريد إلكتروني آخر.",
+      "usernameInvalidCharacter": "اسم المستخدم يحتوي على حرف غير صالح."
+    }
+  },
+  "login": {
+    "loginWithSonoran": "تسجيل الدخول باستخدام Sonoran",
+    "createAccount": "إنشاء حساب",
+    "forgotPassword": "نسيت كلمة المرور",
+    "forgotPasswordDesc": "نسيت كلمة مرور حساب Sonoran الخاص بك؟ أدخل بريدك الإلكتروني أدناه لإعادة تعيين بيانات اعتمادك."
+  },
+  "signup": {
+    "emailPreferencesDesc": "أرسل لي الإعلانات المهمة والتحديثات والعروض.",
+    "verifyPassword": "تحقق من كلمة المرور",
+    "checkEmail": "تحقق من بريدك الإلكتروني وحقق حسابك.",
+    "checkSpam": "تأكد من التحقق من مجلد البريد العشوائي إذا لم تتمكن من تحديد موقع البريد الإلكتروني."
+  },
+  "serverCommon": {
+    "nicknameInput": "اللقب",
+    "nicknameInputDesc": "قم بتعيين لقب مخصص لمجتمعك، والذي ستراه أنت وأعضاؤك",
+    "serverUidInput": "رقم تعريف خادم TeamSpeak",
+    "serverUidInputDesc": "أدخل رقم تعريف خادم TeamSpeak 3 هنا"
+  },
+  "registerServer": {
+    "registerATSServer": "تسجيل خادم TeamSpeak",
+    "registerATSServerDesc": "سجل خادم TeamSpeak الخاص بك للسماح لخادمك باستخدام مكون Sonoran Radio TeamSpeak الإضافي.",
+    "registerAStandServer": "تسجيل مجتمع",
+    "registerAStandServerDesc": "سجل مجتمعك لاستخدام Sonoran Radio.",
+    "submit": "تسجيل الخادم",
+    "errExists": "رقم تعريف خادم TeamSpeak المقدم موجود بالفعل على خادم موثوق به، يرجى استخدام رقم تعريف خادم TS آخر",
+    "errUnknown": "حدث خطأ أثناء محاولة الحصول على معلومات الخادم، يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "radio": {
+    "toneBoard": {
+      "broadcastTo": "إرسال إلى",
+      "noTones": "لا نغمات",
+      "seconds": "ثواني",
+      "count": "عدد",
+      "newTone": "نغمة جديدة",
+      "title": "لوحة النغمات",
+      "subtitle": "تخصيص نغمات الإرسال لمجتمعك",
+      "repeat": "تكرار",
+      "stack": "تكديس",
+      "aiTts": "نص إلى كلام AI",
+      "audioMode": "وضع الصوت",
+      "aiMode": "وضع AI",
+      "generate": "إنشاء",
+      "preview": "معاينة",
+      "voices": "أصوات",
+      "toneLabel": "تصنيف النغمة",
+      "speed": "سرعة",
+      "recording": "تسجيل",
+      "inGameSpeaker": "مكبر الصوت في اللعبة",
+      "inGameSpeakerGroup": "مجموعة مكبر الصوت في اللعبة"
+    },
+    "channelDialog": {
+      "channelTitle": "تغيير القناة",
+      "scanTitle": "قائمة المسح"
+    },
+    "settingsDialog": {
+      "title": "الإعدادات",
+      "audioTab": "الصوت",
+      "fivemTab": "FiveM",
+      "hotkeysTab": "مفاتيح اختصار",
+      "sfxTab": "تأثيرات صوتية",
+      "troubleHearingInGame": "هل تواجه مشكلة في السماع في اللعبة؟",
+      "volume": "مستوى الصوت",
+      "sfxVolume": "مستوى الصوت التأثيري",
+      "automaticGainControlEnabled": "التحكم التلقائي في الكسب مفعل",
+      "automaticGainControlDisabled": "التحكم التلقائي في الكسب معطل",
+      "changingOutputsUnsupported": "جهازك لا يدعم تغيير مخرجات الصوت",
+      "volumeHotkeyChange": "تغيير مفتاح اختصار مستوى الصوت",
+      "pttOffDelay": "تأخير إيقاف PTT",
+      "resetPeerVolumes": "إعادة تعيين مستويات الصوت الزملاء",
+      "resetSettings": "إعادة تعيين الإعدادات",
+      "macosPermWarning": "قد يحتاج جهازك إلى أذونات إضافية: {link}",
+      "macosPermWarningLink": "تعلم كيفية منح الأذونات",
+      "webHotkeyWarning": "مفاتيح الاختصار تعمل فقط عندما تكون نافذة المتصفح مركزة. {link} للحصول على مفاتيح الاختصار العامة",
+      "webHotkeyWarningLink": "قم بتنزيل التطبيق المكتبي",
+      "moveResize": "تحريك/تغيير الحجم",
+      "unlink": "إلغاء الربط",
+      "toggleBackgroundAudio": "الصوت الخلفي",
+      "volumeChangeSirens": "تغيير مستوى الصوت مع صفارات الإنذار",
+      "escapeMode": "وضع الهروب",
+      "escapeModeKeep": "حافظ على رؤية الراديو",
+      "escapeModeKeepTooltip": "يظل الراديو مرئيًا عند الضغط على ESC",
+      "escapeModeHide": "إخفاء الراديو",
+      "escapeModeHideTooltip": "يغلق الراديو عند الضغط على ESC",
+      "escapeModeXmit": "XMIT (PTT)",
+      "escapeModeXmitTooltip": "يغلق الراديو عند الضغط على ESC، لكنه مرئي عند الإرسال",
+      "selectRadioFrame": "إطار الراديو",
+      "myPttSfx": "تأثيرات صوتية لـ My PTT",
+      "othersPttSfx": "تأثيرات صوتية لـ PTT الآخرين",
+      "channelTts": "النص إلى كلام القناة",
+      "hearScannedWhileXmit": "استمع أثناء المسح الضوئي عند الإرسال",
+      "keyupSfx": "تأثيرات صوتية للتشغيل",
+      "keydownSfx": "تأثيرات صوتية للإيقاف"
+    },
+    "connect": "اتصال",
+    "selectServer": "حدد الخادم",
+    "microphonePTT": "ضغط للتحدث الميكروفون",
+    "openInNewWindow": "فتح في نافذة جديدة",
+    "backToPortal": "العودة إلى البوابة",
+    "recvFreq": "RECV: {0}MHz",
+    "xmitFreq": "XMIT {0}MHz",
+    "stopXmit": "إيقاف XMIT",
+    "multiXmit": "CTRL + Click XMIT المتعدد",
+    "muteScan": "كتم {0}",
+    "listenScan": "الاستماع إلى {0}",
+    "setHotkeyFor": "تعيين مفتاح اختصار لـ {0}",
+    "hiddenChannel": "قناة مخفية (مرئية لك)",
+    "configureChannel": "تكوين {0}",
+    "addNewChannel": "إضافة قناة جديدة",
+    "showChannelIds": "عرض معرفات القنوات",
+    "channelList": "قائمة القنوات",
+    "scanList": "قائمة المسح"
+  },
+  "authMember": {
+    "title": "أنت بانتظار الموافقة",
+    "subtitle": "قبل أن تتمكن من استخدام Sonoran Radio لـ {serverName}، يجب أن تكون موافقًا عليه من قبل مالك الخادم أو مدير المجتمع. يرجى الانتظار للموافقة.",
+    "subtitleShort": "قبل استخدام Sonoran Radio في هذا المجتمع، يجب أن تتم الموافقة على استخدامك من قِبل طاقم المجتمع",
+    "leaveMsg": "هل أنت متأكد أنك تريد مغادرة مجتمع Sonoran Radio هذا؟",
+    "errLeave": "حدث خطأ غير متوقع أثناء مغادرة المجتمع."
+  },
+  "authServer": {
+    "title": "التحقق من صحة خادم TeamSpeak الخاص بك",
+    "subtitle": "تحقق من صحة خادم TeamSpeak الخاص بك من خلال عملية التحقق السهلة باستخدام المكون الإضافي لوحدة التحكم Sonoran Radio ولوحة الويب. أثناء عملية التحقق هذه، سيرى الأفراد في خادم TeamSpeak الخاص بك الذين لديهم أذونات كافية نافذة منبثقة تذكر ضرورة الحصول على إذن. إذا قمت بإدخال معرف خادم TeamSpeak الخاص بك بشكل غير صحيح، يمكنك تغييره أدناه. إذا لم تكن ترى النافذة المنبثقة من Sonoran Radio في TeamSpeak، يرجى التحقق من أنك قد أدخلت المعرف الصحيح وأنك تملك على الأقل الإصدار v0.2.0 من المكون الإضافي مثبتًا. وإلا، اتصل بالدعم.",
+    "authCodeTitle": "رمز التفويض",
+    "clickToCopy": "انقر للنسخ",
+    "copiedCode": "تم نسخ رمز التصريح للخادم إلى الحافظة",
+    "submit": "حفظ الخادم",
+    "errSave": "حدث خطأ غير متوقع أثناء حفظ الخادم.",
+    "errDelete": "حدث خطأ غير متوقع أثناء حذف الخادم."
+  },
+  "manageServer": {
+    "settings": {
+      "title": "الإعدادات الافتراضية",
+      "subtitle": "قم بتكوين الإعدادات الافتراضية لمجتمعك. يمكن للمستخدمين تخصيص تفضيلاتهم الخاصة، ولكن هذه ستكون نقطة البدء الافتراضية.",
+      "agc": "التحكم في الكسب التلقائي",
+      "agcDesc": "اضبط تلقائيًا حجم إدخال الميكروفون لمعادلة حجم جميع المستخدمين.",
+      "hearPttSfx": "تشغيل مؤثرات صوتية لـ PTT",
+      "hearPttSfxDesc": "تشغيل صوت PTT عندما تضغط على الميكروفون.",
+      "hearOtherPttSfx": "تشغيل مؤثرات صوتية لـ PTT الآخرين",
+      "hearOtherPttSfxDesc": "تشغيل صوت PTT عندما يضغط مستخدمون آخرون على الميكروفون.",
+      "muteScannedWhileTransmitting": "كتم المسح الضوئي أثناء الإرسال",
+      "muteScannedWhileTransmittingDesc": "كتم القنوات الممسوحة أثناء الإرسال على قناة.",
+      "sirenVolume": "مستوى صوت الصفارة",
+      "sirenVolumeDesc": "عندما يتم تنشيط صفارة الإنذار في اللعبة، يمكنك إضافة/طرح إلى مستوى الصوت.",
+      "tts": "النص إلى صوت القناة",
+      "ttsDesc": "تشغيل نص إلى صوت اسم القناة عند تغيير القنوات.",
+      "keyUpDelay": "تأخير الرفع",
+      "keyUpDelayDesc": "التأخير بعد انتهاء الإرسال قبل تحرير الميكروفون.",
+      "volChange": "تغيير مستوى الصوت",
+      "volChangeDesc": "تغيير مستوى الصوت بالنسب المئوية عند استخدام مفاتيح الاختصار لرفع/خفض مستوى الصوت."
+    },
+    "importSAPR": {
+      "btn": "استيراد إعدادات SAPR",
+      "jsonTitle": "استيراد إعدادات SAPR",
+      "jsonMsg": "ألصق إعدادات SAPR بصيغة JSON هنا",
+      "confirmMsg": "أنت على وشك استيراد {n} قنوات. هل أنت متأكد؟"
+    },
+    "patrolChannels": {
+      "range": {
+        "short": "نطاق قصير",
+        "medium": "نطاق متوسط",
+        "long": "نطاق طويل"
+      },
+      "title": "قنوات الدوريات",
+      "subtitle": "قنوات الدوريات هي قنوات TeamSpeak المصرح لها باستخدام وظيفة مكون Sonoran Radio TeamSpeak الإضافي.",
+      "nickname": "اللقب",
+      "channelUid": "معرف قناة TS",
+      "allowTalkover": "السماح بالتحدث",
+      "talkAroundRange": "نطاق التحدث",
+      "addChannel": "إضافة قناة دورية",
+      "explainDisabled": "تم تعطيل قناة الدورية بسبب الترقية إلى خطة أقل، يجب إزالة قنوات الدورية الأخرى قبل أن تتمكن من إعادة تفعيل هذه.",
+      "explainDisabledCanReenable": "تم تعطيل قناة الدورية بسبب الترقية إلى خطة أدنى، ولكن يمكنك إعادة تفعيلها في القائمة المنسدلة!",
+      "dialogAddTitle": "إضافة قناة دورية",
+      "dialogEditTitle": "تحرير قناة دورية",
+      "dialogSubtitle": "قناة دورية هي قناة TeamSpeak المصرح لها باستخدام وظيفة مكون Sonoran Radio TeamSpeak الإضافي. هنا ستقوم بتعيين معرف قناة TeamSpeak وتحدد ما إذا كان يجب أن تسمح \"قناة الدورية\" بميزة التحدث.",
+      "channelUidInput": "معرف قناة TS - مطلوب",
+      "customizeTalkaround": "تخصيص نطاق التحدث",
+      "legacyChannelUidWarn": "تم التوقف عن استخدام هذه الصيغة لمعرفة القناة. يرجى الترقية إلى أحدث إصدار من Sonoran Radio TS والتحديث إلى معرفات رقمية جديدة",
+      "errSave": "حدث خطأ غير متوقع أثناء حفظ قناة الدورية.",
+      "errReenable": "حدث خطأ غير متوقع أثناء تفعيل قناة الدورية.",
+      "errDelete": "حدث خطأ غير متوقع أثناء حذف قناة الدورية."
+    },
+    "profiles": {
+      "title": "الملفات الشخصية",
+      "titleStandalone": "القنوات",
+      "subtitle": "الملفات الشخصية هي إعدادات التردد المسبق للسماح بانتقال سهل بين ترددات محددة دون الحاجة إلى كتابة كل تردد يدويًا.",
+      "addProfile": "إضافة ملف شخصي",
+      "addProfileStandalone": "إضافة قناة",
+      "reorder": "إعادة ترتيب الروبوتات الشخصية",
+      "reorderStandalone": "إعادة ترتيب القنوات",
+      "displayName": "اسم العرض",
+      "recvFreq": "تردد الاستقبال",
+      "xmitFreq": "تردد الإرسال",
+      "repeatsXmit": "يكرر تردد الإرسال",
+      "pronounce": "النطق",
+      "preventTalkover": "منع التحدث",
+      "talkoverPrevented": "تم منع التحدث",
+      "talkoverAllowed": "التحدث مسموح",
+      "setAsDefault": "تعيين كملف شخصي افتراضي",
+      "defaultProfile": "ملف شخصي افتراضي",
+      "explainDisabled": "تم تعطيل الملف الشخصي بسبب الترقية إلى خطة أدنى، يجب إزالة الملفات الشخصية الأخرى قبل أن تتمكن من إعادة تفعيل هذا.",
+      "explainDisabledCanReenable": "تم تعطيل الملف الشخصي بسبب الترقية إلى خطة أدنى، ولكن يمكنك إعادة تفعيل الملف الشخصي هذا في القائمة المنسدلة!",
+      "dialogAddTitle": "إضافة ملف شخصي",
+      "dialogEditTitle": "تحرير ملف شخصي",
+      "dialogAddTitleStandalone": "إضافة قناة",
+      "dialogEditTitleStandalone": "تحرير قناة",
+      "dialogSubtitle": "الملف الشخصي هو إعداد تردد مسبق يسمح بالانتقال السهل بين ترددات محددة دون الحاجة إلى كتابة كل تردد يدويًا. هنا ستقوم بتعيين اسم العرض (اختياري)، تردد الاستقبال (مطلوب)، تردد الإرسال (اختياري)، وما إذا كان سيتم تكرار تردد الإرسال.",
+      "dialogSubtitleStandalone": "",
+      "displayNameInput": "اسم العرض - مطلوب",
+      "errSave": "حدث خطأ غير متوقع أثناء حفظ الملف الشخصي.",
+      "errDelete": "حدث خطأ غير متوقع أثناء حذف الملف الشخصي.",
+      "errSetDefault": "حدث خطأ غير متوقع أثناء تعيين الملف الشخصي الافتراضي.",
+      "errReenable": "حدث خطأ غير متوقع أثناء إعادة تفعيل الملف الشخصي.",
+      "voiceEffect": "تأثير الصوت",
+      "visibilityOptions": {
+        "public": "عام",
+        "private": "خاص"
+      },
+      "basicMode": "أساسي",
+      "advancedMode": "متقدم",
+      "shareWith": "مشاركة مع",
+      "sharedTooltip": "تعكس القنوات المشتركة الوصول والترددات الخاصة بقناة أخرى مرتبطة. توفر الوصول إلى نفس مسار التواصل عند الاتصال بأي من القناتين.",
+      "standardTooltip": "تعمل القنوات القياسية بشكل مستقل مع تردداتها ووصولها الخاصين. استخدم هذا الوضع عندما يجب أن تكون القناة مستقلة.",
+      "visibility": "الوضوح",
+      "recvFreqTooltip": "التردد لاستقبال الإرسالات عليه. هذا فقط للعرض الجمالي في واجهة المستخدم الخاصة بالراديو.",
+      "xmitFreqTooltip": "التردد للإرسال عليه. هذا فقط للعرض الجمالي في واجهة المستخدم الخاصة بالراديو.",
+      "editGroup": "تعديل المجموعة",
+      "deleteGroup": "حذف المجموعة",
+      "ttsPreview": "معاينة النص إلى كلام",
+      "ttsFailed": "فشل توليد النص إلى كلام أو ليس له وجود.\nقم بإعادة حفظ القناة لتوليد.",
+      "privateChannel": "قناة خاصة",
+      "pronounceTooltip": "طريقة نطق متقدمة لنص القناة بالذكاء الصناعي.",
+      "addGroup": "إضافة مجموعة",
+      "groupName": "اسم المجموعة"
+    },
+    "micClick": {
+      "header": "تخصيص التأثيرات الصوتية",
+      "subheader": "خصص المؤثرات الصوتية لمجتمعك بأكمله.",
+      "keyUpSfx": "تأثيرات صوتية للتشغيل",
+      "keyDownSfx": "تأثيرات صوتية للإيقاف",
+      "talkoverSfx": "تأثيرات صوتية للتحدث",
+      "overrideSuccessSfx": "تأثيرات صوتية لتجاوز التحدث بنجاح",
+      "emergencyCallSfx": "تأثيرات صوتية لمكالمة طوارئ",
+      "panicSfx": "تأثيرات صوتية زر الذعر",
+      "sfxVolUp": "تأثيرات صوتية لزيادة مستوى الصوت (مفتاح اختصار)",
+      "sfxVolDown": "تأثيرات صوتية لخفض مستوى الصوت (مفتاح اختصار)",
+      "simulatedAudio": "تأثيرات صوتية الخلفية أثناء اللعبة",
+      "simulatedAudioSubtitle": "يمزج حقن الصوت الخلفي الأصوات في اللعبة - مثل صفارات الإنذار، ودوارات المروحيات، ومحركات القوارب، وأصوات الطلقات - في مخرج الميكروفون الخاص بك.",
+      "sfxGameSiren": "تأثيرات صوتية صفارة الإنذار في اللعبة",
+      "sfxGameBoatEngine": "تأثيرات صوتية محرك القارب في اللعبة",
+      "sfxGameHelicopterRotors": "تأثيرات صوتية دوارات المروحية في اللعبة",
+      "sfxGamePistol": "تأثيرات صوتية مسدس في اللعبة",
+      "sfxGamePistolSilenced": "تأثيرات صوتية مسدس مخمد في اللعبة",
+      "sfxGameRifle": "تأثيرات صوتية بندقية في اللعبة",
+      "sfxGameRifleSilenced": "تأثيرات صوتية بندقية مخمدة في اللعبة"
+    },
+    "voiceCustomization": {
+      "header": "تخصيص الصوت",
+      "subheader": "خصص تأثيرات الصوت الراديوية لمجتمعك.",
+      "input": "إدخال",
+      "useForEmergency": "استخدام لمكالمات الطوارئ",
+      "name": "اسم",
+      "signalStrength": "قوة الإشارة",
+      "vocoderPreviewWarning": "معاينة صوت vocoder غير متاحة بعد."
+    },
+    "perms": {
+      "types": {
+        "dispatch::open": {
+          "name": "فتح واجهة الإرسال",
+          "desc": "يمنح هذا الإذن القدرة على فتح واجهة الإرسال"
+        },
+        "dispatch::ext_commands": {
+          "name": "تعديل مستخدم القناة",
+          "desc": "يمنح هذا الإذن القدرة على تغيير ترددات مستخدمي القناة وألقابهم من خلال واجهة الإرسال"
+        },
+        "tg::talkover_override": {
+          "name": "تجاوز حماية الحديث",
+          "desc": "يمنح هذا الإذن القدرة على النقر المزدوج على زر PTT الخاص بك للتحدث فوق مستخدم آخر"
+        },
+        "menu::radio_lock": {
+          "name": "قفل الراديو",
+          "desc": "تمنح هذا الإذن القدرة على إيقاف بث شخص آخر إذا كانوا بالفعل يبثون"
+        },
+        "menu::radio_attn": {
+          "name": "جذب انتباه الراديو",
+          "desc": "يمنح هذا الإذن القدرة على تشغيل صوت على راديو شخص آخر لجذب انتباهه"
+        }
+      },
+      "title": "الأذونات",
+      "subtitle": "تتيح لك الأذونات تغيير كيفية تفاعل المستخدمين مع مكون Sonoran Radio الإضافي، وماذا يمكنهم التفاعل معه.",
+      "addPerm": "إضافة إذن",
+      "nickname": "اللقب",
+      "permName": "اسم الإذن",
+      "serverGroup": "مجموعة الخادم",
+      "dialogTitle": "إضافة إذن",
+      "dialogSubtitle": "يمنح مجموعة الخوادم إذنًا محددًا في Sonoran Radio. لمعرفة المزيد حول الأذونات وكيفية الحصول على مجموعات الخوادم، يرجى الاطلاع على وثائق Sonoran Radio.",
+      "serverGroupInput": "مجموعة الخادم - مطلوب",
+      "permInput": "إذن",
+      "explainPrefix": "ما الذي يفعله هذا؟",
+      "invalidGroupId": "مجموعة الخادم غير صالحة، يجب أن تكون رقمًا.",
+      "errSave": "حدث خطأ غير متوقع أثناء حفظ الإذن.",
+      "errDelete": "حدث خطأ غير متوقع أثناء حذف الإذن."
+    },
+    "myself": {
+      "title": "معلومات مجتمعك",
+      "subtitle": "عرض وتحرير إعدادات مجتمعك"
+    },
+    "members": {
+      "title": "أعضاء المجتمع",
+      "subtitle": "إدارة أذونات المستخدم والوصول في مجتمعك.",
+      "username": "اسم المستخدم",
+      "displayName": "اسم العرض",
+      "traits": "السمات",
+      "actions": "إجراءات",
+      "owner": "المالك",
+      "subOwner": "مالك الاشتراك",
+      "remove": "إزالة",
+      "explainDisabled": "يمكن فقط لأصحاب الخوادم إضافة أو تعديل المديرين",
+      "removeWarn": "تحذير",
+      "removeWarnSubHolderMsg": "ستؤدي إزالة حامل الاشتراك إلى تخفيض هذا الخادم إلى الاشتراك المجاني! هل أنت متأكد أنك تريد المتابعة؟",
+      "removeWarnSelfMsg": "هل أنت متأكد أنك تريد إزالة نفسك من هذا الخادم؟ ستفقد الوصول وسيضطر مالك الخادم إلى إضافتك مجددًا.",
+      "errAddInvalidAccount": "اسم المستخدم المقدم غير موجود",
+      "errAddUnknown": "حدث خطأ غير معروف أثناء إضافة المدير",
+      "errRemoveUnknown": "حدث خطأ غير معروف أثناء إزالة المدير",
+      "permissionsBtn": "الأذونات",
+      "approveBtn": "الموافقة",
+      "kickBtn": "طرد",
+      "filterAll": "الكل",
+      "filterPending": "معلق",
+      "search": "بحث",
+      "pending": "معلق",
+      "paysSubscription": "يدفع الاشتراك",
+      "setDisplayName": "تعيين اسم العرض",
+      "editMemberPerms": "تعديل أذونات العضو",
+      "ownerHasAllPerms": "مالك المجتمع لديه جميع الأذونات",
+      "privateChannels": "القنوات الخاصة",
+      "selectPrivateChannels": "حدد القنوات الخاصة التي يُسمح للمستخدم بالانضمام إليها"
+    },
+    "ai": {
+      "services": {
+        "0": "تسجيلات نقل STT",
+        "1": "Tone Board STT"
+      },
+      "title": "مفاتيح API للذكاء الاصطناعي",
+      "addKey": "إضافة مفتاح AI"
+    },
+    "admin": {
+      "communityApiKeyField": "مفتاح API الخاص بالمجتمع",
+      "updateApiKey": "تحديث مفتاح API",
+      "apiInfoTitle": "معلومات API",
+      "apiInfoHint": "أعط هذا لأعضاءك عند دعوتهم إلى المجتمع"
+    },
+    "guidesLink": "دليل معلومات Sonoran Radio",
+    "toPortal": "العودة إلى البوابة",
+    "saveServer": "حفظ الخادم",
+    "unauthorizeServer": "إلغاء تفويض الخادم",
+    "deleteServer": "حذف المجتمع",
+    "transferServer": "نقل المجتمع",
+    "dispatchTab": "الإرسال",
+    "membersTab": "الأعضاء",
+    "customizeTab": "تخصيص",
+    "adminTab": "الإدارة",
+    "saveInfo": "حفظ معلومات الخادم",
+    "explainOwnerOnly": "فقط المالك يمكنه تغيير هذا الإعداد",
+    "noPermPage": "ليس لديك إذن لعرض هذه الصفحة",
+    "unauthorizeMsg": "هل أنت متأكد أنك تريد إلغاء تفويض هذا التكوين؟",
+    "deleteMsg": "هل أنت متأكد أنك تريد حذف هذا التكوين؟ سيؤدي ذلك إلى فقدان البيانات بشكل لا يمكن عكسه.",
+    "unauthorizeSuccess": "تم إلغاء تفويض الخادم بنجاح",
+    "deleteSuccess": "تم حذف الخادم بنجاح",
+    "errServerCheck": "حدث خطأ غير متوقع أثناء التحقق من الخادم الخاص بك.",
+    "errUidTaken": "معرف خادم TeamSpeak مستخدم بالفعل بواسطة خادم آخر مفوض.",
+    "errSaveInfo": "حدث خطأ غير متوقع أثناء حفظ معلومات الخادم الخاص بك.",
+    "errImport": "حدث خطأ غير متوقع أثناء استيراد إعدادات SAPR الخاصة بك.",
+    "errImportNotFound": "لم يتم العثور على إعدادات SAPR لخادم TeamSpeak UID الخاص بك.",
+    "errUnauthorize": "حدث خطأ غير متوقع أثناء إلغاء تفويض الخادم الخاص بك.",
+    "customizeMenu": {
+      "info": "معلومات",
+      "patrolChannels": "قنوات الدورية",
+      "channelsGroups": "القنوات والمجموعات",
+      "profiles": "الملفات الشخصية",
+      "permissions": "أذونات",
+      "voiceCustomization": "تخصيص الصوت",
+      "sfxCustomization": "تخصيص الصوتيات",
+      "toneBoard": "لوحة النغمات",
+      "fivemIntegration": "تكامل FiveM",
+      "defaultSettings": "الإعدادات الافتراضية",
+      "ai": "الذكاء الاصطناعي",
+      "customDomain": "نطاق مخصص"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "معرف",
+        "name": "الاسم",
+        "origin": "IP/المنشأ",
+        "pushUrl": "رابط الدفع",
+        "actions": "إجراءات"
+      },
+      "customCommunityIdHint": "اضبط معرف المجتمع المخصص الخاص بك، والذي ينطبق على رابط URL الفاني، وموارد FiveM، والانضمام للمجتمع",
+      "communityServers": "خوادم المجتمع",
+      "communityServersSubtitle": "أضف أو قم بإزالة الخوادم لتفصل اتصالات الراديو الخاصة بك",
+      "addServer": "إضافة خادم"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "نوع",
+        "name": "الاسم",
+        "content": "المحتوى"
+      },
+      "requiresPro": "يجب أن يكون لديك اشتراك Pro لضبط نطاق مخصص",
+      "chooseName": "اختر اسم النطاق الخاص بك",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "يجب أن تمتلك اسم النطاق الخاص بك!",
+      "verifyTitle": "تحقق من النطاق الخاص بك",
+      "verified": "مبروك، تم التحقق من النطاق المخصص الخاص بك!",
+      "tryItOut": "جربه",
+      "defaultRecordName": "@ أو فارغ",
+      "verifyButton": "تحقق من النطاق المخصص",
+      "vanityTitle": "رابط URL الفاني المجاني",
+      "vanityLabel": "رابط URL الفاني",
+      "vanityCopied": "تم نسخ رابط URL الفاني إلى الحافظة!"
+    },
+    "transfer": {
+      "title": "نقل المجتمع",
+      "selectNewOwner": "اختر مالكًا جديدًا",
+      "warning": "هل أنت متأكد أنك تريد نقل مجتمعك؟ لن تكون مالك المجتمع بعد الآن، وقد تفقد أذوناتك",
+      "confirmInstruction": "اكتب {code} لتأكيد النقل (حساس لحالة الأحرف)",
+      "confirmLabel": "تأكيد النقل",
+      "cancel": "إلغاء",
+      "ok": "حسنًا",
+      "requestCreatedTitle": "تم إنشاء طلب النقل",
+      "requestCreatedMsg": "النقل لم يكتمل بعد! بريد إلكتروني قد أرسل إليك لتحقيق إضافي"
+    }
+  },
+  "portal": {
+    "title": "بوابة Sonoran Radio",
+    "subtitle": "مرحبًا بكم في مركز العمليات! هنا يمكنك تحرير الاشتراكات في بوابة الفواتير، وإدارة إعدادات المجتمع باستخدام لوحة التكوين السهلة، أو التسجيل لخادم جديد بالكامل باستخدام معالج الإعداد الخاص بنا.",
+    "myCommunities": "مجتمعاتي",
+    "beginTitle": "ابدأ رحلتك",
+    "billingPortal": "الاشتراكات والفوترة",
+    "documentation": "التوثيق",
+    "pendingAuth": "الترخيص المعلق",
+    "needsTsAuth": "يحتاج إلى ترخيص TeamSpeak3",
+    "needsMemberAuth": "الموافقة المعلقة",
+    "upgradeServer": "ترقية",
+    "leaveServer": "مغادرة",
+    "discovery": "الاكتشاف",
+    "discoveryGrowingRapidly": "هذا المجتمع ينمو بسرعة",
+    "discoveryHighTraffic": "يتلقى هذا المجتمع نسبة عالية من حركة المرور على الموقع",
+    "discoveryActiveMembers": "يحتوي هذا المجتمع على بعض أنشط الأعضاء",
+    "discoveryRecentlyBumped": "تم رفع هذا المجتمع مؤخرًا",
+    "joinACommunity": "انضم إلى مجتمع Sonoran Radio",
+    "needACommunity": "هل تحتاج إلى مجتمع Sonoran Radio جديد؟",
+    "beginYourJourney": "ابدأ رحلتك!"
+  },
+  "billing": {
+    "statuses": {
+      "active": "نشط",
+      "unpaid": "غير مدفوع",
+      "incomplete": "غير مكتمل",
+      "incomplete_expired": "غير مكتمل ومنتهي الصلاحية",
+      "past_due": "متأخر عن السداد",
+      "canceled": "ملغى"
+    },
+    "newSubDialog": {
+      "title": "اشتراك جديد",
+      "chooseSub": "اختر اشتراك",
+      "chooseSv": "اختر خادم",
+      "plus": "خطة بلس ($14.99/شهر)",
+      "pro": "خطة برو ($19.99/شهر)",
+      "one": "Sonoran One ($49.99/شهر)",
+      "mostPop": "الأكثر شعبية",
+      "oneLearnMore": "تعرف على المزيد حول Sonoran One",
+      "noServer": "لا يوجد خادم",
+      "noServerDesc": "لن يتم ربط هذا الاشتراك بأي مجتمع. ستتمكن من تغييره لاحقًا.",
+      "errCreate": "حدث خطأ غير متوقع أثناء إنشاء الاشتراك",
+      "expertInstallation": "تركيب خبير"
+    },
+    "changeSvDialog": {
+      "title": "تحديث الاشتراك",
+      "subtitle": "اختر خادم",
+      "removeServer": "إزالة الخادم",
+      "errSave": "حدث خطأ غير متوقع أثناء تغيير الاشتراك"
+    },
+    "confirmChangeSub": {
+      "title": "تغيير الاشتراك",
+      "remove": "هل أنت متأكد أنك تريد إزالة هذا الخادم من اشتراكك؟",
+      "transfer": "هل أنت متأكد أنك تريد نقل هذا الاشتراك إلى خادم آخر؟",
+      "set": "هل أنت متأكد أنك تريد تعيين هذا الخادم لاشتراكك؟",
+      "possibleDataLoss": "إذا قمت بنقل أو إزالة اشتراكك، قد يحدث فقدان للبيانات على الخادم السابق."
+    },
+    "toPortal": "العودة إلى البوابة",
+    "newSub": "اشتراك جديد",
+    "compPlans": "مقارنة الخطط",
+    "modifySub": "تعديل الاشتراك",
+    "chooseSub": "اختر خطة الاشتراك",
+    "alreadyActiveSub": "لديه بالفعل اشتراك نشط",
+    "isUnauthorized": "لا يمكن تطبيق الاشتراكات على خوادم غير مصرح لها",
+    "noServerAssociated": "لا يوجد خادم مرتبط",
+    "setServer": "تعيين الخادم",
+    "changeServer": "تغيير الخادم",
+    "errCheck": "حدث خطأ غير متوقع أثناء التحقق من اشتراكك"
+  },
+  "account": {
+    "tokenTitle": "سر تسجيل الدخول للراديو",
+    "tokenDesc": "انسخ هذا الرمز لاستخدامه لتسجيل الدخول إلى راديو FiveM!",
+    "tokenDescWarning": "هذا الرمز سري ولا يجب مشاركته مع أي شخص!",
+    "tokenInputLabel": "سر تسجيل الدخول الخاص بك",
+    "tokenLoadBtn": "انقر للعرض",
+    "tokenCopied": "تم نسخ هذا السر إلى الحافظة!",
+    "serversTitle": "خوادمك",
+    "serversDesc": "يمكنك هنا عرض جميع مجتمعات Sonoran Radio التي تملكها أو تديرها",
+    "noServers": "لا توجد خوادم"
+  },
+  "pricing": {
+    "plans": {
+      "free": "مجاني",
+      "plus": "بلس",
+      "pro": "برو"
+    },
+    "toBilling": "العودة إلى الفوترة",
+    "planPricing": "تسعير الخطط",
+    "pricing": "التسعير",
+    "howToPurchase": "كيفية الشراء",
+    "description": "الاشتراكات المدفوعة لـ Sonoran Radio تمنحك الوصول إلى ميزات متقدمة، تخصيصات، زيادة الحدود، والمزيد!",
+    "monthCostDescription": "تكلفة حزمة الاشتراك الشهري.",
+    "patrolChannels": "قنوات الدوريات",
+    "patrolChannelsDescription": "# من قنوات TeamSpeak حيث يمكن استخدام مكون الراديو الإضافي.",
+    "unlimited": "غير محدود",
+    "profileLimits": "حدود الملفات الشخصية",
+    "profileLimitsDescription": "# من الملفات الشخصية مسموح بها.",
+    "statewideFrequencyLimits": "حدود تردد الولاية",
+    "statewideFrequencyLimitsDescription": "# من الترددات على مستوى الولاية المسموح بها.",
+    "talkaroundFrequencies": "ترددات التحدث",
+    "talkaroundFrequenciesDescription": "التحدث بترددات يسمح للأفراد بالتحدث من راديو إلى راديو بدلاً من الراديو إلى البرج.",
+    "talkoverProtection": "حماية الحديث",
+    "talkoverProtectionDescription": "تسمح حماية الحديث لشخص واحد فقط بالتحدث على تردد في وقت واحد",
+    "dispatchPanel": "لوحة الإرسال",
+    "dispatchPanelDescription": "حوار TeamSpeak الذي يتيح لك تغيير إعدادات الراديو الخاص بك أو إعدادات الآخرين.",
+    "fivemRadio": "راديو FiveM المحمول",
+    "fivemRadioDescription": "يساعدك راديو FiveM المحمول على تغيير تردداتك وقائمة المسح وإعدادات الراديو الأخرى.",
+    "fivemTowers": "أبراج FiveM المادية",
+    "fivemTowersDescription": "تحاكي الأبراج الاستلام على برج مادي بناءً على المسافة. المواقع والمدى قابلة للتخصيص.",
+    "fivemTowerDestruction": "تدمير أبراج FiveM",
+    "fivemTowerDestructionDescription": "القدرة (الاختيارية) للاعبين لتدمير الأبراج المادية للتأثير على إشارة الراديو.",
+    "onlyOnStatewide": "مسموح فقط على ترددات الولاية.",
+    "onlySelfFrequencies": "يسمح بتغيير تردداتك فقط"
+  },
+  "upgradePromo": {
+    "goProToday": "ترقية إلى برو",
+    "learnMore": "تعلم المزيد"
+  },
+  "error404": {
+    "message": "عذرًا. لا يوجد شيء هنا...",
+    "goHome": "اذهب إلى المنزل"
+  },
+  "loginLink": {
+    "enterCode": "أدخل الرمز المكون من 4 أرقام الخاص بك..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "رمز",
+      "color": "لون",
+      "textColor": "لون النص"
+    },
+    "colorLabel": "لون",
+    "textColorLabel": "لون النص"
+  },
+  "importExport": {
+    "title": "استيراد/تصدير JSON",
+    "export": "تصدير",
+    "download": "تنزيل",
+    "import": "استيراد",
+    "placeholder": "الصق JSON هنا",
+    "tooltip": "استيراد ملف JSON"
+  },
+  "getStartedButton": {
+    "learnMore": "تعلم المزيد"
+  },
+  "fivemView": {
+    "loginWithCode": "تسجيل الدخول برمز",
+    "browserLoginInstruction": "اذهب إلى {link} في المتصفح لتسجيل الدخول",
+    "refresh": "تحديث",
+    "unlink": "فصل"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "مكالمات الطوارئ (911)",
+      "noEmergencyCalls": "لا توجد مكالمات طوارئ!",
+      "noTransmissions": "لم يتم العثور على عمليات نقل",
+      "playAudio": "تشغيل الصوت",
+      "downloadFile": "تنزيل ملف",
+      "redial": "إعادة الاتصال {name}"
+    },
+    "peers": {
+      "kick": "طرد",
+      "clearPanic": "مسح الذعر",
+      "moveTo": "نقل إلى",
+      "displayName": "عرض الاسم",
+      "volume": "حجم الصوت"
+    },
+    "settings": {
+      "rightClickToClear": "انقر بزر الماوس الأيمن لمسح"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "العودة إلى البوابة",
+    "leaveServer": "مغادرة الخادم",
+    "switchToStandalone": "التحول إلى مستقل",
+    "deleteCommunity": "حذف المجتمع"
+  },
+  "managementPage": {
+    "title": "لوحة إدارة Sonoran Radio",
+    "subtitle": "فقط لمليارديرات المستقبل",
+    "searchTitle": "بحث عن مجتمع"
+  }
+}

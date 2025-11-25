@@ -1,0 +1,794 @@
+{
+  "config": {
+    "displayName": "Engelsk (USA)"
+  },
+  "common": {
+    "plans": {
+      "plan": "Plan",
+      "free": "Gratis",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "language": "Språk",
+    "portal": "Portal",
+    "search": "Søk",
+    "account": "Konto",
+    "billing": "Fakturering",
+    "management": "Ledelse",
+    "logout": "Logg ut",
+    "signup": "Registrer deg",
+    "login": "Logg inn",
+    "username": "Brukernavn",
+    "email": "E-post",
+    "password": "Passord",
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "learnMore": "Lær mer",
+    "actions": "Handlinger",
+    "add": "Legg til",
+    "limited": "Begrenset",
+    "currently": "Akkurat nå",
+    "help": "Hjelp",
+    "select": "Velg",
+    "confirm": "Bekreft",
+    "premium": "Premium",
+    "needsInteger": "Må være et heltall",
+    "edit": "Rediger",
+    "delete": "Slett",
+    "reenable": "Aktiver igjen",
+    "only": "{0} Bare",
+    "miscServer": "Server {id}",
+    "clipboard": "Kopiert til utklippstavlen!",
+    "communityIdField": "Community ID",
+    "copy": "Kopier",
+    "menu": "Meny",
+    "refresh": "Oppdater",
+    "unlink": "Koble fra",
+    "upload": "Last opp",
+    "startToday": "Start i dag",
+    "notApplicable": "I/A"
+  },
+  "hotkeys": {
+    "clearHotkey": "Tøm hurtigtast",
+    "pressAKey": "Trykk en tast",
+    "noKeySet": "Ingen tast satt"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "Dispatch Panel",
+      "desc1": "Visualiser enkelt, administrer brukere, spill toner med mer!",
+      "desc2": "Sonoran Radios dispatch UI er tilgjengelig overalt på nettet og på skrivebordet for Windows og OSX."
+    },
+    "Cloud_Configurations": {
+      "title": "Skykonfigurasjoner",
+      "desc": "Å tilpasse radioen din har aldri vært enklere, med liveoppdateringer fra det brukervennlige konfigurasjonspanelet vårt."
+    },
+    "Custom_Voice_Effects": {
+      "title": "Tilpassede Stemmeeffekter",
+      "desc": "Tilpass digitale og analoge stemmeeffekter for fellesskapet ditt!"
+    },
+    "Customizable_SFX": {
+      "title": "Tilpassbar SFX",
+      "desc": "Konfigurer signalforstyrrelser i tunneler, underjordiske steder og mer!"
+    },
+    "ToneBoard": {
+      "title": "Toneboard",
+      "desc1": "Last opp og tilpass dispatchtoner for fellesskapet ditt!",
+      "desc2": "Sonoran Radios dispatch UI lar deg spesifisere spesifikke kanaler og grupper, gjenta toner og mer! Du kan til og med spille toner på innebygde høyttalere i spillet!"
+    },
+    "Transmission_Logs": {
+      "title": "Overføringslogger",
+      "desc": "Vis og spill av overføringslogger med valgfrie AI-drevne teksttranskripsjoner!"
+    },
+    "Destructible_towers": {
+      "title": "Ødeleggbare Tårn",
+      "desc1": "De fysiske tårnene i spillet kan ødelegges av kriminelle, noe som vil ødelegge kvaliteten på radioene rundt det.",
+      "desc2": "Med tre forskjellige 3D-modelltyper i spillet, tar Sonoran Radio oppslukningen til neste nivå!"
+    },
+    "Radio_Chattrer": {
+      "title": "Hør på Nærliggende Radioprat",
+      "desc": "Ble du stoppet i en trafikkontroll? Du vil høre den ekte radiopraten når en betjent har en aktiv radio i nærheten!"
+    },
+    "VehicleDisplay": {
+      "title": "Kjøretøysvisning",
+      "desc": "Vår 3D kjøretøyradiovisning gjenspeiler kanalinformasjonen din, brukeren som sender, og panikkstatus i sanntid, og bringer nye nivåer av oppslukning!"
+    },
+    "inGameToneBoard": {
+      "title": "Tone Board til høyttalere i spillet",
+      "desc": "Sonoran Radios dispatch UI lar deg spesifisere spesifikke kanaler og grupper, gjenta toner, og mer! Du kan til og med spille toner på innebygde høyttalere i spillet!"
+    },
+    "EmergencyCalls": {
+      "title": "Nødoppringninger i spillet",
+      "desc": "Foreta nødanrop til dispatch, alt fra spillet!"
+    },
+    "Scanners": {
+      "title": "Skannere",
+      "desc": "Innebygde skannere lar deg og andre i nærheten lytte i på radiotrafikk!"
+    },
+    "BackgroundAudio": {
+      "title": "Bakgrunnslyd",
+      "desc": "Svar på et anrop? Sonoran Radio setter sanntids sirener, skudd og mer rett inn i mikrofonmatningen din for den ultimate oppslukningen."
+    },
+    "tunnelSignalLoss": {
+      "title": "Signalltap i tunnel",
+      "desc": "Konfigurer signaltap i tunneler, underjordiske steder og mer!"
+    },
+    "MultipleRadioOperations": {
+      "title": "Flere Radioalternativer",
+      "desc1": "Sonoran Radio tilbyr flere brukergrensesnitt i spillet, som lar deg holde kontakten til fots, i kjøretøyet, og mer!",
+      "desc2": "Velg mellom en av våre radioalternativer, eller legg til dine egne!"
+    },
+    "Sonoran_CAD": {
+      "title": "Sonoran CAD",
+      "desc": "Dette pluginet lar Sonoran Radio-kunder koble radioen med Sonoran CAD. Se enhetsstatusen din, informasjon om dispatch-anrop, aktiver panikk, og mer!"
+    },
+    "Sonoran_CMS": {
+      "title": "Sonoran CMS",
+      "desc": "Automatiser Sonoran Radio-tillatelser med Sonoran CMS!"
+    },
+    "bigDaddyRadio": {
+      "title": "Big-Daddy Radioanimasjoner",
+      "desc": "Sonoran Radio er samarbeidspartner med Big Daddy Scripts for å tilby en GRATIS kopi av deres radioanimasjonsscript!"
+    },
+    "mobileCommandCenter": {
+      "title": "Mobil Kommandosentral",
+      "desc": "Sonorans mobile kommandosentral lar deg ta kommandoen som aldri før. Dette unike verktøykjøretøyet bringer med seg endeløse muligheter!"
+    },
+    "Power_Grid": {
+      "title": "Strømnett",
+      "desc": "Hack deg inn i det integrerte strømnettet for å deaktivere Sonoran Radio-tårnene i ditt område! Lær mer om dette scriptet!"
+    },
+    "intro": "Ta spillkommunikasjonen til neste nivå med Sonoran Radio. Chat i realistiske radiokanaler, tilpass stemmeeffektene dine, og koble enkelt til spillfunksjoner for en virkelig engasjerende opplevelse."
+  },
+  "splash": {
+    "introducing": "Introduksjon",
+    "marketExplain": "I offentlig sikkerhet er enkelhet og pålitelighet essensielt når man velger et kommunikasjonssystem. Sonoran Radio tilbyr det mest omfattende og altomfattende kommunikasjonssystemet på markedet i dag. Dette nye radiosystemet har banebrytende teknologi, som tilbyr både simplex- og duplex-konfigurasjoner, skybasert programmering og et skalerbart, repeaterdrevet radionettverk.",
+    "feats": "Med internmelding mellom personale og Sonoran CAD-integrasjon leverer Sonoran Radio fullt utrustede kommunikasjonsenheter rett i hendene på ditt spillpersonell og dispatchere. Prøv det gratis i dag!",
+    "getStarted": "Kom i gang i dag",
+    "toPortal": "Gå til portal",
+    "learnMore": "Lær mer"
+  },
+  "misc": {
+    "welcome": "Velkommen",
+    "welcomeTo": "Velkommen til Sonoran Radio!",
+    "learnMoreAboutRadio": "Lær mer om hvordan Sonoran Radio kan revolusjonere din rollespillopplevelse!"
+  },
+  "errors": {
+    "common": {
+      "enterPassword": "Vennligst skriv inn et passord.",
+      "enterEmail": "Vennligst oppgi e-postadressen din."
+    },
+    "misc": {
+      "noLocalStorageSupport": "Nettleseren din støtter ikke lokal lagring eller det kan være deaktivert."
+    },
+    "signup": {
+      "passwordNoUppercase": "Passordet inneholder ingen store bokstaver",
+      "passwordNoNumber": "Passordet inneholder ingen tall",
+      "passwordNoSymbol": "Passordet inneholder ingen symboler ({'!@#$%^&*'})",
+      "invalidPassword": "Ugyldig passord",
+      "passwordNotMoreThan": "Passordet er ikke mer enn 6 tegn langt",
+      "passwordsDontMatch": "Passordene stemmer ikke overens.",
+      "noUsername": "Ingen brukernavn spesifisert.",
+      "noEmail": "Ingen e-post spesifisert.",
+      "noPassword": "Ingen passord spesifisert.",
+      "usernameNotLongEnough": "Brukernavnet er ikke mer enn 4 tegn langt.",
+      "usernameTooLong": "Brukernavn er for langt.",
+      "invalidEmail": "Den oppgitte e-postadressen er ikke gyldig, vennligst bruk en annen e-postadresse.",
+      "usernameInvalidCharacter": "Brukernavnet inneholder et ugyldig tegn."
+    }
+  },
+  "login": {
+    "loginWithSonoran": "Logg inn med Sonoran",
+    "createAccount": "Opprett konto",
+    "forgotPassword": "Glemt passord",
+    "forgotPasswordDesc": "Glemt passordet til Sonoran-kontoen din? Oppgi e-posten nedenfor for å tilbakestille legitimasjonen din."
+  },
+  "signup": {
+    "emailPreferencesDesc": "Send meg viktige kunngjøringer, oppdateringer og kampanjer.",
+    "verifyPassword": "Bekreft passord",
+    "checkEmail": "Sjekk e-posten din og bekreft kontoen din.",
+    "checkSpam": "Pass på å sjekke spammappen hvis du ikke finner e-posten."
+  },
+  "serverCommon": {
+    "nicknameInput": "Kallenavn",
+    "nicknameInputDesc": "Sett et tilpasset kallenavn for fellesskapet ditt, som du og medlemmene dine vil se",
+    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInputDesc": "Skriv inn UID-en til TeamSpeak 3-serveren din her"
+  },
+  "registerServer": {
+    "registerATSServer": "Registrer en TeamSpeak Server",
+    "registerATSServerDesc": "Registrer TeamSpeak-serveren din for å la serveren din kunne bruke Sonoran Radio TeamSpeak-pluginet.",
+    "registerAStandServer": "Registrer et fellesskap",
+    "registerAStandServerDesc": "Registrer fellesskapet ditt for å bruke Sonoran Radio.",
+    "submit": "Registrer server",
+    "errExists": "Den oppgitte TeamSpeak-server UID-en eksisterer allerede på en verifisert server, vennligst bruk en annen TS-server UID",
+    "errUnknown": "Det oppsto en feil ved henting av serverinformasjon, prøv igjen senere."
+  },
+  "radio": {
+    "toneBoard": {
+      "broadcastTo": "Send til",
+      "noTones": "Ingen toner",
+      "seconds": "Sekunder",
+      "count": "Antall",
+      "newTone": "Ny tone",
+      "title": "Tone Board",
+      "subtitle": "Tilpass dispatchtoner for fellesskapet ditt",
+      "repeat": "Gjenta",
+      "stack": "Stable",
+      "aiTts": "AI Tekst-til-tale",
+      "audioMode": "Audiomodus",
+      "aiMode": "AI-modus",
+      "generate": "Generer",
+      "preview": "Forhåndsvis",
+      "voices": "Stemmer",
+      "toneLabel": "Tonemerking",
+      "speed": "Hastighet",
+      "recording": "Opptak",
+      "inGameSpeaker": "Høyttaler i spillet",
+      "inGameSpeakerGroup": "Høyttalergruppe i spillet"
+    },
+    "channelDialog": {
+      "channelTitle": "Endre kanal",
+      "scanTitle": "Skanneliste"
+    },
+    "settingsDialog": {
+      "title": "Innstillinger",
+      "audioTab": "Lyd",
+      "fivemTab": "FiveM",
+      "hotkeysTab": "Hurtigtaster",
+      "sfxTab": "SFX",
+      "troubleHearingInGame": "Har du problemer med å høre i spillet?",
+      "volume": "Volum",
+      "sfxVolume": "SFX Volum",
+      "automaticGainControlEnabled": "Automatisk forsterkningskontroll aktivert",
+      "automaticGainControlDisabled": "Automatisk forsterkningskontroll deaktivert",
+      "changingOutputsUnsupported": "Enheten din støtter ikke å endre lydutganger",
+      "volumeHotkeyChange": "Volum hurtigtast endring",
+      "pttOffDelay": "PTT-av forsinkelse",
+      "resetPeerVolumes": "Tilbakestill kollegaers volum",
+      "resetSettings": "Tilbakestill innstillinger",
+      "macosPermWarning": "Enheten din kan kreve flere tillatelser: {link}",
+      "macosPermWarningLink": "Lær hvordan du gir tillatelser",
+      "webHotkeyWarning": "Hurtigtaster fungerer bare når nettleservinduet er i fokus. {link} for globale hurtigtaster",
+      "webHotkeyWarningLink": "Last ned skrivebordsappen",
+      "moveResize": "Flytt/Endre størrelse",
+      "unlink": "Koble fra",
+      "toggleBackgroundAudio": "Bakgrunnslyd",
+      "volumeChangeSirens": "Volumendring m/Sirener",
+      "escapeMode": "Fluktmodus",
+      "escapeModeKeep": "Hold Radio Synlig",
+      "escapeModeKeepTooltip": "Radioen forblir synlig under ESC",
+      "escapeModeHide": "Gjem Radio",
+      "escapeModeHideTooltip": "Radioen lukkes under ESC",
+      "escapeModeXmit": "XMIT (PTT)",
+      "escapeModeXmitTooltip": "Radioen lukkes under ESC, men er synlig når den sender",
+      "selectRadioFrame": "Radio Frame",
+      "myPttSfx": "Min PTT SFX",
+      "othersPttSfx": "Andres PTT SFX",
+      "channelTts": "Kanal TTS",
+      "hearScannedWhileXmit": "Høre skannet under sending",
+      "keyupSfx": "Keyup SFX",
+      "keydownSfx": "Keydown SFX"
+    },
+    "connect": "Koble til",
+    "selectServer": "Velg server",
+    "microphonePTT": "Mikrofon PTT",
+    "openInNewWindow": "Åpne i nytt vindu",
+    "backToPortal": "Tilbake til portal",
+    "recvFreq": "MOTT: {0}MHz",
+    "xmitFreq": "SEND {0}MHz",
+    "stopXmit": "Stopp SEND",
+    "multiXmit": "CTRL + Klikk Multi-SEND",
+    "muteScan": "Demp {0}",
+    "listenScan": "Lytt til {0}",
+    "setHotkeyFor": "Sett hurtigtast for {0}",
+    "hiddenChannel": "Skjult kanal (Synlig for deg)",
+    "configureChannel": "Konfigurer {0}",
+    "addNewChannel": "Legg til ny kanal",
+    "showChannelIds": "Vis kanal-ID-er",
+    "channelList": "Kanalliste",
+    "scanList": "Skanneliste"
+  },
+  "authMember": {
+    "title": "Du venter på godkjenning",
+    "subtitle": "Før du kan bruke Sonoran Radio for {serverName}, må du godkjennes av servereieren eller fellesskapsadministratoren. Vennligst vent på godkjenning.",
+    "subtitleShort": "Før du bruker Sonoran Radio i dette fellesskapet, må du godkjennes av fellesskapets ansatte",
+    "leaveMsg": "Er du sikker på at du vil forlate dette Sonoran Radio-fellesskapet?",
+    "errLeave": "En uventet feil oppsto mens du forlot fellesskapet."
+  },
+  "authServer": {
+    "title": "Autentiser din TeamSpeak-servery",
+    "subtitle": "Autentiser TeamSpeak-serveren din gjennom en enkel autentiseringsprosess ved å bruke Sonoran Radio-pluginet og webpanelet. Under denne autentiseringsprosessen vil personer i din TeamSpeak-server som har tilstrekkelige tillatelser bli vist en popup som sier at autorisasjonen din venter, vennligst skriv inn autorisasjonskoden nedenfor i TeamSpeak-popup-vinduet for å autorisere. Hvis du ved et uhell setter TeamSpeak-server UID-en din feil, kan du endre den nedenfor. Hvis du ikke ser TeamSpeak-popupen fra Sonoran Radio, vennligst bekreft at du har angitt riktig UID og at du har minst v0.2.0 av pluginet installert. Ellers kontakt support.",
+    "authCodeTitle": "Autorisasjonskode",
+    "clickToCopy": "Klikk for å kopiere",
+    "copiedCode": "Kopierte serverautentiseringskode til utklippstavlen",
+    "submit": "Lagre server",
+    "errSave": "En uventet feil oppsto mens serveren ble lagret.",
+    "errDelete": "En uventet feil oppsto mens serveren ble slettet."
+  },
+  "manageServer": {
+    "settings": {
+      "title": "Standardinnstillinger",
+      "subtitle": "Konfigurer standardinnstillingene for fellesskapet ditt. Brukere kan tilpasse sine egne preferanser, men dette vil tjene som startstandarder.",
+      "agc": "Automatisk forsterkningskontroll",
+      "agcDesc": "Juster automatisk mikrofonens inngangsvolum for å utjevne volumet for alle brukere.",
+      "hearPttSfx": "Spill av PTT SFX",
+      "hearPttSfxDesc": "Spill av PTT-lyden når du trykker på mikrofonen din.",
+      "hearOtherPttSfx": "Spill andres PTT SFX",
+      "hearOtherPttSfxDesc": "Spill av PTT-lyden når andre brukere trykker på mikrofonen sin.",
+      "muteScannedWhileTransmitting": "Demp skannet under sending",
+      "muteScannedWhileTransmittingDesc": "Demp skannede kanaler mens du sender på en kanal.",
+      "sirenVolume": "Sirenvolum",
+      "sirenVolumeDesc": "Når sirenen er aktivert i spillet, legg til/trekk fra volumet.",
+      "tts": "Kanal Tekst-til-tale",
+      "ttsDesc": "Spill av en tekst-til-tale-stemme av kanalnavnet når du bytter kanaler.",
+      "keyUpDelay": "Key Up forsinkelse",
+      "keyUpDelayDesc": "Forsinkelse etter avsluttet sending før mikrofonen frigjøres.",
+      "volChange": "Volumendring",
+      "volChangeDesc": "Volumendring % når du bruker volum opp/ned hurtigtaster."
+    },
+    "importSAPR": {
+      "btn": "Importer SAPR-konfig",
+      "jsonTitle": "Importer SAPR-konfig",
+      "jsonMsg": "Lim inn SAPR-konfig JSON her",
+      "confirmMsg": "Du er i ferd med å importere {n} kanaler. Er du sikker?"
+    },
+    "patrolChannels": {
+      "range": {
+        "short": "Kort rekkevidde",
+        "medium": "Middels rekkevidde",
+        "long": "Lang rekkevidde"
+      },
+      "title": "Patruljekanaler",
+      "subtitle": "Patruljekanaler er TeamSpeak-kanalene som er hvitelistet for å bruke Sonoran Radio TeamSpeak-plugin-funksjonalitet.",
+      "nickname": "Kallenavn",
+      "channelUid": "TS Kanal-ID",
+      "allowTalkover": "Tillat Overprat",
+      "talkAroundRange": "Overpratområde",
+      "addChannel": "Legg til en Patruljekanal",
+      "explainDisabled": "Patruljekanal er deaktivert på grunn av nedgradering til en lavere plan, du må fjerne andre patruljekanaler før du kan aktivere denne igjen.",
+      "explainDisabledCanReenable": "Patruljekanal er deaktivert på grunn av nedgradering til en lavere plan, men du kan aktivere den igjen i rullegardinmenyen!",
+      "dialogAddTitle": "Legg til Patruljekanal",
+      "dialogEditTitle": "Rediger Patruljekanal",
+      "dialogSubtitle": "En patruljekanal er TeamSpeak-kanalen som er hvitelistet for å bruke Sonoran Radio TeamSpeak-plugin-funksjonalitet. Her vil du sette TeamSpeak-kanalens ID og bestemme om 'Patruljekanalen' skal tillate overprat.",
+      "channelUidInput": "TS Kanal-ID - Påkrevd",
+      "customizeTalkaround": "Tilpass Overpratområde",
+      "legacyChannelUidWarn": "Denne formen for kanal-ID har blitt avviklet. Vennligst oppgrader til den nyeste versjonen av Sonoran Radio TS og oppgrader til nye numeriske ID-er",
+      "errSave": "En uventet feil oppsto mens patruljekanal ble lagret.",
+      "errReenable": "En uventet feil oppsto mens patruljekanal ble aktivert.",
+      "errDelete": "En uventet feil oppsto mens patruljekanal ble slettet."
+    },
+    "profiles": {
+      "title": "Profiler",
+      "titleStandalone": "Kanaler",
+      "subtitle": "Profiler er forhåndsinnstilte frekvensinnstillinger for å tillate en enkel overgang mellom spesifikke frekvenser uten behov for å manuelt skrive inn hver frekvens.",
+      "addProfile": "Legg til en Profil",
+      "addProfileStandalone": "Legg til en Kanal",
+      "reorder": "Omorganiser Profiler",
+      "reorderStandalone": "Omorganiser Kanaler",
+      "displayName": "Visningsnavn",
+      "recvFreq": "Mottak Frekvens",
+      "xmitFreq": "Sendingsfrekvens",
+      "repeatsXmit": "Gjenta Sendingsfrekvens",
+      "pronounce": "Uttale",
+      "preventTalkover": "Forhindre Overprat",
+      "talkoverPrevented": "Overprat Forhindret",
+      "talkoverAllowed": "Overprat Tillatt",
+      "setAsDefault": "Sett som Standardprofil",
+      "defaultProfile": "Standardprofil",
+      "explainDisabled": "Profil er deaktivert på grunn av nedgradering til en lavere plan, du må fjerne andre profiler før du kan aktivere denne igjen.",
+      "explainDisabledCanReenable": "Profil er deaktivert på grunn av nedgradering til en lavere plan, men du kan aktivere denne profilen igjen i rullegardinmenyen!",
+      "dialogAddTitle": "Legg til Profil",
+      "dialogEditTitle": "Rediger Profil",
+      "dialogAddTitleStandalone": "Legg til Kanal",
+      "dialogEditTitleStandalone": "Rediger Kanal",
+      "dialogSubtitle": "En profil er en forhåndsinnstilt frekvensinnstilling for å muliggjøre en enkel overgang mellom spesifikke frekvenser uten behov for å manuelt skrive inn hver frekvens. Her vil du angi visningsnavn (valgfritt), mottaksfrekvens (påkrevd), sendingsfrekvens (valgfritt), og om sendingsfrekvensen vil gjentas.",
+      "dialogSubtitleStandalone": "",
+      "displayNameInput": "Visningsnavn - Påkrevd",
+      "errSave": "En uventet feil oppsto mens profilen ble lagret.",
+      "errDelete": "En uventet feil oppsto mens profilen ble slettet.",
+      "errSetDefault": "En uventet feil oppsto mens standardprofilen ble angitt.",
+      "errReenable": "En uventet feil oppsto mens profilen ble aktivert igjen.",
+      "voiceEffect": "Stemmeeffekt",
+      "visibilityOptions": {
+        "public": "Offentlig",
+        "private": "Privat"
+      },
+      "basicMode": "Grunnleggende",
+      "advancedMode": "Avansert",
+      "shareWith": "Del med",
+      "sharedTooltip": "Delte kanaler speiler tilgangen og frekvensene til en annen koblet kanal. Tilkobling til en av dem gir tilgang til samme kommunikasjonsstrøm.",
+      "standardTooltip": "Standardkanaler opererer uavhengig med egne frekvenser og tilgang. Bruk denne modusen når kanalen skal være frittstående.",
+      "visibility": "Synlighet",
+      "recvFreqTooltip": "Frekvens for å motta overføringer. Dette er kun for estetikk i radioUI.",
+      "xmitFreqTooltip": "Frekvens for å sende på. Dette er kun for estetikk i radioUI.",
+      "editGroup": "Rediger Gruppe",
+      "deleteGroup": "Slett Gruppe",
+      "ttsPreview": "Tekst-til-tale Forhåndsvisning",
+      "ttsFailed": "Tekst-til-tale generasjon mislyktes eller eksisterer ikke.\nLagre kanalen på nytt for å generere.",
+      "privateChannel": "Privat Kanal",
+      "pronounceTooltip": "Avansert uttale for AI-kanalens tekst-til-tale.",
+      "addGroup": "Legg til Gruppe",
+      "groupName": "Gruppenavn"
+    },
+    "micClick": {
+      "header": "SFX Tilpasning",
+      "subheader": "Tilpass lydeffektene for hele fellesskapet ditt.",
+      "keyUpSfx": "Key Up SFX",
+      "keyDownSfx": "Key Down SFX",
+      "talkoverSfx": "Overprat SFX",
+      "overrideSuccessSfx": "Overprat Overstyring Suksess SFX",
+      "emergencyCallSfx": "Nødanrop SFX",
+      "panicSfx": "Panikkknapp SFX",
+      "sfxVolUp": "Volum opp (Hurtigtast) SFX",
+      "sfxVolDown": "Volum ned (Hurtigtast) SFX",
+      "simulatedAudio": "Innebygd Bakgrunnslyd SFX",
+      "simulatedAudioSubtitle": "Bakgrunnslydinjeksjon blander lyder fra spillet – som sirener, helikopterrotorer, båtmotorer og skudd – inn i mikrofonuttaket ditt.",
+      "sfxGameSiren": "Innebygd Sirene SFX",
+      "sfxGameBoatEngine": "Innebygd Båtmotor SFX",
+      "sfxGameHelicopterRotors": "Innebygd Helikopterrotorer SFX",
+      "sfxGamePistol": "Innebygd Pistol SFX",
+      "sfxGamePistolSilenced": "Innebygd Damerte Pistol SFX",
+      "sfxGameRifle": "Innebygd Rifle SFX",
+      "sfxGameRifleSilenced": "Innebygd Damerte Rifle SFX"
+    },
+    "voiceCustomization": {
+      "header": "Stemme Tilpasning",
+      "subheader": "Tilpass radioens stemmeeffekter for fellesskapet ditt.",
+      "input": "Inngang",
+      "useForEmergency": "Bruk for Nødoppringninger",
+      "name": "Navn",
+      "signalStrength": "Signalstyrke",
+      "vocoderPreviewWarning": "Vocoder-lydforhåndsvisning er ennå ikke tilgjengelig."
+    },
+    "perms": {
+      "types": {
+        "dispatch::open": {
+          "name": "Åpne Dispatch UI",
+          "desc": "Denne tillatelsen gir muligheten til å åpne Dispatch UI"
+        },
+        "dispatch::ext_commands": {
+          "name": "Endre Kanalbruker",
+          "desc": "Denne tillatelsen gir muligheten til å endre frekvenser og kallenavn for kanalbrukere gjennom Dispatch UI"
+        },
+        "tg::talkover_override": {
+          "name": "Overpratbeskyttelse Overstyring",
+          "desc": "Denne tillatelsen gir muligheten til å dobbeltklikke på PTT-knappen for å overprate en annen klient"
+        },
+        "menu::radio_lock": {
+          "name": "Radiolås",
+          "desc": "Denne tillatelsen lar deg stanse en annen persons sending hvis de allerede sender"
+        },
+        "menu::radio_attn": {
+          "name": "Radio Oppmerksomhet",
+          "desc": "Denne tillatelsen gir deg muligheten til å spille av en lyd på en annens radio for å fange deres oppmerksomhet"
+        }
+      },
+      "title": "Tillatelser",
+      "subtitle": "Tillatelser lar deg endre hvordan brukere samhandler med Sonoran Radio-pluginet, og hva de kan samhandle med.",
+      "addPerm": "Legg til en Tillatelse",
+      "nickname": "Kallenavn",
+      "permName": "Tillatelsesnavn",
+      "serverGroup": "Servergruppe",
+      "dialogTitle": "Legg til Tillatelse",
+      "dialogSubtitle": "Gir en servergruppe en spesifikk tillatelse i Sonoran Radio. For å lære mer om tillatelser og hvordan du får servergrupper, vennligst se Sonoran Radio-dokumentasjonen.",
+      "serverGroupInput": "Servergruppe - Påkrevd",
+      "permInput": "Tillatelse",
+      "explainPrefix": "Hva gjør dette?",
+      "invalidGroupId": "Ugyldig servergruppe, det må være et tall.",
+      "errSave": "En uventet feil oppsto mens tillatelsen ble lagret.",
+      "errDelete": "En uventet feil oppsto mens tillatelsen ble slettet."
+    },
+    "myself": {
+      "title": "Din Fellesskapsinfo",
+      "subtitle": "Vis og rediger fellesskapsinnstillingene dine"
+    },
+    "members": {
+      "title": "Fellesskapsmedlemmer",
+      "subtitle": "Administrer brukertillatelser og tilgang i fellesskapet ditt.",
+      "username": "Brukernavn",
+      "displayName": "Visningsnavn",
+      "traits": "Egenskaper",
+      "actions": "Handlinger",
+      "owner": "Eier",
+      "subOwner": "Abonnementsholder",
+      "remove": "Fjern",
+      "explainDisabled": "Kun servereiere kan legge til eller endre ledere",
+      "removeWarn": "Advarsel",
+      "removeWarnSubHolderMsg": "Fjerningen av abonnementsholderen vil nedgradere denne serveren til gratis! Er du sikker på at du vil fortsette?",
+      "removeWarnSelfMsg": "Er du sikker på at du vil fjerne deg selv fra denne serveren? Du vil miste tilgang og servereieren må legge deg til igjen.",
+      "errAddInvalidAccount": "Det oppgitte brukernavnet eksisterer ikke",
+      "errAddUnknown": "En ukjent feil oppsto mens lederen ble lagt til",
+      "errRemoveUnknown": "En ukjent feil oppsto mens lederen ble fjernet",
+      "permissionsBtn": "Tillatelser",
+      "approveBtn": "Godkjenn",
+      "kickBtn": "Sparke",
+      "filterAll": "Alle",
+      "filterPending": "Ventende",
+      "search": "Søk",
+      "pending": "Ventende",
+      "paysSubscription": "Betaler Abonnement",
+      "setDisplayName": "Angi Visningsnavn",
+      "editMemberPerms": "Rediger Medlemsrettigheter",
+      "ownerHasAllPerms": "Fellesskapseieren har alle tillatelser",
+      "privateChannels": "Private Kanaler",
+      "selectPrivateChannels": "Velg de private kanalene brukeren kan bli med i"
+    },
+    "ai": {
+      "services": {
+        "0": "Overføringslogg STT",
+        "1": "Tone Board STT"
+      },
+      "title": "AI API-nøkler",
+      "addKey": "Legg til AI-nøkkel"
+    },
+    "admin": {
+      "communityApiKeyField": "Fellesskaps API-nøkkel",
+      "updateApiKey": "Oppdater API-nøkkel",
+      "apiInfoTitle": "API-Informasjon",
+      "apiInfoHint": "Gi dette til dine medlemmer ved invitasjon til fellesskapet"
+    },
+    "guidesLink": "Sonoran Radio Informasjon & Guider",
+    "toPortal": "Tilbake til portal",
+    "saveServer": "Lagre server",
+    "unauthorizeServer": "Uautorisert server",
+    "deleteServer": "Slett fellesskap",
+    "transferServer": "Overfør fellesskap",
+    "dispatchTab": "Dispatcher",
+    "membersTab": "Medlemmer",
+    "customizeTab": "Tilpass",
+    "adminTab": "Administrasjon",
+    "saveInfo": "Lagre serverinfo",
+    "explainOwnerOnly": "Kun eieren kan endre denne innstillingen",
+    "noPermPage": "Du har ikke tillatelse til å se denne siden",
+    "unauthorizeMsg": "Er du sikker på at du vil uautorisere denne konfigurasjonen?",
+    "deleteMsg": "Er du sikker på at du vil slette denne konfigurasjonen? Dette vil resultere i irreversibel datatap.",
+    "unauthorizeSuccess": "Serveren din ble uautorisert",
+    "deleteSuccess": "Serveren din ble slettet",
+    "errServerCheck": "En uventet feil oppsto under sjekking av serveren din.",
+    "errUidTaken": "TeamSpeak-server UID er allerede i bruk av en annen autorisert server.",
+    "errSaveInfo": "En uventet feil oppsto mens serverinformasjonen din ble lagret.",
+    "errImport": "En uventet feil oppsto mens SAPR-konfigurasjonen din ble importert.",
+    "errImportNotFound": "Ingen SAPR-konfigurasjon ble funnet for din TeamSpeak UID.",
+    "errUnauthorize": "En uventet feil oppsto mens serveren din ble uautorisert.",
+    "customizeMenu": {
+      "info": "Informasjon",
+      "patrolChannels": "Patruljekanaler",
+      "channelsGroups": "Kanaler & Grupper",
+      "profiles": "Profiler",
+      "permissions": "Tillatelser",
+      "voiceCustomization": "Stemme Tilpasning",
+      "sfxCustomization": "SFX Tilpasning",
+      "toneBoard": "Tonebord",
+      "fivemIntegration": "FiveM Integrasjon",
+      "defaultSettings": "Standardinnstillinger",
+      "ai": "AI",
+      "customDomain": "Egendefinert Domene"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Navn",
+        "origin": "IP/Opprinnelse",
+        "pushUrl": "Skyv URL",
+        "actions": "Handlinger"
+      },
+      "customCommunityIdHint": "Angi ditt egendefinerte Fellesskaps-ID, som er for forfengelig URL, FiveM-ressursen, og for å bli med i fellesskapet",
+      "communityServers": "Samfunnsservere",
+      "communityServersSubtitle": "Legg til eller fjern servere for å skille dine radiooverføringer",
+      "addServer": "Legg til Server"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Type",
+        "name": "Navn",
+        "content": "Innhold"
+      },
+      "requiresPro": "Du må ha et Pro-abonnement for å angi et Egendefinert Domene",
+      "chooseName": "Velg ditt Domene Navn",
+      "placeholder": "radio.eksempel.com",
+      "ownershipHint": "Du må eie ditt domenenavn!",
+      "verifyTitle": "Bekreft ditt domene",
+      "verified": "Gratulerer, ditt egendefinerte domene er bekreftet!",
+      "tryItOut": "Prøv det ut",
+      "defaultRecordName": "@ eller tom",
+      "verifyButton": "Bekreft Egendefinert Domene",
+      "vanityTitle": "Gratis Forfengelig URL",
+      "vanityLabel": "Forfengelig URL",
+      "vanityCopied": "Kopiert Forfengelig URL til Utklippstavle!"
+    },
+    "transfer": {
+      "title": "Overfør Fellesskap",
+      "selectNewOwner": "Velg Ny Eier",
+      "warning": "Er du sikker på at du vil overføre ditt fellesskap? Du vil ikke lenger være eier av dette fellesskapet, og kan miste dine tillatelser",
+      "confirmInstruction": "Skriv {code} for å bekrefte overføringen (skille mellom store og små bokstaver)",
+      "confirmLabel": "Bekreft Overføring",
+      "cancel": "Avbryt",
+      "ok": "Ok",
+      "requestCreatedTitle": "Overføringsforespørsel Opprettet",
+      "requestCreatedMsg": "Overføringen er ikke gjort ennå! En e-post er sendt til deg for ekstra bekreftelse"
+    }
+  },
+  "portal": {
+    "title": "Sonoran Radio Portal",
+    "subtitle": "Velkommen til hovedbasen for operasjoner! Her kan du redigere abonnementer i Faktureringsportalen, administrere fellesskapsinnstillinger med den brukervennlige konfigurasjonspanelet, eller registrere en helt ny server med vår oppsettveiviser.",
+    "myCommunities": "Mine Fellesskap",
+    "beginTitle": "Start din Reise",
+    "billingPortal": "Abonnementer & Fakturering",
+    "documentation": "Dokumentasjon",
+    "pendingAuth": "Venter på autorisasjon",
+    "needsTsAuth": "Trenger TeamSpeak3 Autentisering",
+    "needsMemberAuth": "Venter på godkjenning",
+    "upgradeServer": "Oppgrader",
+    "leaveServer": "Forlat",
+    "discovery": "Oppdag",
+    "discoveryGrowingRapidly": "Dette fellesskapet vokser raskt",
+    "discoveryHighTraffic": "Dette fellesskapet mottar høy nettrafikk",
+    "discoveryActiveMembers": "Dette fellesskapet har noen av de mest aktive medlemmene",
+    "discoveryRecentlyBumped": "Dette fellesskapet ble nylig bumpet",
+    "joinACommunity": "Bli med i et Sonoran Radio-fellesskap",
+    "needACommunity": "Trenger du et nytt Sonoran Radio-fellesskap?",
+    "beginYourJourney": "Start din Reise!"
+  },
+  "billing": {
+    "statuses": {
+      "active": "Aktiv",
+      "unpaid": "Ubetalt",
+      "incomplete": "Ufullstendig",
+      "incomplete_expired": "Ufullstendig Utgått",
+      "past_due": "Forfalt",
+      "canceled": "Avbrutt"
+    },
+    "newSubDialog": {
+      "title": "Nytt Abonnement",
+      "chooseSub": "Velg et Abonnement",
+      "chooseSv": "Velg en Server",
+      "plus": "Plus Plan ($14.99/mnd)",
+      "pro": "Pro Plan ($19.99/mnd)",
+      "one": "Sonoran One ($49.99/mnd)",
+      "mostPop": "Mest Populær",
+      "oneLearnMore": "Lær mer om Sonoran One",
+      "noServer": "Ingen Server",
+      "noServerDesc": "Dette abonnementet vil ikke være tilknyttet et fellesskap. Du vil kunne endre det senere.",
+      "errCreate": "En uventet feil oppsto mens abonnementet ble opprettet",
+      "expertInstallation": "Ekspert Installasjon"
+    },
+    "changeSvDialog": {
+      "title": "Oppdater Abonnement",
+      "subtitle": "Velg en Server",
+      "removeServer": "Fjern Server",
+      "errSave": "En uventet feil oppsto mens abonnementet ble endret"
+    },
+    "confirmChangeSub": {
+      "title": "Endre Abonnement",
+      "remove": "Er du sikker på at du vil fjerne denne serveren fra abonnementet ditt?",
+      "transfer": "Er du sikker på at du vil overføre dette abonnementet til en annen server?",
+      "set": "Er du sikker på at du vil sette denne serveren for abonnementet ditt?",
+      "possibleDataLoss": "Ved overføring eller fjerning av abonnementet kan tap av data på den forrige serveren oppstå."
+    },
+    "toPortal": "Tilbake til portal",
+    "newSub": "Nytt Abonnement",
+    "compPlans": "Sammenlign Planer",
+    "modifySub": "Endre Abonnement",
+    "chooseSub": "Velg Abonnementsplan",
+    "alreadyActiveSub": "Har allerede et aktivt abonnement",
+    "isUnauthorized": "Abonnementer kan ikke brukes på uautoriserte servere",
+    "noServerAssociated": "Ingen Server Tilknyttet",
+    "setServer": "Sett Server",
+    "changeServer": "Endre Server",
+    "errCheck": "En uventet feil oppsto under sjekking av abonnementet ditt"
+  },
+  "account": {
+    "tokenTitle": "Radio Innloggingshemmelighet",
+    "tokenDesc": "Kopier denne token for å bruke det for å logge inn med FiveM-radioen!",
+    "tokenDescWarning": "Denne koden er HEMMELIG og bör ikke deles med noen!",
+    "tokenInputLabel": "Din Innloggingshemmelighet",
+    "tokenLoadBtn": "Klikk for å laste",
+    "tokenCopied": "Hemmeligheten er kopiert til utklippstavlen din!",
+    "serversTitle": "Dine Servere",
+    "serversDesc": "Her kan du se alle Sonoran Radio-fellesskapene du eier eller administrerer",
+    "noServers": "Ingen Servere"
+  },
+  "pricing": {
+    "plans": {
+      "free": "Gratis",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "toBilling": "Tilbake til Fakturering",
+    "planPricing": "Plan Prising",
+    "pricing": "Prising",
+    "howToPurchase": "Hvordan kjøpe",
+    "description": "Sonoran Radios betalte abonnementer gir deg tilgang til avanserte funksjoner, tilpasning, økte grenser og mer!",
+    "monthCostDescription": "Kostnaden for vår månedlige abonnementsplan.",
+    "patrolChannels": "Patruljekanaler",
+    "patrolChannelsDescription": "Antall TeamSpeak-kanaler der radio-pluginen kan brukes.",
+    "unlimited": "Ubegrenset",
+    "profileLimits": "Profillimiter",
+    "profileLimitsDescription": "Antall profiler tillatt.",
+    "statewideFrequencyLimits": "Statlige Frekvens Begrensninger",
+    "statewideFrequencyLimitsDescription": "Antall statlige frekvenser tillatt.",
+    "talkaroundFrequencies": "Områdeprat Frekvenser",
+    "talkaroundFrequenciesDescription": "Frekvenser for områdeprat tillater individer å prate radio til radio i stedet for radio til tårn.",
+    "talkoverProtection": "Overpratbeskyttelse",
+    "talkoverProtectionDescription": "Overpratbeskyttelse tillater kun en person å prate over en frekvens om gangen.",
+    "dispatchPanel": "Dispatcher Panel",
+    "dispatchPanelDescription": "TeamSpeak-dialogen som lar deg endre innstillingene for radioen din eller radioene til andre.",
+    "fivemRadio": "FiveM Håndholdt Radio",
+    "fivemRadioDescription": "FiveM håndholdt radio lar deg endre frekvenser, skanneliste og andre radioinnstillinger",
+    "fivemTowers": "FiveM Fysiske Tårn",
+    "fivemTowersDescription": "Tårn simulerer mottakelse til et fysisk tårn, basert på avstanden din. Plasseringer og rekkevidder er tilpassbare.",
+    "fivemTowerDestruction": "FiveM Tårn Destruksjon",
+    "fivemTowerDestructionDescription": "Den (valgfri) muligheten for spillere til å ødelegge fysiske tårn for å skade radiomottakelsen.",
+    "onlyOnStatewide": "Kun tillatt på statlige frekvenser.",
+    "onlySelfFrequencies": "Kun tillatt å endre dine egne frekvenser"
+  },
+  "upgradePromo": {
+    "goProToday": "Oppgrader til Pro",
+    "learnMore": "Lær mer"
+  },
+  "error404": {
+    "message": "Ups. Ingenting her...",
+    "goHome": "Gå hjem"
+  },
+  "loginLink": {
+    "enterCode": "Skriv inn din 4-sifrede kode..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Ikon",
+      "color": "Farge",
+      "textColor": "Tekstfarge"
+    },
+    "colorLabel": "Farge",
+    "textColorLabel": "Tekstfarge"
+  },
+  "importExport": {
+    "title": "JSON Import/Eksport",
+    "export": "Eksporter",
+    "download": "Last ned",
+    "import": "Importer",
+    "placeholder": "Lim inn JSON her",
+    "tooltip": "Importer JSON-fil"
+  },
+  "getStartedButton": {
+    "learnMore": "Lær mer"
+  },
+  "fivemView": {
+    "loginWithCode": "Logg inn med kode",
+    "browserLoginInstruction": "Gå til {link} i nettleseren din for å logge inn",
+    "refresh": "Oppdater",
+    "unlink": "Koble fra"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Nødnummer (911) Anrop",
+      "noEmergencyCalls": "Ingen nødoppringninger!",
+      "noTransmissions": "Ingen overføringer funnet",
+      "playAudio": "Spill av lyd",
+      "downloadFile": "Last ned fil",
+      "redial": "Ring opp igjen {name}"
+    },
+    "peers": {
+      "kick": "Sparke",
+      "clearPanic": "Fjern Panikk",
+      "moveTo": "Flytt til",
+      "displayName": "Visningsnavn",
+      "volume": "Volum"
+    },
+    "settings": {
+      "rightClickToClear": "Høyreklikk for å rydde"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Tilbake til Portalen",
+    "leaveServer": "Forlat Server",
+    "switchToStandalone": "Bytt til Frittstående",
+    "deleteCommunity": "Slett Fellesskap"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Administrasjonspanel",
+    "subtitle": "Kun for fremtidige milliardærer",
+    "searchTitle": "Søk Fellesskap"
+  }
+}
