@@ -1,1 +1,624 @@
-{}
+{
+  "config": {
+    "displayName": "英語 (US)"
+  },
+  "common": {
+    "plans": {
+      "plan": "プラン",
+      "free": "無料",
+      "plus": "プラス",
+      "pro": "プロ"
+    },
+    "language": "言語",
+    "portal": "ポータル",
+    "search": "検索",
+    "account": "アカウント",
+    "billing": "請求",
+    "management": "管理",
+    "logout": "ログアウト",
+    "signup": "サインアップ",
+    "login": "ログイン",
+    "username": "ユーザー名",
+    "email": "メール",
+    "password": "パスワード",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "learnMore": "詳細を学ぶ",
+    "actions": "アクション",
+    "add": "追加",
+    "limited": "限定",
+    "currently": "現在",
+    "help": "ヘルプ",
+    "select": "選択",
+    "confirm": "確認",
+    "premium": "プレミアム",
+    "needsInteger": "整数でなければなりません",
+    "edit": "編集",
+    "delete": "削除",
+    "reenable": "再有効化",
+    "only": "{0} 限定",
+    "miscServer": "サーバー {id}",
+    "clipboard": "クリップボードにコピーしました！",
+    "communityIdField": "コミュニティID",
+    "copy": "コピー"
+  },
+  "hotkeys": {
+    "clearHotkey": "ホットキーをクリア"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "ディスパッチパネル",
+      "desc1": "ユーザーのビジュアル化、管理、トーンの再生などを簡単に行えます！",
+      "desc2": "Sonoran Radios のディスパッチ UI は、Web や Windows、OSX のデスクトップで使用可能です。"
+    },
+    "Cloud_Configurations": {
+      "title": "クラウド設定",
+      "desc": "使いやすい設定パネルからのライブ更新で、無線機をカスタマイズするのがかつてなく簡単になりました。"
+    },
+    "Custom_Voice_Effects": {
+      "title": "カスタム音声効果",
+      "desc": "あなたのコミュニティのためにデジタルおよびアナログスタイルの音声効果をカスタマイズしましょう！"
+    },
+    "Customizable_SFX": {
+      "title": "カスタマイズ可能なSFX",
+      "desc": "トンネル、地下の場所などでの信号損失を設定します！"
+    },
+    "ToneBoard": {
+      "title": "トーンボード",
+      "desc1": "コミュニティのためにディスパッチトーンをアップロードしてカスタマイズしましょう！",
+      "desc2": "Sonoran Radios のディスパッチ UI では、特定のチャンネルやグループを指定し、トーンを繰り返すことなどができます。ゲーム内のスピーカーでトーンを再生することも可能です！"
+    },
+    "Transmission_Logs": {
+      "title": "送信ログ",
+      "desc": "テキスト書き起こし付きで送信ログの表示・再生が可能！"
+    },
+    "Destructible_towers": {
+      "title": "破壊可能なタワー",
+      "desc1": "ゲーム内の物理的なタワーは犯罪者によって破壊され、周囲のラジオの品質を壊滅させます。",
+      "desc2": "3つの異なるゲーム内モデルを持つSonoran Radio は、没入感を次のレベルに引き上げます！"
+    },
+    "Radio_Chattrer": {
+      "title": "近くのラジオ雑音を聞く",
+      "desc": "交通取り締まりで止まった？近くにアクティブな警官のラジオがあるときに実際のラジオ雑音を聞くことができます！"
+    },
+    "VehicleDisplay": {
+      "title": "ビークルディスプレイ",
+      "desc": "3D車両ラジオディスプレイはチャンネル情報、送信者、緊急状態をリアルタイムで反映し、没入感を高めます！"
+    },
+    "inGameToneBoard": {
+      "title": "ゲーム内スピーカーへのトーンボード",
+      "desc": "Sonoran Radios のディスパッチ UI では、特定のチャンネルやグループを指定し、トーンを繰り返すことなどが可能。ゲーム内のスピーカーでトーンを再生することも可能！"
+    },
+    "EmergencyCalls": {
+      "title": "ゲーム内緊急通話",
+      "desc": "ゲーム内からでもディスパッチに緊急通話可能！"
+    },
+    "Scanners": {
+      "title": "スキャナー",
+      "desc": "ゲーム内スキャナーで他の人にラジオトラフィックを聞かせることが可能！"
+    },
+    "BackgroundAudio": {
+      "title": "バックグラウンドオーディオ",
+      "desc": "呼び出しに応答中？Sonoran Radio はサイレン、銃声などをリアルタイムでマイクフィードに直接インジェクトします。"
+    },
+    "tunnelSignalLoss": {
+      "title": "トンネル信号の損失",
+      "desc": "トンネル、地下の場所などでの信号損失を設定！"
+    },
+    "MultipleRadioOperations": {
+      "title": "複数のラジオオプション",
+      "desc1": "Sonoran Radio はゲーム内での複数のユーザーインターフェースを提供し、徒歩で、車両内で、接続を持続させます！",
+      "desc2": "私たちのラジオスタイルオプションから選ぶか、カスタム追加も可能！"
+    },
+    "Sonoran_CAD": {
+      "title": "Sonoran CAD",
+      "desc": "このプラグインはSonoran Radio カスタマーがラジオをSonoran CADと接続する機能を提供。ユニットステータス、ディスパッチコール情報、パニック切り替えなどを表示可能！"
+    },
+    "Sonoran_CMS": {
+      "title": "Sonoran CMS",
+      "desc": "Sonoran Radio権限をSonoran CMSで自動化します！"
+    },
+    "bigDaddyRadio": {
+      "title": "ビッグダディラジオアニメーション",
+      "desc": "Sonoran Radio はビッグダディスクリプトと提携して、ラジオアニメーションスクリプトを無料で提供！"
+    },
+    "mobileCommandCenter": {
+      "title": "モバイル指令センター",
+      "desc": "Sonoran のモバイル指令センターで前例のない指示が取れます。この独自のユーティリティビークルは無限の可能性をもたらします！"
+    },
+    "Power_Grid": {
+      "title": "パワーグリッド",
+      "desc": "統合パワーグリッドに侵入し、エリア内のSonoran Radio タワーを無効化します。このスクリプトについてもっと学びましょう！"
+    },
+    "intro": "Sonoran Radioでゲーム通信を次のレベルに引き上げましょう。リアルな無線チャンネルでチャットし、音声効果をカスタマイズし、ゲーム内機能と簡単に接続して、真に没入感のある体験をしましょう。"
+  },
+  "splash": {
+    "introducing": "導入",
+    "marketExplain": "公的安全においては、コミュニケーションシステムを選ぶ際に、シンプルさと信頼性が不可欠です。Sonoran Radio は現在市場で最も包括的で包括的なコミュニケーションシステムを提供しています。この新しいラジオシステムは先尖的な技術を持ち、シンプレックスとデュプレックス両方の構成、クラウドベースのプログラミングとスケーラブルなリピータードリブンのラジオネットワークを提供します。",
+    "feats": "人員間のテキストメッセージングとSonoran CAD 統合を完備した、Sonoran Radio は優れた機能付きの通信デバイスをゲーム内の人員やディスパッチャーの手に直接届けます。今日、無料でお試しください！",
+    "getStarted": "今すぐ始める",
+    "toPortal": "ポータルへ進む",
+    "learnMore": "さらに学ぶ"
+  },
+  "misc": {
+    "welcome": "ようこそ",
+    "welcomeTo": "Sonoran Radioへようこそ！",
+    "learnMoreAboutRadio": "Sonoran Radio があなたのロールプレイを革命化する方法について詳しく知りたいですか！"
+  },
+  "errors": {
+    "common": {
+      "enterPassword": "パスワードを入力してください。",
+      "enterEmail": "メールアドレスを入力してください。"
+    },
+    "misc": {
+      "noLocalStorageSupport": "お使いのブラウザはローカルストレージをサポートしていないか、または無効になっている可能性があります。"
+    },
+    "signup": {
+      "passwordNoUppercase": "パスワードに大文字が含まれていません",
+      "passwordNoNumber": "パスワードに数字が含まれていません",
+      "passwordNoSymbol": "パスワードに記号が含まれていません ({'!@#$%^&*'})",
+      "invalidPassword": "無効なパスワード",
+      "passwordNotMoreThan": "パスワードは6文字以上ではありません",
+      "passwordsDontMatch": "パスワードが一致しません。",
+      "noUsername": "ユーザー名が指定されていません。",
+      "noEmail": "メールが指定されていません。",
+      "noPassword": "パスワードが指定されていません。",
+      "usernameNotLongEnough": "ユーザー名は4文字以上ではありません。",
+      "usernameTooLong": "ユーザー名が長すぎます。",
+      "invalidEmail": "指定されたメールは無効です。他のメールアドレスを使用してください。",
+      "usernameInvalidCharacter": "ユーザー名に無効な文字が含まれています。"
+    }
+  },
+  "login": {
+    "loginWithSonoran": "Sonoranでログイン",
+    "createAccount": "アカウントを作成",
+    "forgotPassword": "パスワードを忘れた",
+    "forgotPasswordDesc": "Sonoran アカウントのパスワードを忘れましたか？以下にメールを入力して、資格情報をリセットしてください。"
+  },
+  "signup": {
+    "emailPreferencesDesc": "重要なお知らせ、アップデート、およびプロモーションのメールを受け取ります。",
+    "verifyPassword": "パスワードを確認",
+    "checkEmail": "メールを確認してアカウントを認証します。",
+    "checkSpam": "メールを見つけられない場合、迷惑メールフォルダを確認してください。"
+  },
+  "serverCommon": {
+    "nicknameInput": "ニックネーム",
+    "nicknameInputDesc": "コミュニティ用にカスタムニックネームを設定し、自分およびメンバーが確認できます",
+    "serverUidInput": "チームスピークサーバーUID",
+    "serverUidInputDesc": "お使いの TeamSpeak 3 サーバーのUIDをここに入力します"
+  },
+  "registerServer": {
+    "registerATSServer": "チームスピークサーバーを登録",
+    "registerATSServerDesc": "Sonoran Radio チームスピークプラグインを使用できるように、TeamSpeak サーバーを登録してください。",
+    "registerAStandServer": "コミュニティを登録",
+    "registerAStandServerDesc": "Sonoran Radio を使用するためにコミュニティを登録してください。",
+    "submit": "サーバーを登録",
+    "errExists": "提供された TeamSpeak サーバー UID は既存の確認済みサーバーに存在します。他の TS サーバー UID を使用してください",
+    "errUnknown": "サーバー情報を取得中に不明なエラーが発生しました。後でもう一度お試しください。"
+  },
+  "radio": {
+    "toneBoard": {
+      "broadcastTo": "ブロードキャスト先",
+      "noTones": "トーンなし",
+      "seconds": "秒",
+      "count": "カウント",
+      "newTone": "新しいトーン",
+      "title": "トーンボード",
+      "subtitle": "コミュニティ用にディスパッチトーンをカスタマイズ",
+      "repeat": "リピート",
+      "stack": "スタック",
+      "aiTts": "AI テキストからスピーチ",
+      "audioMode": "オーディオモード",
+      "aiMode": "AI モード",
+      "generate": "生成",
+      "preview": "プレビュー",
+      "voices": "声",
+      "toneLabel": "トーンラベル",
+      "speed": "速度",
+      "recording": "録音",
+      "inGameSpeaker": "ゲーム内スピーカー",
+      "inGameSpeakerGroup": "ゲーム内スピーカーグループ"
+    },
+    "channelDialog": {
+      "channelTitle": "チャンネル変更",
+      "scanTitle": "スキャンリスト"
+    },
+    "settingsDialog": {
+      "title": "設定",
+      "audioTab": "オーディオ",
+      "fivemTab": "FiveM",
+      "hotkeysTab": "ホットキー",
+      "sfxTab": "SFX",
+      "troubleHearingInGame": "ゲーム内でうまく聞こえませんか？",
+      "volume": "音量",
+      "sfxVolume": "SFX音量",
+      "automaticGainControlEnabled": "自動ゲインコントロールが有効",
+      "automaticGainControlDisabled": "自動ゲインコントロールが無効",
+      "changingOutputsUnsupported": "お使いのデバイスはオーディオ出力の変更をサポートしていません",
+      "volumeHotkeyChange": "音量ホットキーの変更",
+      "pttOffDelay": "PTTオフ遅延",
+      "resetPeerVolumes": "ピアの音量をリセット",
+      "resetSettings": "設定をリセット",
+      "macosPermWarning": "お使いのデバイスは、追加の権限が必要な場合があります：{link}",
+      "macosPermWarningLink": "権限を付与する方法を学ぶ",
+      "webHotkeyWarning": "ホットキーはブラウザウィンドウにフォーカスがある場合にのみ動作します。 {link}",
+      "webHotkeyWarningLink": "デスクトップアプリをダウンロード",
+      "moveResize": "移動/サイズ変更",
+      "unlink": "リンク解除",
+      "toggleBackgroundAudio": "バックグラウンドオーディオ",
+      "volumeChangeSirens": "音量変更 w/サイレン",
+      "escapeMode": "エスケープモード",
+      "escapeModeKeep": "ラジオを表示し続ける",
+      "escapeModeKeepTooltip": "ESC でラジオが可視のまま",
+      "escapeModeHide": "ラジオを隠す",
+      "escapeModeHideTooltip": "ESC でラジオが閉じる",
+      "escapeModeXmit": "XMIT (PTT)",
+      "escapeModeXmitTooltip": "ESC でラジオが閉じる、送信中は表示される",
+      "selectRadioFrame": "ラジオフレーム",
+      "myPttSfx": "自分のPTT SFX",
+      "othersPttSfx": "他者のPTT SFX",
+      "channelTts": "チャンネル TTS",
+      "hearScannedWhileXmit": "送信中にスキャンされたものを聞く",
+      "keyupSfx": "キーアップ SFX",
+      "keydownSfx": "キーダウン SFX"
+    },
+    "connect": "接続",
+    "selectServer": "サーバーを選択",
+    "microphonePTT": "マイク PTT",
+    "openInNewWindow": "新しいウィンドウで開く",
+    "backToPortal": "ポータルに戻る",
+    "recvFreq": "RECV: {0}MHz",
+    "xmitFreq": "XMIT {0}MHz",
+    "stopXmit": "XMITを停止",
+    "multiXmit": "CTRL + クリック 複数XMIT",
+    "muteScan": "{0} をミュート",
+    "listenScan": "{0} を聴く",
+    "setHotkeyFor": "{0} 用ホットキーを設定",
+    "hiddenChannel": "隠れたチャンネル（あなたに見える）",
+    "configureChannel": "{0} を設定",
+    "addNewChannel": "新しいチャンネルを追加",
+    "showChannelIds": "チャンネルIDを表示",
+    "channelList": "チャンネルリスト",
+    "scanList": "スキャンリスト"
+  },
+  "authMember": {
+    "title": "承認待ちです",
+    "subtitle": "{serverName}で Sonoran Radio を使用する前に、サーバー所有者またはコミュニティ管理者からの承認が必要です。承認を待ってください。",
+    "subtitleShort": "このコミュニティで Sonoran Radio を使用する前に、コミュニティスタッフからの承認が必要です",
+    "leaveMsg": "この Sonoran Radio コミュニティを退去してもよろしいですか？",
+    "errLeave": "コミュニティを退去中に予期しないエラーが発生しました。"
+  },
+  "authServer": {
+    "title": "TeamSpeak サーバーを認証",
+    "subtitle": "Sonoran Radio プラグインとWebパネルを利用した簡単な認証プロセスを通じて TeamSpeak サーバーを認証します。この認証プロセス中に、TeamSpeak サーバーに適切な権限を持つ個人に保留中の承認を示すポップアップが表示され、認証コードを TeamSpeak ポップアップウィンドウに入力して承認します。誤って TeamSpeak サーバー UID を正しく設定しなかった場合、以下で変更できます。 Sonoran Radio からの TeamSpeak ポップアップが表示されない場合は、正しい UID を入力し、プラグインの少なくとも v0.2.0 がインストールされていることを確認してください。それ以外の場合は、サポートに連絡してください。",
+    "authCodeTitle": "認証コード",
+    "clickToCopy": "コピーするにはクリック",
+    "copiedCode": "サーバー認証コードがクリップボードにコピーされました",
+    "submit": "サーバーを保存",
+    "errSave": "サーバーを保存中に予期しないエラーが発生しました",
+    "errDelete": "サーバーを削除中に予期しないエラーが発生しました"
+  },
+  "manageServer": {
+    "settings": {
+      "title": "デフォルト設定",
+      "subtitle": "コミュニティのデフォルト設定を設定します。ユーザーは独自の好みに合わせてカスタマイズできますが、これらは開始時のデフォルトとして機能します。",
+      "agc": "オートゲインコントロール",
+      "agcDesc": "マイク入力音量を自動的に調整し、すべてのユーザーの音量を均一化します。",
+      "hearPttSfx": "PTT SFXを再生",
+      "hearPttSfxDesc": "マイクをキーアップしたときにPTTサウンドを再生します。",
+      "hearOtherPttSfx": "他者のPTT SFXを再生",
+      "hearOtherPttSfxDesc": "他のユーザーがマイクをキーアップしたときにPTTサウンドを再生します。",
+      "muteScannedWhileTransmitting": "送信時にスキャンをミュート",
+      "muteScannedWhileTransmittingDesc": "チャンネルで送信中にスキャンされたチャンネルをミュートにします。",
+      "sirenVolume": "サイレン音量",
+      "sirenVolumeDesc": "ゲーム内でサイレンがアクティブな場合に、音量を加減します。",
+      "tts": "チャンネルテキストからニュースピー",
+      "ttsDesc": "チャンネルを変更したときに、チャンネル名のテキスト読み上げの声を再生します。",
+      "keyUpDelay": "キーアップ遅延",
+      "keyUpDelayDesc": "送信を終了してからマイクがリリースされるまでの遅延。",
+      "volChange": "音量変更",
+      "volChangeDesc": "音量アップ/ダウンホットキー使用時の音量変更％。"
+    },
+    "importSAPR": {
+      "btn": "SAPR設定をインポート",
+      "jsonTitle": "SAPR設定をインポート",
+      "jsonMsg": "SAPR設定JSONをここに貼り付け",
+      "confirmMsg": "{n} チャンネルをインポートしようとしています。よろしいですか？"
+    },
+    "patrolChannels": {
+      "range": {
+        "short": "短距離",
+        "medium": "中距離",
+        "long": "長距離"
+      },
+      "title": "パトロールチャンネル",
+      "subtitle": "パトロールチャンネルは、Sonoran Radio チームスピークプラグイン機能を使用することがホワイトリストに登録されたTeamSpeakチャネルです。",
+      "nickname": "ニックネーム",
+      "channelUid": "TSチャンネルID",
+      "allowTalkover": "Talkoverを許可",
+      "talkAroundRange": "TalkAround範囲",
+      "addChannel": "パトロールチャンネルを追加",
+      "explainDisabled": "パトロールチャンネルは、プランがダウングレードされたため無効になっています。他のパトロールチャンネルを削除することでこれを再度有効にできます。",
+      "explainDisabledCanReenable": "パトロールチャンネルは、プランがダウングレードされたため無効になっていますが、ドロップダウンメニューで再度有効にできます！",
+      "dialogAddTitle": "パトロールチャンネルを追加",
+      "dialogEditTitle": "パトロールチャンネルを編集",
+      "dialogSubtitle": "パトロールチャンネルはTeamSpeakチャンネルで、Sonoran Radioチームスピークプラグイン機能を使用することがホワイトリストに登録されているHere you'llset the TeamSpeak チャンネルIDと「パトロールチャンネル」が Talkover を許可するかどうかを設定します。",
+      "channelUidInput": "TSチャンネルID - 必須",
+      "customizeTalkaround": "トークアラウンドレンジをカスタマイズ",
+      "legacyChannelUidWarn": "この形式のチャンネル ID は廃止されています。Sonoran Radio TS の最新バージョンにアップグレードし、新しい数値 ID に更新してください",
+      "errSave": "パトロールチャンネルの保存中に予期しないエラーが発生しました。",
+      "errReenable": "パトロールチャンネルの有効化中に予期しないエラーが発生しました。",
+      "errDelete": "パトロールチャンネルの削除中に予期しないエラーが発生しました。"
+    },
+    "profiles": {
+      "title": "プロファイル",
+      "titleStandalone": "チャンネル",
+      "subtitle": "プロファイルは、特定の周波数間を手動で入力することなく簡単に移行するためのプリセット周波数設定です。",
+      "addProfile": "プロファイルを追加",
+      "addProfileStandalone": "チャンネルを追加",
+      "reorder": "プロファイルを再注文",
+      "reorderStandalone": "チャンネルを再注文",
+      "displayName": "表示名",
+      "recvFreq": "受信周波数",
+      "xmitFreq": "送信周波数",
+      "repeatsXmit": "送信周波数を繰り返す",
+      "pronounce": "発音",
+      "preventTalkover": "Talkoverを防ぐ",
+      "talkoverPrevented": "Talkover防止",
+      "talkoverAllowed": "Talkover可",
+      "setAsDefault": "デフォルトプロファイルとして設定",
+      "defaultProfile": "デフォルトプロファイル",
+      "explainDisabled": "プランのダウングレードによりプロファイルが無効になっています。他のプロファイルを削除してからこのプロファイルを再度有効にできます。",
+      "explainDisabledCanReenable": "プランのダウングレードによりプロファイルが無効になっています。ドロップダウンメニューでこのプロファイルを再度有効にできます！",
+      "dialogAddTitle": "プロファイルを追加",
+      "dialogEditTitle": "プロファイルを編集",
+      "dialogAddTitleStandalone": "チャンネルを追加",
+      "dialogEditTitleStandalone": "チャンネルを編集",
+      "dialogSubtitle": "Here you'll set the Display Name (optional), 受信周波数 (必須), 送信周波数 (任意), and whether or not the 送信周波数 will repeat.",
+      "dialogSubtitleStandalone": "",
+      "displayNameInput": "表示名 - 必須",
+      "errSave": "プロファイルの保存中に予期しないエラーが発生しました。",
+      "errDelete": "プロファイルの削除中に予期しないエラーが発生しました。",
+      "errSetDefault": "デフォルトプロファイルの設定中に予期しないエラーが発生しました。",
+      "errReenable": "プロファイルの再有効化中に予期しないエラーが発生しました。",
+      "voiceEffect": "音声効果"
+    },
+    "micClick": {
+      "header": "SFXカスタマイズ",
+      "subheader": "コミュニティ全体のサウンド効果をカスタマイズ",
+      "keyUpSfx": "キーアップ SFX",
+      "keyDownSfx": "キーダウン SFX",
+      "talkoverSfx": "Talkover SFX",
+      "overrideSuccessSfx": "Talkover受付オーバーライド成功SFX",
+      "emergencyCallSfx": "緊急コール SFX",
+      "panicSfx": "パニックボタン SFX",
+      "sfxVolUp": "音量アップ (ホットキー) SFX",
+      "sfxVolDown": "音量ダウン (ホットキー) SFX",
+      "simulatedAudio": "ゲーム内背景オーディオ SFX",
+      "simulatedAudioSubtitle": "背景オーディオの注入により、サイレン、ヘリコプターのローター、ボートエンジン、銃撃音といったゲーム内のサウンドがマイクの出力に混ざり合います。",
+      "sfxGameSiren": "ゲーム内サイレン SFX",
+      "sfxGameBoatEngine": "ゲーム内ボートエンジン SFX",
+      "sfxGameHelicopterRotors": "ゲーム内ヘリコプターローター SFX",
+      "sfxGamePistol": "ゲーム内ピストル SFX",
+      "sfxGamePistolSilenced": "ゲーム内サイレン付き ピストル SFX",
+      "sfxGameRifle": "ゲーム内ライフル SFX",
+      "sfxGameRifleSilenced": "ゲーム内サイレン付き ライフル SFX"
+    },
+    "voiceCustomization": {
+      "header": "音声カスタマイズ",
+      "subheader": "コミュニティのラジオ音声効果をカスタマイズ"
+    },
+    "perms": {
+      "types": {
+        "dispatch::open": {
+          "name": "ディスパッチUIを開く",
+          "desc": "この権限はディスパッチUIを開く能力を付与します"
+        },
+        "dispatch::ext_commands": {
+          "name": "チャンネルユーザーを変更",
+          "desc": "この権限はディスパッチUIを通じてチャンネルユーザーの周波数とニックネームを変更する能力を付与します"
+        },
+        "tg::talkover_override": {
+          "name": "Talkover保護のオーバーライド",
+          "desc": "この権限は他のクライアントの上で話すためにPTTボタンをダブルクリックする能力を付与します"
+        },
+        "menu::radio_lock": {
+          "name": "ラジオロック",
+          "desc": "この権限はすでに送信中の他の人の送信を停止する能力を与えます"
+        },
+        "menu::radio_attn": {
+          "name": "ラジオ注意喚起",
+          "desc": "この権限は他のユーザーのラジオにサウンドを再生してその注意を引く能力を与えます"
+        }
+      },
+      "title": "権限",
+      "subtitle": "権限により、ユーザーがSonoran Radioプラグインとどのようにインタラクトするか、何をインタラクトできるかを変更できます。",
+      "addPerm": "権限を追加",
+      "nickname": "ニックネーム",
+      "permName": "権限名",
+      "serverGroup": "サーバーグループ",
+      "dialogTitle": "権限を追加",
+      "dialogSubtitle": "サーバーグループに特定のSonoran Radioの権限を与えます。権限やサーバーグループの取得方法について詳しくは、Sonoran Radio ドキュメンテーションを参照してください。",
+      "serverGroupInput": "サーバーグループ - 必須",
+      "permInput": "権限",
+      "explainPrefix": "これは何をしますか？",
+      "invalidGroupId": "無効なサーバーグループ、番号でなければなりません。",
+      "errSave": "権限の保存中に予期しないエラーが発生しました。",
+      "errDelete": "権限の削除中に予期しないエラーが発生しました。"
+    },
+    "myself": {
+      "title": "コミュニティ情報",
+      "subtitle": "コミュニティ設定の表示と編集"
+    },
+    "members": {
+      "title": "コミュニティメンバー",
+      "subtitle": "コミュニティのユーザー権限とアクセスを管理します。",
+      "username": "ユーザー名",
+      "displayName": "表示名",
+      "traits": "特性",
+      "actions": "アクション",
+      "owner": "所有者",
+      "subOwner": "サブスクリプションホルダー",
+      "remove": "削除",
+      "explainDisabled": "サーバー所有者のみが管理者を追加または変更できます",
+      "removeWarn": "警告",
+      "removeWarnSubHolderMsg": "サブスクリプションホルダーの削除はこのサーバーを無料にダウングレードします。続行してもよろしいですか？",
+      "removeWarnSelfMsg": "このサーバーから自分自身を削除してもよろしいですか？アクセスを失い、サーバー所有者があなたを再度追加しない限りアクセスできません。",
+      "errAddInvalidAccount": "指定されたユーザー名は存在しません",
+      "errAddUnknown": "管理者の追加中に不明なエラーが発生しました",
+      "errRemoveUnknown": "管理者の削除中に不明なエラーが発生しました"
+    },
+    "ai": {
+      "services": {
+        "0": "送信ログSTT",
+        "1": "トーンボードSTT"
+      },
+      "title": "AI API キー",
+      "addKey": "AI キーを追加"
+    },
+    "admin": {
+      "communityApiKeyField": "コミュニティAPIキー",
+      "updateApiKey": "APIキーを更新"
+    },
+    "guidesLink": "Sonoran Radio情報とガイド",
+    "toPortal": "ポータルに戻る",
+    "saveServer": "サーバーを保存",
+    "unauthorizeServer": "サーバーの承認を解除",
+    "deleteServer": "コミュニティを削除",
+    "transferServer": "コミュニティを移転",
+    "dispatchTab": "ディスパッチ",
+    "membersTab": "メンバー",
+    "customizeTab": "カスタマイズ",
+    "adminTab": "管理",
+    "saveInfo": "サーバー情報を保存",
+    "explainOwnerOnly": "オーナーのみがこの設定を変更できます",
+    "noPermPage": "このページを見る権限がありません",
+    "unauthorizeMsg": "本当にこの設定の権限を取り消しますか？",
+    "deleteMsg": "この設定を削除してよろしいですか？ 正常に消去されるとデータの不可逆的な消失が発生します。",
+    "unauthorizeSuccess": "サーバーの承認が解除されました",
+    "deleteSuccess": "サーバーが成功裏に削除されました",
+    "errServerCheck": "サーバーを確認中に予期しないエラーが発生しました。",
+    "errUidTaken": "このTeamSpeakサーバー UID は他の認証済サーバーで既に使用されています。",
+    "errSaveInfo": "サーバー情報の保存中に予期しないエラーが発生しました",
+    "errImport": "SAPR設定のインポート中に予期しないエラーが発生しました",
+    "errImportNotFound": "TeamSpeak UID に SAPR 設定が見つかりませんでした。",
+    "errUnauthorize": "サーバーの承認取り消し中に予期しないエラーが発生しました"
+  },
+  "portal": {
+    "title": "Sonoran Radio ポータル",
+    "subtitle": "運営の基盤へようこそ！ここでは、請求ポータルでサブスクリプションを編集し、簡単な設定パネルでコミュニティ設定を管理するか、設定ウィザードを使用して新しいサーバーを登録します。",
+    "myCommunities": "私のコミュニティ",
+    "beginTitle": "旅の始まり",
+    "billingPortal": "サブスクリプションと請求",
+    "documentation": "ドキュメンテーション",
+    "pendingAuth": "承認待ち",
+    "needsTsAuth": "TeamSpeak3 の認証が必要",
+    "needsMemberAuth": "承認待ち",
+    "upgradeServer": "アップグレード",
+    "leaveServer": "離れる",
+    "discovery": "発見",
+    "discoveryGrowingRapidly": "このコミュニティは迅速に成長中です",
+    "discoveryHighTraffic": "このコミュニティには高いウェブサイトトラフィックがあります",
+    "discoveryActiveMembers": "このコミュニティは最もアクティブなメンバーを持っています",
+    "discoveryRecentlyBumped": "このコミュニティは最近バンプされました",
+    "joinACommunity": "Sonoran Radio コミュニティに参加する",
+    "needACommunity": "新しいSonoran Radioコミュニティが必要ですか?",
+    "beginYourJourney": "旅の始まり！"
+  },
+  "billing": {
+    "statuses": {
+      "active": "アクティブ",
+      "unpaid": "未払い",
+      "incomplete": "不完全",
+      "incomplete_expired": "期限切れ不完全",
+      "past_due": "既過の期限",
+      "canceled": "キャンセル済み"
+    },
+    "newSubDialog": {
+      "title": "新しいサブスクリプション",
+      "chooseSub": "サブスクリプションを選択",
+      "chooseSv": "サーバーを選択",
+      "plus": "プラスプラン ($14.99/月)",
+      "pro": "プロプラン ($19.99/月)",
+      "one": "ソノランワン ($49.99/月)",
+      "mostPop": "最も人気がある",
+      "oneLearnMore": "Sonoran One の詳細を学ぶ",
+      "noServer": "サーバーなし",
+      "noServerDesc": "このサブスクリプションはコミュニティと関連付けられません。後で変更できるようになります。",
+      "errCreate": "サブスクリプションの作成中に予期しないエラーが発生しました"
+    },
+    "changeSvDialog": {
+      "title": "サブスクリプションを更新",
+      "subtitle": "サーバーを選択",
+      "removeServer": "サーバーを削除",
+      "errSave": "サブスクリプションの変更中に予期しないエラーが発生しました"
+    },
+    "confirmChangeSub": {
+      "title": "サブスクリプションを変更",
+      "remove": "このサーバーをサブスクリプションから削除してもよろしいですか？",
+      "transfer": "このサブスクリプションを別のサーバーに転送してもよろしいですか？",
+      "set": "このサーバーをサブスクリプションに設定してもよろしいですか？",
+      "possibleDataLoss": "サブスクリプションを転送または削除する場合、前のサーバーでのデータの損失が発生する可能性があります。"
+    },
+    "toPortal": "ポータルに戻る",
+    "newSub": "新しいサブスクリプション",
+    "compPlans": "プランを比較",
+    "modifySub": "サブスクリプションを変更",
+    "chooseSub": "サブスクリプションプランを選択",
+    "alreadyActiveSub": "既にアクティブなサブスクリプションがあります",
+    "isUnauthorized": "承認されていないサーバーにはサブスクリプションを適用できません",
+    "noServerAssociated": "サーバーが関連付けられていません",
+    "setServer": "サーバーを設定",
+    "changeServer": "サーバーを変更",
+    "errCheck": "サブスクリプションの確認中に予期しないエラーが発生しました"
+  },
+  "account": {
+    "tokenTitle": "ラジロジンシークレット",
+    "tokenDesc": "このトークンをコピーしてFiveMラジオでのログインに使用します！",
+    "tokenDescWarning": "このコードはシークレットで、誰とも共有しないでください！",
+    "tokenInputLabel": "あなたのログインシークレット",
+    "tokenLoadBtn": "ロードをクリック",
+    "tokenCopied": "シークレットはクリップボードにコピーされています！",
+    "serversTitle": "あなたのサーバー",
+    "serversDesc": "ここでは、所有または管理するすべての Sonoran Radio コミュニティを表示できます",
+    "noServers": "サーバーなし"
+  },
+  "pricing": {
+    "plans": {
+      "free": "無料",
+      "plus": "プラス",
+      "pro": "プロ"
+    },
+    "toBilling": "請求へ戻る",
+    "planPricing": "プラン料金",
+    "pricing": "価格表",
+    "howToPurchase": "購入方法",
+    "description": "Sonoran Radio の有料サブスクリプションは、先進の機能、カスタマイズ、限界の拡大などへのアクセスを提供します！",
+    "monthCostDescription": "当社の月額サブスクリプション パッケージの費用。",
+    "patrolChannels": "パトロールチャンネル",
+    "patrolChannelsDescription": "ラジオプラグインが使用できるTeamSpeakチャンネルの＃。",
+    "unlimited": "無制限",
+    "profileLimits": "プロファイル制限",
+    "profileLimitsDescription": "許可されるプロファイル数。",
+    "statewideFrequencyLimits": "全州周波数制限",
+    "statewideFrequencyLimitsDescription": "全州で許可される周波数の数。",
+    "talkaroundFrequencies": "トークアラウンド周波数",
+    "talkaroundFrequenciesDescription": "トークアラウンド周波数は、ラジオからラジオへの通信を許可します。ラジオからタワーへの通信ではありません。",
+    "talkoverProtection": "トークオーバー保護",
+    "talkoverProtectionDescription": "トークオーバー保護により、単一の個人が一度に周波数上で話すことが許可されます。",
+    "dispatchPanel": "ディスパッチパネル",
+    "dispatchPanelDescription": "他人のラジオ設定を変更することができるTeamSpeakダイアログ。",
+    "fivemRadio": "FiveM携帯型ラジオ",
+    "fivemRadioDescription": "FiveM携帯型ラジオは、周波数、スキャンリスト、他のラジオ設定を変更可能にします",
+    "fivemTowers": "FiveM物理タワー",
+    "fivemTowersDescription": "タワーは、距離に基づいて物理的なタワーへのレセプションを模擬します。場所や範囲はカスタマイズ可能です。",
+    "fivemTowerDestruction": "FiveMタワー破壊",
+    "fivemTowerDestructionDescription": " (オプション) プレイヤーが物理的なタワーを破壊し、ラジオ受信を害する能力。",
+    "onlyOnStatewide": "全州周波数でのみ許可される。",
+    "onlySelfFrequencies": "自分の周波数のみに変更することが許可される"
+  },
+  "upgradePromo": {
+    "goProToday": "プロにアップグレード",
+    "learnMore": "さらに詳しく学ぶ"
+  }
+}

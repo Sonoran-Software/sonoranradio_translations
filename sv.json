@@ -1,1 +1,309 @@
-{}
+{
+  "config": {
+    "displayName": "Engelska (USA)"
+  },
+  "common": {
+    "plans": {
+      "plan": "Plan",
+      "free": "Gratis",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "language": "Språk",
+    "portal": "Portal",
+    "search": "Sök",
+    "account": "Konto",
+    "billing": "Fakturering",
+    "management": "Hantering",
+    "logout": "Logga ut",
+    "signup": "Registrera dig",
+    "login": "Logga in",
+    "username": "Användarnamn",
+    "email": "E-post",
+    "password": "Lösenord",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "learnMore": "Läs mer",
+    "actions": "Åtgärder",
+    "add": "Lägg till",
+    "limited": "Begränsad",
+    "currently": "För närvarande",
+    "help": "Hjälp",
+    "select": "Välj",
+    "confirm": "Bekräfta",
+    "premium": "Premium",
+    "needsInteger": "Måste vara ett heltal",
+    "edit": "Redigera",
+    "delete": "Ta bort",
+    "reenable": "Återaktivera",
+    "only": "{0} Endast",
+    "miscServer": "Server {id}",
+    "clipboard": "Kopierat till urklipp!",
+    "communityIdField": "Gemenskaps-ID",
+    "copy": "Kopiera"
+  },
+  "hotkeys": {
+    "clearHotkey": "Rensa snabbkommando"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "Dispatch-panel",
+      "desc1": "Visualisera enkelt, hantera användare, spela toner och mer!",
+      "desc2": "Sonoran Radios dispatch-UI är tillgängligt överallt på webben och skrivbordet för Windows och OSX."
+    },
+    "Cloud_Configurations": {
+      "title": "Molnkonfigurationer",
+      "desc": "Anpassa din radio har aldrig varit enklare, med liveuppdateringar från vår lättanvända konfigurationspanel."
+    },
+    "Custom_Voice_Effects": {
+      "title": "Anpassade rösteffekter",
+      "desc": "Anpassa digitala och analoga rösteffekter för din gemenskap!"
+    },
+    "Customizable_SFX": {
+      "title": "Anpassningsbart SFX",
+      "desc": "Konfigurera signalförlust i tunnlar, underjordiska platser och mer!"
+    },
+    "ToneBoard": {
+      "title": "Toneboard",
+      "desc1": "Ladda upp och anpassa dispatch-toner för din gemenskap!",
+      "desc2": "Sonoran Radios dispatch-UI låter dig specificera specifika kanaler och grupper, upprepa toner och mer! Du kan till och med spela toner på högtalare i spelet!"
+    },
+    "Transmission_Logs": {
+      "title": "Överföringsloggar",
+      "desc": "Visa och spela upp överföringsloggar med valfria AI-driven texttranskriptioner!"
+    },
+    "Destructible_towers": {
+      "title": "Förstörbara torn",
+      "desc1": "De fysiska in-game tornen kan förstöras av brottslingar, vilket kommer att förstöra kvaliteten på radio runt omkring det.",
+      "desc2": "Med tre olika in-game-modelltyper tar Sonoran Radio immersion till nästa nivå!"
+    },
+    "Radio_Chattrer": {
+      "title": "Hör närliggande radioprat",
+      "desc": "Blev du stoppad i ett trafikstopp? Du kommer att höra det riktiga radiopratet när en officer har en aktiv radio i närheten!"
+    },
+    "VehicleDisplay": {
+      "title": "Fordonsskärm",
+      "desc": "Vår 3D-fordonsskärm återspeglar din kanalinformation, överföringsanvändare och panikstatus i realtid, vilket ger nya nivåer av inlevelse!"
+    },
+    "inGameToneBoard": {
+      "title": "Tonal Bräde till In-Game Högtalare",
+      "desc": "Sonoran Radios dispatch-UI låter dig specificera specifika kanaler och grupper, upprepa toner och mer! Du kan till och med spela toner på högtalare i spelet!"
+    },
+    "EmergencyCalls": {
+      "title": "Nödssamtal i spelet",
+      "desc": "Ring nödssamtal till dispatch, allt från spelet!"
+    },
+    "Scanners": {
+      "title": "Skanners",
+      "desc": "In-game-skanners låter dig och andra i närheten lyssna på radiotrafik!"
+    },
+    "BackgroundAudio": {
+      "title": "Bakgrunds ljud",
+      "desc": "Svara på ett anrop? Sonoran Radio injicerar realtidssirener, skott och mer direkt i ditt mikrofonflöde för ultimat inlevelse."
+    },
+    "tunnelSignalLoss": {
+      "title": "Signalbortfall i tunnlar",
+      "desc": "Konfigurera signalförlust i tunnlar, underjordiska platser och mer!"
+    },
+    "MultipleRadioOperations": {
+      "title": "Många Radioalternativ",
+      "desc1": "Sonoran Radio erbjuder flera in-game användargränssnitt, som gör att du kan vara ansluten till fots, i fordon och mer!",
+      "desc2": "Välj bland en av våra radio-stilalternativ, eller lägg till din egen!"
+    },
+    "Sonoran_CAD": {
+      "title": "Sonoran CAD",
+      "desc": "Detta plugin tillåter Sonoran Radio-kunder att ansluta radion med Sonoran CAD. Visa din enhetsstatus, dispatch-anropsinformation, aktivera en panik och mer!"
+    },
+    "Sonoran_CMS": {
+      "title": "Sonoran CMS",
+      "desc": "Automatisera Sonoran Radio-behörigheter med Sonoran CMS!"
+    },
+    "bigDaddyRadio": {
+      "title": "Big-Daddy Radio Animeringar",
+      "desc": "Sonoran Radio har samarbetat med Big Daddy Scripts för att erbjuda en GRATIS kopia av deras radioanimationsskript!"
+    },
+    "mobileCommandCenter": {
+      "title": "Mobilt Kommandocenter",
+      "desc": "Sonorans mobila kommandocenter låter dig ta kommandot som aldrig förr. Detta unika verktygsfordon ger oändliga möjligheter!"
+    },
+    "Power_Grid": {
+      "title": "El-nät",
+      "desc": "Hacka in i det integrerade elnätet för att inaktivera Sonoran Radio-torn i ditt område! Läs mer om detta skript!"
+    },
+    "intro": "Ta din spelkommunikation till nästa nivå med Sonoran Radio. Chatta i realistiska radiokanaler, anpassa dina röst-effekter och anslut enkelt med spelintegrationer för en verkligt uppslukande upplevelse."
+  },
+  "splash": {
+    "introducing": "Presentera",
+    "marketExplain": "Inom offentlig säkerhet är enkelhet och pålitlighet avgörande när man väljer ett kommunikationssystem. Sonoran Radio tillhandahåller det mest omfattande och heltäckande kommunikationssystemet på marknaden idag. Detta nya radiosystem har banbrytande teknik som ger både simplex och duplex-konfigurationer, molnbaserad programmering och ett skalbart, repeaterstyrt radionätverk.",
+    "feats": "Komplett med mellanpersonlig textmeddelanden och Sonoran CAD-integration, lägger Sonoran Radio full-funktionella kommunikationsenheter direkt i händerna på dina i-spelet personal och dispatchers. Testa det gratis idag!",
+    "getStarted": "Kom igång idag",
+    "toPortal": "Gå till portal",
+    "learnMore": "Läs mer"
+  },
+  "misc": {
+    "welcome": "Välkommen",
+    "welcomeTo": "Välkommen till Sonoran Radio!",
+    "learnMoreAboutRadio": "Lär dig mer om hur Sonoran Radio kan revolutionera din roleplay!"
+  },
+  "errors": {
+    "common": {
+      "enterPassword": "Vänligen ange ett lösenord.",
+      "enterEmail": "Vänligen ange din e-postadress."
+    },
+    "misc": {
+      "noLocalStorageSupport": "Din webbläsare stöder inte lokal lagring eller kan vara inaktiverad."
+    },
+    "signup": {
+      "passwordNoUppercase": "Lösenordet innehåller inga versaler",
+      "passwordNoNumber": "Lösenordet innehåller inget nummer",
+      "passwordNoSymbol": "Lösenordet innehåller ingen symbol ({'!@#$%^&*'})",
+      "invalidPassword": "Ogiltigt lösenord",
+      "passwordNotMoreThan": "Lösenordet är inte mer än 6 tecken",
+      "passwordsDontMatch": "Lösenorden matchar inte varandra.",
+      "noUsername": "Inget användarnamn har angetts.",
+      "noEmail": "Ingen e-post har angetts.",
+      "noPassword": "Inget lösenord har angetts.",
+      "usernameNotLongEnough": "Användarnamnet är inte mer än 4 tecken långt.",
+      "usernameTooLong": "Användarnamnet är för långt.",
+      "invalidEmail": "Den angivna e-posten är inte en giltig e-postadress, använd en annan e-postadress.",
+      "usernameInvalidCharacter": "Användarnamnet innehåller ett ogiltigt tecken."
+    }
+  },
+  "login": {
+    "loginWithSonoran": "Logga in med Sonoran",
+    "createAccount": "Skapa konto",
+    "forgotPassword": "Glömt lösenord",
+    "forgotPasswordDesc": "Glömt ditt Sonoran-kontolösenord? Ange din e-post nedan för att återställa dina inloggningsuppgifter."
+  },
+  "signup": {
+    "emailPreferencesDesc": "E-posta mig viktiga meddelanden, uppdateringar och kampanjer.",
+    "verifyPassword": "Verifiera lösenord",
+    "checkEmail": "Kontrollera din e-post och verifiera ditt konto.",
+    "checkSpam": "Kontrollera din skräppostmapp om du inte hittar e-posten."
+  },
+  "serverCommon": {
+    "nicknameInput": "Smeknamn",
+    "nicknameInputDesc": "Ange ett anpassat smeknamn för din gemenskap, som du och dina medlemmar kommer att se",
+    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInputDesc": "Ange din TeamSpeak 3 server's UID här"
+  },
+  "registerServer": {
+    "registerATSServer": "Registrera en TeamSpeak Server",
+    "registerATSServerDesc": "Registrera din TeamSpeak-server för att låta din server kunna använda Sonoran Radio TeamSpeak-plugin.",
+    "registerAStandServer": "Registrera en gemenskap",
+    "registerAStandServerDesc": "Registrera din gemenskap för att använda Sonoran Radio.",
+    "submit": "Registrera server",
+    "errExists": "Den angivna TeamSpeak Server UID finns redan på en verifierad server, använd en annan TS-server UID",
+    "errUnknown": "Ett fel inträffade när du försökte få serverinformationen, försök igen senare."
+  },
+  "radio": {
+    "toneBoard": {
+      "broadcastTo": "Sänd till",
+      "noTones": "Inga toner",
+      "seconds": "Sekunder",
+      "count": "Räkna",
+      "newTone": "Ny ton",
+      "title": "Tonal bräda",
+      "subtitle": "Anpassa dispatch-toner för din gemenskap",
+      "repeat": "Upprepa",
+      "stack": "Stapla",
+      "aiTts": "AI Text-Till-Tal",
+      "audioMode": "Ljudläge",
+      "aiMode": "AI läge",
+      "generate": "Generera",
+      "preview": "Förhandsvisa",
+      "voices": "Röster",
+      "toneLabel": "Tonmärkning",
+      "speed": "Hastighet",
+      "recording": "Inspelning",
+      "inGameSpeaker": "In-Game Högtalare",
+      "inGameSpeakerGroup": "In-Game Högtalargrupp"
+    },
+    "channelDialog": {
+      "channelTitle": "Byt kanal",
+      "scanTitle": "Söklista"
+    },
+    "settingsDialog": {
+      "title": "Inställningar",
+      "audioTab": "Ljud",
+      "fivemTab": "FiveM",
+      "hotkeysTab": "Snabbkommandon",
+      "sfxTab": "SFX",
+      "troubleHearingInGame": "Har du problem med att höra i spelet?",
+      "volume": "Volym",
+      "sfxVolume": "SFX Volym",
+      "automaticGainControlEnabled": "Automatisk förstärkningskontroll aktiverad",
+      "automaticGainControlDisabled": "Automatisk förstärkningskontroll inaktiverad",
+      "changingOutputsUnsupported": "Din enhet stöder inte byte av ljudutgångar",
+      "volumeHotkeyChange": "Ändra volym snabbkommando",
+      "pttOffDelay": "PTT-Av Fördröjning",
+      "resetPeerVolumes": "Återställ peer-volymer",
+      "resetSettings": "Återställ inställningar",
+      "macosPermWarning": "Din enhet kan kräva ytterligare behörigheter: {link}",
+      "macosPermWarningLink": "Lär dig hur du beviljar behörigheter",
+      "webHotkeyWarning": "Snabbkommandon fungerar endast när webbläsarfönstret är fokuserat. {link} för globala snabbkommandon",
+      "webHotkeyWarningLink": "Ladda ner skrivbordsappen",
+      "moveResize": "Flytta/Ändra storlek",
+      "unlink": "Avlänka",
+      "toggleBackgroundAudio": "Bakgrundsljud",
+      "volumeChangeSirens": "Volym Changering m/Sirener"
+    },
+    "connect": "Anslut",
+    "selectServer": "Välj server",
+    "microphonePTT": "Mikrofon PTT",
+    "openInNewWindow": "Öppna i nytt fönster",
+    "backToPortal": "Tillbaka till portalen",
+    "recvFreq": "MOTTAG {0}MHz",
+    "xmitFreq": "SKICKAR {0}MHz",
+    "stopXmit": "Stoppa SKICKA",
+    "multiXmit": "CTRL + Klicka Multi-SKICKA",
+    "muteScan": "Tysta {0}",
+    "listenScan": "Lyssna på {0}",
+    "setHotkeyFor": "Ställ in snabbkommando för {0}",
+    "hiddenChannel": "Dold kanal (synlig för dig)",
+    "configureChannel": "Konfigurera {0}",
+    "addNewChannel": "Lägg till ny kanal",
+    "showChannelIds": "Visa kanal-ID",
+    "channelList": "Kanallista",
+    "scanList": "Söklista"
+  },
+  "authMember": {},
+  "authServer": {},
+  "manageServer": {
+    "settings": {},
+    "importSAPR": {},
+    "patrolChannels": {
+      "range": {}
+    },
+    "profiles": {},
+    "micClick": {},
+    "voiceCustomization": {},
+    "perms": {
+      "types": {
+        "dispatch::open": {},
+        "dispatch::ext_commands": {},
+        "tg::talkover_override": {},
+        "menu::radio_lock": {},
+        "menu::radio_attn": {}
+      }
+    },
+    "myself": {},
+    "members": {},
+    "ai": {
+      "services": {}
+    },
+    "admin": {}
+  },
+  "portal": {},
+  "billing": {
+    "statuses": {},
+    "newSubDialog": {},
+    "changeSvDialog": {},
+    "confirmChangeSub": {}
+  },
+  "account": {},
+  "pricing": {
+    "plans": {}
+  },
+  "upgradePromo": {}
+}

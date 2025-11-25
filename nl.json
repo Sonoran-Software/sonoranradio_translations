@@ -1,1 +1,143 @@
-{}
+{
+  "config": {
+    "displayName": "Nederlands (NL)"
+  },
+  "common": {
+    "plans": {
+      "plan": "Plan",
+      "free": "Gratis",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
+    "language": "Taal",
+    "portal": "Portaal",
+    "search": "Zoeken",
+    "account": "Account",
+    "billing": "Facturatie",
+    "management": "Beheer",
+    "logout": "Uitloggen",
+    "signup": "Aanmelden",
+    "login": "Inloggen",
+    "username": "Gebruikersnaam",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "learnMore": "Meer leren",
+    "actions": "Acties",
+    "add": "Toevoegen",
+    "limited": "Beperkt",
+    "currently": "Momenteel",
+    "help": "Help",
+    "select": "Selecteren",
+    "confirm": "Bevestigen",
+    "premium": "Premium",
+    "needsInteger": "Moet een geheel getal zijn",
+    "edit": "Bewerk",
+    "delete": "Verwijderen",
+    "reenable": "Opnieuw inschakelen",
+    "only": "{0} Alleen",
+    "miscServer": "Server {id}",
+    "clipboard": "Gekopieerd naar Klembord!",
+    "communityIdField": "Community-ID",
+    "copy": "Kopiëren"
+  },
+  "hotkeys": {
+    "clearHotkey": "Verwijder sneltoets"
+  },
+  "landingPage": {
+    "Dispatch_Panel": {
+      "title": "Dispatchpaneel",
+      "desc1": "Visualiseer eenvoudig, beheer gebruikers, speel tonen af en meer!",
+      "desc2": "Sonoran Radios dispatch-UI is overal beschikbaar op het web en op de desktop voor Windows en OSX."
+    },
+    "Cloud_Configurations": {
+      "title": "Cloudconfiguraties",
+      "desc": "Je radio aanpassen is nog nooit zo eenvoudig geweest, met live updates vanuit ons gebruiksvriendelijke configuratiepaneel."
+    },
+    "Custom_Voice_Effects": {
+      "title": "Aangepaste Stem Effecten",
+      "desc": "Pas digitale en analoge stijl stem effecten aan voor je community!"
+    },
+    "Customizable_SFX": {
+      "title": "Aanpasbare SFX",
+      "desc": "Configureer signaalverlies in tunnels, ondergrondse locaties, enzovoorts!"
+    },
+    "ToneBoard": {
+      "title": "Toneboard",
+      "desc1": "Upload en pas dispatch tonen aan voor je community!",
+      "desc2": "Sonoran Radios dispatch-UI stelt je in staat specifieke kanalen en groepen op te geven, tonen te herhalen, en meer! Je kunt zelfs tonen op in-game speakers afspelen!"
+    },
+    "Transmission_Logs": {},
+    "Destructible_towers": {},
+    "Radio_Chattrer": {},
+    "VehicleDisplay": {},
+    "inGameToneBoard": {},
+    "EmergencyCalls": {},
+    "Scanners": {},
+    "BackgroundAudio": {},
+    "tunnelSignalLoss": {},
+    "MultipleRadioOperations": {},
+    "Sonoran_CAD": {},
+    "Sonoran_CMS": {},
+    "bigDaddyRadio": {},
+    "mobileCommandCenter": {},
+    "Power_Grid": {},
+    "intro": "Til je game-communicatie naar een hoger niveau met Sonoran Radio. Chat in realistische radiokanalen, pas je stem effecten aan en verbind moeiteloos met in-game functies voor een werkelijk meeslepende ervaring."
+  },
+  "splash": {},
+  "misc": {},
+  "errors": {
+    "common": {},
+    "misc": {},
+    "signup": {}
+  },
+  "login": {},
+  "signup": {},
+  "serverCommon": {},
+  "registerServer": {},
+  "radio": {
+    "toneBoard": {},
+    "channelDialog": {},
+    "settingsDialog": {}
+  },
+  "authMember": {},
+  "authServer": {},
+  "manageServer": {
+    "settings": {},
+    "importSAPR": {},
+    "patrolChannels": {
+      "range": {}
+    },
+    "profiles": {},
+    "micClick": {},
+    "voiceCustomization": {},
+    "perms": {
+      "types": {
+        "dispatch::open": {},
+        "dispatch::ext_commands": {},
+        "tg::talkover_override": {},
+        "menu::radio_lock": {},
+        "menu::radio_attn": {}
+      }
+    },
+    "myself": {},
+    "members": {},
+    "ai": {
+      "services": {}
+    },
+    "admin": {}
+  },
+  "portal": {},
+  "billing": {
+    "statuses": {},
+    "newSubDialog": {},
+    "changeSvDialog": {},
+    "confirmChangeSub": {}
+  },
+  "account": {},
+  "pricing": {
+    "plans": {}
+  },
+  "upgradePromo": {}
+}
