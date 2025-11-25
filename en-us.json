@@ -30,7 +30,12 @@
     "edit": "Edit",
     "delete": "Delete",
     "reenable": "Re-enable",
-    "plans": { "plan": "Plan", "free": "Free", "plus": "Plus", "pro": "Pro" },
+    "plans": {
+      "plan": "Plan",
+      "free": "Free",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
     "only": "{0} Only",
     "miscServer": "Server {id}",
     "clipboard": "Copied to Clipboard!",
@@ -38,9 +43,16 @@
     "copy": "Copy",
     "menu": "Menu",
     "refresh": "Refresh",
-    "unlink": "Unlink"
+    "unlink": "Unlink",
+    "upload": "Upload",
+    "startToday": "Start today",
+    "notApplicable": "N/A"
   },
-  "hotkeys": { "clearHotkey": "Clear Hotkey" },
+  "hotkeys": {
+    "clearHotkey": "Clear Hotkey",
+    "pressAKey": "Press a key",
+    "noKeySet": "No Key Set"
+  },
   "landingPage": {
     "intro": "Take your gaming communication to the next level with Sonoran  Radio. Chat in       realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly  immersive experience.",
     "Dispatch_Panel": {
@@ -184,6 +196,26 @@
   "loginLink": {
     "enterCode": "Enter your 4-digit code..."
   },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Icon",
+      "color": "Color",
+      "textColor": "Text Color"
+    },
+    "colorLabel": "Color",
+    "textColorLabel": "Text Color"
+  },
+  "importExport": {
+    "title": "JSON Import/Export",
+    "export": "Export",
+    "download": "Download",
+    "import": "Import",
+    "placeholder": "Paste JSON here",
+    "tooltip": "Import JSON file"
+  },
+  "getStartedButton": {
+    "learnMore": "Learn more"
+  },
   "serverCommon": {
     "nicknameInput": "Nickname",
     "nicknameInputDesc": "Set a custom nickname for your community, which you and your members will see",
@@ -290,6 +322,26 @@
       "keydownSfx": "Keydown SFX"
     }
   },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Emergency (911) Calls",
+      "noEmergencyCalls": "No emergency calls!",
+      "noTransmissions": "No transmissions found",
+      "playAudio": "Play Audio",
+      "downloadFile": "Download File",
+      "redial": "Re-dial {name}"
+    },
+    "peers": {
+      "kick": "Kick",
+      "clearPanic": "Clear Panic",
+      "moveTo": "Move to",
+      "displayName": "Display Name",
+      "volume": "Volume"
+    },
+    "settings": {
+      "rightClickToClear": "Right-Click to Clear"
+    }
+  },
   "authMember": {
     "title": "You are Waiting for Approval",
     "subtitle": "Before being able to use Sonoran Radio for {serverName}, you must be approved by the server owner or community administrator. Please wait for approval.",
@@ -329,9 +381,42 @@
     "membersTab": "Members",
     "customizeTab": "Customize",
     "adminTab": "Administration",
+    "customizeMenu": {
+      "info": "Info",
+      "patrolChannels": "Patrol Channels",
+      "channelsGroups": "Channels & Groups",
+      "profiles": "Profiles",
+      "permissions": "Permissions",
+      "voiceCustomization": "Voice Customization",
+      "sfxCustomization": "SFX Customization",
+      "toneBoard": "Tone Board",
+      "fivemIntegration": "FiveM Integration",
+      "defaultSettings": "Default Settings",
+      "ai": "AI",
+      "customDomain": "Custom Domain"
+    },
     "saveInfo": "Save Server Info",
     "explainOwnerOnly": "Only the owner can change this setting",
     "noPermPage": "You do not have permission to view this page",
+    "customDomain": {
+      "requiresPro": "You must have a Pro subscription to set a Custom Domain",
+      "chooseName": "Choose your Domain Name",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "You must own your domain name!",
+      "verifyTitle": "Verify your domain",
+      "verified": "Congrats, your custom domain is verified!",
+      "tryItOut": "Try it out",
+      "defaultRecordName": "@ or blank",
+      "verifyButton": "Verify Custom Domain",
+      "dns": {
+        "type": "Type",
+        "name": "Name",
+        "content": "Content"
+      },
+      "vanityTitle": "Free Vanity URL",
+      "vanityLabel": "Vanity URL",
+      "vanityCopied": "Copied Vanity URL to Clipboard!"
+    },
     "settings": {
       "title": "Default Settings",
       "subtitle": "Configure the default settings for your community. Users can personalize their own preferences, but these will serve as the starting defaults.",
@@ -377,7 +462,11 @@
       "dialogSubtitle": "A Patrol Channel is the TeamSpeak channel that is whitelisted to use the Sonoran Radio TeamSpeak plugin functionality. Here you'll set the TeamSpeak channel ID and set whether or not the \"Patrol Channel\" should allow talkover.",
       "channelUidInput": "TS Channel ID - Required",
       "customizeTalkaround": "Customize Talkaround Range",
-      "range": { "short": "Short Range", "medium": "Medium Range", "long": "Long Range" },
+      "range": {
+        "short": "Short Range",
+        "medium": "Medium Range",
+        "long": "Long Range"
+      },
       "legacyChannelUidWarn": "This form of Channel ID has been deprecated. Please upgrade to the latest version of Sonoran Radio TS and update to new numerical IDs",
       "errSave": "An unexpected error occurred while saving the patrol channel.",
       "errReenable": "An unexpected error occurred while enabling the patrol channel.",
@@ -414,7 +503,25 @@
       "errDelete": "An unexpected error occurred while deleting the profile.",
       "errSetDefault": "An unexpected error occurred while setting the default profile.",
       "errReenable": "An unexpected error occurred while re-enabling the profile.",
-      "voiceEffect": "Voice Effect"
+      "voiceEffect": "Voice Effect",
+      "basicMode": "Basic",
+      "advancedMode": "Advanced",
+      "shareWith": "Share With",
+      "sharedTooltip": "Shared channels mirror the access and frequencies of another linked channel. Connecting to either one grants access to the same communication stream.",
+      "standardTooltip": "Standard channels operate independently with their own frequencies and access. Use this mode when the channel should be standalone.",
+      "visibility": "Visibility",
+      "visibilityOptions": {
+        "public": "Public",
+        "private": "Private"
+      },
+      "recvFreqTooltip": "Frequency to receive transmissions on. This is only for aesthetics in the radio UI.",
+      "xmitFreqTooltip": "Frequency to transmit on. This is only for aesthetics in the radio UI.",
+      "editGroup": "Edit Group",
+      "deleteGroup": "Delete Group",
+      "ttsPreview": "Text-to-speech Preview",
+      "ttsFailed": "Text-to-speech generation failed or doesn't exist.\\nRe-save the channel to generate.",
+      "privateChannel": "Private Channel",
+      "pronounceTooltip": "Advanced pronunciation for the AI channel text-to-speech."
     },
     "micClick": {
       "header": "SFX Customization",
@@ -428,7 +535,7 @@
       "sfxVolUp": "Volume Up (Hotkey) SFX",
       "sfxVolDown": "Volume Down (Hotkey) SFX",
       "simulatedAudio": "In-Game Background Audio SFX",
-      "simulatedAudioSubtitle": "Background audio injection blends in-game sounds—like sirens, helicopter rotors, boat engines, and gunshots—into your microphone output.",
+      "simulatedAudioSubtitle": "Background audio injection blends in-game sounds\u00e2\u20ac\u201dlike sirens, helicopter rotors, boat engines, and gunshots\u00e2\u20ac\u201dinto your microphone output.",
       "sfxGameSiren": "In-Game Siren SFX",
       "sfxGameBoatEngine": "In-Game Boat Engine SFX",
       "sfxGameHelicopterRotors": "In-Game Helicopter Rotors SFX",
@@ -439,7 +546,23 @@
     },
     "voiceCustomization": {
       "header": "Voice Customization",
-      "subheader": "Customize the radio voice effects for your community."
+      "subheader": "Customize the radio voice effects for your community.",
+      "input": "Input",
+      "useForEmergency": "Use for Emergency Calls",
+      "name": "Name",
+      "signalStrength": "Signal Strength",
+      "vocoderPreviewWarning": "Vocoder audio preview is not yet available."
+    },
+    "transfer": {
+      "title": "Transfer Community",
+      "selectNewOwner": "Select New Owner",
+      "warning": "Are you sure you want to transfer your community? You will no longer be the owner of this community, and you may lose your permissions",
+      "confirmInstruction": "Type {code} to confirm the transfer (case sensitive)",
+      "confirmLabel": "Confirm Transfer",
+      "cancel": "Cancel",
+      "ok": "Ok",
+      "requestCreatedTitle": "Transfer Request Created",
+      "requestCreatedMsg": "The transfer is not done yet! An email has been sent to you for extra verification"
     },
     "perms": {
       "title": "Permissions",
@@ -499,12 +622,28 @@
       "removeWarnSelfMsg": "Are you sure you want to remove yourself from this server? You will lose access and the server owner will have to add you back.",
       "errAddInvalidAccount": "The username provided does not exist",
       "errAddUnknown": "An unknown error occurred while adding the manager",
-      "errRemoveUnknown": "An unknown error occurred while removing the manager"
+      "errRemoveUnknown": "An unknown error occurred while removing the manager",
+      "permissionsBtn": "Permissions",
+      "approveBtn": "Approve",
+      "kickBtn": "Kick",
+      "filterAll": "All",
+      "filterPending": "Pending",
+      "search": "Search",
+      "pending": "Pending",
+      "paysSubscription": "Pays Subscription",
+      "setDisplayName": "Set Display Name",
+      "editMemberPerms": "Edit Member Permissions",
+      "ownerHasAllPerms": "The community owner has all permissions",
+      "privateChannels": "Private Channels",
+      "selectPrivateChannels": "Select the private channels the user is allowed to join"
     },
     "ai": {
       "title": "AI API Keys",
       "addKey": "Add AI Key",
-      "services": { "0": "Transmission Log STT", "1": "Tone Board STT" }
+      "services": {
+        "0": "Transmission Log STT",
+        "1": "Tone Board STT"
+      }
     },
     "admin": {
       "apiInfoTitle": "API Info",
@@ -570,7 +709,8 @@
       "oneLearnMore": "Learn more about Sonoran One",
       "noServer": "No Server",
       "noServerDesc": "This subscription will not be associated with a community. You will be able to change it later.",
-      "errCreate": "An unexpected error occurred while creating the subscription"
+      "errCreate": "An unexpected error occurred while creating the subscription",
+      "expertInstallation": "Expert Installation"
     },
     "changeSvDialog": {
       "title": "Update Subscription",
@@ -604,7 +744,11 @@
     "pricing": "Pricing",
     "howToPurchase": "How to Purchase",
     "description": "Sonoran Radio's paid subscriptions grant you access to advanced features, customization, increased limits, and more!",
-    "plans": { "free": "Free", "plus": "Plus", "pro": "Pro" },
+    "plans": {
+      "free": "Free",
+      "plus": "Plus",
+      "pro": "Pro"
+    },
     "monthCostDescription": "The cost of our monthly subscription package.",
     "patrolChannels": "Patrol Channels",
     "patrolChannelsDescription": "# of TeamSpeak channels where the radio plugin can be used.",
@@ -628,5 +772,8 @@
     "onlyOnStatewide": "Only allowed on statewide frequencies.",
     "onlySelfFrequencies": "Only allowed to change your own frequencies"
   },
-  "upgradePromo": { "goProToday": "Upgrade to Pro", "learnMore": "Learn More" }
+  "upgradePromo": {
+    "goProToday": "Upgrade to Pro",
+    "learnMore": "Learn More"
+  }
 }
