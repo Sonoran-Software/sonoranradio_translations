@@ -40,10 +40,18 @@
     "miscServer": "الخادم {id}",
     "clipboard": "تم النسخ إلى الحافظة!",
     "communityIdField": "معرّف المجتمع",
-    "copy": "نسخ"
+    "copy": "نسخ",
+    "menu": "قائمة",
+    "refresh": "تحديث",
+    "unlink": "فصل",
+    "upload": "رفع",
+    "startToday": "ابدأ اليوم",
+    "notApplicable": "غير متوفر"
   },
   "hotkeys": {
-    "clearHotkey": "مسح مفتاح الاختصار"
+    "clearHotkey": "مسح مفتاح الاختصار",
+    "pressAKey": "اضغط على مفتاح",
+    "noKeySet": "لم يتم تعيين مفتاح"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "حدث خطأ غير متوقع أثناء حذف الملف الشخصي.",
       "errSetDefault": "حدث خطأ غير متوقع أثناء تعيين الملف الشخصي الافتراضي.",
       "errReenable": "حدث خطأ غير متوقع أثناء إعادة تفعيل الملف الشخصي.",
-      "voiceEffect": "تأثير الصوت"
+      "voiceEffect": "تأثير الصوت",
+      "visibilityOptions": {
+        "public": "عام",
+        "private": "خاص"
+      },
+      "basicMode": "أساسي",
+      "advancedMode": "متقدم",
+      "shareWith": "مشاركة مع",
+      "sharedTooltip": "تعكس القنوات المشتركة الوصول والترددات الخاصة بقناة أخرى مرتبطة. توفر الوصول إلى نفس مسار التواصل عند الاتصال بأي من القناتين.",
+      "standardTooltip": "تعمل القنوات القياسية بشكل مستقل مع تردداتها ووصولها الخاصين. استخدم هذا الوضع عندما يجب أن تكون القناة مستقلة.",
+      "visibility": "الوضوح",
+      "recvFreqTooltip": "التردد لاستقبال الإرسالات عليه. هذا فقط للعرض الجمالي في واجهة المستخدم الخاصة بالراديو.",
+      "xmitFreqTooltip": "التردد للإرسال عليه. هذا فقط للعرض الجمالي في واجهة المستخدم الخاصة بالراديو.",
+      "editGroup": "تعديل المجموعة",
+      "deleteGroup": "حذف المجموعة",
+      "ttsPreview": "معاينة النص إلى كلام",
+      "ttsFailed": "فشل توليد النص إلى كلام أو ليس له وجود.\nقم بإعادة حفظ القناة لتوليد.",
+      "privateChannel": "قناة خاصة",
+      "pronounceTooltip": "طريقة نطق متقدمة لنص القناة بالذكاء الصناعي.",
+      "addGroup": "إضافة مجموعة",
+      "groupName": "اسم المجموعة"
     },
     "micClick": {
       "header": "تخصيص التأثيرات الصوتية",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "تخصيص الصوت",
-      "subheader": "خصص تأثيرات الصوت الراديوية لمجتمعك."
+      "subheader": "خصص تأثيرات الصوت الراديوية لمجتمعك.",
+      "input": "إدخال",
+      "useForEmergency": "استخدام لمكالمات الطوارئ",
+      "name": "اسم",
+      "signalStrength": "قوة الإشارة",
+      "vocoderPreviewWarning": "معاينة صوت vocoder غير متاحة بعد."
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "هل أنت متأكد أنك تريد إزالة نفسك من هذا الخادم؟ ستفقد الوصول وسيضطر مالك الخادم إلى إضافتك مجددًا.",
       "errAddInvalidAccount": "اسم المستخدم المقدم غير موجود",
       "errAddUnknown": "حدث خطأ غير معروف أثناء إضافة المدير",
-      "errRemoveUnknown": "حدث خطأ غير معروف أثناء إزالة المدير"
+      "errRemoveUnknown": "حدث خطأ غير معروف أثناء إزالة المدير",
+      "permissionsBtn": "الأذونات",
+      "approveBtn": "الموافقة",
+      "kickBtn": "طرد",
+      "filterAll": "الكل",
+      "filterPending": "معلق",
+      "search": "بحث",
+      "pending": "معلق",
+      "paysSubscription": "يدفع الاشتراك",
+      "setDisplayName": "تعيين اسم العرض",
+      "editMemberPerms": "تعديل أذونات العضو",
+      "ownerHasAllPerms": "مالك المجتمع لديه جميع الأذونات",
+      "privateChannels": "القنوات الخاصة",
+      "selectPrivateChannels": "حدد القنوات الخاصة التي يُسمح للمستخدم بالانضمام إليها"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "مفتاح API الخاص بالمجتمع",
-      "updateApiKey": "تحديث مفتاح API"
+      "updateApiKey": "تحديث مفتاح API",
+      "apiInfoTitle": "معلومات API",
+      "apiInfoHint": "أعط هذا لأعضاءك عند دعوتهم إلى المجتمع"
     },
     "guidesLink": "دليل معلومات Sonoran Radio",
     "toPortal": "العودة إلى البوابة",
@@ -502,7 +550,64 @@
     "errSaveInfo": "حدث خطأ غير متوقع أثناء حفظ معلومات الخادم الخاص بك.",
     "errImport": "حدث خطأ غير متوقع أثناء استيراد إعدادات SAPR الخاصة بك.",
     "errImportNotFound": "لم يتم العثور على إعدادات SAPR لخادم TeamSpeak UID الخاص بك.",
-    "errUnauthorize": "حدث خطأ غير متوقع أثناء إلغاء تفويض الخادم الخاص بك."
+    "errUnauthorize": "حدث خطأ غير متوقع أثناء إلغاء تفويض الخادم الخاص بك.",
+    "customizeMenu": {
+      "info": "معلومات",
+      "patrolChannels": "قنوات الدورية",
+      "channelsGroups": "القنوات والمجموعات",
+      "profiles": "الملفات الشخصية",
+      "permissions": "أذونات",
+      "voiceCustomization": "تخصيص الصوت",
+      "sfxCustomization": "تخصيص الصوتيات",
+      "toneBoard": "لوحة النغمات",
+      "fivemIntegration": "تكامل FiveM",
+      "defaultSettings": "الإعدادات الافتراضية",
+      "ai": "الذكاء الاصطناعي",
+      "customDomain": "نطاق مخصص"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "معرف",
+        "name": "الاسم",
+        "origin": "IP/المنشأ",
+        "pushUrl": "رابط الدفع",
+        "actions": "إجراءات"
+      },
+      "customCommunityIdHint": "اضبط معرف المجتمع المخصص الخاص بك، والذي ينطبق على رابط URL الفاني، وموارد FiveM، والانضمام للمجتمع",
+      "communityServers": "خوادم المجتمع",
+      "communityServersSubtitle": "أضف أو قم بإزالة الخوادم لتفصل اتصالات الراديو الخاصة بك",
+      "addServer": "إضافة خادم"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "نوع",
+        "name": "الاسم",
+        "content": "المحتوى"
+      },
+      "requiresPro": "يجب أن يكون لديك اشتراك Pro لضبط نطاق مخصص",
+      "chooseName": "اختر اسم النطاق الخاص بك",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "يجب أن تمتلك اسم النطاق الخاص بك!",
+      "verifyTitle": "تحقق من النطاق الخاص بك",
+      "verified": "مبروك، تم التحقق من النطاق المخصص الخاص بك!",
+      "tryItOut": "جربه",
+      "defaultRecordName": "@ أو فارغ",
+      "verifyButton": "تحقق من النطاق المخصص",
+      "vanityTitle": "رابط URL الفاني المجاني",
+      "vanityLabel": "رابط URL الفاني",
+      "vanityCopied": "تم نسخ رابط URL الفاني إلى الحافظة!"
+    },
+    "transfer": {
+      "title": "نقل المجتمع",
+      "selectNewOwner": "اختر مالكًا جديدًا",
+      "warning": "هل أنت متأكد أنك تريد نقل مجتمعك؟ لن تكون مالك المجتمع بعد الآن، وقد تفقد أذوناتك",
+      "confirmInstruction": "اكتب {code} لتأكيد النقل (حساس لحالة الأحرف)",
+      "confirmLabel": "تأكيد النقل",
+      "cancel": "إلغاء",
+      "ok": "حسنًا",
+      "requestCreatedTitle": "تم إنشاء طلب النقل",
+      "requestCreatedMsg": "النقل لم يكتمل بعد! بريد إلكتروني قد أرسل إليك لتحقيق إضافي"
+    }
   },
   "portal": {
     "title": "بوابة Sonoran Radio",
@@ -545,7 +650,8 @@
       "oneLearnMore": "تعرف على المزيد حول Sonoran One",
       "noServer": "لا يوجد خادم",
       "noServerDesc": "لن يتم ربط هذا الاشتراك بأي مجتمع. ستتمكن من تغييره لاحقًا.",
-      "errCreate": "حدث خطأ غير متوقع أثناء إنشاء الاشتراك"
+      "errCreate": "حدث خطأ غير متوقع أثناء إنشاء الاشتراك",
+      "expertInstallation": "تركيب خبير"
     },
     "changeSvDialog": {
       "title": "تحديث الاشتراك",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "ترقية إلى برو",
     "learnMore": "تعلم المزيد"
+  },
+  "error404": {
+    "message": "عذرًا. لا يوجد شيء هنا...",
+    "goHome": "اذهب إلى المنزل"
+  },
+  "loginLink": {
+    "enterCode": "أدخل الرمز المكون من 4 أرقام الخاص بك..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "رمز",
+      "color": "لون",
+      "textColor": "لون النص"
+    },
+    "colorLabel": "لون",
+    "textColorLabel": "لون النص"
+  },
+  "importExport": {
+    "title": "استيراد/تصدير JSON",
+    "export": "تصدير",
+    "download": "تنزيل",
+    "import": "استيراد",
+    "placeholder": "الصق JSON هنا",
+    "tooltip": "استيراد ملف JSON"
+  },
+  "getStartedButton": {
+    "learnMore": "تعلم المزيد"
+  },
+  "fivemView": {
+    "loginWithCode": "تسجيل الدخول برمز",
+    "browserLoginInstruction": "اذهب إلى {link} في المتصفح لتسجيل الدخول",
+    "refresh": "تحديث",
+    "unlink": "فصل"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "مكالمات الطوارئ (911)",
+      "noEmergencyCalls": "لا توجد مكالمات طوارئ!",
+      "noTransmissions": "لم يتم العثور على عمليات نقل",
+      "playAudio": "تشغيل الصوت",
+      "downloadFile": "تنزيل ملف",
+      "redial": "إعادة الاتصال {name}"
+    },
+    "peers": {
+      "kick": "طرد",
+      "clearPanic": "مسح الذعر",
+      "moveTo": "نقل إلى",
+      "displayName": "عرض الاسم",
+      "volume": "حجم الصوت"
+    },
+    "settings": {
+      "rightClickToClear": "انقر بزر الماوس الأيمن لمسح"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "العودة إلى البوابة",
+    "leaveServer": "مغادرة الخادم",
+    "switchToStandalone": "التحول إلى مستقل",
+    "deleteCommunity": "حذف المجتمع"
+  },
+  "managementPage": {
+    "title": "لوحة إدارة Sonoran Radio",
+    "subtitle": "فقط لمليارديرات المستقبل",
+    "searchTitle": "بحث عن مجتمع"
   }
 }

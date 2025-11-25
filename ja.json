@@ -40,10 +40,18 @@
     "miscServer": "サーバー {id}",
     "clipboard": "クリップボードにコピーしました！",
     "communityIdField": "コミュニティID",
-    "copy": "コピー"
+    "copy": "コピー",
+    "menu": "メニュー",
+    "refresh": "更新",
+    "unlink": "リンク解除",
+    "upload": "アップロード",
+    "startToday": "今日から開始",
+    "notApplicable": "該当なし"
   },
   "hotkeys": {
-    "clearHotkey": "ホットキーをクリア"
+    "clearHotkey": "ホットキーをクリア",
+    "pressAKey": "キーを押してください",
+    "noKeySet": "キーが設定されていません"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "プロファイルの削除中に予期しないエラーが発生しました。",
       "errSetDefault": "デフォルトプロファイルの設定中に予期しないエラーが発生しました。",
       "errReenable": "プロファイルの再有効化中に予期しないエラーが発生しました。",
-      "voiceEffect": "音声効果"
+      "voiceEffect": "音声効果",
+      "visibilityOptions": {
+        "public": "公開",
+        "private": "プライベート"
+      },
+      "basicMode": "基本",
+      "advancedMode": "高度",
+      "shareWith": "共有先",
+      "sharedTooltip": "共有チャンネルは、リンクされた別のチャンネルのアクセスと周波数をミラーリングします。いずれかに接続すると、同じ通信ストリームにアクセスできます。",
+      "standardTooltip": "標準チャンネルは、それぞれの周波数とアクセスで独立して操作します。このモードを使用して、チャンネルをスタンドアロンにします。",
+      "visibility": "可視性",
+      "recvFreqTooltip": "送信を受信するための周波数。これはラジオUIの見た目でのみです。",
+      "xmitFreqTooltip": "送信するための周波数。これはラジオUIの見た目でのみです。",
+      "editGroup": "グループを編集",
+      "deleteGroup": "グループを削除",
+      "ttsPreview": "テキスト読み上げプレビュー",
+      "ttsFailed": "テキスト読み上げ生成に失敗しました。存在しないかも。\nチャネルを再保存して生成してください。",
+      "privateChannel": "プライベートチャンネル",
+      "pronounceTooltip": "AIチャンネルテキスト読み上げの進化した発音。",
+      "addGroup": "グループを追加",
+      "groupName": "グループ名"
     },
     "micClick": {
       "header": "SFXカスタマイズ",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "音声カスタマイズ",
-      "subheader": "コミュニティのラジオ音声効果をカスタマイズ"
+      "subheader": "コミュニティのラジオ音声効果をカスタマイズ",
+      "input": "入力",
+      "useForEmergency": "緊急通報に使用",
+      "name": "名前",
+      "signalStrength": "信号強度",
+      "vocoderPreviewWarning": "ボコーダー音声プレビューはまだ利用できません。"
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "このサーバーから自分自身を削除してもよろしいですか？アクセスを失い、サーバー所有者があなたを再度追加しない限りアクセスできません。",
       "errAddInvalidAccount": "指定されたユーザー名は存在しません",
       "errAddUnknown": "管理者の追加中に不明なエラーが発生しました",
-      "errRemoveUnknown": "管理者の削除中に不明なエラーが発生しました"
+      "errRemoveUnknown": "管理者の削除中に不明なエラーが発生しました",
+      "permissionsBtn": "権限",
+      "approveBtn": "承認",
+      "kickBtn": "キック",
+      "filterAll": "すべて",
+      "filterPending": "保留中",
+      "search": "検索",
+      "pending": "保留中",
+      "paysSubscription": "サブスクリプションを支払う",
+      "setDisplayName": "表示名を設定",
+      "editMemberPerms": "メンバー権限を編集",
+      "ownerHasAllPerms": "コミュニティのオーナーはすべての権限を持っています",
+      "privateChannels": "プライベートチャンネル",
+      "selectPrivateChannels": "ユーザーが参加可能なプライベートチャンネルを選択"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "コミュニティAPIキー",
-      "updateApiKey": "APIキーを更新"
+      "updateApiKey": "APIキーを更新",
+      "apiInfoTitle": "API情報",
+      "apiInfoHint": "コミュニティに招待する際にメンバーにお渡しください"
     },
     "guidesLink": "Sonoran Radio情報とガイド",
     "toPortal": "ポータルに戻る",
@@ -502,7 +550,64 @@
     "errSaveInfo": "サーバー情報の保存中に予期しないエラーが発生しました",
     "errImport": "SAPR設定のインポート中に予期しないエラーが発生しました",
     "errImportNotFound": "TeamSpeak UID に SAPR 設定が見つかりませんでした。",
-    "errUnauthorize": "サーバーの承認取り消し中に予期しないエラーが発生しました"
+    "errUnauthorize": "サーバーの承認取り消し中に予期しないエラーが発生しました",
+    "customizeMenu": {
+      "info": "情報",
+      "patrolChannels": "パトロールチャンネル",
+      "channelsGroups": "チャンネル＆グループ",
+      "profiles": "プロファイル",
+      "permissions": "権限",
+      "voiceCustomization": "音声カスタマイズ",
+      "sfxCustomization": "SFXカスタマイズ",
+      "toneBoard": "トーンボード",
+      "fivemIntegration": "FiveM統合",
+      "defaultSettings": "デフォルト設定",
+      "ai": "AI",
+      "customDomain": "カスタムドメイン"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "名前",
+        "origin": "IP/起源",
+        "pushUrl": "プッシュURL",
+        "actions": "アクション"
+      },
+      "customCommunityIdHint": "カスタムコミュニティIDを設定してください。これにより、虚栄URL、FiveMリソース、またはコミュニティへの参加が可能になります",
+      "communityServers": "コミュニティサーバー",
+      "communityServersSubtitle": "ラジオ通信を分離するためにサーバーを追加または削除",
+      "addServer": "サーバーを追加"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "タイプ",
+        "name": "名前",
+        "content": "コンテンツ"
+      },
+      "requiresPro": "カスタムドメインを設定するには、Proサブスクリプションが必要です",
+      "chooseName": "ドメイン名を選択",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "ドメイン名の所有者である必要があります！",
+      "verifyTitle": "ドメインを確認する",
+      "verified": "おめでとうございます、カスタムドメインが確認されました！",
+      "tryItOut": "試してみてください",
+      "defaultRecordName": "@または空白",
+      "verifyButton": "カスタムドメインを確認",
+      "vanityTitle": "無料の虚栄URL",
+      "vanityLabel": "虚栄URL",
+      "vanityCopied": "虚栄URLをクリップボードにコピーしました！"
+    },
+    "transfer": {
+      "title": "コミュニティを譲渡",
+      "selectNewOwner": "新オーナーを選択",
+      "warning": "コミュニティの譲渡を本当に行いますか？ あなたはもうこのコミュニティの所有者ではなくなり、権限を失う可能性があります",
+      "confirmInstruction": "譲渡を確認するために{code}をタイプしてください（大文字小文字を区別します）",
+      "confirmLabel": "譲渡を確認",
+      "cancel": "キャンセル",
+      "ok": "OK",
+      "requestCreatedTitle": "譲渡リクエストが作成されました",
+      "requestCreatedMsg": "譲渡はまだ完了していません！追加の確認のためにメールが送信されました"
+    }
   },
   "portal": {
     "title": "Sonoran Radio ポータル",
@@ -545,7 +650,8 @@
       "oneLearnMore": "Sonoran One の詳細を学ぶ",
       "noServer": "サーバーなし",
       "noServerDesc": "このサブスクリプションはコミュニティと関連付けられません。後で変更できるようになります。",
-      "errCreate": "サブスクリプションの作成中に予期しないエラーが発生しました"
+      "errCreate": "サブスクリプションの作成中に予期しないエラーが発生しました",
+      "expertInstallation": "エキスパートインストール"
     },
     "changeSvDialog": {
       "title": "サブスクリプションを更新",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "プロにアップグレード",
     "learnMore": "さらに詳しく学ぶ"
+  },
+  "error404": {
+    "message": "おっと。何もありません...",
+    "goHome": "ホームに行く"
+  },
+  "loginLink": {
+    "enterCode": "4桁のコードを入力してください..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "アイコン",
+      "color": "色",
+      "textColor": "テキスト色"
+    },
+    "colorLabel": "色",
+    "textColorLabel": "テキスト色"
+  },
+  "importExport": {
+    "title": "JSONインポート/エクスポート",
+    "export": "エクスポート",
+    "download": "ダウンロード",
+    "import": "インポート",
+    "placeholder": "ここにJSONを貼り付ける",
+    "tooltip": "JSONファイルをインポート"
+  },
+  "getStartedButton": {
+    "learnMore": "詳しく学ぶ"
+  },
+  "fivemView": {
+    "loginWithCode": "コードでログイン",
+    "browserLoginInstruction": "ブラウザで{link}にアクセスしてログイン",
+    "refresh": "更新",
+    "unlink": "リンク解除"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "緊急（911）通話",
+      "noEmergencyCalls": "緊急通報なし！",
+      "noTransmissions": "伝送が見つかりません",
+      "playAudio": "オーディオを再生",
+      "downloadFile": "ファイルをダウンロード",
+      "redial": "{name}に再ダイヤル"
+    },
+    "peers": {
+      "kick": "キック",
+      "clearPanic": "パニックをクリア",
+      "moveTo": "移動する",
+      "displayName": "表示名",
+      "volume": "音量"
+    },
+    "settings": {
+      "rightClickToClear": "右クリックでクリア"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "ポータルに戻る",
+    "leaveServer": "サーバーを離れる",
+    "switchToStandalone": "スタンドアローンに切り替える",
+    "deleteCommunity": "コミュニティを削除"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio管理パネル",
+    "subtitle": "将来の億万長者のみ対象",
+    "searchTitle": "コミュニティを検索"
   }
 }

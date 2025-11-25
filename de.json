@@ -40,10 +40,18 @@
     "miscServer": "Server {id}",
     "clipboard": "In die Zwischenablage kopiert!",
     "communityIdField": "Community-ID",
-    "copy": "Kopieren"
+    "copy": "Kopieren",
+    "menu": "Menü",
+    "refresh": "Aktualisieren",
+    "unlink": "Verknüpfung aufheben",
+    "upload": "Hochladen",
+    "startToday": "Heute anfangen",
+    "notApplicable": "N/A"
   },
   "hotkeys": {
-    "clearHotkey": "Hotkey löschen"
+    "clearHotkey": "Hotkey löschen",
+    "pressAKey": "Drücken Sie eine Taste",
+    "noKeySet": "Keine Taste gesetzt"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "Ein unerwarteter Fehler ist aufgetreten, während das Profil gelöscht wurde.",
       "errSetDefault": "Ein unerwarteter Fehler ist aufgetreten, während das Standardprofil festgelegt wurde.",
       "errReenable": "Ein unerwarteter Fehler ist aufgetreten, während das Profil wieder aktiviert wurde.",
-      "voiceEffect": "Stimmeffekt"
+      "voiceEffect": "Stimmeffekt",
+      "visibilityOptions": {
+        "public": "Öffentlich",
+        "private": "Privat"
+      },
+      "basicMode": "Einfach",
+      "advancedMode": "Erweitert",
+      "shareWith": "Teilen mit",
+      "sharedTooltip": "Gemeinsame Kanäle spiegeln den Zugriff und die Frequenzen eines anderen verknüpften Kanals wider. Eine Verbindung zu einem der beiden verschafft Zugang zum selben Kommunikationsstrom.",
+      "standardTooltip": "Standardkanäle operieren unabhängig mit ihren eigenen Frequenzen und Zugriffsberechtigungen. Verwenden Sie diesen Modus, wenn der Kanal eigenständig sein soll.",
+      "visibility": "Sichtbarkeit",
+      "recvFreqTooltip": "Frequenz, um Übertragungen zu empfangen. Dies dient nur zur Ästhetik in der Radio-UI.",
+      "xmitFreqTooltip": "Frequenz, um zu senden. Dies dient nur zur Ästhetik in der Radio-UI.",
+      "editGroup": "Gruppe bearbeiten",
+      "deleteGroup": "Gruppe löschen",
+      "ttsPreview": "Text-zu-Sprache Vorschau",
+      "ttsFailed": "Text-zu-Sprache-Erstellung fehlgeschlagen oder existiert nicht.\nSpeichern Sie den Kanal erneut, um zu generieren.",
+      "privateChannel": "Privatkanal",
+      "pronounceTooltip": "Erweiterte Aussprache für den KI-Kanal Text-zu-Sprache.",
+      "addGroup": "Gruppe hinzufügen",
+      "groupName": "Gruppenname"
     },
     "micClick": {
       "header": "SFX-Anpassung",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "Stimmenanpassung",
-      "subheader": "Passen Sie die Funkstimmeffekte für Ihre Community an."
+      "subheader": "Passen Sie die Funkstimmeffekte für Ihre Community an.",
+      "input": "Eingang",
+      "useForEmergency": "Für Notrufe verwenden",
+      "name": "Name",
+      "signalStrength": "Signalstärke",
+      "vocoderPreviewWarning": "Vocoder-Audiovorschau ist noch nicht verfügbar."
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "Sind Sie sicher, dass Sie sich von diesem Server entfernen möchten? Sie verlieren den Zugriff und der Serverbesitzer muss Sie wieder hinzufügen.",
       "errAddInvalidAccount": "Der angegebene Benutzername existiert nicht",
       "errAddUnknown": "Ein unbekannter Fehler ist aufgetreten, während der Manager hinzugefügt wurde",
-      "errRemoveUnknown": "Ein unbekannter Fehler ist aufgetreten, während der Manager entfernt wurde"
+      "errRemoveUnknown": "Ein unbekannter Fehler ist aufgetreten, während der Manager entfernt wurde",
+      "permissionsBtn": "Berechtigungen",
+      "approveBtn": "Genehmigen",
+      "kickBtn": "Entfernen",
+      "filterAll": "Alle",
+      "filterPending": "Ausstehend",
+      "search": "Suchen",
+      "pending": "Ausstehend",
+      "paysSubscription": "Abonnement zahlt",
+      "setDisplayName": "Anzeigenamen festlegen",
+      "editMemberPerms": "Mitgliederrechte bearbeiten",
+      "ownerHasAllPerms": "Der Community-Besitzer hat alle Berechtigungen",
+      "privateChannels": "Private Kanäle",
+      "selectPrivateChannels": "Wählen Sie die privaten Kanäle aus, die der Benutzer betreten darf"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "Community-API-Schlüssel",
-      "updateApiKey": "API-Schlüssel aktualisieren"
+      "updateApiKey": "API-Schlüssel aktualisieren",
+      "apiInfoTitle": "API-Informationen",
+      "apiInfoHint": "Geben Sie dies Ihren Mitgliedern, wenn Sie sie zur Community einladen"
     },
     "guidesLink": "Sonoran Radio Informationen & Anleitungen",
     "toPortal": "Zurück zum Portal",
@@ -502,7 +550,64 @@
     "errSaveInfo": "Ein unerwarteter Fehler ist aufgetreten, während Ihre Serverinformationen gespeichert wurden.",
     "errImport": "Ein unerwarteter Fehler ist aufgetreten, während Ihre SAPR-Konfiguration importiert wurde.",
     "errImportNotFound": "Es wurde keine SAPR-Konfiguration für Ihre TeamSpeak-UID gefunden.",
-    "errUnauthorize": "Ein unerwarteter Fehler ist aufgetreten, während Ihr Server nicht autorisiert wurde."
+    "errUnauthorize": "Ein unerwarteter Fehler ist aufgetreten, während Ihr Server nicht autorisiert wurde.",
+    "customizeMenu": {
+      "info": "Info",
+      "patrolChannels": "Patrouillenkanäle",
+      "channelsGroups": "Kanäle & Gruppen",
+      "profiles": "Profile",
+      "permissions": "Berechtigungen",
+      "voiceCustomization": "Stimmenanpassung",
+      "sfxCustomization": "SFX-Anpassung",
+      "toneBoard": "Tonboard",
+      "fivemIntegration": "FiveM-Integration",
+      "defaultSettings": "Standardeinstellungen",
+      "ai": "KI",
+      "customDomain": "Benutzerdefinierte Domain"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Name",
+        "origin": "IP/Ursprung",
+        "pushUrl": "Push-URL",
+        "actions": "Aktionen"
+      },
+      "customCommunityIdHint": "Legen Sie Ihre benutzerdefinierte Community-ID fest, die für die benutzerdefinierte URL, die FiveM-Ressource und den Beitritt zur Community vorgesehen ist",
+      "communityServers": "Community-Server",
+      "communityServersSubtitle": "Server hinzufügen oder entfernen, um Ihre Funkkommunikation zu trennen",
+      "addServer": "Server hinzufügen"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Typ",
+        "name": "Name",
+        "content": "Inhalt"
+      },
+      "requiresPro": "Sie müssen ein Pro-Abonnement haben, um eine benutzerdefinierte Domain festzulegen",
+      "chooseName": "Wählen Sie Ihren Domainnamen",
+      "placeholder": "radio.beispiel.de",
+      "ownershipHint": "Sie müssen Ihren Domainnamen besitzen!",
+      "verifyTitle": "Bestätigen Sie Ihre Domain",
+      "verified": "Glückwunsch, Ihre benutzerdefinierte Domain ist verifiziert!",
+      "tryItOut": "Probieren Sie es aus",
+      "defaultRecordName": "@ oder leer",
+      "verifyButton": "Benutzerdefinierte Domain überprüfen",
+      "vanityTitle": "Kostenlose Vanity-URL",
+      "vanityLabel": "Vanity-URL",
+      "vanityCopied": "Vanity-URL in die Zwischenablage kopiert!"
+    },
+    "transfer": {
+      "title": "Community übertragen",
+      "selectNewOwner": "Neuen Besitzer wählen",
+      "warning": "Sind Sie sicher, dass Sie Ihre Community übertragen möchten? Sie sind dann nicht mehr der Besitzer dieser Community und könnten Ihre Berechtigungen verlieren.",
+      "confirmInstruction": "Tippen Sie {code}, um die Übertragung zu bestätigen (Groß-/Kleinschreibung beachten)",
+      "confirmLabel": "Übertragung bestätigen",
+      "cancel": "Abbrechen",
+      "ok": "Ok",
+      "requestCreatedTitle": "Übertragungsanfrage erstellt",
+      "requestCreatedMsg": "Die Übertragung ist noch nicht abgeschlossen! Eine E-Mail wurde Ihnen zur weiteren Verifizierung gesendet"
+    }
   },
   "portal": {
     "title": "Sonoran Radio Portal",
@@ -545,7 +650,8 @@
       "oneLearnMore": "Erfahren Sie mehr über Sonoran One",
       "noServer": "Kein Server",
       "noServerDesc": "Dieses Abonnement wird keiner Community zugeordnet. Sie können es später ändern.",
-      "errCreate": "Ein unerwarteter Fehler ist aufgetreten, während das Abonnement erstellt wurde"
+      "errCreate": "Ein unerwarteter Fehler ist aufgetreten, während das Abonnement erstellt wurde",
+      "expertInstallation": "Experteninstallation"
     },
     "changeSvDialog": {
       "title": "Abonnement aktualisieren",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "Auf Pro upgraden",
     "learnMore": "Mehr erfahren"
+  },
+  "error404": {
+    "message": "Ups. Nichts hier...",
+    "goHome": "Zur Startseite"
+  },
+  "loginLink": {
+    "enterCode": "Geben Sie Ihren 4-stelligen Code ein..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Symbol",
+      "color": "Farbe",
+      "textColor": "Textfarbe"
+    },
+    "colorLabel": "Farbe",
+    "textColorLabel": "Textfarbe"
+  },
+  "importExport": {
+    "title": "JSON Import/Export",
+    "export": "Exportieren",
+    "download": "Herunterladen",
+    "import": "Importieren",
+    "placeholder": "JSON hier einfügen",
+    "tooltip": "JSON-Datei importieren"
+  },
+  "getStartedButton": {
+    "learnMore": "Mehr erfahren"
+  },
+  "fivemView": {
+    "loginWithCode": "Mit Code anmelden",
+    "browserLoginInstruction": "Gehen Sie zu {link} in Ihrem Browser, um sich anzumelden",
+    "refresh": "Aktualisieren",
+    "unlink": "Verknüpfung aufheben"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Notrufe (911)",
+      "noEmergencyCalls": "Keine Notrufe!",
+      "noTransmissions": "Keine Übertragungen gefunden",
+      "playAudio": "Audio abspielen",
+      "downloadFile": "Datei herunterladen",
+      "redial": "Wiederwahl {name}"
+    },
+    "peers": {
+      "kick": "Entfernen",
+      "clearPanic": "Panikalarm löschen",
+      "moveTo": "Verschieben nach",
+      "displayName": "Anzeigename",
+      "volume": "Lautstärke"
+    },
+    "settings": {
+      "rightClickToClear": "Rechtsklick zum Löschen"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Zurück zum Portal",
+    "leaveServer": "Server verlassen",
+    "switchToStandalone": "Wechsel zu Standalone",
+    "deleteCommunity": "Community löschen"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Verwaltungspanel",
+    "subtitle": "Nur für zukünftige Milliardäre",
+    "searchTitle": "Community suchen"
   }
 }

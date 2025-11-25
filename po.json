@@ -40,10 +40,18 @@
     "miscServer": "Servidor {id}",
     "clipboard": "Copiado para a Área de Transferência!",
     "communityIdField": "ID da Comunidade",
-    "copy": "Copiar"
+    "copy": "Copiar",
+    "menu": "Menù",
+    "refresh": "Rinfresca",
+    "unlink": "Scollega",
+    "upload": "Carica",
+    "startToday": "Inizia oggi",
+    "notApplicable": "N/D"
   },
   "hotkeys": {
-    "clearHotkey": "Limpar Atalho"
+    "clearHotkey": "Limpar Atalho",
+    "pressAKey": "Premi un tasto",
+    "noKeySet": "Nessun tasto impostato"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "Ocorreu um erro inesperado ao excluir o perfil.",
       "errSetDefault": "Ocorreu um erro inesperado ao definir o perfil padrão.",
       "errReenable": "Ocorreu um erro inesperado ao reativar o perfil.",
-      "voiceEffect": "Efeito de Voz"
+      "voiceEffect": "Efeito de Voz",
+      "visibilityOptions": {
+        "public": "Pubblica",
+        "private": "Privata"
+      },
+      "basicMode": "Base",
+      "advancedMode": "Avanzato",
+      "shareWith": "Condividi con",
+      "sharedTooltip": "I canali condivisi rispecchiano l'accesso e le frequenze di un altro canale collegato. Connettersi a uno dei due concede l'accesso allo stesso flusso di comunicazione.",
+      "standardTooltip": "I canali standard operano in modo indipendente con le proprie frequenze e accesso. Usa questo modalità quando il canale dovrebbe essere indipendente.",
+      "visibility": "Visibilità",
+      "recvFreqTooltip": "Frequenza su cui ricevere le trasmissioni. Questo è solo per estetica nell'UI radio.",
+      "xmitFreqTooltip": "Frequenza su cui trasmettere. Questo è solo per estetica nell'UI radio.",
+      "editGroup": "Modifica gruppo",
+      "deleteGroup": "Elimina gruppo",
+      "ttsPreview": "Anteprima testo-da-discorso",
+      "ttsFailed": "Generazione testo-da-discorso fallita o inesistente. \nSalva di nuovo il canale per generare.",
+      "privateChannel": "Canale privato",
+      "pronounceTooltip": "Pronuncia avanzata per il testo-a-voce del canale AI.",
+      "addGroup": "Aggiungi gruppo",
+      "groupName": "Nome gruppo"
     },
     "micClick": {
       "header": "Personalização de SFX",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "Customização de Voz",
-      "subheader": "Personalize os efeitos de voz do rádio para sua comunidade."
+      "subheader": "Personalize os efeitos de voz do rádio para sua comunidade.",
+      "input": "Ingresso",
+      "useForEmergency": "Usa per chiamate di emergenza",
+      "name": "Nome",
+      "signalStrength": "Forza del segnale",
+      "vocoderPreviewWarning": "L'anteprima audio del vocoder non è ancora disponibile."
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "Você tem certeza de que deseja se remover deste servidor? Você perderá o acesso, e o proprietário do servidor terá que adicioná-lo de volta.",
       "errAddInvalidAccount": "O nome de usuário fornecido não existe",
       "errAddUnknown": "Ocorreu um erro desconhecido ao adicionar o gerente",
-      "errRemoveUnknown": "Ocorreu um erro desconhecido ao remover o gerente"
+      "errRemoveUnknown": "Ocorreu um erro desconhecido ao remover o gerente",
+      "permissionsBtn": "Permessi",
+      "approveBtn": "Approvare",
+      "kickBtn": "Espelli",
+      "filterAll": "Tutti",
+      "filterPending": "In attesa",
+      "search": "Ricerca",
+      "pending": "In attesa",
+      "paysSubscription": "Paga l'abbonamento",
+      "setDisplayName": "Imposta nome visualizzato",
+      "editMemberPerms": "Modifica permessi membro",
+      "ownerHasAllPerms": "Il proprietario della comunità ha tutti i permessi",
+      "privateChannels": "Canali privati",
+      "selectPrivateChannels": "Seleziona i canali privati a cui l'utente può accedere"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "Chave de API da Comunidade",
-      "updateApiKey": "Atualizar Chave de API"
+      "updateApiKey": "Atualizar Chave de API",
+      "apiInfoTitle": "Informazioni API",
+      "apiInfoHint": "Fornisci queste informazioni ai tuoi membri quando li inviti nella comunità"
     },
     "guidesLink": "Informações & Guias do Sonoran Radio",
     "toPortal": "Voltar ao Portal",
@@ -502,7 +550,64 @@
     "errSaveInfo": "Ocorreu um erro inesperado ao salvar as informações do servidor.",
     "errImport": "Ocorreu um erro inesperado ao importar sua Configuração SAPR.",
     "errImportNotFound": "Nenhuma configuração SAPR foi encontrada para seu UID do TeamSpeak.",
-    "errUnauthorize": "Ocorreu um erro inesperado ao desautorizar o seu servidor."
+    "errUnauthorize": "Ocorreu um erro inesperado ao desautorizar o seu servidor.",
+    "customizeMenu": {
+      "info": "Informazioni",
+      "patrolChannels": "Canali di pattuglia",
+      "channelsGroups": "Canali e gruppi",
+      "profiles": "Profili",
+      "permissions": "Permessi",
+      "voiceCustomization": "Personalizzazione vocale",
+      "sfxCustomization": "Personalizzazione SFX",
+      "toneBoard": "Pannello toni",
+      "fivemIntegration": "Integrazione FiveM",
+      "defaultSettings": "Impostazioni predefinite",
+      "ai": "AI",
+      "customDomain": "Dominio personalizzato"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Nome",
+        "origin": "IP/Origine",
+        "pushUrl": "URL push",
+        "actions": "Azioni"
+      },
+      "customCommunityIdHint": "Imposta il tuo ID Comunità personalizzato, che è per l'URL personalizzato, la risorsa FiveM e per unirti alla comunità",
+      "communityServers": "Server della comunità",
+      "communityServersSubtitle": "Aggiungi o rimuovi server per separare le tue comunicazioni radio",
+      "addServer": "Aggiungi server"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Tipo",
+        "name": "Nome",
+        "content": "Contenuto"
+      },
+      "requiresPro": "Devi avere un abbonamento Pro per impostare un dominio personalizzato",
+      "chooseName": "Scegli il tuo nome di dominio",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "Devi possedere il tuo nome di dominio!",
+      "verifyTitle": "Verifica il tuo dominio",
+      "verified": "Congratulazioni, il tuo dominio personalizzato è verificato!",
+      "tryItOut": "Provalo",
+      "defaultRecordName": "@ o vuoto",
+      "verifyButton": "Verifica dominio personalizzato",
+      "vanityTitle": "URL personalizzato gratuito",
+      "vanityLabel": "URL personalizzato",
+      "vanityCopied": "URL personalizzato copiato negli appunti!"
+    },
+    "transfer": {
+      "title": "Trasferimento comunità",
+      "selectNewOwner": "Seleziona nuovo proprietario",
+      "warning": "Sei sicuro di voler trasferire la tua comunità? Non sarai più il proprietario di questa comunità e potrebbe perdere i tuoi permessi",
+      "confirmInstruction": "Digita {code} per confermare il trasferimento (sensibile alle maiuscole)",
+      "confirmLabel": "Conferma trasferimento",
+      "cancel": "Annulla",
+      "ok": "Ok",
+      "requestCreatedTitle": "Richiesta di trasferimento creata",
+      "requestCreatedMsg": "Il trasferimento non è ancora completato! Ti è stata inviata un'email per ulteriore verifica"
+    }
   },
   "portal": {
     "title": "Portal Sonoran Radio",
@@ -545,7 +650,8 @@
       "oneLearnMore": "Saiba mais sobre o Sonoran One",
       "noServer": "Nenhum Servidor",
       "noServerDesc": "Esta assinatura não será associada a uma comunidade. Você poderá alterar isso mais tarde.",
-      "errCreate": "Ocorreu um erro inesperado ao criar a assinatura"
+      "errCreate": "Ocorreu um erro inesperado ao criar a assinatura",
+      "expertInstallation": "Installazione esperta"
     },
     "changeSvDialog": {
       "title": "Atualizar Assinatura",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "Atualize para Pro",
     "learnMore": "Saiba Mais"
+  },
+  "error404": {
+    "message": "Ops. Niente qui...",
+    "goHome": "Torna a casa"
+  },
+  "loginLink": {
+    "enterCode": "Inserisci il tuo codice a 4 cifre..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Icona",
+      "color": "Colore",
+      "textColor": "Colore del testo"
+    },
+    "colorLabel": "Colore",
+    "textColorLabel": "Colore del testo"
+  },
+  "importExport": {
+    "title": "Importazione/Esportazione JSON",
+    "export": "Esporta",
+    "download": "Scarica",
+    "import": "Importa",
+    "placeholder": "Incolla JSON qui",
+    "tooltip": "Importa file JSON"
+  },
+  "getStartedButton": {
+    "learnMore": "Scopri di più"
+  },
+  "fivemView": {
+    "loginWithCode": "Accedi con codice",
+    "browserLoginInstruction": "Vai a {link} nel tuo browser per accedere",
+    "refresh": "Rinfresca",
+    "unlink": "Scollega"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Chiamate di emergenza (911)",
+      "noEmergencyCalls": "Nessuna chiamata di emergenza!",
+      "noTransmissions": "Nessuna trasmissione trovata",
+      "playAudio": "Riproduci audio",
+      "downloadFile": "Scarica file",
+      "redial": "Ricomponi {name}"
+    },
+    "peers": {
+      "kick": "Espelli",
+      "clearPanic": "Cancella panico",
+      "moveTo": "Sposta a",
+      "displayName": "Nome visualizzato",
+      "volume": "Volume"
+    },
+    "settings": {
+      "rightClickToClear": "Clic destro per cancellare"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Torna al portale",
+    "leaveServer": "Lascia il server",
+    "switchToStandalone": "Passa a Standalone",
+    "deleteCommunity": "Elimina comunità"
+  },
+  "managementPage": {
+    "title": "Pannello di gestione Sonoran Radio",
+    "subtitle": "Solo per futuri miliardari",
+    "searchTitle": "Cerca comunità"
   }
 }

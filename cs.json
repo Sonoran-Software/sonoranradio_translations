@@ -40,10 +40,18 @@
     "miscServer": "Server {id}",
     "clipboard": "Zkopírováno do schránky!",
     "communityIdField": "ID Komunity",
-    "copy": "Kopírovat"
+    "copy": "Kopírovat",
+    "menu": "Menu",
+    "refresh": "Obnovit",
+    "unlink": "Odpojit",
+    "upload": "Nahrát",
+    "startToday": "Začněte dnes",
+    "notApplicable": "N/A"
   },
   "hotkeys": {
-    "clearHotkey": "Vyčistit klávesovou zkratku"
+    "clearHotkey": "Vyčistit klávesovou zkratku",
+    "pressAKey": "Stiskněte klávesu",
+    "noKeySet": "Klávesa není nastavena"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "Při mazání profilu došlo k neočekávané chybě.",
       "errSetDefault": "Při nastavení výchozího profilu došlo k neočekávané chybě.",
       "errReenable": "Při znovu povolování profilu došlo k neočekávané chybě.",
-      "voiceEffect": "Hlasový Efekt"
+      "voiceEffect": "Hlasový Efekt",
+      "visibilityOptions": {
+        "public": "Veřejné",
+        "private": "Soukromé"
+      },
+      "basicMode": "Základní",
+      "advancedMode": "Pokročilý",
+      "shareWith": "Sdílet s",
+      "sharedTooltip": "Sdílené kanály zrcadlí přístup a frekvence jiného propojeného kanálu. Připojení k některému z nich poskytuje přístup ke stejnému komunikačnímu proudu.",
+      "standardTooltip": "Standardní kanály fungují nezávisle s vlastními frekvencemi a přístupem. Použijte tento režim, pokud by měl být kanál samostatný.",
+      "visibility": "Viditelnost",
+      "recvFreqTooltip": "Frekvence pro příjem přenosů. To je pouze estetické v radio UI.",
+      "xmitFreqTooltip": "Frekvence pro vysílání. To je pouze estetické v radio UI.",
+      "editGroup": "Upravit skupinu",
+      "deleteGroup": "Smazat skupinu",
+      "ttsPreview": "Náhled textu na řeč",
+      "ttsFailed": "Generování textu na řeč selhalo nebo neexistuje.\nUložte kanál znovu pro generování.",
+      "privateChannel": "Soukromý kanál",
+      "pronounceTooltip": "Pokročilá výslovnost pro text na řeč AI kanálu.",
+      "addGroup": "Přidat skupinu",
+      "groupName": "Název skupiny"
     },
     "micClick": {
       "header": "SFX Přizpůsobení",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "Přizpůsobení Hlasu",
-      "subheader": "Přizpůsobte hlasové efekty rádia pro vaši komunitu."
+      "subheader": "Přizpůsobte hlasové efekty rádia pro vaši komunitu.",
+      "input": "Vstup",
+      "useForEmergency": "Použít pro tísňová volání",
+      "name": "Název",
+      "signalStrength": "Síla signálu",
+      "vocoderPreviewWarning": "Náhled na vocoder audio není zatím k dispozici."
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "Jste si jisti, že chcete odstranit sami sebe z tohoto serveru? Ztratíte přístup a vlastník serveru vás bude muset přidat zpět.",
       "errAddInvalidAccount": "Zadané uživatelské jméno neexistuje",
       "errAddUnknown": "Při přidávání manažera došlo k neznámé chybě",
-      "errRemoveUnknown": "Při odebírání manažera došlo k neznámé chybě"
+      "errRemoveUnknown": "Při odebírání manažera došlo k neznámé chybě",
+      "permissionsBtn": "Oprávnění",
+      "approveBtn": "Schválit",
+      "kickBtn": "Vyhodit",
+      "filterAll": "Vše",
+      "filterPending": "Čekající",
+      "search": "Hledat",
+      "pending": "Čekající",
+      "paysSubscription": "Platí předplatné",
+      "setDisplayName": "Nastavit zobrazovaný název",
+      "editMemberPerms": "Upravit oprávnění člena",
+      "ownerHasAllPerms": "Vlastník komunity má všechna oprávnění",
+      "privateChannels": "Soukromé kanály",
+      "selectPrivateChannels": "Vyberte soukromé kanály, které může uživatel připojit"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "Komunitní API Klíč",
-      "updateApiKey": "Aktualizovat API Klíč"
+      "updateApiKey": "Aktualizovat API Klíč",
+      "apiInfoTitle": "API Informace",
+      "apiInfoHint": "Dejte to svým členům při jejich pozvání do komunity"
     },
     "guidesLink": "Informace & Průvodci Sonoran Radio",
     "toPortal": "Zpět na Portál",
@@ -502,7 +550,64 @@
     "errSaveInfo": "Při ukládání informací o vašem serveru došlo k neočekávané chybě.",
     "errImport": "Při importování vaší SAPR Konfigurace došlo k neočekávané chybě.",
     "errImportNotFound": "Pro váš TeamSpeak UID nebyla nalezena žádná SAPR Konfigurace.",
-    "errUnauthorize": "Při odautorizování vašeho serveru došlo k neočekávané chybě."
+    "errUnauthorize": "Při odautorizování vašeho serveru došlo k neočekávané chybě.",
+    "customizeMenu": {
+      "info": "Informace",
+      "patrolChannels": "Patrolovat kanály",
+      "channelsGroups": "Kanály a skupiny",
+      "profiles": "Profily",
+      "permissions": "Oprávnění",
+      "voiceCustomization": "Přizpůsobení hlasu",
+      "sfxCustomization": "Přizpůsobení efektů",
+      "toneBoard": "Tónová deska",
+      "fivemIntegration": "Integrace s FiveM",
+      "defaultSettings": "Výchozí nastavení",
+      "ai": "AI",
+      "customDomain": "Vlastní doména"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Název",
+        "origin": "IP/Původ",
+        "pushUrl": "URL pro odesílání",
+        "actions": "Akce"
+      },
+      "customCommunityIdHint": "Nastavte si vlastní ID komunity, které je pro vanity URL, FiveM zdroj, a pro připojení ke komunitě",
+      "communityServers": "Komunitní servery",
+      "communityServersSubtitle": "Přidejte nebo odeberte servery pro oddělení vašich rádiových komunikací",
+      "addServer": "Přidat server"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Typ",
+        "name": "Název",
+        "content": "Obsah"
+      },
+      "requiresPro": "Musíte mít Pro předplatné, abyste nastavili vlastní doménu",
+      "chooseName": "Vyberte si název domény",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "Musíte vlastnit svůj název domény!",
+      "verifyTitle": "Ověřte svou doménu",
+      "verified": "Gratulujeme, vaše vlastní doména je ověřena!",
+      "tryItOut": "Vyzkoušejte to",
+      "defaultRecordName": "@ nebo prázdné",
+      "verifyButton": "Ověřit vlastní doménu",
+      "vanityTitle": "Zdarma Vanity URL",
+      "vanityLabel": "Vanity URL",
+      "vanityCopied": "URL Vanity zkopírována do schránky!"
+    },
+    "transfer": {
+      "title": "Převést komunitu",
+      "selectNewOwner": "Vyberte nového vlastníka",
+      "warning": "Opravdu chcete převést svou komunitu? Nebudete již vlastníkem této komunity a můžete ztratit svá oprávnění.",
+      "confirmInstruction": "Zadejte {code} pro potvrzení převodu (rozeznává velikost)",
+      "confirmLabel": "Potvrdit převod",
+      "cancel": "Zrušit",
+      "ok": "Ok",
+      "requestCreatedTitle": "Žádost o převod vytvořena",
+      "requestCreatedMsg": "Převod není ještě dokončen! Na váš e-mail vám bylo zasláno potvrzení"
+    }
   },
   "portal": {
     "title": "Portál Sonoran Radio",
@@ -545,7 +650,8 @@
       "oneLearnMore": "Zjistěte více o Sonoran One",
       "noServer": "Žádný Server",
       "noServerDesc": "Toto předplatné nebude přiřazeno ke komunitě. Můžete to změnit později.",
-      "errCreate": "Při vytváření předplatného došlo k neočekávané chybě"
+      "errCreate": "Při vytváření předplatného došlo k neočekávané chybě",
+      "expertInstallation": "Odborná instalace"
     },
     "changeSvDialog": {
       "title": "Aktualizace Předplatného",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "Upgradujte na Pro",
     "learnMore": "Zjistit více"
+  },
+  "error404": {
+    "message": "Oops. Nic tu není...",
+    "goHome": "Jít domů"
+  },
+  "loginLink": {
+    "enterCode": "Zadejte svůj 4místný kód..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Ikona",
+      "color": "Barva",
+      "textColor": "Barva textu"
+    },
+    "colorLabel": "Barva",
+    "textColorLabel": "Barva textu"
+  },
+  "importExport": {
+    "title": "Import/Export JSON",
+    "export": "Exportovat",
+    "download": "Stáhnout",
+    "import": "Importovat",
+    "placeholder": "Vložte JSON zde",
+    "tooltip": "Importovat JSON soubor"
+  },
+  "getStartedButton": {
+    "learnMore": "Zjistit více"
+  },
+  "fivemView": {
+    "loginWithCode": "Přihlásit se s kódem",
+    "browserLoginInstruction": "Přejděte na {link} ve svém prohlížeči pro přihlášení",
+    "refresh": "Obnovit",
+    "unlink": "Odpojit"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Tísňová (911) volání",
+      "noEmergencyCalls": "Žádné tísňové volání!",
+      "noTransmissions": "Nenalezeny žádné přenosy",
+      "playAudio": "Přehrát zvuk",
+      "downloadFile": "Stáhnout soubor",
+      "redial": "Znovu vytočit {name}"
+    },
+    "peers": {
+      "kick": "Vyhodit",
+      "clearPanic": "Vymazat paniku",
+      "moveTo": "Přesunout do",
+      "displayName": "Zobrazovaný název",
+      "volume": "Hlasitost"
+    },
+    "settings": {
+      "rightClickToClear": "Klikněte pravým tlačítkem pro vyčištění"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Zpět na portál",
+    "leaveServer": "Opustit server",
+    "switchToStandalone": "Přepnout na samostatný režim",
+    "deleteCommunity": "Smazat komunitu"
+  },
+  "managementPage": {
+    "title": "Řídicí panel Sonoran Radio",
+    "subtitle": "Pouze pro budoucí miliardáře",
+    "searchTitle": "Hledat komunitu"
   }
 }

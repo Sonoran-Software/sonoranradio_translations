@@ -40,10 +40,18 @@
     "miscServer": "Sunucu {id}",
     "clipboard": "Panoya Kopyalandı!",
     "communityIdField": "Topluluk Kimliği",
-    "copy": "Kopyala"
+    "copy": "Kopyala",
+    "menu": "Menü",
+    "refresh": "Yenile",
+    "unlink": "Bağlantıyı Kaldır",
+    "upload": "Yükle",
+    "startToday": "Bugün Başla",
+    "notApplicable": "Uygulanamaz"
   },
   "hotkeys": {
-    "clearHotkey": "Kısayolu Temizle"
+    "clearHotkey": "Kısayolu Temizle",
+    "pressAKey": "Bir Tuşa Bas",
+    "noKeySet": "Tuş Ayarlanmamış"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "Profili silerken beklenmedik bir hata oluştu.",
       "errSetDefault": "Varsayılan profil ayarlanırken beklenmedik bir hata oluştu.",
       "errReenable": "Profili yeniden etkinleştirirken beklenmedik bir hata oluştu.",
-      "voiceEffect": "Ses Efekti"
+      "voiceEffect": "Ses Efekti",
+      "visibilityOptions": {
+        "public": "Genel",
+        "private": "Özel"
+      },
+      "basicMode": "Temel",
+      "advancedMode": "Gelişmiş",
+      "shareWith": "İle Paylaş",
+      "sharedTooltip": "Bağlantılı başka bir kanalın erişim ve frekanslarını yansıtırlar. Herhangi birine bağlanmak aynı iletişim akışına erişim sağlar.",
+      "standardTooltip": "Standart kanallar, kendi frekansları ve erişimleriyle bağımsız çalışır. Kanalın bağımsız olması gerektiğinde bu modu kullanın.",
+      "visibility": "Görünürlük",
+      "recvFreqTooltip": "Sadece radyo arayüzünde estetik için yapılmıştır.",
+      "xmitFreqTooltip": "Bu sadece estetik içindir radyo UI'de.",
+      "editGroup": "Grubu Düzenle",
+      "deleteGroup": "Grubu Sil",
+      "ttsPreview": "Metin-konuşma Önizleme",
+      "ttsFailed": "Metin-konuşma oluşturma hatalı veya mevcut değil.\nKanali kaydetmek için yeniden kaydedin.",
+      "privateChannel": "Özel Kanal",
+      "pronounceTooltip": "AI kanal metin-konuşma için gelişmiş telaffuz.",
+      "addGroup": "Grup Ekle",
+      "groupName": "Grup Adı"
     },
     "micClick": {
       "header": "SFX Özelleştirme",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "Ses Özelleştirme",
-      "subheader": "Topluluğunuz için radyo ses efektlerini özelleştirin."
+      "subheader": "Topluluğunuz için radyo ses efektlerini özelleştirin.",
+      "input": "Giriş",
+      "useForEmergency": "Acil Çağrılar İçin Kullan",
+      "name": "Ad",
+      "signalStrength": "Sinyal Gücü",
+      "vocoderPreviewWarning": "Vokoder ses önizlemesi henüz kullanılamıyor."
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "Bu sunucudan kendinizi kaldırmak istediğinizden emin misiniz? Erişimi kaybedeceksiniz ve sunucu sahibi tarafından tekrar eklenmeniz gerekecek.",
       "errAddInvalidAccount": "Verilen kullanıcı adı mevcut değil",
       "errAddUnknown": "Yönetici eklenirken bilinmeyen bir hata oluştu",
-      "errRemoveUnknown": "Yönetici kaldırılırken bilinmeyen bir hata oluştu"
+      "errRemoveUnknown": "Yönetici kaldırılırken bilinmeyen bir hata oluştu",
+      "permissionsBtn": "İzinler",
+      "approveBtn": "Onayla",
+      "kickBtn": "At",
+      "filterAll": "Tümü",
+      "filterPending": "Beklemede",
+      "search": "Ara",
+      "pending": "Beklemede",
+      "paysSubscription": "Abonelik Ödüyor",
+      "setDisplayName": "Görünen İsmi Ayarla",
+      "editMemberPerms": "Üye İzinlerini Düzenle",
+      "ownerHasAllPerms": "Topluluk sahibi tüm izinlere sahiptir",
+      "privateChannels": "Özel Kanallar",
+      "selectPrivateChannels": "Kullanıcının katılmasına izin verilen özel kanalları seçin"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "Topluluk API Anahtarı",
-      "updateApiKey": "API Anahtarını Güncelle"
+      "updateApiKey": "API Anahtarını Güncelle",
+      "apiInfoTitle": "API Bilgisi",
+      "apiInfoHint": "Üyelerinizi davet ederken buna üyelerinize verin"
     },
     "guidesLink": "Sonoran Radio Bilgileri & Kılavuzlar",
     "toPortal": "Portala Dön",
@@ -502,7 +550,64 @@
     "errSaveInfo": "Sunucu bilgilerinizi kaydederken beklenmedik bir hata oluştu.",
     "errImport": "SAPR yapılandırmanızı içe aktarırken beklenmedik bir hata oluştu.",
     "errImportNotFound": "TeamSpeak UID'niz için herhangi bir SAPR yapılandırması bulunamadı.",
-    "errUnauthorize": "Sunucunuzun yetkisini kaldırırken beklenmedik bir hata oluştu."
+    "errUnauthorize": "Sunucunuzun yetkisini kaldırırken beklenmedik bir hata oluştu.",
+    "customizeMenu": {
+      "info": "Bilgi",
+      "patrolChannels": "Devriye Kanalları",
+      "channelsGroups": "Kanallar & Gruplar",
+      "profiles": "Profiller",
+      "permissions": "İzinler",
+      "voiceCustomization": "Ses Özelleştirme",
+      "sfxCustomization": "SFX Özelleştirme",
+      "toneBoard": "Ton Tahtası",
+      "fivemIntegration": "FiveM Entegrasyonu",
+      "defaultSettings": "Varsayılan Ayarlar",
+      "ai": "AI",
+      "customDomain": "Özel Alan Adı"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "İsim",
+        "origin": "IP/Köken",
+        "pushUrl": "İleti URL'si",
+        "actions": "Eylemler"
+      },
+      "customCommunityIdHint": "Topluluğunuzu katılmak için kullanacağınız özel Topluluk ID'sini ayarlayın",
+      "communityServers": "Topluluk Sunucuları",
+      "communityServersSubtitle": "Radyo iletişimlerinizi ayırmak için sunucular ekleyin veya kaldırın",
+      "addServer": "Sunucu Ekle"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Tür",
+        "name": "İsim",
+        "content": "İçerik"
+      },
+      "requiresPro": "Özel Alan Adı ayarlamak için bir Pro aboneliğiniz olmalı",
+      "chooseName": "Alan Adınızı Seçin",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "Alan adınıza sahip olmalısınız!",
+      "verifyTitle": "Alan adınızı doğrulayın",
+      "verified": "Tebrikler, özel alan adınız doğrulandı!",
+      "tryItOut": "Deneyin",
+      "defaultRecordName": "@ veya boş",
+      "verifyButton": "Özel Alan Adını Doğrula",
+      "vanityTitle": "Ücretsiz Özel URL",
+      "vanityLabel": "Özel URL",
+      "vanityCopied": "Özel URL panoya kopyalandı!"
+    },
+    "transfer": {
+      "title": "Topluluğu Taşı",
+      "selectNewOwner": "Yeni Sahip Seç",
+      "warning": "Topluluğunuzu taşımak istediğinizden emin misiniz? Artık bu topluluğun sahibi olmayacaksınız, ve izinlerinizi kaybedebilirsiniz",
+      "confirmInstruction": "Transferi (büyük/küçük harf duyarlı) onaylamak için {code} yazın",
+      "confirmLabel": "Transferi Onayla",
+      "cancel": "İptal",
+      "ok": "Tamam",
+      "requestCreatedTitle": "Transfer İsteği Oluşturuldu",
+      "requestCreatedMsg": "Transfer henüz bitmedi! Ek doğrulama için size bir e-posta gönderildi"
+    }
   },
   "portal": {
     "title": "Sonoran Radio Portalı",
@@ -545,7 +650,8 @@
       "oneLearnMore": "Sonoran One hakkında daha fazla bilgi edinin",
       "noServer": "Sunucu Yok",
       "noServerDesc": "Bu abonelik, bir topluluk ile ilişkilendirilmeyecektir. Daha sonra değiştirebileceksiniz.",
-      "errCreate": "Abonelik oluşturulurken beklenmedik bir hata oluştu"
+      "errCreate": "Abonelik oluşturulurken beklenmedik bir hata oluştu",
+      "expertInstallation": "Uzman Kurulum"
     },
     "changeSvDialog": {
       "title": "Aboneliği Güncelle",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "Bugün Pro'ya Geçin",
     "learnMore": "Daha Fazla Bilgi Al"
+  },
+  "error404": {
+    "message": "Hata. Burada bir şey yok...",
+    "goHome": "Eve Dön"
+  },
+  "loginLink": {
+    "enterCode": "4 haneli kodunuzu girin..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Simge",
+      "color": "Renk",
+      "textColor": "Metin Rengi"
+    },
+    "colorLabel": "Renk",
+    "textColorLabel": "Metin Rengi"
+  },
+  "importExport": {
+    "title": "JSON İçe/Dışa Aktar",
+    "export": "Dışa Aktar",
+    "download": "İndir",
+    "import": "İçe Aktar",
+    "placeholder": "JSON'u buraya yapıştır",
+    "tooltip": "JSON dosyasını içe aktar"
+  },
+  "getStartedButton": {
+    "learnMore": "Daha fazla öğren"
+  },
+  "fivemView": {
+    "loginWithCode": "Kod İle Giriş Yap",
+    "browserLoginInstruction": "Giriş yapmak için tarayıcınızda {link} adresine gidin",
+    "refresh": "Yenile",
+    "unlink": "Bağlantıyı Kaldır"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Acil (911) Çağrılar",
+      "noEmergencyCalls": "Acil çağrı yok!",
+      "noTransmissions": "Hiçbir iletim bulunamadı",
+      "playAudio": "Sesi Oynat",
+      "downloadFile": "Dosyayı İndir",
+      "redial": "{name} Tekrar Ara"
+    },
+    "peers": {
+      "kick": "At",
+      "clearPanic": "Paniği Temizle",
+      "moveTo": "Taşı",
+      "displayName": "Görünen İsim",
+      "volume": "Ses"
+    },
+    "settings": {
+      "rightClickToClear": "Temizlemek İçin Sağ Tıklayın"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Portala Dön",
+    "leaveServer": "Sunucudan Ayrıl",
+    "switchToStandalone": "Bağımsıza Geç",
+    "deleteCommunity": "Topluluğu Sil"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Yönetim Paneli",
+    "subtitle": "Sadece geleceğin milyarderleri için",
+    "searchTitle": "Topluluğu Ara"
   }
 }

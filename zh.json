@@ -40,10 +40,18 @@
     "miscServer": "服务器 {id}",
     "clipboard": "已复制到剪贴板！",
     "communityIdField": "社区 ID",
-    "copy": "复制"
+    "copy": "复制",
+    "menu": "菜单",
+    "refresh": "刷新",
+    "unlink": "取消链接",
+    "upload": "上传",
+    "startToday": "今天开始",
+    "notApplicable": "不适用"
   },
   "hotkeys": {
-    "clearHotkey": "清除热键"
+    "clearHotkey": "清除热键",
+    "pressAKey": "按一个键",
+    "noKeySet": "未设置键"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "删除配置文件时发生意外错误。",
       "errSetDefault": "设置默认配置文件时发生意外错误。",
       "errReenable": "重新启用配置文件时发生意外错误。",
-      "voiceEffect": "语音效果"
+      "voiceEffect": "语音效果",
+      "visibilityOptions": {
+        "public": "公开",
+        "private": "私密"
+      },
+      "basicMode": "基本",
+      "advancedMode": "高级",
+      "shareWith": "共享给",
+      "sharedTooltip": "共享频道镜像另一个链接频道的访问权限和频率。连接到任意一个可以访问相同的通信流。",
+      "standardTooltip": "标准频道独立运作，拥有自己的频率和访问权限。频道应独立时请使用此模式。",
+      "visibility": "可见性",
+      "recvFreqTooltip": "接收传输的频率。这仅用于无线电用户界面的美观。",
+      "xmitFreqTooltip": "传输频率。这仅用于无线电用户界面的美观。",
+      "editGroup": "编辑组",
+      "deleteGroup": "删除组",
+      "ttsPreview": "文本到语音预览",
+      "ttsFailed": "文本到语音生成失败或不存在。\n重新保存频道以生成。",
+      "privateChannel": "私人频道",
+      "pronounceTooltip": "AI 频道文本到语音的高级发音。",
+      "addGroup": "添加组",
+      "groupName": "组名"
     },
     "micClick": {
       "header": "SFX 自定义",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "语音自定义",
-      "subheader": "为您的社区自定义无线电语音效果。"
+      "subheader": "为您的社区自定义无线电语音效果。",
+      "input": "输入",
+      "useForEmergency": "用于紧急呼叫",
+      "name": "名称",
+      "signalStrength": "信号强度",
+      "vocoderPreviewWarning": "编码器音频预览尚不可用。"
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "您确定要从该服务器移除自己吗？您将失去访问权限，并需要服务器所有者重新添加您。",
       "errAddInvalidAccount": "提供的用户名不存在",
       "errAddUnknown": "添加管理员时发生未知错误",
-      "errRemoveUnknown": "移除管理员时发生未知错误"
+      "errRemoveUnknown": "移除管理员时发生未知错误",
+      "permissionsBtn": "权限",
+      "approveBtn": "批准",
+      "kickBtn": "踢出",
+      "filterAll": "全部",
+      "filterPending": "待处理",
+      "search": "搜索",
+      "pending": "待处理",
+      "paysSubscription": "支付订阅费",
+      "setDisplayName": "设置显示名称",
+      "editMemberPerms": "编辑成员权限",
+      "ownerHasAllPerms": "社区所有者拥有所有权限",
+      "privateChannels": "私人频道",
+      "selectPrivateChannels": "选择用户允许加入的私人频道"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "社区 API 密钥",
-      "updateApiKey": "更新 API 密钥"
+      "updateApiKey": "更新 API 密钥",
+      "apiInfoTitle": "API 信息",
+      "apiInfoHint": "邀请成员加入社区时给予他们"
     },
     "guidesLink": "Sonoran Radio 信息和指南",
     "toPortal": "返回门户",
@@ -502,7 +550,64 @@
     "errSaveInfo": "保存服务器信息时发生意外错误。",
     "errImport": "导入 SAPR 配置时发生意外错误。",
     "errImportNotFound": "未找到 TeamSpeak UID 的 SAPR 配置。",
-    "errUnauthorize": "撤销授权服务器时发生意外错误。"
+    "errUnauthorize": "撤销授权服务器时发生意外错误。",
+    "customizeMenu": {
+      "info": "信息",
+      "patrolChannels": "巡逻频道",
+      "channelsGroups": "频道与组",
+      "profiles": "个人资料",
+      "permissions": "权限",
+      "voiceCustomization": "语音定制",
+      "sfxCustomization": "音效定制",
+      "toneBoard": "音调板",
+      "fivemIntegration": "FiveM 集成",
+      "defaultSettings": "默认设置",
+      "ai": "AI",
+      "customDomain": "自定义域"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "名称",
+        "origin": "IP/来源",
+        "pushUrl": "推送网址",
+        "actions": "操作"
+      },
+      "customCommunityIdHint": "设置您的自定义社区 ID，这用于个性化网址、FiveM 资源和加入社区",
+      "communityServers": "社区服务器",
+      "communityServersSubtitle": "添加或移除服务器以分隔您的无线电通信",
+      "addServer": "添加服务器"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "类型",
+        "name": "名称",
+        "content": "内容"
+      },
+      "requiresPro": "您必须拥有专业订阅才能设置自定义域",
+      "chooseName": "选择您的域名",
+      "placeholder": "radio.example.com",
+      "ownershipHint": "您必须拥有您的域名！",
+      "verifyTitle": "验证您的域",
+      "verified": "恭喜，您的自定义域已验证！",
+      "tryItOut": "试试看",
+      "defaultRecordName": "@ 或空白",
+      "verifyButton": "验证自定义域",
+      "vanityTitle": "免费个性化网址",
+      "vanityLabel": "个性化网址",
+      "vanityCopied": "已将个性化网址复制到剪贴板！"
+    },
+    "transfer": {
+      "title": "转移社区",
+      "selectNewOwner": "选择新所有者",
+      "warning": "您确定要转移您的社区吗？您将不再是该社区的所有者，并可能失去您的权限",
+      "confirmInstruction": "输入 {code} 以确认转移（区分大小写）",
+      "confirmLabel": "确认转移",
+      "cancel": "取消",
+      "ok": "确定",
+      "requestCreatedTitle": "转移请求已创建",
+      "requestCreatedMsg": "转移尚未完成！一封验证邮件已向您发送"
+    }
   },
   "portal": {
     "title": "Sonoran Radio 门户",
@@ -545,7 +650,8 @@
       "oneLearnMore": "了解有关 Sonoran One 的更多信息",
       "noServer": "无服务器",
       "noServerDesc": "此订阅不会与社区关联。您可以稍后更改。",
-      "errCreate": "创建订阅时发生意外错误"
+      "errCreate": "创建订阅时发生意外错误",
+      "expertInstallation": "专家安装"
     },
     "changeSvDialog": {
       "title": "更新订阅",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "立即升级到专业版",
     "learnMore": "了解更多"
+  },
+  "error404": {
+    "message": "哎呀。这里什么都没有...",
+    "goHome": "返回首页"
+  },
+  "loginLink": {
+    "enterCode": "输入您的 4 位数代码..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "图标",
+      "color": "颜色",
+      "textColor": "文本颜色"
+    },
+    "colorLabel": "颜色",
+    "textColorLabel": "文本颜色"
+  },
+  "importExport": {
+    "title": "JSON 导入/导出",
+    "export": "导出",
+    "download": "下载",
+    "import": "导入",
+    "placeholder": "在此粘贴 JSON",
+    "tooltip": "导入 JSON 文件"
+  },
+  "getStartedButton": {
+    "learnMore": "了解更多"
+  },
+  "fivemView": {
+    "loginWithCode": "使用代码登录",
+    "browserLoginInstruction": "在浏览器中访问 {link} 来登录",
+    "refresh": "刷新",
+    "unlink": "取消链接"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "紧急（911）电话",
+      "noEmergencyCalls": "没有紧急电话！",
+      "noTransmissions": "未找到传输",
+      "playAudio": "播放音频",
+      "downloadFile": "下载文件",
+      "redial": "重拨 {name}"
+    },
+    "peers": {
+      "kick": "踢出",
+      "clearPanic": "清除恐慌",
+      "moveTo": "移动到",
+      "displayName": "显示名称",
+      "volume": "音量"
+    },
+    "settings": {
+      "rightClickToClear": "右击清除"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "返回门户",
+    "leaveServer": "离开服务器",
+    "switchToStandalone": "切换到独立",
+    "deleteCommunity": "删除社区"
+  },
+  "managementPage": {
+    "title": "Sonoran 电台管理面板",
+    "subtitle": "仅供未来的亿万富翁使用",
+    "searchTitle": "搜索社区"
   }
 }

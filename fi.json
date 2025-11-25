@@ -40,10 +40,18 @@
     "miscServer": "Palvelin {id}",
     "clipboard": "Kopioitu leikepöydälle!",
     "communityIdField": "Yhteisön ID",
-    "copy": "Kopioi"
+    "copy": "Kopioi",
+    "menu": "Valikko",
+    "refresh": "Päivitä",
+    "unlink": "Poista linkitys",
+    "upload": "Lähetä",
+    "startToday": "Aloita tänään",
+    "notApplicable": "Ei sovellu"
   },
   "hotkeys": {
-    "clearHotkey": "Tyhjennä pikanäppäin"
+    "clearHotkey": "Tyhjennä pikanäppäin",
+    "pressAKey": "Paina näppäintä",
+    "noKeySet": "Ei asetettu näppäintä"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -380,7 +388,28 @@
       "errDelete": "Profiilin poistamisessa tapahtui odottamaton virhe.",
       "errSetDefault": "Oletusprofiilin asettamisessa tapahtui odottamaton virhe.",
       "errReenable": "Profiilin uudelleenaktivoimisessa tapahtui odottamaton virhe.",
-      "voiceEffect": "Äänitehoste"
+      "voiceEffect": "Äänitehoste",
+      "visibilityOptions": {
+        "public": "Julkinen",
+        "private": "Yksityinen"
+      },
+      "dialogSubtitleStandalone": "",
+      "basicMode": "Perus",
+      "advancedMode": "Kehittynyt",
+      "shareWith": "Jaa kanssa",
+      "sharedTooltip": "Jaetut kanavat heijastavat toisen linkitetyn kanavan käytön ja taajuudet. Kumpaan tahansa liittyminen antaa pääsyn samaan viestintävirtaan.",
+      "standardTooltip": "Vakiokanavat toimivat itsenäisesti omilla taajuuksillaan ja käytöllään. Käytä tätä tila, kun kanavan pitäisi olla itsenäinen.",
+      "visibility": "Näkyvyys",
+      "recvFreqTooltip": "Taajuus, jota käytetään viestien vastaanottamiseen. Tämä on vain estetiikkaa radion käyttöliittymässä.",
+      "xmitFreqTooltip": "Taajuus, jota käytetään viestien lähettämiseen. Tämä on vain estetiikkaa radion käyttöliittymässä.",
+      "editGroup": "Muokkaa ryhmää",
+      "deleteGroup": "Poista ryhmä",
+      "ttsPreview": "Teksti puheeksi esikatselu",
+      "ttsFailed": "Tekstistä puheeksi -muunnos epäonnistui tai ei ole olemassa.\nTallenna kanava uudelleen, jotta voidaan luoda.",
+      "privateChannel": "Yksityinen kanava",
+      "pronounceTooltip": "Edistynyt ääntäminen AI-kanavan tekstistä puheeksi.",
+      "addGroup": "Lisää ryhmä",
+      "groupName": "Ryhmän nimi"
     },
     "micClick": {
       "header": "Äänitehosteiden Mukauttaminen",
@@ -405,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "Äänen Mukauttaminen",
-      "subheader": "Mukauta radiopuhelimen äänitehosteet yhteisöllesi."
+      "subheader": "Mukauta radiopuhelimen äänitehosteet yhteisöllesi.",
+      "input": "Syöte",
+      "useForEmergency": "Käytä hätäpuheluissa",
+      "name": "Nimi",
+      "signalStrength": "Signaalin vahvuus",
+      "vocoderPreviewWarning": "Vocooterin esikatselu ei ole vielä saatavilla."
     },
     "perms": {
       "types": {
@@ -465,7 +499,20 @@
       "removeWarnSelfMsg": "Oletko varma, että haluat poistaa itsesi tältä serveriltä? Menetät pääsyn ja palvelimen omistajan on lisättävä sinut takaisin.",
       "errAddInvalidAccount": "Annettu käyttäjätunnus ei ole olemassa",
       "errAddUnknown": "Tuntematon virhe lisättäessä hallinnoitsijaa",
-      "errRemoveUnknown": "Tuntematon virhe poistettaessa hallinnoitsijaa"
+      "errRemoveUnknown": "Tuntematon virhe poistettaessa hallinnoitsijaa",
+      "permissionsBtn": "Oikeudet",
+      "approveBtn": "Hyväksy",
+      "kickBtn": "Poista",
+      "filterAll": "Kaikki",
+      "filterPending": "Odottaa",
+      "search": "Hae",
+      "pending": "Odottaa",
+      "paysSubscription": "Maksaa tilauksen",
+      "setDisplayName": "Aseta näyttönimi",
+      "editMemberPerms": "Muokkaa jäsenien oikeuksia",
+      "ownerHasAllPerms": "Yhteisön omistajalla on kaikki oikeudet",
+      "privateChannels": "Yksityiset kanavat",
+      "selectPrivateChannels": "Valitse yksityiset kanavat, joihin käyttäjällä on oikeus liittyä"
     },
     "ai": {
       "services": {
@@ -477,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "Yhteisön API-avain",
-      "updateApiKey": "Päivitä API Avain"
+      "updateApiKey": "Päivitä API Avain",
+      "apiInfoTitle": "API-tiedot",
+      "apiInfoHint": "Anna tämä jäsenillesi kutsuessasi heitä yhteisöön"
     },
     "guidesLink": "Sonoran Radio Tiedot & Oppaat",
     "toPortal": "Takaisin Portaaliin",
@@ -501,7 +550,64 @@
     "errSaveInfo": "Palvelimesi tietojen tallennuksessa tapahtui odottamaton virhe.",
     "errImport": "SAPR-konfiguraatiosi tuonnissa tapahtui odottamaton virhe.",
     "errImportNotFound": "SAPR-konfiguraatiota ei löytynyt TeamSpeak UID-laitteesi.",
-    "errUnauthorize": "Palvelimesi valtuutuksen poistossa tapahtui odottamaton virhe."
+    "errUnauthorize": "Palvelimesi valtuutuksen poistossa tapahtui odottamaton virhe.",
+    "customizeMenu": {
+      "info": "Tiedot",
+      "patrolChannels": "Partiokanavat",
+      "channelsGroups": "Kanavat & ryhmät",
+      "profiles": "Profiilit",
+      "permissions": "Oikeudet",
+      "voiceCustomization": "Äänikustomointi",
+      "sfxCustomization": "SFX-kustomointi",
+      "toneBoard": "Sävyluettelo",
+      "fivemIntegration": "FiveM-integraatio",
+      "defaultSettings": "Oletusasetukset",
+      "ai": "AI",
+      "customDomain": "Mukautettu Verkkotunnus"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Nimi",
+        "origin": "IP/Alkuperä",
+        "pushUrl": "Työnnä URL",
+        "actions": "Toiminnot"
+      },
+      "customCommunityIdHint": "Aseta mukautettu yhteisö-ID, jota käytetään näyttävässä URL-osoitteessa, FiveM-resurssissa ja yhteisöön liittymiseen",
+      "communityServers": "Yhteisöpalvelimet",
+      "communityServersSubtitle": "Lisää tai poista palvelimia radioyhteyden erottamiseksi",
+      "addServer": "Lisää palvelin"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Tyyppi",
+        "name": "Nimi",
+        "content": "Sisältö"
+      },
+      "requiresPro": "Sinulla on oltava Pro-tilaus asettaaksesi mukautetun verkkotunnuksen",
+      "chooseName": "Valitse verkkotunnuksen nimi",
+      "placeholder": "radio.esimerkki.com",
+      "ownershipHint": "Sinun on omistettava verkkotunnuksesi!",
+      "verifyTitle": "Vahvista verkkotunnuksesi",
+      "verified": "Onnittelut, mukautettu verkkotunnuksesi on vahvistettu!",
+      "tryItOut": "Kokeile",
+      "defaultRecordName": "@ tai tyhjä",
+      "verifyButton": "Vahvista mukautettu verkkotunnus",
+      "vanityTitle": "Ilmainen näyttävä URL",
+      "vanityLabel": "Näyttävä URL",
+      "vanityCopied": "Näyttävä URL kopioitu leikepöydälle!"
+    },
+    "transfer": {
+      "title": "Siirrä yhteisö",
+      "selectNewOwner": "Valitse uusi omistaja",
+      "warning": "Oletko varma, että haluat siirtää yhteisösi? Et ole enää tämän yhteisön omistaja, ja saatat menettää oikeutesi",
+      "confirmInstruction": "Kirjoita {code} vahvistaaksesi siirron (tarkka kirjainkoko)",
+      "confirmLabel": "Vahvista siirto",
+      "cancel": "Peruuta",
+      "ok": "Ok",
+      "requestCreatedTitle": "Siirtopyyntö luotu",
+      "requestCreatedMsg": "Siirto ei ole vielä valmis! Sinulle on lähetetty sähköposti lisävahvistusta varten"
+    }
   },
   "portal": {
     "title": "Sonoran Radio Portaali",
@@ -544,7 +650,8 @@
       "oneLearnMore": "Lisätietoja Sonoran Yhdestä",
       "noServer": "Ei Palvelinta",
       "noServerDesc": "Tämä tilaus ei tule liittymään yhteisöön. Voit muuttaa sitä myöhemmin.",
-      "errCreate": "Tilauksen luomisessa tapahtui odottamaton virhe"
+      "errCreate": "Tilauksen luomisessa tapahtui odottamaton virhe",
+      "expertInstallation": "Asiantuntija-asennus"
     },
     "changeSvDialog": {
       "title": "Päivitä Tilaus",
@@ -619,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "Päivitä Pro-versioon Tänään",
     "learnMore": "Lisätietoja"
+  },
+  "error404": {
+    "message": "Hups. Ei mitään täällä...",
+    "goHome": "Mene kotiin"
+  },
+  "loginLink": {
+    "enterCode": "Anna 4-numeroinen koodi..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Kuvake",
+      "color": "Väri",
+      "textColor": "Tekstin väri"
+    },
+    "colorLabel": "Väri",
+    "textColorLabel": "Tekstin väri"
+  },
+  "importExport": {
+    "title": "JSON tuonti/vienti",
+    "export": "Vie",
+    "download": "Lataa",
+    "import": "Tuo",
+    "placeholder": "Liitä JSON tähän",
+    "tooltip": "Tuo JSON-tiedosto"
+  },
+  "getStartedButton": {
+    "learnMore": "Lue lisää"
+  },
+  "fivemView": {
+    "loginWithCode": "Kirjaudu sisään koodilla",
+    "browserLoginInstruction": "Siirry selaimessasi osoitteeseen {link} kirjautuaksesi",
+    "refresh": "Päivitä",
+    "unlink": "Poista linkitys"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Hätäpuhelut (911)",
+      "noEmergencyCalls": "Ei hätäpuheluita!",
+      "noTransmissions": "Ei lähetyksiä löytynyt",
+      "playAudio": "Toista ääni",
+      "downloadFile": "Lataa tiedosto",
+      "redial": "Soita uudelleen {name}"
+    },
+    "peers": {
+      "kick": "Poista",
+      "clearPanic": "Tyhjennä paniikki",
+      "moveTo": "Siirrä kohteeseen",
+      "displayName": "Näyttönimi",
+      "volume": "Äänenvoimakkuus"
+    },
+    "settings": {
+      "rightClickToClear": "Oikealla napsautuksella tyhjennät"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Takaisin portaalille",
+    "leaveServer": "Poistu palvelimelta",
+    "switchToStandalone": "Vaihda itsenäiseen",
+    "deleteCommunity": "Poista yhteisö"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Management Paneeli",
+    "subtitle": "Vain tuleville miljonääreille",
+    "searchTitle": "Hae yhteisöä"
   }
 }

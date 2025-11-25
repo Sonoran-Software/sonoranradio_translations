@@ -40,10 +40,18 @@
     "miscServer": "Server {id}",
     "clipboard": "Kopieret til udklipsholder!",
     "communityIdField": "Community ID",
-    "copy": "Kopiér"
+    "copy": "Kopiér",
+    "menu": "Menu",
+    "refresh": "Opdater",
+    "unlink": "Fjern link",
+    "upload": "Upload",
+    "startToday": "Start i dag",
+    "notApplicable": "N/A"
   },
   "hotkeys": {
-    "clearHotkey": "Ryd genvej"
+    "clearHotkey": "Ryd genvej",
+    "pressAKey": "Tryk på en tast",
+    "noKeySet": "Ingen tast indstillet"
   },
   "landingPage": {
     "Dispatch_Panel": {
@@ -381,7 +389,27 @@
       "errDelete": "Der opstod en uventet fejl ved sletning af profilen.",
       "errSetDefault": "Der opstod en uventet fejl ved indstilling af standardprofilen.",
       "errReenable": "Der opstod en uventet fejl ved genaktivering af profilen.",
-      "voiceEffect": "Stemme Effekt"
+      "voiceEffect": "Stemme Effekt",
+      "visibilityOptions": {
+        "public": "Offentlig",
+        "private": "Privat"
+      },
+      "basicMode": "Basic",
+      "advancedMode": "Avanceret",
+      "shareWith": "Del med",
+      "sharedTooltip": "Delte kanaler spejler adgangen og frekvenserne for en anden tilknyttet kanal. Tilslutning til en af dem giver adgang til den samme kommunikationsstrøm.",
+      "standardTooltip": "Standardkanaler opererer uafhængigt med deres egne frekvenser og adgang. Brug denne tilstand, når kanalen skal være for sig selv.",
+      "visibility": "Synlighed",
+      "recvFreqTooltip": "Frekvens til at modtage transmissioner på. Dette er kun for æstetik i radioens UI.",
+      "xmitFreqTooltip": "Frekvens til at sende på. Dette er kun for æstetik i radioens UI.",
+      "editGroup": "Rediger Gruppe",
+      "deleteGroup": "Slet Gruppe",
+      "ttsPreview": "Tekst-til-tale Forhåndsvisning",
+      "ttsFailed": "Tekst-til-tale-generering mislykkedes eller findes ikke.\nGem kanalen igen for at generere.",
+      "privateChannel": "Privat Kanal",
+      "pronounceTooltip": "Avanceret udtale for AI-kanal tekst-til-tale.",
+      "addGroup": "Tilføj Gruppe",
+      "groupName": "Gruppenavn"
     },
     "micClick": {
       "header": "SFX Tilpasning",
@@ -406,7 +434,12 @@
     },
     "voiceCustomization": {
       "header": "Stemme Tilpasning",
-      "subheader": "Tilpas radio stemme effekter for din community."
+      "subheader": "Tilpas radio stemme effekter for din community.",
+      "input": "Input",
+      "useForEmergency": "Brug til Nødopkald",
+      "name": "Navn",
+      "signalStrength": "Signalstyrke",
+      "vocoderPreviewWarning": "Vocoder-lydforhåndsvisning er endnu ikke tilgængelig."
     },
     "perms": {
       "types": {
@@ -466,7 +499,20 @@
       "removeWarnSelfMsg": "Er du sikker på, at du vil fjerne dig selv fra denne server? Du vil miste adgang og serverejeren skal tilføje dig tilbage.",
       "errAddInvalidAccount": "Det angivne brugernavn findes ikke",
       "errAddUnknown": "Der opstod en ukendt fejl ved tilføjelse af lederen",
-      "errRemoveUnknown": "Der opstod en ukendt fejl ved fjernelse af lederen"
+      "errRemoveUnknown": "Der opstod en ukendt fejl ved fjernelse af lederen",
+      "permissionsBtn": "Tilladelser",
+      "approveBtn": "Godkend",
+      "kickBtn": "Fjern",
+      "filterAll": "Alle",
+      "filterPending": "Afventer",
+      "search": "Søg",
+      "pending": "Afventer",
+      "paysSubscription": "Betaler Abonnement",
+      "setDisplayName": "Indstil Vist Navn",
+      "editMemberPerms": "Rediger Medlemsrettigheder",
+      "ownerHasAllPerms": "Community-ejer har alle tilladelser",
+      "privateChannels": "Private Kanaler",
+      "selectPrivateChannels": "Vælg de private kanaler, brugeren må tilslutte sig"
     },
     "ai": {
       "services": {
@@ -478,7 +524,9 @@
     },
     "admin": {
       "communityApiKeyField": "Community API Nøgle",
-      "updateApiKey": "Opdatér API Nøgle"
+      "updateApiKey": "Opdatér API Nøgle",
+      "apiInfoTitle": "API Info",
+      "apiInfoHint": "Giv dette til dine medlemmer, når du inviterer dem til community'et"
     },
     "guidesLink": "Sonoran Radio Information & Guider",
     "toPortal": "Tilbage til Portal",
@@ -502,7 +550,64 @@
     "errSaveInfo": "Der opstod en uventet fejl ved lagring af din server info.",
     "errImport": "Der opstod en uventet fejl ved importering af din SAPR Konfig.",
     "errImportNotFound": "Ingen SAPR konfiguration blev fundet for din TeamSpeak UID.",
-    "errUnauthorize": "Der opstod en uventet fejl ved uautorisation af din server."
+    "errUnauthorize": "Der opstod en uventet fejl ved uautorisation af din server.",
+    "customizeMenu": {
+      "info": "Info",
+      "patrolChannels": "Patruljekanaler",
+      "channelsGroups": "Kanaler & Grupper",
+      "profiles": "Profiler",
+      "permissions": "Tilladelser",
+      "voiceCustomization": "Stemmetilpasning",
+      "sfxCustomization": "SFX Tilpasning",
+      "toneBoard": "Toneboard",
+      "fivemIntegration": "FiveM Integration",
+      "defaultSettings": "Standardindstillinger",
+      "ai": "AI",
+      "customDomain": "Brugerdefineret Domæne"
+    },
+    "serverInfo": {
+      "columns": {
+        "id": "ID",
+        "name": "Navn",
+        "origin": "IP/Oprindelse",
+        "pushUrl": "Push URL",
+        "actions": "Handlinger"
+      },
+      "customCommunityIdHint": "Indstil dit brugerdefinerede Community-ID, som er til vanity URL, FiveM-ressourcen, og for at deltage i community'et",
+      "communityServers": "Community Servere",
+      "communityServersSubtitle": "Tilføj eller fjern servere for at adskille dine radiokommunikationer",
+      "addServer": "Tilføj Server"
+    },
+    "customDomain": {
+      "dns": {
+        "type": "Type",
+        "name": "Navn",
+        "content": "Indhold"
+      },
+      "requiresPro": "Du skal have et Pro-abonnement for at indstille et brugerdefineret domæne",
+      "chooseName": "Vælg dit Domænenavn",
+      "placeholder": "radio.eksempel.com",
+      "ownershipHint": "Du skal eje dit domænenavn!",
+      "verifyTitle": "Bekræft dit domæne",
+      "verified": "Tillykke, dit brugerdefinerede domæne er bekræftet!",
+      "tryItOut": "Prøv det",
+      "defaultRecordName": "@ eller blank",
+      "verifyButton": "Bekræft brugerdefineret domæne",
+      "vanityTitle": "Gratis Vanity URL",
+      "vanityLabel": "Vanity URL",
+      "vanityCopied": "Kopieret Vanity URL til udklipsholder!"
+    },
+    "transfer": {
+      "title": "Overfør Community",
+      "selectNewOwner": "Vælg Ny Ejer",
+      "warning": "Er du sikker på, at du vil overføre dit community? Du vil ikke længere være ejer af dette community, og du kan miste dine tilladelser",
+      "confirmInstruction": "Indtast {code} for at bekræfte overførslen (følsom for store og små bogstaver)",
+      "confirmLabel": "Bekræft Overførsel",
+      "cancel": "Annuller",
+      "ok": "Ok",
+      "requestCreatedTitle": "Overførselsanmodning Oprettet",
+      "requestCreatedMsg": "Overførslen er endnu ikke fuldført! En e-mail er blevet sendt til dig for ekstra verifikation"
+    }
   },
   "portal": {
     "title": "Sonoran Radio Portal",
@@ -545,7 +650,8 @@
       "oneLearnMore": "Lær mere om Sonoran One",
       "noServer": "Ingen Server",
       "noServerDesc": "Dette abonnement vil ikke blive forbundet til en community. Du vil kunne ændre det senere.",
-      "errCreate": "Der opstod en uventet fejl ved oprettelse af abonnementet"
+      "errCreate": "Der opstod en uventet fejl ved oprettelse af abonnementet",
+      "expertInstallation": "Ekspert Installation"
     },
     "changeSvDialog": {
       "title": "Opdater Abonnement",
@@ -620,5 +726,69 @@
   "upgradePromo": {
     "goProToday": "Opgrader til Pro",
     "learnMore": "Lær Mere"
+  },
+  "error404": {
+    "message": "Ups. Intet her...",
+    "goHome": "Gå til Hjem"
+  },
+  "loginLink": {
+    "enterCode": "Indtast din 4-cifrede kode..."
+  },
+  "iconPicker": {
+    "tabs": {
+      "icon": "Ikon",
+      "color": "Farve",
+      "textColor": "Tekstfarve"
+    },
+    "colorLabel": "Farve",
+    "textColorLabel": "Tekstfarve"
+  },
+  "importExport": {
+    "title": "JSON Import/Eksport",
+    "export": "Eksporter",
+    "download": "Download",
+    "import": "Importer",
+    "placeholder": "Indsæt JSON her",
+    "tooltip": "Importer JSON-fil"
+  },
+  "getStartedButton": {
+    "learnMore": "Lær mere"
+  },
+  "fivemView": {
+    "loginWithCode": "Log ind med kode",
+    "browserLoginInstruction": "Gå til {link} i din browser for at logge ind",
+    "refresh": "Opdater",
+    "unlink": "Fjern link"
+  },
+  "standalone": {
+    "desktop": {
+      "emergencyCalls": "Nødopkald (911)",
+      "noEmergencyCalls": "Ingen nødopkald!",
+      "noTransmissions": "Ingen transmissioner fundet",
+      "playAudio": "Afspil lyd",
+      "downloadFile": "Download fil",
+      "redial": "Genopkald {name}"
+    },
+    "peers": {
+      "kick": "Fjern",
+      "clearPanic": "Ryd panik",
+      "moveTo": "Flyt til",
+      "displayName": "Vist navn",
+      "volume": "Lydstyrke"
+    },
+    "settings": {
+      "rightClickToClear": "Højreklik for at rydde"
+    }
+  },
+  "serverPending": {
+    "backToPortal": "Tilbage til Portal",
+    "leaveServer": "Forlad Server",
+    "switchToStandalone": "Skift til Standalone",
+    "deleteCommunity": "Slet Community"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Management Panel",
+    "subtitle": "Kun for fremtidige milliardærer",
+    "searchTitle": "Søg Community"
   }
 }
