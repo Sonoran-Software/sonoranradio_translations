@@ -395,6 +395,19 @@
       "ai": "AI",
       "customDomain": "Custom Domain"
     },
+    "serverInfo": {
+      "customCommunityIdHint": "Set your custom Community ID, which is for the vanity URL, the FiveM resource, and to join the community",
+      "communityServers": "Community Servers",
+      "communityServersSubtitle": "Add or remove servers to separate your radio communications",
+      "columns": {
+        "id": "ID",
+        "name": "Name",
+        "origin": "IP/Origin",
+        "pushUrl": "Push URL",
+        "actions": "Actions"
+      },
+      "addServer": "Add Server"
+    },
     "saveInfo": "Save Server Info",
     "explainOwnerOnly": "Only the owner can change this setting",
     "noPermPage": "You do not have permission to view this page",
@@ -521,7 +534,9 @@
       "ttsPreview": "Text-to-speech Preview",
       "ttsFailed": "Text-to-speech generation failed or doesn't exist.\\nRe-save the channel to generate.",
       "privateChannel": "Private Channel",
-      "pronounceTooltip": "Advanced pronunciation for the AI channel text-to-speech."
+      "pronounceTooltip": "Advanced pronunciation for the AI channel text-to-speech.",
+      "addGroup": "Add Group",
+      "groupName": "Group Name"
     },
     "micClick": {
       "header": "SFX Customization",
