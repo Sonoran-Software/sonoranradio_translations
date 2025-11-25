@@ -35,7 +35,10 @@
     "miscServer": "Server {id}",
     "clipboard": "Copied to Clipboard!",
     "communityIdField": "Community ID",
-    "copy": "Copy"
+    "copy": "Copy",
+    "menu": "Menu",
+    "refresh": "Refresh",
+    "unlink": "Unlink"
   },
   "hotkeys": { "clearHotkey": "Clear Hotkey" },
   "landingPage": {
@@ -162,6 +165,10 @@
       "usernameInvalidCharacter": "Username contains an invalid character."
     }
   },
+  "error404": {
+    "message": "Oops. Nothing here...",
+    "goHome": "Go Home"
+  },
   "login": {
     "loginWithSonoran": "Login with Sonoran",
     "createAccount": "Create Account",
@@ -173,6 +180,9 @@
     "verifyPassword": "Verify Password",
     "checkEmail": "Check your email and verify your account.",
     "checkSpam": "Make sure to check your spam folder if you cannot locate the email."
+  },
+  "loginLink": {
+    "enterCode": "Enter your 4-digit code..."
   },
   "serverCommon": {
     "nicknameInput": "Nickname",
@@ -188,6 +198,12 @@
     "submit": "Register Server",
     "errExists": "TeamSpeak Server UID provided already exists on a verified server, please use another TS server UID",
     "errUnknown": "An error occurred while trying to get server information, please try again later."
+  },
+  "fivemView": {
+    "loginWithCode": "Login with Code",
+    "browserLoginInstruction": "Go to {link} in your browser to login",
+    "refresh": "Refresh",
+    "unlink": "Unlink"
   },
   "radio": {
     "connect": "Connect",
@@ -290,6 +306,17 @@
     "submit": "Save Server",
     "errSave": "An unexpected error occurred while saving the server.",
     "errDelete": "An unexpected error occurred while deleteing the server."
+  },
+  "serverPending": {
+    "backToPortal": "Back to Portal",
+    "leaveServer": "Leave Server",
+    "switchToStandalone": "Switch to Standalone",
+    "deleteCommunity": "Delete Community"
+  },
+  "managementPage": {
+    "title": "Sonoran Radio Management Panel",
+    "subtitle": "Only for future billionaires",
+    "searchTitle": "Search Community"
   },
   "manageServer": {
     "guidesLink": "Sonoran Radio Information & Guides",
@@ -480,6 +507,8 @@
       "services": { "0": "Transmission Log STT", "1": "Tone Board STT" }
     },
     "admin": {
+      "apiInfoTitle": "API Info",
+      "apiInfoHint": "Give this to your members when inviting them to the community",
       "communityApiKeyField": "Community API Key",
       "updateApiKey": "Update API Key"
     },
