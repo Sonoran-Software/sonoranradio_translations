@@ -448,7 +448,9 @@
       "keyUpDelay": "Key Up Delay",
       "keyUpDelayDesc": "Delay after ending a transmission before the mic is released.",
       "volChange": "Volume Change",
-      "volChangeDesc": "Volume change % when using the volume up/down hotkeys."
+      "volChangeDesc": "Volume change % when using the volume up/down hotkeys.",
+      "echoAutoXmit": "Hear AI Callouts",
+      "echoAutoXmitDesc": "Hear your own AI location callouts when in a pursuit."
     },
     "importSAPR": {
       "btn": "Import SAPR Config",
