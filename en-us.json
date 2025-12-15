@@ -666,7 +666,15 @@
       "apiInfoTitle": "API Info",
       "apiInfoHint": "Give this to your members when inviting them to the community",
       "communityApiKeyField": "Community API Key",
-      "updateApiKey": "Update API Key"
+      "updateApiKey": "Update API Key",
+      "communityLogs": "Community Logs",
+      "logSearchTitle": "Search",
+      "logSearchSubtitle": "View all your community's available logs, filter by type, date, and content.",
+      "logType": "Type",
+      "logDate": "Date",
+      "logAccount": "Source (Account)",
+      "logContent": "Content",
+      "logSearch": "Search"
     },
     "errServerCheck": "An unexpected error occurred while checking your server.",
     "errUidTaken": "The TeamSpeak server UID is already in use by another authorized server.",
