@@ -289,6 +289,8 @@
       "hotkeysTab": "Hotkeys",
       "sfxTab": "SFX",
       "troubleHearingInGame": "Having trouble hearing in-game?:",
+      "aiWakeWordKeyword": "AI Wake Word",
+      "aiWakeWordKeywordSelect": "Wake Word Phrase",
       "volume": "Volume",
       "sfxVolume": "SFX Volume",
       "automaticGainControlEnabled": "Automatic gain control enabled",
