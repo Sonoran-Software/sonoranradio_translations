@@ -234,6 +234,8 @@
   "fivemView": {
     "loginWithCode": "Login with Code",
     "browserLoginInstruction": "Go to {link} in your browser to login",
+    "guestLogin": "Guest Login",
+    "guestLoginInstruction": "Login as guest",
     "refresh": "Refresh",
     "unlink": "Unlink"
   },
