@@ -647,6 +647,8 @@
       "permissionsBtn": "Permissions",
       "approveBtn": "Approve",
       "kickBtn": "Kick",
+      "banBtn": "Ban",
+      "unbanBtn": "Unban",
       "filterAll": "All",
       "filterPending": "Pending",
       "search": "Search",
