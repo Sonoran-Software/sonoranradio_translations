@@ -333,6 +333,13 @@
       "noTransmissions": "No transmissions found",
       "playAudio": "Play Audio",
       "downloadFile": "Download File",
+      "showTranscript": "Show Transcript",
+      "user": "User",
+      "channel": "Channel",
+      "time": "Time",
+      "applyFilters": "Apply",
+      "clearFilters": "Clear",
+      "transcriptTitle": "{name}'s Transmission",
       "redial": "Re-dial {name}"
     },
     "peers": {
