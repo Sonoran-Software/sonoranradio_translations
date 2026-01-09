@@ -332,6 +332,8 @@
       "noTransmissions": "No transmissions found",
       "playAudio": "Play Audio",
       "downloadFile": "Download File",
+      "applyFilter": "Apply",
+      "clearFilter": "Clear",
       "redial": "Re-dial {name}"
     },
     "peers": {
@@ -654,6 +656,7 @@
       "ownerHasAllPerms": "The community owner has all permissions",
       "privateChannels": "Private Channels",
       "ban": "Ban",
+      "banBtn": "Ban",
       "selectPrivateChannels": "Select the private channels the user is allowed to join"
     },
     "ai": {
