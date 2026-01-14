@@ -411,7 +411,55 @@
         "pushUrl": "Push URL",
         "actions": "Actions"
       },
-      "addServer": "Add Server"
+      "addServer": "Add Server",
+      "cadPrompts": {
+        "title": "Example prompts",
+        "subtitle": "Optional phrases to help Dispatch AI map requests to CAD tools.",
+        "emptyState": "No phrases added yet.",
+        "addPhrase": "Add phrase",
+        "tools": {
+          "status": {
+            "label": "Status updates",
+            "hint": "Examples: \"set my status to available\", \"show me unavailable\"",
+            "placeholder": "Set my status to available"
+          },
+          "lookup": {
+            "label": "Person or plate lookup",
+            "hint": "Examples: \"run a plate ABC123\", \"look up John Smith\"",
+            "placeholder": "Run a plate ABC123"
+          },
+          "attachToCall": {
+            "label": "Attach to a call",
+            "hint": "Examples: \"attach me to call...\"",
+            "placeholder": "Attach me to call..."
+          },
+          "unattachFromCall": {
+            "label": "Unattach from a call",
+            "hint": "Examples: \"detach me from the call\"",
+            "placeholder": "Detach me from the call"
+          },
+          "addCallNote": {
+            "label": "Add a call note",
+            "hint": "Examples: \"add a note to my call\"",
+            "placeholder": "Add a note to my call"
+          },
+          "closeCall": {
+            "label": "Close a call",
+            "hint": "Examples: \"close my call\"",
+            "placeholder": "Close my call"
+          },
+          "createCall": {
+            "label": "Create a call",
+            "hint": "Examples: \"create a call for a 10-50 on Main St\"",
+            "placeholder": "Create a call for a 10-50 on Main St"
+          },
+          "togglePanic": {
+            "label": "Toggle panic",
+            "hint": "Examples: \"activate my panic\", \"clear my panic\"",
+            "placeholder": "Activate my panic"
+          }
+        }
+      }
     },
     "saveInfo": "Save Server Info",
     "explainOwnerOnly": "Only the owner can change this setting",
