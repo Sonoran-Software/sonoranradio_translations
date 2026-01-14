@@ -414,7 +414,7 @@
       "addServer": "Add Server",
       "cadPrompts": {
         "title": "Example prompts",
-        "subtitle": "Optional phrases to help Dispatch AI map requests to CAD tools.",
+        "subtitle": "Custom phrases to help Dispatch AI map requests to CAD/Radio functions.",
         "emptyState": "No phrases added yet.",
         "addPhrase": "Add phrase",
         "tools": {
