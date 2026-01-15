@@ -330,6 +330,7 @@
       "myPttSfx": "My PTT SFX",
       "othersPttSfx": "Other's PTT SFX",
       "channelTts": "Channel TTS",
+      "aiRepliesOnlyMe": "AI Replies Only to Me",
       "hearScannedWhileXmit": "Hear Scanned While Transmitting",
       "keyupSfx": "Keyup SFX",
       "keydownSfx": "Keydown SFX"
@@ -515,6 +516,8 @@
       "sirenVolumeDesc": "When in-game siren is activated, add/subtract to the volume.",
       "tts": "Channel Text-to-Speech",
       "ttsDesc": "Play a text-to-speech voice of the channel name when you change channels.",
+      "aiRepliesOnlyMe": "AI Replies Only to Me",
+      "aiRepliesOnlyMeDesc": "Only hear the AI agent when it replies directly to you, not the full channel.",
       "keyUpDelay": "Key Up Delay",
       "keyUpDelayDesc": "Delay after ending a transmission before the mic is released.",
       "volChange": "Volume Change",
