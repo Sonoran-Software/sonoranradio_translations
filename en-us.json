@@ -330,7 +330,8 @@
       "myPttSfx": "My PTT SFX",
       "othersPttSfx": "Other's PTT SFX",
       "channelTts": "Channel TTS",
-      "aiRepliesOnlyMe": "AI Replies Only to Me",
+      "aiRepliesOnlyMe": "Hear AI Replies to Me Only",
+      "hearAllAiReplies": "Hear All AI Replies",
       "hearScannedWhileXmit": "Hear Scanned While Transmitting",
       "keyupSfx": "Keyup SFX",
       "keydownSfx": "Keydown SFX"
