@@ -510,6 +510,7 @@
       "sirenVolume": "Siren Volume",
       "sirenVolumeDesc": "When in-game siren is activated, add/subtract to the volume.",
       "tts": "Channel Text-to-Speech",
+      "wakeWord": "Wake word (AI)",
       "ttsDesc": "Play a text-to-speech voice of the channel name when you change channels.",
       "aiRepliesOnlyMe": "AI Replies Only to Me",
       "aiRepliesOnlyMeDesc": "Only hear the AI agent when it replies directly to you, not the full channel.",
