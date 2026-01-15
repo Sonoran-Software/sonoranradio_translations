@@ -234,6 +234,8 @@
   "fivemView": {
     "loginWithCode": "Login with Code",
     "browserLoginInstruction": "Go to {link} in your browser to login",
+    "guestLogin": "Guest Login",
+    "guestLoginInstruction": "Login as guest",
     "refresh": "Refresh",
     "unlink": "Unlink"
   },
@@ -295,6 +297,14 @@
         "sfxVolume": "SFX Volume",
         "automaticGainControlEnabled": "Automatic gain control enabled",
         "automaticGainControlDisabled": "Automatic gain control disabled",
+      "sfxTab": "SFX",
+      "troubleHearingInGame": "Having trouble hearing in-game?:",
+      "aiWakeWordKeyword": "AI Wake Word",
+      "aiWakeWordKeywordSelect": "Wake Word Phrase",
+      "volume": "Volume",
+      "sfxVolume": "SFX Volume",
+      "automaticGainControlEnabled": "Automatic gain control enabled",
+      "automaticGainControlDisabled": "Automatic gain control disabled",
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
         "volumeHotkeyChange": "Volume Hotkey Change",
         "pttOffDelay": "PTT-Off Delay",
@@ -334,6 +344,13 @@
       "downloadFile": "Download File",
       "applyFilter": "Apply",
       "clearFilter": "Clear",
+      "showTranscript": "Show Transcript",
+      "user": "User",
+      "channel": "Channel",
+      "time": "Time",
+      "applyFilters": "Apply",
+      "clearFilters": "Clear",
+      "transcriptTitle": "{name}'s Transmission",
       "redial": "Re-dial {name}"
     },
     "peers": {
@@ -501,7 +518,9 @@
       "keyUpDelay": "Key Up Delay",
       "keyUpDelayDesc": "Delay after ending a transmission before the mic is released.",
       "volChange": "Volume Change",
-      "volChangeDesc": "Volume change % when using the volume up/down hotkeys."
+      "volChangeDesc": "Volume change % when using the volume up/down hotkeys.",
+      "echoAutoXmit": "Hear AI Callouts",
+      "echoAutoXmitDesc": "Hear your own AI location callouts when in a pursuit."
     },
     "importSAPR": {
       "btn": "Import SAPR Config",
@@ -694,6 +713,8 @@
       "permissionsBtn": "Permissions",
       "approveBtn": "Approve",
       "kickBtn": "Kick",
+      "banBtn": "Ban",
+      "unbanBtn": "Unban",
       "filterAll": "All",
       "filterPending": "Pending",
       "search": "Search",
@@ -719,7 +740,15 @@
       "apiInfoTitle": "API Info",
       "apiInfoHint": "Give this to your members when inviting them to the community",
       "communityApiKeyField": "Community API Key",
-      "updateApiKey": "Update API Key"
+      "updateApiKey": "Update API Key",
+      "communityLogs": "Community Logs",
+      "logSearchTitle": "Search",
+      "logSearchSubtitle": "View all your community's available logs, filter by type, date, and content.",
+      "logType": "Type",
+      "logDate": "Date",
+      "logAccount": "Source (Account)",
+      "logContent": "Content",
+      "logSearch": "Search"
     },
     "errServerCheck": "An unexpected error occurred while checking your server.",
     "errUidTaken": "The TeamSpeak server UID is already in use by another authorized server.",
