@@ -470,6 +470,16 @@
             "label": "Toggle panic",
             "hint": "Examples: \"activate my panic\", \"clear my panic\"",
             "placeholder": "Activate my panic"
+          },
+          "routeToPostal": {
+            "label": "Route to postal",
+            "hint": "Examples: \"route me to postal 1234\", \"set GPS to postal 90210\"",
+            "placeholder": "Route me to postal 1234"
+          },
+          "routeToCoordinates": {
+            "label": "Route to coordinates",
+            "hint": "Examples: \"route to X 123.4 Y 567.8\", \"set GPS to coordinates\"",
+            "placeholder": "Route to X 123.4 Y 567.8"
           }
         }
       }
