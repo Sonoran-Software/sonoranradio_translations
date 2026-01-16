@@ -297,7 +297,7 @@
       "aiWakeWordKeywordSelect": "Wake Word Phrase",
       "volume": "Volume",
       "sfxVolume": "SFX Volume",
-      "agentGain": "Agent Volume",
+      "agentGain": "AI Volume",
       "automaticGainControlEnabled": "Automatic gain control enabled",
       "automaticGainControlDisabled": "Automatic gain control disabled",
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
