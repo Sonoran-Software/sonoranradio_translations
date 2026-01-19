@@ -636,7 +636,7 @@
       "sfxVolUp": "Volume Up (Hotkey) SFX",
       "sfxVolDown": "Volume Down (Hotkey) SFX",
       "simulatedAudio": "In-Game Background Audio SFX",
-      "simulatedAudioSubtitle": "Background audio injection blends in-game sounds\u00e2\u20ac\u201dlike sirens, helicopter rotors, boat engines, and gunshots\u00e2\u20ac\u201dinto your microphone output.",
+      "simulatedAudioSubtitle": "Background audio injection blends in-game sounds like sirens, helicopter rotors, boat engines, and gunshots into your microphone output.",
       "sfxGameSiren": "In-Game Siren SFX",
       "sfxGameBoatEngine": "In-Game Boat Engine SFX",
       "sfxGameHelicopterRotors": "In-Game Helicopter Rotors SFX",
