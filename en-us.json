@@ -484,6 +484,11 @@
             "label": "Route to coordinates",
             "hint": "Examples: \"route to X 123.4 Y 567.8\", \"set GPS to coordinates\"",
             "placeholder": "Route to X 123.4 Y 567.8"
+          },
+          "identsToGroup": {
+            "label": "Group units",
+            "hint": "Examples: \"set group Alpha on units D-12, D-14\", \"clear group for units D-12, D-14\"",
+            "placeholder": "Group units A-10 and B-11 into 'Group One'"
           }
         }
       }
