@@ -440,16 +440,21 @@
             "hint": "Examples: \"set my status to available\", \"show me unavailable\"",
             "placeholder": "Set my status to available"
           },
-          "lookup": {
-            "label": "Person or plate lookup",
-            "hint": "Examples: \"run a plate ABC123\", \"look up John Smith\"",
-            "placeholder": "Run a plate ABC123"
-          },
-          "attachToCall": {
-            "label": "Attach to a call",
-            "hint": "Examples: \"attach me to call...\"",
-            "placeholder": "Attach me to call..."
-          },
+            "lookup": {
+              "label": "Person or plate lookup",
+              "hint": "Examples: \"run a plate ABC123\", \"look up John Smith\"",
+              "placeholder": "Run a plate ABC123"
+            },
+            "getRecentCadEvents": {
+              "label": "Recent CAD Events",
+              "hint": "Examples: \"what's the latest call\", \"recent panic\", \"that call\"",
+              "placeholder": "What's the latest call?"
+            },
+            "attachToCall": {
+              "label": "Attach to a call",
+              "hint": "Examples: \"attach me to call...\"",
+              "placeholder": "Attach me to call..."
+            },
           "unattachFromCall": {
             "label": "Unattach from a call",
             "hint": "Examples: \"detach me from the call\"",
