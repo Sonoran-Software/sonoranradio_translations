@@ -446,7 +446,7 @@
               "placeholder": "Run a plate ABC123"
             },
             "getRecentCadEvents": {
-              "label": "Recent CAD Events",
+              "label": "Recent Events",
               "hint": "Examples: \"what's the latest call\", \"recent panic\", \"that call\"",
               "placeholder": "What's the latest call?"
             },
