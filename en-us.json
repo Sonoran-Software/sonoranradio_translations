@@ -278,7 +278,15 @@
       "speed": "Speed",
       "recording": "Recording",
       "inGameSpeaker": "In-Game Speaker",
-      "inGameSpeakerGroup": "In-Game Speaker Group"
+      "inGameSpeakerGroup": "In-Game Speaker Group",
+      "tonesTab": "Tones",
+      "savedTab": "Saved Stacks",
+      "loadStack": "Load Stack",
+      "playStack": "Play Stack",
+      "deleteStack": "Delete Stack",
+      "noSavedStacks": "No saved stacks yet.",
+      "saveStackTitle": "Save Stack",
+      "saveStackDesc": "Name your tone stack"
     },
     "channelDialog": {
       "channelTitle": "Change Channel",
@@ -291,8 +299,13 @@
       "hotkeysTab": "Hotkeys",
       "sfxTab": "SFX",
       "troubleHearingInGame": "Having trouble hearing in-game?:",
+<<<<<<< Updated upstream
       "aiWakeWordKeyword": "AI Wake Word",
       "aiWakeWordKeywordSelect": "Wake Word Phrase",
+=======
+      "wakeWord": "Wake word (AI)",
+      "wakeWordListenSeconds": "Wake word listen seconds",
+>>>>>>> Stashed changes
       "volume": "Volume",
       "sfxVolume": "SFX Volume",
       "automaticGainControlEnabled": "Automatic gain control enabled",
@@ -300,6 +313,10 @@
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
       "volumeHotkeyChange": "Volume Hotkey Change",
       "pttOffDelay": "PTT-Off Delay",
+<<<<<<< Updated upstream
+=======
+      "advanced": "Advanced",
+>>>>>>> Stashed changes
       "resetPeerVolumes": "Reset Peer Volumes",
       "resetSettings": "Reset Settings",
       "macosPermWarning": "Your device may require additional permissions: {link}",
