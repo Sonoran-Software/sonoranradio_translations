@@ -475,6 +475,11 @@
             "hint": "Examples: \"create a call for a 10-50 on Main St\"",
             "placeholder": "Create a call for a 10-50 on Main St"
           },
+          "getRecordTemplates": {
+            "label": "Record templates",
+            "hint": "Examples: \"list record templates\", \"show available records\"",
+            "placeholder": "List record templates"
+          },
           "togglePanic": {
             "label": "Toggle panic",
             "hint": "Examples: \"activate my panic\", \"clear my panic\"",
