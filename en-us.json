@@ -508,7 +508,8 @@
             "placeholder": "Group units A-10 and B-11 into 'Group One'"
           }
         }
-      }
+      },
+      "dispatchAiPause": "Disable when Human Dispatch is Online"
     },
     "saveInfo": "Save Server Info",
     "explainOwnerOnly": "Only the owner can change this setting",
