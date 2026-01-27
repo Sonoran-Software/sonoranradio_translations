@@ -297,6 +297,11 @@
       "audioTab": "Audio",
       "fivemTab": "FiveM",
       "hotkeysTab": "Hotkeys",
+      "wakeWord": "Wake Word (AI)",
+      "recordWakeWord": "Record Wake Word",
+      "recordWakeWordListening": "Listening...",
+      "wakeWordRecordNoSpeech": "No speech detected. Check your microphone and try again.",
+      "wakeWordListenSeconds": "Wake word listen seconds",
       "sfxTab": "SFX",
       "troubleHearingInGame": "Having trouble hearing in-game?:",
       "aiWakeWordKeyword": "AI Wake Word",
@@ -305,6 +310,7 @@
       "wakeWordListenSeconds": "Wake word listen seconds",
       "volume": "Volume",
       "sfxVolume": "SFX Volume",
+      "agentGain": "AI Volume",
       "automaticGainControlEnabled": "Automatic gain control enabled",
       "automaticGainControlDisabled": "Automatic gain control disabled",
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
@@ -332,6 +338,8 @@
       "myPttSfx": "My PTT SFX",
       "othersPttSfx": "Other's PTT SFX",
       "channelTts": "Channel TTS",
+      "aiRepliesOnlyMe": "Hear AI Replies to Me Only",
+      "hearAllAiReplies": "Hear All AI Replies",
       "hearScannedWhileXmit": "Hear Scanned While Transmitting",
       "keyupSfx": "Keyup SFX",
       "keydownSfx": "Keydown SFX"
@@ -344,6 +352,8 @@
       "noTransmissions": "No transmissions found",
       "playAudio": "Play Audio",
       "downloadFile": "Download File",
+      "applyFilter": "Apply",
+      "clearFilter": "Clear",
       "showTranscript": "Show Transcript",
       "user": "User",
       "channel": "Channel",
@@ -428,7 +438,80 @@
         "pushUrl": "Push URL",
         "actions": "Actions"
       },
-      "addServer": "Add Server"
+      "addServer": "Add Server",
+      "cadPrompts": {
+        "title": "Example prompts",
+        "subtitle": "Custom phrases to help Dispatch AI map requests to CAD/Radio functions.",
+        "emptyState": "No phrases added yet.",
+        "addPhrase": "Add phrase",
+        "tools": {
+          "status": {
+            "label": "Status updates",
+            "hint": "Examples: \"set my status to available\", \"show me unavailable\"",
+            "placeholder": "Set my status to available"
+          },
+            "lookup": {
+              "label": "Person or plate lookup",
+              "hint": "Examples: \"run a plate ABC123\", \"look up John Smith\"",
+              "placeholder": "Run a plate ABC123"
+            },
+            "getRecentCadEvents": {
+              "label": "Recent Events",
+              "hint": "Examples: \"what's the latest call\", \"recent panic\", \"that call\"",
+              "placeholder": "What's the latest call?"
+            },
+            "attachToCall": {
+              "label": "Attach to a call",
+              "hint": "Examples: \"attach me to call...\"",
+              "placeholder": "Attach me to call..."
+            },
+          "unattachFromCall": {
+            "label": "Unattach from a call",
+            "hint": "Examples: \"detach me from the call\"",
+            "placeholder": "Detach me from the call"
+          },
+          "addCallNote": {
+            "label": "Add a call note",
+            "hint": "Examples: \"add a note to my call\"",
+            "placeholder": "Add a note to my call"
+          },
+          "closeCall": {
+            "label": "Close a call",
+            "hint": "Examples: \"close my call\"",
+            "placeholder": "Close my call"
+          },
+          "createCall": {
+            "label": "Create a call",
+            "hint": "Examples: \"create a call for a 10-50 on Main St\"",
+            "placeholder": "Create a call for a 10-50 on Main St"
+          },
+          "getRecordTemplates": {
+            "label": "Record templates",
+            "hint": "Examples: \"list record templates\", \"show available records\"",
+            "placeholder": "List record templates"
+          },
+          "togglePanic": {
+            "label": "Toggle panic",
+            "hint": "Examples: \"activate my panic\", \"clear my panic\"",
+            "placeholder": "Activate my panic"
+          },
+          "routeToPostal": {
+            "label": "Route to postal",
+            "hint": "Examples: \"route me to postal 1234\", \"set GPS to postal 90210\"",
+            "placeholder": "Route me to postal 1234"
+          },
+          "routeToCoordinates": {
+            "label": "Route to coordinates",
+            "hint": "Examples: \"route to X 123.4 Y 567.8\", \"set GPS to coordinates\"",
+            "placeholder": "Route to X 123.4 Y 567.8"
+          },
+          "identsToGroup": {
+            "label": "Group units",
+            "hint": "Examples: \"set group Alpha on units D-12, D-14\", \"clear group for units D-12, D-14\"",
+            "placeholder": "Group units A-10 and B-11 into 'Group One'"
+          }
+        }
+      }
     },
     "saveInfo": "Save Server Info",
     "explainOwnerOnly": "Only the owner can change this setting",
@@ -466,7 +549,11 @@
       "sirenVolume": "Siren Volume",
       "sirenVolumeDesc": "When in-game siren is activated, add/subtract to the volume.",
       "tts": "Channel Text-to-Speech",
+      "wakeWord": "Wake Word (AI)",
+      "wakeWordDesc": "Wake word used to activate Dispatch AI.",
       "ttsDesc": "Play a text-to-speech voice of the channel name when you change channels.",
+      "aiRepliesOnlyMe": "AI Replies Only to Me",
+      "aiRepliesOnlyMeDesc": "Only hear the AI agent when it replies directly to you, not the full channel.",
       "keyUpDelay": "Key Up Delay",
       "keyUpDelayDesc": "Delay after ending a transmission before the mic is released.",
       "volChange": "Volume Change",
@@ -574,7 +661,7 @@
       "sfxVolUp": "Volume Up (Hotkey) SFX",
       "sfxVolDown": "Volume Down (Hotkey) SFX",
       "simulatedAudio": "In-Game Background Audio SFX",
-      "simulatedAudioSubtitle": "Background audio injection blends in-game sounds\u00e2\u20ac\u201dlike sirens, helicopter rotors, boat engines, and gunshots\u00e2\u20ac\u201dinto your microphone output.",
+      "simulatedAudioSubtitle": "Background audio injection blends in-game sounds like sirens, helicopter rotors, boat engines, and gunshots into your microphone output.",
       "sfxGameSiren": "In-Game Siren SFX",
       "sfxGameBoatEngine": "In-Game Boat Engine SFX",
       "sfxGameHelicopterRotors": "In-Game Helicopter Rotors SFX",
@@ -676,6 +763,8 @@
       "editMemberPerms": "Edit Member Permissions",
       "ownerHasAllPerms": "The community owner has all permissions",
       "privateChannels": "Private Channels",
+      "ban": "Ban",
+      "banBtn": "Ban",
       "selectPrivateChannels": "Select the private channels the user is allowed to join"
     },
     "ai": {
