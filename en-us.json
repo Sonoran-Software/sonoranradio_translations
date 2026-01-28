@@ -425,6 +425,10 @@
       "ai": "AI",
       "customDomain": "Custom Domain"
     },
+    "geoZoneViewer": {
+      "geoChannels": "Geo Channels",
+      "degradeZones": "Degrade Zones"
+    },
     "serverInfo": {
       "customCommunityIdHint": "Set your custom Community ID, which is for the vanity URL, the FiveM resource, and to join the community",
       "communityServers": "Community Servers",
