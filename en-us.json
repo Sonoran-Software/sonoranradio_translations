@@ -426,8 +426,16 @@
       "customDomain": "Custom Domain"
     },
     "geoZoneViewer": {
+      "emergencyZones": "Emergency Zones",
+      "emergencyZonesDescription": "Emergency Zones tell the AI dispatcher which channels to broadcast incoming emergencies to based on location.",
       "geoChannels": "Geo Channels",
-      "degradeZones": "Degrade Zones"
+      "geoChannelsDescription": "Geo Channels automatically switch users to specific channels based on their in-game location.",
+      "degradeZones": "Degrade Zones",
+      "degradeZonesDescription": "Degrade Zones reduce signal strength. Ex: Tunnels, underground areas, etc.",
+      "mapType": "Map Type",
+      "server": "Server",
+      "fivem": "FiveM",
+      "erlc": "ERLC"
     },
     "serverInfo": {
       "customCommunityIdHint": "Set your custom Community ID, which is for the vanity URL, the FiveM resource, and to join the community",
