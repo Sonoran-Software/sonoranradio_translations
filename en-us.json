@@ -278,7 +278,15 @@
       "speed": "Speed",
       "recording": "Recording",
       "inGameSpeaker": "In-Game Speaker",
-      "inGameSpeakerGroup": "In-Game Speaker Group"
+      "inGameSpeakerGroup": "In-Game Speaker Group",
+      "tonesTab": "Tones",
+      "savedTab": "Saved Stacks",
+      "loadStack": "Load Stack",
+      "playStack": "Play Stack",
+      "deleteStack": "Delete Stack",
+      "noSavedStacks": "No saved stacks yet.",
+      "saveStackTitle": "Save Stack",
+      "saveStackDesc": "Name your tone stack"
     },
     "channelDialog": {
       "channelTitle": "Change Channel",
@@ -306,7 +314,6 @@
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
       "volumeHotkeyChange": "Volume Hotkey Change",
       "pttOffDelay": "PTT-Off Delay",
-      "advanced": "Advanced",
       "resetPeerVolumes": "Reset Peer Volumes",
       "resetSettings": "Reset Settings",
       "macosPermWarning": "Your device may require additional permissions: {link}",
@@ -405,6 +412,7 @@
     "adminTab": "Administration",
     "customizeMenu": {
       "info": "Info",
+      "zones": "Zones",
       "patrolChannels": "Patrol Channels",
       "channelsGroups": "Channels & Groups",
       "profiles": "Profiles",
@@ -416,6 +424,18 @@
       "defaultSettings": "Default Settings",
       "ai": "AI",
       "customDomain": "Custom Domain"
+    },
+    "geoZoneViewer": {
+      "emergencyZones": "Emergency Zones",
+      "emergencyZonesDescription": "Emergency Zones tell the AI dispatcher which channels to broadcast incoming emergencies to based on location.",
+      "geoChannels": "Geo Channels",
+      "geoChannelsDescription": "Geo Channels automatically switch users to specific channels based on their in-game location.",
+      "degradeZones": "Degrade Zones",
+      "degradeZonesDescription": "Degrade Zones reduce signal strength. Ex: Tunnels, underground areas, etc.",
+      "mapType": "Map Type",
+      "server": "Server",
+      "fivem": "FiveM",
+      "erlc": "ERLC"
     },
     "serverInfo": {
       "customCommunityIdHint": "Set your custom Community ID, which is for the vanity URL, the FiveM resource, and to join the community",
@@ -501,7 +521,10 @@
             "placeholder": "Group units A-10 and B-11 into 'Group One'"
           }
         }
-      }
+      },
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "dispatchAiPause": "Disable when Human Dispatch is in CAD"
     },
     "saveInfo": "Save Server Info",
     "explainOwnerOnly": "Only the owner can change this setting",
@@ -754,7 +777,6 @@
       "ownerHasAllPerms": "The community owner has all permissions",
       "privateChannels": "Private Channels",
       "ban": "Ban",
-      "banBtn": "Ban",
       "selectPrivateChannels": "Select the private channels the user is allowed to join"
     },
     "ai": {
