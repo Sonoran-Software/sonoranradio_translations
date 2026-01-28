@@ -412,6 +412,7 @@
     "adminTab": "Administration",
     "customizeMenu": {
       "info": "Info",
+      "zones": "Zones",
       "patrolChannels": "Patrol Channels",
       "channelsGroups": "Channels & Groups",
       "profiles": "Profiles",
