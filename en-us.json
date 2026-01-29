@@ -559,7 +559,7 @@
       "hearOtherPttSfxDesc": "Play the PTT sound when other users key up their microphone.",
       "muteScannedWhileTransmitting": "Mute Scanned While Transmitting",
       "muteScannedWhileTransmittingDesc": "Mute scanned channels while transmitting on a channel.",
-      "sirenVolume": "Siren Volume",
+      "sirenVolume": "Volume Boost with Active Siren",
       "sirenVolumeDesc": "Increase a user's radio volume by this percentage when their vehicle's siren is active.",
       "tts": "Channel Text-to-Speech",
       "wakeWord": "Wake Word (AI)",
