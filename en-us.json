@@ -440,6 +440,8 @@
     },
     "serverInfo": {
       "customCommunityIdHint": "Set your custom Community ID, which is for the vanity URL, the FiveM resource, and to join the community",
+      "openAiApiKey": "Open AI API Key",
+      "openAiApiKeyHint": "Provide a bring-your-own OpenAI API key to enable Dispatch AI features.",
       "communityServers": "Community Servers",
       "communityServersSubtitle": "Add or remove servers to separate your radio communications",
       "columns": {
