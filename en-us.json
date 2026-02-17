@@ -51,7 +51,9 @@
   "hotkeys": {
     "clearHotkey": "Clear Hotkey",
     "pressAKey": "Press a key",
-    "noKeySet": "No Key Set"
+    "noKeySet": "No Key Set",
+    "focusDesktopRadio": "Focus Desktop Radio",
+    "toggleDesktopRadio": "Toggle Desktop Radio"
   },
   "landingPage": {
     "intro": "Take your gaming communication to the next level with Sonoran  Radio. Chat in       realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly  immersive experience.",
@@ -244,6 +246,7 @@
     "selectServer": "Select Server",
     "microphonePTT": "Microphone PTT",
     "openInNewWindow": "Open in New Window",
+    "openInDesktopFrame": "Open Overlay",
     "backToPortal": "Back to Portal",
     "recvFreq": "RECV: {0}MHz",
     "xmitFreq": "XMIT {0}MHz",
@@ -310,6 +313,7 @@
       "volume": "Volume",
       "sfxVolume": "SFX Volume",
       "agentGain": "AI Volume",
+      "advanced": "Advanced",
       "automaticGainControlEnabled": "Automatic gain control enabled",
       "automaticGainControlDisabled": "Automatic gain control disabled",
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
@@ -414,6 +418,7 @@
     "customizeMenu": {
       "info": "Info",
       "zones": "Zones",
+      "desktopFrames": "Desktop Frames",
       "patrolChannels": "Patrol Channels",
       "channelsGroups": "Channels & Groups",
       "profiles": "Profiles",
@@ -437,6 +442,35 @@
       "server": "Server",
       "fivem": "FiveM",
       "erlc": "ERLC"
+    },
+    "customizeDesktopFrames": {
+      "noneFound": "No desktop frames found for this server.",
+      "frameLabel": "Frame Label",
+      "frameBodyImage": "Frame Body Image",
+      "tooltip": {
+        "dragTitle": "Drag",
+        "dragBody": "to move components",
+        "resizeTitle": "CTRL+Drag",
+        "resizeBody": "to resize components",
+        "removeTitle": "Right click",
+        "removeBody": "to remove components (except screen)"
+      },
+      "addButton": "Add Button",
+      "frameWidth": "Frame Width",
+      "screenPlaceholder": "This is the screen",
+      "newFrame": "New Frame",
+      "label": "Label",
+      "bodyImage": "Body Image",
+      "upload": "Upload",
+      "importFromSkin": "Import from FiveM (skin.json)",
+      "chooseSkin": "Choose skin.json",
+      "selectFrame": "Select Frame",
+      "cancel": "Cancel",
+      "create": "Create",
+      "confirmRemove": "Are you sure you want to remove this frame?",
+      "importNoFramesFound": "No desktop frames with body.width and screen found.",
+      "importDefaultFrameType": "frame",
+      "saved": "Desktop frames saved."
     },
     "serverInfo": {
       "customCommunityIdHint": "Set your custom Community ID, which is for the vanity URL, the FiveM resource, and to join the community",
@@ -463,21 +497,21 @@
             "hint": "Examples: \"set my status to available\", \"show me unavailable\"",
             "placeholder": "Set my status to available"
           },
-            "lookup": {
-              "label": "Person or plate lookup",
-              "hint": "Examples: \"run a plate ABC123\", \"look up John Smith\"",
-              "placeholder": "Run a plate ABC123"
-            },
-            "getRecentCadEvents": {
-              "label": "Recent Events",
-              "hint": "Examples: \"what's the latest call\", \"recent panic\", \"that call\"",
-              "placeholder": "What's the latest call?"
-            },
-            "attachToCall": {
-              "label": "Attach to a call",
-              "hint": "Examples: \"attach me to call...\"",
-              "placeholder": "Attach me to call..."
-            },
+          "lookup": {
+            "label": "Person or plate lookup",
+            "hint": "Examples: \"run a plate ABC123\", \"look up John Smith\"",
+            "placeholder": "Run a plate ABC123"
+          },
+          "getRecentCadEvents": {
+            "label": "Recent Events",
+            "hint": "Examples: \"what's the latest call\", \"recent panic\", \"that call\"",
+            "placeholder": "What's the latest call?"
+          },
+          "attachToCall": {
+            "label": "Attach to a call",
+            "hint": "Examples: \"attach me to call...\"",
+            "placeholder": "Attach me to call..."
+          },
           "unattachFromCall": {
             "label": "Unattach from a call",
             "hint": "Examples: \"detach me from the call\"",
