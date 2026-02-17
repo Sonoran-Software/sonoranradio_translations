@@ -51,7 +51,9 @@
   "hotkeys": {
     "clearHotkey": "Clear Hotkey",
     "pressAKey": "Press a key",
-    "noKeySet": "No Key Set"
+    "noKeySet": "No Key Set",
+    "focusDesktopRadio": "Focus Desktop Radio",
+    "toggleDesktopRadio": "Toggle Desktop Radio"
   },
   "landingPage": {
     "intro": "Take your gaming communication to the next level with Sonoran  Radio. Chat in       realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly  immersive experience.",
@@ -244,7 +246,7 @@
     "selectServer": "Select Server",
     "microphonePTT": "Microphone PTT",
     "openInNewWindow": "Open in New Window",
-    "openInDesktopFrame": "Open in Radio Frame",
+    "openInDesktopFrame": "Open Overlay",
     "backToPortal": "Back to Portal",
     "recvFreq": "RECV: {0}MHz",
     "xmitFreq": "XMIT {0}MHz",
@@ -311,6 +313,7 @@
       "volume": "Volume",
       "sfxVolume": "SFX Volume",
       "agentGain": "AI Volume",
+      "advanced": "Advanced",
       "automaticGainControlEnabled": "Automatic gain control enabled",
       "automaticGainControlDisabled": "Automatic gain control disabled",
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
