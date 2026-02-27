@@ -481,7 +481,7 @@
         "mismatchedTileSize": "All tiles must be the same size. '{file}' is {width}x{height}, expected {expectedWidth}x{expectedHeight}.",
         "missingServer": "No active server selected for upload.",
         "uploadFailed": "Tile upload failed.",
-        "uploadMissingUrl": "Upload finished but no URL was returned.",
+        "uploadMissingUrl": "Upload finished but no config was returned.",
         "uploadSuccess": "{count} tile images uploaded successfully."
       }
     },
