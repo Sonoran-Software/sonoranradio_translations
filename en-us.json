@@ -370,6 +370,8 @@
       "clearPanic": "Clear Panic",
       "moveTo": "Move to",
       "displayName": "Display Name",
+      "ping": "Ping",
+      "stun": "Stun",
       "volume": "Volume"
     },
     "settings": {
