@@ -367,6 +367,8 @@
     },
     "peers": {
       "kick": "Kick",
+      "ping": "Ping",
+      "stun": "Stun",
       "clearPanic": "Clear Panic",
       "moveTo": "Move to",
       "displayName": "Display Name",
