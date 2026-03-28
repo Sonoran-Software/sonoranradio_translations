@@ -274,6 +274,7 @@
     "selectServer": "Sunucu Seç",
     "microphonePTT": "Mikrofon PTT",
     "openInNewWindow": "Yeni Pencerede Aç",
+    "openUserList": "Open User List",
     "backToPortal": "Portala Dön",
     "recvFreq": "ALIM: {0}MHz",
     "xmitFreq": "GÖNDER {0}MHz",

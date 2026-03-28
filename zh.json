@@ -274,6 +274,7 @@
     "selectServer": "选择服务器",
     "microphonePTT": "麦克风 PTT",
     "openInNewWindow": "在新窗口中打开",
+    "openUserList": "Open User List",
     "backToPortal": "返回门户",
     "recvFreq": "接收：{0}MHz",
     "xmitFreq": "发射 {0}MHz",

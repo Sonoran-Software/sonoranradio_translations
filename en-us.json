@@ -52,6 +52,8 @@
     "clearHotkey": "Clear Hotkey",
     "pressAKey": "Press a key",
     "noKeySet": "No Key Set",
+    "openDesktopOverlay": "Open the Overlay",
+    "openConnectedUsers": "Open the Connected Users",
     "focusDesktopRadio": "Focus Desktop Radio",
     "toggleDesktopRadio": "Toggle Desktop Radio"
   },
@@ -247,6 +249,7 @@
     "microphonePTT": "Microphone PTT",
     "openInNewWindow": "Open in New Window",
     "openInDesktopFrame": "Open Overlay",
+    "openUserList": "Open User List",
     "backToPortal": "Back to Portal",
     "recvFreq": "RECV: {0}MHz",
     "xmitFreq": "XMIT {0}MHz",

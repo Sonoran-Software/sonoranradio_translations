@@ -307,6 +307,7 @@
     "selectServer": "서버 선택",
     "microphonePTT": "마이크 PTT",
     "openInNewWindow": "새 창에서 열기",
+    "openUserList": "Open User List",
     "backToPortal": "포털로 돌아가기",
     "recvFreq": "RECV: {0}MHz",
     "xmitFreq": "XMIT {0}MHz",

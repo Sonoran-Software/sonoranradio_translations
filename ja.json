@@ -274,6 +274,7 @@
     "selectServer": "サーバーを選択",
     "microphonePTT": "マイク PTT",
     "openInNewWindow": "新しいウィンドウで開く",
+    "openUserList": "Open User List",
     "backToPortal": "ポータルに戻る",
     "recvFreq": "RECV: {0}MHz",
     "xmitFreq": "XMIT {0}MHz",

@@ -274,6 +274,7 @@
     "selectServer": "Velg server",
     "microphonePTT": "Mikrofon PTT",
     "openInNewWindow": "Åpne i nytt vindu",
+    "openUserList": "Open User List",
     "backToPortal": "Tilbake til portal",
     "recvFreq": "MOTT: {0}MHz",
     "xmitFreq": "SEND {0}MHz",
