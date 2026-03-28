@@ -51,6 +51,7 @@
   "hotkeys": {
     "clearHotkey": "Clear Hotkey",
     "pressAKey": "Press a key",
+    "clickToEndRecording": "Click to end recording",
     "noKeySet": "No Key Set",
     "openDesktopOverlay": "Open the Overlay",
     "openConnectedUsers": "Open the Connected Users",
