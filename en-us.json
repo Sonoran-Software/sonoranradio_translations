@@ -54,7 +54,7 @@
     "clickToEndRecording": "Click to end recording",
     "noKeySet": "No Key Set",
     "openDesktopOverlay": "Open the Overlay",
-    "openConnectedUsers": "Open the Connected Users",
+    "openConnectedUsers": "Open the User List Overlay",
     "focusDesktopRadio": "Focus Desktop Radio",
     "toggleDesktopRadio": "Toggle Desktop Radio"
   },
@@ -250,7 +250,7 @@
     "microphonePTT": "Microphone PTT",
     "openInNewWindow": "Open in New Window",
     "openInDesktopFrame": "Open Overlay",
-    "openUserList": "Open User List",
+    "openUserList": "Open User List Overlay",
     "backToPortal": "Back to Portal",
     "recvFreq": "RECV: {0}MHz",
     "xmitFreq": "XMIT {0}MHz",
