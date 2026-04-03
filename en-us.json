@@ -380,7 +380,7 @@
       "clearPanic": "Clear Panic",
       "moveTo": "Move to",
       "displayName": "Display Name",
-      "volume": "Volume"
+      "volume": "Channel Volume"
     },
     "settings": {
       "rightClickToClear": "Right-Click to Clear"
