@@ -318,7 +318,6 @@
       "voiceFxCommunity": "Community FX",
       "voiceFxLocal": "Local FX",
       "voiceFxEmpty": "Create or import a local voice effect to enable local listening.",
-      "voiceFxVocoderDisabled": "The vocoder is applied on the transmit side and cannot be controlled through client-side FX settings. To use the vocoder, it must be enabled in a community level effect.",
       "privacyTab": "Privacy",
       "troubleHearingInGame": "Having trouble hearing in-game?:",
       "aiWakeWordKeyword": "AI Wake Word",
