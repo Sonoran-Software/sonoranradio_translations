@@ -752,6 +752,7 @@
       "stopPreview": "Stop Preview",
       "vocoderPreviewWarning": "Vocoder audio preview is not yet available.",
       "vocoderDescription": "Compresses speech into a synthetic radio codec sound with a lower bitrate voice profile.",
+      "localVocoderPerformanceWarning": "Strongly recommended: enable the vocoder at the community/channel level. Otherwise your local client has to vocode every incoming stream itself, which increases processing load and can reduce performance.",
       "clippingDescription": "Cuts portions of the signal to simulate dropouts, gating, and rough broken transmissions.",
       "digitalDescription": "Adds bit-crushed static and harsh artifacts that feel like unstable digital radio traffic.",
       "analogDescription": "Blends in hiss, bandwidth loss, and soft degradation for a classic analog handheld sound.",
