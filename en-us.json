@@ -864,6 +864,7 @@
       "setDisplayName": "Set Display Name",
       "editMemberPerms": "Edit Member Permissions",
       "ownerHasAllPerms": "The community owner has all permissions",
+      "cannotModifyPermsOfMyself": "Cannot modify my own permissions",
       "privateChannels": "Private Channels",
       "ban": "Ban",
       "selectPrivateChannels": "Select the private channels the user is allowed to join"
