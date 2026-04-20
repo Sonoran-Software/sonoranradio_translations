@@ -427,9 +427,22 @@
     "deleteServer": "Delete Community",
     "transferServer": "Transfer Community",
     "dispatchTab": "Dispatch",
+    "emergency911Tab": "911 Call",
     "membersTab": "Members",
     "customizeTab": "Customize",
     "adminTab": "Administration",
+    "emergency911": {
+      "title": "Emergency Call",
+      "subtitle": "Place a 911 call to dispatchers in this community.",
+      "selectRoom": "Server",
+      "callBtn": "Call 911",
+      "endBtn": "End Call",
+      "connecting": "Connecting...",
+      "connected": "Connected — your call is being broadcast to dispatchers.",
+      "waitingDispatcher": "Waiting for a dispatcher to answer...",
+      "dispatchersTitle": "Dispatchers on this call",
+      "disconnectsDispatchHint": "Starting a call will disconnect any active dispatch session in another tab."
+    },
     "customizeMenu": {
       "info": "Info",
       "zones": "Zones",
