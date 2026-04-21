@@ -316,6 +316,7 @@
       "advanced": "Advanced",
       "automaticGainControlEnabled": "Automatic gain control enabled",
       "automaticGainControlDisabled": "Automatic gain control disabled",
+      "defaultOutputWarning": "Default output may cause Windows to lower other app volumes. Try selecting a specific device.",
       "changingOutputsUnsupported": "Your device doesn't support changing audio outputs",
       "volumeHotkeyChange": "Volume Hotkey Change",
       "pttOffDelay": "PTT-Off Delay",
