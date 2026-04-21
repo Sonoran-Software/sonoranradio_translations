@@ -274,6 +274,7 @@
     "selectServer": "Server auswählen",
     "microphonePTT": "Mikrofon PTT",
     "openInNewWindow": "In neuem Fenster öffnen",
+    "openUserList": "Open User List",
     "backToPortal": "Zurück zum Portal",
     "recvFreq": "EMPF: {0}MHz",
     "xmitFreq": "SEND {0}MHz",

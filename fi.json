@@ -274,6 +274,7 @@
     "selectServer": "Valitse palvelin",
     "microphonePTT": "Mikrofoni PTT",
     "openInNewWindow": "Avaa uuteen ikkunaan",
+    "openUserList": "Open User List",
     "backToPortal": "Takaisin portaalin",
     "recvFreq": "VASTAANOTA: {0}MHz",
     "xmitFreq": "LÄHETÄ: {0}MHz",
