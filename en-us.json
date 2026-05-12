@@ -377,7 +377,9 @@
       "applyFilters": "Apply",
       "clearFilters": "Clear",
       "transcriptTitle": "{name}'s Transmission",
-      "redial": "Re-dial {name}"
+      "redial": "Re-dial {name}",
+      "dialPlaceholder": "Enter number...",
+      "dial": "Dial"
     },
     "peers": {
       "kick": "Kick",
