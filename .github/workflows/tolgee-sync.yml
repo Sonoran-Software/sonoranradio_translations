@@ -1,0 +1,118 @@
+name: Tolgee Sync
+
+on:
+  push:
+    branches:
+      - staging
+    paths:
+      - "*.json"
+      - ".tolgeerc"
+      - ".tolgeerc.import-all.json"
+      - ".github/workflows/tolgee-sync.yml"
+  workflow_dispatch:
+    inputs:
+      import_existing_translations:
+        description: "Upload every local JSON language file to Tolgee once"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tolgee-sync-staging
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout staging
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Tolgee CLI
+        run: npm install --global @tolgee/cli
+
+      - name: Validate Tolgee secrets
+        run: |
+          set -euo pipefail
+          : "${TOLGEE_API_KEY:?TOLGEE_API_KEY secret is required}"
+          : "${TOLGEE_PROJECT_ID:?TOLGEE_PROJECT_ID secret is required}"
+        env:
+          TOLGEE_API_KEY: ${{ secrets.TOLGEE_API_KEY }}
+          TOLGEE_PROJECT_ID: ${{ secrets.TOLGEE_PROJECT_ID }}
+
+      - name: Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Push source strings to Tolgee
+        run: |
+          set -euo pipefail
+          api_url_args=()
+          if [ -n "${TOLGEE_API_URL:-}" ]; then
+            api_url_args=(--api-url "$TOLGEE_API_URL")
+          fi
+          config_args=()
+          if [ "${IMPORT_EXISTING_TRANSLATIONS:-false}" = "true" ]; then
+            config_args=(--config .tolgeerc.import-all.json)
+            echo "Importing all existing local translation files into Tolgee."
+          fi
+
+          echo "Using Tolgee API URL: ${TOLGEE_API_URL:-https://app.tolgee.io}"
+          echo "Using Tolgee project ID: $TOLGEE_PROJECT_ID"
+
+          tolgee "${config_args[@]}" push \
+            "${api_url_args[@]}" \
+            --api-key "$TOLGEE_API_KEY" \
+            --project-id "$TOLGEE_PROJECT_ID"
+        env:
+          TOLGEE_API_KEY: ${{ secrets.TOLGEE_API_KEY }}
+          TOLGEE_PROJECT_ID: ${{ secrets.TOLGEE_PROJECT_ID }}
+          TOLGEE_API_URL: ${{ vars.TOLGEE_API_URL || secrets.TOLGEE_API_URL }}
+          IMPORT_EXISTING_TRANSLATIONS: ${{ github.event.inputs.import_existing_translations || 'false' }}
+
+      - name: Pull translated strings from Tolgee
+        run: |
+          set -euo pipefail
+          api_url_args=()
+          if [ -n "${TOLGEE_API_URL:-}" ]; then
+            api_url_args=(--api-url "$TOLGEE_API_URL")
+          fi
+
+          tolgee pull \
+            "${api_url_args[@]}" \
+            --api-key "$TOLGEE_API_KEY" \
+            --project-id "$TOLGEE_PROJECT_ID"
+        env:
+          TOLGEE_API_KEY: ${{ secrets.TOLGEE_API_KEY }}
+          TOLGEE_PROJECT_ID: ${{ secrets.TOLGEE_PROJECT_ID }}
+          TOLGEE_API_URL: ${{ vars.TOLGEE_API_URL || secrets.TOLGEE_API_URL }}
+
+      - name: Commit Tolgee updates
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- "*.json"; then
+            echo "No translation file changes to commit."
+            exit 0
+          fi
+
+          git add *.json
+          git commit -m "chore: sync translations from Tolgee"
+          git push origin HEAD:staging
