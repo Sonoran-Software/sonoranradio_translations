@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.tolgee.io/cli-schema.json",
+  "format": "JSON_TOLGEE",
+  "push": {
+    "files": [
+      { "path": "en-us.json", "language": "en-us" }
+    ],
+    "forceMode": "OVERRIDE"
+  },
+  "pull": {
+    "path": ".",
+    "fileStructureTemplate": "{languageTag}.json",
+    "states": ["TRANSLATED", "REVIEWED"]
+  }
+}
