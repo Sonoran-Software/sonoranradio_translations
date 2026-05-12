@@ -3,7 +3,7 @@
   "format": "JSON_TOLGEE",
   "push": {
     "files": [
-      { "path": "en-us.json", "language": "en-us" }
+      { "path": "en-US.json", "language": "en-US" }
     ],
     "forceMode": "OVERRIDE"
   },
