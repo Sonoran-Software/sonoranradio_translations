@@ -62,7 +62,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Validate Tolgee language tags
+      - name: Ensure Tolgee language tags
         run: |
           set -euo pipefail
           node <<'NODE'
@@ -76,25 +76,72 @@ jobs:
           const required = (config.push.files || [])
             .map(file => file.language)
             .filter(Boolean);
+          const languageMetadata = {
+            ar: { name: 'Arabic', originalName: 'العربية', flagEmoji: '🇸🇦' },
+            cs: { name: 'Czech', originalName: 'Čeština', flagEmoji: '🇨🇿' },
+            da: { name: 'Danish', originalName: 'Dansk', flagEmoji: '🇩🇰' },
+            de: { name: 'German', originalName: 'Deutsch', flagEmoji: '🇩🇪' },
+            'en-US': { name: 'English (United States)', originalName: 'English (United States)', flagEmoji: '🇺🇸' },
+            'es-ES': { name: 'Spanish (Spain)', originalName: 'Español (España)', flagEmoji: '🇪🇸' },
+            fi: { name: 'Finnish', originalName: 'Suomi', flagEmoji: '🇫🇮' },
+            fr: { name: 'French', originalName: 'Français', flagEmoji: '🇫🇷' },
+            it: { name: 'Italian', originalName: 'Italiano', flagEmoji: '🇮🇹' },
+            ja: { name: 'Japanese', originalName: '日本語', flagEmoji: '🇯🇵' },
+            ko: { name: 'Korean', originalName: '한국어', flagEmoji: '🇰🇷' },
+            nl: { name: 'Dutch', originalName: 'Nederlands', flagEmoji: '🇳🇱' },
+            no: { name: 'Norwegian', originalName: 'Norsk', flagEmoji: '🇳🇴' },
+            pl: { name: 'Polish', originalName: 'Polski', flagEmoji: '🇵🇱' },
+            pt: { name: 'Portuguese', originalName: 'Português', flagEmoji: '🇵🇹' },
+            ru: { name: 'Russian', originalName: 'Русский', flagEmoji: '🇷🇺' },
+            sv: { name: 'Swedish', originalName: 'Svenska', flagEmoji: '🇸🇪' },
+            tr: { name: 'Turkish', originalName: 'Türkçe', flagEmoji: '🇹🇷' },
+            zh: { name: 'Chinese', originalName: '中文', flagEmoji: '🇨🇳' }
+          };
 
-          const response = await fetch(`${apiUrl}/v2/projects/${process.env.TOLGEE_PROJECT_ID}/languages?size=500`, {
-            headers: { 'X-API-Key': process.env.TOLGEE_API_KEY }
-          });
-          const body = await response.json().catch(() => ({}));
-          if (!response.ok) {
-            throw new Error(`Unable to list Tolgee languages: ${response.status} ${JSON.stringify(body)}`);
-          }
+          const request = async (url, options = {}) => {
+            const response = await fetch(url, {
+              ...options,
+              headers: {
+                'X-API-Key': process.env.TOLGEE_API_KEY,
+                'Content-Type': 'application/json',
+                ...(options.headers || {})
+              }
+            });
+            const text = await response.text();
+            let body;
+            try {
+              body = text ? JSON.parse(text) : null;
+            } catch {
+              body = text;
+            }
+            if (!response.ok) {
+              throw new Error(`${options.method || 'GET'} ${url} failed: ${response.status} ${JSON.stringify(body)}`);
+            }
+            return body;
+          };
 
+          const body = await request(`${apiUrl}/v2/projects/${process.env.TOLGEE_PROJECT_ID}/languages?size=500`);
           const languages = body?._embedded?.languages || body?.content || [];
-          const existing = languages.map(language => language.tag).filter(Boolean).sort();
-          const missing = required.filter(language => !existing.includes(language));
+          const existing = new Set(languages.map(language => language.tag).filter(Boolean));
 
-          console.log(`Tolgee languages: ${existing.join(', ') || '(none)'}`);
+          console.log(`Tolgee languages: ${Array.from(existing).sort().join(', ') || '(none)'}`);
           console.log(`Required by ${configPath}: ${required.join(', ')}`);
 
-          if (missing.length) {
-            throw new Error(`Missing Tolgee language tags: ${missing.join(', ')}`);
+          for (const tag of required) {
+            if (existing.has(tag)) {
+              continue;
+            }
+
+            const metadata = languageMetadata[tag] || { name: tag, originalName: tag, flagEmoji: '🏳️' };
+            console.log(`Creating Tolgee language: ${tag}`);
+            await request(`${apiUrl}/v2/projects/${process.env.TOLGEE_PROJECT_ID}/languages`, {
+              method: 'POST',
+              body: JSON.stringify({ tag, ...metadata })
+            });
+            existing.add(tag);
           }
+
+          console.log(`Tolgee languages after sync: ${Array.from(existing).sort().join(', ')}`);
           NODE
         env:
           TOLGEE_API_KEY: ${{ secrets.TOLGEE_API_KEY }}
