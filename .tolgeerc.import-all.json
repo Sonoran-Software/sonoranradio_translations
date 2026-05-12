@@ -2,7 +2,28 @@
   "$schema": "https://docs.tolgee.io/cli-schema.json",
   "format": "JSON_TOLGEE",
   "push": {
-    "filesTemplate": "{languageTag}.json",
+    "files": [
+      { "path": "ar.json", "language": "ar" },
+      { "path": "cs.json", "language": "cs" },
+      { "path": "da.json", "language": "da" },
+      { "path": "de.json", "language": "de" },
+      { "path": "en-us.json", "language": "en-us" },
+      { "path": "es-es.json", "language": "es-es" },
+      { "path": "fi.json", "language": "fi" },
+      { "path": "fr.json", "language": "fr" },
+      { "path": "it.json", "language": "it" },
+      { "path": "ja.json", "language": "ja" },
+      { "path": "ko.json", "language": "ko" },
+      { "path": "nl.json", "language": "nl" },
+      { "path": "no.json", "language": "no" },
+      { "path": "pl.json", "language": "pl" },
+      { "path": "po.json", "language": "po" },
+      { "path": "pt.json", "language": "pt" },
+      { "path": "ru.json", "language": "ru" },
+      { "path": "sv.json", "language": "sv" },
+      { "path": "tr.json", "language": "tr" },
+      { "path": "zh.json", "language": "zh" }
+    ],
     "forceMode": "OVERRIDE"
   },
   "pull": {
