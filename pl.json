@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Wyczyść skrót",
     "noKeySet": "Nie ustawiono klawisza",
-    "pressAKey": "Naciśnij klawisz"
+    "pressAKey": "Naciśnij klawisz",
+    "toggleDesktopRadio": "Przełącz radio na pulpit"
   },
   "iconPicker": {
     "colorLabel": "Kolor",
@@ -379,7 +380,7 @@
       "setDisplayName": "Ustaw wyświetlaną nazwę",
       "subOwner": "Posiadacz Subskrypcji",
       "subtitle": "Zarządzaj uprawnieniami użytkowników i dostępem w swojej społeczności.",
-      "title": "Członkowie Społeczności",
+      "title": "Członkowie społeczności",
       "traits": "Cechy",
       "username": "Nazwa użytkownika"
     },
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "To uprawnienie pozwala na odtworzenie dźwięku na radiu innego użytkownika, aby go zwrócić do uwagi",
-          "name": "Uwaga Radia"
+          "name": "Uwagi radiowe"
         },
         "menu::radio_lock": {
           "desc": "To uprawnienie pozwala na zatrzymanie transmisji kogoś, kto już nadaje",
@@ -587,7 +588,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Dowiedz się więcej o tym, jak Sonoran Radio może zrewolucjonizować twoją rolę!",
+    "learnMoreAboutRadio": "Dowiedz się więcej o tym, jak Sonoran Radio może zrewolucjonizować twoją grę fabularną!",
     "welcome": "Witamy",
     "welcomeTo": "Witamy w Sonoran Radio!"
   },

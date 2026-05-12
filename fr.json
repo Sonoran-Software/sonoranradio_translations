@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Effacer le raccourci",
     "noKeySet": "Aucune touche définie",
-    "pressAKey": "Appuyez sur une touche"
+    "pressAKey": "Appuyez sur une touche",
+    "toggleDesktopRadio": "Basculer la radio du bureau"
   },
   "iconPicker": {
     "colorLabel": "Couleur",

@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "ホットキーをクリア",
     "noKeySet": "キーが設定されていません",
-    "pressAKey": "キーを押してください"
+    "pressAKey": "キーを押してください",
+    "toggleDesktopRadio": "デスクトップラジオを切り替え"
   },
   "iconPicker": {
     "colorLabel": "色",
@@ -317,7 +318,7 @@
       "vanityTitle": "無料の虚栄URL",
       "verified": "おめでとうございます、カスタムドメインが確認されました！",
       "verifyButton": "カスタムドメインを確認",
-      "verifyTitle": "ドメインを確認する"
+      "verifyTitle": "ドメインを確認"
     },
     "customizeMenu": {
       "ai": "AI",
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "この権限は他のユーザーのラジオにサウンドを再生してその注意を引く能力を与えます",
-          "name": "ラジオ注意喚起"
+          "name": "ラジオ注意"
         },
         "menu::radio_lock": {
           "desc": "この権限はすでに送信中の他の人の送信を停止する能力を与えます",
@@ -587,7 +588,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Sonoran Radio があなたのロールプレイを革命化する方法について詳しく知りたいですか！",
+    "learnMoreAboutRadio": "Sonoran Radio があなたのロールプレイをどう革新できるか、詳しく知る!",
     "welcome": "ようこそ",
     "welcomeTo": "Sonoran Radioへようこそ！"
   },

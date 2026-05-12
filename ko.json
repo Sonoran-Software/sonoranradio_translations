@@ -105,7 +105,8 @@
   "hotkeys": {
     "clearHotkey": "단축키 지우기",
     "noKeySet": "설정된 키 없음",
-    "pressAKey": "키를 누르세요"
+    "pressAKey": "키를 누르세요",
+    "toggleDesktopRadio": "데스크톱 라디오 전환"
   },
   "iconPicker": {
     "colorLabel": "색상",
@@ -227,6 +228,9 @@
   },
   "manageServer": {
     "adminTab": "관리자",
+    "customDomain": {
+      "verifyTitle": "도메인 확인"
+    },
     "customizeMenu": {
       "channelsGroups": "채널 & 그룹",
       "info": "정보",
@@ -240,13 +244,23 @@
     "dispatchTab": "디스패치",
     "guidesLink": "Sonoran Radio 정보 & 가이드",
     "membersTab": "회원",
+    "members": {
+      "title": "커뮤니티 멤버"
+    },
+    "perms": {
+      "types": {
+        "menu::radio_attn": {
+          "name": "라디오 주의"
+        }
+      }
+    },
     "saveServer": "서버 저장",
     "toPortal": "포털로 돌아가기",
     "transferServer": "커뮤니티 이전",
     "unauthorizeServer": "서버 인증 해제"
   },
   "misc": {
-    "learnMoreAboutRadio": "Sonoran Radio가 어떻게 여러분의 역할놀이를 혁신할 수 있는지 더 알아보세요!",
+    "learnMoreAboutRadio": "Sonoran Radio가 어떻게 당신의 롤플레이를 혁신할 수 있는지 더 알아보세요!",
     "welcome": "환영합니다",
     "welcomeTo": "Sonoran 라디오에 오신 것을 환영합니다!"
   },

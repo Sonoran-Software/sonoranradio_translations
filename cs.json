@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Vyčistit klávesovou zkratku",
     "noKeySet": "Klávesa není nastavena",
-    "pressAKey": "Stiskněte klávesu"
+    "pressAKey": "Stiskněte klávesu",
+    "toggleDesktopRadio": "Přepnout desktopové rádio"
   },
   "iconPicker": {
     "colorLabel": "Barva",
@@ -379,7 +380,7 @@
       "setDisplayName": "Nastavit zobrazovaný název",
       "subOwner": "Držitel Předplatného",
       "subtitle": "Spravujte uživatelská oprávnění a přístup ve vaší komunitě.",
-      "title": "Členové Komunity",
+      "title": "Komunitní členové",
       "traits": "Vlastnosti",
       "username": "Uživatelské jméno"
     },
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "Toto oprávnění vám uděluje schopnost přehrát zvuk na rádiu jiného uživatele, abyste přitáhli jeho pozornost",
-          "name": "Rádiová Pozornost"
+          "name": "Rozhlasová pozornost"
         },
         "menu::radio_lock": {
           "desc": "Toto oprávnění vám umožňuje zastavit přenos jiného člověka, pokud již vysílá",
@@ -529,6 +530,13 @@
     "saveServer": "Uložit Server",
     "serverInfo": {
       "addServer": "Přidat server",
+      "cadPrompts": {
+        "tools": {
+          "getRecentCadEvents": {
+            "hint": "Příklady: \"jaký je nejnovější hovor\", \"nedávný panický stav\", \"ten hovor\""
+          }
+        }
+      },
       "columns": {
         "actions": "Akce",
         "id": "ID",
@@ -587,7 +595,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Zjistěte více o tom, jak může Sonoran Radio revolučně proměnit váš roleplay!",
+    "learnMoreAboutRadio": "Zjistěte více o tom, jak může Sonoran Radio převrátit vaše roleplay naruby!",
     "welcome": "Vítejte",
     "welcomeTo": "Vítejte u Sonoran Radio!"
   },

@@ -379,7 +379,7 @@
       "setDisplayName": "Ställ in visningsnamn",
       "subOwner": "Prenumerationsinnehavare",
       "subtitle": "Hantera användarbehörigheter och åtkomst i your community.",
-      "title": "Community-medlemmar",
+      "title": "Gemenskapsmedlemmar",
       "traits": "Egenskaper",
       "username": "Användarnamn"
     },
@@ -461,7 +461,7 @@
         },
         "menu::radio_attn": {
           "desc": "Denna behörighet ger dig möjlighet att spela ett ljud på en annan användares radio för att få deras uppmärksamhet",
-          "name": "Radio Uppmärksamhet"
+          "name": "Radiouppmärksamhet"
         },
         "menu::radio_lock": {
           "desc": "Denna behörighet låter dig stoppa en annan persons överföring om de redan sänder",
@@ -587,7 +587,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Lär dig mer om hur Sonoran Radio kan revolutionera din roleplay!",
+    "learnMoreAboutRadio": "Lär dig mer om hur Sonoran Radio kan revolutionera din rollspelupplevelse!",
     "welcome": "Välkommen",
     "welcomeTo": "Välkommen till Sonoran Radio!"
   },

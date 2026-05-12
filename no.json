@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Tøm hurtigtast",
     "noKeySet": "Ingen tast satt",
-    "pressAKey": "Trykk en tast"
+    "pressAKey": "Trykk en tast",
+    "toggleDesktopRadio": "Veksle skrivebordsradio"
   },
   "iconPicker": {
     "colorLabel": "Farge",
@@ -317,7 +318,7 @@
       "vanityTitle": "Gratis Forfengelig URL",
       "verified": "Gratulerer, ditt egendefinerte domene er bekreftet!",
       "verifyButton": "Bekreft Egendefinert Domene",
-      "verifyTitle": "Bekreft ditt domene"
+      "verifyTitle": "Bekreft domenet ditt"
     },
     "customizeMenu": {
       "ai": "AI",
@@ -379,7 +380,7 @@
       "setDisplayName": "Angi Visningsnavn",
       "subOwner": "Abonnementsholder",
       "subtitle": "Administrer brukertillatelser og tilgang i fellesskapet ditt.",
-      "title": "Fellesskapsmedlemmer",
+      "title": "Samfunnsmedlemmer",
       "traits": "Egenskaper",
       "username": "Brukernavn"
     },
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "Denne tillatelsen gir deg muligheten til å spille av en lyd på en annens radio for å fange deres oppmerksomhet",
-          "name": "Radio Oppmerksomhet"
+          "name": "Radiooppmerksomhet"
         },
         "menu::radio_lock": {
           "desc": "Denne tillatelsen lar deg stanse en annen persons sending hvis de allerede sender",
@@ -587,7 +588,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Lær mer om hvordan Sonoran Radio kan revolusjonere din rollespillopplevelse!",
+    "learnMoreAboutRadio": "Lær mer om hvordan Sonoran Radio kan revolusjonere rollespillet ditt!",
     "welcome": "Velkommen",
     "welcomeTo": "Velkommen til Sonoran Radio!"
   },

@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "مسح مفتاح الاختصار",
     "noKeySet": "لم يتم تعيين مفتاح",
-    "pressAKey": "اضغط على مفتاح"
+    "pressAKey": "اضغط على مفتاح",
+    "toggleDesktopRadio": "تبديل راديو سطح المكتب"
   },
   "iconPicker": {
     "colorLabel": "لون",
@@ -317,7 +318,7 @@
       "vanityTitle": "رابط URL الفاني المجاني",
       "verified": "مبروك، تم التحقق من النطاق المخصص الخاص بك!",
       "verifyButton": "تحقق من النطاق المخصص",
-      "verifyTitle": "تحقق من النطاق الخاص بك"
+      "verifyTitle": "تحقق من نطاقك"
     },
     "customizeMenu": {
       "ai": "الذكاء الاصطناعي",
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "يمنح هذا الإذن القدرة على تشغيل صوت على راديو شخص آخر لجذب انتباهه",
-          "name": "جذب انتباه الراديو"
+          "name": "انتباه الراديو"
         },
         "menu::radio_lock": {
           "desc": "تمنح هذا الإذن القدرة على إيقاف بث شخص آخر إذا كانوا بالفعل يبثون",
@@ -529,6 +530,13 @@
     "saveServer": "حفظ الخادم",
     "serverInfo": {
       "addServer": "إضافة خادم",
+      "cadPrompts": {
+        "tools": {
+          "getRecentCadEvents": {
+            "hint": "أمثلة: \"ما آخر مكالمة\"، \"حالة ذعر حديثة\"، \"تلك المكالمة\""
+          }
+        }
+      },
       "columns": {
         "actions": "إجراءات",
         "id": "معرف",
@@ -587,7 +595,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "تعرف على المزيد حول كيف يمكن أن يُحدث Sonoran Radio ثورة في اللعب الخاص بك!",
+    "learnMoreAboutRadio": "تعرف على المزيد حول كيفية تمكّن Sonoran Radio من إحداث ثورة في لعب الأدوار الخاص بك!",
     "welcome": "مرحبًا",
     "welcomeTo": "مرحبًا بكم في Sonoran Radio!"
   },

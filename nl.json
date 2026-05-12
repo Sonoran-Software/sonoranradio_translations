@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Verwijder sneltoets",
     "noKeySet": "Geen toets ingesteld",
-    "pressAKey": "Druk op een toets"
+    "pressAKey": "Druk op een toets",
+    "toggleDesktopRadio": "Desktopradio schakelen"
   },
   "iconPicker": {
     "colorLabel": "Kleur",
@@ -379,7 +380,7 @@
       "setDisplayName": "Stel Weergavenaam in",
       "subOwner": "Abonnementhouder",
       "subtitle": "Beheer gebruikerspermissies en toegang in je community.",
-      "title": "Gemeenschapsleden",
+      "title": "Communityleden",
       "traits": "Eigenschappen",
       "username": "Gebruikersnaam"
     },
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "Deze permissie geeft je de mogelijkheid om een geluid op de radio van een andere gebruiker te spelen om hun aandacht te trekken",
-          "name": "Radio Aandacht"
+          "name": "Radio-aandacht"
         },
         "menu::radio_lock": {
           "desc": "Deze permissie geeft je de mogelijkheid om de uitzending van een andere persoon te stoppen als deze al aan het uitzenden zijn",
@@ -529,6 +530,13 @@
     "saveServer": "Server Opslaan",
     "serverInfo": {
       "addServer": "Server Toevoegen",
+      "cadPrompts": {
+        "tools": {
+          "getRecentCadEvents": {
+            "hint": "Voorbeelden: \"wat is het laatste gesprek\", \"recente paniek\", \"dat gesprek\""
+          }
+        }
+      },
       "columns": {
         "actions": "Acties",
         "id": "ID",
@@ -587,7 +595,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Leer meer over hoe Sonoran Radio je rollenspel kan revolutioneren!",
+    "learnMoreAboutRadio": "Lees meer over hoe Sonoran Radio je roleplay kan revolutioneren!",
     "welcome": "Welkom",
     "welcomeTo": "Welkom bij Sonoran Radio!"
   },

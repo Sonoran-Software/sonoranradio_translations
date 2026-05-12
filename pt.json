@@ -379,7 +379,7 @@
       "setDisplayName": "Definir Nome de Exibição",
       "subOwner": "Titular da Assinatura",
       "subtitle": "Gerencie permissões de usuários e acesso na sua comunidade.",
-      "title": "Membros da Comunidade",
+      "title": "Membros da comunidade",
       "traits": "Traços",
       "username": "Nome de Usuário"
     },
@@ -461,7 +461,7 @@
         },
         "menu::radio_attn": {
           "desc": "Estas permissões concedem a habilidade de tocar um som no rádio de outro usuário para chamar sua atenção",
-          "name": "Atenção ao Rádio"
+          "name": "Atenção por rádio"
         },
         "menu::radio_lock": {
           "desc": "Estas permissões permitem que você interrompa a transmissão de outra pessoa se ela já estiver transmitindo",
@@ -587,7 +587,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Saiba mais sobre como o Sonoran Radio pode revolucionar seu roleplay!",
+    "learnMoreAboutRadio": "Saiba mais sobre como o Sonoran Radio pode revolucionar sua interpretação de papéis!",
     "welcome": "Bem-vindo",
     "welcomeTo": "Bem-vindo ao Sonoran Radio!"
   },

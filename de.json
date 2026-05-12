@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Hotkey löschen",
     "noKeySet": "Keine Taste gesetzt",
-    "pressAKey": "Drücken Sie eine Taste"
+    "pressAKey": "Drücken Sie eine Taste",
+    "toggleDesktopRadio": "Desktop-Radio umschalten"
   },
   "iconPicker": {
     "colorLabel": "Farbe",
@@ -317,7 +318,7 @@
       "vanityTitle": "Kostenlose Vanity-URL",
       "verified": "Glückwunsch, Ihre benutzerdefinierte Domain ist verifiziert!",
       "verifyButton": "Benutzerdefinierte Domain überprüfen",
-      "verifyTitle": "Bestätigen Sie Ihre Domain"
+      "verifyTitle": "Ihre Domain überprüfen"
     },
     "customizeMenu": {
       "ai": "KI",
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "Diese Berechtigung gewährt Ihnen die Fähigkeit, einen Ton auf dem Funkgerät eines anderen Benutzers abzuspielen, um seine Aufmerksamkeit zu erregen",
-          "name": "Funk Aufmerksamkeit"
+          "name": "Radio-Aufmerksamkeit"
         },
         "menu::radio_lock": {
           "desc": "Diese Berechtigung erlaubt es Ihnen, die Übertragung einer anderen Person anzuhalten, wenn sie bereits sendet",
@@ -587,7 +588,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Erfahren Sie mehr darüber, wie Sonoran Radio Ihr Rollenspiel revolutionieren kann!",
+    "learnMoreAboutRadio": "Erfahre mehr darüber, wie Sonoran Radio dein Rollenspiel revolutionieren kann!",
     "welcome": "Willkommen",
     "welcomeTo": "Willkommen bei Sonoran Radio!"
   },

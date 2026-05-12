@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Cancella Tasto Rapido",
     "noKeySet": "Nessun tasto impostato",
-    "pressAKey": "Premi un tasto"
+    "pressAKey": "Premi un tasto",
+    "toggleDesktopRadio": "Attiva/disattiva radio desktop"
   },
   "iconPicker": {
     "colorLabel": "Colore",
@@ -379,7 +380,7 @@
       "setDisplayName": "Imposta nome visualizzato",
       "subOwner": "Titolare Abbonamento",
       "subtitle": "Gestisci i permessi e accessi utente nella tua comunità.",
-      "title": "Membri della Comunità",
+      "title": "Membri della comunità",
       "traits": "Tratti",
       "username": "Nome utente"
     },
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "Questo permesso ti concede la possibilità di riprodurre un suono su una radio di un altro utente per attirare la sua attenzione",
-          "name": "Attenzione Radio"
+          "name": "Attenzione radio"
         },
         "menu::radio_lock": {
           "desc": "Questo permesso ti permette di fermare la trasmissione di un'altra persona se stanno già trasmettendo",
@@ -587,7 +588,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Scopri di più su come Sonoran Radio può rivoluzionare il tuo gioco di ruolo!",
+    "learnMoreAboutRadio": "Scopri di più su come Sonoran Radio può rivoluzionare il tuo roleplay!",
     "welcome": "Benvenuto",
     "welcomeTo": "Benvenuto in Sonoran Radio!"
   },

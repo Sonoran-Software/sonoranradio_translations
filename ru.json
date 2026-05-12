@@ -1,1 +1,20 @@
-{}
+{
+  "manageServer": {
+    "customDomain": {
+      "verifyTitle": "Подтвердите свой домен"
+    },
+    "members": {
+      "title": "Участники сообщества"
+    },
+    "perms": {
+      "types": {
+        "menu::radio_attn": {
+          "name": "Радио-обслуживание"
+        }
+      }
+    }
+  },
+  "misc": {
+    "learnMoreAboutRadio": "Узнайте больше о том, как Sonoran Radio может революционизировать вашу ролевую игру!"
+  }
+}

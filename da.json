@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Ryd genvej",
     "noKeySet": "Ingen tast indstillet",
-    "pressAKey": "Tryk på en tast"
+    "pressAKey": "Tryk på en tast",
+    "toggleDesktopRadio": "Skift skrivebordsradio"
   },
   "iconPicker": {
     "colorLabel": "Farve",
@@ -379,7 +380,7 @@
       "setDisplayName": "Indstil Vist Navn",
       "subOwner": "Abonnements Indehaver",
       "subtitle": "Administrer bruger tilladelser og adgang i din community.",
-      "title": "Community Medlemmer",
+      "title": "Fællesskabsmedlemmer",
       "traits": "Egenskaber",
       "username": "Brugernavn"
     },
@@ -461,7 +462,7 @@
         },
         "menu::radio_attn": {
           "desc": "Denne tilladelse giver dig mulighed for at afspille en lyd på en anden brugers radio for at fange deres opmærksomhed",
-          "name": "Radio Opmærksomhed"
+          "name": "Radioopmærksomhed"
         },
         "menu::radio_lock": {
           "desc": "Denne tilladelse giver dig mulighed for at stoppe en andens transmission, hvis de allerede sender",
@@ -529,6 +530,13 @@
     "saveServer": "Gem Server",
     "serverInfo": {
       "addServer": "Tilføj Server",
+      "cadPrompts": {
+        "tools": {
+          "getRecentCadEvents": {
+            "hint": "Eksempler: \"hvad er det seneste opkald\", \"sen panik\", \"det opkald\""
+          }
+        }
+      },
       "columns": {
         "actions": "Handlinger",
         "id": "ID",
@@ -587,7 +595,7 @@
     }
   },
   "misc": {
-    "learnMoreAboutRadio": "Lær mere om, hvordan Sonoran Radio kan revolutionere din rollespil!",
+    "learnMoreAboutRadio": "Lær mere om, hvordan Sonoran Radio kan revolutionere dit rollespil!",
     "welcome": "Velkommen",
     "welcomeTo": "Velkommen til Sonoran Radio!"
   },
