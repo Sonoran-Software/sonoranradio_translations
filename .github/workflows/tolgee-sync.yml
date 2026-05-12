@@ -147,7 +147,7 @@ jobs:
           TOLGEE_API_KEY: ${{ secrets.TOLGEE_API_KEY }}
           TOLGEE_PROJECT_ID: ${{ secrets.TOLGEE_PROJECT_ID }}
           TOLGEE_API_URL: ${{ vars.TOLGEE_API_URL || secrets.TOLGEE_API_URL }}
-          IMPORT_EXISTING_TRANSLATIONS: ${{ github.event.inputs.import_existing_translations || 'false' }}
+          IMPORT_EXISTING_TRANSLATIONS: ${{ inputs.import_existing_translations || 'false' }}
 
       - name: Push source strings to Tolgee
         run: |
@@ -156,6 +156,7 @@ jobs:
           if [ -n "${TOLGEE_API_URL:-}" ]; then
             api_url_args=(--api-url "$TOLGEE_API_URL")
           fi
+          echo "Import existing translations: ${IMPORT_EXISTING_TRANSLATIONS:-false}"
           config_args=()
           if [ "${IMPORT_EXISTING_TRANSLATIONS:-false}" = "true" ]; then
             config_args=(--config .tolgeerc.import-all.json)
@@ -173,7 +174,7 @@ jobs:
           TOLGEE_API_KEY: ${{ secrets.TOLGEE_API_KEY }}
           TOLGEE_PROJECT_ID: ${{ secrets.TOLGEE_PROJECT_ID }}
           TOLGEE_API_URL: ${{ vars.TOLGEE_API_URL || secrets.TOLGEE_API_URL }}
-          IMPORT_EXISTING_TRANSLATIONS: ${{ github.event.inputs.import_existing_translations || 'false' }}
+          IMPORT_EXISTING_TRANSLATIONS: ${{ inputs.import_existing_translations || 'false' }}
 
       - name: Pull translated strings from Tolgee
         run: |
