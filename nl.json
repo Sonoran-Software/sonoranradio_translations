@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "Er heeft zich een onverwachte fout voorgedaan bij het verlaten van de community.",
-    "leaveMsg": "Weet je zeker dat je deze Sonoran Radio Community wilt verlaten?",
+    "leaveMsg": "Weet je zeker dat je deze Sonoran Radio-community wilt verlaten?",
     "subtitle": "Voordat je Sonoran Radio kunt gebruiken voor {serverName}, moet je worden goedgekeurd door de servereigenaar of communitybeheerder. Wacht aub op goedkeuring.",
     "subtitleShort": "Voordat je Sonoran Radio in deze community kunt gebruiken, moet je worden goedgekeurd door de communitymedewerkers.",
     "title": "Je wacht op Goedkeuring"
@@ -42,7 +42,7 @@
       "possibleDataLoss": "Bij overdracht of verwijdering van je abonnement kan gegevensverlies op de vorige server optreden.",
       "remove": "Weet je zeker dat je deze server van je abonnement wilt verwijderen?",
       "set": "Weet je zeker dat je deze server voor je abonnement wilt instellen?",
-      "title": "Abonnement Wijzigen",
+      "title": "Wijzig Abonnement",
       "transfer": "Weet je zeker dat je dit abonnement naar een andere server wilt overdragen?"
     },
     "errCheck": "Er heeft zich een onverwachte fout voorgedaan tijdens het controleren van je abonnement",
@@ -99,7 +99,7 @@
     "menu": "Menu",
     "miscServer": "Server {id}",
     "needsInteger": "Moet een geheel getal zijn",
-    "notApplicable": "N.V.T.",
+    "notApplicable": "n.v.t.",
     "only": "{0} Alleen",
     "password": "Wachtwoord",
     "plans": {
@@ -122,10 +122,10 @@
     "username": "Gebruikersnaam"
   },
   "config": {
-    "displayName": "Nederlands (NL)"
+    "displayName": "Engels (VS)"
   },
   "error404": {
-    "goHome": "Ga naar Start",
+    "goHome": "Ga naar start",
     "message": "Oeps. Niets hier..."
   },
   "errors": {
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Ga naar {link} in je browser om in te loggen",
-    "loginWithCode": "Inloggen met Code",
+    "loginWithCode": "Inloggen met code",
     "refresh": "Vernieuwen",
     "unlink": "Ontkoppelen"
   },
@@ -194,7 +194,7 @@
       "title": "Big-Daddy Radio-animaties"
     },
     "Cloud_Configurations": {
-      "desc": "Je radio aanpassen is nog nooit zo eenvoudig geweest, met live updates vanuit ons gebruiksvriendelijke configuratiepaneel.",
+      "desc": "Je radio aanpassen was nog nooit zo eenvoudig, met live updates vanuit ons gebruiksvriendelijke configuratiepaneel.",
       "title": "Cloudconfiguraties"
     },
     "Customizable_SFX": {
@@ -290,13 +290,14 @@
       "apiInfoHint": "Geef dit aan je leden bij het uitnodigen tot de community",
       "apiInfoTitle": "API Info",
       "communityApiKeyField": "Gemeenschap API-sleutel",
+      "logType": "Type",
       "updateApiKey": "API-sleutel bijwerken"
     },
     "adminTab": "Administratie",
     "ai": {
       "addKey": "AI-sleutel toevoegen",
       "services": {
-        "0": "Transmission Log STT",
+        "0": "Transmissielog STT",
         "1": "Toonpaneel STT"
       },
       "title": "AI API-sleutels"
@@ -320,6 +321,11 @@
       "verifyButton": "Verifieer Aangepast Domein",
       "verifyTitle": "Verifieer je domein"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "om componenten te verplaatsen"
+      }
+    },
     "customizeMenu": {
       "ai": "AI",
       "channelsGroups": "Kanalen & Groepen",
@@ -339,6 +345,10 @@
     "deleteServer": "Community Verwijderen",
     "deleteSuccess": "Je server is succesvol verwijderd",
     "dispatchTab": "Dispatch",
+    "emergency911": {
+      "title": "Noodoproep",
+      "waitingDispatcher": "Wachten tot een centralist antwoordt..."
+    },
     "errImport": "Er heeft zich een onverwachte fout voorgedaan bij het importeren van je SAPR-config.",
     "errImportNotFound": "Er is geen SAPR-configuratie gevonden voor je TeamSpeak UID.",
     "errSaveInfo": "Er heeft zich een onverwachte fout voorgedaan bij het opslaan van je serverinfo.",
@@ -346,6 +356,13 @@
     "errUidTaken": "De TeamSpeak server UID is al in gebruik door een andere geautoriseerde server.",
     "errUnauthorize": "Er heeft zich een onverwachte fout voorgedaan bij het de-autoriseren van je server.",
     "explainOwnerOnly": "Alleen de eigenaar kan deze instelling wijzigen",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Kaartgrenzen (pixels)",
+        "uploadSuccess": "{count} tegelafbeeldingen succesvol geüpload."
+      },
+      "degradeZones": "Zones degraderen"
+    },
     "guidesLink": "Sonoran Radio Informatie & Gidsen",
     "importSAPR": {
       "btn": "Importeer SAPR Configuratie",
@@ -376,10 +393,10 @@
       "removeWarnSelfMsg": "Weet je zeker dat je jezelf van deze server wilt verwijderen? Je zult de toegang verliezen en de servereigenaar zal je terug moeten toevoegen.",
       "removeWarnSubHolderMsg": "Als u de abonnementhouder verwijdert, wordt deze server verlaagd naar gratis! Weet je zeker dat je wilt doorgaan?",
       "search": "Zoeken",
-      "selectPrivateChannels": "Selecteer de privékanalen waar de gebruiker toegang tot heeft",
+      "selectPrivateChannels": "Selecteer de privékanalen die de gebruiker mag betreden",
       "setDisplayName": "Stel Weergavenaam in",
       "subOwner": "Abonnementhouder",
-      "subtitle": "Beheer gebruikerspermissies en toegang in je community.",
+      "subtitle": "Beheer gebruikersrechten en toegang in je community.",
       "title": "Communityleden",
       "traits": "Eigenschappen",
       "username": "Gebruikersnaam"
@@ -489,7 +506,7 @@
       "dialogSubtitle": "Een profiel is een vooraf ingestelde frequentie-instelling om voor een gemakkelijke overgang tussen specifieke frequenties te zorgen zonder dat je elke frequentie handmatig hoeft in te typen. Hier stel je de Weergavenaam (optioneel), Ontvanger Frequentie (verplicht), Zendfrequentie (optioneel) en of de Zendfrequentie zal herhalen in.",
       "displayName": "Weergavenaam",
       "displayNameInput": "Weergavenaam - Vereist",
-      "editGroup": "Groep Bewerken",
+      "editGroup": "Groep bewerken",
       "errDelete": "Er heeft zich een onverwachte fout voorgedaan bij het verwijderen van het profiel.",
       "errReenable": "Er heeft zich een onverwachte fout voorgedaan bij het herinschakelen van het profiel.",
       "errSave": "Er heeft zich een onverwachte fout voorgedaan bij het opslaan van het profiel.",
@@ -504,7 +521,7 @@
       "recvFreq": "Ontvang Frequentie",
       "recvFreqTooltip": "Frequentie om uitzendingen op te ontvangen. Dit is alleen voor esthetiek in de radio-UI.",
       "reorder": "Herorder Profielen",
-      "reorderStandalone": "Herorder Kanalen",
+      "reorderStandalone": "Kanalen herschikken",
       "repeatsXmit": "Herhaalt Zendfrequentie",
       "setAsDefault": "Stel als Standaardprofiel in",
       "sharedTooltip": "Gedeelde kanalen spiegelen de toegang en frequenties van een ander gekoppeld kanaal. Verbinden met één van de twee geeft toegang tot dezelfde communicatiestroom.",
@@ -531,6 +548,7 @@
     "serverInfo": {
       "addServer": "Server Toevoegen",
       "cadPrompts": {
+        "subtitle": "Aangepaste zinnen om Dispatch AI te helpen verzoeken aan CAD-/radiofuncties te koppelen.",
         "tools": {
           "getRecentCadEvents": {
             "hint": "Voorbeelden: \"wat is het laatste gesprek\", \"recente paniek\", \"dat gesprek\""
@@ -544,7 +562,7 @@
         "origin": "IP/Oorsprong",
         "pushUrl": "Push-URL"
       },
-      "communityServers": "Community Servers",
+      "communityServers": "Communityservers",
       "communityServersSubtitle": "Servers toevoegen of verwijderen om je radiocommunicatie te scheiden",
       "customCommunityIdHint": "Stel je aangepaste Community-ID in, wat voor de vanity-URL, de FiveM-bron, en het deelnemen aan de community is"
     },
@@ -558,7 +576,7 @@
       "keyUpDelay": "Uitzendvertraging",
       "keyUpDelayDesc": "Vertraging na het beëindigen van een transmissie voordat de microfoon wordt losgelaten.",
       "muteScannedWhileTransmitting": "Gedempte Scan tijdens Uitzenden",
-      "muteScannedWhileTransmittingDesc": "Dempt gescande kanalen tijdens het uitzenden op een kanaal.",
+      "muteScannedWhileTransmittingDesc": "Gedempte gescande kanalen tijdens uitzenden op een kanaal.",
       "sirenVolume": "Siren Volume",
       "sirenVolumeDesc": "Wanneer een in-game sirene is geactiveerd, toevoegen/verminderen aan het volume.",
       "subtitle": "Configureer de standaardinstellingen voor je community. Gebruikers kunnen hun eigen voorkeuren personaliseren, maar deze zullen dienen als de startvoorkeuren.",
@@ -572,7 +590,7 @@
     "transfer": {
       "cancel": "Annuleren",
       "confirmInstruction": "Typ {code} om de overdracht te bevestigen (hoofdlettergevoelig)",
-      "confirmLabel": "Bevestig Overdracht",
+      "confirmLabel": "Overdracht bevestigen",
       "ok": "Ok",
       "requestCreatedMsg": "De overdracht is nog niet voltooid! Er is een e-mail naar je verzonden voor extra verificatie",
       "requestCreatedTitle": "Overdrachtsverzoek Gemaakt",
@@ -624,12 +642,12 @@
     "description": "Sonoran Radio's betaalde abonnementen geven je toegang tot geavanceerde functies, aanpassingen, verhoogde limieten, en meer!",
     "dispatchPanel": "Dispatch Paneel",
     "dispatchPanelDescription": "Het TeamSpeak dialoog waarmee je de instellingen van je radio of de radio's van anderen kunt wijzigen.",
-    "fivemRadio": "FiveM Handheld Radio",
+    "fivemRadio": "FiveM Handradio",
     "fivemRadioDescription": "De FiveM handheld radio laat je je frequenties, scanlijst, en andere radio-instellingen veranderen",
     "fivemTowerDestruction": "FiveM Toren Vernietiging",
     "fivemTowerDestructionDescription": "De (optionele) mogelijkheid voor spelers om fysieke torens te vernietigen om radiosignalen te verstoren.",
     "fivemTowers": "FiveM Fysieke Torens",
-    "fivemTowersDescription": "Torens simuleren ontvangst van een fysieke toren, gebaseerd op je afstand. Locaties en bereiken zijn aanpasbaar.",
+    "fivemTowersDescription": "Towers simuleren ontvangst naar een fysieke toren, gebaseerd op je afstand. Locaties en bereiken zijn aanpasbaar.",
     "howToPurchase": "Hoe te Kopen",
     "monthCostDescription": "De kosten van ons maandelijkse abonnements pakket.",
     "onlyOnStatewide": "Alleen toegestaan op landelijke frequenties.",
@@ -670,12 +688,13 @@
     "multiXmit": "CTRL + Klik Multi-UITZENDEN",
     "muteScan": "Dempen {0}",
     "openInNewWindow": "Open in Nieuw Venster",
-    "openUserList": "Open User List",
+    "openUserList": "Gebruikerslijst-overlay openen",
     "recvFreq": "ONTV: {0}MHz",
     "scanList": "Scanlijst",
     "selectServer": "Selecteer Server",
     "setHotkeyFor": "Stel Sneltoets in voor {0}",
     "settingsDialog": {
+      "advanced": "Geavanceerd",
       "audioTab": "Audio",
       "automaticGainControlDisabled": "Automatische volumeregeling uitgeschakeld",
       "automaticGainControlEnabled": "Automatische volumeregeling ingeschakeld",
@@ -689,7 +708,7 @@
       "escapeModeXmit": "UITZENDEN (PTT)",
       "escapeModeXmitTooltip": "De radio sluit zich op ESC, maar is zichtbaar tijdens uitzenden",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Gehoord Transmissie Overzenden",
+      "hearScannedWhileXmit": "Scan horen tijdens uitzenden",
       "hotkeysTab": "Sneltoetsen",
       "keydownSfx": "Keydown SFX",
       "keyupSfx": "Keyup SFX",
@@ -699,7 +718,7 @@
       "myPttSfx": "Mijn PTT SFX",
       "othersPttSfx": "Andere's PTT SFX",
       "pttOffDelay": "PTT-uitschakelvertraging",
-      "resetPeerVolumes": "Peervolumes Resetten",
+      "resetPeerVolumes": "Peer-volumes resetten",
       "resetSettings": "Instellingen Resetten",
       "selectRadioFrame": "Radio Frame",
       "sfxTab": "SFX",
@@ -744,7 +763,7 @@
     "errExists": "De opgegeven TeamSpeak Server UID bestaat al op een geverifieerde server, gebruik alstublieft een andere TS-server UID",
     "errUnknown": "Er is een fout opgetreden bij het ophalen van serverinformatie, probeer het later opnieuw.",
     "registerAStandServer": "Registreer een Community",
-    "registerAStandServerDesc": "Registreer uw community om Sonoran Radio te gebruiken.",
+    "registerAStandServerDesc": "Registreer je community om Sonoran Radio te gebruiken.",
     "registerATSServer": "Registreer een TeamSpeak Server",
     "registerATSServerDesc": "Registreer je TeamSpeak-server zodat je je server de Sonoran Radio TeamSpeak-plug-in kunt gebruiken.",
     "submit": "Server Registreren"
@@ -768,11 +787,11 @@
     "verifyPassword": "Wachtwoord verifiëren"
   },
   "splash": {
-    "feats": "Compleet met inter-personeel tekstberichten en Sonoran CAD-integratie, biedt Sonoran Radio volledig uitgeruste communicatie-apparaten direct aan je in-game personeel en verkeersleiding. Probeer het vandaag nog gratis!",
+    "feats": "Volledige interpersoonlijke tekstberichten en Sonoran CAD\n      integratie maken van Sonoran Radio volwaardige communicatiemiddelen\n      direct beschikbaar in de handen van je in-game personeel en centralisten. Probeer het\n      vandaag nog gratis!",
     "getStarted": "Begin Vandaag",
     "introducing": "Introductie",
     "learnMore": "Meer Leren",
-    "marketExplain": "In openbare veiligheid zijn eenvoud en betrouwbaarheid essentieel bij het kiezen van een communicatiesysteem. Sonoran Radio biedt het meest uitgebreide en alomvattende communicatiesysteem dat vandaag op de markt is. Dit nieuwe radiosysteem heeft geavanceerde technologie, biedt zowel simplex als duplex configuraties, cloud gebaseerde programmering, en een schaalbaar, repeater-gedreven radionetwerk.",
+    "marketExplain": "In de openbare veiligheid zijn eenvoud en betrouwbaarheid essentieel bij het kiezen van een\n      communicatiesysteem. Sonoran Radio biedt het meest uitgebreide\n      en allesomvattende communicatiesysteem dat momenteel op de markt is. Dit nieuwe\n      radiosysteem heeft baanbrekende technologie en biedt zowel simplex- als\n      duplexconfiguraties, cloudgebaseerde programmering en een schaalbaar,\n      door repeaters aangedreven radionetwerk.",
     "toPortal": "Ga naar Portaal"
   },
   "standalone": {
@@ -797,6 +816,6 @@
   },
   "upgradePromo": {
     "goProToday": "Upgraden naar Pro",
-    "learnMore": "Meer Leren"
+    "learnMore": "Meer leren"
   }
 }

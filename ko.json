@@ -1,7 +1,7 @@
 {
   "authMember": {
     "errLeave": "커뮤니티를 떠나는 동안 예상치 못한 오류가 발생했습니다.",
-    "leaveMsg": "이 Sonoran Radio 커뮤니티를 떠나시겠습니까?",
+    "leaveMsg": "정말 이 Sonoran Radio Community를 떠나시겠습니까?",
     "subtitle": "{serverName}에서 Sonoran Radio를 사용하기 전에, 서버 소유자 또는 커뮤니티 관리자가 귀하를 승인해야 합니다. 승인을 기다리세요.",
     "subtitleShort": "이 커뮤니티에서 Sonoran Radio를 사용하기 전에, 커뮤니티 직원의 승인을 받아야 합니다.",
     "title": "승인을 기다리고 있습니다"
@@ -16,9 +16,14 @@
     "subtitle": "Sonoran Radio 플러그인 및 웹 패널을 사용하여 손쉽게 인증 프로세스를 통해 TeamSpeak 서버를 인증하세요. 인증 프로세스 중, 적절한 권한을 가진 TeamSpeak 서버의 사용자에게 다음 팝업 창이 표시됩니다. 인증 코드를 TeamSpeak 팝업 창에 입력하여 인증을 완료하세요. TeamSpeak 서버 UID를 잘못 설정한 경우, 아래에서 변경할 수 있습니다. Sonoran Radio의 TeamSpeak 팝업을 볼 수 없다면, 올바른 UID를 입력했는지, 적어도 v0.2.0 이상 버전의 플러그인을 설치했는지 확인하세요. 그렇지 않다면, 지원 팀에 문의하세요.",
     "title": "TeamSpeak 서버 인증"
   },
+  "billing": {
+    "confirmChangeSub": {
+      "title": "구독 변경"
+    }
+  },
   "common": {
     "account": "계정",
-    "actions": "동작",
+    "actions": "작업",
     "add": "추가",
     "billing": "결제",
     "cancel": "취소",
@@ -33,7 +38,7 @@
     "help": "도움말",
     "language": "언어",
     "learnMore": "더 알아보기",
-    "limited": "제한 있음",
+    "limited": "제한됨",
     "login": "로그인",
     "logout": "로그아웃",
     "management": "관리",
@@ -63,7 +68,7 @@
     "username": "사용자 이름"
   },
   "config": {
-    "displayName": "영어 (미국)"
+    "displayName": "영어(미국)"
   },
   "error404": {
     "goHome": "홈으로 이동",
@@ -81,7 +86,7 @@
       "invalidEmail": "지정된 이메일이 유효한 이메일 주소가 아닙니다. 다른 이메일 주소를 사용하세요.",
       "invalidPassword": "잘못된 비밀번호",
       "noEmail": "지정된 이메일이 없습니다.",
-      "noPassword": "지정된 비밀번호가 없습니다.",
+      "noPassword": "비밀번호가 지정되지 않았습니다.",
       "noUsername": "지정된 사용자 이름이 없습니다.",
       "passwordNoNumber": "비밀번호에 숫자가 포함되어 있지 않습니다",
       "passwordNoSymbol": "비밀번호에 기호가 포함되어 있지 않습니다({'!@#$%^&*'})",
@@ -135,7 +140,7 @@
       "title": "Big-Daddy Radio 애니메이션"
     },
     "Cloud_Configurations": {
-      "desc": "우리의 간편한 구성 패널을 통해 라이브 업데이트로 라디오를 커스터마이징하는 것이 그 어느 때보다 쉬워졌습니다.",
+      "desc": "사용하기 쉬운 구성 패널에서 실시간 업데이트로 라디오를 맞춤 설정하는 일이 그 어느 때보다 쉬워졌습니다.",
       "title": "클라우드 구성"
     },
     "Customizable_SFX": {
@@ -227,9 +232,23 @@
     "title": "Sonoran Radio 관리 패널"
   },
   "manageServer": {
+    "admin": {
+      "logType": "유형"
+    },
     "adminTab": "관리자",
+    "ai": {
+      "services": {
+        "0": "전송 로그 STT"
+      }
+    },
     "customDomain": {
+      "verifyButton": "커스텀 도메인 확인",
       "verifyTitle": "도메인 확인"
+    },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "구성 요소를 이동하려면"
+      }
     },
     "customizeMenu": {
       "channelsGroups": "채널 & 그룹",
@@ -242,11 +261,25 @@
     "customizeTab": "맞춤",
     "deleteServer": "커뮤니티 삭제",
     "dispatchTab": "디스패치",
+    "emergency911": {
+      "title": "비상 호출",
+      "waitingDispatcher": "상담원의 응답을 기다리는 중..."
+    },
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "지도 범위(픽셀)",
+        "uploadSuccess": "{count}개 타일 이미지 업로드 완료."
+      },
+      "degradeZones": "등급 하향 영역"
+    },
     "guidesLink": "Sonoran Radio 정보 & 가이드",
-    "membersTab": "회원",
     "members": {
+      "permissionsBtn": "권한",
+      "selectPrivateChannels": "사용자가 참여할 수 있는 비공개 채널을 선택하세요",
+      "subtitle": "커뮤니티에서 사용자 권한과 접근을 관리하세요.",
       "title": "커뮤니티 멤버"
     },
+    "membersTab": "멤버",
     "perms": {
       "types": {
         "menu::radio_attn": {
@@ -254,15 +287,39 @@
         }
       }
     },
+    "profiles": {
+      "displayNameInput": "표시 이름 - 필수",
+      "editGroup": "그룹 편집",
+      "reorderStandalone": "채널 순서 변경"
+    },
     "saveServer": "서버 저장",
+    "serverInfo": {
+      "cadPrompts": {
+        "subtitle": "Dispatch AI가 요청을 CAD/Radio 기능에 매핑하는 데 도움이 되는 사용자 지정 문구."
+      },
+      "communityServers": "커뮤니티 서버"
+    },
+    "settings": {
+      "muteScannedWhileTransmittingDesc": "채널에서 송신 중일 때 스캔된 채널 음소거."
+    },
     "toPortal": "포털로 돌아가기",
+    "transfer": {
+      "confirmLabel": "전송 확인"
+    },
     "transferServer": "커뮤니티 이전",
-    "unauthorizeServer": "서버 인증 해제"
+    "unauthorizeServer": "서버 인증 해제",
+    "voiceCustomization": {
+      "name": "이름"
+    }
   },
   "misc": {
     "learnMoreAboutRadio": "Sonoran Radio가 어떻게 당신의 롤플레이를 혁신할 수 있는지 더 알아보세요!",
     "welcome": "환영합니다",
     "welcomeTo": "Sonoran 라디오에 오신 것을 환영합니다!"
+  },
+  "pricing": {
+    "fivemRadio": "FiveM 휴대용 라디오",
+    "fivemTowersDescription": "타워는 거리 기준으로 실제 타워에 대한 수신을 시뮬레이션합니다. 위치와 범위는 사용자 지정할 수 있습니다."
   },
   "radio": {
     "addNewChannel": "새 채널 추가",
@@ -280,12 +337,13 @@
     "multiXmit": "CTRL + 클릭 다중-XMIT",
     "muteScan": "음소거 {0}",
     "openInNewWindow": "새 창에서 열기",
-    "openUserList": "Open User List",
+    "openUserList": "사용자 목록 오버레이 열기",
     "recvFreq": "RECV: {0}MHz",
     "scanList": "스캔 목록",
     "selectServer": "서버 선택",
     "setHotkeyFor": "{0}에 대한 단축키 설정",
     "settingsDialog": {
+      "advanced": "고급",
       "audioTab": "오디오",
       "automaticGainControlDisabled": "자동 게인 제어 비활성화됨",
       "automaticGainControlEnabled": "자동 게인 제어 활성화됨",
@@ -299,7 +357,7 @@
       "escapeModeXmit": "XMIT (PTT) ",
       "escapeModeXmitTooltip": "ESC를 누르면 라디오가 닫히지만 전송 중일 때 보입니다",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "XMIT 중 스캔된 채널 듣기",
+      "hearScannedWhileXmit": "송신 중일 때 스캔된 채널 듣기",
       "hotkeysTab": "단축키",
       "keydownSfx": "키다운 SFX",
       "keyupSfx": "키업 SFX",
@@ -309,7 +367,7 @@
       "myPttSfx": "내 PTT SFX",
       "othersPttSfx": "다른 사람의 PTT SFX",
       "pttOffDelay": "PTT-오프 지연",
-      "resetPeerVolumes": "피어 볼륨 초기화",
+      "resetPeerVolumes": "피어 볼륨 재설정",
       "resetSettings": "설정 초기화",
       "selectRadioFrame": "라디오 프레임 선택",
       "sfxTab": "SFX",
@@ -354,7 +412,7 @@
     "errExists": "제공된 TeamSpeak 서버 UID가 이미 확인된 서버에 존재합니다. 다른 TS 서버 UID를 사용하세요",
     "errUnknown": "서버 정보를 가져오는 중 오류가 발생했습니다. 나중에 다시 시도하세요.",
     "registerAStandServer": "커뮤니티 등록",
-    "registerAStandServerDesc": "Sonoran Radio를 사용하기 위해 커뮤니티를 등록하세요.",
+    "registerAStandServerDesc": "커뮤니티를 Sonoran Radio 사용하도록 등록하세요.",
     "registerATSServer": "TeamSpeak 서버 등록",
     "registerATSServerDesc": "TeamSpeak 서버를 Sonoran Radio TeamSpeak 플러그인을 사용할 수 있도록 등록하세요.",
     "submit": "서버 등록"
@@ -378,12 +436,12 @@
     "verifyPassword": "비밀번호 확인"
   },
   "splash": {
-    "feats": "사람 간 텍스트 메시징과 Sonoran CAD 통합을 완비한 Sonoran Radio는 완전히 기능이 갖춰진 통신 장치를 게임 내 인원과 디스패처의 손에 직접 제공합니다. 오늘 무료로 체험해 보세요!",
+    "feats": "대인 간 문자 메시지와 Sonoran CAD\n      통합을 갖춘 Sonoran Radio는 완전한 기능의 통신 장치를\n      게임 내 인원과 디스패처의 손에 직접 쥐여 줍니다. 지금\n      무료로 사용해 보세요!",
     "getStarted": "오늘 시작하세요",
     "introducing": "소개합니다",
     "learnMore": "더 알아보기",
-    "marketExplain": "공공 안전에서, 단순성과 신뢰성은 통신 시스템을 선택하는 데 필수적입니다. Sonoran Radio는 오늘날 시장에서 가장 포괄적이고 모든 것을 포함한 통신 시스템을 제공합니다. 이 새로운 라디오 시스템은 최첨단 기술을 제공하며, 단순 모드와 복합 모드를 모두 지원하고, 클라우드 기반 프로그래밍을 하며, 확장 가능하고 리피터 기반의 라디오 네트워크를 제공합니다.",
-    "toPortal": "포털로 이동"
+    "marketExplain": "공공 안전에서 단순성과 신뢰성은\n      통신 시스템을 선택할 때 필수적입니다. Sonoran Radio는 오늘날 시장에서 가장 포괄적이고\n      올인클루시브한 통신 시스템을 제공합니다. 이 새로운\n      라디오 시스템은 최첨단 기술을 갖추고 있으며, simplex와\n      duplex 구성, cloud 기반 프로그래밍, 그리고 확장 가능한\n      repeater 중심 라디오 네트워크를 제공합니다.",
+    "toPortal": "포털로 이동하기"
   },
   "standalone": {
     "desktop": {
@@ -404,5 +462,8 @@
     "settings": {
       "rightClickToClear": "오른쪽 클릭하여 지우기"
     }
+  },
+  "upgradePromo": {
+    "learnMore": "더 알아보기"
   }
 }

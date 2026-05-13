@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "Ett oväntat fel inträffade när du lämnade communityn.",
-    "leaveMsg": "Är du säker på att du vill lämna detta Sonoran Radio Community?",
+    "leaveMsg": "Är du säker på att du vill lämna denna Sonoran Radio-community?",
     "subtitle": "Innan du kan använda Sonoran Radio för {serverName}, måste du godkännas av serverägaren eller en community-administratör. Vänta på godkännande.",
     "subtitleShort": "Innan du använder Sonoran Radio i detta community, måste du godkännas av community-personal",
     "title": "Du väntar på godkännande"
@@ -42,7 +42,7 @@
       "possibleDataLoss": "Om du överför eller tar bort ditt abonnemang kan dataloss uppstå på den tidigare servern.",
       "remove": "Är du säker på att du vill ta bort denna server från ditt abonnemang?",
       "set": "Är du säker på att du vill ställa in denna server för ditt abonnemang?",
-      "title": "Ändra abonnemang",
+      "title": "Byt abonnemang",
       "transfer": "Är du säker på att du vill överföra detta abonnemang till en annan server?"
     },
     "errCheck": "Ett oväntat fel inträffade vid kontrollen av ditt abonnemang",
@@ -140,7 +140,7 @@
       "invalidEmail": "Den angivna e-posten är inte en giltig e-postadress, använd en annan e-postadress.",
       "invalidPassword": "Ogiltigt lösenord",
       "noEmail": "Ingen e-post har angetts.",
-      "noPassword": "Inget lösenord har angetts.",
+      "noPassword": "Inget lösenord angivet.",
       "noUsername": "Inget användarnamn har angetts.",
       "passwordNoNumber": "Lösenordet innehåller inget nummer",
       "passwordNoSymbol": "Lösenordet innehåller ingen symbol ({'!@#$%^&*'})",
@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Rensa snabbkommando",
     "noKeySet": "Ingen knapp vald",
-    "pressAKey": "Tryck på en knapp"
+    "pressAKey": "Tryck på en knapp",
+    "toggleDesktopRadio": "Växla skrivbordsradio"
   },
   "iconPicker": {
     "colorLabel": "Färg",
@@ -193,7 +194,7 @@
       "title": "Big-Daddy Radio Animeringar"
     },
     "Cloud_Configurations": {
-      "desc": "Anpassa din radio har aldrig varit enklare, med liveuppdateringar från vår lättanvända konfigurationspanel.",
+      "desc": "Att anpassa din radio har aldrig varit enklare, med liveuppdateringar från vår lättanvända konfigurationspanel.",
       "title": "Molnkonfigurationer"
     },
     "Customizable_SFX": {
@@ -289,13 +290,14 @@
       "apiInfoHint": "Ge detta till dina medlemmar när du bjuder in dem till communityn",
       "apiInfoTitle": "API Info",
       "communityApiKeyField": "Community API-nyckel",
+      "logType": "Typ",
       "updateApiKey": "Uppdatera API-nyckel"
     },
     "adminTab": "Administration",
     "ai": {
       "addKey": "Lägg till AI-nyckel",
       "services": {
-        "0": "Transmissionslogg STT",
+        "0": "Överföringslogg STT",
         "1": "Tonbräda STT"
       },
       "title": "AI API-nycklar"
@@ -316,8 +318,13 @@
       "vanityLabel": "Vanity-URL",
       "vanityTitle": "Gratis Vanity-URL",
       "verified": "Grattis, din anpassade domän är verifierad!",
-      "verifyButton": "Verifiera anpassad domän",
+      "verifyButton": "Verifiera egen domän",
       "verifyTitle": "Verifiera din domän"
+    },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "att flytta komponenter"
+      }
     },
     "customizeMenu": {
       "ai": "AI",
@@ -338,6 +345,10 @@
     "deleteServer": "Radera community",
     "deleteSuccess": "Din server har raderats framgångsrikt",
     "dispatchTab": "Dispatch",
+    "emergency911": {
+      "title": "Nödsamtal",
+      "waitingDispatcher": "Väntar på att en larmoperatör ska svara..."
+    },
     "errImport": "Ett oväntat fel inträffade vid importeringen av din SAPR-konfiguration.",
     "errImportNotFound": "Ingen SAPR-konfiguration hittades för din TeamSpeak UUID.",
     "errSaveInfo": "Ett oväntat fel inträffade vid sparandet av din serverinfo.",
@@ -345,6 +356,13 @@
     "errUidTaken": "TeamSpeak-server UUID används redan av en annan auktoriserad server.",
     "errUnauthorize": "Ett oväntat fel inträffade vid avauktoriseringen av din server.",
     "explainOwnerOnly": "Endast ägaren kan ändra denna inställning",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Kartgränser (pixlar)",
+        "uploadSuccess": "{count} kakelbilder har laddats upp সফল?"
+      },
+      "degradeZones": "Försämra zoner"
+    },
     "guidesLink": "Sonoran Radio Information & Guider",
     "importSAPR": {
       "btn": "Importera SAPR-konfig",
@@ -378,7 +396,7 @@
       "selectPrivateChannels": "Välj de privata kanaler som användaren får gå med i",
       "setDisplayName": "Ställ in visningsnamn",
       "subOwner": "Prenumerationsinnehavare",
-      "subtitle": "Hantera användarbehörigheter och åtkomst i your community.",
+      "subtitle": "Hantera användares behörigheter och åtkomst i din community.",
       "title": "Gemenskapsmedlemmar",
       "traits": "Egenskaper",
       "username": "Användarnamn"
@@ -503,7 +521,7 @@
       "recvFreq": "Mottagningsfrekvens",
       "recvFreqTooltip": "Frekvens att ta emot sändningar på. Detta är endast för estetiska ändamål i radio UI.",
       "reorder": "Ordna om profiler",
-      "reorderStandalone": "Ordna om kanaler",
+      "reorderStandalone": "Ordna kanaler",
       "repeatsXmit": "Upprepar sändfrekvens",
       "setAsDefault": "Ställ in som standardprofil",
       "sharedTooltip": "Delade kanaler speglar tillgång och frekvenser för en annan länkad kanal. Att ansluta till antingen ger tillgång till samma kommunikationsström.",
@@ -529,6 +547,9 @@
     "saveServer": "Spara server",
     "serverInfo": {
       "addServer": "Lägg till server",
+      "cadPrompts": {
+        "subtitle": "Anpassade fraser som hjälper Dispatch AI att mappa förfrågningar till CAD/radiofunktioner."
+      },
       "columns": {
         "actions": "Åtgärder",
         "id": "ID",
@@ -536,7 +557,7 @@
         "origin": "IP/Ursprung",
         "pushUrl": "Push-URL"
       },
-      "communityServers": "Community-servrar",
+      "communityServers": "Communityservrar",
       "communityServersSubtitle": "Lägg till eller ta bort servrar för att separera dina radiokommunikationer",
       "customCommunityIdHint": "Ställ in ditt anpassade community-ID, vilket är till för Vanity-URL, FiveM-resursen och för att gå med i communityn"
     },
@@ -564,7 +585,7 @@
     "transfer": {
       "cancel": "Avbryt",
       "confirmInstruction": "Skriv {code} för att bekräfta överföringen (skiftlägeskänsligt)",
-      "confirmLabel": "Bekräfta överföringen",
+      "confirmLabel": "Bekräfta överföring",
       "ok": "Ok",
       "requestCreatedMsg": "Överföringen är inte klar ännu! Ett e-postmeddelande har skickats till dig för extra verifiering",
       "requestCreatedTitle": "Överföringsfråga skapad",
@@ -621,7 +642,7 @@
     "fivemTowerDestruction": "FiveM Tornförstörelse",
     "fivemTowerDestructionDescription": "Den (valfria) möjligheten för spelare att förstöra fysiska torn för att skada radiomottagningen.",
     "fivemTowers": "FiveM Fysiska Torn",
-    "fivemTowersDescription": "Torn simulerar mottagning till ett fysiskt torn, baserat på ditt avstånd. Plats och räckvidd är anpassningsbara.",
+    "fivemTowersDescription": "Torn simulerar mottagning till ett fysiskt torn, baserat på ditt avstånd. Platser och räckvidder kan anpassas.",
     "howToPurchase": "Hur man köper",
     "monthCostDescription": "Kostnaden för vårt månatliga abonnemangspaket.",
     "onlyOnStatewide": "Endast tillåtet på statliga frekvenser.",
@@ -662,12 +683,13 @@
     "multiXmit": "CTRL + Klicka Multi-SKICKA",
     "muteScan": "Tysta {0}",
     "openInNewWindow": "Öppna i nytt fönster",
-    "openUserList": "Open User List",
+    "openUserList": "Öppna användarlista-overlay",
     "recvFreq": "MOTTAG {0}MHz",
     "scanList": "Söklista",
     "selectServer": "Välj server",
     "setHotkeyFor": "Ställ in snabbkommando för {0}",
     "settingsDialog": {
+      "advanced": "Avancerat",
       "audioTab": "Ljud",
       "automaticGainControlDisabled": "Automatisk förstärkningskontroll inaktiverad",
       "automaticGainControlEnabled": "Automatisk förstärkningskontroll aktiverad",
@@ -691,7 +713,7 @@
       "myPttSfx": "Mitt PTT SFX",
       "othersPttSfx": "Andras PTT SFX",
       "pttOffDelay": "PTT-Av Fördröjning",
-      "resetPeerVolumes": "Återställ peer-volymer",
+      "resetPeerVolumes": "Återställ jämnvolymer",
       "resetSettings": "Återställ inställningar",
       "selectRadioFrame": "Radio Ram",
       "sfxTab": "SFX",
@@ -736,7 +758,7 @@
     "errExists": "Den angivna TeamSpeak Server UID finns redan på en verifierad server, använd en annan TS-server UID",
     "errUnknown": "Ett fel inträffade när du försökte få serverinformationen, försök igen senare.",
     "registerAStandServer": "Registrera en gemenskap",
-    "registerAStandServerDesc": "Registrera din gemenskap för att använda Sonoran Radio.",
+    "registerAStandServerDesc": "Registrera din community för att använda Sonoran Radio.",
     "registerATSServer": "Registrera en TeamSpeak Server",
     "registerATSServerDesc": "Registrera din TeamSpeak-server för att låta din server kunna använda Sonoran Radio TeamSpeak-plugin.",
     "submit": "Registrera server"
@@ -760,12 +782,12 @@
     "verifyPassword": "Verifiera lösenord"
   },
   "splash": {
-    "feats": "Komplett med mellanpersonlig textmeddelanden och Sonoran CAD-integration, lägger Sonoran Radio full-funktionella kommunikationsenheter direkt i händerna på dina i-spelet personal och dispatchers. Testa det gratis idag!",
+    "feats": "Komplettera med textmeddelanden mellan personal och Sonoran CAD\n      integration, Sonoran Radio sätter fullutrustade kommunikationsenheter\n      direkt i händerna på din personal och dina larmoperatörer i spelet. Prova det\n      gratis idag!",
     "getStarted": "Kom igång idag",
     "introducing": "Presentera",
     "learnMore": "Läs mer",
-    "marketExplain": "Inom offentlig säkerhet är enkelhet och pålitlighet avgörande när man väljer ett kommunikationssystem. Sonoran Radio tillhandahåller det mest omfattande och heltäckande kommunikationssystemet på marknaden idag. Detta nya radiosystem har banbrytande teknik som ger både simplex och duplex-konfigurationer, molnbaserad programmering och ett skalbart, repeaterstyrt radionätverk.",
-    "toPortal": "Gå till portal"
+    "marketExplain": "Inom allmän säkerhet är enkelhet och tillförlitlighet avgörande när man väljer\n      ett kommunikationssystem. Sonoran Radio erbjuder det mest omfattande\n      och heltäckande kommunikationssystemet på marknaden idag. Detta nya\n      radiosystem har banbrytande teknik och erbjuder både simplex- och\n      duplexkonfigurationer, molnbaserad programmering och ett skalbart,\n      repeaterdrivet radionätverk.",
+    "toPortal": "Gå till portalen"
   },
   "standalone": {
     "desktop": {

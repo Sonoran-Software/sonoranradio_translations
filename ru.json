@@ -1,20 +1,140 @@
 {
+  "authMember": {
+    "leaveMsg": "Вы уверены, что хотите покинуть это сообщество Sonoran Radio?"
+  },
+  "billing": {
+    "confirmChangeSub": {
+      "title": "Изменить подписку"
+    }
+  },
+  "common": {
+    "actions": "Действия",
+    "email": "Электронная почта",
+    "limited": "Ограничено",
+    "notApplicable": "Н/Д",
+    "refresh": "Обновить"
+  },
+  "config": {
+    "displayName": "Английский (США)"
+  },
+  "errors": {
+    "signup": {
+      "noPassword": "Пароль не указан."
+    }
+  },
+  "fivemView": {
+    "loginWithCode": "Войти с кодом"
+  },
+  "hotkeys": {
+    "toggleDesktopRadio": "Переключить настольное радио"
+  },
+  "iconPicker": {
+    "tabs": {
+      "textColor": "Цвет текста"
+    }
+  },
+  "landingPage": {
+    "Cloud_Configurations": {
+      "desc": "Настраивать вашу радиостанцию ещё никогда не было так просто: с обновлениями в реальном времени из нашей простой в использовании панели конфигурации."
+    }
+  },
   "manageServer": {
+    "admin": {
+      "logType": "Тип"
+    },
+    "ai": {
+      "services": {
+        "0": "Журнал передачи STT"
+      }
+    },
     "customDomain": {
+      "verifyButton": "Подтвердить собственный домен",
       "verifyTitle": "Подтвердите свой домен"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "чтобы перемещать компоненты"
+      }
+    },
+    "emergency911": {
+      "title": "Экстренный вызов",
+      "waitingDispatcher": "Ожидание ответа диспетчера..."
+    },
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Границы карты (пиксели)",
+        "uploadSuccess": "Успешно загружено {count} изображений плитки."
+      },
+      "degradeZones": "Зоны понижения"
+    },
     "members": {
+      "permissionsBtn": "Разрешения",
+      "selectPrivateChannels": "Выберите закрытые каналы, к которым пользователю разрешено присоединяться",
+      "subtitle": "Управляйте разрешениями и доступом пользователей в вашем сообществе.",
       "title": "Участники сообщества"
     },
+    "membersTab": "Участники",
     "perms": {
       "types": {
         "menu::radio_attn": {
           "name": "Радио-обслуживание"
         }
       }
+    },
+    "profiles": {
+      "displayNameInput": "Отображаемое имя - обязательно",
+      "editGroup": "Редактировать группу",
+      "reorderStandalone": "Изменить порядок каналов"
+    },
+    "serverInfo": {
+      "cadPrompts": {
+        "subtitle": "Пользовательские фразы, помогающие Dispatch AI сопоставлять запросы с функциями CAD/Radio."
+      },
+      "communityServers": "Серверы сообщества"
+    },
+    "settings": {
+      "muteScannedWhileTransmittingDesc": "Отключать звук сканируемых каналов при передаче на канале."
+    },
+    "transfer": {
+      "confirmLabel": "Подтвердить перенос"
+    },
+    "voiceCustomization": {
+      "name": "Имя"
     }
   },
   "misc": {
     "learnMoreAboutRadio": "Узнайте больше о том, как Sonoran Radio может революционизировать вашу ролевую игру!"
+  },
+  "pricing": {
+    "fivemRadio": "Портативная рация FiveM",
+    "fivemTowersDescription": "Башни имитируют приём на физическую башню в зависимости от вашего расстояния. Местоположения и радиусы настраиваются."
+  },
+  "radio": {
+    "openUserList": "Открыть оверлей списка пользователей",
+    "settingsDialog": {
+      "advanced": "Дополнительно",
+      "audioTab": "Аудио",
+      "hearScannedWhileXmit": "Слышать сканируемые каналы при передаче",
+      "resetPeerVolumes": "Сбросить громкость участников"
+    },
+    "toneBoard": {
+      "generate": "Сгенерировать"
+    }
+  },
+  "registerServer": {
+    "registerAStandServerDesc": "Зарегистрируйте своё сообщество для использования Sonoran Radio."
+  },
+  "splash": {
+    "feats": "Полная комплектация с межличностными текстовыми сообщениями и интеграцией\n      Sonoran CAD, Sonoran Radio предоставляет полнофункциональные средства\n      связи прямо в руки вашим игровым сотрудникам и диспетчерам. Попробуйте\n      бесплатно уже сегодня!",
+    "marketExplain": "В сфере общественной безопасности простота и надежность имеют решающее значение при выборе\n      системы связи. Sonoran Radio предоставляет самую комплексную\n      и всеобъемлющую систему связи на рынке сегодня. Эта новая\n      радиосистема использует передовые технологии, обеспечивая как симплексную, так и\n      дуплексную конфигурацию, облачное программирование и масштабируемую,\n      радиосеть на основе ретрансляторов.",
+    "toPortal": "Перейти в портал"
+  },
+  "standalone": {
+    "desktop": {
+      "noEmergencyCalls": "Экстренных вызовов нет!"
+    }
+  },
+  "upgradePromo": {
+    "learnMore": "Узнать больше"
   }
 }

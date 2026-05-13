@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "Si è verificato un errore imprevisto mentre si lasciava la comunità.",
-    "leaveMsg": "Sei sicuro di voler lasciare questa comunità di Sonoran Radio?",
+    "leaveMsg": "Sei sicuro di voler lasciare questa community di Sonoran Radio?",
     "subtitle": "Prima di poter utilizzare Sonoran Radio per {serverName}, devi essere approvato dal proprietario del server o dall'amministratore della comunità. Attendi l'approvazione.",
     "subtitleShort": "Prima di utilizzare Sonoran Radio in questa comunità, devi essere approvato dallo staff della comunità",
     "title": "Stai Aspettando L'Approvazione"
@@ -99,7 +99,7 @@
     "menu": "Menu",
     "miscServer": "Server {id}",
     "needsInteger": "Deve essere un numero intero",
-    "notApplicable": "N/A",
+    "notApplicable": "N/D",
     "only": "{0} Solo",
     "password": "Password",
     "plans": {
@@ -122,10 +122,10 @@
     "username": "Nome utente"
   },
   "config": {
-    "displayName": "Italiano (Italia)"
+    "displayName": "Inglese (Stati Uniti)"
   },
   "error404": {
-    "goHome": "Vai a Home",
+    "goHome": "Vai alla home",
     "message": "Ops. Niente qui..."
   },
   "errors": {
@@ -194,7 +194,7 @@
       "title": "Animazioni Radio Big-Daddy"
     },
     "Cloud_Configurations": {
-      "desc": "Personalizzare la tua radio non è mai stato così facile, con aggiornamenti live dal nostro pannello di configurazione facile da usare.",
+      "desc": "Personalizzare la tua radio non è mai stato così semplice, con aggiornamenti in tempo reale dal nostro pannello di configurazione facile da usare.",
       "title": "Configurazioni Cloud"
     },
     "Customizable_SFX": {
@@ -290,13 +290,14 @@
       "apiInfoHint": "Fornisci questo ai tuoi membri quando li inviti alla comunità",
       "apiInfoTitle": "Informazioni API",
       "communityApiKeyField": "Chiave API Comunità",
+      "logType": "Tipo",
       "updateApiKey": "Aggiorna Chiave API"
     },
     "adminTab": "Amministrazione",
     "ai": {
       "addKey": "Aggiungi Chiave AI",
       "services": {
-        "0": "Registro Trasmissione STT",
+        "0": "Registro di trasmissione STT",
         "1": "Tone Board STT"
       },
       "title": "Chiavi API AI"
@@ -320,6 +321,11 @@
       "verifyButton": "Verifica dominio personalizzato",
       "verifyTitle": "Verifica il tuo dominio"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "per spostare i componenti"
+      }
+    },
     "customizeMenu": {
       "ai": "AI",
       "channelsGroups": "Canali & Gruppi",
@@ -339,6 +345,10 @@
     "deleteServer": "Elimina Comunità",
     "deleteSuccess": "Il tuo server è stato eliminato con successo",
     "dispatchTab": "Dispatch",
+    "emergency911": {
+      "title": "Chiamata di emergenza",
+      "waitingDispatcher": "In attesa che un operatore risponda..."
+    },
     "errImport": "Si è verificato un errore imprevisto durante l'importazione della tua Configurazione SAPR.",
     "errImportNotFound": "Non è stata trovata nessuna configurazione SAPR per il tuo UID TeamSpeak.",
     "errSaveInfo": "Si è verificato un errore imprevisto mentre si salvavano le informazioni del tuo server.",
@@ -346,6 +356,13 @@
     "errUidTaken": "L'UID del server TeamSpeak è già in uso da un altro server autorizzato.",
     "errUnauthorize": "Si è verificato un errore imprevisto durante la rimozione dell'autorizzazione del tuo server.",
     "explainOwnerOnly": "Solo il proprietario può modificare questa impostazione",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Limiti mappa (pixel)",
+        "uploadSuccess": "Caricate con successo {count} immagini tile."
+      },
+      "degradeZones": "Zone di degrado"
+    },
     "guidesLink": "Informazioni & Guide di Sonoran Radio",
     "importSAPR": {
       "btn": "Importa Configurazione SAPR",
@@ -376,10 +393,10 @@
       "removeWarnSelfMsg": "Sei sicuro di voler rimuovere te stesso da questo server? Perderai accesso e il proprietario del server dovrà aggiungerti di nuovo.",
       "removeWarnSubHolderMsg": "Rimuovere il titolare dell'abbonamento degraderà questo server a gratis! Sei sicuro di voler continuare?",
       "search": "Cerca",
-      "selectPrivateChannels": "Seleziona i canali privati a cui l'utente può unirsi",
+      "selectPrivateChannels": "Seleziona i canali privati a cui l'utente è autorizzato ad unirsi",
       "setDisplayName": "Imposta nome visualizzato",
       "subOwner": "Titolare Abbonamento",
-      "subtitle": "Gestisci i permessi e accessi utente nella tua comunità.",
+      "subtitle": "Gestisci i permessi e l'accesso degli utenti nella tua community.",
       "title": "Membri della comunità",
       "traits": "Tratti",
       "username": "Nome utente"
@@ -488,7 +505,7 @@
       "dialogEditTitleStandalone": "Modifica Canale",
       "dialogSubtitle": "Un Profilo è un'impostazione di frequenza preimpostata per consentire una facile transizione tra specifiche frequenze senza il bisogno di digitare manualmente ciascuna frequenza. Qui imposterai il Nome Visualizzato (opzionale), la Frequenza di Ricezione (obbligatoria), la Frequenza di Trasmissione (opzionale), e se la Frequenza di Trasmissione sarà ripetuta.",
       "displayName": "Nome Visualizzato",
-      "displayNameInput": "Nome Visualizzato - Obbligatorio",
+      "displayNameInput": "Nome visualizzato - Obbligatorio",
       "editGroup": "Modifica gruppo",
       "errDelete": "Si è verificato un errore imprevisto durante l'eliminazione del profilo.",
       "errReenable": "Si è verificato un errore imprevisto durante la riattivazione del profilo.",
@@ -504,7 +521,7 @@
       "recvFreq": "Frequenza di Ricezione",
       "recvFreqTooltip": "Frequenza per ricevere trasmissioni. Questo serve solo a scopo estetico nell'UI della radio.",
       "reorder": "Riordina Profili",
-      "reorderStandalone": "Riordina Canali",
+      "reorderStandalone": "Riordina canali",
       "repeatsXmit": "Ripeti Frequenza di Trasmissione",
       "setAsDefault": "Imposta come Profilo Predefinito",
       "sharedTooltip": "I canali condivisi rispecchiano l'accesso e le frequenze di un altro canale collegato. Collegandosi a uno dei due si accede allo stesso stream di comunicazione.",
@@ -530,6 +547,9 @@
     "saveServer": "Salva Server",
     "serverInfo": {
       "addServer": "Aggiungi server",
+      "cadPrompts": {
+        "subtitle": "Frasi personalizzate per aiutare Dispatch AI a mappare le richieste alle funzioni CAD/Radio."
+      },
       "columns": {
         "actions": "Azioni",
         "id": "ID",
@@ -537,7 +557,7 @@
         "origin": "IP/Origine",
         "pushUrl": "URL push"
       },
-      "communityServers": "Server di comunità",
+      "communityServers": "Server della comunità",
       "communityServersSubtitle": "Aggiungi o rimuovi server per separare le comunicazioni radio",
       "customCommunityIdHint": "Imposta il tuo ID comunità personalizzato, utile per l'URL vanity, la risorsa FiveM e per unirsi alla comunità"
     },
@@ -551,7 +571,7 @@
       "keyUpDelay": "Ritardo Alza Tasto",
       "keyUpDelayDesc": "Ritardo dopo la fine di una trasmissione prima che il microfono venga rilasciato.",
       "muteScannedWhileTransmitting": "Muta Scansioni Mentre Trasmetti",
-      "muteScannedWhileTransmittingDesc": "Muta i canali scansionati mentre si trasmette su un canale.",
+      "muteScannedWhileTransmittingDesc": "Muta i canali scansionati mentre trasmetti su un canale.",
       "sirenVolume": "Volume Sirena",
       "sirenVolumeDesc": "Quando la sirena in gioco è attivata, aggiungi/sottrai al volume.",
       "subtitle": "Configura le impostazioni predefinite per la tua comunità. Gli utenti possono personalizzare le proprie preferenze, ma queste serviranno come impostazioni predefinite.",
@@ -617,12 +637,12 @@
     "description": "Gli abbonamenti a pagamento di Sonoran Radio ti offrono accesso a funzionalità avanzate, personalizzazioni, limiti aumentati e altro ancora!",
     "dispatchPanel": "Pannello di Dispatch",
     "dispatchPanelDescription": "La finestra di dialogo di TeamSpeak che ti permette di cambiare le impostazioni della tua radio o delle radio degli altri.",
-    "fivemRadio": "Radio Portatile FiveM",
+    "fivemRadio": "Radio portatile FiveM",
     "fivemRadioDescription": "La radio portatile di FiveM ti consente di cambiare le tue frequenze, lista di scansione, e altre impostazioni radio",
     "fivemTowerDestruction": "Distruzione Torri FiveM",
     "fivemTowerDestructionDescription": "La capacità (opzionale) per i giocatori di distruggere torri fisiche per danneggiare la ricezione radio.",
     "fivemTowers": "Torri Fisiche FiveM",
-    "fivemTowersDescription": "Le torri simulano la ricezione a una torre fisica, basate sulla tua distanza. Le posizioni e gli intervalli sono personalizzabili.",
+    "fivemTowersDescription": "Le torri simulano la ricezione di una torre fisica, in base alla tua distanza. Le posizioni e le portate sono personalizzabili.",
     "howToPurchase": "Come Acquistare",
     "monthCostDescription": "Il costo del nostro pacchetto di abbonamento mensile.",
     "onlyOnStatewide": "Consenti solo sulle frequenze estese.",
@@ -663,12 +683,13 @@
     "multiXmit": "CTRL + Click Multi-XMIT",
     "muteScan": "Muta {0}",
     "openInNewWindow": "Apri in Nuova Finestra",
-    "openUserList": "Open User List",
+    "openUserList": "Apri overlay elenco utenti",
     "recvFreq": "RECV: {0}MHz",
     "scanList": "Lista Scansioni",
     "selectServer": "Seleziona Server",
     "setHotkeyFor": "Imposta Tasto Rapido per {0}",
     "settingsDialog": {
+      "advanced": "Avanzato",
       "audioTab": "Audio",
       "automaticGainControlDisabled": "Controllo automatico del guadagno disabilitato",
       "automaticGainControlEnabled": "Controllo automatico del guadagno abilitato",
@@ -682,7 +703,7 @@
       "escapeModeXmit": "XMIT (PTT)",
       "escapeModeXmitTooltip": "La radio si chiude su ESC, ma è visibile durante la trasmissione",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Ascolta Scansioni Mentre Trasmetti",
+      "hearScannedWhileXmit": "Ascolta scansioni mentre trasmetti",
       "hotkeysTab": "Tasti Rapidi",
       "keydownSfx": "SFX Abbasso Tasto",
       "keyupSfx": "SFX Alzo Tasto",
@@ -692,7 +713,7 @@
       "myPttSfx": "Il Mio SFX PTT",
       "othersPttSfx": "SFX PTT degli Altri",
       "pttOffDelay": "Ritardo PTT-Off",
-      "resetPeerVolumes": "Reimposta Volumi dei Peer",
+      "resetPeerVolumes": "Reimposta volumi dei pari",
       "resetSettings": "Reimposta Impostazioni",
       "selectRadioFrame": "Telaio Radio",
       "sfxTab": "SFX",
@@ -737,7 +758,7 @@
     "errExists": "Il TeamSpeak Server UID fornito esiste già su un server verificato, si prega di utilizzare un altro UID del server TS",
     "errUnknown": "Si è verificato un errore durante il tentativo di ottenere informazioni sul server, riprova più tardi.",
     "registerAStandServer": "Registra una Comunità",
-    "registerAStandServerDesc": "Registra la tua comunità per utilizzare Sonoran Radio.",
+    "registerAStandServerDesc": "Registra la tua community per usare Sonoran Radio.",
     "registerATSServer": "Registra un Server TeamSpeak",
     "registerATSServerDesc": "Registra il tuo TeamSpeak Server per consentire al tuo server di utilizzare il plugin Sonoran Radio TeamSpeak.",
     "submit": "Registra Server"
@@ -761,11 +782,11 @@
     "verifyPassword": "Verifica Password"
   },
   "splash": {
-    "feats": "Completo di messaggistica di testo interpersonale e integrazione con Sonoran CAD, Sonoran Radio mette dispositivi di comunicazione completamente funzionali direttamente nelle mani del tuo personale e dispatcher in gioco. Provalo gratuitamente oggi!",
+    "feats": "Completo con messaggistica interpersonale e integrazione con Sonoran CAD\n      Sonoran Radio mette dispositivi di comunicazione completi\n      direttamente nelle mani del tuo personale di gioco e degli operatori. Provalo\n      gratis oggi!",
     "getStarted": "Inizia Oggi",
     "introducing": "Presentazione",
     "learnMore": "Scopri di più",
-    "marketExplain": "Nella sicurezza pubblica, semplicità e affidabilità sono essenziali quando si sceglie un sistema di comunicazione. Sonoran Radio offre il sistema di comunicazione più completo ed esaustivo oggi sul mercato. Questo nuovo sistema radio ha tecnologia all'avanguardia, fornendo sia configurazioni simplex che duplex, programmazione basata su cloud e una rete radio scalabile, guidata da ripetitori.",
+    "marketExplain": "Nella sicurezza pubblica, semplicità e affidabilità sono essenziali quando si sceglie\n      un sistema di comunicazione. Sonoran Radio offre il sistema di comunicazione più completo\n      e tutto incluso oggi sul mercato. Questo nuovo\n      sistema radio dispone di tecnologia all'avanguardia, offrendo configurazioni simplex e\n      duplex, programmazione basata su cloud e una rete radio scalabile,\n      basata su ripetitori.",
     "toPortal": "Vai al Portale"
   },
   "standalone": {

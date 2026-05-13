@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "Yhteisöstä poistuttaessa tapahtui odottamaton virhe.",
-    "leaveMsg": "Oletko varma, että haluat lähteä tästä Sonoran Radion yhteisöstä?",
+    "leaveMsg": "Haluatko varmasti poistua tästä Sonoran Radio -yhteisöstä?",
     "subtitle": "Ennen kuin voit käyttää Sonoran Radiota {serverName}-palvelimelle, palvelimen omistajan tai yhteisön ylläpitäjän on hyväksyttävä sinut. Odota hyväksyntää.",
     "subtitleShort": "Ennen Sonoran Radion käyttöä tässä yhteisössä, yhteisön henkilökunnan on hyväksyttävä sinut",
     "title": "Odotat Hyväksyntää"
@@ -99,7 +99,7 @@
     "menu": "Valikko",
     "miscServer": "Palvelin {id}",
     "needsInteger": "Täytyy olla kokonaisluku",
-    "notApplicable": "Ei sovellu",
+    "notApplicable": "Ei sovellettavissa",
     "only": "{0} Vain",
     "password": "Salasana",
     "plans": {
@@ -122,10 +122,10 @@
     "username": "Käyttäjänimi"
   },
   "config": {
-    "displayName": "Englanti (US)"
+    "displayName": "Englanti (Yhdysvallat)"
   },
   "error404": {
-    "goHome": "Mene kotiin",
+    "goHome": "Siirry kotiin",
     "message": "Hups. Ei mitään täällä..."
   },
   "errors": {
@@ -140,7 +140,7 @@
       "invalidEmail": "Annettu sähköpostiosoite ei ole kelvollinen, käytä toista sähköpostiosoitetta.",
       "invalidPassword": "Virheellinen salasana",
       "noEmail": "Sähköpostia ei ole määritetty.",
-      "noPassword": "Salasanaa ei ole määritelty.",
+      "noPassword": "Salasanaa ei ole määritetty.",
       "noUsername": "Käyttäjänimeä ei ole määritetty.",
       "passwordNoNumber": "Salasana ei sisällä yhtään numeroa",
       "passwordNoSymbol": "Salasana ei sisällä mitään symbolia ({'!@#$%^&*'})",
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Siirry selaimessasi osoitteeseen {link} kirjautuaksesi",
-    "loginWithCode": "Kirjaudu sisään koodilla",
+    "loginWithCode": "Kirjaudu koodilla",
     "refresh": "Päivitä",
     "unlink": "Poista linkitys"
   },
@@ -194,7 +194,7 @@
       "title": "Big-Daddy Radio Animaatiot"
     },
     "Cloud_Configurations": {
-      "desc": "Radion mukauttaminen ei ole koskaan ollut helpompaa, suorilla päivityksillä helppokäyttöisestä konfiguraatiopaneelistamme.",
+      "desc": "Radiosi mukauttaminen ei ole koskaan ollut helpompaa, sillä saat reaaliaikaisia päivityksiä helppokäyttöiseltä määrityspaneeliltamme.",
       "title": "Pilvikonfiguraatiot"
     },
     "Customizable_SFX": {
@@ -290,13 +290,14 @@
       "apiInfoHint": "Anna tämä jäsenillesi kutsuessasi heitä yhteisöön",
       "apiInfoTitle": "API-tiedot",
       "communityApiKeyField": "Yhteisön API-avain",
+      "logType": "Tyyppi",
       "updateApiKey": "Päivitä API Avain"
     },
     "adminTab": "Hallinto",
     "ai": {
       "addKey": "Lisää Tekoälyn Avain",
       "services": {
-        "0": "Lähetyslokien Puheentunnistus",
+        "0": "Lähetyslokin STT",
         "1": "Säveltaulun Puheentunnistus"
       },
       "title": "Tekoälyn API Avaimet"
@@ -320,6 +321,11 @@
       "verifyButton": "Vahvista mukautettu verkkotunnus",
       "verifyTitle": "Vahvista verkkotunnuksesi"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "komponenttien siirtämiseen"
+      }
+    },
     "customizeMenu": {
       "ai": "AI",
       "channelsGroups": "Kanavat & ryhmät",
@@ -339,6 +345,10 @@
     "deleteServer": "Poista Yhteisö",
     "deleteSuccess": "Palvelimesi poistettiin onnistuneesti",
     "dispatchTab": "Lähetys",
+    "emergency911": {
+      "title": "Hätäpuhelu",
+      "waitingDispatcher": "Odotetaan, että päivystäjä vastaa..."
+    },
     "errImport": "SAPR-konfiguraatiosi tuonnissa tapahtui odottamaton virhe.",
     "errImportNotFound": "SAPR-konfiguraatiota ei löytynyt TeamSpeak UID-laitteesi.",
     "errSaveInfo": "Palvelimesi tietojen tallennuksessa tapahtui odottamaton virhe.",
@@ -346,6 +356,13 @@
     "errUidTaken": "TeamSpeak-palvelimen UID on jo käytössä toisella valtuutetulla palvelimella.",
     "errUnauthorize": "Palvelimesi valtuutuksen poistossa tapahtui odottamaton virhe.",
     "explainOwnerOnly": "Vain omistaja voi muuttaa tätä asetusta",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Kartan rajat (pikselit)",
+        "uploadSuccess": "{count} karttakuvan lataus onnistui."
+      },
+      "degradeZones": "Heikennä vyöhykkeitä"
+    },
     "guidesLink": "Sonoran Radio Tiedot & Oppaat",
     "importSAPR": {
       "btn": "Tuo SAPR-konfiguraatio",
@@ -376,10 +393,10 @@
       "removeWarnSelfMsg": "Oletko varma, että haluat poistaa itsesi tältä serveriltä? Menetät pääsyn ja palvelimen omistajan on lisättävä sinut takaisin.",
       "removeWarnSubHolderMsg": "Tilauksen haltijan poistaminen alentaa tämän palvelimen ilmaiseen! Oletko varma, että haluat jatkaa?",
       "search": "Hae",
-      "selectPrivateChannels": "Valitse yksityiset kanavat, joihin käyttäjällä on oikeus liittyä",
+      "selectPrivateChannels": "Valitse yksityiset kanavat, joihin käyttäjä saa liittyä",
       "setDisplayName": "Aseta näyttönimi",
       "subOwner": "Tilauksen Haltija",
-      "subtitle": "Hallitse käyttäjien oikeuksia ja pääsyä yhteisössäsi.",
+      "subtitle": "Hallitse käyttäjien käyttöoikeuksia ja pääsyä yhteisössäsi.",
       "title": "Yhteisön jäsenet",
       "traits": "Ominaisuudet",
       "username": "Käyttäjänimi"
@@ -488,7 +505,7 @@
       "dialogEditTitleStandalone": "Muokkaa Kanavaa",
       "dialogSubtitle": "Profiili on ennalta asetettu taajuusasetuksia, joka mahdollistaa helpon siirtymisen tiettyjen taajuuksien välillä ilman, että tarvitsee syöttää jokainen taajuus manuaalisesti. Tässä voit asettaa Näyttönimen (vapaaehtoinen), Vastaanotetaajuuden (pakollinen), Lähetystaajuuden (vapaaehtoinen) ja onko Lähetystaajuus toistettu.",
       "displayName": "Näyttönimi",
-      "displayNameInput": "Näyttönimi - Pakollinen",
+      "displayNameInput": "Näyttönimi - pakollinen",
       "editGroup": "Muokkaa ryhmää",
       "errDelete": "Profiilin poistamisessa tapahtui odottamaton virhe.",
       "errReenable": "Profiilin uudelleenaktivoimisessa tapahtui odottamaton virhe.",
@@ -504,7 +521,7 @@
       "recvFreq": "Vastaanotetaajuus",
       "recvFreqTooltip": "Taajuus, jota käytetään viestien vastaanottamiseen. Tämä on vain estetiikkaa radion käyttöliittymässä.",
       "reorder": "Järjestä Profiilit",
-      "reorderStandalone": "Järjestä Kanavat",
+      "reorderStandalone": "Järjestä kanavat uudelleen",
       "repeatsXmit": "Toistaa Lähetystaajuus",
       "setAsDefault": "Aseta Oletusprofiiliksi",
       "sharedTooltip": "Jaetut kanavat heijastavat toisen linkitetyn kanavan käytön ja taajuudet. Kumpaan tahansa liittyminen antaa pääsyn samaan viestintävirtaan.",
@@ -530,6 +547,9 @@
     "saveServer": "Tallenna Palvelin",
     "serverInfo": {
       "addServer": "Lisää palvelin",
+      "cadPrompts": {
+        "subtitle": "Mukautetut fraasit, jotka auttavat Dispatch AI:ta yhdistämään pyynnöt CAD-/radiotoimintoihin."
+      },
       "columns": {
         "actions": "Toiminnot",
         "id": "ID",
@@ -551,7 +571,7 @@
       "keyUpDelay": "Näppäimen Aktivointi Viive",
       "keyUpDelayDesc": "Viive lähetyksen päättymisen jälkeen ennen kuin mikrofoni vapautetaan.",
       "muteScannedWhileTransmitting": "Mykistä Skannattu Lähetyksen Aikana",
-      "muteScannedWhileTransmittingDesc": "Mykistä skannatut kanavat, kun lähetyt kanavalla.",
+      "muteScannedWhileTransmittingDesc": "Mykistä skannatut kanavat lähetettäessä kanavalla.",
       "sirenVolume": "Sireenin Äänenvoimakkuus",
       "sirenVolumeDesc": "Kun pelin sisäinen sireeni on aktivoitu, lisää/vähennä äänenvoimakkuutta.",
       "subtitle": "Määritä yhteisösi oletusasetukset. Käyttäjät voivat henkilökohtaistaa omat preferenssinsä, mutta nämä toimivat aloitusasetuksina.",
@@ -617,12 +637,12 @@
     "description": "Sonoran Radion maksulliset tilaukset tarjoavat pääsyn edistyneisiin ominaisuuksiin, mukauttamismahdollisuuksiin, lisääntyneisiin rajoituksiin ja paljon muuta!",
     "dispatchPanel": "Lähetyspaneeli",
     "dispatchPanelDescription": "TeamSpeak-dialogi, joka antaa sinun muuttaa radiosi tai toisten radioten asetukset.",
-    "fivemRadio": "FiveM Käsiradio",
+    "fivemRadio": "FiveM-käsiradio",
     "fivemRadioDescription": "FiveM käsiradio antaa sinun muuttaa taajuuksiasi, skannauslistaa ja muita radioasetuksia",
     "fivemTowerDestruction": "FiveM Tornin Tuhoaminen",
     "fivemTowerDestructionDescription": "(Valinnainen) pelin kyky tuhota fyysiset tornit vahingoittamaan radiovastaanottoa.",
     "fivemTowers": "FiveM Fyysiset Tornit",
-    "fivemTowersDescription": "Tornit simuloivat vastaanottoa fyysiselle tornille matkan perusteella. Paikat ja alueet ovat mukautettavissa.",
+    "fivemTowersDescription": "Tornit simuloivat vastaanottoa fyysiseen torniin etäisyytesi perusteella. Sijainnit ja kantamat ovat muokattavissa.",
     "howToPurchase": "Miten Ostaa",
     "monthCostDescription": "Kuukausittaisen tilauspaketin hinta.",
     "onlyOnStatewide": "Vain sallittua valtionlaajuisilla taajuuksilla.",
@@ -663,12 +683,13 @@
     "multiXmit": "CTRL + Klikkaa Monilähetys",
     "muteScan": "Mykistä {0}",
     "openInNewWindow": "Avaa uuteen ikkunaan",
-    "openUserList": "Open User List",
+    "openUserList": "Avaa käyttäjälista -päällekkäisikkuna",
     "recvFreq": "VASTAANOTA: {0}MHz",
     "scanList": "Skannauslista",
     "selectServer": "Valitse palvelin",
     "setHotkeyFor": "Aseta pikanäppäin {0}",
     "settingsDialog": {
+      "advanced": "Kehittynyt",
       "audioTab": "Ääni",
       "automaticGainControlDisabled": "Automaattinen voitonhallinta on poissa käytöstä",
       "automaticGainControlEnabled": "Automaattinen voitonhallinta on käytössä",
@@ -682,7 +703,7 @@
       "escapeModeXmit": "LÄHETYS (PTT)",
       "escapeModeXmitTooltip": "Radio suljetaan ESC-painikkeella, mutta on näkyvissä lähetyksen aikana",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Kuule Skannattu Lähetyksen Aikana",
+      "hearScannedWhileXmit": "Kuuntele skannattuja lähetettäessä",
       "hotkeysTab": "Pikanäppäimet",
       "keydownSfx": "Näppäin SFX",
       "keyupSfx": "Päivitä SFX",
@@ -692,7 +713,7 @@
       "myPttSfx": "Minun PTT Äänitehoste",
       "othersPttSfx": "Toisten PTT Äänitehoste",
       "pttOffDelay": "PTT-viive",
-      "resetPeerVolumes": "Nollaa Verkkokumppanien Äänenvoimakkuudet",
+      "resetPeerVolumes": "Nollaa vertaisäänenvoimakkuudet",
       "resetSettings": "Nollaa Asetukset",
       "selectRadioFrame": "Radion Kehys",
       "sfxTab": "Äänitehosteet",
@@ -761,18 +782,18 @@
     "verifyPassword": "Vahvista salasana"
   },
   "splash": {
-    "feats": "Täydellinen henkilöstön väliselle tekstiviestinnälle ja Sonoran CAD -integraatiolle, Sonoran Radio antaa täysin varustellut viestintälaitteet suoraan pelin sisäisten henkilöstösi ja lähetyhjiesi käsiin. Kokeile ilmaiseksi tänään!",
+    "feats": "Täydennä henkilöstön välisellä tekstiviestinnällä ja Sonoran CAD\n      -integraatiolla, Sonoran Radio tuo monipuoliset viestintälaitteet\n      suoraan pelinsisäisten henkilöstön ja päivystäjien käsiin. Kokeile sitä\n      ilmaiseksi tänään!",
     "getStarted": "Aloita Tänään",
     "introducing": "Esittelyssä",
     "learnMore": "Lisätietoja",
-    "marketExplain": "Julkisessa turvallisuudessa yksinkertaisuus ja luotettavuus ovat tärkeitä kommunikaatiojärjestelmän valinnassa. Sonoran Radio tarjoaa markkinoiden kattavimman ja monipuolisimman viestintäjärjestelmän. Tämä uusi radiolähetysjärjestelmä hyödyntää huipputeknologiaa, tarjoamalla sekä simplex- että duplex-konfiguraatiot, pilvipohjaiset ohjelmoinnit ja skaalautuvan, toistimeen perustuvan radion verkoston.",
-    "toPortal": "Siirry Portaalin"
+    "marketExplain": "Julkisessa turvallisuudessa yksinkertaisuus ja luotettavuus ovat olennaisia viestintäjärjestelmää valittaessa. Sonoran Radio tarjoaa markkinoiden kattavimman ja monipuolisimman viestintäjärjestelmän. Tässä uudessa radiojärjestelmässä on huippuluokan teknologiaa, joka tarjoaa sekä simplex- että duplex-kokoonpanot, pilvipohjaisen ohjelmoinnin ja skaalautuvan, toistimiin perustuvan radioverkon.",
+    "toPortal": "Siirry portaaliin"
   },
   "standalone": {
     "desktop": {
       "downloadFile": "Lataa tiedosto",
       "emergencyCalls": "Hätäpuhelut (911)",
-      "noEmergencyCalls": "Ei hätäpuheluita!",
+      "noEmergencyCalls": "Ei hätäpuheluja!",
       "noTransmissions": "Ei lähetyksiä löytynyt",
       "playAudio": "Toista ääni",
       "redial": "Soita uudelleen {name}"

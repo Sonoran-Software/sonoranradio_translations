@@ -42,7 +42,7 @@
       "possibleDataLoss": "Ved overføring eller fjerning av abonnementet kan tap av data på den forrige serveren oppstå.",
       "remove": "Er du sikker på at du vil fjerne denne serveren fra abonnementet ditt?",
       "set": "Er du sikker på at du vil sette denne serveren for abonnementet ditt?",
-      "title": "Endre Abonnement",
+      "title": "Bytt Abonnement",
       "transfer": "Er du sikker på at du vil overføre dette abonnementet til en annen server?"
     },
     "errCheck": "En uventet feil oppsto under sjekking av abonnementet ditt",
@@ -122,7 +122,7 @@
     "username": "Brukernavn"
   },
   "config": {
-    "displayName": "Engelsk (USA)"
+    "displayName": "Engelsk (US)"
   },
   "error404": {
     "goHome": "Gå hjem",
@@ -140,7 +140,7 @@
       "invalidEmail": "Den oppgitte e-postadressen er ikke gyldig, vennligst bruk en annen e-postadresse.",
       "invalidPassword": "Ugyldig passord",
       "noEmail": "Ingen e-post spesifisert.",
-      "noPassword": "Ingen passord spesifisert.",
+      "noPassword": "Ingen passord er angitt.",
       "noUsername": "Ingen brukernavn spesifisert.",
       "passwordNoNumber": "Passordet inneholder ingen tall",
       "passwordNoSymbol": "Passordet inneholder ingen symboler ({'!@#$%^&*'})",
@@ -194,7 +194,7 @@
       "title": "Big-Daddy Radioanimasjoner"
     },
     "Cloud_Configurations": {
-      "desc": "Å tilpasse radioen din har aldri vært enklere, med liveoppdateringer fra det brukervennlige konfigurasjonspanelet vårt.",
+      "desc": "Det har aldri vært enklere å tilpasse radioen din, med direkteoppdateringer fra vårt brukervennlige konfigurasjonspanel.",
       "title": "Skykonfigurasjoner"
     },
     "Customizable_SFX": {
@@ -290,6 +290,7 @@
       "apiInfoHint": "Gi dette til dine medlemmer ved invitasjon til fellesskapet",
       "apiInfoTitle": "API-Informasjon",
       "communityApiKeyField": "Fellesskaps API-nøkkel",
+      "logType": "Type",
       "updateApiKey": "Oppdater API-nøkkel"
     },
     "adminTab": "Administrasjon",
@@ -317,8 +318,13 @@
       "vanityLabel": "Forfengelig URL",
       "vanityTitle": "Gratis Forfengelig URL",
       "verified": "Gratulerer, ditt egendefinerte domene er bekreftet!",
-      "verifyButton": "Bekreft Egendefinert Domene",
+      "verifyButton": "Bekreft egendefinert domene",
       "verifyTitle": "Bekreft domenet ditt"
+    },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "for å flytte komponenter"
+      }
     },
     "customizeMenu": {
       "ai": "AI",
@@ -339,6 +345,10 @@
     "deleteServer": "Slett fellesskap",
     "deleteSuccess": "Serveren din ble slettet",
     "dispatchTab": "Dispatcher",
+    "emergency911": {
+      "title": "Nødanrop",
+      "waitingDispatcher": "Venter på at en operatør skal svare..."
+    },
     "errImport": "En uventet feil oppsto mens SAPR-konfigurasjonen din ble importert.",
     "errImportNotFound": "Ingen SAPR-konfigurasjon ble funnet for din TeamSpeak UID.",
     "errSaveInfo": "En uventet feil oppsto mens serverinformasjonen din ble lagret.",
@@ -346,6 +356,13 @@
     "errUidTaken": "TeamSpeak-server UID er allerede i bruk av en annen autorisert server.",
     "errUnauthorize": "En uventet feil oppsto mens serveren din ble uautorisert.",
     "explainOwnerOnly": "Kun eieren kan endre denne innstillingen",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Kartgrenser (piksler)",
+        "uploadSuccess": "{count} flisbilder lastet opp."
+      },
+      "degradeZones": "Degrader soner"
+    },
     "guidesLink": "Sonoran Radio Informasjon & Guider",
     "importSAPR": {
       "btn": "Importer SAPR-konfig",
@@ -376,10 +393,10 @@
       "removeWarnSelfMsg": "Er du sikker på at du vil fjerne deg selv fra denne serveren? Du vil miste tilgang og servereieren må legge deg til igjen.",
       "removeWarnSubHolderMsg": "Fjerningen av abonnementsholderen vil nedgradere denne serveren til gratis! Er du sikker på at du vil fortsette?",
       "search": "Søk",
-      "selectPrivateChannels": "Velg de private kanalene brukeren kan bli med i",
+      "selectPrivateChannels": "Velg de private kanalene brukeren har lov til å bli med i",
       "setDisplayName": "Angi Visningsnavn",
       "subOwner": "Abonnementsholder",
-      "subtitle": "Administrer brukertillatelser og tilgang i fellesskapet ditt.",
+      "subtitle": "Administrer brukerrettigheter og tilgang i fellesskapet.",
       "title": "Samfunnsmedlemmer",
       "traits": "Egenskaper",
       "username": "Brukernavn"
@@ -489,7 +506,7 @@
       "dialogSubtitle": "En profil er en forhåndsinnstilt frekvensinnstilling for å muliggjøre en enkel overgang mellom spesifikke frekvenser uten behov for å manuelt skrive inn hver frekvens. Her vil du angi visningsnavn (valgfritt), mottaksfrekvens (påkrevd), sendingsfrekvens (valgfritt), og om sendingsfrekvensen vil gjentas.",
       "displayName": "Visningsnavn",
       "displayNameInput": "Visningsnavn - Påkrevd",
-      "editGroup": "Rediger Gruppe",
+      "editGroup": "Rediger gruppe",
       "errDelete": "En uventet feil oppsto mens profilen ble slettet.",
       "errReenable": "En uventet feil oppsto mens profilen ble aktivert igjen.",
       "errSave": "En uventet feil oppsto mens profilen ble lagret.",
@@ -504,7 +521,7 @@
       "recvFreq": "Mottak Frekvens",
       "recvFreqTooltip": "Frekvens for å motta overføringer. Dette er kun for estetikk i radioUI.",
       "reorder": "Omorganiser Profiler",
-      "reorderStandalone": "Omorganiser Kanaler",
+      "reorderStandalone": "Endre rekkefølgen på kanaler",
       "repeatsXmit": "Gjenta Sendingsfrekvens",
       "setAsDefault": "Sett som Standardprofil",
       "sharedTooltip": "Delte kanaler speiler tilgangen og frekvensene til en annen koblet kanal. Tilkobling til en av dem gir tilgang til samme kommunikasjonsstrøm.",
@@ -530,6 +547,9 @@
     "saveServer": "Lagre server",
     "serverInfo": {
       "addServer": "Legg til Server",
+      "cadPrompts": {
+        "subtitle": "Egendefinerte fraser som hjelper Dispatch AI med å koble forespørsler til CAD-/radiofunksjoner."
+      },
       "columns": {
         "actions": "Handlinger",
         "id": "ID",
@@ -551,7 +571,7 @@
       "keyUpDelay": "Key Up forsinkelse",
       "keyUpDelayDesc": "Forsinkelse etter avsluttet sending før mikrofonen frigjøres.",
       "muteScannedWhileTransmitting": "Demp skannet under sending",
-      "muteScannedWhileTransmittingDesc": "Demp skannede kanaler mens du sender på en kanal.",
+      "muteScannedWhileTransmittingDesc": "Demp skannede kanaler under sending på en kanal.",
       "sirenVolume": "Sirenvolum",
       "sirenVolumeDesc": "Når sirenen er aktivert i spillet, legg til/trekk fra volumet.",
       "subtitle": "Konfigurer standardinnstillingene for fellesskapet ditt. Brukere kan tilpasse sine egne preferanser, men dette vil tjene som startstandarder.",
@@ -565,7 +585,7 @@
     "transfer": {
       "cancel": "Avbryt",
       "confirmInstruction": "Skriv {code} for å bekrefte overføringen (skille mellom store og små bokstaver)",
-      "confirmLabel": "Bekreft Overføring",
+      "confirmLabel": "Bekreft overføring",
       "ok": "Ok",
       "requestCreatedMsg": "Overføringen er ikke gjort ennå! En e-post er sendt til deg for ekstra bekreftelse",
       "requestCreatedTitle": "Overføringsforespørsel Opprettet",
@@ -617,12 +637,12 @@
     "description": "Sonoran Radios betalte abonnementer gir deg tilgang til avanserte funksjoner, tilpasning, økte grenser og mer!",
     "dispatchPanel": "Dispatcher Panel",
     "dispatchPanelDescription": "TeamSpeak-dialogen som lar deg endre innstillingene for radioen din eller radioene til andre.",
-    "fivemRadio": "FiveM Håndholdt Radio",
+    "fivemRadio": "FiveM håndholdt radio",
     "fivemRadioDescription": "FiveM håndholdt radio lar deg endre frekvenser, skanneliste og andre radioinnstillinger",
     "fivemTowerDestruction": "FiveM Tårn Destruksjon",
     "fivemTowerDestructionDescription": "Den (valgfri) muligheten for spillere til å ødelegge fysiske tårn for å skade radiomottakelsen.",
     "fivemTowers": "FiveM Fysiske Tårn",
-    "fivemTowersDescription": "Tårn simulerer mottakelse til et fysisk tårn, basert på avstanden din. Plasseringer og rekkevidder er tilpassbare.",
+    "fivemTowersDescription": "Tårn simulerer mottak til et fysisk tårn, basert på avstanden din. Plasseringer og rekkevidder kan tilpasses.",
     "howToPurchase": "Hvordan kjøpe",
     "monthCostDescription": "Kostnaden for vår månedlige abonnementsplan.",
     "onlyOnStatewide": "Kun tillatt på statlige frekvenser.",
@@ -663,12 +683,13 @@
     "multiXmit": "CTRL + Klikk Multi-SEND",
     "muteScan": "Demp {0}",
     "openInNewWindow": "Åpne i nytt vindu",
-    "openUserList": "Open User List",
+    "openUserList": "Åpne brukerlisten som overlegg",
     "recvFreq": "MOTT: {0}MHz",
     "scanList": "Skanneliste",
     "selectServer": "Velg server",
     "setHotkeyFor": "Sett hurtigtast for {0}",
     "settingsDialog": {
+      "advanced": "Avansert",
       "audioTab": "Lyd",
       "automaticGainControlDisabled": "Automatisk forsterkningskontroll deaktivert",
       "automaticGainControlEnabled": "Automatisk forsterkningskontroll aktivert",
@@ -682,7 +703,7 @@
       "escapeModeXmit": "XMIT (PTT)",
       "escapeModeXmitTooltip": "Radioen lukkes under ESC, men er synlig når den sender",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Høre skannet under sending",
+      "hearScannedWhileXmit": "Hør skannet under sending",
       "hotkeysTab": "Hurtigtaster",
       "keydownSfx": "Keydown SFX",
       "keyupSfx": "Keyup SFX",
@@ -692,7 +713,7 @@
       "myPttSfx": "Min PTT SFX",
       "othersPttSfx": "Andres PTT SFX",
       "pttOffDelay": "PTT-av forsinkelse",
-      "resetPeerVolumes": "Tilbakestill kollegaers volum",
+      "resetPeerVolumes": "Tilbakestill volum for jevnaldrende",
       "resetSettings": "Tilbakestill innstillinger",
       "selectRadioFrame": "Radio Frame",
       "sfxTab": "SFX",
@@ -761,11 +782,11 @@
     "verifyPassword": "Bekreft passord"
   },
   "splash": {
-    "feats": "Med internmelding mellom personale og Sonoran CAD-integrasjon leverer Sonoran Radio fullt utrustede kommunikasjonsenheter rett i hendene på ditt spillpersonell og dispatchere. Prøv det gratis i dag!",
+    "feats": "Fullført med tekstmeldinger mellom personell og Sonoran CAD\n      integrasjon, setter Sonoran Radio fullt utstyrte kommunikasjonsenheter\n      direkte i hendene på ditt personell og dine operatører i spillet. Prøv det\n      gratis i dag!",
     "getStarted": "Kom i gang i dag",
     "introducing": "Introduksjon",
     "learnMore": "Lær mer",
-    "marketExplain": "I offentlig sikkerhet er enkelhet og pålitelighet essensielt når man velger et kommunikasjonssystem. Sonoran Radio tilbyr det mest omfattende og altomfattende kommunikasjonssystemet på markedet i dag. Dette nye radiosystemet har banebrytende teknologi, som tilbyr både simplex- og duplex-konfigurasjoner, skybasert programmering og et skalerbart, repeaterdrevet radionettverk.",
+    "marketExplain": "I offentlig sikkerhet er enkelhet og pålitelighet avgjørende når man velger\n      et kommunikasjonssystem. Sonoran Radio tilbyr det mest omfattende\n      og altomfattende kommunikasjonssystemet på markedet i dag. Dette nye\n      radiosystemet har banebrytende teknologi, og tilbyr både simplex- og\n      duplexkonfigurasjoner, skybasert programmering og et skalerbart,\n      repeaterdrevet radionettverk.",
     "toPortal": "Gå til portal"
   },
   "standalone": {

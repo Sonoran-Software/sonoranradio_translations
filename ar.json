@@ -77,7 +77,7 @@
   },
   "common": {
     "account": "حساب",
-    "actions": "الإجراءات",
+    "actions": "إجراءات",
     "add": "إضافة",
     "billing": "الفوترة",
     "cancel": "إلغاء",
@@ -99,7 +99,7 @@
     "menu": "قائمة",
     "miscServer": "الخادم {id}",
     "needsInteger": "يجب أن يكون رقمًا صحيحًا",
-    "notApplicable": "غير متوفر",
+    "notApplicable": "غير متاح",
     "only": "{0} فقط",
     "password": "كلمة المرور",
     "plans": {
@@ -125,7 +125,7 @@
     "displayName": "الإنجليزية (الولايات المتحدة)"
   },
   "error404": {
-    "goHome": "اذهب إلى المنزل",
+    "goHome": "العودة إلى الصفحة الرئيسية",
     "message": "عذرًا. لا يوجد شيء هنا..."
   },
   "errors": {
@@ -140,7 +140,7 @@
       "invalidEmail": "البريد الإلكتروني المحدد ليس عنوان بريد إلكتروني صالح، يرجى استخدام عنوان بريد إلكتروني آخر.",
       "invalidPassword": "كلمة مرور غير صالحة",
       "noEmail": "لم يتم تحديد البريد الإلكتروني.",
-      "noPassword": "لم يتم تحديد كلمة المرور.",
+      "noPassword": "لم يتم تحديد كلمة مرور.",
       "noUsername": "لم يتم تحديد اسم المستخدم.",
       "passwordNoNumber": "كلمة المرور لا تحتوي على أي رقم",
       "passwordNoSymbol": "كلمة المرور لا تحتوي على أي رمز ({'!@#$%^&*'})",
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "اذهب إلى {link} في المتصفح لتسجيل الدخول",
-    "loginWithCode": "تسجيل الدخول برمز",
+    "loginWithCode": "تسجيل الدخول بالرمز",
     "refresh": "تحديث",
     "unlink": "فصل"
   },
@@ -194,7 +194,7 @@
       "title": "Big-Daddy Radio Animations"
     },
     "Cloud_Configurations": {
-      "desc": "لم يكن تخصيص راديوك أسهل من أي وقت مضى، مع التحديثات الحية من لوحة التكوين سهلة الاستخدام.",
+      "desc": "لم يكن تخصيص راديوك أسهل من قبل، مع التحديثات المباشرة من لوحة التكوين سهلة الاستخدام لدينا.",
       "title": "التكوينات السحابية"
     },
     "Customizable_SFX": {
@@ -290,13 +290,14 @@
       "apiInfoHint": "أعط هذا لأعضاءك عند دعوتهم إلى المجتمع",
       "apiInfoTitle": "معلومات API",
       "communityApiKeyField": "مفتاح API الخاص بالمجتمع",
+      "logType": "نوع",
       "updateApiKey": "تحديث مفتاح API"
     },
     "adminTab": "الإدارة",
     "ai": {
       "addKey": "إضافة مفتاح AI",
       "services": {
-        "0": "تسجيلات نقل STT",
+        "0": "سجل الإرسال STT",
         "1": "Tone Board STT"
       },
       "title": "مفاتيح API للذكاء الاصطناعي"
@@ -320,6 +321,11 @@
       "verifyButton": "تحقق من النطاق المخصص",
       "verifyTitle": "تحقق من نطاقك"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "لنقل المكوّنات"
+      }
+    },
     "customizeMenu": {
       "ai": "الذكاء الاصطناعي",
       "channelsGroups": "القنوات والمجموعات",
@@ -339,6 +345,10 @@
     "deleteServer": "حذف المجتمع",
     "deleteSuccess": "تم حذف الخادم بنجاح",
     "dispatchTab": "الإرسال",
+    "emergency911": {
+      "title": "مكالمة طوارئ",
+      "waitingDispatcher": "في انتظار إجابة المُرسِل..."
+    },
     "errImport": "حدث خطأ غير متوقع أثناء استيراد إعدادات SAPR الخاصة بك.",
     "errImportNotFound": "لم يتم العثور على إعدادات SAPR لخادم TeamSpeak UID الخاص بك.",
     "errSaveInfo": "حدث خطأ غير متوقع أثناء حفظ معلومات الخادم الخاص بك.",
@@ -346,6 +356,13 @@
     "errUidTaken": "معرف خادم TeamSpeak مستخدم بالفعل بواسطة خادم آخر مفوض.",
     "errUnauthorize": "حدث خطأ غير متوقع أثناء إلغاء تفويض الخادم الخاص بك.",
     "explainOwnerOnly": "فقط المالك يمكنه تغيير هذا الإعداد",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "حدود الخريطة (بكسل)",
+        "uploadSuccess": "تم تحميل {count} صورة من البلاط بنجاح."
+      },
+      "degradeZones": "تقليل المناطق"
+    },
     "guidesLink": "دليل معلومات Sonoran Radio",
     "importSAPR": {
       "btn": "استيراد إعدادات SAPR",
@@ -379,7 +396,7 @@
       "selectPrivateChannels": "حدد القنوات الخاصة التي يُسمح للمستخدم بالانضمام إليها",
       "setDisplayName": "تعيين اسم العرض",
       "subOwner": "مالك الاشتراك",
-      "subtitle": "إدارة أذونات المستخدم والوصول في مجتمعك.",
+      "subtitle": "إدارة أذونات المستخدمين والوصول في مجتمعك.",
       "title": "أعضاء المجتمع",
       "traits": "السمات",
       "username": "اسم المستخدم"
@@ -531,6 +548,7 @@
     "serverInfo": {
       "addServer": "إضافة خادم",
       "cadPrompts": {
+        "subtitle": "عبارات مخصصة لمساعدة Dispatch AI على ربط الطلبات بوظائف CAD/Radio.",
         "tools": {
           "getRecentCadEvents": {
             "hint": "أمثلة: \"ما آخر مكالمة\"، \"حالة ذعر حديثة\"، \"تلك المكالمة\""
@@ -558,7 +576,7 @@
       "keyUpDelay": "تأخير الرفع",
       "keyUpDelayDesc": "التأخير بعد انتهاء الإرسال قبل تحرير الميكروفون.",
       "muteScannedWhileTransmitting": "كتم المسح الضوئي أثناء الإرسال",
-      "muteScannedWhileTransmittingDesc": "كتم القنوات الممسوحة أثناء الإرسال على قناة.",
+      "muteScannedWhileTransmittingDesc": "كتم القنوات الممسوحة ضوئيًا أثناء الإرسال على قناة.",
       "sirenVolume": "مستوى صوت الصفارة",
       "sirenVolumeDesc": "عندما يتم تنشيط صفارة الإنذار في اللعبة، يمكنك إضافة/طرح إلى مستوى الصوت.",
       "subtitle": "قم بتكوين الإعدادات الافتراضية لمجتمعك. يمكن للمستخدمين تخصيص تفضيلاتهم الخاصة، ولكن هذه ستكون نقطة البدء الافتراضية.",
@@ -587,7 +605,7 @@
     "voiceCustomization": {
       "header": "تخصيص الصوت",
       "input": "إدخال",
-      "name": "اسم",
+      "name": "الاسم",
       "signalStrength": "قوة الإشارة",
       "subheader": "خصص تأثيرات الصوت الراديوية لمجتمعك.",
       "useForEmergency": "استخدام لمكالمات الطوارئ",
@@ -629,7 +647,7 @@
     "fivemTowerDestruction": "تدمير أبراج FiveM",
     "fivemTowerDestructionDescription": "القدرة (الاختيارية) للاعبين لتدمير الأبراج المادية للتأثير على إشارة الراديو.",
     "fivemTowers": "أبراج FiveM المادية",
-    "fivemTowersDescription": "تحاكي الأبراج الاستلام على برج مادي بناءً على المسافة. المواقع والمدى قابلة للتخصيص.",
+    "fivemTowersDescription": "تحاكي الأبراج الاستقبال إلى برجٍ فعلي، بناءً على بُعدك. المواقع والمديات قابلة للتخصيص.",
     "howToPurchase": "كيفية الشراء",
     "monthCostDescription": "تكلفة حزمة الاشتراك الشهري.",
     "onlyOnStatewide": "مسموح فقط على ترددات الولاية.",
@@ -670,12 +688,13 @@
     "multiXmit": "CTRL + Click XMIT المتعدد",
     "muteScan": "كتم {0}",
     "openInNewWindow": "فتح في نافذة جديدة",
-    "openUserList": "Open User List",
+    "openUserList": "فتح طبقة قائمة المستخدمين",
     "recvFreq": "RECV: {0}MHz",
     "scanList": "قائمة المسح",
     "selectServer": "حدد الخادم",
     "setHotkeyFor": "تعيين مفتاح اختصار لـ {0}",
     "settingsDialog": {
+      "advanced": "متقدم",
       "audioTab": "الصوت",
       "automaticGainControlDisabled": "التحكم التلقائي في الكسب معطل",
       "automaticGainControlEnabled": "التحكم التلقائي في الكسب مفعل",
@@ -689,7 +708,7 @@
       "escapeModeXmit": "XMIT (PTT)",
       "escapeModeXmitTooltip": "يغلق الراديو عند الضغط على ESC، لكنه مرئي عند الإرسال",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "استمع أثناء المسح الضوئي عند الإرسال",
+      "hearScannedWhileXmit": "سماع الممسوحة ضوئيًا أثناء الإرسال",
       "hotkeysTab": "مفاتيح اختصار",
       "keydownSfx": "تأثيرات صوتية للإيقاف",
       "keyupSfx": "تأثيرات صوتية للتشغيل",
@@ -699,7 +718,7 @@
       "myPttSfx": "تأثيرات صوتية لـ My PTT",
       "othersPttSfx": "تأثيرات صوتية لـ PTT الآخرين",
       "pttOffDelay": "تأخير إيقاف PTT",
-      "resetPeerVolumes": "إعادة تعيين مستويات الصوت الزملاء",
+      "resetPeerVolumes": "إعادة تعيين أحجام الأقران",
       "resetSettings": "إعادة تعيين الإعدادات",
       "selectRadioFrame": "إطار الراديو",
       "sfxTab": "تأثيرات صوتية",
@@ -744,7 +763,7 @@
     "errExists": "رقم تعريف خادم TeamSpeak المقدم موجود بالفعل على خادم موثوق به، يرجى استخدام رقم تعريف خادم TS آخر",
     "errUnknown": "حدث خطأ أثناء محاولة الحصول على معلومات الخادم، يرجى المحاولة مرة أخرى لاحقًا.",
     "registerAStandServer": "تسجيل مجتمع",
-    "registerAStandServerDesc": "سجل مجتمعك لاستخدام Sonoran Radio.",
+    "registerAStandServerDesc": "سجّل مجتمعك لاستخدام Sonoran Radio.",
     "registerATSServer": "تسجيل خادم TeamSpeak",
     "registerATSServerDesc": "سجل خادم TeamSpeak الخاص بك للسماح لخادمك باستخدام مكون Sonoran Radio TeamSpeak الإضافي.",
     "submit": "تسجيل الخادم"
@@ -768,18 +787,18 @@
     "verifyPassword": "تحقق من كلمة المرور"
   },
   "splash": {
-    "feats": "كاملة مع الرسائل النصية بين الأفراد وتكامل Sonoran CAD، تضع Sonoran Radio أجهزة الاتصالات المتكاملة في أيدي أفرادك والمراسلة داخل اللعبة. جربها مجانًا اليوم!",
+    "feats": "اكتمل مع مراسلة نصية بين الأفراد ودمج Sonoran CAD\n      يضع Sonoran Radio أجهزة اتصالات متكاملة الميزات\n      مباشرة في أيدي أفراد اللعبة والمُرسلين. جرّبه\n      مجانًا اليوم!",
     "getStarted": "ابدأ اليوم",
     "introducing": "تقديم",
     "learnMore": "تعرف على المزيد",
-    "marketExplain": "في السلامة العامة، البساطة والموثوقية أساسيتان عند اختيار نظام الاتصال. توفر Sonoran Radio نظام الاتصال الأكثر شمولاً وتكاملًا في السوق اليوم. يتميز هذا النظام الراديو بتكنولوجيا متقدمة، توفر تكوينات سمبلكس ودوبلكس، والبرمجة المستندة إلى السحابة، وشبكة راديوية قابلة للتوسع ومدعومة بالمكررات.",
+    "marketExplain": "في مجال السلامة العامة، البساطة والموثوقية ضروريتان عند اختيار\n      نظام اتصال. يوفر Sonoran Radio نظام الاتصال الأكثر شمولاً\n      وتكاملاً في السوق اليوم. يتميز هذا\n      النظام اللاسلكي الجديد بتقنية متطورة، ويوفر تكوينات simplex و\n      duplex، وبرمجة قائمة على السحابة، وشبكة لاسلكية قابلة للتوسع،\n      وتعتمد على المُكرِّر.",
     "toPortal": "الذهاب إلى البوابة"
   },
   "standalone": {
     "desktop": {
       "downloadFile": "تنزيل ملف",
       "emergencyCalls": "مكالمات الطوارئ (911)",
-      "noEmergencyCalls": "لا توجد مكالمات طوارئ!",
+      "noEmergencyCalls": "لا مكالمات طوارئ!",
       "noTransmissions": "لم يتم العثور على عمليات نقل",
       "playAudio": "تشغيل الصوت",
       "redial": "إعادة الاتصال {name}"
@@ -797,6 +816,6 @@
   },
   "upgradePromo": {
     "goProToday": "ترقية إلى برو",
-    "learnMore": "تعلم المزيد"
+    "learnMore": "تعرف على المزيد"
   }
 }

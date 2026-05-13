@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "コミュニティを退去中に予期しないエラーが発生しました。",
-    "leaveMsg": "この Sonoran Radio コミュニティを退去してもよろしいですか？",
+    "leaveMsg": "この Sonoran Radio Community から退出してもよろしいですか？",
     "subtitle": "{serverName}で Sonoran Radio を使用する前に、サーバー所有者またはコミュニティ管理者からの承認が必要です。承認を待ってください。",
     "subtitleShort": "このコミュニティで Sonoran Radio を使用する前に、コミュニティスタッフからの承認が必要です",
     "title": "承認待ちです"
@@ -92,7 +92,7 @@
     "help": "ヘルプ",
     "language": "言語",
     "learnMore": "詳細を学ぶ",
-    "limited": "限定",
+    "limited": "制限付き",
     "login": "ログイン",
     "logout": "ログアウト",
     "management": "管理",
@@ -122,10 +122,10 @@
     "username": "ユーザー名"
   },
   "config": {
-    "displayName": "英語 (US)"
+    "displayName": "英語 (米国)"
   },
   "error404": {
-    "goHome": "ホームに行く",
+    "goHome": "ホームへ戻る",
     "message": "おっと。何もありません..."
   },
   "errors": {
@@ -194,7 +194,7 @@
       "title": "ビッグダディラジオアニメーション"
     },
     "Cloud_Configurations": {
-      "desc": "使いやすい設定パネルからのライブ更新で、無線機をカスタマイズするのがかつてなく簡単になりました。",
+      "desc": "ラジオのカスタマイズが、使いやすい設定パネルからのリアルタイム更新で、これまでになく簡単になりました。",
       "title": "クラウド設定"
     },
     "Customizable_SFX": {
@@ -290,13 +290,14 @@
       "apiInfoHint": "コミュニティに招待する際にメンバーにお渡しください",
       "apiInfoTitle": "API情報",
       "communityApiKeyField": "コミュニティAPIキー",
+      "logType": "タイプ",
       "updateApiKey": "APIキーを更新"
     },
     "adminTab": "管理",
     "ai": {
       "addKey": "AI キーを追加",
       "services": {
-        "0": "送信ログSTT",
+        "0": "送信ログ STT",
         "1": "トーンボードSTT"
       },
       "title": "AI API キー"
@@ -320,6 +321,11 @@
       "verifyButton": "カスタムドメインを確認",
       "verifyTitle": "ドメインを確認"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "コンポーネントを移動するには"
+      }
+    },
     "customizeMenu": {
       "ai": "AI",
       "channelsGroups": "チャンネル＆グループ",
@@ -339,6 +345,10 @@
     "deleteServer": "コミュニティを削除",
     "deleteSuccess": "サーバーが成功裏に削除されました",
     "dispatchTab": "ディスパッチ",
+    "emergency911": {
+      "title": "緊急コール",
+      "waitingDispatcher": "応答待ちのディスパッチャーを待機中..."
+    },
     "errImport": "SAPR設定のインポート中に予期しないエラーが発生しました",
     "errImportNotFound": "TeamSpeak UID に SAPR 設定が見つかりませんでした。",
     "errSaveInfo": "サーバー情報の保存中に予期しないエラーが発生しました",
@@ -346,6 +356,13 @@
     "errUidTaken": "このTeamSpeakサーバー UID は他の認証済サーバーで既に使用されています。",
     "errUnauthorize": "サーバーの承認取り消し中に予期しないエラーが発生しました",
     "explainOwnerOnly": "オーナーのみがこの設定を変更できます",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "地図範囲（ピクセル）",
+        "uploadSuccess": "{count} 枚のタイル画像が正常にアップロードされました。"
+      },
+      "degradeZones": "ゾーンをダウングレード"
+    },
     "guidesLink": "Sonoran Radio情報とガイド",
     "importSAPR": {
       "btn": "SAPR設定をインポート",
@@ -376,10 +393,10 @@
       "removeWarnSelfMsg": "このサーバーから自分自身を削除してもよろしいですか？アクセスを失い、サーバー所有者があなたを再度追加しない限りアクセスできません。",
       "removeWarnSubHolderMsg": "サブスクリプションホルダーの削除はこのサーバーを無料にダウングレードします。続行してもよろしいですか？",
       "search": "検索",
-      "selectPrivateChannels": "ユーザーが参加可能なプライベートチャンネルを選択",
+      "selectPrivateChannels": "ユーザーが参加できる非公開チャンネルを選択",
       "setDisplayName": "表示名を設定",
       "subOwner": "サブスクリプションホルダー",
-      "subtitle": "コミュニティのユーザー権限とアクセスを管理します。",
+      "subtitle": "コミュニティ内のユーザー権限とアクセスを管理します。",
       "title": "コミュニティメンバー",
       "traits": "特性",
       "username": "ユーザー名"
@@ -504,7 +521,7 @@
       "recvFreq": "受信周波数",
       "recvFreqTooltip": "送信を受信するための周波数。これはラジオUIの見た目でのみです。",
       "reorder": "プロファイルを再注文",
-      "reorderStandalone": "チャンネルを再注文",
+      "reorderStandalone": "チャンネルを並べ替え",
       "repeatsXmit": "送信周波数を繰り返す",
       "setAsDefault": "デフォルトプロファイルとして設定",
       "sharedTooltip": "共有チャンネルは、リンクされた別のチャンネルのアクセスと周波数をミラーリングします。いずれかに接続すると、同じ通信ストリームにアクセスできます。",
@@ -530,6 +547,9 @@
     "saveServer": "サーバーを保存",
     "serverInfo": {
       "addServer": "サーバーを追加",
+      "cadPrompts": {
+        "subtitle": "Dispatch AIがリクエストをCAD/Radio機能にマッピングするのに役立つカスタムフレーズ。"
+      },
       "columns": {
         "actions": "アクション",
         "id": "ID",
@@ -551,7 +571,7 @@
       "keyUpDelay": "キーアップ遅延",
       "keyUpDelayDesc": "送信を終了してからマイクがリリースされるまでの遅延。",
       "muteScannedWhileTransmitting": "送信時にスキャンをミュート",
-      "muteScannedWhileTransmittingDesc": "チャンネルで送信中にスキャンされたチャンネルをミュートにします。",
+      "muteScannedWhileTransmittingDesc": "送信中にチャンネルでスキャンされたチャンネルをミュート",
       "sirenVolume": "サイレン音量",
       "sirenVolumeDesc": "ゲーム内でサイレンがアクティブな場合に、音量を加減します。",
       "subtitle": "コミュニティのデフォルト設定を設定します。ユーザーは独自の好みに合わせてカスタマイズできますが、これらは開始時のデフォルトとして機能します。",
@@ -565,7 +585,7 @@
     "transfer": {
       "cancel": "キャンセル",
       "confirmInstruction": "譲渡を確認するために{code}をタイプしてください（大文字小文字を区別します）",
-      "confirmLabel": "譲渡を確認",
+      "confirmLabel": "転送を確認",
       "ok": "OK",
       "requestCreatedMsg": "譲渡はまだ完了していません！追加の確認のためにメールが送信されました",
       "requestCreatedTitle": "譲渡リクエストが作成されました",
@@ -617,12 +637,12 @@
     "description": "Sonoran Radio の有料サブスクリプションは、先進の機能、カスタマイズ、限界の拡大などへのアクセスを提供します！",
     "dispatchPanel": "ディスパッチパネル",
     "dispatchPanelDescription": "他人のラジオ設定を変更することができるTeamSpeakダイアログ。",
-    "fivemRadio": "FiveM携帯型ラジオ",
+    "fivemRadio": "FiveM 携帯用ラジオ",
     "fivemRadioDescription": "FiveM携帯型ラジオは、周波数、スキャンリスト、他のラジオ設定を変更可能にします",
     "fivemTowerDestruction": "FiveMタワー破壊",
     "fivemTowerDestructionDescription": " (オプション) プレイヤーが物理的なタワーを破壊し、ラジオ受信を害する能力。",
     "fivemTowers": "FiveM物理タワー",
-    "fivemTowersDescription": "タワーは、距離に基づいて物理的なタワーへのレセプションを模擬します。場所や範囲はカスタマイズ可能です。",
+    "fivemTowersDescription": "タワーは、距離に基づいて物理的なタワーへの受信をシミュレートします。ロケーションと範囲はカスタマイズ可能です。",
     "howToPurchase": "購入方法",
     "monthCostDescription": "当社の月額サブスクリプション パッケージの費用。",
     "onlyOnStatewide": "全州周波数でのみ許可される。",
@@ -663,12 +683,13 @@
     "multiXmit": "CTRL + クリック 複数XMIT",
     "muteScan": "{0} をミュート",
     "openInNewWindow": "新しいウィンドウで開く",
-    "openUserList": "Open User List",
+    "openUserList": "ユーザーリストオーバーレイを開く",
     "recvFreq": "RECV: {0}MHz",
     "scanList": "スキャンリスト",
     "selectServer": "サーバーを選択",
     "setHotkeyFor": "{0} 用ホットキーを設定",
     "settingsDialog": {
+      "advanced": "高度",
       "audioTab": "オーディオ",
       "automaticGainControlDisabled": "自動ゲインコントロールが無効",
       "automaticGainControlEnabled": "自動ゲインコントロールが有効",
@@ -682,7 +703,7 @@
       "escapeModeXmit": "XMIT (PTT)",
       "escapeModeXmitTooltip": "ESC でラジオが閉じる、送信中は表示される",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "送信中にスキャンされたものを聞く",
+      "hearScannedWhileXmit": "送信中にスキャンを聴く",
       "hotkeysTab": "ホットキー",
       "keydownSfx": "キーダウン SFX",
       "keyupSfx": "キーアップ SFX",
@@ -737,7 +758,7 @@
     "errExists": "提供された TeamSpeak サーバー UID は既存の確認済みサーバーに存在します。他の TS サーバー UID を使用してください",
     "errUnknown": "サーバー情報を取得中に不明なエラーが発生しました。後でもう一度お試しください。",
     "registerAStandServer": "コミュニティを登録",
-    "registerAStandServerDesc": "Sonoran Radio を使用するためにコミュニティを登録してください。",
+    "registerAStandServerDesc": "Sonoran Radioを使用するためにコミュニティを登録してください。",
     "registerATSServer": "チームスピークサーバーを登録",
     "registerATSServerDesc": "Sonoran Radio チームスピークプラグインを使用できるように、TeamSpeak サーバーを登録してください。",
     "submit": "サーバーを登録"
@@ -761,18 +782,18 @@
     "verifyPassword": "パスワードを確認"
   },
   "splash": {
-    "feats": "人員間のテキストメッセージングとSonoran CAD 統合を完備した、Sonoran Radio は優れた機能付きの通信デバイスをゲーム内の人員やディスパッチャーの手に直接届けます。今日、無料でお試しください！",
+    "feats": "対人テキストメッセージと Sonoran CAD\n      連携を備えた Sonoran Radio は、フル機能の通信デバイスを\n      ゲーム内の人員とディスパッチャーの手に直接届けます。今すぐ\n      無料でお試しください!",
     "getStarted": "今すぐ始める",
     "introducing": "導入",
     "learnMore": "さらに学ぶ",
-    "marketExplain": "公的安全においては、コミュニケーションシステムを選ぶ際に、シンプルさと信頼性が不可欠です。Sonoran Radio は現在市場で最も包括的で包括的なコミュニケーションシステムを提供しています。この新しいラジオシステムは先尖的な技術を持ち、シンプレックスとデュプレックス両方の構成、クラウドベースのプログラミングとスケーラブルなリピータードリブンのラジオネットワークを提供します。",
-    "toPortal": "ポータルへ進む"
+    "marketExplain": "公共の安全においては、コミュニケーションシステムを選ぶ際に、シンプルさと信頼性が不可欠です。\n      Sonoran Radioは、現在市場で最も包括的でオールインクルーシブなコミュニケーションシステムを提供します。この新しい\n      ラジオシステムは最先端の技術を備え、シンプレックスと\n      デュプレックスの両構成、クラウドベースのプログラミング、そしてスケーラブルな\n      リピーター駆動のラジオネットワークを提供します。",
+    "toPortal": "ポータルへ移動"
   },
   "standalone": {
     "desktop": {
       "downloadFile": "ファイルをダウンロード",
       "emergencyCalls": "緊急（911）通話",
-      "noEmergencyCalls": "緊急通報なし！",
+      "noEmergencyCalls": "緊急通話なし!",
       "noTransmissions": "伝送が見つかりません",
       "playAudio": "オーディオを再生",
       "redial": "{name}に再ダイヤル"
@@ -790,6 +811,6 @@
   },
   "upgradePromo": {
     "goProToday": "プロにアップグレード",
-    "learnMore": "さらに詳しく学ぶ"
+    "learnMore": "さらに学ぶ"
   }
 }

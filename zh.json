@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "离开社区时发生意外错误。",
-    "leaveMsg": "您确定要离开这个 Sonoran Radio 社区吗？",
+    "leaveMsg": "你确定要离开这个 Sonoran Radio 社区吗？",
     "subtitle": "在能够使用 Sonoran Radio 达 {serverName} 之前，您必须得到服务器所有者或社区管理员的批准。请稍等以获得批准。",
     "subtitleShort": "在此社区使用 Sonoran Radio 之前，您必须获得社区工作人员的批准",
     "title": "您正在等待批准"
@@ -122,7 +122,7 @@
     "username": "用户名"
   },
   "config": {
-    "displayName": "简体中文 (中国)"
+    "displayName": "英语（美国）"
   },
   "error404": {
     "goHome": "返回首页",
@@ -140,7 +140,7 @@
       "invalidEmail": "指定的电子邮件不是有效的电子邮件地址，请使用其他电子邮件地址。",
       "invalidPassword": "无效密码",
       "noEmail": "没有指定电子邮件。",
-      "noPassword": "没有指定密码。",
+      "noPassword": "未指定密码。",
       "noUsername": "没有指定用户名。",
       "passwordNoNumber": "密码不包含任何数字",
       "passwordNoSymbol": "密码不包含任何符号（'!@#$%^&*'）",
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "在浏览器中访问 {link} 来登录",
-    "loginWithCode": "使用代码登录",
+    "loginWithCode": "使用验证码登录",
     "refresh": "刷新",
     "unlink": "取消链接"
   },
@@ -194,7 +194,7 @@
       "title": "大佬无线电动画"
     },
     "Cloud_Configurations": {
-      "desc": "通过我们易于使用的配置面板进行实时更新，定制您的广播从未如此简单。",
+      "desc": "通过我们易于使用的配置面板提供实时更新，自定义您的 radio 从未如此简单。",
       "title": "云配置"
     },
     "Customizable_SFX": {
@@ -290,6 +290,7 @@
       "apiInfoHint": "邀请成员加入社区时给予他们",
       "apiInfoTitle": "API 信息",
       "communityApiKeyField": "社区 API 密钥",
+      "logType": "类型",
       "updateApiKey": "更新 API 密钥"
     },
     "adminTab": "管理",
@@ -320,6 +321,11 @@
       "verifyButton": "验证自定义域",
       "verifyTitle": "验证你的域名"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "移动组件"
+      }
+    },
     "customizeMenu": {
       "ai": "AI",
       "channelsGroups": "频道与组",
@@ -339,6 +345,10 @@
     "deleteServer": "删除社区",
     "deleteSuccess": "服务器已成功删除",
     "dispatchTab": "调度",
+    "emergency911": {
+      "title": "紧急呼叫",
+      "waitingDispatcher": "等待调度员接听..."
+    },
     "errImport": "导入 SAPR 配置时发生意外错误。",
     "errImportNotFound": "未找到 TeamSpeak UID 的 SAPR 配置。",
     "errSaveInfo": "保存服务器信息时发生意外错误。",
@@ -346,6 +356,13 @@
     "errUidTaken": "TeamSpeak 服务器 UID 已被另一个授权服务器使用。",
     "errUnauthorize": "撤销授权服务器时发生意外错误。",
     "explainOwnerOnly": "只有所有者可以更改此设置",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "地图边界（像素）",
+        "uploadSuccess": "{count} 张图块图片上传成功。"
+      },
+      "degradeZones": "降级区域"
+    },
     "guidesLink": "Sonoran Radio 信息和指南",
     "importSAPR": {
       "btn": "导入 SAPR 配置",
@@ -376,10 +393,10 @@
       "removeWarnSelfMsg": "您确定要从该服务器移除自己吗？您将失去访问权限，并需要服务器所有者重新添加您。",
       "removeWarnSubHolderMsg": "移除订阅持有人会将该服务器降级为免费！您确定要继续吗？",
       "search": "搜索",
-      "selectPrivateChannels": "选择用户允许加入的私人频道",
+      "selectPrivateChannels": "选择用户允许加入的私密频道",
       "setDisplayName": "设置显示名称",
       "subOwner": "订阅持有人",
-      "subtitle": "管理您社区中的用户权限和访问权限。",
+      "subtitle": "管理社区中的用户权限和访问。",
       "title": "社区成员",
       "traits": "特点",
       "username": "用户名"
@@ -488,7 +505,7 @@
       "dialogEditTitleStandalone": "编辑频道",
       "dialogSubtitle": "配置文件是预设的频率设置，允许在特定频率之间轻松切换，无需手动输入每个频率。在这里，您将设置显示名称（可选）、接收频率（必需）、发射频率（可选），以及是否重复发射频率。",
       "displayName": "显示名称",
-      "displayNameInput": "显示名称 - 必须",
+      "displayNameInput": "显示名称 - 必填",
       "editGroup": "编辑组",
       "errDelete": "删除配置文件时发生意外错误。",
       "errReenable": "重新启用配置文件时发生意外错误。",
@@ -504,7 +521,7 @@
       "recvFreq": "接收频率",
       "recvFreqTooltip": "接收传输的频率。这仅用于无线电用户界面的美观。",
       "reorder": "重新排序配置文件",
-      "reorderStandalone": "重新排序频道",
+      "reorderStandalone": "重新排序 频道",
       "repeatsXmit": "重复发射频率",
       "setAsDefault": "设置为默认配置文件",
       "sharedTooltip": "共享频道镜像另一个链接频道的访问权限和频率。连接到任意一个可以访问相同的通信流。",
@@ -531,6 +548,7 @@
     "serverInfo": {
       "addServer": "添加服务器",
       "cadPrompts": {
+        "subtitle": "帮助 Dispatch AI 将请求映射到 CAD/Radio 功能的自定义短语。",
         "tools": {
           "getRecentCadEvents": {
             "hint": "示例：\"最新通话\", \"最近恐慌\", \"那个通话\""
@@ -558,7 +576,7 @@
       "keyUpDelay": "按键延迟",
       "keyUpDelayDesc": "终止传输后麦克释放前的延迟。",
       "muteScannedWhileTransmitting": "在发射时静音扫描",
-      "muteScannedWhileTransmittingDesc": "在一个频道上发射时静音扫描过的频道。",
+      "muteScannedWhileTransmittingDesc": "在发射时将扫描频道静音。",
       "sirenVolume": "警笛音量",
       "sirenVolumeDesc": "在游戏中的警笛激活时，添加/减少音量。",
       "subtitle": "为您的社区配置默认设置。用户可以个性化自己的偏好，但这些将作为起始默认值。",
@@ -629,7 +647,7 @@
     "fivemTowerDestruction": "FiveM 塔楼破坏",
     "fivemTowerDestructionDescription": "玩家可以破坏物理塔楼以削弱无线电接收的（可选）能力。",
     "fivemTowers": "FiveM 物理塔",
-    "fivemTowersDescription": "塔楼模拟信号接收距离物理塔楼的位置。位置和范围是可定制的。",
+    "fivemTowersDescription": "塔模拟对物理塔的接收，基于您的距离。位置和范围可自定义。",
     "howToPurchase": "如何购买",
     "monthCostDescription": "我们的月度订阅套餐成本。",
     "onlyOnStatewide": "仅限于全州范围内的频率。",
@@ -670,12 +688,13 @@
     "multiXmit": "CTRL + 点击多点发射",
     "muteScan": "静音 {0}",
     "openInNewWindow": "在新窗口中打开",
-    "openUserList": "Open User List",
+    "openUserList": "打开用户列表覆盖层",
     "recvFreq": "接收：{0}MHz",
     "scanList": "扫描列表",
     "selectServer": "选择服务器",
     "setHotkeyFor": "为 {0} 设置热键",
     "settingsDialog": {
+      "advanced": "高级",
       "audioTab": "音频",
       "automaticGainControlDisabled": "自动增益控制已禁用",
       "automaticGainControlEnabled": "自动增益控制已启用",
@@ -689,7 +708,7 @@
       "escapeModeXmit": "发射（PTT）",
       "escapeModeXmitTooltip": "按 ESC 时无线电关闭，但发射时可见",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "发射时收听扫描",
+      "hearScannedWhileXmit": "在发射时听扫描频道",
       "hotkeysTab": "热键",
       "keydownSfx": "释放键 SFX",
       "keyupSfx": "按键 SFX",
@@ -699,7 +718,7 @@
       "myPttSfx": "我的 PTT SFX",
       "othersPttSfx": "其他人的 PTT SFX",
       "pttOffDelay": "PTT-Off 延迟",
-      "resetPeerVolumes": "重置同行音量",
+      "resetPeerVolumes": "重置对等音量",
       "resetSettings": "重置设置",
       "selectRadioFrame": "无线电框架",
       "sfxTab": "SFX",
@@ -744,7 +763,7 @@
     "errExists": "提供的 TeamSpeak 服务器 UID 在一个已验证的服务器上已存在，请使用其他 TS 服务器 UID",
     "errUnknown": "获取服务器信息时发生错误，请稍后再试。",
     "registerAStandServer": "注册社区",
-    "registerAStandServerDesc": "注册您的社区以使用 Sonoran Radio。",
+    "registerAStandServerDesc": "注册你的社区以使用 Sonoran Radio。",
     "registerATSServer": "注册 TeamSpeak 服务器",
     "registerATSServerDesc": "注册您的 TeamSpeak 服务器，以便您的服务器可以使用 Sonoran Radio TeamSpeak 插件。",
     "submit": "注册服务器"
@@ -768,18 +787,18 @@
     "verifyPassword": "确认密码"
   },
   "splash": {
-    "feats": "配有人际间文本消息和 Sonoran CAD 集成，Sonoran Radio 让完全功能的通信设备直接掌握在您游戏角色和调度员手中。今天就试试吧！",
+    "feats": "通过人员间短信和 Sonoran CAD\n      集成，Sonoran Radio 将功能完备的通信设备\n      直接交到你游戏内人员和调度员手中。今天就\n      免费试用吧！",
     "getStarted": "今天开始",
     "introducing": "介绍",
     "learnMore": "了解更多",
-    "marketExplain": "在公共安全中，选择通信系统时，简便性和可靠性至关重要。Sonoran Radio 提供了市场上最全面、最全面的通信系统。这个新的无线电系统拥有尖端技术，提供简单和复杂配置、基于云的编程以及可扩展的中继器驱动无线电网络。",
-    "toPortal": "转到门户"
+    "marketExplain": "在公共安全领域，简单性和可靠性是选择\n      通信系统时的关键。Sonoran Radio 提供了当今市场上最全面\n      且最包罗万象的通信系统。这套新的\n      无线电系统采用尖端技术，提供单工和\n      双工配置、基于云的编程，以及可扩展的、\n      由中继器驱动的无线电网络。",
+    "toPortal": "进入门户"
   },
   "standalone": {
     "desktop": {
       "downloadFile": "下载文件",
       "emergencyCalls": "紧急（911）电话",
-      "noEmergencyCalls": "没有紧急电话！",
+      "noEmergencyCalls": "没有紧急呼叫！",
       "noTransmissions": "未找到传输",
       "playAudio": "播放音频",
       "redial": "重拨 {name}"

@@ -42,7 +42,7 @@
       "possibleDataLoss": "En transférant ou en supprimant votre abonnement, une perte de données sur le serveur précédent peut survenir.",
       "remove": "Êtes-vous sûr de vouloir supprimer ce serveur de votre abonnement ?",
       "set": "Êtes-vous sûr de vouloir définir ce serveur pour votre abonnement ?",
-      "title": "Changer d'abonnement",
+      "title": "Modifier l'abonnement",
       "transfer": "Êtes-vous sûr de vouloir transférer cet abonnement vers un autre serveur ?"
     },
     "errCheck": "Une erreur imprévue s'est produite lors de la vérification de votre abonnement",
@@ -88,7 +88,7 @@
     "currently": "Actuellement",
     "delete": "Supprimer",
     "edit": "Modifier",
-    "email": "Email",
+    "email": "E-mail",
     "help": "Aide",
     "language": "Langue",
     "learnMore": "En savoir plus",
@@ -99,7 +99,7 @@
     "menu": "Menu",
     "miscServer": "Serveur {id}",
     "needsInteger": "Doit être un entier",
-    "notApplicable": "N/A",
+    "notApplicable": "S/O",
     "only": "{0} Seulement",
     "password": "Mot de passe",
     "plans": {
@@ -122,7 +122,7 @@
     "username": "Nom d'utilisateur"
   },
   "config": {
-    "displayName": "Anglais (US)"
+    "displayName": "Anglais (États-Unis)"
   },
   "error404": {
     "goHome": "Aller à l'accueil",
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Allez sur {link} dans votre navigateur pour vous connecter",
-    "loginWithCode": "Connexion avec code",
+    "loginWithCode": "Se connecter avec un code",
     "refresh": "Actualiser",
     "unlink": "Dissocier"
   },
@@ -194,7 +194,7 @@
       "title": "Animations Radio Big-Daddy"
     },
     "Cloud_Configurations": {
-      "desc": "Personnaliser votre radio n'a jamais été aussi simple grâce aux mises à jour en direct depuis notre panneau de configuration facile à utiliser.",
+      "desc": "Personnaliser votre radio n’a jamais été aussi facile, avec des mises à jour en direct depuis notre panneau de configuration facile à utiliser.",
       "title": "Configurations Cloud"
     },
     "Customizable_SFX": {
@@ -290,6 +290,7 @@
       "apiInfoHint": "Donnez ceci à vos membres lors de leur invitation à la communauté",
       "apiInfoTitle": "Infos de l'API",
       "communityApiKeyField": "Clé API de la communauté",
+      "logType": "Type",
       "updateApiKey": "Mettre à jour la clé API"
     },
     "adminTab": "Administration",
@@ -320,6 +321,11 @@
       "verifyButton": "Vérifier le domaine personnalisé",
       "verifyTitle": "Vérifiez votre domaine"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "pour déplacer des composants"
+      }
+    },
     "customizeMenu": {
       "ai": "IA",
       "channelsGroups": "Canaux & Groupes",
@@ -339,6 +345,10 @@
     "deleteServer": "Supprimer la communauté",
     "deleteSuccess": "Votre serveur a été supprimé avec succès",
     "dispatchTab": "Répartition",
+    "emergency911": {
+      "title": "Appel d'urgence",
+      "waitingDispatcher": "En attente qu'un répartiteur réponde..."
+    },
     "errImport": "Une erreur imprévue s'est produite lors de l'importation de votre configuration SAPR.",
     "errImportNotFound": "Aucune configuration SAPR n'a été trouvée pour votre UID TeamSpeak.",
     "errSaveInfo": "Une erreur imprévue s'est produite lors de l'enregistrement des informations de votre serveur.",
@@ -346,6 +356,13 @@
     "errUidTaken": "L'UID du serveur TeamSpeak est déjà utilisé par un autre serveur autorisé.",
     "errUnauthorize": "Une erreur imprévue s'est produite lors de la désautorisation de votre serveur.",
     "explainOwnerOnly": "Seul le propriétaire peut changer ce paramètre",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Limites de la carte (pixels)",
+        "uploadSuccess": "{count} images de tuiles importées avec succès."
+      },
+      "degradeZones": "Zones de dégradation"
+    },
     "guidesLink": "Informations & Guides Sonoran Radio",
     "importSAPR": {
       "btn": "Importer la configuration SAPR",
@@ -369,17 +386,17 @@
       "ownerHasAllPerms": "Le propriétaire de la communauté a tous les pouvoirs",
       "paysSubscription": "Paie l'abonnement",
       "pending": "En attente",
-      "permissionsBtn": "Permissions",
+      "permissionsBtn": "Autorisations",
       "privateChannels": "Canaux privés",
       "remove": "Supprimer",
       "removeWarn": "Avertissement",
       "removeWarnSelfMsg": "Êtes-vous sûr de vouloir vous retirer de ce serveur ? Vous perdrez l'accès et le propriétaire du serveur devra vous ajouter à nouveau.",
       "removeWarnSubHolderMsg": "La suppression du titulaire de l'abonnement entraînera une rétrogradation de ce serveur à gratuit ! Êtes-vous sûr de vouloir continuer ?",
       "search": "Rechercher",
-      "selectPrivateChannels": "Sélectionnez les canaux privés auxquels l'utilisateur est autorisé à se joindre",
+      "selectPrivateChannels": "Sélectionnez les canaux privés que l'utilisateur est autorisé à rejoindre",
       "setDisplayName": "Définir le nom d'affichage",
       "subOwner": "Abonné",
-      "subtitle": "Gérer les autorisations et l'accès des utilisateurs dans votre communauté.",
+      "subtitle": "Gérez les permissions et l'accès des utilisateurs dans votre communauté.",
       "title": "Membres de la communauté",
       "traits": "Traits",
       "username": "Nom d'utilisateur"
@@ -488,8 +505,8 @@
       "dialogEditTitleStandalone": "Modifier un canal",
       "dialogSubtitle": "Un profil est un paramètre de fréquence prédéfini permettant une transition facile entre des fréquences spécifiques sans avoir à taper manuellement chaque fréquence. Ici, vous définirez le nom d'affichage (facultatif), la fréquence du récepteur (requis), la fréquence de transmission (facultatif) et si la fréquence de transmission se répétera.",
       "displayName": "Nom d'affichage",
-      "displayNameInput": "Nom d'affichage - Requis",
-      "editGroup": "Éditer le groupe",
+      "displayNameInput": "Nom d'affichage - Obligatoire",
+      "editGroup": "Modifier le groupe",
       "errDelete": "Une erreur imprévue s'est produite lors de la suppression du profil.",
       "errReenable": "Une erreur imprévue s'est produite lors de la réactivation du profil.",
       "errSave": "Une erreur imprévue s'est produite lors de la sauvegarde du profil.",
@@ -530,6 +547,9 @@
     "saveServer": "Sauvegarder le serveur",
     "serverInfo": {
       "addServer": "Ajouter un serveur",
+      "cadPrompts": {
+        "subtitle": "Phrases personnalisées pour aider Dispatch AI à mapper les requêtes vers les fonctions CAD/Radio."
+      },
       "columns": {
         "actions": "Actions",
         "id": "ID",
@@ -537,7 +557,7 @@
         "origin": "IP/Origine",
         "pushUrl": "URL de push"
       },
-      "communityServers": "Serveurs communautaires",
+      "communityServers": "Serveurs de la communauté",
       "communityServersSubtitle": "Ajoutez ou supprimez des serveurs pour séparer vos communications radio",
       "customCommunityIdHint": "Définissez votre identifiant de communauté personnalisé, qui est destiné à l'URL vanité, à la ressource FiveM et à rejoindre la communauté"
     },
@@ -551,7 +571,7 @@
       "keyUpDelay": "Délai après le relâchement de la touche",
       "keyUpDelayDesc": "Délai après la fin d'une transmission avant que le micro ne soit libéré.",
       "muteScannedWhileTransmitting": "Sourdine de scan en transmission",
-      "muteScannedWhileTransmittingDesc": "Sourdiner les canaux scannés pendant une transmission sur un canal.",
+      "muteScannedWhileTransmittingDesc": "Mettre en sourdine les canaux scannés pendant la transmission sur un canal.",
       "sirenVolume": "Volume de la sirène",
       "sirenVolumeDesc": "Lorsque la sirène en jeu est activée, ajoutez/soustrayez le volume.",
       "subtitle": "Configurez les paramètres par défaut pour votre communauté. Les utilisateurs peuvent personnaliser leurs préférences, mais celles-ci serviront de paramètres par défaut initiaux.",
@@ -625,7 +645,7 @@
     "fivemTowerDestruction": "Destruction de tour FiveM",
     "fivemTowerDestructionDescription": "La possibilité (optionnelle) pour les joueurs de détruire des tours physiques pour nuire à la réception radio.",
     "fivemTowers": "Tours physiques FiveM",
-    "fivemTowersDescription": "Les tours simulent la réception par rapport à une tour physique, basée sur votre distance. Emplacements et portées personnalisables.",
+    "fivemTowersDescription": "Les tours simulent la réception d'une tour physique, selon votre distance. Les emplacements et les portées sont personnalisables.",
     "howToPurchase": "Comment acheter",
     "monthCostDescription": "Le coût de notre forfait d'abonnement mensuel.",
     "onlyOnStatewide": "Uniquement autorisé sur les fréquences étendues.",
@@ -666,12 +686,13 @@
     "multiXmit": "CTRL + Clic Multi-XMIT",
     "muteScan": "Muet {0}",
     "openInNewWindow": "Ouvrir dans une nouvelle fenêtre",
-    "openUserList": "Open User List",
+    "openUserList": "Ouvrir la superposition de la liste des utilisateurs",
     "recvFreq": "RECV : {0}MHz",
     "scanList": "Liste de scan",
     "selectServer": "Sélectionner un serveur",
     "setHotkeyFor": "Définir un raccourci pour {0}",
     "settingsDialog": {
+      "advanced": "Avancé",
       "audioTab": "Audio",
       "automaticGainControlDisabled": "Contrôle automatique du gain désactivé",
       "automaticGainControlEnabled": "Contrôle automatique du gain activé",
@@ -685,7 +706,7 @@
       "escapeModeXmit": "XMIT (PTT)",
       "escapeModeXmitTooltip": "La radio se ferme sur ESC, mais est visible lors de la transmission",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Écoutez le scan pendant la transmission",
+      "hearScannedWhileXmit": "Entendre le scan en transmission",
       "hotkeysTab": "Raccourcis",
       "keydownSfx": "Effet sonore à l'appui de touche",
       "keyupSfx": "Effet sonore au relâchement de touche",
@@ -764,18 +785,18 @@
     "verifyPassword": "Vérifiez le mot de passe"
   },
   "splash": {
-    "feats": "Complet avec messagerie texte interpersonnelle et intégration Sonoran CAD, Sonoran Radio met des dispositifs de communication entièrement équipés directement entre les mains de votre personnel en jeu et de vos répartiteurs. Essayez-le gratuitement aujourd'hui !",
+    "feats": "Complété par la messagerie entre personnels et l'intégration\n      à Sonoran CAD, Sonoran Radio met des dispositifs de communication\n      entièrement équipés directement entre les mains de votre personnel en jeu\n      et de vos répartiteurs. Essayez-le gratuitement dès aujourd'hui !",
     "getStarted": "Commencez aujourd'hui",
     "introducing": "Présentant",
     "learnMore": "En savoir plus",
-    "marketExplain": "Dans la sécurité publique, la simplicité et la fiabilité sont essentielles lors du choix d’un système de communication. Sonoran Radio fournit le système de communication le plus complet et tout compris sur le marché aujourd'hui. Ce nouveau système radio utilise une technologie de pointe, offrant à la fois des configurations simplex et duplex, une programmation basée sur le cloud et un réseau radio évolutif, piloté par des répéteurs.",
-    "toPortal": "Aller au Portail"
+    "marketExplain": "Dans la sécurité publique, la simplicité et la fiabilité sont essentielles lors du choix\nd'un système de communication. Sonoran Radio propose le système de communication le plus complet\net le plus inclusif du marché aujourd'hui. Ce nouveau\nsystème radio intègre une technologie de pointe, offrant des configurations simplex et\nduplex, une programmation basée sur le cloud et un réseau radio évolutif,\npiloté par répéteur.",
+    "toPortal": "Aller au portail"
   },
   "standalone": {
     "desktop": {
       "downloadFile": "Télécharger le fichier",
       "emergencyCalls": "Appels d'urgence (911)",
-      "noEmergencyCalls": "Aucun appel d'urgence !",
+      "noEmergencyCalls": "Pas d'appels d'urgence!",
       "noTransmissions": "Aucune transmission trouvée",
       "playAudio": "Lire l'audio",
       "redial": "Recomposer {name}"

@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "Topluluktan ayrılırken beklenmedik bir hata oluştu.",
-    "leaveMsg": "Bu Sonoran Radio Topluluğundan ayrılmak istediğinizden emin misiniz?",
+    "leaveMsg": "Bu Sonoran Radio Community'den ayrılmak istediğinizden emin misiniz?",
     "subtitle": "{serverName} için Sonoran Radio'yu kullanabilmeden önce sunucu sahibi veya topluluk yöneticisi tarafından onaylanmanız gerekmektedir. Lütfen onay bekleyin.",
     "subtitleShort": "Bu toplulukta Sonoran Radio'yu kullanmadan önce, topluluk personeli tarafından onaylanmanız gerekmektedir",
     "title": "Onay Bekliyorsunuz"
@@ -140,7 +140,7 @@
       "invalidEmail": "Belirtilen e-posta geçerli bir e-posta adresi değil, lütfen başka bir e-posta adresi kullanın.",
       "invalidPassword": "Geçersiz Şifre",
       "noEmail": "E-posta belirtilmedi.",
-      "noPassword": "Şifre belirtilmedi.",
+      "noPassword": "Parola belirtilmedi.",
       "noUsername": "Kullanıcı adı belirtilmedi.",
       "passwordNoNumber": "Şifre herhangi bir rakam içermiyor",
       "passwordNoSymbol": "Şifre herhangi bir sembol içermiyor ('!@#$%^&*')",
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Giriş yapmak için tarayıcınızda {link} adresine gidin",
-    "loginWithCode": "Kod İle Giriş Yap",
+    "loginWithCode": "Kodla Giriş Yap",
     "refresh": "Yenile",
     "unlink": "Bağlantıyı Kaldır"
   },
@@ -164,7 +164,8 @@
   "hotkeys": {
     "clearHotkey": "Kısayolu Temizle",
     "noKeySet": "Tuş Ayarlanmamış",
-    "pressAKey": "Bir Tuşa Bas"
+    "pressAKey": "Bir Tuşa Bas",
+    "toggleDesktopRadio": "Masaüstü Radyosunu Değiştir"
   },
   "iconPicker": {
     "colorLabel": "Renk",
@@ -193,7 +194,7 @@
       "title": "Büyükbaba Radyo Animasyonları"
     },
     "Cloud_Configurations": {
-      "desc": "Radyo özelleştirmek hiç bu kadar kolay olmamıştı; kullanımı kolay konfigürasyon panelimizden canlı güncellemeler alın.",
+      "desc": "Radyonuzu özelleştirmek, kullanımı kolay yapılandırma panelimizden gelen canlı güncellemelerle hiç bu kadar kolay olmamıştı.",
       "title": "Bulut Konfigürasyonları"
     },
     "Customizable_SFX": {
@@ -289,13 +290,14 @@
       "apiInfoHint": "Üyelerinizi davet ederken buna üyelerinize verin",
       "apiInfoTitle": "API Bilgisi",
       "communityApiKeyField": "Topluluk API Anahtarı",
+      "logType": "Tür",
       "updateApiKey": "API Anahtarını Güncelle"
     },
     "adminTab": "Yönetim",
     "ai": {
       "addKey": "AI Anahtarı Ekle",
       "services": {
-        "0": "İletim Günlüğü STT",
+        "0": "İletim Kaydı STT",
         "1": "Ton Tahtası STT"
       },
       "title": "AI API Anahtarları"
@@ -319,6 +321,11 @@
       "verifyButton": "Özel Alan Adını Doğrula",
       "verifyTitle": "Alan adınızı doğrulayın"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "bileşenleri taşımak için"
+      }
+    },
     "customizeMenu": {
       "ai": "AI",
       "channelsGroups": "Kanallar & Gruplar",
@@ -338,6 +345,10 @@
     "deleteServer": "Topluluğu Sil",
     "deleteSuccess": "Sunucunuz başarıyla silindi",
     "dispatchTab": "Çagırma Merkezi",
+    "emergency911": {
+      "title": "Acil Çağrı",
+      "waitingDispatcher": "Bir sevk görevlisinin yanıt vermesi bekleniyor..."
+    },
     "errImport": "SAPR yapılandırmanızı içe aktarırken beklenmedik bir hata oluştu.",
     "errImportNotFound": "TeamSpeak UID'niz için herhangi bir SAPR yapılandırması bulunamadı.",
     "errSaveInfo": "Sunucu bilgilerinizi kaydederken beklenmedik bir hata oluştu.",
@@ -345,6 +356,13 @@
     "errUidTaken": "TeamSpeak sunucu UID başka bir doğrulanmış sunucu tarafından kullanılıyor.",
     "errUnauthorize": "Sunucunuzun yetkisini kaldırırken beklenmedik bir hata oluştu.",
     "explainOwnerOnly": "Bu ayarı yalnızca sahibi değiştirebilir",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Harita Sınırları (piksel)",
+        "uploadSuccess": "{count} döşeme görüntüsü başarıyla yüklendi."
+      },
+      "degradeZones": "Bölgeleri Düşür"
+    },
     "guidesLink": "Sonoran Radio Bilgileri & Kılavuzlar",
     "importSAPR": {
       "btn": "SAPR Yapılandırmasını İçe Aktar",
@@ -378,7 +396,7 @@
       "selectPrivateChannels": "Kullanıcının katılmasına izin verilen özel kanalları seçin",
       "setDisplayName": "Görünen İsmi Ayarla",
       "subOwner": "Abonelik Sahibi",
-      "subtitle": "Topluluğunuzda kullanıcı izinlerini ve erişimlerini yönetin.",
+      "subtitle": "Topluluğunuzdaki kullanıcı izinlerini ve erişimini yönetin.",
       "title": "Topluluk Üyeleri",
       "traits": "Özellikler",
       "username": "Kullanıcı Adı"
@@ -503,7 +521,7 @@
       "recvFreq": "Alıcı Frekansı",
       "recvFreqTooltip": "Sadece radyo arayüzünde estetik için yapılmıştır.",
       "reorder": "Profilleri Yeniden Sıralayın",
-      "reorderStandalone": "Kanalları Yeniden Sıralayın",
+      "reorderStandalone": "Kanalları Yeniden Sırala",
       "repeatsXmit": "Gönderici Frekansını Tekrar Eder",
       "setAsDefault": "Varsayılan Profil Olarak Ayarla",
       "sharedTooltip": "Bağlantılı başka bir kanalın erişim ve frekanslarını yansıtırlar. Herhangi birine bağlanmak aynı iletişim akışına erişim sağlar.",
@@ -529,6 +547,9 @@
     "saveServer": "Sunucuyu Kaydet",
     "serverInfo": {
       "addServer": "Sunucu Ekle",
+      "cadPrompts": {
+        "subtitle": "Dispatch AI'nin istekleri CAD/Radio işlevlerine eşleştirmesine yardımcı olacak özel ifadeler."
+      },
       "columns": {
         "actions": "Eylemler",
         "id": "ID",
@@ -550,7 +571,7 @@
       "keyUpDelay": "Tuş Yükseltme Gecikmesi",
       "keyUpDelayDesc": "Bir iletim çoğaltmasından sonra mikrofonun takımının bırakılması.",
       "muteScannedWhileTransmitting": "Gönderirken Taramaları Sessize Al",
-      "muteScannedWhileTransmittingDesc": "Bir kanalda iletim yaparken taranan kanalları sessize alın.",
+      "muteScannedWhileTransmittingDesc": "Bir kanalda gönderim yaparken taranan kanalları sessize alın.",
       "sirenVolume": "Siren Ses Düzeyi",
       "sirenVolumeDesc": "Oyun içi siren etkinleştirildiğinde, ses düzeyine ekleme/çıkarma yapın.",
       "subtitle": "Topluluğunuz için varsayılan ayarları yapılandırın. Kullanıcılar kendi tercihlerini kişiselleştirebilir ancak bu ayarlar başlangıç varsayılan olarak hizmet edecektir.",
@@ -564,7 +585,7 @@
     "transfer": {
       "cancel": "İptal",
       "confirmInstruction": "Transferi (büyük/küçük harf duyarlı) onaylamak için {code} yazın",
-      "confirmLabel": "Transferi Onayla",
+      "confirmLabel": "Aktarmayı Onayla",
       "ok": "Tamam",
       "requestCreatedMsg": "Transfer henüz bitmedi! Ek doğrulama için size bir e-posta gönderildi",
       "requestCreatedTitle": "Transfer İsteği Oluşturuldu",
@@ -579,7 +600,7 @@
     "voiceCustomization": {
       "header": "Ses Özelleştirme",
       "input": "Giriş",
-      "name": "Ad",
+      "name": "İsim",
       "signalStrength": "Sinyal Gücü",
       "subheader": "Topluluğunuz için radyo ses efektlerini özelleştirin.",
       "useForEmergency": "Acil Çağrılar İçin Kullan",
@@ -616,12 +637,12 @@
     "description": "Sonoran Radio'nun ücretli abonelikleri, gelişmiş özelliklere, özelleştirmelere, arttırılmış sınırlara ve daha fazlasına erişmenizi sağlar!",
     "dispatchPanel": "Çağrı Merkezi Paneli",
     "dispatchPanelDescription": "Radyo veya diğer radyo ayarlarını değiştirebilir.",
-    "fivemRadio": "FiveM Taşınabilir Radyo",
+    "fivemRadio": "FiveM El Telsizi",
     "fivemRadioDescription": "FiveM taşınabilir radyo, frekanslarınızı, tarama listesini ve diğer radyo ayarlarını değiştirmenizi sağlar",
     "fivemTowerDestruction": "FiveM Kule Yıkımı",
     "fivemTowerDestructionDescription": "Oyuncuların fiziksel kuleleri yıkmasını gerektirerek radyo alımını bozma yeteneği (isteğe bağlı).",
     "fivemTowers": "FiveM Fiziksel Kuleler",
-    "fivemTowersDescription": "Kuleler, mesafenize göre bir fiziksel kuleye alma durumunu simüle eder. Konumlar ve menziller özelleştirilebilir.",
+    "fivemTowersDescription": "Kuleler, mesafenize bağlı olarak fiziksel bir kuleye olan alımı simüle eder. Konumlar ve menziller özelleştirilebilir.",
     "howToPurchase": "Nasıl Satın Alınır",
     "monthCostDescription": "Aylık abonelik paketimizin maliyeti.",
     "onlyOnStatewide": "Sadece eyalet düzeyindeki frekanslarda izin verilir.",
@@ -662,12 +683,13 @@
     "multiXmit": "CTRL + Tıklayarak Multi-GÖNDER",
     "muteScan": "{0} Sustur",
     "openInNewWindow": "Yeni Pencerede Aç",
-    "openUserList": "Open User List",
+    "openUserList": "Kullanıcı Listesi Katmanını Aç",
     "recvFreq": "ALIM: {0}MHz",
     "scanList": "Tarama Listesi",
     "selectServer": "Sunucu Seç",
     "setHotkeyFor": "{0} için Kısayol Tusu Ayarla",
     "settingsDialog": {
+      "advanced": "Gelişmiş",
       "audioTab": "Ses",
       "automaticGainControlDisabled": "Otomatik kazanç kontrolü devre dışı",
       "automaticGainControlEnabled": "Otomatik kazanç kontrolü etkin",
@@ -681,7 +703,7 @@
       "escapeModeXmit": "GÖNDER (PTT)",
       "escapeModeXmitTooltip": "ESC tuşunda radyo kapanır, ancak iletim sırasında görünür",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Gönderilirken Tarananı Duyun",
+      "hearScannedWhileXmit": "Gönderirken Taramaları Duy",
       "hotkeysTab": "Kısayol Tuşları",
       "keydownSfx": "Tuş Alçaltma SFX",
       "keyupSfx": "Tuş Yükseltme SFX",
@@ -691,7 +713,7 @@
       "myPttSfx": "Benim PTT SFX",
       "othersPttSfx": "Diğer Kişilerin PTT SFX",
       "pttOffDelay": "PTT-Kapalı Gecikme",
-      "resetPeerVolumes": "Bağlantı Seslerini Sıfırla",
+      "resetPeerVolumes": "Eş Ses Seviyelerini Sıfırla",
       "resetSettings": "Ayarları Sıfırla",
       "selectRadioFrame": "Radyo Çerçevesi",
       "sfxTab": "SFX",
@@ -736,7 +758,7 @@
     "errExists": "Verilen TeamSpeak Sunucu UID zaten doğrulanmış bir sunucuda var, lütfen başka bir TS sunucu UID kullanın",
     "errUnknown": "Sunucu bilgilerini almaya çalışırken bir hata oluştu, lütfen daha sonra tekrar deneyin.",
     "registerAStandServer": "Bir Topluluk Kaydedin",
-    "registerAStandServerDesc": "Sonoran Radio'yu kullanmak için topluluğunuzu kaydedin.",
+    "registerAStandServerDesc": "Topluluğunuzu Sonoran Radio'yu kullanmak için kaydedin.",
     "registerATSServer": "Bir TeamSpeak Sunucusu Kaydedin",
     "registerATSServerDesc": "Sunucunuzun Sonoran Radio TeamSpeak eklentisini kullanabilmesi için TeamSpeak Sunucunuzu kaydedin.",
     "submit": "Sunucuyu Kaydet"
@@ -760,11 +782,11 @@
     "verifyPassword": "Şifreyi Doğrula"
   },
   "splash": {
-    "feats": "Personel arası metin mesajlaşması ve Sonoran CAD entegrasyonu ile tamamlanmış şekilde, Sonoran Radio oyun içi personel ve çağrı merkezi operatörlerinizin ellerine tam özellikli iletişim cihazları sunar. Bugün ücretsiz deneyin!",
+    "feats": "Kişiler arası metin mesajlaşması ve Sonoran CAD\n      entegrasyonu ile tamamlanan Sonoran Radio, tam özellikli iletişim cihazlarını\n      doğrudan oyun içi personelinizin ve sevk görevlilerinizin ellerine verir. Bugün\n      ücretsiz deneyin!",
     "getStarted": "Bugün Başlayın",
     "introducing": "Tanıtım",
     "learnMore": "Daha Fazla Öğren",
-    "marketExplain": "Kamu güvenliği söz konusu olduğunda, bir iletişim sistemi seçerken pratiklik ve güvenilirlik hayati önem taşır. Sonoran Radio bugün piyasadaki en kapsamlı ve her şeyi kapsayan iletişim sistemini sunar. Bu yeni radyo sistemi, hem simplex hem de duplex konfigürasyonları, bulut tabanlı programlama ve ölçeklenebilir, tekrarlayıcı güdümlü bir radyo ağı sağlayan son teknolojiye sahiptir.",
+    "marketExplain": "Kamu güvenliğinde, bir iletişim sistemi seçerken sadelik ve güvenilirlik esastır.\n      Sonoran Radio, bugün piyasadaki en kapsamlı ve hepsi bir arada iletişim sistemini sunar. Bu yeni\n      radyo sistemi, hem simplex hem de\n      duplex yapılandırmalar, bulut tabanlı programlama ve ölçeklenebilir,\n      tekrarlayıcı destekli bir radyo ağı sağlayan son teknolojiye sahiptir.",
     "toPortal": "Portala Git"
   },
   "standalone": {
@@ -789,6 +811,6 @@
   },
   "upgradePromo": {
     "goProToday": "Bugün Pro'ya Geçin",
-    "learnMore": "Daha Fazla Bilgi Al"
+    "learnMore": "Daha Fazla Öğren"
   }
 }

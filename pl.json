@@ -92,7 +92,7 @@
     "help": "Pomoc",
     "language": "Język",
     "learnMore": "Dowiedz się więcej",
-    "limited": "Ograniczony",
+    "limited": "Ograniczone",
     "login": "Zaloguj się",
     "logout": "Wyloguj",
     "management": "Zarządzanie",
@@ -122,10 +122,10 @@
     "username": "Nazwa użytkownika"
   },
   "config": {
-    "displayName": "Polski"
+    "displayName": "Angielski (Stany Zjednoczone)"
   },
   "error404": {
-    "goHome": "Idź do strony głównej",
+    "goHome": "Przejdź do strony głównej",
     "message": "Ups. Nic tu nie ma..."
   },
   "errors": {
@@ -140,7 +140,7 @@
       "invalidEmail": "Podany email nie jest prawidłowym adresem email, użyj innego adresu email.",
       "invalidPassword": "Nieprawidłowe hasło",
       "noEmail": "Nie podano adresu email.",
-      "noPassword": "Nie podano hasła.",
+      "noPassword": "Nie określono hasła.",
       "noUsername": "Nie podano nazwy użytkownika.",
       "passwordNoNumber": "Hasło nie zawiera liczby",
       "passwordNoSymbol": "Hasło nie zawiera żadnego symbolu ({'!@#$%^&*'})",
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Przejdź do {link} w swojej przeglądarce, aby się zalogować",
-    "loginWithCode": "Zaloguj się za pomocą kodu",
+    "loginWithCode": "Zaloguj się kodem",
     "refresh": "Odśwież",
     "unlink": "Odłącz"
   },
@@ -194,7 +194,7 @@
       "title": "Animacje Radia Big-Daddy"
     },
     "Cloud_Configurations": {
-      "desc": "Dostosowywanie radia nigdy nie było łatwiejsze, z aktualizacjami na żywo z naszego łatwego w obsłudze panelu konfiguracji.",
+      "desc": "Dostosowywanie radia nigdy nie było łatwiejsze, dzięki aktualizacjom na żywo z naszego łatwego w użyciu panelu konfiguracji.",
       "title": "Konfiguracje Chmury"
     },
     "Customizable_SFX": {
@@ -290,13 +290,14 @@
       "apiInfoHint": "Daj to swoim członkom podczas zapraszania ich do społeczności",
       "apiInfoTitle": "Informacje o API",
       "communityApiKeyField": "Klucz API Społeczności",
+      "logType": "Typ",
       "updateApiKey": "Zaktualizuj Klucz API"
     },
     "adminTab": "Administracja",
     "ai": {
       "addKey": "Dodaj Klucz AI",
       "services": {
-        "0": "STT Logu Transmisji",
+        "0": "Log transkrypcji transmisji STT",
         "1": "STT Tablicy Dźwięków"
       },
       "title": "Klucze API AI"
@@ -320,6 +321,11 @@
       "verifyButton": "Zweryfikuj własną domenę",
       "verifyTitle": "Zweryfikuj swoją domenę"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "aby przesuwać komponenty"
+      }
+    },
     "customizeMenu": {
       "ai": "SI",
       "channelsGroups": "Kanały i grupy",
@@ -339,6 +345,10 @@
     "deleteServer": "Usuń Społeczność",
     "deleteSuccess": "Twoje serwer został pomyślnie usunięty",
     "dispatchTab": "Dyspozytor",
+    "emergency911": {
+      "title": "Połączenie alarmowe",
+      "waitingDispatcher": "Oczekiwanie na odpowiedź dyspozytora..."
+    },
     "errImport": "Wystąpił nieoczekiwany błąd podczas importowania twojej konfiguracji SAPR.",
     "errImportNotFound": "Żadna konfiguracja SAPR nie została znaleziona na twój UID TeamSpeak.",
     "errSaveInfo": "Wystąpił nieoczekiwany błąd podczas zapisywania informacji o serwerze.",
@@ -346,6 +356,13 @@
     "errUidTaken": "UID serwera TeamSpeak jest już używane przez inny autoryzowany serwer.",
     "errUnauthorize": "Wystąpił nieoczekiwany błąd podczas anulowania autoryzacji twojego serwera.",
     "explainOwnerOnly": "Tylko właściciel może zmieniać to ustawienie",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Granice mapy (piksele)",
+        "uploadSuccess": "Pomyślnie przesłano obrazy kafelków: {count}."
+      },
+      "degradeZones": "Strefy degradacji"
+    },
     "guidesLink": "Informacje & Przewodniki Sonoran Radio",
     "importSAPR": {
       "btn": "Importuj Konfigurację SAPR",
@@ -376,7 +393,7 @@
       "removeWarnSelfMsg": "Czy na pewno chcesz usunąć siebie z tego serwera? Stracisz dostęp, a właściciel serwera będzie musiał cię dodać ponownie.",
       "removeWarnSubHolderMsg": "Usunięcie posiadacza subskrypcji spowoduje obniżenie serwera do darmowego! Czy na pewno chcesz kontynuować?",
       "search": "Szukaj",
-      "selectPrivateChannels": "Wybierz prywatne kanały, do których użytkownik ma dołączyć",
+      "selectPrivateChannels": "Wybierz prywatne kanały, do których użytkownik może dołączyć",
       "setDisplayName": "Ustaw wyświetlaną nazwę",
       "subOwner": "Posiadacz Subskrypcji",
       "subtitle": "Zarządzaj uprawnieniami użytkowników i dostępem w swojej społeczności.",
@@ -488,7 +505,7 @@
       "dialogEditTitleStandalone": "Edytuj Kanał",
       "dialogSubtitle": "Profil to zapis ustawienia częstotliwości, które pozwala na łatwe przełączanie pomiędzy specyficznymi częstotliwościami bez potrzeby ręcznego wpisywania każdej częstotliwości. Tutaj ustawisz nazwę wyświetlaną (opcjonalnie), częstotliwość odbioru (wymagana), częstotliwość transmisji (opcjonalnie), i czy częstotliwość transmisji będzie się powtarzać.",
       "displayName": "Nazwa Wyświetlana",
-      "displayNameInput": "Nazwa Wyświetlana - Wymagana",
+      "displayNameInput": "Nazwa wyświetlana - wymagana",
       "editGroup": "Edytuj grupę",
       "errDelete": "Wystąpił nieoczekiwany błąd podczas usuwania profilu.",
       "errReenable": "Wystąpił nieoczekiwany błąd podczas ponownego włączania profilu.",
@@ -504,7 +521,7 @@
       "recvFreq": "Częstotliwość Odbioru",
       "recvFreqTooltip": "Częstotliwość odbioru transmisji. Jest to tylko kwestia estetyki w interfejsie radia.",
       "reorder": "Przemiej Profile",
-      "reorderStandalone": "Przemiej Kanały",
+      "reorderStandalone": "Zmień kolejność kanałów",
       "repeatsXmit": "Powtórki Częstotliwości Transmisji",
       "setAsDefault": "Ustaw jako Domyślny Profil",
       "sharedTooltip": "Udostępnione kanały odwzorowują dostęp i częstotliwości innego połączonego kanału. Połączenie z którymkolwiek zapewnia dostęp do tego samego strumienia komunikacji.",
@@ -530,6 +547,9 @@
     "saveServer": "Zapisz Serwer",
     "serverInfo": {
       "addServer": "Dodaj serwer",
+      "cadPrompts": {
+        "subtitle": "Niestandardowe frazy pomagające Dispatch AI mapować żądania na funkcje CAD/Radio."
+      },
       "columns": {
         "actions": "Działania",
         "id": "ID",
@@ -551,7 +571,7 @@
       "keyUpDelay": "Opóźnienie Klawisza Góra",
       "keyUpDelayDesc": "Opóźnienie po zakończeniu transmisji, zanim mikrofon zostanie zwolniony.",
       "muteScannedWhileTransmitting": "Wycisz skanowane podczas transmisji",
-      "muteScannedWhileTransmittingDesc": "Wycisz skanowane kanały podczas transmisji na kanale.",
+      "muteScannedWhileTransmittingDesc": "Wycisz skanowane kanały podczas nadawania na kanale.",
       "sirenVolume": "Głośność Syreny",
       "sirenVolumeDesc": "Kiedy jest aktywowana syrena w grze, dodaj/odejmij do głośności.",
       "subtitle": "Skonfiguruj ustawienia domyślne dla swojej społeczności. Użytkownicy mogą personalizować własne preferencje, ale te będą służyły jako domyślny punkt wyjścia.",
@@ -617,12 +637,12 @@
     "description": "Płatne subskrypcje Sonoran Radio dają dostęp do zaawansowanych funkcji, personalizacji, zwiększonych limitów i więcej!",
     "dispatchPanel": "Panel Dyspozytorski",
     "dispatchPanelDescription": "Okno dialogowe TeamSpeak, które pozwala na zmianę ustawień swojego radia lub radia innych.",
-    "fivemRadio": "Radiotelefon FiveM",
+    "fivemRadio": "Przenośne radio FiveM",
     "fivemRadioDescription": "Radiotelefon FiveM pozwala na zmianę twoich częstotliwości, listę skanowania i inne ustawienia radia",
     "fivemTowerDestruction": "Zniszczenie Wież FiveM",
     "fivemTowerDestructionDescription": "Opcjonalna możliwość dla graczy do zniszczenia fizycznych wież, by popsuć odbiór radiowy.",
     "fivemTowers": "Wieże Fizyczne FiveM",
-    "fivemTowersDescription": "Wieże symulują odbiornik do fizycznej wieży, w oparciu o twoją odległość. Lokalizacje i zasięgi są dostosowywane.",
+    "fivemTowersDescription": "Wieże symulują odbiór przez fizyczną wieżę, zależnie od twojej odległości. Lokalizacje i zasięgi można dostosować.",
     "howToPurchase": "Jak Kupić",
     "monthCostDescription": "Koszt naszego miesięcznego pakietu subskrypcyjnego.",
     "onlyOnStatewide": "Dozwolone tylko na częstotliwościach stanowych.",
@@ -663,12 +683,13 @@
     "multiXmit": "CTRL + Kliknij Multi-KOMIT",
     "muteScan": "Wycisz {0}",
     "openInNewWindow": "Otwórz w nowym oknie",
-    "openUserList": "Open User List",
+    "openUserList": "Otwórz nakładkę listy użytkowników",
     "recvFreq": "OTRZ: {0}MHz",
     "scanList": "Lista skanowania",
     "selectServer": "Wybierz Serwer",
     "setHotkeyFor": "Ustaw skrót dla {0}",
     "settingsDialog": {
+      "advanced": "Zaawansowany",
       "audioTab": "Audio",
       "automaticGainControlDisabled": "Automatyczna kontrola wzmocnienia wyłączona",
       "automaticGainControlEnabled": "Automatyczna kontrola wzmocnienia włączona",
@@ -682,7 +703,7 @@
       "escapeModeXmit": "KOMIT (PTT)",
       "escapeModeXmitTooltip": "Radio zamyka się po wciśnięciu ESC, ale jest widoczne podczas transmisji",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Słuchaj skanowanych podczas transmisji",
+      "hearScannedWhileXmit": "Słysz skanowane podczas nadawania",
       "hotkeysTab": "Skróty Klawiaturowe",
       "keydownSfx": "SFX Naciśnięcia Klawisza",
       "keyupSfx": "SFX Podniesienia Klawisza",
@@ -692,7 +713,7 @@
       "myPttSfx": "Mój PTT SFX",
       "othersPttSfx": "PTT SFX innych",
       "pttOffDelay": "Opóźnienie PTT-Off",
-      "resetPeerVolumes": "Resetuj głośności użytkowników",
+      "resetPeerVolumes": "Zresetuj głośności peerów",
       "resetSettings": "Resetuj ustawienia",
       "selectRadioFrame": "Rama Radia",
       "sfxTab": "SFX",
@@ -737,7 +758,7 @@
     "errExists": "Podany UID serwera TeamSpeak już istnieje na zweryfikowanym serwerze, użyj innego UID serwera TS",
     "errUnknown": "Wystąpił błąd podczas próby uzyskania informacji o serwerze, proszę spróbować ponownie później.",
     "registerAStandServer": "Zarejestruj społeczność",
-    "registerAStandServerDesc": "Zarejestruj swoją społeczność, aby używać Sonoran Radio.",
+    "registerAStandServerDesc": "Zarejestruj swoją społeczność, aby korzystać z Sonoran Radio.",
     "registerATSServer": "Zarejestruj serwer TeamSpeak",
     "registerATSServerDesc": "Zarejestruj swój serwer TeamSpeak, aby umożliwić swojemu serwerowi korzystanie z pluginu Sonoran Radio TeamSpeak.",
     "submit": "Zarejestruj serwer"
@@ -761,11 +782,11 @@
     "verifyPassword": "Potwierdź hasło"
   },
   "splash": {
-    "feats": "Kompletny z komunikacją tekstową między personelem i integracją z Sonoran CAD, Sonoran Radio umieszcza pełnoprawne urządzenia komunikacyjne bezpośrednio w rękach twojego personelu w grze i dyspozytorów. Wypróbuj to za darmo już dziś!",
+    "feats": "Kompletne z wiadomościami tekstowymi między personelem i integracją\n      z Sonoran CAD, Sonoran Radio oddaje w pełni funkcjonalne urządzenia\n      komunikacyjne bezpośrednio w ręce twojego personelu i dyspozytorów\n      w grze. Wypróbuj je dziś za darmo!",
     "getStarted": "Rozpocznij Dziś",
     "introducing": "Wprowadzenie",
     "learnMore": "Dowiedz się więcej",
-    "marketExplain": "W bezpieczeństwie publicznym prostota i niezawodność są kluczowe przy wyborze systemu komunikacji. Sonoran Radio oferuje najbardziej kompleksowy i wszechstronny system komunikacji dostępny na dzisiejszym rynku. Nowy system radiowy ma technologie najnowszej generacji, oferujące zarówno konfiguracje simplex, jak i duplex, programowanie w chmurze oraz skalowalną, opartą na powtarzaczach sieć radiową.",
+    "marketExplain": "W bezpieczeństwie publicznym prostota i niezawodność są niezbędne przy wyborze\n      systemu komunikacji. Sonoran Radio oferuje najbardziej kompleksowy\n      i wszechstronny system komunikacji dostępny obecnie na rynku. Ten nowy\n      system radiowy wykorzystuje najnowocześniejszą technologię, zapewniając zarówno konfiguracje simplex, jak i\n      duplex, programowanie oparte na chmurze oraz skalowalną,\n      sieć radiową opartą na przekaźnikach.",
     "toPortal": "Przejdź do Portalu"
   },
   "standalone": {

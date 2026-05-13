@@ -12,7 +12,7 @@
   },
   "authMember": {
     "errLeave": "Při opuštění komunity došlo k neočekávané chybě.",
-    "leaveMsg": "Jste si jisti, že chcete opustit tuto komunitu Sonoran Radio?",
+    "leaveMsg": "Opravdu chcete opustit tuto komunitu Sonoran Radio?",
     "subtitle": "Než budete moci používat Sonoran Radio pro {serverName}, musíte být schváleni vlastníkem serveru nebo administrátorem komunity. Počkejte prosím na schválení.",
     "subtitleShort": "Před použitím Sonoran Radio v této komunitě musíte být schváleni komunitním personálem",
     "title": "Čekáte na Schválení"
@@ -42,7 +42,7 @@
       "possibleDataLoss": "Pokud převádíte nebo odebíráte své předplatné, může dojít k ztrátě dat na předchozím serveru.",
       "remove": "Jste si jisti, že chcete odstranit tento server ze svého předplatného?",
       "set": "Jste si jisti, že chcete nastavit tento server pro své předplatné?",
-      "title": "Změna Předplatného",
+      "title": "Změnit předplatné",
       "transfer": "Jste si jisti, že chcete převést toto předplatné na jiný server?"
     },
     "errCheck": "Při kontrole vašeho předplatného došlo k neočekávané chybě",
@@ -140,7 +140,7 @@
       "invalidEmail": "Zadaný email není platná emailová adresa, použijte prosím jinou emailovou adresu.",
       "invalidPassword": "Neplatné heslo",
       "noEmail": "Nezadaný email.",
-      "noPassword": "Nezadané heslo.",
+      "noPassword": "Nebolo zadáno žádné heslo.",
       "noUsername": "Nezadané uživatelské jméno.",
       "passwordNoNumber": "Heslo neobsahuje žádné číslo",
       "passwordNoSymbol": "Heslo neobsahuje žádný symbol ({'!@#$%^&*'})",
@@ -154,7 +154,7 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Přejděte na {link} ve svém prohlížeči pro přihlášení",
-    "loginWithCode": "Přihlásit se s kódem",
+    "loginWithCode": "Přihlásit se kódem",
     "refresh": "Obnovit",
     "unlink": "Odpojit"
   },
@@ -194,7 +194,7 @@
       "title": "Big-Daddy Rádio Animace"
     },
     "Cloud_Configurations": {
-      "desc": "Přizpůsobení vašeho rádia nebylo nikdy snazší s živými aktualizacemi z naší snadno použitelné konfigurační panel.",
+      "desc": "Přizpůsobení vašeho rádia nebylo nikdy snadnější, díky živým aktualizacím z našeho snadno použitelného konfiguračního panelu.",
       "title": "Konfigurace Cloud"
     },
     "Customizable_SFX": {
@@ -290,13 +290,14 @@
       "apiInfoHint": "Dejte to svým členům při jejich pozvání do komunity",
       "apiInfoTitle": "API Informace",
       "communityApiKeyField": "Komunitní API Klíč",
+      "logType": "Typ",
       "updateApiKey": "Aktualizovat API Klíč"
     },
     "adminTab": "Administrace",
     "ai": {
       "addKey": "Přidat AI Klíč",
       "services": {
-        "0": "Log STT Přenosů",
+        "0": "Log přenosu STT",
         "1": "Tone Board STT"
       },
       "title": "AI API Klíče"
@@ -320,6 +321,11 @@
       "verifyButton": "Ověřit vlastní doménu",
       "verifyTitle": "Ověřte svou doménu"
     },
+    "customizeDesktopFrames": {
+      "tooltip": {
+        "dragBody": "pro přesun komponent"
+      }
+    },
     "customizeMenu": {
       "ai": "AI",
       "channelsGroups": "Kanály a skupiny",
@@ -339,6 +345,10 @@
     "deleteServer": "Smazat Komunitu",
     "deleteSuccess": "Váš server byl úspěšně smazán",
     "dispatchTab": "Dispečink",
+    "emergency911": {
+      "title": "Tísňové volání",
+      "waitingDispatcher": "Čeká se na odpověď dispečera..."
+    },
     "errImport": "Při importování vaší SAPR Konfigurace došlo k neočekávané chybě.",
     "errImportNotFound": "Pro váš TeamSpeak UID nebyla nalezena žádná SAPR Konfigurace.",
     "errSaveInfo": "Při ukládání informací o vašem serveru došlo k neočekávané chybě.",
@@ -346,6 +356,13 @@
     "errUidTaken": "UID serveru TeamSpeak je již používáno jiným autorizovaným serverem.",
     "errUnauthorize": "Při odautorizování vašeho serveru došlo k neočekávané chybě.",
     "explainOwnerOnly": "Pouze vlastník může změnit toto nastavení",
+    "geoZoneViewer": {
+      "customMap": {
+        "leafletBoundsPixels": "Ohraničení mapy (pixely)",
+        "uploadSuccess": "{count} obrázků dlaždic bylo úspěšně nahráno."
+      },
+      "degradeZones": "Degradovat zóny"
+    },
     "guidesLink": "Informace & Průvodci Sonoran Radio",
     "importSAPR": {
       "btn": "Importovat SAPR Konfiguraci",
@@ -376,10 +393,10 @@
       "removeWarnSelfMsg": "Jste si jisti, že chcete odstranit sami sebe z tohoto serveru? Ztratíte přístup a vlastník serveru vás bude muset přidat zpět.",
       "removeWarnSubHolderMsg": "Odebráním držitele předplatného dojde ke snížení úrovně tohoto serveru na zdarma! Jste si jisti, že chcete pokračovat?",
       "search": "Hledat",
-      "selectPrivateChannels": "Vyberte soukromé kanály, které může uživatel připojit",
+      "selectPrivateChannels": "Vyberte soukromé kanály, ke kterým se uživatel může připojit",
       "setDisplayName": "Nastavit zobrazovaný název",
       "subOwner": "Držitel Předplatného",
-      "subtitle": "Spravujte uživatelská oprávnění a přístup ve vaší komunitě.",
+      "subtitle": "Spravujte uživatelská oprávnění a přístup ve své komunitě.",
       "title": "Komunitní členové",
       "traits": "Vlastnosti",
       "username": "Uživatelské jméno"
@@ -488,7 +505,7 @@
       "dialogEditTitleStandalone": "Editovat Kanál",
       "dialogSubtitle": "Profil je přednastavené frekvenční nastavení umožňující snadný přechod mezi specifickými frekvencemi bez potřeby ručně zadávat jednotlivé frekvence. Zde nastavíte Zobrazovaný Název (volitelně), Příjem Frekvence (povinné), Odesílání Frekvence (volitelně) a zda se Odesílání Frekvence bude opakovat.",
       "displayName": "Zobrazovaný Název",
-      "displayNameInput": "Zobrazovaný Název - Povinné",
+      "displayNameInput": "Zobrazovaný název - povinné",
       "editGroup": "Upravit skupinu",
       "errDelete": "Při mazání profilu došlo k neočekávané chybě.",
       "errReenable": "Při znovu povolování profilu došlo k neočekávané chybě.",
@@ -504,7 +521,7 @@
       "recvFreq": "Příjem Frekvence",
       "recvFreqTooltip": "Frekvence pro příjem přenosů. To je pouze estetické v radio UI.",
       "reorder": "Přeskupit Profily",
-      "reorderStandalone": "Přeskupit Kanály",
+      "reorderStandalone": "Přesunout kanály",
       "repeatsXmit": "Opakování Odesílání Frekvence",
       "setAsDefault": "Nastavit jako Výchozí Profil",
       "sharedTooltip": "Sdílené kanály zrcadlí přístup a frekvence jiného propojeného kanálu. Připojení k některému z nich poskytuje přístup ke stejnému komunikačnímu proudu.",
@@ -531,6 +548,7 @@
     "serverInfo": {
       "addServer": "Přidat server",
       "cadPrompts": {
+        "subtitle": "Vlastní fráze, které pomáhají Dispatch AI mapovat požadavky na funkce CAD/radia.",
         "tools": {
           "getRecentCadEvents": {
             "hint": "Příklady: \"jaký je nejnovější hovor\", \"nedávný panický stav\", \"ten hovor\""
@@ -558,7 +576,7 @@
       "keyUpDelay": "Zpoždění Klávesy nahoru",
       "keyUpDelayDesc": "Zpoždění po ukončení přenosu před uvolněním mikrofonu.",
       "muteScannedWhileTransmitting": "Ztlumit Skany při Přenosu",
-      "muteScannedWhileTransmittingDesc": "Ztlumit skenované kanály při přenosu na kanálu.",
+      "muteScannedWhileTransmittingDesc": "Ztlumit skenované kanály při vysílání na kanálu.",
       "sirenVolume": "Hlasitost Sirény",
       "sirenVolumeDesc": "Když je aktivována herní siréna, přidejte/uberejte ke hlasitosti.",
       "subtitle": "Konfigurace výchozích nastavení pro vaši komunitu. Uživatelé si mohou personalizovat své vlastní preference, ale tyto budou sloužit jako výchozí.",
@@ -624,12 +642,12 @@
     "description": "Placené předplatné Sonoran Radio vám poskytuje přístup k pokročilým funkcím, přizpůsobení, zvýšeným limitům a dalším!",
     "dispatchPanel": "Dispečerský Panel",
     "dispatchPanelDescription": "Dialogové okno TeamSpeak, které vám umožňuje měnit nastavení vašeho rádia nebo rádií ostatních.",
-    "fivemRadio": "FiveM Ruční Rádio",
+    "fivemRadio": "Přenosné rádio FiveM",
     "fivemRadioDescription": "FiveM ruční rádio vám umožňuje měnit vaše frekvence, seznam skanování a další nastavení rádia",
     "fivemTowerDestruction": "FiveM Destrukce Věže",
     "fivemTowerDestructionDescription": "Možnost (volitelně) umožnit hráčům demolovat fyzické věže, aby poškodili rádiový příjem.",
     "fivemTowers": "FiveM Fyzické Věže",
-    "fivemTowersDescription": "Věže simulují příjem na fyzickou věž, na základě vaší vzdálenosti. Lokality a dosahy jsou přizpůsobitelné.",
+    "fivemTowersDescription": "Věže simulují příjem do fyzické věže na základě vaší vzdálenosti. Lokace a rozsahy jsou přizpůsobitelné.",
     "howToPurchase": "Jak Koupit",
     "monthCostDescription": "Cena našeho měsíčního předplatného.",
     "onlyOnStatewide": "Povoleno pouze na státních frekvencích.",
@@ -670,12 +688,13 @@
     "multiXmit": "CTRL + Klikněte Multi-XMIT",
     "muteScan": "Ztlumit {0}",
     "openInNewWindow": "Otevřít v Novém Okne",
-    "openUserList": "Open User List",
+    "openUserList": "Otevřít překrytí seznamu uživatelů",
     "recvFreq": "RECV: {0}MHz",
     "scanList": "Seznam Skenování",
     "selectServer": "Vybrat Server",
     "setHotkeyFor": "Nastavit klávesovou zkratku pro {0}",
     "settingsDialog": {
+      "advanced": "Pokročilý",
       "audioTab": "Audio",
       "automaticGainControlDisabled": "Automatické řízení zisku zakázáno",
       "automaticGainControlEnabled": "Automatické řízení zisku povoleno",
@@ -689,7 +708,7 @@
       "escapeModeXmit": "XMIT (PTT)",
       "escapeModeXmitTooltip": "Rádio se zavírá při ESC, ale je viditelné při přenosu",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "Slyšet Skany Při Přenosu",
+      "hearScannedWhileXmit": "Slyšet skenované při vysílání",
       "hotkeysTab": "Klávesové Zkratky",
       "keydownSfx": "SFX při Stisknutí Klávesy",
       "keyupSfx": "SFX při Uvolnění Klávesy",
@@ -699,7 +718,7 @@
       "myPttSfx": "Můj SFX při PTT",
       "othersPttSfx": "SFX Ostatních při PTT",
       "pttOffDelay": "Zpoždění PTT-Off",
-      "resetPeerVolumes": "Obnovit Hlasitosti Peers",
+      "resetPeerVolumes": "Obnovit hlasitosti peerů",
       "resetSettings": "Obnovit Nastavení",
       "selectRadioFrame": "Rámec Rádia",
       "sfxTab": "SFX",
@@ -744,7 +763,7 @@
     "errExists": "Zadaný TeamSpeak Server UID již existuje na ověřeném serveru, použijte prosím jiné UID TeamSpeak serveru",
     "errUnknown": "Při pokusu o získání informací o serveru došlo k chybě, zkuste to prosím později.",
     "registerAStandServer": "Registrace Komunity",
-    "registerAStandServerDesc": "Registrujte svou komunitu pro používání Sonoran Radio.",
+    "registerAStandServerDesc": "Zaregistrujte svou komunitu, aby mohla používat Sonoran Radio.",
     "registerATSServer": "Registrace TeamSpeak Serveru",
     "registerATSServerDesc": "Registrujte svůj TeamSpeak Server, abyste umožnili svému serveru používat plugin Sonoran Radio TeamSpeak.",
     "submit": "Registrace Serveru"
@@ -768,18 +787,18 @@
     "verifyPassword": "Ověřit heslo"
   },
   "splash": {
-    "feats": "Kompletní s inter-perzonálním textovým zprávováním a integrací Sonoran CAD, Sonoran Radio dodává plně vybavená komunikační zařízení přímo do rukou vaší herní posádky a dispečerů. Vyzkoušejte to zdarma dnes!",
+    "feats": "Kompletní s mezilidským textovým zasíláním zpráv a integrací Sonoran CAD\n      Sonoran Radio dává plně vybavená komunikační zařízení\n      přímo do rukou vašeho herního personálu a dispečerů. Vyzkoušejte to\n      dnes zdarma!",
     "getStarted": "Začněte Dnes",
     "introducing": "Představujeme",
     "learnMore": "Více informací",
-    "marketExplain": "Ve veřejné bezpečnosti jsou jednoduchost a spolehlivost klíčovými faktory při výběru komunikačního systému. Sonoran Radio poskytuje nejkomplexnější a all-inclusive komunikační systém na dnešním trhu. Tento nový radiový systém má špičkovou technologii, poskytující jak simplexní, tak duplexní konfigurace, programování na bázi cloudu a škálovatelnou, repeatery řízenou síť rádií.",
+    "marketExplain": "Ve veřejné bezpečnosti jsou při výběru\n      komunikačního systému zásadní jednoduchost a spolehlivost. Sonoran Radio nabízí nejkomplexnější\n      a nejucelenější komunikační systém na dnešním trhu. Tento nový\n      rádiový systém má špičkovou technologii, nabízí jednoduché i duplexní\n      konfigurace, programování v cloudu a škálovatelnou,\n      rádiovou síť řízenou opakovači.",
     "toPortal": "Přejít na Portál"
   },
   "standalone": {
     "desktop": {
       "downloadFile": "Stáhnout soubor",
       "emergencyCalls": "Tísňová (911) volání",
-      "noEmergencyCalls": "Žádné tísňové volání!",
+      "noEmergencyCalls": "Žádná tísňová volání!",
       "noTransmissions": "Nenalezeny žádné přenosy",
       "playAudio": "Přehrát zvuk",
       "redial": "Znovu vytočit {name}"
@@ -797,6 +816,6 @@
   },
   "upgradePromo": {
     "goProToday": "Upgradujte na Pro",
-    "learnMore": "Zjistit více"
+    "learnMore": "Více informací"
   }
 }
