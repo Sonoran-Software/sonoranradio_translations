@@ -1072,5 +1072,122 @@
   "upgradePromo": {
     "goProToday": "Upgrade to Pro",
     "learnMore": "Learn More"
+  },
+  "voiceFxEffectEditor": {
+    "vocoder": "Vocoder",
+    "clipping": "Clipping",
+    "digital": "Digital",
+    "analog": "Analog",
+    "preEQ": "Pre EQ",
+    "postEQ": "Post EQ"
+  },
+  "fivemResourceStepper": {
+    "oneClickInstallation": "One-Click Installation",
+    "manualInstall": "Manual Install",
+    "videoTutorial": "Video Tutorial",
+    "gamePanelPurchase": "Game Panel Purchase",
+    "purchaseAFiveMGameServerFromRocketNode": "Purchase a FiveM Game Server from Rocket Node",
+    "useCouponCode": "Use Coupon Code",
+    "forOff": "for 20% off.",
+    "accessTheGameServerSPanel": "Access the game server's panel.",
+    "continue": "Continue",
+    "downloadInstall": "Download & Install",
+    "onTheRocketNodeGamePanelNavigateTo": "On the Rocket Node game panel, navigate to",
+    "configuration": "Configuration",
+    "sonoranInstaller": "Sonoran Installer",
+    "radio": "Radio",
+    "andClickToCopyPasteTheIDAndKeyBelow": "and click to copy/paste the ID and key below.",
+    "youMustBeAnAdminToViewTheAPIKey": "You must be an admin to view the API key.",
+    "aPIKey": "API Key",
+    "click": "Click",
+    "installSonoran": "Install Sonoran",
+    "onTheRocketNodePanel": "on the Rocket Node panel.",
+    "back": "Back",
+    "configureFeatures": "Configure Features",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Once the installation is complete, you can access the resource files in the",
+    "fileManager": "File Manager",
+    "navigateToThe": "Navigate to the",
+    "resources": "resources",
+    "fileToCustomizeYourFeatures": "file to customize your features.",
+    "youCanLearnMoreAboutConfigurationOptions": "You can learn more about configuration options",
+    "here": "here",
+    "freeVehicleDisplayScript": "Free Vehicle Display Script",
+    "learnMore": "Learn More!",
+    "freeAnimationsScript": "Free Animations Script",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy's radio animation script enhances your Sonoran Radio experience by adding new in-game animations. As one of the most popular scripts of its kind, it offers versatile options based on where your radio is positioned—whether on your chest, shoulders, or handheld. This provides a more immersive and personalized interaction.",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "If you don't already have the Standalone Sonoran Radio resource installed in your",
+    "fiveM": "FiveM",
+    "serverYouCanFollowThisTutorialToGetSetUp": "server, you can follow this tutorial to get set up!",
+    "downloadSonoranRadioForFiveM": "Download Sonoran Radio for FiveM",
+    "onceDownloadedExtractThe": "Once downloaded, extract the",
+    "folderToYourServerSResourcesFolder": "folder to your server's resources folder.",
+    "configureResource": "Configure Resource",
+    "open": "Open",
+    "toConfigureTheResource": "to configure the resource.",
+    "theResourceWillAlreadyHaveThe": "The resource will already have the",
+    "preConfigured": "pre-configured.",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "You can learn more about the other configuration options",
+    "yourCommunityIDFoundInTheAdministrationTab": "Your Community ID, found in the Administration tab",
+    "yourAPIKeyFoundInTheAdministrationTab": "Your API Key, found in the Administration tab",
+    "configureServer": "Configure Server",
+    "addTheFollowingToYour": "Add the following to your",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "And once you restart your server, you're done! Check the docs out for how to use the resource and its features",
+    "seeTheDocs": "See the Docs"
+  },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Create custom radio overlays for desktop games."
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Sonoran Radio Polymap"
+  },
+  "memberTable": {
+    "banned": "Banned",
+    "noPrivateChannels": "No private channels",
+    "cancel": "Cancel"
+  },
+  "serverInfoForm": {
+    "standalone": "Standalone",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio, on web, desktop, and in-game!",
+    "teamSpeak": "TeamSpeak 3",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio using a plugin for TeamSpeak 3",
+    "communityImage": "Community Image",
+    "uploadACustomCommunityImage": "Upload a custom community image.",
+    "linkSonoranCADDispatchAI": "Link Sonoran CAD (Dispatch AI)",
+    "linkSonoranCAD": "Link Sonoran CAD",
+    "serverID": "Server ID",
+    "cancel": "Cancel",
+    "serverName": "Server Name"
+  },
+  "desktopPanel": {
+    "channelHotkey": "Channel Hotkey"
+  },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Selected Effect"
+  },
+  "radioSettingsDialog": {
+    "pTTHotkey": "PTT Hotkey",
+    "setYourPTTKeybindInYourGTASettings": "Set your PTT Keybind in your GTA Settings",
+    "aIToggle": "AI Toggle",
+    "toneHotkey": "Tone Hotkey",
+    "changeGroup": "Change Group",
+    "volume": "Volume -/+",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Set your custom SFX on the web or desktop app",
+    "debugMode": "Debug Mode:",
+    "flagTimestamp": "Flag Timestamp",
+    "clearCache": "Clear Cache",
+    "inputCount": "Input Count:",
+    "outputCount": "Output Count:"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Help improve these translations",
+    "serverHosting": "Server Hosting"
+  },
+  "loginMain": {
+    "withSonoran": "with Sonoran",
+    "withDiscord": "with Discord",
+    "withApple": "with Apple"
+  },
+  "management": {
+    "forceJoinAsOwner": "Force Join as Owner"
   }
 }

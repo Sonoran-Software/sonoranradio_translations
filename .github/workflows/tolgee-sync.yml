@@ -1,4 +1,4 @@
-name: Tolgee Sync
+﻿name: Tolgee Sync
 
 on:
   push:
@@ -77,25 +77,32 @@ jobs:
             .map(file => file.language)
             .filter(Boolean);
           const languageMetadata = {
-            ar: { name: 'Arabic', originalName: 'العربية', flagEmoji: '🇸🇦' },
-            cs: { name: 'Czech', originalName: 'Čeština', flagEmoji: '🇨🇿' },
-            da: { name: 'Danish', originalName: 'Dansk', flagEmoji: '🇩🇰' },
-            de: { name: 'German', originalName: 'Deutsch', flagEmoji: '🇩🇪' },
-            'en-US': { name: 'English (United States)', originalName: 'English (United States)', flagEmoji: '🇺🇸' },
-            'es-ES': { name: 'Spanish (Spain)', originalName: 'Español (España)', flagEmoji: '🇪🇸' },
-            fi: { name: 'Finnish', originalName: 'Suomi', flagEmoji: '🇫🇮' },
-            fr: { name: 'French', originalName: 'Français', flagEmoji: '🇫🇷' },
-            it: { name: 'Italian', originalName: 'Italiano', flagEmoji: '🇮🇹' },
-            ja: { name: 'Japanese', originalName: '日本語', flagEmoji: '🇯🇵' },
-            ko: { name: 'Korean', originalName: '한국어', flagEmoji: '🇰🇷' },
-            nl: { name: 'Dutch', originalName: 'Nederlands', flagEmoji: '🇳🇱' },
-            no: { name: 'Norwegian', originalName: 'Norsk', flagEmoji: '🇳🇴' },
-            pl: { name: 'Polish', originalName: 'Polski', flagEmoji: '🇵🇱' },
-            pt: { name: 'Portuguese', originalName: 'Português', flagEmoji: '🇵🇹' },
-            ru: { name: 'Russian', originalName: 'Русский', flagEmoji: '🇷🇺' },
-            sv: { name: 'Swedish', originalName: 'Svenska', flagEmoji: '🇸🇪' },
-            tr: { name: 'Turkish', originalName: 'Türkçe', flagEmoji: '🇹🇷' },
-            zh: { name: 'Chinese', originalName: '中文', flagEmoji: '🇨🇳' }
+            ar: { name: 'Arabic', originalName: 'Arabic', flagEmoji: 'SA' },
+            cs: { name: 'Czech', originalName: 'Cestina', flagEmoji: 'CZ' },
+            da: { name: 'Danish', originalName: 'Dansk', flagEmoji: 'DK' },
+            de: { name: 'German', originalName: 'Deutsch', flagEmoji: 'DE' },
+            en: { name: 'English', originalName: 'English', flagEmoji: 'US' },
+            'en-US': { name: 'English (United States)', originalName: 'English (United States)', flagEmoji: 'US' },
+            es: { name: 'Spanish', originalName: 'Espanol', flagEmoji: 'ES' },
+            'es-ES': { name: 'Spanish (Spain)', originalName: 'Espanol (Espana)', flagEmoji: 'ES' },
+            fi: { name: 'Finnish', originalName: 'Suomi', flagEmoji: 'FI' },
+            fr: { name: 'French', originalName: 'Francais', flagEmoji: 'FR' },
+            it: { name: 'Italian', originalName: 'Italiano', flagEmoji: 'IT' },
+            ja: { name: 'Japanese', originalName: 'Japanese', flagEmoji: 'JP' },
+            ko: { name: 'Korean', originalName: 'Korean', flagEmoji: 'KR' },
+            'ko-KR': { name: 'Korean (South Korea)', originalName: 'Korean (South Korea)', flagEmoji: 'KR' },
+            nl: { name: 'Dutch', originalName: 'Nederlands', flagEmoji: 'NL' },
+            'nl-BE': { name: 'Dutch (Belgium)', originalName: 'Nederlands (Belgie)', flagEmoji: 'BE' },
+            no: { name: 'Norwegian', originalName: 'Norsk', flagEmoji: 'NO' },
+            pl: { name: 'Polish', originalName: 'Polski', flagEmoji: 'PL' },
+            pt: { name: 'Portuguese', originalName: 'Portugues', flagEmoji: 'PT' },
+            ru: { name: 'Russian', originalName: 'Russian', flagEmoji: 'RU' },
+            sv: { name: 'Swedish', originalName: 'Svenska', flagEmoji: 'SE' },
+            tr: { name: 'Turkish', originalName: 'Turkce', flagEmoji: 'TR' },
+            uk: { name: 'Ukrainian', originalName: 'Ukrainian', flagEmoji: 'UA' },
+            zh: { name: 'Chinese', originalName: 'Chinese', flagEmoji: 'CN' },
+            'zh-CN': { name: 'Chinese (Simplified)', originalName: 'Chinese (Simplified)', flagEmoji: 'CN' },
+            'zh-TW': { name: 'Chinese (Traditional)', originalName: 'Chinese (Traditional)', flagEmoji: 'TW' }
           };
 
           const request = async (url, options = {}) => {
@@ -128,11 +135,9 @@ jobs:
           console.log(`Required by ${configPath}: ${required.join(', ')}`);
 
           for (const tag of required) {
-            if (existing.has(tag)) {
-              continue;
-            }
+            if (existing.has(tag)) continue;
 
-            const metadata = languageMetadata[tag] || { name: tag, originalName: tag, flagEmoji: '🏳️' };
+            const metadata = languageMetadata[tag] || { name: tag, originalName: tag, flagEmoji: 'UN' };
             console.log(`Creating Tolgee language: ${tag}`);
             await request(`${apiUrl}/v2/projects/${process.env.TOLGEE_PROJECT_ID}/languages`, {
               method: 'POST',
