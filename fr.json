@@ -339,6 +339,7 @@
       "bodyImage": "Image du corps",
       "cancel": "Annuler",
       "chooseSkin": "Choisir skin.json",
+      "confirmRemove": "Êtes-vous sûr de vouloir supprimer ce cadre ?",
       "create": "Créer",
       "frameBodyImage": "Corps de l'image du cadre",
       "frameLabel": "Libellé du cadre",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "pour déplacer des composants",
         "dragTitle": "glisser",
+        "removeBody": "pour supprimer les composants (sauf l’écran)",
         "removeTitle": "Clic droit",
         "resizeBody": "pour redimensionner des composants",
         "resizeTitle": "CTRL+glisser"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Toutes les tuiles doivent avoir la même taille. '{file}' fait {width}x{height}, attendu {expectedWidth}x{expectedHeight}.",
         "missingServer": "Aucun serveur actif sélectionné pour l'envoi.",
         "noImages": "Aucun fichier image n'a été sélectionné.",
+        "noTemplateMatch": "Aucun modèle de nom de tuile pris en charge n'a été détecté.",
         "openUploader": "Téléverser des tuiles",
         "resolvedTemplate": "Modèle résolu",
         "selectedSummary": "{count} images de tuile sélectionnées ({total})",
@@ -434,6 +437,7 @@
         "template": "Modèle",
         "tileBounds": "Bornes des tuiles (index x/y)",
         "tileSize": "Taille de la tuile",
+        "totalSizeLimitError": "La taille totale de téléversement des tuiles est de {total}, ce qui dépasse la limite de {limit}.",
         "unableReadDimensions": "Impossible de lire les dimensions de l'image depuis '{file}'.",
         "uploadFailed": "Le téléversement de la tuile a échoué.",
         "uploadMissingUrl": "Téléversement terminé mais aucune configuration n'a été renvoyée.",
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Ce format d'ID de canal est obsolète. Veuillez mettre à niveau vers la dernière version de Sonoran Radio TS et passer aux nouveaux ID numériques",
       "nickname": "Surnom",
       "range": {
-        "long": "Portée longue",
+        "long": "Longue portée",
         "medium": "Portée moyenne",
         "short": "Courte portée"
       },
@@ -581,7 +585,7 @@
           "name": "Verrouillage radio"
         },
         "tg::talkover_override": {
-          "desc": "Cette autorisation accorde la possibilité de double-cliquer sur votre bouton PTT pour passer outre un autre client",
+          "desc": "Cette permission accorde la possibilité de double-cliquer sur votre bouton PTT pour parler par-dessus un autre client",
           "name": "Contournement de la protection Talkover"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Exemples : \"définir le groupe Alpha sur les unités D-12, D-14\", \"effacer le groupe pour les unités D-12, D-14\"",
-            "label": "Grouper les unités"
+            "label": "Grouper les unités",
+            "placeholder": "Grouper les unités A-10 et B-11 dans « Groupe Un »"
           },
           "lookup": {
             "hint": "Exemples : \"lancer une plaque ABC123\", \"rechercher John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Exemples : \"route-moi vers le code postal 1234\", \"règle le GPS sur le code postal 90210\"",
-            "label": "Acheminer vers le postal"
+            "label": "Acheminer vers le postal",
+            "placeholder": "Achemine-moi vers le code postal 1234"
           },
           "status": {
             "hint": "Exemples : \"définis mon statut sur disponible\", \"montre-moi indisponible\"",
-            "label": "Mises à jour du statut"
+            "label": "Mises à jour du statut",
+            "placeholder": "Définis mon statut sur disponible"
           },
           "togglePanic": {
             "hint": "Exemples : \"activer mon panique\", \"effacer mon panique\"",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Définit la probabilité la plus faible que le signal se coupe.",
       "minimumDigitalDistortion": "Distorsion numérique min.",
       "minimumDigitalDistortionDescription": "Conserve un niveau de base de distorsion numérique dans l'audio.",
+      "mode": "Mode",
       "name": "Nom",
       "postEqualizerDescription": "Ajuste le rendu final après la chaîne d'effets pour la touche finale de finesse ou de dureté.",
       "previewEffects": "Aperçu des effets",
@@ -831,7 +839,7 @@
     "discovery": "Découverte",
     "discoveryActiveMembers": "Cette communauté compte parmi les membres les plus actifs",
     "discoveryGrowingRapidly": "Cette communauté se développe rapidement",
-    "discoveryHighTraffic": "Cette communauté reçoit un trafic web élevé",
+    "discoveryHighTraffic": " Cette communauté reçoit un trafic élevé sur le site web",
     "discoveryRecentlyBumped": "Cette communauté a récemment été remontée",
     "documentation": "Documentation",
     "joinACommunity": "Rejoindre une communauté Sonoran Radio",
@@ -873,7 +881,7 @@
     "statewideFrequencyLimits": "Limites de fréquence à l'échelle de l'État",
     "statewideFrequencyLimitsDescription": "Nb de fréquences étendues autorisées.",
     "talkaroundFrequencies": "Fréquences Talkaround",
-    "talkaroundFrequenciesDescription": "Les fréquences Talkaround permettent aux individus de parler radio à radio au lieu de radio à tour.",
+    "talkaroundFrequenciesDescription": "Les fréquences talkaround permettent aux personnes de communiquer de radio à radio au lieu de radio à tour.",
     "talkoverProtection": "Protection Talkover",
     "talkoverProtectionDescription": "La protection contre les prises de parole simultanées permet à une seule personne de parler sur une fréquence à la fois.",
     "toBilling": "Retour à la facturation",

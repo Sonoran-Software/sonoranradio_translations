@@ -339,6 +339,7 @@
       "bodyImage": "Kehokuvake",
       "cancel": "Peruuta",
       "chooseSkin": "Valitse kuori.json",
+      "confirmRemove": "Oletko varma, että haluat poistaa tämän kehyksen?",
       "create": "Luo",
       "frameBodyImage": "Kehyksen kehokuva",
       "frameLabel": "Kehyksen nimi",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "komponenttien siirtämiseen",
         "dragTitle": "Vedä",
+        "removeBody": "komponenttien poistamiseen (paitsi näyttö)",
         "removeTitle": "Napsauta hiiren kakkospainikkeella",
         "resizeBody": "komponenttien koon muuttamiseen",
         "resizeTitle": "CTRL+Vedä"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Kaikkien laattojen on oltava saman kokoisia. '{file}' on {width}x{height}, odotettiin {expectedWidth}x{expectedHeight}.",
         "missingServer": "Ei aktiivista palvelinta valittuna latausta varten.",
         "noImages": "Ei kuvatiedostoja valittu.",
+        "noTemplateMatch": "Tuettua ruutunimimallia ei havaittu.",
         "openUploader": "Lähetä ruudut",
         "resolvedTemplate": "Ratkaistu malli",
         "selectedSummary": "{count} laattakuvaa valittu ({total})",
@@ -434,6 +437,7 @@
         "template": "Malli",
         "tileBounds": "Laattojen rajat (x/y-indeksi)",
         "tileSize": "Laatan koko",
+        "totalSizeLimitError": "Laattakuvien kokonaislähetyskoko on {total}, mikä ylittää {limit} rajan.",
         "unableReadDimensions": "Kuvan mittoja ei voi lukea tiedostosta '{file}'.",
         "uploadFailed": "Ruudun lähetys epäonnistui.",
         "uploadMissingUrl": "Lataus valmistui, mutta kokoonpanoa ei palautettu.",
@@ -492,7 +496,7 @@
       "subOwner": "Tilauksen haltija",
       "subtitle": "Hallitse käyttäjien käyttöoikeuksia ja pääsyä yhteisössäsi.",
       "title": "Yhteisön jäsenet",
-      "traits": "Ominaisuudet",
+      "traits": "Piirteet",
       "unbanBtn": "Poista porttikielto",
       "username": "Käyttäjänimi"
     },
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Tämä kanava-ID:n muoto on vanhentunut. Päivitä uusimpaan Sonoran Radio TS -versioon ja käytä uusia numeerisia ID:itä",
       "nickname": "Nimimerkki",
       "range": {
-        "long": "Pitkä alue",
+        "long": "Pitkän kantaman",
         "medium": "Keskialue",
         "short": "Lyhyt kantama"
       },
@@ -581,7 +585,7 @@
           "name": "Radiolukitus"
         },
         "tg::talkover_override": {
-          "desc": "Tämä oikeus antaa mahdollisuuden kaksoisnapsauta PTT-painiketta puhuaksesi toisen asiakkaan yli",
+          "desc": "Tämä käyttöoikeus antaa mahdollisuuden kaksoisnapsauttaa PTT-painiketta puhuaksesi toisen asiakkaan päälle",
           "name": "Puheenläpäisyn suojauksen ohitus"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Esimerkit: \"aseta ryhmä Alpha yksiköille D-12, D-14\", \"poista ryhmä yksiköiltä D-12, D-14\"",
-            "label": "Ryhmitä yksiköt"
+            "label": "Ryhmitä yksiköt",
+            "placeholder": "Ryhmitä yksiköt A-10 ja B-11 ryhmäksi 'Group One'"
           },
           "lookup": {
             "hint": "Esimerkit: \"suorita rekisterikilpi ABC123\", \"etsi John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Esimerkkejä: \"vie minut postiin 1234\", \"aseta GPS postinumeroon 90210\"",
-            "label": "Reititä postiin"
+            "label": "Reititä postiin",
+            "placeholder": "Vie minut postiin 1234"
           },
           "status": {
             "hint": "Esimerkkejä: \"aseta tilakseni käytettävissä\", \"näytä minulle ei käytettävissä\"",
-            "label": "Tilapäivitykset"
+            "label": "Tilapäivitykset",
+            "placeholder": "Aseta tilakseni käytettävissä"
           },
           "togglePanic": {
             "hint": "Esimerkkejä: \"aktivoi paniikkini\", \"tyhjennä paniikkini\"",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Määrittää pienimmän todennäköisyyden, että signaali katkeaa.",
       "minimumDigitalDistortion": "Min. digitaalinen",
       "minimumDigitalDistortionDescription": "Säilyttää vähimmäistason digitaalista säröä äänessä.",
+      "mode": "Tila",
       "name": "Nimi",
       "postEqualizerDescription": "Viimeistelee lopullisen ulostulon efektiketjun jälkeen viimeisen silauksen tai karheuden poistamiseksi.",
       "previewEffects": "Esikatsele tehosteita",
@@ -828,7 +836,7 @@
     "discovery": "Löytäminen",
     "discoveryActiveMembers": "Tällä yhteisöllä on joitakin aktiivisimmista jäsenistä",
     "discoveryGrowingRapidly": "Tämä yhteisö kasvaa nopeasti",
-    "discoveryHighTraffic": "Tällä yhteisöllä on korkea verkkoliikenne",
+    "discoveryHighTraffic": "Tämä yhteisö saa paljon verkkosivuliikennettä",
     "discoveryRecentlyBumped": "Tätä yhteisöä nostettiin äskettäin",
     "documentation": "Dokumentaatio",
     "joinACommunity": "Liity Sonoran Radio -yhteisöön",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Valtakunnalliset taajuusrajoitukset",
     "statewideFrequencyLimitsDescription": "Sallittujen valtionlaajuisten taajuuksien määrä.",
     "talkaroundFrequencies": "Talkaround-taajuudet",
-    "talkaroundFrequenciesDescription": "Talkaround-taajudet sallivat yksilöiden puhua radiosta radioon tornin sijasta.",
+    "talkaroundFrequenciesDescription": "Talkaround-taajuuksilla yksilöt voivat puhua radiosta radioon tukiaseman sijaan.",
     "talkoverProtection": "Puheenläpäisyn suojaus",
     "talkoverProtectionDescription": "Talkover-suojaus sallii vain yhden henkilön puhua samalla taajuudella kerrallaan.",
     "toBilling": "Takaisin laskutukseen",
@@ -926,7 +934,7 @@
       "keyupSfx": "Näppäin ylös SFX",
       "macosPermWarning": "Laitteesi saattaa vaatia lisäoikeuksia: {link}",
       "macosPermWarningLink": "Opi myöntämään käyttöoikeudet",
-      "moveResize": "Siirrä/Muuta kokoa",
+      "moveResize": "Siirrä/muuta kokoa",
       "myPttSfx": "Oma PTT-äänitehoste",
       "othersPttSfx": "Toisten PTT-äänitehoste",
       "privacyTab": "Tietosuoja",

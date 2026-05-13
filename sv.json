@@ -41,7 +41,7 @@
     "confirmChangeSub": {
       "possibleDataLoss": "Om du överför eller tar bort din prenumeration kan data på den tidigare servern gå förlorade.",
       "remove": "Är du säker på att du vill ta bort denna server från ditt abonnemang?",
-      "set": "Är du säker på att du vill ställa in denna server för ditt abonnemang?",
+      "set": "Är du säker på att du vill ange denna server för ditt abonnemang?",
       "title": "Byt abonnemang",
       "transfer": "Är du säker på att du vill överföra denna prenumeration till en annan server?"
     },
@@ -339,6 +339,7 @@
       "bodyImage": "Kroppsbild",
       "cancel": "Avbryt",
       "chooseSkin": "Välj skal.json",
+      "confirmRemove": "Är du säker på att du vill ta bort denna ram?",
       "create": "Skapa",
       "frameBodyImage": "Rambild",
       "frameLabel": "Rametikett",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "att flytta komponenter",
         "dragTitle": "Dra",
+        "removeBody": "att ta bort komponenter (förutom skärmen)",
         "removeTitle": "Högerklicka",
         "resizeBody": "att ändra storlek på komponenter",
         "resizeTitle": "CTRL+dra"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Alla brickor måste ha samma storlek. '{file}' är {width}x{height}, förväntat {expectedWidth}x{expectedHeight}.",
         "missingServer": "Ingen aktiv server vald för uppladdning.",
         "noImages": "Inga bildfiler valdes.",
+        "noTemplateMatch": "Ingen stödd mall för kakelnamn upptäcktes.",
         "openUploader": "Ladda upp plattor",
         "resolvedTemplate": "Löst mall",
         "selectedSummary": "{count} kakbilder valda ({total})",
@@ -434,6 +437,7 @@
         "template": "Mall",
         "tileBounds": "Tilegränser (x/y-index)",
         "tileSize": "Kartstorlek",
+        "totalSizeLimitError": "Den totala uppladdningsstorleken för plattbilder är {total}, vilket överskrider gränsen på {limit}.",
         "unableReadDimensions": "Kunde inte läsa bilddimensioner från '{file}'.",
         "uploadFailed": "Uppladdning av plattor misslyckades.",
         "uploadMissingUrl": "Uppladdningen slutfördes men ingen konfiguration returnerades.",
@@ -581,7 +585,7 @@
           "name": "Radiolås"
         },
         "tg::talkover_override": {
-          "desc": "Denna behörighet ger möjlighet att dubblera din PTT-knapp för att tala över en annan klient",
+          "desc": "Den här behörigheten ger möjlighet att dubbelklicka på din PTT-knapp för att tala över en annan klient",
           "name": "Talövergångsskyddsöverskrivning"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Exempel: \"ställ in grupp Alpha på enheter D-12, D-14\", \"rensa grupp för enheter D-12, D-14\"",
-            "label": "Gruppera enheter"
+            "label": "Gruppera enheter",
+            "placeholder": "Gruppera enheter A-10 och B-11 till 'Grupp Ett'"
           },
           "lookup": {
             "hint": "Exempel: \"kör en skylt ABC123\", \"slå upp John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Exempel: \"route me to postal 1234\", \"ställ GPS till postal 90210\"",
-            "label": "Rutt till post"
+            "label": "Rutt till post",
+            "placeholder": "Rutta mig till postnummer 1234"
           },
           "status": {
             "hint": "Exempel: \"sätt min status till tillgänglig\", \"visa mig otillgänglig\"",
-            "label": "Statusuppdateringar"
+            "label": "Statusuppdateringar",
+            "placeholder": "Sätt min status till tillgänglig"
           },
           "togglePanic": {
             "hint": "Exempel: \"aktivera min panik\", \"rensa min panik\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "Spela PTT-effekt",
       "hearPttSfxDesc": "Spela PTT-ljudet när du trycker för att tala.",
       "keyUpDelay": "Fördröjning vid tangentuppsläpp",
-      "keyUpDelayDesc": "Fördröjning efter avslutad sändning innan mikrofonen släpps.",
+      "keyUpDelayDesc": "Fördröjning efter att en sändning avslutats innan mikrofonen släpps.",
       "muteScannedWhileTransmitting": "Stäng av skanning medan du sänder",
       "muteScannedWhileTransmittingDesc": "Stäng av skannade kanaler medan du sänder på en kanal.",
       "sirenVolume": "Volymboost med aktiv siren",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Ställer in den lägsta sannolikheten att signalen kommer att brytas av.",
       "minimumDigitalDistortion": "Min. digital",
       "minimumDigitalDistortionDescription": "Behåller en grundläggande nivå av digital distorsion i ljudet.",
+      "mode": "Läge",
       "name": "Namn",
       "postEqualizerDescription": "Förfinar den slutliga utgången efter effektkedjan för den sista lilla poleringen eller hårdheten.",
       "previewEffects": "Förhandsgranska effekter",
@@ -828,7 +836,7 @@
     "discovery": "Upptäck",
     "discoveryActiveMembers": "Det här communityt har några av de mest aktiva medlemmarna",
     "discoveryGrowingRapidly": "Detta community växer snabbt",
-    "discoveryHighTraffic": "Detta community får höga webbtrafik",
+    "discoveryHighTraffic": "Den här communityn får mycket webbplatstrafik",
     "discoveryRecentlyBumped": "Detta community lyftes nyligen upp",
     "documentation": "Dokumentation",
     "joinACommunity": "Gå med i en Sonoran Radio-community",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Begränsningar för frekvens i hela staten",
     "statewideFrequencyLimitsDescription": "Antal tillåtna statliga frekvenser.",
     "talkaroundFrequencies": "Talkaround-frekvenser",
-    "talkaroundFrequenciesDescription": "Samtalsfrekvenser ger individer möjlighet att prata radio till radio istället för radio till torn.",
+    "talkaroundFrequenciesDescription": "Talkaround-frekvenser gör det möjligt för individer att kommunicera radio till radio i stället för radio till mast.",
     "talkoverProtection": "Talövergångsskydd",
     "talkoverProtectionDescription": "Talskydd tillåter endast en person att prata över en frekvens åt gången.",
     "toBilling": "Tillbaka till fakturering",
@@ -926,7 +934,7 @@
       "keyupSfx": "Keyup SFX",
       "macosPermWarning": "Din enhet kan kräva ytterligare behörigheter: {link}",
       "macosPermWarningLink": "Läs om hur du ger behörigheter",
-      "moveResize": "Flytta/Ändra storlek",
+      "moveResize": "Flytta/ändra storlek",
       "myPttSfx": "Min PTT-effekt",
       "othersPttSfx": "Andras PTT-effekt",
       "privacyTab": "Sekretess",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Smeknamn",
     "nicknameInputDesc": "Ange ett anpassat smeknamn för din community som du och dina medlemmar kommer att se",
-    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInput": "TeamSpeak-server-UID",
     "serverUidInputDesc": "Ange din TeamSpeak 3-server-UID här"
   },
   "serverPending": {

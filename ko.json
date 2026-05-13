@@ -41,6 +41,7 @@
     "confirmChangeSub": {
       "possibleDataLoss": "구독을 이전하거나 제거하면 이전 서버의 데이터가 손실될 수 있습니다.",
       "remove": "이 서버를 구독에서 제거하시겠습니까?",
+      "set": "이 서버를 구독에 설정하시겠습니까?",
       "title": "구독 변경",
       "transfer": "이 구독을 다른 서버로 이전하시겠습니까?"
     },
@@ -338,6 +339,7 @@
       "bodyImage": "바디 이미지",
       "cancel": "취소",
       "chooseSkin": "스킨 선택",
+      "confirmRemove": "이 프레임을 제거하시겠습니까?",
       "create": "만들기",
       "frameBodyImage": "프레임 바디 이미지",
       "frameLabel": "프레임 레이블",
@@ -354,6 +356,7 @@
       "tooltip": {
         "dragBody": "구성 요소를 이동하려면",
         "dragTitle": "드래그",
+        "removeBody": "구성 요소를 제거하려면(화면 제외)",
         "removeTitle": "우클릭",
         "resizeBody": "구성 요소의 크기를 조정하려면",
         "resizeTitle": "CTRL+드래그"
@@ -421,6 +424,7 @@
         "mismatchedTileSize": "모든 타일은 같은 크기여야 합니다. '{file}'은 {width}x{height}이고, 예상 크기는 {expectedWidth}x{expectedHeight}입니다.",
         "missingServer": "업로드할 활성 서버가 선택되지 않았습니다.",
         "noImages": "선택된 이미지 파일이 없습니다.",
+        "noTemplateMatch": "지원되는 타일 이름 템플릿이 감지되지 않았습니다.",
         "openUploader": "타일 업로드",
         "resolvedTemplate": "해결된 템플릿",
         "selectedSummary": "{count}개 타일 이미지 선택됨 ({total})",
@@ -433,6 +437,7 @@
         "template": "템플릿",
         "tileBounds": "타일 경계(x/y 인덱스)",
         "tileSize": "타일 크기",
+        "totalSizeLimitError": "총 타일 업로드 크기는 {total}이며 {limit} 제한을 초과했습니다.",
         "unableReadDimensions": "'{file}'에서 이미지 크기를 읽을 수 없습니다.",
         "uploadFailed": "타일 업로드에 실패했습니다.",
         "uploadMissingUrl": "업로드가 완료되었지만 구성이 반환되지 않았습니다.",
@@ -491,6 +496,7 @@
       "subOwner": "구독 보유자",
       "subtitle": "커뮤니티에서 사용자 권한과 접근을 관리하세요.",
       "title": "커뮤니티 멤버",
+      "traits": "특성",
       "unbanBtn": "차단 해제",
       "username": "사용자 이름"
     },
@@ -538,6 +544,7 @@
       "legacyChannelUidWarn": "이 형식의 Channel ID 는 더 이상 사용되지 않습니다. 최신 버전의 Sonoran Radio TS 로 업그레이드하고 새 숫자 ID 로 업데이트하세요",
       "nickname": "닉네임",
       "range": {
+        "long": "장거리",
         "medium": "중간 범위",
         "short": "짧은 범위"
       },
@@ -578,6 +585,7 @@
           "name": "라디오 잠금"
         },
         "tg::talkover_override": {
+          "desc": "이 권한은 PTT 버튼을 두 번 클릭하여 다른 클라이언트 위로 말할 수 있는 기능을 부여합니다",
           "name": "토크오버 보호 재정의"
         }
       }
@@ -676,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "예: \"단위 D-12, D-14에 그룹 Alpha 설정\", \"단위 D-12, D-14의 그룹 해제\"",
-            "label": "단위 그룹"
+            "label": "단위 그룹",
+            "placeholder": "A-10과 B-11 단위를 '그룹 1'으로 그룹화"
           },
           "lookup": {
             "hint": "예: \"차량번호 ABC123 조회\", \"John Smith 검색\"",
@@ -690,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "예: \"우편 1234로 안내해 줘\", \"GPS를 우편 90210으로 설정해 줘\"",
-            "label": "우편으로 라우팅"
+            "label": "우편으로 라우팅",
+            "placeholder": "우편 1234로 안내해 줘"
           },
           "status": {
             "hint": "예: \"내 상태를 사용 가능으로 설정\", \"사용 불가를 보여 줘\"",
-            "label": "상태 업데이트"
+            "label": "상태 업데이트",
+            "placeholder": "내 상태를 사용 가능으로 설정"
           },
           "togglePanic": {
             "hint": "예: \"내 패닉 활성화\", \"내 패닉 해제\"",
@@ -736,6 +747,7 @@
       "hearPttSfx": "PTT 효과음 재생",
       "hearPttSfxDesc": "마이크를 키업할 때 PTT 사운드를 재생합니다.",
       "keyUpDelay": "키 업 지연",
+      "keyUpDelayDesc": "전송 종료 후 마이크가 해제되기까지의 지연 시간.",
       "muteScannedWhileTransmitting": "송신 중일 때 스캔 음소거",
       "muteScannedWhileTransmittingDesc": "채널에서 송신 중일 때 스캔된 채널 음소거.",
       "sirenVolume": "활성 사이렌과 함께 볼륨 부스트",
@@ -795,6 +807,7 @@
       "minimumClippingDescription": "신호가 끊길 가장 낮은 가능성을 설정합니다.",
       "minimumDigitalDistortion": "최소 디지털",
       "minimumDigitalDistortionDescription": "오디오의 디지털 왜곡 수준을 기본으로 유지합니다.",
+      "mode": "모드",
       "name": "이름",
       "postEqualizerDescription": "효과 체인 이후의 최종 출력을 다듬어 마지막 미세한 다듬기나 거친 느낌을 줄입니다.",
       "previewEffects": "효과 미리 보기",
@@ -823,6 +836,7 @@
     "discovery": "발견",
     "discoveryActiveMembers": "이 커뮤니티에는 가장 활발한 회원들이 있습니다",
     "discoveryGrowingRapidly": "이 커뮤니티는 빠르게 성장하고 있습니다",
+    "discoveryHighTraffic": "이 커뮤니티는 높은 웹사이트 트래픽을 받고 있습니다",
     "discoveryRecentlyBumped": "이 커뮤니티는 최근에 부스트되었습니다",
     "documentation": "문서",
     "joinACommunity": "Sonoran Radio 커뮤니티에 참여하기",
@@ -864,6 +878,7 @@
     "statewideFrequencyLimits": "주 전체 빈도 제한",
     "statewideFrequencyLimitsDescription": "허용되는 주 전체 주파수 수.",
     "talkaroundFrequencies": "토크어라운드 주파수",
+    "talkaroundFrequenciesDescription": "토커라운드 주파수는 개인이 타워 대신 무전기끼리 직접 대화할 수 있게 합니다.",
     "talkoverProtection": "토크오버 보호",
     "talkoverProtectionDescription": "Talkover 보호는 한 번에 한 사람만 한 주파수에서 말할 수 있도록 합니다.",
     "toBilling": "결제로 돌아가기",
@@ -919,7 +934,7 @@
       "keyupSfx": "키 업 SFX",
       "macosPermWarning": "사용자 기기에는 추가 권한이 필요할 수 있습니다: {link}",
       "macosPermWarningLink": "권한을 부여하는 방법 알아보기",
-      "moveResize": "이동/크기 조정",
+      "moveResize": "이동/크기 조절",
       "myPttSfx": "내 PTT 효과음",
       "othersPttSfx": "다른 사람의 PTT 효과음",
       "privacyTab": "개인정보",

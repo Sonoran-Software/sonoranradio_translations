@@ -339,6 +339,7 @@
       "bodyImage": "Körperbild",
       "cancel": "Abbrechen",
       "chooseSkin": "Skin auswählen",
+      "confirmRemove": "Sind Sie sicher, dass Sie diesen Rahmen entfernen möchten?",
       "create": "Erstellen",
       "frameBodyImage": "Rahmenkörperbild",
       "frameLabel": "Rahmenbezeichnung",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "um Komponenten zu verschieben",
         "dragTitle": "Ziehen",
+        "removeBody": "um Komponenten zu entfernen (außer Bildschirm)",
         "removeTitle": "Rechtsklick",
         "resizeBody": "um Komponenten zu skalieren",
         "resizeTitle": "STRG+Ziehen"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Alle Kacheln müssen die gleiche Größe haben. '{file}' ist {width}x{height}, erwartet {expectedWidth}x{expectedHeight}.",
         "missingServer": "Kein aktiver Server zum Hochladen ausgewählt.",
         "noImages": "Es wurden keine Bilddateien ausgewählt.",
+        "noTemplateMatch": "Kein unterstütztes Kachel-Namens-Template wurde erkannt.",
         "openUploader": "Kacheln hochladen",
         "resolvedTemplate": "Aufgelöste Vorlage",
         "selectedSummary": "{count} Kachelbilder ausgewählt ({total})",
@@ -434,6 +437,7 @@
         "template": "Vorlage",
         "tileBounds": "Kachelgrenzen (x/y-Index)",
         "tileSize": "Kachelgröße",
+        "totalSizeLimitError": "Die gesamte Upload-Größe der Kacheln beträgt {total} und überschreitet das Limit von {limit}.",
         "unableReadDimensions": "Bildabmessungen aus '{file}' können nicht gelesen werden.",
         "uploadFailed": "Kacheln-Upload fehlgeschlagen.",
         "uploadMissingUrl": "Upload abgeschlossen, aber es wurde keine Konfiguration zurückgegeben.",
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Diese Form der Kanal-ID wurde veraltet. Bitte aktualisiere auf die neueste Version von Sonoran Radio TS und wechsle zu den neuen numerischen IDs",
       "nickname": "Spitzname",
       "range": {
-        "long": "Lange Reichweite",
+        "long": "Große Reichweite",
         "medium": "Mittlere Reichweite",
         "short": "Kurzstreckenbereich"
       },
@@ -581,7 +585,7 @@
           "name": "Funkverriegelung"
         },
         "tg::talkover_override": {
-          "desc": "Diese Berechtigung gewährt die Fähigkeit, Ihre PTT-Taste doppelt zu klicken, um über einen anderen Client zu sprechen",
+          "desc": "Diese Berechtigung gewährt die Möglichkeit, deinen PTT-Button doppelt anzuklicken, um über einen anderen Client hinweg zu sprechen",
           "name": "Talkover-Schutz-Override"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Beispiele: \"Gruppe Alpha für Einheiten D-12, D-14 festlegen\", \"Gruppe für Einheiten D-12, D-14 löschen\"",
-            "label": "Einheiten gruppieren"
+            "label": "Einheiten gruppieren",
+            "placeholder": "Ordnen Sie die Einheiten A-10 und B-11 „Gruppe Eins“ zu"
           },
           "lookup": {
             "hint": "Beispiele: \"Suche ein Kennzeichen ABC123\", \"Suche nach John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Beispiele: \"route me to postal 1234\", \"set GPS to postal 90210\"",
-            "label": "Zur Post leiten"
+            "label": "Zur Post leiten",
+            "placeholder": "Leite mich zu Postleitzahl 1234"
           },
           "status": {
             "hint": "Beispiele: \"setze meinen Status auf verfügbar\", \"zeige mir nicht verfügbar\"",
-            "label": "Statusaktualisierungen"
+            "label": "Statusaktualisierungen",
+            "placeholder": "Setze meinen Status auf verfügbar"
           },
           "togglePanic": {
             "hint": "Beispiele: \"Panik aktivieren\", \"Panik löschen\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "PTT-SFX abspielen",
       "hearPttSfxDesc": "Spielen Sie den PTT-Sound ab, wenn Sie Ihr Mikrofon aufdrehen.",
       "keyUpDelay": "Verzögerung beim Loslassen der Taste",
-      "keyUpDelayDesc": "Verzögerung nach dem Beenden einer Übertragung, bevor das Mikrofon freigegeben wird.",
+      "keyUpDelayDesc": "Verzögerung nach dem Ende einer Übertragung, bevor das Mikrofon freigegeben wird.",
       "muteScannedWhileTransmitting": "Gescannte beim Senden stummschalten",
       "muteScannedWhileTransmittingDesc": "Gescannte Kanäle beim Senden auf einem Kanal stummschalten.",
       "sirenVolume": "Lautstärkeverstärkung bei aktiver Sirene",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Legt die niedrigste Wahrscheinlichkeit fest, dass das Signal ausfällt.",
       "minimumDigitalDistortion": "Minimale Digital",
       "minimumDigitalDistortionDescription": "Hält ein Grundniveau an digitalem Klangbruch im Audio aufrecht.",
+      "mode": "Modus",
       "name": "Name",
       "postEqualizerDescription": "Verfeinert die finale Ausgabe nach der Effektkette für den letzten Schliff oder um Härte zu reduzieren.",
       "previewEffects": "Effekte in der Vorschau",
@@ -828,7 +836,7 @@
     "discovery": "Entdecken",
     "discoveryActiveMembers": "Diese Community hat einige der aktivsten Mitglieder",
     "discoveryGrowingRapidly": "Diese Community wächst rasant",
-    "discoveryHighTraffic": "Diese Community erhält einen hohen Website-Traffic",
+    "discoveryHighTraffic": " Diese Community erhält viel Website-Traffic",
     "discoveryRecentlyBumped": "Diese Community wurde kürzlich hochgestuft",
     "documentation": "Dokumentation",
     "joinACommunity": "Einer Sonoran Radio-Community beitreten",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Landesweite Frequenzlimits",
     "statewideFrequencyLimitsDescription": "Anzahl der erlaubten landesweiten Frequenzen.",
     "talkaroundFrequencies": "Talkaround-Frequenzen",
-    "talkaroundFrequenciesDescription": "Talkaround-Frequenzen ermöglichen Individuen, von Funk zu Funk zu sprechen, statt von Funk zu Turm.",
+    "talkaroundFrequenciesDescription": "Talkaround-Frequenzen ermöglichen es Einzelpersonen, von Funkgerät zu Funkgerät zu sprechen statt von Funkgerät zu Turm.",
     "talkoverProtection": "Talkover-Schutz",
     "talkoverProtectionDescription": "Talkover-Schutz erlaubt nur einer Person gleichzeitig, über eine Frequenz zu sprechen.",
     "toBilling": "Zurück zur Abrechnung",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Spitzname",
     "nicknameInputDesc": "Lege einen benutzerdefinierten Spitznamen für deine Community fest, den du und deine Mitglieder sehen werden",
-    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInput": "TeamSpeak-Server-UID",
     "serverUidInputDesc": "Gib hier die UID deines TeamSpeak 3-Servers ein"
   },
   "serverPending": {

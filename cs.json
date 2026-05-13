@@ -339,6 +339,7 @@
       "bodyImage": "Obrázek těla",
       "cancel": "Zrušit",
       "chooseSkin": "Vyberte skin.json",
+      "confirmRemove": "Jste si jisti, že chcete odebrat tento rámeček?",
       "create": "Vytvořit",
       "frameBodyImage": "Obrázek těla rámu",
       "frameLabel": "Popisek rámce",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "pro přesun komponent",
         "dragTitle": "Táhni",
+        "removeBody": "pro odstranění komponent (kromě obrazovky)",
         "removeTitle": "Klikněte pravým tlačítkem",
         "resizeBody": "pro změnu velikosti komponent",
         "resizeTitle": "CTRL+Táhni"
@@ -369,7 +371,7 @@
       "desktopFrames": "Rámečky plochy",
       "fivemIntegration": "Integrace FiveM",
       "info": "Info",
-      "patrolChannels": "Patrolovat kanály",
+      "patrolChannels": "Patrolovací Kanály",
       "permissions": "Oprávnění",
       "profiles": "Profily",
       "sfxCustomization": "Přizpůsobení SFX",
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Všechny dlaždice musí být stejně velké. '{file}' je {width}x{height}, očekáváno {expectedWidth}x{expectedHeight}.",
         "missingServer": "Není vybrán žádný aktivní server pro nahrání.",
         "noImages": "Nebyl vybrán žádný obrázkový soubor.",
+        "noTemplateMatch": "Nebyla zjištěna žádná podporovaná šablona názvu dlaždice.",
         "openUploader": "Nahrát dlaždice",
         "resolvedTemplate": "Vyřešená šablona",
         "selectedSummary": "Vybrány {count} obrázky dlaždic ({total})",
@@ -434,6 +437,7 @@
         "template": "Šablona",
         "tileBounds": "Ohraničení dlaždic (index x/y)",
         "tileSize": "Velikost dlaždice",
+        "totalSizeLimitError": "Celková velikost nahrávání dlaždic je {total}, což překračuje limit {limit}.",
         "unableReadDimensions": "Nelze přečíst rozměry obrázku ze souboru '{file}'.",
         "uploadFailed": "Nahrávání dlaždic se nezdařilo.",
         "uploadMissingUrl": "Nahrání dokončeno, ale nebyla vrácena žádná konfigurace.",
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Tento formát ID kanálu je zastaralý. Aktualizujte prosím na nejnovější verzi Sonoran Radio TS a přejděte na nová číselná ID",
       "nickname": "Přezdívka",
       "range": {
-        "long": "Dlouhý Rozsah",
+        "long": "Dlouhý dosah",
         "medium": "Střední dosah",
         "short": "Krátký dosah"
       },
@@ -581,7 +585,7 @@
           "name": "Zámek rádia"
         },
         "tg::talkover_override": {
-          "desc": "Toto oprávnění uděluje schopnost dvojkliku na tlačítko PTT pro překlapání jiného klienta",
+          "desc": "Toto oprávnění umožňuje dvojitým kliknutím na tlačítko PTT mluvit přes jiného klienta",
           "name": "Přepsání ochrany překrytí"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Příklady: \"nastavit skupinu Alpha na jednotkách D-12, D-14\", \"vymazat skupinu pro jednotky D-12, D-14\"",
-            "label": "Seskupit jednotky"
+            "label": "Seskupit jednotky",
+            "placeholder": "Seskupte jednotky A-10 a B-11 do „Skupina jedna“"
           },
           "lookup": {
             "hint": "Příklady: \"spusť vyhledání SPZ ABC123\", \"vyhledej Johna Smithe\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Příklady: \"naviguj mě na PSČ 1234\", \"nastav GPS na PSČ 90210\"",
-            "label": "Trasa na poštu"
+            "label": "Trasa na poštu",
+            "placeholder": "Naviguj mě na PSČ 1234"
           },
           "status": {
             "hint": "Příklady: \"nastav můj stav na dostupný\", \"ukaž mi nedostupný\"",
-            "label": "Aktualizace stavu"
+            "label": "Aktualizace stavu",
+            "placeholder": "Nastav můj stav na dostupný"
           },
           "togglePanic": {
             "hint": "Příklady: \"aktivovat můj panikový režim\", \"vymazat můj panikový režim\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "Přehrát PTT SFX",
       "hearPttSfxDesc": "Přehrát zvuk PTT při aktivaci mikrofonu.",
       "keyUpDelay": "Prodleva uvolnění klávesy",
-      "keyUpDelayDesc": "Zpoždění po ukončení přenosu před uvolněním mikrofonu.",
+      "keyUpDelayDesc": "Prodleva po ukončení vysílání před uvolněním mikrofonu.",
       "muteScannedWhileTransmitting": "Ztlumit skenované při vysílání",
       "muteScannedWhileTransmittingDesc": "Ztlumit skenované kanály při vysílání na kanálu.",
       "sirenVolume": "Zvýšení hlasitosti s aktivní sirénou",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Nastaví nejnižší pravděpodobnost, že se signál přeruší.",
       "minimumDigitalDistortion": "Min. digitální",
       "minimumDigitalDistortionDescription": "Udržuje základní úroveň digitálního zkreslení zvuku.",
+      "mode": "Režim",
       "name": "Název",
       "postEqualizerDescription": "Vylepšuje výsledný výstup po řetězci efektů pro poslední doladění nebo zmírnění ostrosti.",
       "previewEffects": "Náhled efektů",
@@ -828,7 +836,7 @@
     "discovery": "Objevování",
     "discoveryActiveMembers": "Tato komunita má jedny z nejaktivnějších členů",
     "discoveryGrowingRapidly": "Tato komunita rychle roste",
-    "discoveryHighTraffic": "Tato komunita dostává vysoký provoz na webových stránkách",
+    "discoveryHighTraffic": "Tato komunita zaznamenává vysokou návštěvnost webu",
     "discoveryRecentlyBumped": "Tato komunita byla nedávno zvýrazněna",
     "documentation": "Dokumentace",
     "joinACommunity": "Připojte se ke komunitě Sonoran Radio",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Celostátní frekvenční limity",
     "statewideFrequencyLimitsDescription": "Počet povolených celostátních frekvencí.",
     "talkaroundFrequencies": "Frekvence talkaround",
-    "talkaroundFrequenciesDescription": "Talkaround frekvence umožňují individuálním uživatelům hovořit rádio na rádio namísto rádio na věž.",
+    "talkaroundFrequenciesDescription": "Frekvence Talkaround umožňují komunikovat rádiu s rádiem místo rádia s věží.",
     "talkoverProtection": "Ochrana překrytí",
     "talkoverProtectionDescription": "Ochrana proti přeslechu umožňuje, aby na jedné frekvenci mluvil vždy jen jeden člověk současně.",
     "toBilling": "Zpět na fakturaci",
@@ -926,7 +934,7 @@
       "keyupSfx": "SFX při uvolnění klávesy",
       "macosPermWarning": "Vaše zařízení může vyžadovat další oprávnění: {link}",
       "macosPermWarningLink": "Zjistěte, jak udělit oprávnění",
-      "moveResize": "Přesun/Úprava velikosti",
+      "moveResize": "Přesun/Změna velikosti",
       "myPttSfx": "Moje PTT SFX",
       "othersPttSfx": "SFX ostatních při PTT",
       "privacyTab": "Soukromí",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Přezdívka",
     "nicknameInputDesc": "Nastavte vlastní přezdívku pro svou komunitu, kterou uvidíte vy i vaši členové",
-    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInput": "UID serveru TeamSpeak",
     "serverUidInputDesc": "Zadejte sem UID vašeho serveru TeamSpeak 3"
   },
   "serverPending": {

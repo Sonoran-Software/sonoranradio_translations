@@ -339,6 +339,7 @@
       "bodyImage": "صورة الجسم",
       "cancel": "إلغاء",
       "chooseSkin": "اختر skin.json",
+      "confirmRemove": "هل أنت متأكد أنك تريد إزالة هذا الإطار؟",
       "create": "إنشاء",
       "frameBodyImage": "صورة جسم الإطار",
       "frameLabel": "تسمية الإطار",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "لنقل المكوّنات",
         "dragTitle": "اسحب",
+        "removeBody": "لإزالة المكونات (باستثناء الشاشة)",
         "removeTitle": "انقر بزر الماوس الأيمن",
         "resizeBody": "لتغيير حجم المكوّنات",
         "resizeTitle": "CTRL+اسحب"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "يجب أن تكون كل المربعات بنفس الحجم. '{file}' هو {width}x{height}، وكان المتوقع {expectedWidth}x{expectedHeight}.",
         "missingServer": "لم يتم تحديد خادم نشط للرفع.",
         "noImages": "لم يتم تحديد أي ملفات صور.",
+        "noTemplateMatch": "لم يتم اكتشاف أي قالب اسم بلاط مدعوم.",
         "openUploader": "رفع البلاطات",
         "resolvedTemplate": "القالب المحلول",
         "selectedSummary": "تم تحديد {count} صورة بلاطة ({total})",
@@ -434,6 +437,7 @@
         "template": "القالب",
         "tileBounds": "حدود البلاطات (فهرس x/y)",
         "tileSize": "حجم البلاطة",
+        "totalSizeLimitError": "إجمالي حجم تحميل البلاطات هو {total}، وهو يتجاوز حد {limit}.",
         "unableReadDimensions": "تعذر قراءة أبعاد الصورة من '{file}'.",
         "uploadFailed": "فشل رفع البلاطة.",
         "uploadMissingUrl": "اكتمل التحميل ولكن لم يتم إرجاع أي إعدادات.",
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "تم إهمال هذا النوع من معرّف القناة. يُرجى الترقية إلى أحدث إصدار من Sonoran Radio TS والتحديث إلى المعرفات الرقمية الجديدة",
       "nickname": "اللقب",
       "range": {
-        "long": "نطاق طويل",
+        "long": "المدى الطويل",
         "medium": "المدى المتوسط",
         "short": "قصير المدى"
       },
@@ -581,7 +585,7 @@
           "name": "قفل الراديو"
         },
         "tg::talkover_override": {
-          "desc": "يمنح هذا الإذن القدرة على النقر المزدوج على زر PTT الخاص بك للتحدث فوق مستخدم آخر",
+          "desc": "تمنح هذه الصلاحية القدرة على النقر المزدوج على زر PTT لديك للتحدث فوق عميل آخر",
           "name": "تجاوز حماية الحديث"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "أمثلة: \"عيّن المجموعة Alpha على الوحدات D-12، D-14\"، \"أزِل المجموعة عن الوحدات D-12، D-14\"",
-            "label": "وحدات التجميع"
+            "label": "وحدات التجميع",
+            "placeholder": "اجمع الوحدتين A-10 وB-11 في \"Group One\""
           },
           "lookup": {
             "hint": "أمثلة: \"شغّل لوحة ABC123\"، \"ابحث عن John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "أمثلة: \"وجّهني إلى الرمز البريدي 1234\"، \"اضبط GPS على الرمز البريدي 90210\"",
-            "label": "التوجيه إلى البريد"
+            "label": "التوجيه إلى البريد",
+            "placeholder": "وجّهني إلى الرمز البريدي 1234"
           },
           "status": {
             "hint": "أمثلة: \"اضبط حالتي على متاح\", \"أرني غير متاح\"",
-            "label": "تحديثات الحالة"
+            "label": "تحديثات الحالة",
+            "placeholder": "اضبط حالتي على متاح"
           },
           "togglePanic": {
             "hint": "أمثلة: \"تفعيل ذعري\", \"مسح ذعري\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "تشغيل مؤثرات صوتية لـ PTT",
       "hearPttSfxDesc": "تشغيل صوت PTT عندما تضغط على الميكروفون.",
       "keyUpDelay": "تأخير رفع المفتاح",
-      "keyUpDelayDesc": "التأخير بعد انتهاء الإرسال قبل تحرير الميكروفون.",
+      "keyUpDelayDesc": "التأخير بعد إنهاء الإرسال قبل تحرير الميكروفون.",
       "muteScannedWhileTransmitting": "كتم الممسوحة ضوئيًا أثناء الإرسال",
       "muteScannedWhileTransmittingDesc": "كتم القنوات الممسوحة ضوئيًا أثناء الإرسال على قناة.",
       "sirenVolume": "تعزيز الصوت مع صفارة الإنذار النشطة",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "يحدد أدنى احتمال لانقطاع الإشارة.",
       "minimumDigitalDistortion": "الحد الأدنى الرقمي",
       "minimumDigitalDistortionDescription": "يحافظ على مستوى أساسي من التشوه الرقمي في الصوت.",
+      "mode": "الوضع",
       "name": "الاسم",
       "postEqualizerDescription": "ينقح الناتج النهائي بعد سلسلة التأثيرات للحصول على آخر لمسة من التنعيم أو الخشونة.",
       "previewEffects": "معاينة التأثيرات",
@@ -828,7 +836,7 @@
     "discovery": "اكتشاف",
     "discoveryActiveMembers": "تضم هذه المجموعة بعضًا من أكثر الأعضاء نشاطًا",
     "discoveryGrowingRapidly": "هذا المجتمع ينمو بسرعة كبيرة",
-    "discoveryHighTraffic": "يتلقى هذا المجتمع نسبة عالية من حركة المرور على الموقع",
+    "discoveryHighTraffic": "هذا المجتمع يتلقى حركة مرور عالية على الموقع الإلكتروني",
     "discoveryRecentlyBumped": "تمت ترقية هذا المجتمع مؤخرًا",
     "documentation": "التوثيق",
     "joinACommunity": "انضم إلى مجتمع Sonoran Radio",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "الحدود القصوى للتكرار على مستوى الولاية",
     "statewideFrequencyLimitsDescription": "عدد الترددات على مستوى الولاية المسموح بها.",
     "talkaroundFrequencies": "ترددات التراسل المباشر",
-    "talkaroundFrequenciesDescription": "التحدث بترددات يسمح للأفراد بالتحدث من راديو إلى راديو بدلاً من الراديو إلى البرج.",
+    "talkaroundFrequenciesDescription": "تتيح ترددات Talkaround للأفراد التحدث من جهاز راديو إلى جهاز راديو بدلاً من من جهاز راديو إلى برج.",
     "talkoverProtection": "حماية الحديث",
     "talkoverProtectionDescription": "تسمح ميزة الحماية من التداخل الصوتي لشخص واحد فقط بالتحدث عبر تردد في الوقت نفسه.",
     "toBilling": "العودة إلى الفوترة",
@@ -926,7 +934,7 @@
       "keyupSfx": "تأثيرات صوتية للتشغيل",
       "macosPermWarning": "قد يتطلب جهازك أذونات إضافية: {link}",
       "macosPermWarningLink": "تعرف على كيفية منح الأذونات",
-      "moveResize": "تحريك/تغيير الحجم",
+      "moveResize": "نقل/تغيير الحجم",
       "myPttSfx": "مؤثرات صوتية لـ PTT الخاصة بي",
       "othersPttSfx": "مؤثرات صوتية لـ PTT الآخرين",
       "privacyTab": "الخصوصية",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "اللقب",
     "nicknameInputDesc": "عيّن اسمًا مستعارًا مخصصًا لمجتمعك، والذي ستراه أنت وأعضاؤك",
-    "serverUidInput": "رقم تعريف خادم TeamSpeak",
+    "serverUidInput": "معرّف خادم TeamSpeak",
     "serverUidInputDesc": "أدخل رقم تعريف خادم TeamSpeak 3 هنا"
   },
   "serverPending": {

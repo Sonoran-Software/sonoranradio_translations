@@ -41,7 +41,7 @@
     "confirmChangeSub": {
       "possibleDataLoss": "如果转移或移除你的订阅，之前服务器上的数据可能会丢失。",
       "remove": "您确定要将此服务器从您的订阅中移除吗？",
-      "set": "您确定要为您的订阅设置此服务器吗？",
+      "set": "您确定要将此服务器设置为您的订阅吗？",
       "title": "更改订阅",
       "transfer": "您确定要将此订阅转移到另一个服务器吗？"
     },
@@ -339,6 +339,7 @@
       "bodyImage": "身体图像",
       "cancel": "取消",
       "chooseSkin": "选择皮肤.json",
+      "confirmRemove": "您确定要移除这个框架吗？",
       "create": "创建",
       "frameBodyImage": "框体图像",
       "frameLabel": "框标签",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "移动组件",
         "dragTitle": "拖动",
+        "removeBody": "移除组件（屏幕除外）",
         "removeTitle": "右键",
         "resizeBody": "调整组件大小",
         "resizeTitle": "CTRL+拖动"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "所有图块必须大小相同。'{file}' 为 {width}x{height}，应为 {expectedWidth}x{expectedHeight}。",
         "missingServer": "未选择用于上传的活动服务器。",
         "noImages": "未选择图片文件。",
+        "noTemplateMatch": "未检测到受支持的瓦片名称模板。",
         "openUploader": "上传瓦片",
         "resolvedTemplate": "已解析模板",
         "selectedSummary": "已选择 {count} 个瓦片图像（{total}）",
@@ -434,6 +437,7 @@
         "template": "模板",
         "tileBounds": "图块边界（x/y 索引）",
         "tileSize": "瓦片大小",
+        "totalSizeLimitError": "图块上传总大小为{total}，超过了{limit}限制。",
         "unableReadDimensions": "无法从 '{file}' 读取图像尺寸。",
         "uploadFailed": "瓦片上传失败。",
         "uploadMissingUrl": "上传已完成，但未返回配置。",
@@ -492,7 +496,7 @@
       "subOwner": "订阅持有人",
       "subtitle": "管理社区中的用户权限和访问。",
       "title": "社区成员",
-      "traits": "特点",
+      "traits": "特质",
       "unbanBtn": "解除封禁",
       "username": "用户名"
     },
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "此种频道 ID 已弃用。请升级到最新版本的 Sonoran Radio TS 并更新为新的数字 ID",
       "nickname": "昵称",
       "range": {
-        "long": "长距离",
+        "long": "远程",
         "medium": "中等范围",
         "short": "短距离"
       },
@@ -581,7 +585,7 @@
           "name": "电台锁定"
         },
         "tg::talkover_override": {
-          "desc": "此权限授予您可以双击 PTT 按钮以进行通话覆盖的能力",
+          "desc": "此权限允许你双击 PTT 按钮来压过另一个客户端讲话",
           "name": "通话覆盖保护覆盖"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "示例：\"将组 Alpha 设置到单元 D-12、D-14 上\"，\"清除单元 D-12、D-14 的组\"",
-            "label": "分组单位"
+            "label": "分组单位",
+            "placeholder": "将 A-10 和 B-11 组到“Group One”"
           },
           "lookup": {
             "hint": "例如：\"运行一个牌照 ABC123\"，\"查询 John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "示例：“将我路由到邮政1234”，“将GPS设置为邮政90210”",
-            "label": "路由到邮政"
+            "label": "路由到邮政",
+            "placeholder": "将我路由到邮政1234"
           },
           "status": {
             "hint": "示例：\"将我的状态设为可用\"，\"显示我不可用\"",
-            "label": "状态更新"
+            "label": "状态更新",
+            "placeholder": "将我的状态设为可用"
           },
           "togglePanic": {
             "hint": "示例：\"激活我的 panic\"，\"清除我的 panic\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "播放 PTT SFX",
       "hearPttSfxDesc": "当你松开麦克风时播放 PTT 声音。",
       "keyUpDelay": "按键抬起延迟",
-      "keyUpDelayDesc": "终止传输后麦克释放前的延迟。",
+      "keyUpDelayDesc": "结束传输后延迟，直到麦克风释放。",
       "muteScannedWhileTransmitting": "在发射时将扫描静音",
       "muteScannedWhileTransmittingDesc": "在发射时将扫描频道静音。",
       "sirenVolume": "启用警报器时的音量增强",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "设置信号中断的最低概率。",
       "minimumDigitalDistortion": "最小数字",
       "minimumDigitalDistortionDescription": "保持音频中的基础数字失真水平。",
+      "mode": "模式",
       "name": "名称",
       "postEqualizerDescription": "对效果链之后的最终输出进行微调，以去除最后一点润色或刺耳感。",
       "previewEffects": "预览效果",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "全州频率限制",
     "statewideFrequencyLimitsDescription": "允许的全州频率数量。",
     "talkaroundFrequencies": "对讲频率",
-    "talkaroundFrequenciesDescription": "通话频率允许个人进行无线对无线通话，而不是无线对塔楼。",
+    "talkaroundFrequenciesDescription": "对讲频率允许个人进行电台对电台通话，而不是电台对基站。",
     "talkoverProtection": "通话覆盖保护",
     "talkoverProtectionDescription": "频率对讲保护一次只允许一人对讲。",
     "toBilling": "返回账单",

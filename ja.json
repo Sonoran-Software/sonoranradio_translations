@@ -339,6 +339,7 @@
       "bodyImage": "ボディ画像",
       "cancel": "キャンセル",
       "chooseSkin": "スキンを選択",
+      "confirmRemove": "このフレームを削除してもよろしいですか？",
       "create": "作成",
       "frameBodyImage": "フレーム ボディ画像",
       "frameLabel": "フレーム ラベル",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "コンポーネントを移動するには",
         "dragTitle": "ドラッグ",
+        "removeBody": "コンポーネントを削除するには（画面を除く）",
         "removeTitle": "右クリック",
         "resizeBody": "コンポーネントのサイズを変更するには",
         "resizeTitle": "CTRL+ドラッグ"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "すべてのタイルは同じサイズでなければなりません。'{file}' は {width}x{height}、想定は {expectedWidth}x{expectedHeight} です。",
         "missingServer": "アップロード用のアクティブなサーバーが選択されていません。",
         "noImages": "画像ファイルは選択されませんでした。",
+        "noTemplateMatch": "サポートされているタイル名テンプレートは検出されませんでした。",
         "openUploader": "タイルをアップロード",
         "resolvedTemplate": "解決済みテンプレート",
         "selectedSummary": "{count} 枚のタイル画像が選択されています ({total})",
@@ -434,6 +437,7 @@
         "template": "テンプレート",
         "tileBounds": "タイル境界 (x/y インデックス)",
         "tileSize": "タイルサイズ",
+        "totalSizeLimitError": "タイルの合計アップロードサイズは{total}で、{limit}の上限を超えています。",
         "unableReadDimensions": "'{file}' から画像のサイズを読み取れません。",
         "uploadFailed": "タイルのアップロードに失敗しました。",
         "uploadMissingUrl": "アップロードは完了しましたが、設定は返されませんでした。",
@@ -581,7 +585,7 @@
           "name": "ラジオロック"
         },
         "tg::talkover_override": {
-          "desc": "この権限は他のクライアントの上で話すためにPTTボタンをダブルクリックする能力を付与します",
+          "desc": "この権限は、PTTボタンをダブルクリックして他のクライアントに割り込んで話す機能を付与します",
           "name": "Talkover保護オーバーライド"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "例: 「ユニット D-12, D-14 にグループ Alpha を設定する」、「ユニット D-12, D-14 のグループを解除する」",
-            "label": "ユニットをグループ化"
+            "label": "ユニットをグループ化",
+            "placeholder": "単位A-10とB-11を「Group One」にグループ化"
           },
           "lookup": {
             "hint": "例: 「ABC123 のプレートを実行する」、「John Smith を検索する」",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "例: \"postal 1234へルートを設定して\", \"GPSをpostal 90210に設定して\"",
-            "label": "郵便宛てに転送"
+            "label": "郵便宛てに転送",
+            "placeholder": "postal 1234へルートを設定して"
           },
           "status": {
             "hint": "例: \"自分のステータスをavailableに設定\", \"unavailableを表示\"",
-            "label": "ステータス更新"
+            "label": "ステータス更新",
+            "placeholder": "自分のステータスをavailableに設定"
           },
           "togglePanic": {
             "hint": "例: \"パニックを有効化\", \"パニックを解除\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "PTT SFXを再生",
       "hearPttSfxDesc": "マイクをキーアップしたときにPTTサウンドを再生します。",
       "keyUpDelay": "キーアップ遅延",
-      "keyUpDelayDesc": "送信を終了してからマイクがリリースされるまでの遅延。",
+      "keyUpDelayDesc": "送信終了後、マイクが解放されるまでの遅延。",
       "muteScannedWhileTransmitting": "送信中にスキャンをミュート",
       "muteScannedWhileTransmittingDesc": "送信中にチャンネルでスキャンされたチャンネルをミュート",
       "sirenVolume": "アクティブサイレンで音量ブースト",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "信号が途切れる最小の可能性を設定します。",
       "minimumDigitalDistortion": "最小デジタル",
       "minimumDigitalDistortionDescription": "音声に一定のデジタル歪みを維持します。",
+      "mode": "モード",
       "name": "名前",
       "postEqualizerDescription": "エフェクトチェーン後の最終出力を微調整し、最後の仕上げや硬さを和らげます。",
       "previewEffects": "エフェクトをプレビュー",
@@ -828,7 +836,7 @@
     "discovery": "ディスカバリー",
     "discoveryActiveMembers": "このコミュニティには最も活発なメンバーが何人かいます",
     "discoveryGrowingRapidly": "このコミュニティは急速に成長しています",
-    "discoveryHighTraffic": "このコミュニティには高いウェブサイトトラフィックがあります",
+    "discoveryHighTraffic": "このコミュニティはウェブサイトへのトラフィックが多くなっています",
     "discoveryRecentlyBumped": "このコミュニティは最近上げられました",
     "documentation": "ドキュメント",
     "joinACommunity": "Sonoran Radio コミュニティに参加",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "州全体の頻度制限",
     "statewideFrequencyLimitsDescription": "許可される全州の周波数数。",
     "talkaroundFrequencies": "トークアラウンド周波数",
-    "talkaroundFrequenciesDescription": "トークアラウンド周波数は、ラジオからラジオへの通信を許可します。ラジオからタワーへの通信ではありません。",
+    "talkaroundFrequenciesDescription": "トークアラウンド周波数は、塔ではなく無線機から無線機へ通話できます。",
     "talkoverProtection": "Talkover保護",
     "talkoverProtectionDescription": "Talkover保護では、1つの周波数に対して一度に1人だけが話せます。",
     "toBilling": "請求へ戻る",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "ニックネーム",
     "nicknameInputDesc": "コミュニティ用のカスタムニックネームを設定します。あなたとメンバーが表示できます",
-    "serverUidInput": "チームスピークサーバーUID",
+    "serverUidInput": "TeamSpeak サーバーのUID",
     "serverUidInputDesc": "TeamSpeak 3 サーバーのUIDをここに入力してください"
   },
   "serverPending": {

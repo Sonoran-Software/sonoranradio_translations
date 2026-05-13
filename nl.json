@@ -339,6 +339,7 @@
       "bodyImage": "Achtergrondafbeelding",
       "cancel": "Annuleren",
       "chooseSkin": "Kies skin",
+      "confirmRemove": "Weet je zeker dat je dit frame wilt verwijderen?",
       "create": "Maken",
       "frameBodyImage": "Kaderachtergrondafbeelding",
       "frameLabel": "Framelabel",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "om componenten te verplaatsen",
         "dragTitle": "Sleep",
+        "removeBody": "om componenten te verwijderen (behalve scherm)",
         "removeTitle": "Klik met de rechtermuisknop",
         "resizeBody": "om componenten te vergroten of te verkleinen",
         "resizeTitle": "CTRL+Sleep"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Alle tegels moeten dezelfde grootte hebben. '{file}' is {width}x{height}, verwacht {expectedWidth}x{expectedHeight}.",
         "missingServer": "Geen actieve server geselecteerd voor upload.",
         "noImages": "Er zijn geen afbeeldingsbestanden geselecteerd.",
+        "noTemplateMatch": "Geen ondersteunde tegel-naamtemplate gedetecteerd.",
         "openUploader": "Tegels uploaden",
         "resolvedTemplate": "Opgelost sjabloon",
         "selectedSummary": "{count} tegelafbeeldingen geselecteerd ({total})",
@@ -434,6 +437,7 @@
         "template": "Sjabloon",
         "tileBounds": "Tegelgrenzen (x/y-index)",
         "tileSize": "Tegelgrootte",
+        "totalSizeLimitError": "Totale uploadgrootte van tegels is {total}, wat de limiet van {limit} overschrijdt.",
         "unableReadDimensions": "Kan afbeeldingsafmetingen niet lezen uit '{file}'.",
         "uploadFailed": "Tegel uploaden mislukt.",
         "uploadMissingUrl": "Upload voltooid, maar er is geen configuratie geretourneerd.",
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Deze vorm van Channel-ID is verouderd. Werk alstublieft bij naar de nieuwste versie van Sonoran Radio TS en update naar nieuwe numerieke ID's",
       "nickname": "Bijnaam",
       "range": {
-        "long": "Lang Bereik",
+        "long": "Groot bereik",
         "medium": "Middellange afstand",
         "short": "Korte afstand"
       },
@@ -581,7 +585,7 @@
           "name": "Radiovergrendeling"
         },
         "tg::talkover_override": {
-          "desc": "Deze permissie geeft de mogelijkheid om je PTT-knop dubbel te klikken om over een andere cliënt te praten",
+          "desc": "Deze toestemming geeft de mogelijkheid om dubbel te klikken op je PTT-knop om over een andere client heen te praten",
           "name": "Overpraat Bescherming Overschrijven"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Voorbeelden: \"stel groep Alpha in op units D-12, D-14\", \"wis groep voor units D-12, D-14\"",
-            "label": "Eenheden groeperen"
+            "label": "Eenheden groeperen",
+            "placeholder": "Groepeer eenheden A-10 en B-11 in 'Groep Eén'"
           },
           "lookup": {
             "hint": "Voorbeelden: \"controleer een kenteken ABC123\", \"zoek John Smith op\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Voorbeelden: \"leid me naar postcode 1234\", \"stel GPS in op postcode 90210\"",
-            "label": "Route naar post"
+            "label": "Route naar post",
+            "placeholder": "leid me naar postcode 1234"
           },
           "status": {
             "hint": "Voorbeelden: \"zet mijn status op beschikbaar\", \"toon me onbeschikbaar\"",
-            "label": "Statusupdates"
+            "label": "Statusupdates",
+            "placeholder": "Zet mijn status op beschikbaar"
           },
           "togglePanic": {
             "hint": "Voorbeelden: \"mijn paniek inschakelen\", \"mijn paniek wissen\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "PTT SFX Afspelen",
       "hearPttSfxDesc": "Speel het PTT-geluid af wanneer je je microfoon loslaat.",
       "keyUpDelay": "Toets los vertraging",
-      "keyUpDelayDesc": "Vertraging na het beëindigen van een transmissie voordat de microfoon wordt losgelaten.",
+      "keyUpDelayDesc": "Vertraging na het beëindigen van een uitzending voordat de microfoon wordt vrijgegeven.",
       "muteScannedWhileTransmitting": "Gedempt tijdens uitzenden",
       "muteScannedWhileTransmittingDesc": "Gedempte gescande kanalen tijdens uitzenden op een kanaal.",
       "sirenVolume": "Volumeversterking met actieve sirene",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Stelt de laagste kans in dat het signaal wegvalt.",
       "minimumDigitalDistortion": "Minimaal digitaal",
       "minimumDigitalDistortionDescription": "Bevat een basisniveau van digitale vervorming in de audio.",
+      "mode": "Modus",
       "name": "Naam",
       "postEqualizerDescription": "Verfijnt de uiteindelijke output na de effectenketen voor de laatste finishing touch of hardheid.",
       "previewEffects": "Voorbeeld effecten",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Frequentielimieten voor de hele staat",
     "statewideFrequencyLimitsDescription": "# van toegestane staat-frequenties.",
     "talkaroundFrequencies": "Talkaround-frequenties",
-    "talkaroundFrequenciesDescription": "Overpraatfrequenties laten individuen radio naar radio praten in plaats van radio naar toren.",
+    "talkaroundFrequenciesDescription": "Talkaround-frequenties maken het mogelijk dat individuen radio-naar-radio praten in plaats van radio naar toren.",
     "talkoverProtection": "Overpraat Bescherming",
     "talkoverProtectionDescription": "Talkoverbescherming staat slechts één persoon tegelijk toe om op een frequentie te spreken.",
     "toBilling": "Terug naar facturatie",
@@ -926,7 +934,7 @@
       "keyupSfx": "Keyup SFX",
       "macosPermWarning": "Uw apparaat heeft mogelijk extra machtigingen nodig: {link}",
       "macosPermWarningLink": "Leer hoe je machtigingen verleent",
-      "moveResize": "Verplaatsen/Resizen",
+      "moveResize": "Verplaatsen/formaat wijzigen",
       "myPttSfx": "Mijn PTT SFX",
       "othersPttSfx": "Ander's PTT SFX",
       "privacyTab": "Privacy",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Bijnaam",
     "nicknameInputDesc": "Stel een aangepaste bijnaam in voor je community, die jij en je leden zullen zien",
-    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInput": "TeamSpeak-server-UID",
     "serverUidInputDesc": "Voer hier de UID van uw TeamSpeak 3-server in"
   },
   "serverPending": {

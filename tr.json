@@ -339,6 +339,7 @@
       "bodyImage": "Gövde Görseli",
       "cancel": "İptal",
       "chooseSkin": "Dış görünümü seçin.json",
+      "confirmRemove": "Bu çerçeveyi kaldırmak istediğinizden emin misiniz?",
       "create": "Oluştur",
       "frameBodyImage": "Çerçeve Gövde Görseli",
       "frameLabel": "Çerçeve Etiketi",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "bileşenleri taşımak için",
         "dragTitle": "Sürükle",
+        "removeBody": "bileşenleri kaldırmak için (ekran hariç)",
         "removeTitle": "Sağ tıklayın",
         "resizeBody": "bileşenleri yeniden boyutlandırmak için",
         "resizeTitle": "CTRL+Sürükle"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Tüm döşemeler aynı boyutta olmalıdır. '{file}' {width}x{height}, beklenen {expectedWidth}x{expectedHeight}.",
         "missingServer": "Yükleme için etkin bir sunucu seçilmedi.",
         "noImages": "Hiç görüntü dosyası seçilmedi.",
+        "noTemplateMatch": "Desteklenen bir karo adı şablonu algılanmadı.",
         "openUploader": "Döşemeleri Yükle",
         "resolvedTemplate": "Çözümlenmiş Şablon",
         "selectedSummary": "{count} karo görüntüsü seçildi ({total})",
@@ -434,6 +437,7 @@
         "template": "Şablon",
         "tileBounds": "Kutucuk Sınırları (x/y dizini)",
         "tileSize": "Parça Boyutu",
+        "totalSizeLimitError": "Toplam karo yükleme boyutu {total}, bu {limit} sınırını aşıyor.",
         "unableReadDimensions": "'{file}' dosyasından görüntü boyutları okunamıyor.",
         "uploadFailed": "Döşeme yükleme başarısız oldu.",
         "uploadMissingUrl": "Yükleme tamamlandı ancak yapılandırma döndürülmedi.",
@@ -581,7 +585,7 @@
           "name": "Radyo Kilidi"
         },
         "tg::talkover_override": {
-          "desc": "Bu izin, başka bir müşterinin üzerinde konuşmak için PTT tuşunuzu çift tıklama yetkisi verir",
+          "desc": "Bu izin, başka bir istemcinin üzerine konuşmak için PTT düğmenize çift tıklama yapma yetkisi verir",
           "name": "Konuşma Çaprazlama Koruması Geçersiz Kılma"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Örnekler: \"D-12, D-14 birimlerinde Alpha grubunu ayarla\", \"D-12, D-14 birimleri için grubu temizle\"",
-            "label": "Birimleri grupla"
+            "label": "Birimleri grupla",
+            "placeholder": "A-10 ve B-11 birimlerini 'Group One' olarak grupla"
           },
           "lookup": {
             "hint": "Örnekler: \"ABC123 plakayı çalıştır\", \"John Smith'i ara\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Örnekler: \"beni 1234 posta koduna yönlendir\", \"GPS'i 90210 posta koduna ayarla\"",
-            "label": "Postaya yönlendir"
+            "label": "Postaya yönlendir",
+            "placeholder": "beni 1234 posta koduna yönlendir"
           },
           "status": {
             "hint": "Örnekler: \"durumumu uygun olarak ayarla\", \"bana müsait olmayanı göster\"",
-            "label": "Durum güncellemeleri"
+            "label": "Durum güncellemeleri",
+            "placeholder": "Durumumu uygun olarak ayarla"
           },
           "togglePanic": {
             "hint": "Örnekler: \"panik modumu etkinleştir\", \"panik modumu temizle\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "PTT Ses Efektini Oynat",
       "hearPttSfxDesc": "Mikrofonunuzu açtığınızda PTT sesini çalın.",
       "keyUpDelay": "Tuş Bırakma Gecikmesi",
-      "keyUpDelayDesc": "Bir iletim çoğaltmasından sonra mikrofonun takımının bırakılması.",
+      "keyUpDelayDesc": "İletim bittikten sonra mikrofonun bırakılmasından önceki gecikme.",
       "muteScannedWhileTransmitting": "Gönderirken Tarananları Sessize Al",
       "muteScannedWhileTransmittingDesc": "Bir kanalda gönderim yaparken taranan kanalları sessize alın.",
       "sirenVolume": "Aktif Sirenli Ses Yükseltme",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Sinyalin kesilmesi için en düşük olasılığı ayarlar.",
       "minimumDigitalDistortion": "Min Dijital",
       "minimumDigitalDistortionDescription": "Ses üzerinde temel bir dijital bozulma düzeyini korur.",
+      "mode": "Mod",
       "name": "İsim",
       "postEqualizerDescription": "Efekt zincirinden sonra son çıktıyı son rötuş veya sertlik için iyileştirir.",
       "previewEffects": "Efektleri Önizleme",
@@ -828,7 +836,7 @@
     "discovery": "Keşif",
     "discoveryActiveMembers": "Bu topluluk en aktif üyelerden bazılarına sahip",
     "discoveryGrowingRapidly": "Bu topluluk hızla büyüyor",
-    "discoveryHighTraffic": "Bu topluluk yüksek web sitesi trafiği alıyor",
+    "discoveryHighTraffic": " Bu topluluk yüksek web sitesi trafiği alıyor",
     "discoveryRecentlyBumped": "Bu topluluk yakın zamanda öne çıkarıldı",
     "documentation": "Dokümantasyon",
     "joinACommunity": "Bir Sonoran Radio topluluğuna katıl",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Eyalet Genelinde Sıklık Sınırlamaları",
     "statewideFrequencyLimitsDescription": "İzin verilen eyalet düzeyindeki frekans sayısı.",
     "talkaroundFrequencies": "Talkaround Frekansları",
-    "talkaroundFrequenciesDescription": "Konuşma çaprazlama frekansları, bireylerin kuleye karşı radyodan radyoya konuşmasını sağlar.",
+    "talkaroundFrequenciesDescription": "Talkaround frekansları, bireylerin kule yerine doğrudan radyodan radyoya konuşmasına olanak tanır.",
     "talkoverProtection": "Konuşma Çaprazlama Koruması",
     "talkoverProtectionDescription": "Üst üste konuşma koruması, bir frekansta aynı anda yalnızca bir kişinin konuşmasına izin verir.",
     "toBilling": "Faturalandırmaya Dön",
@@ -926,7 +934,7 @@
       "keyupSfx": "Tuş Yükseltme SFX",
       "macosPermWarning": "Cihazınız ek izinler gerektirebilir: {link}",
       "macosPermWarningLink": "İzinlerin nasıl verileceğini öğrenin",
-      "moveResize": "Taşı/Boyutlandır",
+      "moveResize": "Taşı/Yeniden Boyutlandır",
       "myPttSfx": "Benim PTT Ses Efektim",
       "othersPttSfx": "Diğer Kişilerin PTT Ses Efekti",
       "privacyTab": "Gizlilik",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Takma Ad",
     "nicknameInputDesc": "Topluluğunuz için sizin ve üyelerinizin göreceği özel bir takma ad belirleyin",
-    "serverUidInput": "TeamSpeak Sunucu UID",
+    "serverUidInput": "TeamSpeak Sunucusu UID",
     "serverUidInputDesc": "TeamSpeak 3 sunucunuzun UID'sini buraya girin"
   },
   "serverPending": {

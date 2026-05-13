@@ -41,7 +41,7 @@
     "confirmChangeSub": {
       "possibleDataLoss": "Hvis du overfører eller fjerner dit abonnement, kan der forekomme tab af data på den tidligere server.",
       "remove": "Er du sikker på, at du vil fjerne denne server fra dit abonnement?",
-      "set": "Er du sikker på, at du vil indstille denne server til dit abonnement?",
+      "set": "Er du sikker på, at du vil angive denne server for dit abonnement?",
       "title": "Skift Abonnement",
       "transfer": "Er du sikker på, at du vil overføre dette abonnement til en anden server?"
     },
@@ -339,6 +339,7 @@
       "bodyImage": "Kropsbillede",
       "cancel": "Annuller",
       "chooseSkin": "Vælg skin.json",
+      "confirmRemove": "Er du sikker på, at du vil fjerne denne ramme?",
       "create": "Opret",
       "frameBodyImage": "Rammekropsbillede",
       "frameLabel": "Rammelabel",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "for at flytte komponenter",
         "dragTitle": "Træk",
+        "removeBody": "for at fjerne komponenter (undtagen skærm)",
         "removeTitle": "Højreklik",
         "resizeBody": "for at ændre størrelsen på komponenter",
         "resizeTitle": "CTRL+Træk"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Alle fliser skal have samme størrelse. '{file}' er {width}x{height}, forventet {expectedWidth}x{expectedHeight}.",
         "missingServer": "Ingen aktiv server er valgt til upload.",
         "noImages": "Ingen billedfiler blev valgt.",
+        "noTemplateMatch": "Ingen understøttet flise-navnsskabelon blev registreret.",
         "openUploader": "Upload tiles",
         "resolvedTemplate": "Løst skabelon",
         "selectedSummary": "{count} flisebilleder valgt ({total})",
@@ -434,6 +437,7 @@
         "template": "Skabelon",
         "tileBounds": "Tilegrænser (x/y-indeks)",
         "tileSize": "Flisestørrelse",
+        "totalSizeLimitError": "Den samlede uploadstørrelse for fliser er {total}, hvilket overstiger grænsen på {limit}.",
         "unableReadDimensions": "Kunne ikke læse billedets dimensioner fra '{file}'.",
         "uploadFailed": "Upload af fliser mislykkedes.",
         "uploadMissingUrl": "Upload afsluttet, men ingen konfiguration blev returneret.",
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Denne form for Kanal-ID er udfaset. Opgrader venligst til den nyeste version af Sonoran Radio TS og opdatér til nye numeriske ID'er",
       "nickname": "Kaldenavn",
       "range": {
-        "long": "Lang Rækkevidde",
+        "long": "Lang rækkevidde",
         "medium": "Mellemrækkevidde",
         "short": "Kort rækkevidde"
       },
@@ -581,7 +585,7 @@
           "name": "Radiolås"
         },
         "tg::talkover_override": {
-          "desc": "Denne tilladelse giver mulighed for at dobbeltklikke på din PTT knap for at tale over en anden klient",
+          "desc": "Denne tilladelse giver mulighed for at dobbeltklikke på din PTT-knap for at tale over en anden klient",
           "name": "Talkover Beskyttelsesoverstyring"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Eksempler: \"sæt gruppe Alpha på enheder D-12, D-14\", \"ryd gruppe for enheder D-12, D-14\"",
-            "label": "Gruppenheder"
+            "label": "Gruppenheder",
+            "placeholder": "Gruppér enhederne A-10 og B-11 i 'Gruppe Ét'"
           },
           "lookup": {
             "hint": "Eksempler: \"kør en nummerplade ABC123\", \"slå John Smith op\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Eksempler: \"rute mig til postnummer 1234\", \"sæt GPS til postnummer 90210\"",
-            "label": "Rute til post"
+            "label": "Rute til post",
+            "placeholder": "rute mig til postnummer 1234"
           },
           "status": {
             "hint": "Eksempler: \"sæt min status til tilgængelig\", \"vis mig utilgængelig\"",
-            "label": "Statusopdateringer"
+            "label": "Statusopdateringer",
+            "placeholder": "Sæt min status til tilgængelig"
           },
           "togglePanic": {
             "hint": "Eksempler: \"aktivér min panik\", \"ryd min panik\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "Afspil PTT SFX",
       "hearPttSfxDesc": "Afspil PTT lyden når du slipper din mikrofon.",
       "keyUpDelay": "Forsinkelse ved slip af tast",
-      "keyUpDelayDesc": "Forsinkelse efter afslutning af en transmission før mikrofonen frigives.",
+      "keyUpDelayDesc": "Forsinkelse efter afslutning af en transmission, før mikrofonen frigives.",
       "muteScannedWhileTransmitting": "Dæmp scannede mens der sendes",
       "muteScannedWhileTransmittingDesc": "Dæmp scannede kanaler mens der sendes på en kanal.",
       "sirenVolume": "Volumenforstærkning med aktiv sirene",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Angiver den laveste chance for, at signalet afbrydes.",
       "minimumDigitalDistortion": "Min. digital",
       "minimumDigitalDistortionDescription": "Bevarer et grundlæggende niveau af digital forvrængning i lyden.",
+      "mode": "Tilstand",
       "name": "Navn",
       "postEqualizerDescription": "Forfiner det endelige output efter effektkæden for det sidste lag af finish eller skarphed.",
       "previewEffects": "Forhåndsvis effekter",
@@ -828,7 +836,7 @@
     "discovery": "Udforskning",
     "discoveryActiveMembers": "Dette fællesskab har nogle af de mest aktive medlemmer",
     "discoveryGrowingRapidly": "Dette fællesskab vokser hurtigt",
-    "discoveryHighTraffic": "Dette community modtager meget høj webside trafik",
+    "discoveryHighTraffic": "Dette fællesskab modtager høj webtrafik",
     "discoveryRecentlyBumped": "Dette fællesskab blev for nylig bumpet",
     "documentation": "Dokumentation",
     "joinACommunity": "Bliv en del af et Sonoran Radio Community",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Frekvensgrænser på landsplan",
     "statewideFrequencyLimitsDescription": "# af statewide frekvenser tilladt.",
     "talkaroundFrequencies": "Talkaround-frekvenser",
-    "talkaroundFrequenciesDescription": "Talkaround frekvenser tillader individer at tale radio til radio i stedet for radio til tårn.",
+    "talkaroundFrequenciesDescription": "Talkaround-frekvenser gør det muligt for personer at tale radio til radio i stedet for radio til tårn.",
     "talkoverProtection": "Talkover Beskyttelse",
     "talkoverProtectionDescription": "Talkover-beskyttelse tillader kun én person at tale over en frekvens ad gangen.",
     "toBilling": "Tilbage til fakturering",
@@ -926,7 +934,7 @@
       "keyupSfx": "Keyup SFX",
       "macosPermWarning": "Din enhed kan kræve yderligere tilladelser: {link}",
       "macosPermWarningLink": "Lær, hvordan du giver tilladelser",
-      "moveResize": "Flyt/Ændre størrelse",
+      "moveResize": "Flyt/ændr størrelse",
       "myPttSfx": "Min PTT SFX",
       "othersPttSfx": "Andres PTT SFX",
       "privacyTab": "Privatliv",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Kaldenavn",
     "nicknameInputDesc": "Angiv et brugerdefineret kaldenavn til dit fællesskab, som du og dine medlemmer vil se",
-    "serverUidInput": "TeamSpeak Server UID",
+    "serverUidInput": "TeamSpeak-server-UID",
     "serverUidInputDesc": "Indtast din TeamSpeak 3-server-UID her"
   },
   "serverPending": {

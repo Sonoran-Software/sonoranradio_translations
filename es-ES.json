@@ -41,7 +41,7 @@
     "confirmChangeSub": {
       "possibleDataLoss": "Si transfieres o eliminas tu suscripción, puede producirse pérdida de datos en el servidor anterior.",
       "remove": "¿Estás seguro de que deseas eliminar este servidor de tu suscripción?",
-      "set": "¿Estás seguro de que deseas establecer este servidor para tu suscripción?",
+      "set": "¿Estás seguro de que deseas configurar este servidor para tu suscripción?",
       "title": "Cambiar Suscripción",
       "transfer": "¿Estás seguro de que deseas transferir esta suscripción a otro servidor?"
     },
@@ -339,6 +339,7 @@
       "bodyImage": "Imagen del cuerpo",
       "cancel": "Cancelar",
       "chooseSkin": "Elegir skin.json",
+      "confirmRemove": "¿Estás seguro de que deseas eliminar este marco?",
       "create": "Crear",
       "frameBodyImage": "Imagen del cuerpo del marco",
       "frameLabel": "Etiqueta del marco",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "para mover componentes",
         "dragTitle": "Arrastrar",
+        "removeBody": "para quitar componentes (excepto pantalla)",
         "removeTitle": "Clic derecho",
         "resizeBody": "para redimensionar componentes",
         "resizeTitle": "CTRL+Arrastrar"
@@ -369,7 +371,7 @@
       "desktopFrames": "Marcos de escritorio",
       "fivemIntegration": "Integración de FiveM",
       "info": "Info",
-      "patrolChannels": "Canales de patrulla",
+      "patrolChannels": "Canales de Patrulla",
       "permissions": "Permisos",
       "profiles": "Perfiles",
       "sfxCustomization": "Personalización de Efectos de Sonido",
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Todos los mosaicos deben tener el mismo tamaño. '{file}' es {width}x{height}, se esperaba {expectedWidth}x{expectedHeight}.",
         "missingServer": "No hay ningún servidor activo seleccionado para la carga.",
         "noImages": "No se seleccionaron archivos de imagen.",
+        "noTemplateMatch": "No se detectó ninguna plantilla de nombre de tesela compatible.",
         "openUploader": "Subir teselas",
         "resolvedTemplate": "Plantilla resuelta",
         "selectedSummary": "{count} imágenes de teselas seleccionadas ({total})",
@@ -434,6 +437,7 @@
         "template": "Plantilla",
         "tileBounds": "Límites de tesela (índice x/y)",
         "tileSize": "Tamaño del mosaico",
+        "totalSizeLimitError": "El tamaño total de carga de teselas es {total}, que supera el límite de {limit}.",
         "unableReadDimensions": "No se pueden leer las dimensiones de la imagen de '{file}'.",
         "uploadFailed": "La subida de teselas ha fallado.",
         "uploadMissingUrl": "La subida ha finalizado, pero no se devolvió ninguna configuración.",
@@ -492,7 +496,7 @@
       "subOwner": "Titular de la suscripción",
       "subtitle": "Gestiona los permisos y el acceso de los usuarios en tu comunidad.",
       "title": "Miembros de la comunidad",
-      "traits": "Características",
+      "traits": "Rasgos",
       "unbanBtn": "Desbloquear",
       "username": "Nombre de usuario"
     },
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Esta forma de ID de canal ha quedado obsoleta. Actualiza a la última versión de Sonoran Radio TS y usa los nuevos IDs numéricos",
       "nickname": "Apodo",
       "range": {
-        "long": "Largo Alcance",
+        "long": "Largo alcance",
         "medium": "Rango medio",
         "short": "Corto alcance"
       },
@@ -581,7 +585,7 @@
           "name": "Bloqueo de radio"
         },
         "tg::talkover_override": {
-          "desc": "Este permiso otorga la capacidad de hacer doble clic en tu botón de PTT para hablar sobre otro cliente",
+          "desc": "Este permiso concede la capacidad de hacer doble clic en tu botón PTT para hablar por encima de otro cliente",
           "name": "Anulación de protección de hablar sobre"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Ejemplos: \"asignar el grupo Alpha a las unidades D-12, D-14\", \"quitar el grupo de las unidades D-12, D-14\"",
-            "label": "Agrupar unidades"
+            "label": "Agrupar unidades",
+            "placeholder": "Agrupa las unidades A-10 y B-11 en 'Grupo Uno'"
           },
           "lookup": {
             "hint": "Ejemplos: \"busca una matrícula ABC123\", \"busca a John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Ejemplos: \"llévame al código postal 1234\", \"pon el GPS en el código postal 90210\"",
-            "label": "Enrutar a postal"
+            "label": "Enrutar a postal",
+            "placeholder": "Llévame al código postal 1234"
           },
           "status": {
             "hint": "Ejemplos: \"pon mi estado en disponible\", \"muéstrame no disponible\"",
-            "label": "Actualizaciones de estado"
+            "label": "Actualizaciones de estado",
+            "placeholder": "Pon mi estado en disponible"
           },
           "togglePanic": {
             "hint": "Ejemplos: \"activar mi pánico\", \"quitar mi pánico\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "Reproducir Efectos de PTT",
       "hearPttSfxDesc": "Reproduce el sonido de PTT cuando activas tu micrófono.",
       "keyUpDelay": "Retardo al soltar tecla",
-      "keyUpDelayDesc": "Retraso después de finalizar una transmisión antes de liberar el micrófono.",
+      "keyUpDelayDesc": "Retraso tras finalizar una transmisión antes de liberar el micrófono.",
       "muteScannedWhileTransmitting": "Silenciar escaneados mientras transmite",
       "muteScannedWhileTransmittingDesc": "Silenciar canales escaneados mientras transmite en un canal.",
       "sirenVolume": "Refuerzo de volumen con sirena activa",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Establece la probabilidad mínima de que la señal se corte.",
       "minimumDigitalDistortion": "Distorsión digital mínima",
       "minimumDigitalDistortionDescription": "Mantiene un nivel base de distorsión digital en el audio.",
+      "mode": "Modo",
       "name": "Nombre",
       "postEqualizerDescription": "Perfecciona la salida final después de la cadena de efectos para dar el último toque de pulido o dureza.",
       "previewEffects": "Vista previa de efectos",
@@ -828,7 +836,7 @@
     "discovery": "Descubrir",
     "discoveryActiveMembers": "Esta comunidad tiene algunos de los miembros más activos",
     "discoveryGrowingRapidly": "Esta comunidad está creciendo rápidamente",
-    "discoveryHighTraffic": "Esta comunidad está recibiendo alto tráfico web",
+    "discoveryHighTraffic": " Esta comunidad está recibiendo mucho tráfico en el sitio web",
     "discoveryRecentlyBumped": "Esta comunidad se ha subido recientemente",
     "documentation": "Documentación",
     "joinACommunity": "Únete a una comunidad de Sonoran Radio",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Límites de frecuencia a nivel estatal",
     "statewideFrequencyLimitsDescription": "Nº de frecuencias estatales permitidas.",
     "talkaroundFrequencies": "Frecuencias de talkaround",
-    "talkaroundFrequenciesDescription": "Las frecuencias de hablar alrededor permiten a las personas hablar de radio a radio en lugar de radio a torre.",
+    "talkaroundFrequenciesDescription": "Las frecuencias Talkaround permiten a las personas hablar de radio a radio en lugar de radio a torre.",
     "talkoverProtection": "Protección de hablar sobre",
     "talkoverProtectionDescription": "La protección contra solapamiento de voz permite que solo una persona hable por una frecuencia a la vez.",
     "toBilling": "Volver a Facturación",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Apodo",
     "nicknameInputDesc": "Establece un apodo personalizado para tu comunidad, que tú y tus miembros veréis",
-    "serverUidInput": "UID del Servidor TeamSpeak",
+    "serverUidInput": "UID del servidor TeamSpeak",
     "serverUidInputDesc": "Introduce aquí el UID de tu servidor TeamSpeak 3"
   },
   "serverPending": {

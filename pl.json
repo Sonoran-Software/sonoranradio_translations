@@ -339,6 +339,7 @@
       "bodyImage": "Obraz ciała",
       "cancel": "Anuluj",
       "chooseSkin": "Wybierz skórkę",
+      "confirmRemove": "Czy na pewno chcesz usunąć tę ramkę?",
       "create": "Utwórz",
       "frameBodyImage": "Obraz ciała ramki",
       "frameLabel": "Etykieta ramki",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "aby przesuwać komponenty",
         "dragTitle": "Przeciągnij",
+        "removeBody": "aby usunąć komponenty (z wyjątkiem ekranu)",
         "removeTitle": "Kliknij prawym przyciskiem",
         "resizeBody": "aby zmieniać rozmiar komponentów",
         "resizeTitle": "CTRL+Przeciągnij"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Wszystkie kafelki muszą mieć ten sam rozmiar. '{file}' ma {width}x{height}, oczekiwano {expectedWidth}x{expectedHeight}.",
         "missingServer": "Nie wybrano aktywnego serwera do przesłania.",
         "noImages": "Nie wybrano żadnych plików obrazów.",
+        "noTemplateMatch": "Nie wykryto obsługiwanego szablonu nazwy kafelka.",
         "openUploader": "Prześlij kafelki",
         "resolvedTemplate": "Rozwiązany szablon",
         "selectedSummary": "Wybrano obrazy kafelków {count} ({total})",
@@ -434,6 +437,7 @@
         "template": "Szablon",
         "tileBounds": "Granice kafla (indeks x/y)",
         "tileSize": "Rozmiar kafelka",
+        "totalSizeLimitError": "Łączny rozmiar przesyłania kafelków wynosi {total}, co przekracza limit {limit}.",
         "unableReadDimensions": "Nie można odczytać wymiarów obrazu z '{file}'.",
         "uploadFailed": "Przesyłanie kafelków nie powiodło się.",
         "uploadMissingUrl": "Przesyłanie zakończone, ale nie zwrócono konfiguracji.",
@@ -581,7 +585,7 @@
           "name": "Blokada radia"
         },
         "tg::talkover_override": {
-          "desc": "To uprawnienie daje możliwość podwójnego kliknięcia przycisku PTT, by przebić się przez innego klienta",
+          "desc": "To uprawnienie umożliwia dwukrotne kliknięcie przycisku PTT, aby mówić ponad innym klientem",
           "name": "Nadpisanie ochrony przed nałożeniem"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Przykłady: \"ustaw grupę Alpha dla jednostek D-12, D-14\", \"wyczyść grupę dla jednostek D-12, D-14\"",
-            "label": "Grupuj jednostki"
+            "label": "Grupuj jednostki",
+            "placeholder": "Zgrupuj jednostki A-10 i B-11 w „Grupę Jeden”"
           },
           "lookup": {
             "hint": "Przykłady: „przeszukaj tablicę ABC123”, „wyszukaj Johna Smitha\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Przykłady: \"wyznacz mi trasę do kodu pocztowego 1234\", \"ustaw GPS na kod pocztowy 90210\"",
-            "label": "Trasa do poczty"
+            "label": "Trasa do poczty",
+            "placeholder": "Wyznacz mi trasę do kodu pocztowego 1234"
           },
           "status": {
             "hint": "Przykłady: \"ustaw mój status na dostępny\", \"pokaż mi niedostępny\"",
-            "label": "Aktualizacje statusu"
+            "label": "Aktualizacje statusu",
+            "placeholder": "Ustaw mój status na dostępny"
           },
           "togglePanic": {
             "hint": "Przykłady: \"włącz mój panik\", \"wyczyść mój panik\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "Odtwórz SFX PTT",
       "hearPttSfxDesc": "Odtwórz dźwięk PTT, gdy puścisz mikrofon.",
       "keyUpDelay": "Opóźnienie zwolnienia klawisza",
-      "keyUpDelayDesc": "Opóźnienie po zakończeniu transmisji, zanim mikrofon zostanie zwolniony.",
+      "keyUpDelayDesc": "Opóźnienie po zakończeniu transmisji przed zwolnieniem mikrofonu.",
       "muteScannedWhileTransmitting": "Wycisz skanowane podczas nadawania",
       "muteScannedWhileTransmittingDesc": "Wycisz skanowane kanały podczas nadawania na kanale.",
       "sirenVolume": "Wzmocnienie głośności z aktywną syreną",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Ustawia najniższe prawdopodobieństwo, że sygnał zostanie przerwany.",
       "minimumDigitalDistortion": "Min. cyfrowe",
       "minimumDigitalDistortionDescription": "Utrzymuje bazowy poziom cyfrowego zniekształcenia dźwięku.",
+      "mode": "Tryb",
       "name": "Nazwa",
       "postEqualizerDescription": "Doprecyzowuje końcowy sygnał po łańcuchu efektów, dodając ostatni szlif lub łagodząc ostrość.",
       "previewEffects": "Podgląd efektów",
@@ -828,7 +836,7 @@
     "discovery": "Odkrywanie",
     "discoveryActiveMembers": "Ta społeczność ma jednych z najbardziej aktywnych członków",
     "discoveryGrowingRapidly": "Ta społeczność szybko się rozwija",
-    "discoveryHighTraffic": "Ta społeczność otrzymuje duży ruch na stronie",
+    "discoveryHighTraffic": "Ta społeczność otrzymuje duży ruch na stronie internetowej",
     "discoveryRecentlyBumped": "Ta społeczność została ostatnio wypromowana",
     "documentation": "Dokumentacja",
     "joinACommunity": "Dołącz do społeczności Sonoran Radio",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Stanowe limity częstotliwości",
     "statewideFrequencyLimitsDescription": "Liczba dozwolonych częstotliwości stanowych.",
     "talkaroundFrequencies": "Częstotliwości Talkaround",
-    "talkaroundFrequenciesDescription": "Częstotliwości rozmów pozwalają rozmawiać radio-radio, zamiast radio-do-wieży.",
+    "talkaroundFrequenciesDescription": "Częstotliwości talkaround umożliwiają rozmowę radio do radia zamiast radio do wieży.",
     "talkoverProtection": "Ochrona przed nałożeniem",
     "talkoverProtectionDescription": "Ochrona przed nakładaniem się głosów umożliwia, aby tylko jedna osoba mogła mówić na jednej częstotliwości naraz.",
     "toBilling": "Wróć do fakturowania",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Pseudonim",
     "nicknameInputDesc": "Ustaw własny pseudonim dla swojej społeczności, który będą widzieć Ty i Twoi członkowie",
-    "serverUidInput": "UID Serwera TeamSpeak",
+    "serverUidInput": "UID serwera TeamSpeak",
     "serverUidInputDesc": "Wprowadź tutaj UID swojego serwera TeamSpeak 3"
   },
   "serverPending": {

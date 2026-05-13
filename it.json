@@ -339,6 +339,7 @@
       "bodyImage": "Immagine del corpo",
       "cancel": "Annulla",
       "chooseSkin": "Scegli skin.json",
+      "confirmRemove": "Sei sicuro di voler rimuovere questo frame?",
       "create": "Crea",
       "frameBodyImage": "Immagine del corpo della cornice",
       "frameLabel": "Etichetta cornice",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "per spostare i componenti",
         "dragTitle": "Trascina",
+        "removeBody": "per rimuovere i componenti (eccetto lo schermo)",
         "removeTitle": "Clic destro",
         "resizeBody": "per ridimensionare i componenti",
         "resizeTitle": "CTRL+Trascina"
@@ -369,7 +371,7 @@
       "desktopFrames": "Cornici del desktop",
       "fivemIntegration": "Integrazione FiveM",
       "info": "Info",
-      "patrolChannels": "Canali di pattugliamento",
+      "patrolChannels": "Canali di pattuglia",
       "permissions": "Permessi",
       "profiles": "Profili",
       "sfxCustomization": "Personalizzazione SFX",
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Tutte le tessere devono avere le stesse dimensioni. '{file}' è {width}x{height}, previsto {expectedWidth}x{expectedHeight}.",
         "missingServer": "Nessun server attivo selezionato per il caricamento.",
         "noImages": "Nessun file immagine è stato selezionato.",
+        "noTemplateMatch": "Nessun modello di nome tile supportato è stato rilevato.",
         "openUploader": "Carica tile",
         "resolvedTemplate": "Modello risolto",
         "selectedSummary": "{count} immagini delle tessere selezionate ({total})",
@@ -434,6 +437,7 @@
         "template": "Modello",
         "tileBounds": "Limiti riquadro tile (indice x/y)",
         "tileSize": "Dimensione delle tile",
+        "totalSizeLimitError": "La dimensione totale di caricamento della tile è {total}, che supera il limite di {limit}.",
         "unableReadDimensions": "Impossibile leggere le dimensioni dell'immagine da '{file}'.",
         "uploadFailed": "Caricamento tile non riuscito.",
         "uploadMissingUrl": "Caricamento completato ma non è stata restituita alcuna configurazione.",
@@ -492,7 +496,7 @@
       "subOwner": "Titolare abbonamento",
       "subtitle": "Gestisci i permessi e l'accesso degli utenti nella tua community.",
       "title": "Membri della comunità",
-      "traits": "Tratti",
+      "traits": "Caratteristiche",
       "unbanBtn": "Rimuovi il ban",
       "username": "Nome utente"
     },
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Questo formato di ID canale è stato deprecato. Aggiorna alla versione più recente di Sonoran Radio TS e passa ai nuovi ID numerici",
       "nickname": "Soprannome",
       "range": {
-        "long": "Gamma Lunga",
+        "long": "Lungo raggio",
         "medium": "Portata media",
         "short": "Breve raggio"
       },
@@ -581,7 +585,7 @@
           "name": "Blocco radio"
         },
         "tg::talkover_override": {
-          "desc": "Questo permesso concede la possibilità di fare doppio clic sul pulsante PTT per parlare sopra un altro cliente",
+          "desc": "Questa autorizzazione concede la possibilità di fare doppio clic sul tuo pulsante PTT per parlare sopra un altro client",
           "name": "Override protezione Talkover"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Esempi: \"imposta il gruppo Alpha sulle unità D-12, D-14\", \"cancella il gruppo per le unità D-12, D-14\"",
-            "label": "Raggruppa unità"
+            "label": "Raggruppa unità",
+            "placeholder": "Raggruppa le unità A-10 e B-11 in 'Gruppo Uno'"
           },
           "lookup": {
             "hint": "Esempi: \"cerca una targa ABC123\", \"cerca John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Esempi: \"portami al CAP 1234\", \"imposta il GPS sul CAP 90210\"",
-            "label": "Instrada verso il postale"
+            "label": "Instrada verso il postale",
+            "placeholder": "Portami al CAP 1234"
           },
           "status": {
             "hint": "Esempi: \"imposta il mio stato su disponibile\", \"mostrami non disponibile\"",
-            "label": "Aggiornamenti di stato"
+            "label": "Aggiornamenti di stato",
+            "placeholder": "Imposta il mio stato su disponibile"
           },
           "togglePanic": {
             "hint": "Esempi: \"attiva il mio panico\", \"cancella il mio panico\"",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Imposta la probabilità più bassa che il segnale si interrompa.",
       "minimumDigitalDistortion": "Distorsione digitale minima",
       "minimumDigitalDistortionDescription": "Mantiene un livello base di distorsione digitale nell'audio.",
+      "mode": "Modalità",
       "name": "Nome",
       "postEqualizerDescription": "Affina l'output finale dopo la catena di effetti per l'ultimo tocco di rifinitura o per attenuare la durezza.",
       "previewEffects": "Anteprima effetti",
@@ -828,7 +836,7 @@
     "discovery": "Scopri",
     "discoveryActiveMembers": "Questa community ha alcuni dei membri più attivi",
     "discoveryGrowingRapidly": "Questa comunità sta crescendo rapidamente",
-    "discoveryHighTraffic": "Questa comunità sta ricevendo un alto traffico sul sito web",
+    "discoveryHighTraffic": "Questa community sta ricevendo un elevato traffico sul sito web",
     "discoveryRecentlyBumped": "Questa community è stata recentemente riportata in cima",
     "documentation": "Documentazione",
     "joinACommunity": "Unisciti a una comunità Sonoran Radio",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Limiti di frequenza a livello statale",
     "statewideFrequencyLimitsDescription": "N. di frequenze estese consentite.",
     "talkaroundFrequencies": "Frequenze Talkaround",
-    "talkaroundFrequenciesDescription": "Le frequenze talkaround consentono agli individui di parlare radio a radio invece di radio a torre.",
+    "talkaroundFrequenciesDescription": "Le frequenze talkaround consentono alle persone di comunicare radio a radio invece che radio alla torre.",
     "talkoverProtection": "Protezione Talkover",
     "talkoverProtectionDescription": "La protezione Talkover consente a una sola persona di parlare su una frequenza alla volta.",
     "toBilling": "Torna alla fatturazione",
@@ -1005,7 +1013,7 @@
   "serverCommon": {
     "nicknameInput": "Soprannome",
     "nicknameInputDesc": "Imposta un nickname personalizzato per la tua community, che tu e i tuoi membri vedrete",
-    "serverUidInput": "ID Server TeamSpeak",
+    "serverUidInput": "UID del server TeamSpeak",
     "serverUidInputDesc": "Inserisci qui l'UID del tuo server TeamSpeak 3"
   },
   "serverPending": {

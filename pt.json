@@ -339,6 +339,7 @@
       "bodyImage": "Imagem do corpo",
       "cancel": "Cancelar",
       "chooseSkin": "Escolher skin.json",
+      "confirmRemove": "Tem certeza que deseja remover este quadro?",
       "create": "Criar",
       "frameBodyImage": "Imagem do corpo da moldura",
       "frameLabel": "Rótulo da Moldura",
@@ -355,6 +356,7 @@
       "tooltip": {
         "dragBody": "para mover componentes",
         "dragTitle": "Arrastar",
+        "removeBody": "para remover componentes (exceto a tela)",
         "removeTitle": "Clique com o botão direito",
         "resizeBody": "para redimensionar componentes",
         "resizeTitle": "CTRL+Arrastar"
@@ -422,6 +424,7 @@
         "mismatchedTileSize": "Todos os blocos devem ter o mesmo tamanho. '{file}' tem {width}x{height}, esperado {expectedWidth}x{expectedHeight}.",
         "missingServer": "Nenhum servidor ativo selecionado para upload.",
         "noImages": "Nenhum ficheiro de imagem foi selecionado.",
+        "noTemplateMatch": "Nenhum modelo de nome de bloco compatível foi detectado.",
         "openUploader": "Carregar tiles",
         "resolvedTemplate": "Modelo Resolvido",
         "selectedSummary": "{count} imagens de azulejo selecionadas ({total})",
@@ -434,6 +437,7 @@
         "template": "Modelo",
         "tileBounds": "Limites do bloco (índice x/y)",
         "tileSize": "Tamanho do bloco",
+        "totalSizeLimitError": "O tamanho total de envio dos mosaicos é {total}, o que excede o limite de {limit}.",
         "unableReadDimensions": "Não foi possível ler as dimensões da imagem de '{file}'.",
         "uploadFailed": "Falha no carregamento de tiles.",
         "uploadMissingUrl": "Upload concluído, mas nenhuma configuração foi retornada.",
@@ -540,7 +544,7 @@
       "legacyChannelUidWarn": "Este formato de ID de Canal foi descontinuado. Atualize para a versão mais recente do Sonoran Radio TS e para os novos IDs numéricos",
       "nickname": "Apelido",
       "range": {
-        "long": "Longo Alcance",
+        "long": "Longo alcance",
         "medium": "Médio alcance",
         "short": "Curto alcance"
       },
@@ -581,7 +585,7 @@
           "name": "Bloqueio de rádio"
         },
         "tg::talkover_override": {
-          "desc": "Esta permissão concede a habilidade de clicar duas vezes no botão de PTT para falar sobre outro cliente",
+          "desc": "Esta permissão concede a capacidade de clicar duas vezes no seu botão PTT para falar por cima de outro cliente",
           "name": "Substituição de Proteção de Intervenção"
         }
       }
@@ -680,7 +684,8 @@
           },
           "identsToGroup": {
             "hint": "Exemplos: \"definir grupo Alpha nas unidades D-12, D-14\", \"limpar grupo para as unidades D-12, D-14\"",
-            "label": "Agrupar unidades"
+            "label": "Agrupar unidades",
+            "placeholder": "Agrupar as unidades A-10 e B-11 em \"Grupo Um\""
           },
           "lookup": {
             "hint": "Exemplos: \"executar uma placa ABC123\", \"procurar John Smith\"",
@@ -694,11 +699,13 @@
           },
           "routeToPostal": {
             "hint": "Exemplos: \"encaminhe-me para o código postal 1234\", \"defina o GPS para o código postal 90210\"",
-            "label": "Rota para correio"
+            "label": "Rota para correio",
+            "placeholder": "Encaminhe-me para o código postal 1234"
           },
           "status": {
             "hint": "Exemplos: \"defina meu status como disponível\", \"mostre-me indisponível\"",
-            "label": "Atualizações de status"
+            "label": "Atualizações de status",
+            "placeholder": "Defina meu status como disponível"
           },
           "togglePanic": {
             "hint": "Exemplos: \"ativar meu pânico\", \"limpar meu pânico\"",
@@ -740,7 +747,7 @@
       "hearPttSfx": "Tocar SFX de PTT",
       "hearPttSfxDesc": "Tocar o som de PTT quando você aciona seu microfone.",
       "keyUpDelay": "Atraso ao Soltar a Tecla",
-      "keyUpDelayDesc": "Atraso após o término de uma transmissão antes de o microfone ser liberado.",
+      "keyUpDelayDesc": "Atraso após o término de uma transmissão antes que o microfone seja liberado.",
       "muteScannedWhileTransmitting": "Silenciar Escaneamento Enquanto Transmite",
       "muteScannedWhileTransmittingDesc": "Silenciar canais escaneados enquanto transmite em um canal.",
       "sirenVolume": "Aumento de volume com sirene ativa",
@@ -800,6 +807,7 @@
       "minimumClippingDescription": "Define a menor chance de o sinal cortar.",
       "minimumDigitalDistortion": "Distorção Digital Mín.",
       "minimumDigitalDistortionDescription": "Mantém um nível base de distorção digital no áudio.",
+      "mode": "Modo",
       "name": "Nome",
       "postEqualizerDescription": "Refina a saída final após a cadeia de efeitos para o último toque de polimento ou aspereza.",
       "previewEffects": "Pré-visualização de efeitos",
@@ -828,7 +836,7 @@
     "discovery": "Descoberta",
     "discoveryActiveMembers": "Esta comunidade tem alguns dos membros mais ativos",
     "discoveryGrowingRapidly": "Esta comunidade está a crescer rapidamente",
-    "discoveryHighTraffic": "Esta comunidade está recebendo alto tráfego no site",
+    "discoveryHighTraffic": " Esta comunidade está recebendo alto tráfego no site",
     "discoveryRecentlyBumped": "Esta comunidade foi recentemente destacada",
     "documentation": "Documentação",
     "joinACommunity": "Junte-se a uma comunidade Sonoran Radio",
@@ -870,7 +878,7 @@
     "statewideFrequencyLimits": "Limites de Frequência em Todo o Estado",
     "statewideFrequencyLimitsDescription": "Nº de frequências estaduais permitidas.",
     "talkaroundFrequencies": "Frequências de Talkaround",
-    "talkaroundFrequenciesDescription": "As frequências de comunicação permitem que indivíduos falem rádio para rádio ao invés de rádio para torre.",
+    "talkaroundFrequenciesDescription": "As frequências Talkaround permitem que as pessoas falem de rádio para rádio em vez de rádio para torre.",
     "talkoverProtection": "Proteção de Intervenção",
     "talkoverProtectionDescription": "A proteção contra sobreposição de fala permite que apenas uma pessoa fale por uma frequência por vez.",
     "toBilling": "Voltar para Faturamento",
