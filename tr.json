@@ -1,34 +1,34 @@
 {
   "account": {
-    "noServers": "Sunucu Yok",
-    "serversDesc": "Burada size ait veya yönettiğiniz Sonoran Radio topluluklarını görüntüleyebilirsiniz",
+    "noServers": "Sunucular Yok",
+    "serversDesc": "Burada sahip olduğunuz veya yönettiğiniz tüm Sonoran Radio topluluklarını görüntüleyebilirsiniz",
     "serversTitle": "Sunucularınız",
-    "tokenCopied": "Sır panoya kopyalandı!",
-    "tokenDesc": "FiveM radyosuna giriş yapmak için bu jetonu kopyalayın!",
-    "tokenDescWarning": "Bu kod GİZLİdir ve kimseyle paylaşılmamalıdır!",
+    "tokenCopied": "Gizli anahtar panonuza kopyalandı!",
+    "tokenDesc": "FiveM radyosuyla giriş yapmak için bu belirteci kopyala!",
+    "tokenDescWarning": "Bu kod GİZLİDİR ve hiç kimseyle paylaşılmamalıdır!",
     "tokenInputLabel": "Giriş Sırrınız",
-    "tokenLoadBtn": "Yüklemek için Tıklayın",
+    "tokenLoadBtn": "Yüklemek için tıklayın",
     "tokenTitle": "Radyo Giriş Sırrı"
   },
   "authMember": {
     "errLeave": "Topluluktan ayrılırken beklenmedik bir hata oluştu.",
     "leaveMsg": "Bu Sonoran Radio Community'den ayrılmak istediğinizden emin misiniz?",
-    "subtitle": "{serverName} için Sonoran Radio'yu kullanabilmeden önce sunucu sahibi veya topluluk yöneticisi tarafından onaylanmanız gerekmektedir. Lütfen onay bekleyin.",
-    "subtitleShort": "Bu toplulukta Sonoran Radio'yu kullanmadan önce, topluluk personeli tarafından onaylanmanız gerekmektedir",
+    "subtitle": "Sonoran Radio'yu {serverName} için kullanabilmeniz için önce sunucu sahibi veya topluluk yöneticisi tarafından onaylanmanız gerekir. Lütfen onay bekleyin.",
+    "subtitleShort": "Bu toplulukta Sonoran Radio'yu kullanmadan önce, topluluk personeli tarafından onaylanmanız gerekir",
     "title": "Onay Bekliyorsunuz"
   },
   "authServer": {
     "authCodeTitle": "Yetkilendirme Kodu",
     "clickToCopy": "Kopyalamak için tıklayın",
-    "copiedCode": "Sunucu yetkilendirme kodu panoya kopyalandı",
+    "copiedCode": "Sunucu kimlik doğrulama kodu panoya kopyalandı",
     "errDelete": "Sunucuyu silerken beklenmedik bir hata oluştu.",
-    "errSave": "Sunucuyu kaydederken beklenmedik bir hata oluştu.",
+    "errSave": "Sunucu kaydedilirken beklenmedik bir hata oluştu.",
     "submit": "Sunucuyu Kaydet",
-    "subtitle": "TeamSpeak sunucunuzu Sonoran Radio eklentisi ve web panelini kullanarak kolay bir kimlik doğrulama süreci ile doğrulayın. Bu kimlik doğrulama süreci sırasında TeamSpeak sunucunuzdaki yeterli izinlere sahip bireyler, bekleyen yetkilendirmenizi belirten bir açılır pencere göreceklerdir, yetkilendirme kodunu aşağıdaki TeamSpeak açılır penceresine girin. Erişim kimliği yanlış ayarladıysanız, bunu aşağıda değiştirebilirsiniz. Sonoran Radio'dan TeamSpeak açılır penceresini göremiyorsanız, doğru kimlik bilgilerinizi girdiğinizi ve en az v0.2.0 sürümünde eklentinin kurulu olduğunu doğrulayın. Aksi takdirde, destek ile iletişime geçin.",
-    "title": "TeamSpeak Sunucunuzu Doğrulayın"
+    "subtitle": "TeamSpeak sunucunuzu Sonoran Radio eklentisi ve web paneli aracılığıyla kolay bir kimlik doğrulama süreciyle doğrulayın. Bu kimlik doğrulama süreci sırasında TeamSpeak sunucunuzda yeterli izne sahip kişiler, bekleyen yetkilendirme talebinizi belirten bir açılır pencere göreceklerdir; lütfen yetkilendirmek için aşağıdaki yetkilendirme kodunu TeamSpeak açılır pencereye girin. TeamSpeak sunucu UID'nizi yanlışlıkla hatalı ayarladıysanız, aşağıdan değiştirebilirsiniz. Sonoran Radio'dan TeamSpeak açılır penceresini görmüyorsanız, lütfen doğru UID'yi girdiğinizi ve eklentinin en az v0.2.0 sürümünün yüklü olduğunu doğrulayın. Aksi halde, destek ile iletişime geçin.",
+    "title": "TeamSpeak Sunucunuzu Kimlik Doğrulayın"
   },
   "billing": {
-    "alreadyActiveSub": "Zaten aktif bir aboneliğe sahip",
+    "alreadyActiveSub": "Zaten aktif bir aboneliği var",
     "changeServer": "Sunucuyu Değiştir",
     "changeSvDialog": {
       "errSave": "Abonelik değiştirilirken beklenmedik bir hata oluştu",
@@ -39,39 +39,39 @@
     "chooseSub": "Abonelik Planı Seç",
     "compPlans": "Planları Karşılaştır",
     "confirmChangeSub": {
-      "possibleDataLoss": "Aboneliği aktarmak veya kaldırmak durumunda, önceki sunucuda veri kaybı meydana gelebilir.",
-      "remove": "Bu sunucuyu aboneliğinizden kaldırmak istediğinizden emin misiniz?",
+      "possibleDataLoss": "Aboneliğinizi aktarırsanız veya kaldırırsanız, önceki sunucudaki veriler kaybolabilir.",
+      "remove": "Aboneliğinizden bu sunucuyu kaldırmak istediğinizden emin misiniz?",
       "set": "Aboneliğiniz için bu sunucuyu ayarlamak istediğinizden emin misiniz?",
       "title": "Aboneliği Değiştir",
       "transfer": "Bu aboneliği başka bir sunucuya aktarmak istediğinizden emin misiniz?"
     },
     "errCheck": "Aboneliğiniz kontrol edilirken beklenmedik bir hata oluştu",
-    "isUnauthorized": "Abonelikler yetkilendirilmemiş sunuculara uygulanamaz",
+    "isUnauthorized": "Abonelikler yetkisiz sunuculara uygulanamaz",
     "modifySub": "Aboneliği Değiştir",
     "newSub": "Yeni Abonelik",
     "newSubDialog": {
       "chooseSub": "Bir Abonelik Seç",
       "chooseSv": "Bir Sunucu Seç",
       "errCreate": "Abonelik oluşturulurken beklenmedik bir hata oluştu",
-      "expertInstallation": "Uzman Kurulum",
+      "expertInstallation": "Uzman Kurulumu",
       "mostPop": "En Popüler",
       "noServer": "Sunucu Yok",
-      "noServerDesc": "Bu abonelik, bir topluluk ile ilişkilendirilmeyecektir. Daha sonra değiştirebileceksiniz.",
-      "one": "Sonoran One (49,99$/ay)",
+      "noServerDesc": "Bu abonelik bir toplulukla ilişkilendirilmeyecek. Bunu daha sonra değiştirebileceksiniz.",
+      "one": "Sonoran One ($49.99/ay)",
       "oneLearnMore": "Sonoran One hakkında daha fazla bilgi edinin",
       "plus": "Plus Planı (14,99$/ay)",
       "pro": "Pro Planı (19,99$/ay)",
       "title": "Yeni Abonelik"
     },
-    "noServerAssociated": "İlişkili Sunucu Yok",
-    "setServer": "Sunucuyu Ayarla",
+    "noServerAssociated": "Sunucu İlişkilendirilmedi",
+    "setServer": "Sunucu Ayarla",
     "statuses": {
       "active": "Aktif",
-      "canceled": "İptal Edildi",
+      "canceled": "İptal edildi",
       "incomplete": "Tamamlanmamış",
       "incomplete_expired": "Tamamlanmamış Süresi Dolmuş",
-      "past_due": "Geçmiş Vade",
-      "unpaid": "Ödenmemiş"
+      "past_due": "Vadesi Geçmiş",
+      "unpaid": "Ödenmedi"
     },
     "toPortal": "Portala Dön"
   },
@@ -81,7 +81,7 @@
     "add": "Ekle",
     "billing": "Faturalandırma",
     "cancel": "İptal",
-    "clipboard": "Panoya Kopyalandı!",
+    "clipboard": "Panoya kopyalandı!",
     "communityIdField": "Topluluk Kimliği",
     "confirm": "Onayla",
     "copy": "Kopyala",
@@ -93,14 +93,14 @@
     "language": "Dil",
     "learnMore": "Daha Fazla Öğren",
     "limited": "Sınırlı",
-    "login": "Giriş Yap",
+    "login": "Giriş",
     "logout": "Çıkış Yap",
     "management": "Yönetim",
     "menu": "Menü",
     "miscServer": "Sunucu {id}",
-    "needsInteger": "Tam sayı olmalı",
+    "needsInteger": "Bir tam sayı olmalıdır",
     "notApplicable": "Uygulanamaz",
-    "only": "{0} Sadece",
+    "only": "Yalnızca {0}",
     "password": "Şifre",
     "plans": {
       "free": "Ücretsiz",
@@ -115,9 +115,9 @@
     "save": "Kaydet",
     "search": "Ara",
     "select": "Seç",
-    "signup": "Kaydol",
-    "startToday": "Bugün Başla",
-    "unlink": "Bağlantıyı Kaldır",
+    "signup": "Kayıt Ol",
+    "startToday": "Bugün başlayın",
+    "unlink": "Bağlantıyı kaldır",
     "upload": "Yükle",
     "username": "Kullanıcı Adı"
   },
@@ -125,16 +125,16 @@
     "displayName": "İngilizce (ABD)"
   },
   "error404": {
-    "goHome": "Eve Dön",
-    "message": "Hata. Burada bir şey yok..."
+    "goHome": "Ana sayfaya git",
+    "message": "Hata. Burada hiçbir şey yok..."
   },
   "errors": {
     "common": {
       "enterEmail": "Lütfen e-posta adresinizi girin.",
-      "enterPassword": "Lütfen bir şifre girin."
+      "enterPassword": "Lütfen bir parola girin."
     },
     "misc": {
-      "noLocalStorageSupport": "Tarayıcınız yerel depolamayı desteklemiyor veya etkin olmayabilir."
+      "noLocalStorageSupport": "Tarayıcınız yerel depolamayı desteklemiyor veya devre dışı bırakılmış olabilir."
     },
     "signup": {
       "invalidEmail": "Belirtilen e-posta geçerli bir e-posta adresi değil, lütfen başka bir e-posta adresi kullanın.",
@@ -142,11 +142,11 @@
       "noEmail": "E-posta belirtilmedi.",
       "noPassword": "Parola belirtilmedi.",
       "noUsername": "Kullanıcı adı belirtilmedi.",
-      "passwordNoNumber": "Şifre herhangi bir rakam içermiyor",
-      "passwordNoSymbol": "Şifre herhangi bir sembol içermiyor ('!@#$%^&*')",
-      "passwordNotMoreThan": "Şifre 6 karakterden fazla değil",
+      "passwordNoNumber": "Şifre herhangi bir sayı içermiyor",
+      "passwordNoSymbol": "Şifre herhangi bir sembol içermiyor ({'!@#$%^&*'})",
+      "passwordNotMoreThan": "Parola 6 karakterden fazla değil",
       "passwordNoUppercase": "Şifre herhangi bir büyük harf içermiyor",
-      "passwordsDontMatch": "Şifreler birbirleriyle uyuşmuyor.",
+      "passwordsDontMatch": "Parolalar birbiriyle eşleşmiyor.",
       "usernameInvalidCharacter": "Kullanıcı adı geçersiz bir karakter içeriyor.",
       "usernameNotLongEnough": "Kullanıcı adı 4 karakterden uzun değil.",
       "usernameTooLong": "Kullanıcı adı çok uzun."
@@ -154,17 +154,23 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Giriş yapmak için tarayıcınızda {link} adresine gidin",
+    "guestLogin": "Misafir Girişi",
+    "guestLoginInstruction": "Misafir olarak giriş yap",
     "loginWithCode": "Kodla Giriş Yap",
     "refresh": "Yenile",
-    "unlink": "Bağlantıyı Kaldır"
+    "unlink": "Bağlantıyı kaldır"
   },
   "getStartedButton": {
-    "learnMore": "Daha fazla öğren"
+    "learnMore": "Daha Fazla Öğren"
   },
   "hotkeys": {
     "clearHotkey": "Kısayolu Temizle",
-    "noKeySet": "Tuş Ayarlanmamış",
-    "pressAKey": "Bir Tuşa Bas",
+    "clickToEndRecording": "Kaydı bitirmek için tıklayın",
+    "focusDesktopRadio": "Masaüstü Radyosuna Odaklan",
+    "noKeySet": "Kısayol Atanmadı",
+    "openConnectedUsers": "Kullanıcı Listesi Katmanını Aç",
+    "openDesktopOverlay": "Katmanı Aç",
+    "pressAKey": "Bir tuşa basın",
     "toggleDesktopRadio": "Masaüstü Radyosunu Değiştir"
   },
   "iconPicker": {
@@ -178,88 +184,88 @@
   },
   "importExport": {
     "download": "İndir",
-    "export": "Dışa Aktar",
+    "export": "Dışa aktar",
     "import": "İçe Aktar",
-    "placeholder": "JSON'u buraya yapıştır",
-    "title": "JSON İçe/Dışa Aktar",
-    "tooltip": "JSON dosyasını içe aktar"
+    "placeholder": "JSON'u buraya yapıştırın",
+    "title": "JSON İçe/Dışa Aktarma",
+    "tooltip": "JSON dosyası içe aktar"
   },
   "landingPage": {
     "BackgroundAudio": {
-      "desc": "Bir çağrıya yanıt mı veriyorsunuz? Sonoran Radio mikrofon beslemenize gerçek zamanlı sirenler, silah sesi ve daha fazlasını enjekte ederek nihai sürükleyiciliği sunar.",
+      "desc": "Bir çağrıya mı yanıt veriyorsunuz? Sonoran Radio, en üst düzey sürükleyicilik için gerçek zamanlı sirenleri, silah seslerini ve daha fazlasını doğrudan mikrofon akışınıza enjekte eder.",
       "title": "Arka Plan Sesi"
     },
     "bigDaddyRadio": {
-      "desc": "Sonoran Radio, Büyük Baba Scripts ile ortaklık kurarak radyo animasyonları scriptlerinin ÜCRETSİZ bir kopyasını sunuyor!",
-      "title": "Büyükbaba Radyo Animasyonları"
+      "desc": "Sonoran Radio, radyo animasyonları scriptlerinin ÜCRETSİZ bir kopyasını sunmak için Big Daddy Scripts ile ortaklık kurdu!",
+      "title": "Big-Daddy Radyo Animasyonları"
     },
     "Cloud_Configurations": {
       "desc": "Radyonuzu özelleştirmek, kullanımı kolay yapılandırma panelimizden gelen canlı güncellemelerle hiç bu kadar kolay olmamıştı.",
-      "title": "Bulut Konfigürasyonları"
+      "title": "Bulut Yapılandırmaları"
     },
     "Customizable_SFX": {
       "desc": "Tünellerde, yeraltı konumlarında ve daha fazlasında sinyal kaybını yapılandırın!",
       "title": "Özelleştirilebilir SFX"
     },
     "Custom_Voice_Effects": {
-      "desc": "Topluluğunuz için dijital ve analog tarzda ses efektlerini özelleştirin!",
+      "desc": "Topluluğunuz için dijital ve analog tarzı ses efektlerini özelleştirin!",
       "title": "Özel Ses Efektleri"
     },
     "Destructible_towers": {
-      "desc1": "Oyun içindeki fiziksel kuleler suçlular tarafından tahrip edilebilir, bu da çevresindeki radyoların kalitesini bozar.",
-      "desc2": "Üç farklı oyun içi model türüyle, Sonoran Radio sürükleyiciliği bir sonraki seviyeye taşır!",
+      "desc1": "Oyundaki fiziksel kuleler, suçlular tarafından yok edilebilir; bu da çevresindeki radyoların kalitesini mahveder.",
+      "desc2": "Üç farklı oyun içi model türüyle Sonoran Radio, sürükleyiciliği bir üst seviyeye taşıyor!",
       "title": "Yıkılabilir Kuleler"
     },
     "Dispatch_Panel": {
-      "desc1": "Kullanıcıları kolayca görselleştirin, yönetin, tonları çalın ve daha fazlası!",
-      "desc2": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, web ve Windows ile OSX masaüstünde her yerde mevcuttur.",
+      "desc1": "Kullanıcıları kolayca görselleştirin, yönetin, tonlar çalın ve daha fazlası!",
+      "desc2": "Sonoran Radios sevk UI'si web'de ve Windows ile OSX için masaüstünde her yerde kullanılabilir.",
       "title": "Çağrı Merkezi Paneli"
     },
     "EmergencyCalls": {
-      "desc": "Tümünü oyun içinden çağrı merkezine acil durum çağrıları yapın!",
-      "title": "Oyun İçi Acil Durum Çağrıları"
+      "desc": "Acil durum çağrıları yapın, hepsi oyun içinden!",
+      "title": "Oyun İçi Acil Çağrılar"
     },
     "inGameToneBoard": {
-      "desc": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanallar ve gruplar belirlemenizi, tonları tekrarlamanızı ve daha fazlasını gerçekleştirebilmenizi sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",
-      "title": "Oyun İçi Hoparlörlere Ton Tahtası"
+      "desc": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanallar ve gruplar belirlemenizi, tonları tekrarlamanızı ve daha fazlasını sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",
+      "title": "Tone Board'dan Oyun İçi Hoparlörlere"
     },
-    "intro": "Sonoran Radio ile oyun iletişiminizi bir üst seviyeye taşıyın. Gerçekçi radyo kanallarında sohbet edin, ses efektlerinizi özelleştirin ve oyun içi özelliklerle zahmetsizce bağlanarak gerçekten sürükleyici bir deneyim yaşayın.",
+    "intro": "Sonoran Radio ile oyun içi iletişiminizi bir üst seviyeye taşıyın. Gerçekçi radyo kanallarında sohbet edin, ses efektlerinizi özelleştirin ve gerçekten  sürükleyici bir deneyim için oyun içi özelliklerle zahmetsizce bağlantı kurun.",
     "mobileCommandCenter": {
-      "desc": "Sonoran'ın mobil komuta merkezi, komuta almanıza hiç olmadığı kadar imkan tanır. Eşsiz bir yardımcı araç sonsuz olasılıkları beraberinde getiriyor!",
+      "desc": "Sonorans mobil komuta merkezi, daha önce hiç olmadığı gibi komutayı elinize almanızı sağlar. Bu eşsiz hizmet aracı sonsuz olanaklar sunar!",
       "title": "Mobil Komuta Merkezi"
     },
     "MultipleRadioOperations": {
-      "desc1": "Sonoran Radio, birden fazla oyun içi kullanıcı arayüzleri sunar, böylece yaya, araç içinde ve daha fazlasında bağlı kalabilirsiniz!",
-      "desc2": "Radyo tarzı seçeneklerinden birini seçin veya hatta kendinizinkini ekleyin!",
+      "desc1": "Sonoran Radio, oyundayken yaya, araç içinde ve daha fazlasında bağlantıda kalmanı sağlayan birden fazla kullanıcı arayüzü sunar!",
+      "desc2": "Radyo tarzı seçeneklerimizden birini seçin ya da kendi seçeneğinizi ekleyin!",
       "title": "Çoklu Radyo Seçenekleri"
     },
     "Power_Grid": {
-      "desc": "Sonoran Radio kulelerini devre dışı bırakmak için entegre güç şebekesine sızın! Bu script hakkında daha fazla bilgi edinin!",
-      "title": "Güç Şebekesi"
+      "desc": "Entegre güç şebekesine sızarak bölgenizdeki Sonoran Radyo kulelerini devre dışı bırakın! Bu betik hakkında daha fazla bilgi edinin!",
+      "title": "Güç Izgarası"
     },
     "Radio_Chattrer": {
-      "desc": "Trafik duraklatmasında mı tutuluyorsunuz? Yakındaki bir polis aktif radyo yaptığında gerçek radyo gürültüsünü duyacaksınız!",
-      "title": "Yakındaki Radyo Gürültüsünü Duyun"
+      "desc": "Trafik kontrolünde durduruldunuz mu? Bir memurun yakınında aktif bir telsiz olduğunda gerçek telsiz konuşmalarını duyacaksınız!",
+      "title": "Yakındaki Radyo Konuşmalarını Duyun"
     },
     "Scanners": {
-      "desc": "Oyun içi tarayıcılar, size ve yakındaki diğerlerine radyo trafiğini dinlemenize olanak tanır!",
+      "desc": "Oyun içi tarayıcılar, senin ve yakındaki diğerlerinin radyo trafiğini dinlemesini sağlar!",
       "title": "Tarayıcılar"
     },
     "Sonoran_CAD": {
-      "desc": "Bu eklenti, Sonoran Radio müşterilerinin radyolarını Sonoran CAD ile bağlamasına olanak tanır. Birim durumunuzu görüntüleyin, çağrı bilgilerini bildirin, panik yapın ve daha fazlasını gerçekleştirin!",
+      "desc": "Bu eklenti, Sonoran Radio müşterilerinin radyoyu Sonoran CAD ile bağlamasına olanak tanır. Birim durumunuzu, sevk çağrısı bilgilerini görüntüleyin, panik durumunu açıp kapatın ve daha fazlasını yapın!",
       "title": "Sonoran CAD"
     },
     "Sonoran_CMS": {
-      "desc": "Sonoran CMS ile Sonoran Radio izinlerini otomatik hale getirin!",
+      "desc": "Sonoran CMS ile Sonoran Radio izinlerini otomatikleştirin!",
       "title": "Sonoran CMS"
     },
     "ToneBoard": {
-      "desc1": "Topluluğunuz için çağrı merkezi tonlarını yükleyin ve özelleştirin!",
-      "desc2": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanalları ve grupları belirlemenizi, tonları tekrarlamanızı ve daha fazlasını gerçekleştirmenizi sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",
+      "desc1": "Topluluğunuz için çağrı tonlarını yükleyin ve özelleştirin!",
+      "desc2": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanallar ve gruplar belirlemenizi, tonları tekrarlamanızı ve daha fazlasını sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",
       "title": "Ton Tahtası"
     },
     "Transmission_Logs": {
-      "desc": "AI destekli metin transkripsiyonlarıyla isteğe bağlı olarak iletim kayıtlarını izleyin ve oynatın!",
+      "desc": "İletim günlüklerini isteğe bağlı yapay zeka destekli metin transkripsiyonlarıyla görüntüleyin ve oynatın!",
       "title": "İletim Kayıtları"
     },
     "tunnelSignalLoss": {
@@ -267,29 +273,36 @@
       "title": "Tünel Sinyal Kaybı"
     },
     "VehicleDisplay": {
-      "desc": "3D araç radyo görüntümüz, kanalı bilgilerinizi, ileten kullanıcıyı ve panik durumunu gerçek zamanlı olarak yansıtır, sürükleyiciliği yeni seviyelere taşır!",
+      "desc": "3D araç radyo ekranımız kanal bilgilerinizi, iletimi yapan kullanıcıyı ve panik durumunu gerçek zamanlı olarak yansıtarak yeni bir sürükleyicilik seviyesi sunar!",
       "title": "Araç Görüntüleme"
     }
   },
   "login": {
     "createAccount": "Hesap Oluştur",
     "forgotPassword": "Şifremi Unuttum",
-    "forgotPasswordDesc": "Sonoran hesap şifrenizi mi unuttunuz? Kimlik bilgilerinizi sıfırlamak için aşağıya e-posta adresinizi girin.",
+    "forgotPasswordDesc": "Sonoran hesabı şifrenizi mi unuttunuz? Kimlik bilgilerinizi sıfırlamak için aşağıya e-postanızı girin.",
     "loginWithSonoran": "Sonoran ile Giriş Yap"
   },
   "loginLink": {
     "enterCode": "4 haneli kodunuzu girin..."
   },
   "managementPage": {
-    "searchTitle": "Topluluğu Ara",
+    "searchTitle": "Topluluk Ara",
     "subtitle": "Sadece geleceğin milyarderleri için",
-    "title": "Sonoran Radio Yönetim Paneli"
+    "title": "Sonoran Radyo Yönetim Paneli"
   },
   "manageServer": {
     "admin": {
-      "apiInfoHint": "Üyelerinizi davet ederken buna üyelerinize verin",
+      "apiInfoHint": "Topluluğa davet ederken bunu üyelerinize verin",
       "apiInfoTitle": "API Bilgisi",
       "communityApiKeyField": "Topluluk API Anahtarı",
+      "communityLogs": "Topluluk Kayıtları",
+      "logAccount": "Kaynak (Hesap)",
+      "logContent": "İçerik",
+      "logDate": "Tarih",
+      "logSearch": "Ara",
+      "logSearchSubtitle": "Topluluğunuzun kullanılabilir tüm kayıtlarını görüntüleyin, türe, tarihe ve içeriğe göre filtreleyin.",
+      "logSearchTitle": "Ara",
       "logType": "Tür",
       "updateApiKey": "API Anahtarını Güncelle"
     },
@@ -312,7 +325,7 @@
       },
       "ownershipHint": "Alan adınıza sahip olmalısınız!",
       "placeholder": "radio.example.com",
-      "requiresPro": "Özel Alan Adı ayarlamak için bir Pro aboneliğiniz olmalı",
+      "requiresPro": "Özel Bir Etki Alanı ayarlamak için Pro aboneliğiniz olmalı",
       "tryItOut": "Deneyin",
       "vanityCopied": "Özel URL panoya kopyalandı!",
       "vanityLabel": "Özel URL",
@@ -322,15 +335,38 @@
       "verifyTitle": "Alan adınızı doğrulayın"
     },
     "customizeDesktopFrames": {
+      "addButton": "Düğme Ekle",
+      "bodyImage": "Gövde Görseli",
+      "cancel": "İptal",
+      "chooseSkin": "Dış görünümü seçin.json",
+      "create": "Oluştur",
+      "frameBodyImage": "Çerçeve Gövde Görseli",
+      "frameLabel": "Çerçeve Etiketi",
+      "frameWidth": "Çerçeve Genişliği",
+      "importDefaultFrameType": "Varsayılan Çerçeve Türünü İçe Aktar",
+      "importFromSkin": "FiveM'den içe aktar (skin.json)",
+      "importNoFramesFound": "body.width ve screen ile masaüstü çerçevesi bulunamadı.",
+      "label": "Etiket",
+      "newFrame": "Yeni Çerçeve",
+      "noneFound": "Bu sunucu için masaüstü çerçevesi bulunamadı.",
+      "saved": "Masaüstü çerçeveleri kaydedildi.",
+      "screenPlaceholder": "Bu ekrandır",
+      "selectFrame": "Çerçeve Seç",
       "tooltip": {
-        "dragBody": "bileşenleri taşımak için"
-      }
+        "dragBody": "bileşenleri taşımak için",
+        "dragTitle": "Sürükle",
+        "removeTitle": "Sağ tıklayın",
+        "resizeBody": "bileşenleri yeniden boyutlandırmak için",
+        "resizeTitle": "CTRL+Sürükle"
+      },
+      "upload": "Yükle"
     },
     "customizeMenu": {
-      "ai": "AI",
-      "channelsGroups": "Kanallar & Gruplar",
+      "ai": "Yapay Zeka",
+      "channelsGroups": "Kanallar ve Gruplar",
       "customDomain": "Özel Alan Adı",
       "defaultSettings": "Varsayılan Ayarlar",
+      "desktopFrames": "Masaüstü Çerçeveleri",
       "fivemIntegration": "FiveM Entegrasyonu",
       "info": "Bilgi",
       "patrolChannels": "Devriye Kanalları",
@@ -338,44 +374,102 @@
       "profiles": "Profiller",
       "sfxCustomization": "SFX Özelleştirme",
       "toneBoard": "Ton Tahtası",
-      "voiceCustomization": "Ses Özelleştirme"
+      "voiceCustomization": "Ses Özelleştirme",
+      "zones": "Bölgeler"
     },
-    "customizeTab": "Özelleştirme",
-    "deleteMsg": "Bu yapılandırmayı silmek istediğinizden emin misiniz? Bu işlem, geri alınamaz veri kaybına yol açacaktır.",
+    "customizeTab": "Özelleştir",
+    "deleteMsg": "Bu yapılandırmayı silmek istediğinizden emin misiniz? Bu, geri döndürülemez veri kaybına neden olacaktır.",
     "deleteServer": "Topluluğu Sil",
     "deleteSuccess": "Sunucunuz başarıyla silindi",
-    "dispatchTab": "Çagırma Merkezi",
+    "dispatchTab": "Çağırma",
     "emergency911": {
+      "callBtn": "911'i Ara",
+      "connected": "Bağlandı — aramanız görevli merkezlere iletiliyor.",
+      "connecting": "Bağlanıyor...",
+      "disconnectsDispatchHint": "Bir arama başlatmak başka bir sekmedeki etkin sevkiyat oturumunu bağlantısını keser.",
+      "dispatchersTitle": "Bu çağrıda görevli operatörler",
+      "endBtn": "Aramayı Sonlandır",
+      "selectRoom": "Sunucu",
+      "subtitle": "Bu topluluktaki görevlilere 911 araması yapın.",
       "title": "Acil Çağrı",
       "waitingDispatcher": "Bir sevk görevlisinin yanıt vermesi bekleniyor..."
     },
-    "errImport": "SAPR yapılandırmanızı içe aktarırken beklenmedik bir hata oluştu.",
-    "errImportNotFound": "TeamSpeak UID'niz için herhangi bir SAPR yapılandırması bulunamadı.",
-    "errSaveInfo": "Sunucu bilgilerinizi kaydederken beklenmedik bir hata oluştu.",
-    "errServerCheck": "Sunucunuzu kontrol ederken beklenmedik bir hata oluştu.",
-    "errUidTaken": "TeamSpeak sunucu UID başka bir doğrulanmış sunucu tarafından kullanılıyor.",
-    "errUnauthorize": "Sunucunuzun yetkisini kaldırırken beklenmedik bir hata oluştu.",
+    "emergency911Tab": "911 Çağrısı",
+    "errImport": "SAPR Config dosyanız içe aktarılırken beklenmedik bir hata oluştu.",
+    "errImportNotFound": "TeamSpeak UID'niz için hiçbir SAPR yapılandırması bulunamadı.",
+    "errSaveInfo": "Sunucu bilgileriniz kaydedilirken beklenmedik bir hata oluştu.",
+    "errServerCheck": "Sunucunuz kontrol edilirken beklenmedik bir hata oluştu.",
+    "errUidTaken": "TeamSpeak sunucusu UID'si zaten başka bir yetkilendirilmiş sunucu tarafından kullanılıyor.",
+    "errUnauthorize": "Sunucunuzun yetkilendirmesi kaldırılırken beklenmedik bir hata oluştu.",
     "explainOwnerOnly": "Bu ayarı yalnızca sahibi değiştirebilir",
     "geoZoneViewer": {
+      "custom": "Özel",
       "customMap": {
+        "cancel": "İptal",
+        "detectedTemplate": "Algılanan şablon: {template}",
+        "dialogInstructions": "Görüntü dosyalarını (veya bir klasörü) seçin. Algılama, something_12_34.png gibi dosya adları bekler; burada 12=y ve 34=x. y ve x arasında alt çizgi kullanın. Negatif koordinatlar desteklenir, örn. something_-12_34.png.",
+        "dialogInstructionsPrefix": "Özel harita döşemeleri olarak kullanılacak bir veya daha fazla görüntü seçin. Görüntü dosyası adları şu biçimde olmalıdır",
+        "dialogInstructionsSuffix": "(GTAV tarzı).",
+        "dialogSubtitle": "Bir karo klasörü veya karo dosyaları seçin. Sonoran Radio, URL şablonunu ve harita sınırlarını algılayacak.",
+        "dialogTitle": "Özel Harita Döşemeleri",
+        "fileSizeLimitError": "'{file}' karo görüntüsü {limit} yükleme sınırını aşıyor.",
+        "fileStats": "Karo İstatistikleri",
+        "fileStatsValue": "{matched} eşleşti / {total} görüntü ({missing} eksik tahmini)",
+        "invalidSeparator": "'{file}' içinde geçersiz ayırıcı. y/x arasında alt çizgi kullanın, örn. something_-12_34.png.",
+        "leafletBounds": "Harita Sınırları",
         "leafletBoundsPixels": "Harita Sınırları (piksel)",
-        "uploadSuccess": "{count} döşeme görüntüsü başarıyla yüklendi."
+        "matchedFiles": "Eşleşen Dosyalar",
+        "mismatchedTileSize": "Tüm döşemeler aynı boyutta olmalıdır. '{file}' {width}x{height}, beklenen {expectedWidth}x{expectedHeight}.",
+        "missingServer": "Yükleme için etkin bir sunucu seçilmedi.",
+        "noImages": "Hiç görüntü dosyası seçilmedi.",
+        "openUploader": "Döşemeleri Yükle",
+        "resolvedTemplate": "Çözümlenmiş Şablon",
+        "selectedSummary": "{count} karo görüntüsü seçildi ({total})",
+        "selectFiles": "Dosyaları Seç",
+        "selectFolder": "Klasör Seç",
+        "statusFailed": "Başarısız",
+        "statusPending": "Beklemede",
+        "statusUploaded": "Yüklendi",
+        "statusUploading": "Yükleniyor",
+        "template": "Şablon",
+        "tileBounds": "Kutucuk Sınırları (x/y dizini)",
+        "tileSize": "Parça Boyutu",
+        "unableReadDimensions": "'{file}' dosyasından görüntü boyutları okunamıyor.",
+        "uploadFailed": "Döşeme yükleme başarısız oldu.",
+        "uploadMissingUrl": "Yükleme tamamlandı ancak yapılandırma döndürülmedi.",
+        "uploadProgress": "{current}/{total} karosu yükleniyor",
+        "uploadSuccess": "{count} döşeme görüntüsü başarıyla yüklendi.",
+        "warningTileSizes": "Algılanan döşemelerin hepsinin boyutları aynı değil.",
+        "warningUnmatched": "Yalnızca {matched}/{total} görüntü tespit edilen şablonla eşleşti.",
+        "zoomRange": "Yakınlaştırma Aralığı"
       },
-      "degradeZones": "Bölgeleri Düşür"
+      "degradeZones": "Bölgeleri Düşür",
+      "degradeZonesDescription": "Degrade Bölgeleri sinyal gücünü azaltır. Örn: Tüneller, yeraltı alanları, vb.",
+      "emergencyZones": "Acil Durum Bölgeleri",
+      "emergencyZonesDescription": "Acil Durum Bölgeleri, AI sevkiyat görevlisine gelen acil durumları konuma göre hangi kanallara yayınlayacağını söyler.",
+      "erlc": "ERLC",
+      "fivem": "FiveM",
+      "geoChannels": "Coğrafi Kanallar",
+      "geoChannelsDescription": "Geo Kanalları, kullanıcıları oyun içi konumlarına göre otomatik olarak belirli kanallara geçirir.",
+      "mapType": "Harita Türü",
+      "server": "Sunucu"
     },
-    "guidesLink": "Sonoran Radio Bilgileri & Kılavuzlar",
+    "guidesLink": "Sonoran Radyo Bilgileri & Kılavuzları",
     "importSAPR": {
       "btn": "SAPR Yapılandırmasını İçe Aktar",
-      "confirmMsg": "{n} kanalını içe aktarmak üzeresiniz. Emin misiniz?",
-      "jsonMsg": "SAPR yapılandırmanızda JSON'unuzu buraya yapıştırın",
+      "confirmMsg": "{n} kanalı içe aktarmak üzeresiniz. Emin misiniz?",
+      "jsonMsg": "SAPR yapılandırma JSON'unuzu buraya yapıştırın",
       "jsonTitle": "SAPR Yapılandırmasını İçe Aktar"
     },
     "members": {
       "actions": "Eylemler",
       "approveBtn": "Onayla",
+      "ban": "Yasakla",
+      "banBtn": "Yasakla",
+      "cannotModifyPermsOfMyself": "Kendi izinlerimi değiştiremem",
       "displayName": "Ekran Adı",
       "editMemberPerms": "Üye İzinlerini Düzenle",
-      "errAddInvalidAccount": "Verilen kullanıcı adı mevcut değil",
+      "errAddInvalidAccount": "Sağlanan kullanıcı adı mevcut değil",
       "errAddUnknown": "Yönetici eklenirken bilinmeyen bir hata oluştu",
       "errRemoveUnknown": "Yönetici kaldırılırken bilinmeyen bir hata oluştu",
       "explainDisabled": "Yalnızca sunucu sahipleri yönetici ekleyebilir veya değiştirebilir",
@@ -384,105 +478,106 @@
       "kickBtn": "At",
       "owner": "Sahip",
       "ownerHasAllPerms": "Topluluk sahibi tüm izinlere sahiptir",
-      "paysSubscription": "Abonelik Ödüyor",
+      "paysSubscription": "Aboneliği Ödeyen",
       "pending": "Beklemede",
       "permissionsBtn": "İzinler",
       "privateChannels": "Özel Kanallar",
       "remove": "Kaldır",
       "removeWarn": "Uyarı",
-      "removeWarnSelfMsg": "Bu sunucudan kendinizi kaldırmak istediğinizden emin misiniz? Erişimi kaybedeceksiniz ve sunucu sahibi tarafından tekrar eklenmeniz gerekecek.",
-      "removeWarnSubHolderMsg": "Abonelik sahibini kaldırmak bu sunucuyu ücretsiz hale getirecektir! Devam etmek istediğinizden emin misiniz?",
+      "removeWarnSelfMsg": "Bu sunucudan kendinizi kaldırmak istediğinizden emin misiniz? Erişiminizi kaybedersiniz ve sunucu sahibi sizi tekrar eklemek zorunda kalır.",
+      "removeWarnSubHolderMsg": "Abonelik sahibini kaldırmak bu sunucuyu ücretsiz plana düşürecek! Devam etmek istediğinizden emin misiniz?",
       "search": "Ara",
       "selectPrivateChannels": "Kullanıcının katılmasına izin verilen özel kanalları seçin",
-      "setDisplayName": "Görünen İsmi Ayarla",
+      "setDisplayName": "Ekran Adı Belirle",
       "subOwner": "Abonelik Sahibi",
       "subtitle": "Topluluğunuzdaki kullanıcı izinlerini ve erişimini yönetin.",
       "title": "Topluluk Üyeleri",
       "traits": "Özellikler",
+      "unbanBtn": "Yasağını kaldır",
       "username": "Kullanıcı Adı"
     },
     "membersTab": "Üyeler",
     "micClick": {
-      "emergencyCallSfx": "Acil Durum Çağrısı SFX",
+      "emergencyCallSfx": "Acil Çağrı SFX",
       "header": "SFX Özelleştirme",
       "keyDownSfx": "Tuş Alçaltma SFX",
       "keyUpSfx": "Tuş Yükseltme SFX",
-      "overrideSuccessSfx": "Konuşma Çaprazlama Başarı SFX",
+      "overrideSuccessSfx": "Üst Konuşma Geçersiz Kılma Başarı SFX",
       "panicSfx": "Panik Butonu SFX",
-      "sfxGameBoatEngine": "Oyun İçi Tekne Motoru SFX",
+      "sfxGameBoatEngine": "Oyun İçi Tekne Motoru Ses Efekti",
       "sfxGameHelicopterRotors": "Oyun İçi Helikopter Rotorları SFX",
       "sfxGamePistol": "Oyun İçi Tabanca SFX",
       "sfxGamePistolSilenced": "Oyun İçi Susturulmuş Tabanca SFX",
       "sfxGameRifle": "Oyun İçi Tüfek SFX",
       "sfxGameRifleSilenced": "Oyun İçi Susturulmuş Tüfek SFX",
       "sfxGameSiren": "Oyun İçi Siren SFX",
-      "sfxVolDown": "Ses Azaltma (Kısayol) SFX",
-      "sfxVolUp": "Ses Artırma (Kısayol) SFX",
+      "sfxVolDown": "Ses Kısma (Kısayol) SFX",
+      "sfxVolUp": "Ses Yükseltme (Kısayol) SFX",
       "simulatedAudio": "Oyun İçi Arka Plan Sesi SFX",
-      "simulatedAudioSubtitle": "Arka plan sesinin enjeksiyonu, sirenler, helikopter rotorları, tekne motorları ve silah atışları gibi oyun içi sesleri mikrofon çıkışınıza uyumlu bir şekilde birleştirir.",
+      "simulatedAudioSubtitle": "Arka plan ses enjeksiyonu, sirenler, helikopter rotorları, tekne motorları ve silah sesleri gibi oyun içi sesleri mikrofon çıkışınıza karıştırır.",
       "subheader": "Tüm topluluğunuz için ses efektlerini özelleştirin.",
-      "talkoverSfx": "Konuşma Çaprazlama SFX"
+      "talkoverSfx": "Konuşma üstü SFX"
     },
     "myself": {
-      "subtitle": "Topluluk ayarlarını görüntüleyin ve düzenleyin",
-      "title": "Topluluğunuz Bilgileri"
+      "subtitle": "Topluluk ayarlarınızı görüntüleyin ve düzenleyin",
+      "title": "Topluluk Bilgileriniz"
     },
-    "noPermPage": "Bu sayfayı görüntüleme yetkiniz yok",
+    "noPermPage": "Bu sayfayı görüntüleme izniniz yok",
     "patrolChannels": {
       "addChannel": "Devriye Kanalı Ekle",
       "allowTalkover": "Konuşma Çaprazlamasına İzin Ver",
       "channelUid": "TS Kanal ID",
-      "channelUidInput": "TS Kanal ID - Zorunlu",
+      "channelUidInput": "TS Kanal ID - Gerekli",
       "customizeTalkaround": "Konuşma Çaprazlama Menzilini Özelleştir",
       "dialogAddTitle": "Devriye Kanalı Ekle",
       "dialogEditTitle": "Devriye Kanalını Düzenle",
-      "dialogSubtitle": "\"Devriye Kanalı\", Sonoran Radio TeamSpeak eklentisi işlevselliğini kullanmak için beyaz listedeki TeamSpeak kanalıdır. Burada TeamSpeak kanal ID'sini ayarlayabilir ve \"Devriye Kanalı\"nın konuşma çaprazlamasına izin verip vermeyeceğini ayarlayabilirsiniz.",
-      "errDelete": "Patrol kanalını silerken beklenmedik bir hata oluştu.",
-      "errReenable": "Devriye kanalı etkinleştirilirken beklenmedik bir hata oluştu.",
-      "errSave": "Devriye kanalı kaydedilirken beklenmedik bir hata oluştu.",
-      "explainDisabled": "Devriye Kanalı daha düşük bir plana geçilmesi nedeniyle devre dışı bırakıldı, bu devriye kanalını yeniden etkinleştirebilmek için başka devriye kanallarını kaldırmanız gerekir.",
-      "explainDisabledCanReenable": "Devriye Kanalı daha düşük bir plana geçilmesi nedeniyle devre dışı bırakıldı, ancak menüdeki devriye kanallarını yeniden etkinleştirebilirsiniz!",
-      "legacyChannelUidWarn": "Bu tür Kanal ID kullanımı devre dışı bırakılmıştır. Lütfen Sonoran Radio TS'nin en son sürümüne güncelleyerek yeni sayısal ID'lere güncelleme yapın",
+      "dialogSubtitle": "Devriye Kanalı, Sonoran Radio TeamSpeak eklentisi işlevselliğini kullanmak için beyaz listedeki TeamSpeak kanalıdır. Burada TeamSpeak kanal kimliğini ayarlayacak ve \"Devriye Kanalı\"nın talkover'a izin verip vermeyeceğini belirleyeceksiniz.",
+      "errDelete": "Devriye kanalını silerken beklenmedik bir hata oluştu.",
+      "errReenable": "Devriye kanalını etkinleştirirken beklenmedik bir hata oluştu.",
+      "errSave": "Devriye kanalını kaydederken beklenmedik bir hata oluştu.",
+      "explainDisabled": "Devriye Kanalı daha düşük bir plana geçilmesi nedeniyle devre dışı bırakıldı, bu kanalı yeniden etkinleştirebilmek için başka devriye kanallarını kaldırmanız gerekir.",
+      "explainDisabledCanReenable": "Devriye Kanalı daha düşük bir plana geçilmesi nedeniyle devre dışı bırakıldı, ancak menüde bunu yeniden etkinleştirebilirsiniz!",
+      "legacyChannelUidWarn": "Bu Kanal Kimliği biçimi kullanımdan kaldırıldı. Lütfen Sonoran Radio TS'nin en son sürümüne yükseltin ve yeni sayısal kimliklere güncelleyin",
       "nickname": "Takma Ad",
       "range": {
         "long": "Uzun Menzil",
         "medium": "Orta Menzil",
         "short": "Kısa Menzil"
       },
-      "subtitle": "Devriye Kanalları, Sonoran Radio TeamSpeak eklentisi işlevselliğini kullanmak için beyaz listeye alınmış olan TeamSpeak kanallarıdır.",
+      "subtitle": "Devriye Kanalları, Sonoran Radio TeamSpeak eklentisi işlevselliğini kullanmak için beyaz listedeki TeamSpeak kanallarıdır.",
       "talkAroundRange": "Konuşma Çaprazlama Menzili",
       "title": "Devriye Kanalları"
     },
     "perms": {
-      "addPerm": "İzin Ekle",
-      "dialogSubtitle": "Bir sunucu grubuna Sonoran Radio'da belirli bir izin verir. İzinler ve sunucu grupları hakkında daha fazla bilgi almak için Sonoran Radio Belgelerini inceleyin.",
+      "addPerm": "Bir İzin Ekle",
+      "dialogSubtitle": "Sonoran Radio'da bir sunucu grubuna belirli bir izin verir. İzinler ve sunucu gruplarını nasıl alacağınız hakkında daha fazla bilgi için lütfen Sonoran Radio Belgelerine bakın.",
       "dialogTitle": "İzin Ekle",
       "errDelete": "İzni silerken beklenmedik bir hata oluştu.",
       "errSave": "İzni kaydederken beklenmedik bir hata oluştu.",
-      "explainPrefix": "Bu ne yapar?",
+      "explainPrefix": "Bu ne işe yarar?",
       "invalidGroupId": "Geçersiz Sunucu Grubu, bir sayı olmalıdır.",
       "nickname": "Takma Ad",
       "permInput": "İzin",
       "permName": "İzin Adı",
       "serverGroup": "Sunucu Grubu",
       "serverGroupInput": "Sunucu Grubu - Zorunlu",
-      "subtitle": "İzinler, kullanıcıların Sonoran Radio eklentisiyle nasıl etkileşimde bulunduğunu ve ne ile etkileşimde bulunabileceklerini değiştirmenizi sağlar.",
+      "subtitle": "İzinler, kullanıcıların Sonoran Radio eklentisiyle nasıl etkileşime geçebileceğini ve neyle etkileşime geçebileceklerini değiştirmenize olanak tanır.",
       "title": "İzinler",
       "types": {
         "dispatch::ext_commands": {
-          "desc": "Bu izin, Çağrı Merkezi UI aracılığıyla kanal kullanıcılarının frekans ve takma adlarını değiştirme yetkisi verir",
+          "desc": "Bu izin, Dispatch arayüzü üzerinden kanal kullanıcılarının frekanslarını ve takma adlarını değiştirme yetkisi verir",
           "name": "Kanal Kullanıcısını Değiştir"
         },
         "dispatch::open": {
-          "desc": "Bu izin, Çağrı Merkezi UI'sini açma yetkisi verir",
-          "name": "Çağrı Merkezi UI'yi Aç"
+          "desc": "Bu izin, Dispatch arayüzünü açma yetkisi verir",
+          "name": "Açık Çağırma Arayüzü"
         },
         "menu::radio_attn": {
-          "desc": "Bu izin, başka bir kullanıcının dikkatini çekmek için radyolarında bir ses çalma yetkisi verir",
+          "desc": "Bu izin, dikkatlerini çekmek için başka bir kullanıcının radyosunda ses çalma yetkisi verir",
           "name": "Radyo Dikkati"
         },
         "menu::radio_lock": {
-          "desc": "Bu izin, başka bir kişinin iletimini durdurmanıza olanak tanır",
+          "desc": "Bu izin, başka birinin iletimini zaten iletim yapıyorlarsa durdurmanıza olanak tanır",
           "name": "Radyo Kilidi"
         },
         "tg::talkover_override": {
@@ -503,8 +598,8 @@
       "dialogAddTitleStandalone": "Kanal Ekle",
       "dialogEditTitle": "Profili Düzenle",
       "dialogEditTitleStandalone": "Kanalı Düzenle",
-      "dialogSubtitle": "Profil, belirli frekanslar arasında kolay geçiş sağlamak için hazır frekans ayarlarıdır ve her bir frekansı manuel olarak yazmaya gerek kalmadan geçiş yapmayı sağlar. Burada Ekran Adını (isteğe bağlı), Alıcı Frekansını (zorunlu), Gönderici Frekansını (isteğe bağlı) ve Gönderici Frekansının tekrar edilip edilmeyeceğini ayarlayacaksınız.",
-      "displayName": "Ekran Adı",
+      "dialogSubtitle": "Bir Profil, belirli frekanslar arasında kolay geçiş sağlamak için hazır bir frekans ayarıdır ve her bir frekansı manuel olarak yazmaya gerek kalmadan geçiş yapmayı sağlar. Burada Görüntüleme Adını (isteğe bağlı), Alıcı Frekansını (gerekli), Verici Frekansını (isteğe bağlı) ve Verici Frekansının tekrar edip etmeyeceğini ayarlayacaksınız.",
+      "displayName": "Görünen İsim",
       "displayNameInput": "Ekran Adı - Zorunlu",
       "editGroup": "Grubu Düzenle",
       "errDelete": "Profili silerken beklenmedik bir hata oluştu.",
@@ -512,28 +607,28 @@
       "errSave": "Profili kaydederken beklenmedik bir hata oluştu.",
       "errSetDefault": "Varsayılan profil ayarlanırken beklenmedik bir hata oluştu.",
       "explainDisabled": "Profil daha düşük bir plana geçilmesi nedeniyle devre dışı bırakıldı, bu profili yeniden etkinleştirebilmek için başka profilleri kaldırmanız gerekir.",
-      "explainDisabledCanReenable": "Profil daha düşük bir plana geçilmesi nedeniyle devre dışı bırakıldı, ancak menüdeki profili yeniden yapma menüsünde etkinleştirebilirsiniz!",
+      "explainDisabledCanReenable": "Profil daha düşük bir plana geçilmesi nedeniyle devre dışı bırakıldı, ancak menüde bu profili yeniden etkinleştirebilirsiniz!",
       "groupName": "Grup Adı",
       "preventTalkover": "Konuşma Çaprazlamasını Önle",
       "privateChannel": "Özel Kanal",
       "pronounce": "Telaffuz",
-      "pronounceTooltip": "AI kanal metin-konuşma için gelişmiş telaffuz.",
-      "recvFreq": "Alıcı Frekansı",
-      "recvFreqTooltip": "Sadece radyo arayüzünde estetik için yapılmıştır.",
-      "reorder": "Profilleri Yeniden Sıralayın",
+      "pronounceTooltip": "AI kanalı metin okuma için gelişmiş telaffuz.",
+      "recvFreq": "Alma Sıklığı",
+      "recvFreqTooltip": "Alınan yayınlar için frekans. Bu yalnızca radyo arayüzünde estetik içindir.",
+      "reorder": "Profilleri Yeniden Sırala",
       "reorderStandalone": "Kanalları Yeniden Sırala",
-      "repeatsXmit": "Gönderici Frekansını Tekrar Eder",
+      "repeatsXmit": "Yineler Gönderici Frekansı",
       "setAsDefault": "Varsayılan Profil Olarak Ayarla",
-      "sharedTooltip": "Bağlantılı başka bir kanalın erişim ve frekanslarını yansıtırlar. Herhangi birine bağlanmak aynı iletişim akışına erişim sağlar.",
-      "shareWith": "İle Paylaş",
-      "standardTooltip": "Standart kanallar, kendi frekansları ve erişimleriyle bağımsız çalışır. Kanalın bağımsız olması gerektiğinde bu modu kullanın.",
-      "subtitle": "Profiller, belirli frekanslar arasında kolay geçiş sağlamak için hazır frekans ayarlarıdır ve her bir frekansı manuel olarak yazmaya gerek kalmadan geçiş yapmanızı kolaylaştırır.",
+      "sharedTooltip": "Paylaşılan kanallar, başka bir bağlı kanalın erişimini ve sıklıklarını yansıtır. İkisinden birine bağlanmak, aynı iletişim akışına erişim sağlar.",
+      "shareWith": "Şununla Paylaş",
+      "standardTooltip": "Standart kanallar kendi frekansları ve erişimleriyle bağımsız çalışır. Kanalın bağımsız olması gerektiğinde bu modu kullanın.",
+      "subtitle": "Profiller, belirli frekanslar arasında kolay geçiş sağlamak için hazır frekans ayarlarıdır ve her bir frekansı manuel olarak yazmaya gerek kalmadan geçiş yapmayı sağlar.",
       "talkoverAllowed": "Konuşma Çaprazlamasına İzin Verildi",
       "talkoverPrevented": "Konuşma Çaprazlaması Önlenmiş",
       "title": "Profiller",
       "titleStandalone": "Kanallar",
-      "ttsFailed": "Metin-konuşma oluşturma hatalı veya mevcut değil.\nKanali kaydetmek için yeniden kaydedin.",
-      "ttsPreview": "Metin-konuşma Önizleme",
+      "ttsFailed": "Metinden konuşmaya oluşturma başarısız oldu veya mevcut değil.\\nOluşturmak için kanalı yeniden kaydedin.",
+      "ttsPreview": "Metin-Konuşma Önizleme",
       "visibility": "Görünürlük",
       "visibilityOptions": {
         "private": "Özel",
@@ -541,114 +636,228 @@
       },
       "voiceEffect": "Ses Efekti",
       "xmitFreq": "Gönderici Frekansı",
-      "xmitFreqTooltip": "Bu sadece estetik içindir radyo UI'de."
+      "xmitFreqTooltip": "İletim yapılacak frekans. Bu yalnızca radyo arayüzünde estetik içindir."
     },
-    "saveInfo": "Sunucu Bilgilerini Kaydet",
+    "saveInfo": "Sunucu Bilgisini Kaydet",
     "saveServer": "Sunucuyu Kaydet",
     "serverInfo": {
       "addServer": "Sunucu Ekle",
       "cadPrompts": {
-        "subtitle": "Dispatch AI'nin istekleri CAD/Radio işlevlerine eşleştirmesine yardımcı olacak özel ifadeler."
+        "addPhrase": "İfade ekle",
+        "emptyState": "Henüz ifade eklenmedi.",
+        "subtitle": "Dispatch AI'nin istekleri CAD/Radio işlevlerine eşleştirmesine yardımcı olacak özel ifadeler.",
+        "title": "Örnek istemler",
+        "tools": {
+          "addCallNote": {
+            "hint": "Örnekler: \"aramama bir not ekle\"",
+            "label": "Aramaya not ekle",
+            "placeholder": "Aramama bir not ekle"
+          },
+          "attachToCall": {
+            "hint": "Örnekler: \"beni aramaya bağla...\"",
+            "label": "Aramaya bağla",
+            "placeholder": "Beni aramaya bağla..."
+          },
+          "closeCall": {
+            "hint": "Örnekler: \"aramamı kapat\"",
+            "label": "Bir aramayı kapat",
+            "placeholder": "Aramamı kapat"
+          },
+          "createCall": {
+            "hint": "Örnekler: \"Main St'de 10-50 için bir çağrı oluşturun\"",
+            "label": "Bir çağrı oluştur",
+            "placeholder": "Main St'de 10-50 için bir çağrı oluşturun"
+          },
+          "getRecentCadEvents": {
+            "hint": "Örnekler: \"son arama ne\", \"son panik\", \"o arama\"",
+            "label": "Son Olaylar",
+            "placeholder": "En son arama ne?"
+          },
+          "getRecordTemplates": {
+            "hint": "Örnekler: \"kayıt şablonlarını listele\", \"kullanılabilir kayıtları göster\"",
+            "label": "Kayıt şablonları",
+            "placeholder": "Kayıt şablonlarını listele"
+          },
+          "identsToGroup": {
+            "hint": "Örnekler: \"D-12, D-14 birimlerinde Alpha grubunu ayarla\", \"D-12, D-14 birimleri için grubu temizle\"",
+            "label": "Birimleri grupla"
+          },
+          "lookup": {
+            "hint": "Örnekler: \"ABC123 plakayı çalıştır\", \"John Smith'i ara\"",
+            "label": "Kişi veya plaka araması",
+            "placeholder": "ABC123 plakayı çalıştır"
+          },
+          "routeToCoordinates": {
+            "hint": "Örnekler: \"route to X 123.4 Y 567.8\", \"GPS'i koordinatlara ayarla\"",
+            "label": "Koordinatlara rota oluştur",
+            "placeholder": "X 123.4 Y 567.8 konumuna yönlendir"
+          },
+          "routeToPostal": {
+            "hint": "Örnekler: \"beni 1234 posta koduna yönlendir\", \"GPS'i 90210 posta koduna ayarla\"",
+            "label": "Postaya yönlendir"
+          },
+          "status": {
+            "hint": "Örnekler: \"durumumu uygun olarak ayarla\", \"bana müsait olmayanı göster\"",
+            "label": "Durum güncellemeleri"
+          },
+          "togglePanic": {
+            "hint": "Örnekler: \"panik modumu etkinleştir\", \"panik modumu temizle\"",
+            "label": "Paniği aç/kapat",
+            "placeholder": "Panik modumu etkinleştir"
+          },
+          "unattachFromCall": {
+            "hint": "Örnekler: \"beni aramadan ayır\"",
+            "label": "Bir çağrıdan ayır",
+            "placeholder": "Beni aramadan ayır"
+          }
+        }
       },
       "columns": {
         "actions": "Eylemler",
         "id": "ID",
         "name": "İsim",
         "origin": "IP/Köken",
-        "pushUrl": "İleti URL'si"
+        "pushUrl": "Push URL"
       },
       "communityServers": "Topluluk Sunucuları",
-      "communityServersSubtitle": "Radyo iletişimlerinizi ayırmak için sunucular ekleyin veya kaldırın",
-      "customCommunityIdHint": "Topluluğunuzu katılmak için kullanacağınız özel Topluluk ID'sini ayarlayın"
+      "communityServersSubtitle": "Radyo iletişimlerinizi ayırmak için sunucu ekleyin veya kaldırın",
+      "customCommunityIdHint": "Özel Topluluk Kimliğinizi, vanity URL, FiveM kaynağı ve topluluğa katılmak için ayarlayın",
+      "disabled": "Devre Dışı",
+      "dispatchAiPause": "İnsan Sevkiyatı CAD'deyken devre dışı bırakın",
+      "enabled": "Etkin",
+      "openAiApiKey": "Open AI API Anahtarı",
+      "openAiApiKeyHint": "Dispatch AI özelliklerini etkinleştirmek için kendi OpenAI API anahtarınızı sağlayın."
     },
     "settings": {
-      "agc": "Otomatik Kazanç Kontrolü",
-      "agcDesc": "Tüm kullanıcıların sesini eşitlemek için mikrofon giriş sesini otomatik olarak ayarlayın.",
-      "hearOtherPttSfx": "Diğerlerinin PTT Efektini Oynat",
+      "agc": "Otomatik kazanç kontrolü",
+      "agcDesc": "Tüm kullanıcıların ses düzeyini eşitlemek için mikrofon giriş ses düzeyini otomatik olarak ayarlayın.",
+      "aiRepliesOnlyMe": "Yalnızca Bana Yapay Zeka Yanıtları",
+      "aiRepliesOnlyMeDesc": "Yalnızca AI temsilcisi doğrudan size yanıt verdiğinde onu duyun, tüm kanalı değil.",
+      "echoAutoXmit": "AI Yönlendirmelerini Dinle",
+      "echoAutoXmitDesc": "Bir takipteyken kendi AI konum uyarılarınızı duyun.",
+      "hearOtherPttSfx": "Diğer Kişilerin PTT Ses Efektini Oynat",
       "hearOtherPttSfxDesc": "Diğer kullanıcılar mikrofonlarını açtığında PTT sesini çalın.",
       "hearPttSfx": "PTT Ses Efektini Oynat",
-      "hearPttSfxDesc": "Mikrofonunuzu açtığınızda PTT sesini oynatın.",
-      "keyUpDelay": "Tuş Yükseltme Gecikmesi",
+      "hearPttSfxDesc": "Mikrofonunuzu açtığınızda PTT sesini çalın.",
+      "keyUpDelay": "Tuş Bırakma Gecikmesi",
       "keyUpDelayDesc": "Bir iletim çoğaltmasından sonra mikrofonun takımının bırakılması.",
-      "muteScannedWhileTransmitting": "Gönderirken Taramaları Sessize Al",
+      "muteScannedWhileTransmitting": "Gönderirken Tarananları Sessize Al",
       "muteScannedWhileTransmittingDesc": "Bir kanalda gönderim yaparken taranan kanalları sessize alın.",
-      "sirenVolume": "Siren Ses Düzeyi",
-      "sirenVolumeDesc": "Oyun içi siren etkinleştirildiğinde, ses düzeyine ekleme/çıkarma yapın.",
-      "subtitle": "Topluluğunuz için varsayılan ayarları yapılandırın. Kullanıcılar kendi tercihlerini kişiselleştirebilir ancak bu ayarlar başlangıç varsayılan olarak hizmet edecektir.",
+      "sirenVolume": "Aktif Sirenli Ses Yükseltme",
+      "sirenVolumeDesc": "Bir kullanıcının aracının sireni aktifken radyo sesini bu yüzde kadar artırın.",
+      "subtitle": "Topluluğunuz için varsayılan ayarları yapılandırın. Kullanıcılar kendi tercihlerini kişiselleştirebilir, ancak bunlar başlangıç varsayılanları olarak hizmet edecektir.",
       "title": "Varsayılan Ayarlar",
       "tts": "Kanal Metin-Konuşma",
-      "ttsDesc": "Kanal değiştirirken kanal adının metin-konuşma sesi çalın.",
+      "ttsDesc": "Kanalları değiştirirken kanal adının metin okuma sesini çal.",
       "volChange": "Ses Değişimi",
-      "volChangeDesc": "Ses azaltma/artırma kısayol tuşlarını kullanarak ses değişimi %"
+      "volChangeDesc": "Ses yükseltme/azaltma kısayol tuşlarını kullanırken ses değişim yüzdesi.",
+      "wakeWord": "Uyanma Kelimesi (AI)",
+      "wakeWordDesc": "Dispatch AI'yi etkinleştirmek için kullanılan uyanma sözcüğü."
     },
     "toPortal": "Portala Dön",
     "transfer": {
       "cancel": "İptal",
-      "confirmInstruction": "Transferi (büyük/küçük harf duyarlı) onaylamak için {code} yazın",
+      "confirmInstruction": "Aktarmayı onaylamak için {code} yazın (büyük/küçük harfe duyarlı)",
       "confirmLabel": "Aktarmayı Onayla",
       "ok": "Tamam",
-      "requestCreatedMsg": "Transfer henüz bitmedi! Ek doğrulama için size bir e-posta gönderildi",
-      "requestCreatedTitle": "Transfer İsteği Oluşturuldu",
+      "requestCreatedMsg": "Aktarım henüz tamamlanmadı! Ek doğrulama için size bir e-posta gönderildi",
+      "requestCreatedTitle": "Aktarım Talebi Oluşturuldu",
       "selectNewOwner": "Yeni Sahip Seç",
       "title": "Topluluğu Taşı",
-      "warning": "Topluluğunuzu taşımak istediğinizden emin misiniz? Artık bu topluluğun sahibi olmayacaksınız, ve izinlerinizi kaybedebilirsiniz"
+      "warning": "Topluluğunuzu aktarmak istediğinizden emin misiniz? Artık bu topluluğun sahibi olmayacaksınız ve izinlerinizi kaybedebilirsiniz"
     },
-    "transferServer": "Topluluğu Aktar",
-    "unauthorizeMsg": "Bu yapılandırmayı yetkilendirmeyi kaldırmak istediğinizden emin misiniz?",
-    "unauthorizeServer": "Yetkilendirmeyi Kaldır",
-    "unauthorizeSuccess": "Sunucunuz başarıyla yetkilendirme kaldırıldı",
+    "transferServer": "Topluluğu Taşı",
+    "unauthorizeMsg": "Bu yapılandırmanın yetkisini kaldırmak istediğinizden emin misiniz?",
+    "unauthorizeServer": "Sunucunun Yetkisini Kaldır",
+    "unauthorizeSuccess": "Sunucunuzun yetkisi başarıyla kaldırıldı",
     "voiceCustomization": {
+      "analogAggressiveness": "Analog Agresiflik",
+      "analogAggressivenessDescription": "Analog aşınma ve tıslamanın ne kadar hızlı biriktiğini kontrol eder.",
+      "analogDescription": "Klasik bir analog el tipi ses için cızırtı, bant genişliği kaybı ve yumuşak bozulma ekler.",
+      "clippingAggressiveness": "Kırpma Saldırganlığı",
+      "clippingAggressivenessDescription": "Sinyal kalitesi düştükçe kırpmayı daha da artırır.",
+      "clippingDescription": "Sinyalin bazı bölümlerini keserek kesintileri, kapatmaları ve bozuk iletimleri taklit eder.",
+      "constantStatic": "Statik",
+      "constantStaticDescription": "Efekt boyunca arka planda sabit bir gürültü katmanı ekler.",
+      "digitalAggressiveness": "Dijital Agresiflik",
+      "digitalAggressivenessDescription": "Dijital bozulmanın daha hızlı artmasını sağlar.",
+      "digitalDescription": "Kararsız dijital radyo trafiği gibi hissettiren bit-crushed statik ve sert artefaktlar ekler.",
+      "disabled": "Devre Dışı",
+      "enabled": "Etkin",
+      "equalizerDescription": "Tonlamayı bozulmadan önce şekillendirir; böylece kaynak sesi aydınlatabilir, inceltebilir veya koyulaştırabilirsiniz.",
       "header": "Ses Özelleştirme",
-      "input": "Giriş",
+      "input": "Girdi",
+      "localVocoderPerformanceWarning": "Güçlü şekilde önerilir: vokoderi topluluk/kanal düzeyinde etkinleştirin. Aksi halde yerel istemciniz gelen her akışı kendi başına vokode etmek zorunda kalır, bu da işlem yükünü artırır ve performansı düşürebilir.",
+      "maximumAnalogDistortion": "Maks Analog",
+      "maximumAnalogDistortionDescription": "Uygulanan en güçlü analog bozulmayı sınırlar.",
+      "maximumClipping": "Maks Kırpma",
+      "maximumClippingDescription": "Kesilme kopmalarının ne kadar şiddetli olabileceğini sınırlar.",
+      "maximumDigitalDistortion": "Maks Dijital",
+      "maximumDigitalDistortionDescription": "Dijital bozulmaların ne kadar yoğun olabileceğini sınırlar.",
+      "minimumAnalogDistortion": "Min Analog",
+      "minimumAnalogDistortionDescription": "Daha iyi sinyal seviyelerinde bile analog pürüzlülüğe bir taban ekler.",
+      "minimumClipping": "Min Kırpma",
+      "minimumClippingDescription": "Sinyalin kesilmesi için en düşük olasılığı ayarlar.",
+      "minimumDigitalDistortion": "Min Dijital",
+      "minimumDigitalDistortionDescription": "Ses üzerinde temel bir dijital bozulma düzeyini korur.",
       "name": "İsim",
+      "postEqualizerDescription": "Efekt zincirinden sonra son çıktıyı son rötuş veya sertlik için iyileştirir.",
+      "previewEffects": "Efektleri Önizleme",
+      "receiveSignal": "Sinyali Al",
+      "receiveSignalDescription": "İletim kaybından sonra önizlemenin alınan tarafının ne kadar bozulmuş duyulacağını kontrol eder.",
       "signalStrength": "Sinyal Gücü",
+      "signalStrengthDescription": "Çıkış ve giriş radyo sinyali kaliteniz değiştiğinde efektin nasıl tepki verdiğini önizleyin.",
+      "stopPreview": "Önizlemeyi Durdur",
       "subheader": "Topluluğunuz için radyo ses efektlerini özelleştirin.",
-      "useForEmergency": "Acil Çağrılar İçin Kullan",
+      "transmitSignal": "Sinyali Aktar",
+      "transmitSignalDescription": "Önizlemede kendi giden radyo yayınınızın ne kadar güçlü duyulduğunu kontrol eder.",
+      "useForEmergency": "Acil Çağrılar için Kullan",
+      "vocoderDescription": "Konuşmayı daha düşük bit hızına sahip bir ses profiliyle sentetik radyo kodek sesi olarak sıkıştırır.",
       "vocoderPreviewWarning": "Vokoder ses önizlemesi henüz kullanılamıyor."
     }
   },
   "misc": {
     "learnMoreAboutRadio": "Sonoran Radio'nun rol yapmanı nasıl devrimleştirebileceği hakkında daha fazla bilgi edin!",
-    "welcome": "Hoş Geldiniz",
-    "welcomeTo": "Sonoran Radio'ya Hoş Geldiniz!"
+    "welcome": "Hoş geldiniz",
+    "welcomeTo": "Sonoran Radio'ya hoş geldiniz!"
   },
   "portal": {
     "beginTitle": "Yolculuğunuza Başlayın",
     "beginYourJourney": "Yolculuğunuza Başlayın!",
-    "billingPortal": "Abonelikler & Faturalandırma",
+    "billingPortal": "Abonelikler ve Faturalama",
     "discovery": "Keşif",
-    "discoveryActiveMembers": "Bu topluluk, en aktif üyelerden bazılarına sahip",
+    "discoveryActiveMembers": "Bu topluluk en aktif üyelerden bazılarına sahip",
     "discoveryGrowingRapidly": "Bu topluluk hızla büyüyor",
     "discoveryHighTraffic": "Bu topluluk yüksek web sitesi trafiği alıyor",
-    "discoveryRecentlyBumped": "Bu topluluk yakın zamanda yükseltildi",
-    "documentation": "Belgeler",
-    "joinACommunity": "Bir Sonoran Radio Topluluğuna Katıl",
+    "discoveryRecentlyBumped": "Bu topluluk yakın zamanda öne çıkarıldı",
+    "documentation": "Dokümantasyon",
+    "joinACommunity": "Bir Sonoran Radio topluluğuna katıl",
     "leaveServer": "Ayrıl",
     "myCommunities": "Topluluklarım",
-    "needACommunity": "Yeni bir Sonoran Radio topluluğuna mı ihtiyacınız var?",
-    "needsMemberAuth": "Bekleyen Onay",
-    "needsTsAuth": "TeamSpeak3 Yetkilendirme Gerekli",
-    "pendingAuth": "Beklenen Yetkilendirme",
-    "subtitle": "Operasyon üssüne hoş geldiniz! Faturalandırma Portalı'nda abonelikleri düzenleyebilir, kolay Konfigürasyon Paneli ile topluluk ayarlarını yönetebilir veya kurulum sihirbazımızla yeni bir sunucu kaydedebilirsiniz.",
-    "title": "Sonoran Radio Portalı",
+    "needACommunity": "Yeni bir Sonoran Radio topluluğuna mı ihtiyacın var?",
+    "needsMemberAuth": "Onay Bekliyor",
+    "needsTsAuth": "TeamSpeak3 Kimlik Doğrulaması Gerekli",
+    "pendingAuth": "Bekleyen Yetkilendirme",
+    "subtitle": "Operasyon üssüne hoş geldiniz! Burada Billing Portal'da abonelikleri düzenleyebilir, topluluk ayarlarını kolay Configuration Panel ile yönetebilir veya kurulum sihirbazımızla yepyeni bir sunucu kaydedebilirsiniz.",
+    "title": "Sonoran Radyo Portalı",
     "upgradeServer": "Yükselt"
   },
   "pricing": {
-    "description": "Sonoran Radio'nun ücretli abonelikleri, gelişmiş özelliklere, özelleştirmelere, arttırılmış sınırlara ve daha fazlasına erişmenizi sağlar!",
+    "description": "Sonoran Radio'nun ücretli abonelikleri size gelişmiş özelliklere, özelleştirmeye, artırılmış limitlere ve daha fazlasına erişim sağlar!",
     "dispatchPanel": "Çağrı Merkezi Paneli",
-    "dispatchPanelDescription": "Radyo veya diğer radyo ayarlarını değiştirebilir.",
+    "dispatchPanelDescription": "Radyo ayarlarınızı veya başkalarının radyolarının ayarlarını değiştirmenizi sağlayan TeamSpeak iletişim penceresi.",
     "fivemRadio": "FiveM El Telsizi",
-    "fivemRadioDescription": "FiveM taşınabilir radyo, frekanslarınızı, tarama listesini ve diğer radyo ayarlarını değiştirmenizi sağlar",
+    "fivemRadioDescription": "FiveM el telsizi frekanslarınızı, tarama listenizi ve diğer radyo ayarlarınızı değiştirmenize olanak tanır",
     "fivemTowerDestruction": "FiveM Kule Yıkımı",
-    "fivemTowerDestructionDescription": "Oyuncuların fiziksel kuleleri yıkmasını gerektirerek radyo alımını bozma yeteneği (isteğe bağlı).",
+    "fivemTowerDestructionDescription": "Oyuncuların radyo alımını bozmak için fiziksel kuleleri yok etme (isteğe bağlı) özelliği.",
     "fivemTowers": "FiveM Fiziksel Kuleler",
     "fivemTowersDescription": "Kuleler, mesafenize bağlı olarak fiziksel bir kuleye olan alımı simüle eder. Konumlar ve menziller özelleştirilebilir.",
     "howToPurchase": "Nasıl Satın Alınır",
     "monthCostDescription": "Aylık abonelik paketimizin maliyeti.",
-    "onlyOnStatewide": "Sadece eyalet düzeyindeki frekanslarda izin verilir.",
-    "onlySelfFrequencies": "Sadece kendi frekanslarınızı değiştirmeye izin verilir",
+    "onlyOnStatewide": "Yalnızca eyalet düzeyindeki frekanslarda izin verilir.",
+    "onlySelfFrequencies": "Yalnızca kendi frekanslarınızı değiştirebilirsiniz",
     "patrolChannels": "Devriye Kanalları",
-    "patrolChannelsDescription": "Radyo eklentisinin kullanılabileceği TeamSpeak kanal sayısı.",
+    "patrolChannelsDescription": "Radyo eklentisinin kullanılabileceği TeamSpeak kanalı sayısı.",
     "planPricing": "Plan Fiyatlandırması",
     "plans": {
       "free": "Ücretsiz",
@@ -656,14 +865,14 @@
       "pro": "Pro"
     },
     "pricing": "Fiyatlandırma",
-    "profileLimits": "Profil Sınırları",
+    "profileLimits": "Profil Limitleri",
     "profileLimitsDescription": "İzin verilen profil sayısı.",
-    "statewideFrequencyLimits": "Eyalet Düzeyinde Frekans Sınırları",
+    "statewideFrequencyLimits": "Eyalet Genelinde Sıklık Sınırlamaları",
     "statewideFrequencyLimitsDescription": "İzin verilen eyalet düzeyindeki frekans sayısı.",
-    "talkaroundFrequencies": "Konuşma Çaprazlama Frekansları",
+    "talkaroundFrequencies": "Talkaround Frekansları",
     "talkaroundFrequenciesDescription": "Konuşma çaprazlama frekansları, bireylerin kuleye karşı radyodan radyoya konuşmasını sağlar.",
-    "talkoverProtection": "Konuşma Çaprazlaması Koruması",
-    "talkoverProtectionDescription": "Konuşma çaprazlaması koruması, bir frekansta sadece bir kişinin konuşmasını sağlar.",
+    "talkoverProtection": "Konuşma Çaprazlama Koruması",
+    "talkoverProtectionDescription": "Üst üste konuşma koruması, bir frekansta aynı anda yalnızca bir kişinin konuşmasına izin verir.",
     "toBilling": "Faturalandırmaya Dön",
     "unlimited": "Sınırsız"
   },
@@ -678,94 +887,124 @@
     "configureChannel": "{0} Yapılandır",
     "connect": "Bağlan",
     "hiddenChannel": "Gizli Kanal (Sadece size görünür)",
-    "listenScan": "{0}'yı Dinle",
-    "microphonePTT": "Mikrofon PTT",
-    "multiXmit": "CTRL + Tıklayarak Multi-GÖNDER",
-    "muteScan": "{0} Sustur",
+    "listenScan": "{0} dinle",
+    "microphonePTT": "Mikrofon Bas-Konuş",
+    "multiXmit": "CTRL + Tıkla Çoklu-XMIT",
+    "muteScan": "Sessize al {0}",
+    "openInDesktopFrame": "Katmanı Aç",
     "openInNewWindow": "Yeni Pencerede Aç",
     "openUserList": "Kullanıcı Listesi Katmanını Aç",
-    "recvFreq": "ALIM: {0}MHz",
+    "recvFreq": "ALICI: {0}MHz",
     "scanList": "Tarama Listesi",
     "selectServer": "Sunucu Seç",
-    "setHotkeyFor": "{0} için Kısayol Tusu Ayarla",
+    "setHotkeyFor": "{0} için kısayol tuşu ayarla",
     "settingsDialog": {
       "advanced": "Gelişmiş",
+      "agentGain": "AI Ses",
+      "aiRepliesOnlyMe": "Yalnızca Bana Gelen Yapay Zeka Yanıtlarını Dinle",
+      "aiWakeWordKeyword": "AI Uyanma Kelimesi",
+      "aiWakeWordKeywordSelect": "Uyandırma Sözcüğü İfadesi",
       "audioTab": "Ses",
       "automaticGainControlDisabled": "Otomatik kazanç kontrolü devre dışı",
       "automaticGainControlEnabled": "Otomatik kazanç kontrolü etkin",
       "changingOutputsUnsupported": "Cihazınız ses çıkışlarını değiştirmeyi desteklemiyor",
-      "channelTts": "Kanal Metin-Konuşma",
-      "escapeMode": "Escape Modu",
+      "channelTts": "Kanal TTS",
+      "defaultOutputWarning": "Varsayılan çıkış, Windows'un diğer uygulamaların sesini azaltmasına neden olabilir. Belirli bir aygıt seçmeyi deneyin.",
+      "enableTransmissionRecordings": "İletim kayıtlarını etkinleştir",
+      "escapeMode": "Kaçış Modu",
       "escapeModeHide": "Radyoyu Gizle",
-      "escapeModeHideTooltip": "ESC tuşunda radyo kapanır",
+      "escapeModeHideTooltip": "Radyo ESC ile kapanır",
       "escapeModeKeep": "Radyoyu Görünür Tut",
-      "escapeModeKeepTooltip": "ESC tuşunda radyo görünür kalır",
-      "escapeModeXmit": "GÖNDER (PTT)",
-      "escapeModeXmitTooltip": "ESC tuşunda radyo kapanır, ancak iletim sırasında görünür",
+      "escapeModeKeepTooltip": "Radyo ESC'de görünür kalır",
+      "escapeModeXmit": "XMIT (PTT)",
+      "escapeModeXmitTooltip": "Telsiz ESC ile kapanır, ancak iletim sırasında görünür",
       "fivemTab": "FiveM",
+      "hearAllAiReplies": "Tüm Yapay Zeka Yanıtlarını Dinle",
       "hearScannedWhileXmit": "Gönderirken Taramaları Duy",
-      "hotkeysTab": "Kısayol Tuşları",
+      "hotkeysTab": "Kısayollar",
       "keydownSfx": "Tuş Alçaltma SFX",
       "keyupSfx": "Tuş Yükseltme SFX",
-      "macosPermWarning": "Cihazınızın ek izinlere ihtiyacı olabilir: {link}",
-      "macosPermWarningLink": "İzinler vermeyi öğren",
+      "macosPermWarning": "Cihazınız ek izinler gerektirebilir: {link}",
+      "macosPermWarningLink": "İzinlerin nasıl verileceğini öğrenin",
       "moveResize": "Taşı/Boyutlandır",
-      "myPttSfx": "Benim PTT SFX",
-      "othersPttSfx": "Diğer Kişilerin PTT SFX",
-      "pttOffDelay": "PTT-Kapalı Gecikme",
+      "myPttSfx": "Benim PTT Ses Efektim",
+      "othersPttSfx": "Diğer Kişilerin PTT Ses Efekti",
+      "privacyTab": "Gizlilik",
+      "pttOffDelay": "PTT Kapatma Gecikmesi",
+      "recordWakeWord": "Uyanma Kelimesini Kaydet",
+      "recordWakeWordListening": "Dinleniyor...",
       "resetPeerVolumes": "Eş Ses Seviyelerini Sıfırla",
       "resetSettings": "Ayarları Sıfırla",
       "selectRadioFrame": "Radyo Çerçevesi",
-      "sfxTab": "SFX",
+      "sfxTab": "Ses Efektleri",
       "sfxVolume": "SFX Ses",
       "title": "Ayarlar",
       "toggleBackgroundAudio": "Arka Plan Sesi",
-      "troubleHearingInGame": "Oyun içinde duymakta sorun mu yaşıyorsunuz?:",
+      "troubleHearingInGame": "Oyunda duymakta zorlanıyor musunuz?:",
       "unlink": "Bağlantıyı kaldır",
+      "voiceFxCommunity": "Topluluk FX",
+      "voiceFxEmpty": "Yerel dinlemeyi etkinleştirmek için yerel bir ses efekti oluşturun veya içe aktarın.",
+      "voiceFxLocal": "Yerel FX",
+      "voiceFxMode": "Ses FX Modu",
+      "voiceFxTab": "Ses FX",
       "volume": "Ses",
-      "volumeChangeSirens": "Ses Değişimi/Sirenle",
-      "volumeHotkeyChange": "Ses Kısayolu Değiştirme",
-      "webHotkeyWarning": "Kısayol tuşları yalnızca tarayıcı penceresi odaklandığında çalışır. {link} global kısayol tuşları için",
+      "volumeChangeSirens": "Ses Değişimi ve Sirenler",
+      "volumeHotkeyChange": "Ses Kısayolu Değişimi",
+      "wakeWord": "Uyanma Kelimesi (AI)",
+      "wakeWordListenSeconds": "Uyanma kelimesi dinleme saniyeleri",
+      "wakeWordRecordNoSpeech": "Konuşma algılanmadı. Mikrofonunuzu kontrol edin ve yeniden deneyin.",
+      "webHotkeyWarning": "Kısayollar yalnızca tarayıcı penceresi odaktayken çalışır.\n{link} genel kısayollar için",
       "webHotkeyWarningLink": "Masaüstü uygulamasını indir"
     },
-    "showChannelIds": "Kanal ID'lerini Göster",
-    "stopXmit": "GÖNDERİMİ DURDUR",
+    "showChannelIds": "Kanal Kimliklerini Göster",
+    "stopXmit": "XMIT'i Durdur",
     "toneBoard": {
-      "aiMode": "AI Modu",
-      "aiTts": "AI Metin-Konuşma",
+      "aiMode": "Yapay Zeka Modu",
+      "aiTts": "Yapay Zeka Metin-Konuşma",
       "audioMode": "Ses Modu",
-      "broadcastTo": "Yayınla",
-      "count": "Sayı",
+      "audioRecording": "Ses Kaydı",
+      "broadcastTo": "Şuraya Yayınla",
+      "count": "Sayım",
+      "deleteStack": "Yığını Sil",
       "generate": "Oluştur",
       "inGameSpeaker": "Oyun İçi Hoparlör",
       "inGameSpeakerGroup": "Oyun İçi Hoparlör Grubu",
+      "loadStack": "Yığını Yükle (Tek Tık)",
       "newTone": "Yeni Ton",
+      "noSavedStacks": "Henüz kaydedilmiş yığın yok.",
       "noTones": "Ton Yok",
+      "playStack": "Yığını Oynat (Çift Tıklama)",
       "preview": "Önizleme",
       "recording": "Kayıt",
+      "recordMic": "Mikrofonu Kaydet",
       "repeat": "Tekrarla",
-      "seconds": "Saniye",
+      "savedTab": "Kaydedilmiş Yığınlar",
+      "saveStackDesc": "Ton yığınınıza ad verin",
+      "saveStackTitle": "Yığını Kaydet",
+      "seconds": "Saniyeler",
+      "speechToText": "Konuşmadan Metne",
       "speed": "Hız",
       "stack": "Yığın",
       "subtitle": "Topluluğunuz için çağrı tonlarını özelleştirin",
       "title": "Ton Tahtası",
       "toneLabel": "Ton Etiketi",
+      "tonesTab": "Tonlar",
       "voices": "Sesler"
     },
-    "xmitFreq": "GÖNDER {0}MHz"
+    "xmitFreq": "XMIT {0}MHz"
   },
   "registerServer": {
-    "errExists": "Verilen TeamSpeak Sunucu UID zaten doğrulanmış bir sunucuda var, lütfen başka bir TS sunucu UID kullanın",
-    "errUnknown": "Sunucu bilgilerini almaya çalışırken bir hata oluştu, lütfen daha sonra tekrar deneyin.",
-    "registerAStandServer": "Bir Topluluk Kaydedin",
+    "errExists": "Sağlanan TeamSpeak Server UID zaten doğrulanmış bir sunucuda mevcut, lütfen başka bir TS server UID kullanın",
+    "errUnknown": "Sunucu bilgileri alınmaya çalışılırken bir hata oluştu, lütfen daha sonra tekrar deneyin.",
+    "registerAStandServer": "Bir Topluluk Kaydı Oluşturun",
     "registerAStandServerDesc": "Topluluğunuzu Sonoran Radio'yu kullanmak için kaydedin.",
-    "registerATSServer": "Bir TeamSpeak Sunucusu Kaydedin",
-    "registerATSServerDesc": "Sunucunuzun Sonoran Radio TeamSpeak eklentisini kullanabilmesi için TeamSpeak Sunucunuzu kaydedin.",
-    "submit": "Sunucuyu Kaydet"
+    "registerATSServer": "TeamSpeak Sunucusu Kaydet",
+    "registerATSServerDesc": "TeamSpeak Sunucunuzu, sunucunuzun Sonoran Radio TeamSpeak eklentisini kullanabilmesini sağlamak için kaydedin.",
+    "submit": "Sunucu Kaydet"
   },
   "serverCommon": {
     "nicknameInput": "Takma Ad",
-    "nicknameInputDesc": "Topluluğunuz için özelleştirilmiş bir takma ad belirleyin, bu, sizin ve üyelerinizin göreceği ad olacaktır.",
+    "nicknameInputDesc": "Topluluğunuz için sizin ve üyelerinizin göreceği özel bir takma ad belirleyin",
     "serverUidInput": "TeamSpeak Sunucu UID",
     "serverUidInputDesc": "TeamSpeak 3 sunucunuzun UID'sini buraya girin"
   },
@@ -773,44 +1012,57 @@
     "backToPortal": "Portala Dön",
     "deleteCommunity": "Topluluğu Sil",
     "leaveServer": "Sunucudan Ayrıl",
-    "switchToStandalone": "Bağımsıza Geç"
+    "switchToStandalone": "Bağımsız moda geç"
   },
   "signup": {
     "checkEmail": "E-postanızı kontrol edin ve hesabınızı doğrulayın.",
-    "checkSpam": "E-postayı bulamazsanız spam klasörünüzü kontrol ettiğinizden emin olun.",
-    "emailPreferencesDesc": "Beni önemli duyurular, güncellemeler ve promosyonlarla ilgili bilgilendirin.",
+    "checkSpam": "E-postayı bulamıyorsanız spam klasörünüzü kontrol ettiğinizden emin olun.",
+    "emailPreferencesDesc": "Bana önemli duyurular, güncellemeler ve promosyonlar hakkında e-posta gönderin.",
     "verifyPassword": "Şifreyi Doğrula"
   },
   "splash": {
     "feats": "Kişiler arası metin mesajlaşması ve Sonoran CAD\n      entegrasyonu ile tamamlanan Sonoran Radio, tam özellikli iletişim cihazlarını\n      doğrudan oyun içi personelinizin ve sevk görevlilerinizin ellerine verir. Bugün\n      ücretsiz deneyin!",
-    "getStarted": "Bugün Başlayın",
-    "introducing": "Tanıtım",
+    "getStarted": "Bugün başlayın",
+    "introducing": "Tanıtıyoruz",
     "learnMore": "Daha Fazla Öğren",
     "marketExplain": "Kamu güvenliğinde, bir iletişim sistemi seçerken sadelik ve güvenilirlik esastır.\n      Sonoran Radio, bugün piyasadaki en kapsamlı ve hepsi bir arada iletişim sistemini sunar. Bu yeni\n      radyo sistemi, hem simplex hem de\n      duplex yapılandırmalar, bulut tabanlı programlama ve ölçeklenebilir,\n      tekrarlayıcı destekli bir radyo ağı sağlayan son teknolojiye sahiptir.",
     "toPortal": "Portala Git"
   },
   "standalone": {
     "desktop": {
-      "downloadFile": "Dosyayı İndir",
+      "applyFilter": "Uygula",
+      "applyFilters": "Uygula",
+      "channel": "Kanal",
+      "clearFilter": "Temizle",
+      "clearFilters": "Temizle",
+      "dial": "Ara",
+      "dialPlaceholder": "Numara girin...",
+      "downloadFile": "Dosya İndir",
       "emergencyCalls": "Acil (911) Çağrılar",
       "noEmergencyCalls": "Acil çağrı yok!",
-      "noTransmissions": "Hiçbir iletim bulunamadı",
+      "noTransmissions": "İletim bulunamadı",
       "playAudio": "Sesi Oynat",
-      "redial": "{name} Tekrar Ara"
+      "redial": "{name} numarasını tekrar ara",
+      "showTranscript": "Transkripti Göster",
+      "time": "Zaman",
+      "transcriptTitle": "{name}'in İletimi",
+      "user": "Kullanıcı"
     },
     "peers": {
       "clearPanic": "Paniği Temizle",
-      "displayName": "Görünen İsim",
+      "displayName": "Ekran Adı",
       "kick": "At",
-      "moveTo": "Taşı",
-      "volume": "Ses"
+      "moveTo": "Şuraya taşı",
+      "ping": "Ping",
+      "stun": "Stun",
+      "volume": "Kanal Sesi"
     },
     "settings": {
-      "rightClickToClear": "Temizlemek İçin Sağ Tıklayın"
+      "rightClickToClear": "Temizlemek için sağ tıklayın"
     }
   },
   "upgradePromo": {
-    "goProToday": "Bugün Pro'ya Geçin",
+    "goProToday": "Pro'ya yükselt",
     "learnMore": "Daha Fazla Öğren"
   }
 }

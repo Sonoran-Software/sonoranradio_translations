@@ -1,75 +1,75 @@
 {
   "account": {
     "noServers": "Ingen Servere",
-    "serversDesc": "Her kan du se alle Sonoran Radio communities du ejer eller administrerer",
-    "serversTitle": "Dine Servere",
+    "serversDesc": "Her kan du se alle Sonoran Radio-fællesskaber, du ejer eller administrerer",
+    "serversTitle": "Dine servere",
     "tokenCopied": "Hemmeligheden er kopieret til din udklipsholder!",
-    "tokenDesc": "Kopiér denne token for at bruge til login med FiveM radio!",
+    "tokenDesc": "Kopiér denne token for at bruge den til at logge ind med FiveM-radioen!",
     "tokenDescWarning": "Denne kode er HEMMELIG og bør ikke deles med nogen!",
-    "tokenInputLabel": "Din Login Hemmelighed",
-    "tokenLoadBtn": "Klik for at Indlæse",
+    "tokenInputLabel": "Din loginhemmelighed",
+    "tokenLoadBtn": "Klik for at indlæse",
     "tokenTitle": "Radio Login Hemmelighed"
   },
   "authMember": {
-    "errLeave": "Der opstod en uventet fejl ved at forlade community.",
+    "errLeave": "Der opstod en uventet fejl ved at forlade fællesskabet.",
     "leaveMsg": "Er du sikker på, at du vil forlade dette Sonoran Radio-fællesskab?",
-    "subtitle": "Før du kan bruge Sonoran Radio til {serverName}, skal du godkendes af server ejeren eller community administratoren. Venligst vent på godkendelse.",
-    "subtitleShort": "Før du bruger Sonoran Radio i dette community, skal du godkendes af community personalet",
-    "title": "Du Venter på Godkendelse"
+    "subtitle": "Før du kan bruge Sonoran Radio til {serverName}, skal du godkendes af serverejeren eller fællesskabsadministratoren. Vent venligst på godkendelse.",
+    "subtitleShort": "Før du bruger Sonoran Radio i dette community, skal du godkendes af communityets personale",
+    "title": "Du venter på godkendelse"
   },
   "authServer": {
-    "authCodeTitle": "Godkendelseskode",
+    "authCodeTitle": "Autorisationskode",
     "clickToCopy": "Klik for at kopiere",
-    "copiedCode": "Server godkendelseskode kopieret til udklipsholder",
+    "copiedCode": "Kopieret servergodkendelseskode til udklipsholderen",
     "errDelete": "Der opstod en uventet fejl ved sletning af server.",
-    "errSave": "Der opstod en uventet fejl ved lagring af server.",
+    "errSave": "Der opstod en uventet fejl ved lagring af serveren.",
     "submit": "Gem Server",
-    "subtitle": "Godkend din TeamSpeak server gennem en nem godkendelses proces ved hjælp af Sonoran Radio plugin og web panel. Under denne godkendelses proces vil personer på din TeamSpeak server, der har tilstrækkelige tilladelser, se en popup, der angiver din ventende autorisation, indtast venligst godkendelseskoden nedenfor i TeamSpeak popupvinduet for at autorisere. Hvis du ved en fejl har angivet din TeamSpeak server UID forkert, kan du ændre det nedenfor. Hvis du ikke ser TeamSpeak popup fra Sonoran Radio, bekræft, at du har indtastet det korrekte UID, og du har mindst v0.2.0 af plugin installeret. Ellers kontakt support.",
-    "title": "Godkend Din TeamSpeak Server"
+    "subtitle": "Autentificer din TeamSpeak-server gennem en nem autentificeringsproces ved hjælp af Sonoran Radio-pluginet og webpanelet. Under denne autentificeringsproces vil personer på din TeamSpeak-server, der har tilstrækkelige tilladelser, få vist en popup med din afventende godkendelse, indtast venligst godkendelseskoden nedenfor i TeamSpeak-popupvinduet for at godkende. Hvis du ved en fejl har angivet dit TeamSpeak-server-UID forkert, kan du ændre det nedenfor. Hvis du ikke kan se TeamSpeak-popupen fra Sonoran Radio, skal du kontrollere, at du har indtastet det korrekte UID, og at du har mindst v0.2.0 af pluginet installeret. Ellers kontakt support.",
+    "title": "Godkend din TeamSpeak-server"
   },
   "billing": {
     "alreadyActiveSub": "Har allerede et aktivt abonnement",
-    "changeServer": "Ændr Server",
+    "changeServer": "Skift server",
     "changeSvDialog": {
       "errSave": "Der opstod en uventet fejl ved ændring af abonnementet",
-      "removeServer": "Fjern Server",
+      "removeServer": "Fjern server",
       "subtitle": "Vælg en Server",
       "title": "Opdater Abonnement"
     },
-    "chooseSub": "Vælg Abonnementsplan",
-    "compPlans": "Sammenlign Planer",
+    "chooseSub": "Vælg abonnementskema",
+    "compPlans": "Sammenlign planer",
     "confirmChangeSub": {
-      "possibleDataLoss": "Hvis du overfører eller fjerner dit abonnement, kan der forekomme datatab på den forrige server.",
+      "possibleDataLoss": "Hvis du overfører eller fjerner dit abonnement, kan der forekomme tab af data på den tidligere server.",
       "remove": "Er du sikker på, at du vil fjerne denne server fra dit abonnement?",
       "set": "Er du sikker på, at du vil indstille denne server til dit abonnement?",
       "title": "Skift Abonnement",
       "transfer": "Er du sikker på, at du vil overføre dette abonnement til en anden server?"
     },
     "errCheck": "Der opstod en uventet fejl ved kontrol af dit abonnement",
-    "isUnauthorized": "Abonnementer kan ikke anvendes på uautoriserede servere",
-    "modifySub": "Ændr Abonnement",
+    "isUnauthorized": "Abonnementer kan ikke anvendes på ikke-godkendte servere",
+    "modifySub": "Ændr abonnement",
     "newSub": "Nyt Abonnement",
     "newSubDialog": {
-      "chooseSub": "Vælg et Abonnement",
+      "chooseSub": "Vælg et abonnement",
       "chooseSv": "Vælg en Server",
       "errCreate": "Der opstod en uventet fejl ved oprettelse af abonnementet",
-      "expertInstallation": "Ekspert Installation",
-      "mostPop": "Mest Populær",
+      "expertInstallation": "Ekspertinstallation",
+      "mostPop": "Mest populær",
       "noServer": "Ingen Server",
-      "noServerDesc": "Dette abonnement vil ikke blive forbundet til en community. Du vil kunne ændre det senere.",
-      "one": "Sonoran One ($49.99/md)",
-      "oneLearnMore": "Lær mere om Sonoran One",
+      "noServerDesc": "Dette abonnement vil ikke være knyttet til et fællesskab. Du vil kunne ændre det senere.",
+      "one": "Sonoran One (49,99 $/md.)",
+      "oneLearnMore": "Læs mere om Sonoran One",
       "plus": "Plus Plan ($14.99/md)",
       "pro": "Pro Plan ($19.99/md)",
       "title": "Nyt Abonnement"
     },
-    "noServerAssociated": "Ingen Server Forbundet",
-    "setServer": "Indstil Server",
+    "noServerAssociated": "Ingen server tilknyttet",
+    "setServer": "Vælg Server",
     "statuses": {
       "active": "Aktiv",
       "canceled": "Annulleret",
       "incomplete": "Ufuldstændig",
-      "incomplete_expired": "Ufuldstændig Udløbet",
+      "incomplete_expired": "Ufuldstændig udløbet",
       "past_due": "Forfalden",
       "unpaid": "Ubetalt"
     },
@@ -85,22 +85,22 @@
     "communityIdField": "Community ID",
     "confirm": "Bekræft",
     "copy": "Kopiér",
-    "currently": "I øjeblikket",
+    "currently": "Lige nu",
     "delete": "Slet",
     "edit": "Rediger",
     "email": "E-mail",
     "help": "Hjælp",
     "language": "Sprog",
-    "learnMore": "Lær mere",
+    "learnMore": "Lær Mere",
     "limited": "Begrænset",
     "login": "Log ind",
     "logout": "Log ud",
-    "management": "Ledelse",
+    "management": "Administration",
     "menu": "Menu",
     "miscServer": "Server {id}",
-    "needsInteger": "Skal være et heltal",
+    "needsInteger": "Skal være et helt tal",
     "notApplicable": "I/T",
-    "only": "{0} Kun",
+    "only": "Kun {0}",
     "password": "Adgangskode",
     "plans": {
       "free": "Gratis",
@@ -110,14 +110,14 @@
     },
     "portal": "Portal",
     "premium": "Premium",
-    "reenable": "Genaktiver",
+    "reenable": "Genaktivér",
     "refresh": "Opdater",
     "save": "Gem",
     "search": "Søg",
     "select": "Vælg",
-    "signup": "Tilmeld",
+    "signup": "Tilmelding",
     "startToday": "Start i dag",
-    "unlink": "Fjern link",
+    "unlink": "Frakobl",
     "upload": "Upload",
     "username": "Brugernavn"
   },
@@ -130,40 +130,46 @@
   },
   "errors": {
     "common": {
-      "enterEmail": "Indtast venligst din e-mail adresse.",
-      "enterPassword": "Indtast venligst et kodeord."
+      "enterEmail": "Indtast venligst din e-mailadresse.",
+      "enterPassword": "Indtast en adgangskode."
     },
     "misc": {
-      "noLocalStorageSupport": "Din browser understøtter ikke lokal opbevaring, eller den kan være deaktiveret."
+      "noLocalStorageSupport": "Din browser understøtter ikke lokal lagring, eller den kan være deaktiveret."
     },
     "signup": {
-      "invalidEmail": "Den angivne e-mail er ikke en gyldig e-mail adresse, brug venligst en anden e-mail adresse.",
+      "invalidEmail": "Den angivne e-mail er ikke en gyldig e-mailadresse, brug venligst en anden e-mailadresse.",
       "invalidPassword": "Ugyldig adgangskode",
-      "noEmail": "Ingen e-mail specificeret.",
+      "noEmail": "Ingen e-mail angivet.",
       "noPassword": "Ingen adgangskode angivet.",
-      "noUsername": "Intet brugernavn specificeret.",
-      "passwordNoNumber": "Adgangskoden indeholder ingen tal",
-      "passwordNoSymbol": "Adgangskoden indeholder ikke noget symbol ({'!@#$%^&*'})",
+      "noUsername": "Intet brugernavn angivet.",
+      "passwordNoNumber": "Adgangskoden indeholder intet tal",
+      "passwordNoSymbol": "Adgangskoden indeholder intet symbol ({'!@#$%^&*'})",
       "passwordNotMoreThan": "Adgangskoden er ikke mere end 6 tegn",
       "passwordNoUppercase": "Adgangskoden indeholder ingen store bogstaver",
-      "passwordsDontMatch": "Adgangskoderne stemmer ikke overens med hinanden.",
-      "usernameInvalidCharacter": "Brugernavn indeholder et ugyldigt tegn.",
-      "usernameNotLongEnough": "Brugernavn er ikke mere end 4 tegn langt.",
-      "usernameTooLong": "Brugernavn er for langt."
+      "passwordsDontMatch": "Adgangskoderne matcher ikke hinanden.",
+      "usernameInvalidCharacter": "Brugernavnet indeholder et ugyldigt tegn.",
+      "usernameNotLongEnough": "Brugernavnet er ikke længere end 4 tegn.",
+      "usernameTooLong": "Brugernavnet er for langt."
     }
   },
   "fivemView": {
     "browserLoginInstruction": "Gå til {link} i din browser for at logge ind",
+    "guestLogin": "Gæstelogin",
+    "guestLoginInstruction": "Log ind som gæst",
     "loginWithCode": "Log ind med kode",
     "refresh": "Opdater",
-    "unlink": "Fjern link"
+    "unlink": "Frakobl"
   },
   "getStartedButton": {
     "learnMore": "Lær mere"
   },
   "hotkeys": {
-    "clearHotkey": "Ryd genvej",
+    "clearHotkey": "Ryd genvejstast",
+    "clickToEndRecording": "Klik for at afslutte optagelsen",
+    "focusDesktopRadio": "Fokusér skrivebordsradio",
     "noKeySet": "Ingen tast indstillet",
+    "openConnectedUsers": "Åbn overlejring for brugerlisten",
+    "openDesktopOverlay": "Åbn overlejring",
     "pressAKey": "Tryk på en tast",
     "toggleDesktopRadio": "Skift skrivebordsradio"
   },
@@ -178,79 +184,79 @@
   },
   "importExport": {
     "download": "Download",
-    "export": "Eksporter",
+    "export": "Eksportér",
     "import": "Importer",
     "placeholder": "Indsæt JSON her",
-    "title": "JSON Import/Eksport",
-    "tooltip": "Importer JSON-fil"
+    "title": "JSON-import/eksport",
+    "tooltip": "Importér JSON-fil"
   },
   "landingPage": {
     "BackgroundAudio": {
-      "desc": "Responderer du på et opkald? Sonoran Radio indsætter realtid sirener, skud, og mere direkte ind i din mikrofon feed for den ultimative fordybelse.",
+      "desc": "Svarer du på et opkald? Sonoran Radio injicerer sirener, skud og mere i realtid direkte ind i dit mikrofonfeed for den ultimative indlevelse.",
       "title": "Baggrundslyd"
     },
     "bigDaddyRadio": {
-      "desc": "Sonoran Radio er gået sammen med Big Daddy Scripts for at tilbyde en GRATIS kopi af deres radio animations script!",
-      "title": "Big-Daddy Radio Animeringer"
+      "desc": "Sonoran Radio er i samarbejde med Big Daddy Scripts om at tilbyde en GRATIS kopi af deres radioscript til animationer!",
+      "title": "Big-Daddy Radio-animationer"
     },
     "Cloud_Configurations": {
       "desc": "Det har aldrig været nemmere at tilpasse din radio, med liveopdateringer fra vores brugervenlige konfigurationspanel.",
-      "title": "Cloud Konfigurationer"
+      "title": "Cloud-konfigurationer"
     },
     "Customizable_SFX": {
-      "desc": "Konfigurer signal tab i tunneller, underjordiske steder og mere!",
-      "title": "Tilpasselige SFX"
+      "desc": "Konfigurer signal tab i tunneller, underjordiske steder, og mere!",
+      "title": "Tilpasningsbar SFX"
     },
     "Custom_Voice_Effects": {
-      "desc": "Tilpas digitale og analoge stilstemeeffekter til din community!",
-      "title": "Tilpassede Stemme Effekter"
+      "desc": "Tilpas digitale og analoge stemmeeffekter til din community!",
+      "title": "Brugerdefinerede stemmeeffekter"
     },
     "Destructible_towers": {
-      "desc1": "De fysiske in-game tårne kan destrueres af kriminelle, hvilket vil ødelægge kvaliteten af radioer omkring det.",
-      "desc2": "Med tre forskellige in-game modeltyper, tager Sonoran Radio fordybelse til det næste niveau!",
-      "title": "Destrukterbare Tårne"
+      "desc1": "De fysiske tårne i spillet kan ødelægges af kriminelle, hvilket vil ødelægge kvaliteten af radioerne omkring dem.",
+      "desc2": "Med tre forskellige in-game modeltyper tager Sonoran Radio fordybelsen til næste niveau!",
+      "title": "Ødelæggelige tårne"
     },
     "Dispatch_Panel": {
-      "desc1": "Visualisér nemt, administrer brugere, spil toner og mere!",
-      "desc2": "Sonoran Radios dispatch UI er tilgængelig overalt på nettet og desktop til Windows og OSX.",
+      "desc1": "Visualiser nemt, administrer brugere, afspil toner og mere!",
+      "desc2": "Sonoran Radios dispatch-brugerflade er tilgængelig overalt på nettet og på desktop til Windows og OSX.",
       "title": "Dispatch Panel"
     },
     "EmergencyCalls": {
-      "desc": "Foretag nødopkald til dispatch, alt fra in-game!",
-      "title": "In-Game Nødopkald"
+      "desc": "Foretag nødopkald til alarmcentralen, alt sammen fra spillet!",
+      "title": "Nødopkald i spillet"
     },
     "inGameToneBoard": {
-      "desc": "Sonoran Radios dispatch UI giver dig mulighed for at specificere specifikke kanaler og grupper, gentage toner og mere! Du kan endda spille toner på in-game højttalere!",
+      "desc": "Sonoran Radios dispatch UI giver dig mulighed for at specificere specifikke kanaler og grupper, gentage toner og mere! Du kan endda afspille toner på in-game højttalere!",
       "title": "Tone Board til In-Game Højttalere"
     },
-    "intro": "Tag din gaming kommunikation til det næste niveau med Sonoran Radio. Chat i realistiske radiokanaler, tilpas dine stemmeeffekter, og forbind ubesværet med spilfunktioner for en virkelig fordybende oplevelse.",
+    "intro": "Tag din gamingkommunikation til næste niveau med Sonoran Radio. Chat i realistiske radiokanaler, tilpas dine stemmeeffekter, og forbind dig ubesværet med funktioner i spillet for en virkelig medrivende oplevelse.",
     "mobileCommandCenter": {
-      "desc": "Sonorans mobile kommandocenter gør det muligt for dig at tage kommando som aldrig før. Dette enestående hjælpe køretøj bringer ubegrænsede muligheder!",
-      "title": "Mobil Kommando Center"
+      "desc": "Sonorans mobile kommandocenter giver dig mulighed for at tage kommandoen som aldrig før. Dette enestående specialkøretøj giver uendelige muligheder!",
+      "title": "Mobilt kommandocenter"
     },
     "MultipleRadioOperations": {
-      "desc1": "Sonoran Radio tilbyder flere in-game brugergrænseflader, der giver dig mulighed for at forblive forbundet til fods, i køretøjer, og mere!",
-      "desc2": "Vælg bland en af vores radio stil muligheder, eller tilføj endda din egen!",
-      "title": "Flere Radio Muligheder"
+      "desc1": "Sonoran Radio tilbyder flere brugergrænseflader i spillet, så du kan holde forbindelsen til fods, i køretøj og mere!",
+      "desc2": "Vælg en af vores muligheder i radiostil, eller tilføj endda din egen!",
+      "title": "Flere radioknapper"
     },
     "Power_Grid": {
-      "desc": "Hack dig ind i det integrerede el-net for at deaktivere Sonoran Radio tårne i dit område! Lær mere om dette script!",
-      "title": "El-Net"
+      "desc": "Hack ind i det integrerede elnet for at deaktivere Sonoran Radio-tårne i dit område! Lær mere om dette script!",
+      "title": "Strømnet"
     },
     "Radio_Chattrer": {
-      "desc": "Bliver du stoppet i en trafik kontrol? Du vil høre den rigtige radiosnak, når en officer har en aktiv radio i nærheden!",
-      "title": "Hør Nærliggende Radio Snak"
+      "desc": "Stoppet i en færdselskontrol? Du vil høre den ægte radiotrafik, når en betjent har en aktiv radio i nærheden!",
+      "title": "Hør radiotrafik i nærheden"
     },
     "Scanners": {
-      "desc": "In-game scannere giver dig og andre i nærheden mulighed for at lytte med på radiotrafik!",
+      "desc": "Scannere i spillet giver dig og andre i nærheden mulighed for at lytte med på radiotrafik!",
       "title": "Scannere"
     },
     "Sonoran_CAD": {
-      "desc": "Dette plugin giver Sonoran Radio kunder mulighed for at forbinde radioen med Sonoran CAD. Se din enhedsstatus, dispatch opkalds information, slå panik til, og mere!",
+      "desc": "Denne plugin giver Sonoran Radio-kunder mulighed for at forbinde radioen med Sonoran CAD. Se din enhedsstatus, afsend opkaldsoplysninger, slå panik til og mere!",
       "title": "Sonoran CAD"
     },
     "Sonoran_CMS": {
-      "desc": "Automatiser Sonoran Radio tilladelser med Sonoran CMS!",
+      "desc": "Automatisér Sonoran Radio-tilladelser med Sonoran CMS!",
       "title": "Sonoran CMS"
     },
     "ToneBoard": {
@@ -259,86 +265,117 @@
       "title": "Toneboard"
     },
     "Transmission_Logs": {
-      "desc": "Se og afspil transmissions logfiler med valgfri AI-drevet tekst transskriptioner!",
-      "title": "Transmissions Logfiler"
+      "desc": "Se og afspil transmissionslogfiler med valgfri AI-drevne teksttransskriptioner!",
+      "title": "Transmissionslogge"
     },
     "tunnelSignalLoss": {
       "desc": "Konfigurer signal tab i tunneller, underjordiske steder, og mere!",
-      "title": "Tunnel Signal Tab"
+      "title": "Tunnelsignaltab"
     },
     "VehicleDisplay": {
-      "desc": "Vores 3D køretøjs radio display afspejler din kanal information, sender bruger, og panik status i realtid, hvilket bringer nye niveauer af fordybelse!",
-      "title": "Køretøj Display"
+      "desc": "Vores 3D-køretøjsradiodisplay afspejler dine kanaloplysninger, sendende bruger og panikstatus i realtid og giver nye niveauer af indlevelse!",
+      "title": "Køretøjsvisning"
     }
   },
   "login": {
-    "createAccount": "Opret Konto",
+    "createAccount": "Opret konto",
     "forgotPassword": "Glemt adgangskode",
-    "forgotPasswordDesc": "Glemt dit Sonoran konto kodeord? Indtast din e-mail nedenfor for at nulstille dine legitimationsoplysninger.",
+    "forgotPasswordDesc": "Har du glemt din Sonoran-kontoadgangskode? Indtast din e-mail nedenfor for at nulstille dine legitimationsoplysninger.",
     "loginWithSonoran": "Log ind med Sonoran"
   },
   "loginLink": {
     "enterCode": "Indtast din 4-cifrede kode..."
   },
   "managementPage": {
-    "searchTitle": "Søg Community",
-    "subtitle": "Kun for fremtidige milliardærer",
-    "title": "Sonoran Radio Management Panel"
+    "searchTitle": "Søg fællesskab",
+    "subtitle": "Kun for kommende milliardærer",
+    "title": "Sonoran Radio administrationspanel"
   },
   "manageServer": {
     "admin": {
-      "apiInfoHint": "Giv dette til dine medlemmer, når du inviterer dem til community'et",
-      "apiInfoTitle": "API Info",
-      "communityApiKeyField": "Community API Nøgle",
+      "apiInfoHint": "Giv dette til dine medlemmer, når du inviterer dem til fællesskabet",
+      "apiInfoTitle": "API-info",
+      "communityApiKeyField": "Fællesskabs-API-nøgle",
+      "communityLogs": "Fællesskabslogfiler",
+      "logAccount": "Konto",
+      "logContent": "Indhold",
+      "logDate": "Dato",
+      "logSearch": "Søg",
+      "logSearchSubtitle": "Se alle tilgængelige logfiler i dit community, filtrér efter type, dato og indhold.",
+      "logSearchTitle": "Søg",
       "logType": "Type",
-      "updateApiKey": "Opdatér API Nøgle"
+      "updateApiKey": "Opdater API-nøgle"
     },
     "adminTab": "Administration",
     "ai": {
-      "addKey": "Tilføj AI Nøgle",
+      "addKey": "Tilføj AI-nøgle",
       "services": {
         "0": "Transmissionslog STT",
         "1": "Tone Board STT"
       },
-      "title": "AI API Nøgler"
+      "title": "AI API-nøgler"
     },
     "customDomain": {
-      "chooseName": "Vælg dit Domænenavn",
-      "defaultRecordName": "@ eller blank",
+      "chooseName": "Vælg dit domænenavn",
+      "defaultRecordName": "@ eller tom",
       "dns": {
         "content": "Indhold",
         "name": "Navn",
         "type": "Type"
       },
       "ownershipHint": "Du skal eje dit domænenavn!",
-      "placeholder": "radio.eksempel.com",
-      "requiresPro": "Du skal have et Pro-abonnement for at indstille et brugerdefineret domæne",
+      "placeholder": "radio.example.com",
+      "requiresPro": "Du skal have et Pro-abonnement for at konfigurere et brugerdefineret domæne",
       "tryItOut": "Prøv det",
-      "vanityCopied": "Kopieret Vanity URL til udklipsholder!",
-      "vanityLabel": "Vanity URL",
-      "vanityTitle": "Gratis Vanity URL",
+      "vanityCopied": "Kopieret Vanity-URL til udklipsholder!",
+      "vanityLabel": "Vanity-URL",
+      "vanityTitle": "Gratis Vanity-URL",
       "verified": "Tillykke, dit brugerdefinerede domæne er bekræftet!",
       "verifyButton": "Bekræft brugerdefineret domæne",
       "verifyTitle": "Bekræft dit domæne"
     },
     "customizeDesktopFrames": {
+      "addButton": "Tilføj knap",
+      "bodyImage": "Kropsbillede",
+      "cancel": "Annuller",
+      "chooseSkin": "Vælg skin.json",
+      "create": "Opret",
+      "frameBodyImage": "Rammekropsbillede",
+      "frameLabel": "Rammelabel",
+      "frameWidth": "Rammebredde",
+      "importDefaultFrameType": "standardramme",
+      "importFromSkin": "Importér fra FiveM (skin.json)",
+      "importNoFramesFound": "Ingen skrivebordsrammer med body.width og screen fundet.",
+      "label": "Etiket",
+      "newFrame": "Ny ramme",
+      "noneFound": "Ingen skrivebordsrammer fundet for denne server.",
+      "saved": "Skrivebordsrammer gemt.",
+      "screenPlaceholder": "Dette er skærmen",
+      "selectFrame": "Vælg ramme",
       "tooltip": {
-        "dragBody": "for at flytte komponenter"
-      }
+        "dragBody": "for at flytte komponenter",
+        "dragTitle": "Træk",
+        "removeTitle": "Højreklik",
+        "resizeBody": "for at ændre størrelsen på komponenter",
+        "resizeTitle": "CTRL+Træk"
+      },
+      "upload": "Upload"
     },
     "customizeMenu": {
       "ai": "AI",
-      "channelsGroups": "Kanaler & Grupper",
-      "customDomain": "Brugerdefineret Domæne",
-      "defaultSettings": "Standardindstillinger",
-      "fivemIntegration": "FiveM Integration",
+      "channelsGroups": "Kanaler og grupper",
+      "customDomain": "Brugerdefineret domæne",
+      "defaultSettings": "Standard Indstillinger",
+      "desktopFrames": "Skrivebordsrammer",
+      "fivemIntegration": "FiveM-integration",
       "info": "Info",
       "patrolChannels": "Patruljekanaler",
       "permissions": "Tilladelser",
       "profiles": "Profiler",
       "sfxCustomization": "SFX Tilpasning",
-      "toneBoard": "Toneboard",
-      "voiceCustomization": "Stemmetilpasning"
+      "toneBoard": "Tone Board",
+      "voiceCustomization": "Stemmetilpasning",
+      "zones": "Zoner"
     },
     "customizeTab": "Tilpas",
     "deleteMsg": "Er du sikker på, at du vil slette denne konfiguration? Dette vil resultere i irreversibelt datatab.",
@@ -346,86 +383,144 @@
     "deleteSuccess": "Din server blev succesfuldt slettet",
     "dispatchTab": "Dispatch",
     "emergency911": {
+      "callBtn": "Ring 112",
+      "connected": "Forbundet — dit opkald sendes til alarmcentralen.",
+      "connecting": "Opretter forbindelse...",
+      "disconnectsDispatchHint": "At starte et opkald vil afbryde enhver aktiv dispatch-session i en anden fane.",
+      "dispatchersTitle": "Operatører på dette opkald",
+      "endBtn": "Afslut opkald",
+      "selectRoom": "Server",
+      "subtitle": "Foretag et 911-opkald til alarmcentralen i dette lokalsamfund.",
       "title": "Nødopkald",
       "waitingDispatcher": "Venter på, at en dispatcher svarer..."
     },
-    "errImport": "Der opstod en uventet fejl ved importering af din SAPR Konfig.",
-    "errImportNotFound": "Ingen SAPR konfiguration blev fundet for din TeamSpeak UID.",
-    "errSaveInfo": "Der opstod en uventet fejl ved lagring af din server info.",
+    "emergency911Tab": "Ring 112",
+    "errImport": "Der opstod en uventet fejl ved import af din SAPR-konfiguration.",
+    "errImportNotFound": "Ingen SAPR-konfiguration blev fundet til din TeamSpeak-UID.",
+    "errSaveInfo": "Der opstod en uventet fejl ved lagring af dine serveroplysninger.",
     "errServerCheck": "Der opstod en uventet fejl ved kontrol af din server.",
-    "errUidTaken": "Den TeamSpeak server UID er allerede i brug af en anden autoriseret server.",
-    "errUnauthorize": "Der opstod en uventet fejl ved uautorisation af din server.",
+    "errUidTaken": "TeamSpeak-server-UID'et er allerede i brug af en anden autoriseret server.",
+    "errUnauthorize": "Der opstod en uventet fejl ved afauthorisering af din server.",
     "explainOwnerOnly": "Kun ejeren kan ændre denne indstilling",
     "geoZoneViewer": {
+      "custom": "Tilpas",
       "customMap": {
+        "cancel": "Annuller",
+        "detectedTemplate": "Registreret skabelon: {template}",
+        "dialogInstructions": "Vælg billedfiler (eller en mappe). Registrering forventer filnavne som noget_12_34.png, hvor 12=y og 34=x. Brug en understregning mellem y og x. Negative koordinater understøttes, f.eks. noget_-12_34.png.",
+        "dialogInstructionsPrefix": "Vælg et eller flere billeder, der skal bruges som de brugerdefinerede kortfliser. Billedfilnavnene skal være i formatet",
+        "dialogInstructionsSuffix": "(GTAV-stil).",
+        "dialogSubtitle": "Vælg en flisemappe eller flisefiler. Sonoran Radio vil registrere URL-skabelonen og kortgrænserne.",
+        "dialogTitle": "Brugerdefinerede kortfliser",
+        "fileSizeLimitError": "Flisebilledet '{file}' overstiger uploadgrænsen på {limit}.",
+        "fileStats": "Flisestatistik",
+        "fileStatsValue": "{matched} matchet / {total} billeder ({missing} mangler estimeret)",
+        "invalidSeparator": "Ugyldig separator i '{file}'. Brug understregning mellem y/x, f.eks. something_-12_34.png.",
+        "leafletBounds": "Kortgrænser",
         "leafletBoundsPixels": "Kortgrænser (pixels)",
-        "uploadSuccess": "{count} kortbilleder blev uploadet med succes."
+        "matchedFiles": "Matchende filer",
+        "mismatchedTileSize": "Alle fliser skal have samme størrelse. '{file}' er {width}x{height}, forventet {expectedWidth}x{expectedHeight}.",
+        "missingServer": "Ingen aktiv server er valgt til upload.",
+        "noImages": "Ingen billedfiler blev valgt.",
+        "openUploader": "Upload tiles",
+        "resolvedTemplate": "Løst skabelon",
+        "selectedSummary": "{count} flisebilleder valgt ({total})",
+        "selectFiles": "Vælg filer",
+        "selectFolder": "Vælg mappe",
+        "statusFailed": "Mislykkedes",
+        "statusPending": "Afventer",
+        "statusUploaded": "Uploadet",
+        "statusUploading": "Uploader",
+        "template": "Skabelon",
+        "tileBounds": "Tilegrænser (x/y-indeks)",
+        "tileSize": "Flisestørrelse",
+        "unableReadDimensions": "Kunne ikke læse billedets dimensioner fra '{file}'.",
+        "uploadFailed": "Upload af fliser mislykkedes.",
+        "uploadMissingUrl": "Upload afsluttet, men ingen konfiguration blev returneret.",
+        "uploadProgress": "Uploader flise {current} af {total}",
+        "uploadSuccess": "{count} kortbilleder blev uploadet med succes.",
+        "warningTileSizes": "De registrerede felter har ikke alle samme dimensioner.",
+        "warningUnmatched": "Kun {matched} af {total} billeder matchede den detekterede skabelon.",
+        "zoomRange": "Zoomområde"
       },
-      "degradeZones": "Nedgrader zoner"
+      "degradeZones": "Nedgrader zoner",
+      "degradeZonesDescription": "Degraderede zoner reducerer signalstyrken. Ex: tunneler, underjordiske områder osv.",
+      "emergencyZones": "Nødzoner",
+      "emergencyZonesDescription": "Nødzoner fortæller AI-dispatcheren, hvilke kanaler indgående nødsituationer skal udsendes til baseret på placering.",
+      "erlc": "ERLC",
+      "fivem": "FiveM",
+      "geoChannels": "Geo-kanaler",
+      "geoChannelsDescription": "Geo-kanaler skifter automatisk brugere til specifikke kanaler baseret på deres placering i spillet.",
+      "mapType": "Type af kort",
+      "server": "Server"
     },
-    "guidesLink": "Sonoran Radio Information & Guider",
+    "guidesLink": "Sonoran Radio Information og guider",
     "importSAPR": {
       "btn": "Importér SAPR Konfig",
       "confirmMsg": "Du er ved at importere {n} kanaler. Er du sikker?",
-      "jsonMsg": "Indsæt din SAPR konfig JSON her",
+      "jsonMsg": "Indsæt din SAPR-konfigurations-JSON her",
       "jsonTitle": "Importér SAPR Konfig"
     },
     "members": {
       "actions": "Handlinger",
       "approveBtn": "Godkend",
+      "ban": "Udeluk",
+      "banBtn": "Udeluk",
+      "cannotModifyPermsOfMyself": "Kan ikke ændre mine egne tilladelser",
       "displayName": "Vis Navn",
-      "editMemberPerms": "Rediger Medlemsrettigheder",
+      "editMemberPerms": "Rediger medlemsrettigheder",
       "errAddInvalidAccount": "Det angivne brugernavn findes ikke",
       "errAddUnknown": "Der opstod en ukendt fejl ved tilføjelse af lederen",
       "errRemoveUnknown": "Der opstod en ukendt fejl ved fjernelse af lederen",
-      "explainDisabled": "Kun serverejere kan tilføje eller ændre ledere",
+      "explainDisabled": "Kun serverejere kan tilføje eller ændre administratorer",
       "filterAll": "Alle",
       "filterPending": "Afventer",
       "kickBtn": "Fjern",
       "owner": "Ejer",
-      "ownerHasAllPerms": "Community-ejer har alle tilladelser",
+      "ownerHasAllPerms": "Fællesskabets ejer har alle tilladelser",
       "paysSubscription": "Betaler Abonnement",
       "pending": "Afventer",
       "permissionsBtn": "Tilladelser",
       "privateChannels": "Private Kanaler",
       "remove": "Fjern",
       "removeWarn": "Advarsel",
-      "removeWarnSelfMsg": "Er du sikker på, at du vil fjerne dig selv fra denne server? Du vil miste adgang og serverejeren skal tilføje dig tilbage.",
+      "removeWarnSelfMsg": "Er du sikker på, at du vil fjerne dig selv fra denne server? Du mister adgangen, og serverejeren skal tilføje dig igen.",
       "removeWarnSubHolderMsg": "Fjernelse af abonnementsindehaveren vil nedgradere denne server til gratis! Er du sikker på, at du vil fortsætte?",
       "search": "Søg",
       "selectPrivateChannels": "Vælg de private kanaler, som brugeren har tilladelse til at deltage i",
-      "setDisplayName": "Indstil Vist Navn",
-      "subOwner": "Abonnements Indehaver",
+      "setDisplayName": "Angiv vis navn",
+      "subOwner": "Abonnementsindehaver",
       "subtitle": "Administrer brugerrettigheder og adgang i dit fællesskab.",
       "title": "Fællesskabsmedlemmer",
       "traits": "Egenskaber",
+      "unbanBtn": "Ophæv karantæne",
       "username": "Brugernavn"
     },
     "membersTab": "Medlemmer",
     "micClick": {
-      "emergencyCallSfx": "Nødopkald SFX",
+      "emergencyCallSfx": "Nødopkaldslyd",
       "header": "SFX Tilpasning",
       "keyDownSfx": "Key Down SFX",
       "keyUpSfx": "Key Up SFX",
-      "overrideSuccessSfx": "Talkover Override Success SFX",
-      "panicSfx": "Panik Knap SFX",
-      "sfxGameBoatEngine": "In-Game Båd Motor SFX",
-      "sfxGameHelicopterRotors": "In-Game Helikopter Rotorer SFX",
+      "overrideSuccessSfx": "Talkover-overskrivningslyd ved succes",
+      "panicSfx": "Panikknap SFX",
+      "sfxGameBoatEngine": "Boatmotor-SFX i spillet",
+      "sfxGameHelicopterRotors": "Spil-helikopterrotorers SFX",
       "sfxGamePistol": "In-Game Pistol SFX",
-      "sfxGamePistolSilenced": "In-Game Silenced Pistol SFX",
-      "sfxGameRifle": "In-Game Rifle SFX",
-      "sfxGameRifleSilenced": "In-Game Silenced Rifle SFX",
-      "sfxGameSiren": "In-Game Siren SFX",
+      "sfxGamePistolSilenced": "In-Game Lyddesign for lyddæmpet pistol",
+      "sfxGameRifle": "In-Game Lyddesign for riffel",
+      "sfxGameRifleSilenced": "In-Game Lyddesign for lyddæmpet riffel",
+      "sfxGameSiren": "In-Game Sirene Lyddesign",
       "sfxVolDown": "Lydstyrke Ned (Genvej) SFX",
       "sfxVolUp": "Lydstyrke Op (Genvej) SFX",
-      "simulatedAudio": "In-Game Baggrundslyd SFX",
-      "simulatedAudioSubtitle": "Baggrundslyd injektion blander in-game lyde—som sirener, helikopter rotorer, båd motorer, og skud—ind i din mikrofon udgang.",
-      "subheader": "Tilpas lyd effekterne for hele din community.",
-      "talkoverSfx": "Talkover SFX"
+      "simulatedAudio": "Baggrundslyd SFX i spillet",
+      "simulatedAudioSubtitle": "Baggrundslydinjektion blander lyde fra spillet som sirener, helikopterrotorer, bådmotorer og skud ind i din mikrofonudgang.",
+      "subheader": "Tilpas lydeffekterne for hele dit community.",
+      "talkoverSfx": "Tale-over SFX"
     },
     "myself": {
-      "subtitle": "Se og rediger dine community indstillinger",
-      "title": "Din Community Info"
+      "subtitle": "Se og rediger dine fællesskabsindstillinger",
+      "title": "Din community-oplysninger"
     },
     "noPermPage": "Du har ikke tilladelse til at se denne side",
     "patrolChannels": {
@@ -433,125 +528,187 @@
       "allowTalkover": "Tillad Talkover",
       "channelUid": "TS Kanal ID",
       "channelUidInput": "TS Kanal ID - Påkrævet",
-      "customizeTalkaround": "Tilpas Talkaround Range",
+      "customizeTalkaround": "Tilpas Talkaround-område",
       "dialogAddTitle": "Tilføj Patruljekanal",
       "dialogEditTitle": "Rediger Patruljekanal",
-      "dialogSubtitle": "En Patruljekanal er den TeamSpeak kanal, der er hvidlistet til at bruge Sonoran Radio TeamSpeak plugin funktionalitet. Her indstiller du TeamSpeak kanal-ID og angiver, om \"Patruljekanal\" skal tillade talkover.",
+      "dialogSubtitle": "En patruljekanal er den TeamSpeak-kanal, der er hvidlistet til at bruge Sonoran Radio TeamSpeak plugin funktionaliteten. Her angiver du TeamSpeak-kanal-ID'et og angiver, om \"Patruljekanal\" skal tillade talkover.",
       "errDelete": "Der opstod en uventet fejl ved sletning af patruljekanalen.",
       "errReenable": "Der opstod en uventet fejl ved aktivering af patruljekanalen.",
       "errSave": "Der opstod en uventet fejl ved lagring af patruljekanalen.",
       "explainDisabled": "Patruljekanal er deaktiveret på grund af nedgradering til en lavere plan, du skal fjerne andre patruljekanaler før du kan genaktivere denne.",
       "explainDisabledCanReenable": "Patruljekanal er deaktiveret på grund af nedgradering til en lavere plan, men du kan genaktivere den i dropdown menuen!",
-      "legacyChannelUidWarn": "Denne form for Kanal ID er blevet udfaset. Opgrader venligst til den nyeste version af Sonoran Radio TS og opdater til nye numeriske IDs",
+      "legacyChannelUidWarn": "Denne form for Kanal-ID er udfaset. Opgrader venligst til den nyeste version af Sonoran Radio TS og opdatér til nye numeriske ID'er",
       "nickname": "Kaldenavn",
       "range": {
         "long": "Lang Rækkevidde",
-        "medium": "Mellem Rækkevidde",
-        "short": "Kort Rækkevidde"
+        "medium": "Mellemrækkevidde",
+        "short": "Kort rækkevidde"
       },
-      "subtitle": "Patruljekanalerne er de TeamSpeak kanaler, der er hvidlistede til at bruge Sonoran Radio TeamSpeak plugin funktionalitet.",
-      "talkAroundRange": "Talkaround Range",
-      "title": "Patrulje Kanaler"
+      "subtitle": "Patruljekanaler er de TeamSpeak-kanaler, der er hvidlistet til at bruge Sonoran Radio TeamSpeak plugin funktionaliteten.",
+      "talkAroundRange": "Talkaround-område",
+      "title": "Patruljekanaler"
     },
     "perms": {
       "addPerm": "Tilføj en Tilladelse",
-      "dialogSubtitle": "Giver en servergruppe en bestemt tilladelse i Sonoran Radio. For at lære mere om tilladelser og hvordan man får servergrupper, se venligst Sonoran Radio Dokumentationen.",
+      "dialogSubtitle": "Giver en servergruppe en specifik tilladelse i Sonoran Radio. For at lære mere om tilladelser og hvordan man får servergrupper, se venligst Sonoran Radio-dokumentationen.",
       "dialogTitle": "Tilføj Tilladelse",
       "errDelete": "Der opstod en uventet fejl ved sletning af tilladelsen.",
       "errSave": "Der opstod en uventet fejl ved lagring af tilladelsen.",
       "explainPrefix": "Hvad gør dette?",
-      "invalidGroupId": "Ugyldig Server Gruppe, det skal være et tal.",
+      "invalidGroupId": "Ugyldig servergruppe, den skal være et tal.",
       "nickname": "Kaldenavn",
       "permInput": "Tilladelse",
-      "permName": "Tilladelses Navn",
+      "permName": "Tilladelsesnavn",
       "serverGroup": "Server Gruppe",
-      "serverGroupInput": "Server Gruppe - Påkrævet",
-      "subtitle": "Tilladelser giver dig mulighed for at ændre, hvordan brugere interagerer med Sonoran Radio plugin, og hvad de kan interagere med.",
+      "serverGroupInput": "Servergruppe - Påkrævet",
+      "subtitle": "Tilladelser giver dig mulighed for at ændre, hvordan brugere interagerer med Sonoran Radio-pluginet, og hvad de kan interagere med.",
       "title": "Tilladelser",
       "types": {
         "dispatch::ext_commands": {
-          "desc": "Denne tilladelse giver mulighed for at ændre kanal brugernes frekvenser og kaldenavne gennem Dispatch UI",
-          "name": "Ændre Kanal Bruger"
+          "desc": "Denne tilladelse giver mulighed for at ændre kanalbrugeres frekvenser og kaldenavne via Dispatch-brugergrænsefladen",
+          "name": "Rediger kanalbruger"
         },
         "dispatch::open": {
-          "desc": "Denne tilladelse giver mulighed for at åbne Dispatch UI",
-          "name": "Åben Dispatch UI"
+          "desc": "Denne tilladelse giver mulighed for at åbne Dispatch-brugergrænsefladen",
+          "name": "Åbn Dispatch UI"
         },
         "menu::radio_attn": {
           "desc": "Denne tilladelse giver dig mulighed for at afspille en lyd på en anden brugers radio for at fange deres opmærksomhed",
           "name": "Radioopmærksomhed"
         },
         "menu::radio_lock": {
-          "desc": "Denne tilladelse giver dig mulighed for at stoppe en andens transmission, hvis de allerede sender",
-          "name": "Radio Lås"
+          "desc": "Denne tilladelse giver dig mulighed for at standse en anden persons transmission, hvis de allerede transmitterer",
+          "name": "Radiolås"
         },
         "tg::talkover_override": {
           "desc": "Denne tilladelse giver mulighed for at dobbeltklikke på din PTT knap for at tale over en anden klient",
-          "name": "Talkover Beskyttelse Override"
+          "name": "Talkover Beskyttelsesoverstyring"
         }
       }
     },
     "profiles": {
-      "addGroup": "Tilføj Gruppe",
-      "addProfile": "Tilføj en Profil",
+      "addGroup": "Tilføj gruppe",
+      "addProfile": "Tilføj en profil",
       "addProfileStandalone": "Tilføj en Kanal",
       "advancedMode": "Avanceret",
-      "basicMode": "Basic",
-      "defaultProfile": "Standard Profil",
-      "deleteGroup": "Slet Gruppe",
-      "dialogAddTitle": "Tilføj Profil",
+      "basicMode": "Grundlæggende",
+      "defaultProfile": "Standardprofil",
+      "deleteGroup": "Slet gruppe",
+      "dialogAddTitle": "Tilføj profil",
       "dialogAddTitleStandalone": "Tilføj Kanal",
-      "dialogEditTitle": "Rediger Profil",
+      "dialogEditTitle": "Rediger profil",
       "dialogEditTitleStandalone": "Rediger Kanal",
-      "dialogSubtitle": "En Profil er en forudindstillet frekvensindstilling, der gør det muligt med en nem overgang mellem specifikke frekvenser uden behov for manuelt at indtaste hver frekvens. Her vil du indstille Vis Navn (valgfrit), Modtag Frekvens (påkrævet), Send Frekvens (valgfrit), og om Send Frekvens skal gentage sig.",
+      "dialogSubtitle": "En profil er en forudindstillet frekvensindstilling, der gør det muligt med en nem overgang mellem specifikke frekvenser uden behov for manuelt at indtaste hver frekvens. Her angiver du Visningsnavn (valgfrit), Modtagerfrekvens (påkrævet), Sendefrekvens (valgfrit) og om Sendefrekvensen skal gentages.",
       "displayName": "Vis Navn",
       "displayNameInput": "Vis navn - påkrævet",
       "editGroup": "Rediger gruppe",
       "errDelete": "Der opstod en uventet fejl ved sletning af profilen.",
       "errReenable": "Der opstod en uventet fejl ved genaktivering af profilen.",
       "errSave": "Der opstod en uventet fejl ved lagring af profilen.",
-      "errSetDefault": "Der opstod en uventet fejl ved indstilling af standardprofilen.",
+      "errSetDefault": "Der opstod en uventet fejl ved angivelse af standardprofilen.",
       "explainDisabled": "Profil er deaktiveret på grund af nedgradering til en lavere plan, du skal fjerne andre profiler før du kan genaktivere denne.",
       "explainDisabledCanReenable": "Profil er deaktiveret på grund af nedgradering til en lavere plan, men du kan genaktivere denne profil i dropdown menuen!",
       "groupName": "Gruppenavn",
-      "preventTalkover": "Foranstaltnings Talkover",
+      "preventTalkover": "Forhindre talekøring",
       "privateChannel": "Privat Kanal",
       "pronounce": "Udtale",
-      "pronounceTooltip": "Avanceret udtale for AI-kanal tekst-til-tale.",
-      "recvFreq": "Modtag Frekvens",
+      "pronounceTooltip": "Avanceret udtale for tekst-til-tale i AI-kanalen.",
+      "recvFreq": "Modtagefrekvens",
       "recvFreqTooltip": "Frekvens til at modtage transmissioner på. Dette er kun for æstetik i radioens UI.",
-      "reorder": "Omorganisér Profiler",
+      "reorder": "Omorganiser profiler",
       "reorderStandalone": "Omarranger kanaler",
-      "repeatsXmit": "Gentager Sendefrekvens",
-      "setAsDefault": "Indstil som Standard Profil",
-      "sharedTooltip": "Delte kanaler spejler adgangen og frekvenserne for en anden tilknyttet kanal. Tilslutning til en af dem giver adgang til den samme kommunikationsstrøm.",
+      "repeatsXmit": "Gentager sendefrekvens",
+      "setAsDefault": "Angiv som standardprofil",
+      "sharedTooltip": "Delte kanaler spejler adgangsrettighederne og frekvenserne for en anden sammenkædet kanal. Forbindelse til en af dem giver adgang til den samme kommunikationsstrøm.",
       "shareWith": "Del med",
-      "standardTooltip": "Standardkanaler opererer uafhængigt med deres egne frekvenser og adgang. Brug denne tilstand, når kanalen skal være for sig selv.",
-      "subtitle": "Profiler er forudindstillede frekvensindstillinger, der gør det muligt med en nem overgang mellem specifikke frekvenser uden behov for manuelt at indtaste hver frekvens.",
-      "talkoverAllowed": "Talkover Tilladt",
-      "talkoverPrevented": "Talkover Forhindret",
+      "standardTooltip": "Standardkanaler fungerer uafhængigt med deres egne frekvenser og adgang. Brug denne tilstand, når kanalen skal være selvstændig.",
+      "subtitle": "Profiler er de forudindstillede frekvensindstillinger, der gør det muligt med en nem overgang mellem specifikke frekvenser uden behov for manuelt at indtaste hver frekvens.",
+      "talkoverAllowed": "Talkover tilladt",
+      "talkoverPrevented": "Talekøring forhindret",
       "title": "Profiler",
       "titleStandalone": "Kanaler",
-      "ttsFailed": "Tekst-til-tale-generering mislykkedes eller findes ikke.\nGem kanalen igen for at generere.",
-      "ttsPreview": "Tekst-til-tale Forhåndsvisning",
+      "ttsFailed": "Tekst-til-tale-generering mislykkedes eller findes ikke.\\nGem kanalen igen for at generere.",
+      "ttsPreview": "Tekst-til-tale-forhåndsvisning",
       "visibility": "Synlighed",
       "visibilityOptions": {
         "private": "Privat",
         "public": "Offentlig"
       },
-      "voiceEffect": "Stemme Effekt",
-      "xmitFreq": "Send Frekvens",
+      "voiceEffect": "Stemmeeffekt",
+      "xmitFreq": "Sendefrekvens",
       "xmitFreqTooltip": "Frekvens til at sende på. Dette er kun for æstetik i radioens UI."
     },
-    "saveInfo": "Gem Server Info",
+    "saveInfo": "Gem serveroplysninger",
     "saveServer": "Gem Server",
     "serverInfo": {
       "addServer": "Tilføj Server",
       "cadPrompts": {
+        "addPhrase": "Tilføj sætning",
+        "emptyState": "Ingen sætninger tilføjet endnu.",
         "subtitle": "Brugerdefinerede sætninger til at hjælpe Dispatch AI med at matche anmodninger med CAD-/radiofunktioner.",
+        "title": "Eksempelprompter",
         "tools": {
+          "addCallNote": {
+            "hint": "Eksempler: \"tilføj en note til mit opkald\"",
+            "label": "Tilføj en opkaldsnote",
+            "placeholder": "Tilføj en note til mit opkald"
+          },
+          "attachToCall": {
+            "hint": "Eksempler: \"tilknyt mig til opkald...\"",
+            "label": "Tilknyt til et opkald",
+            "placeholder": "Tilknyt mig til opkald..."
+          },
+          "closeCall": {
+            "hint": "Eksempler: \"afslut mit opkald\"",
+            "label": "Afslut et opkald",
+            "placeholder": "Afslut mit opkald"
+          },
+          "createCall": {
+            "hint": "Eksempler: \"opret et opkald til en 10-50 på Main St\"",
+            "label": "Opret et opkald",
+            "placeholder": "Opret et opkald til en 10-50 på Main St"
+          },
           "getRecentCadEvents": {
-            "hint": "Eksempler: \"hvad er det seneste opkald\", \"sen panik\", \"det opkald\""
+            "hint": "Eksempler: \"hvad er det seneste opkald\", \"nylig panik\", \"det opkald\"",
+            "label": "Seneste hændelser",
+            "placeholder": "Hvad er det seneste opkald?"
+          },
+          "getRecordTemplates": {
+            "hint": "Eksempler: \"vis skabeloner til poster\", \"vis tilgængelige poster\"",
+            "label": "Posterskabeloner",
+            "placeholder": "List poster skabeloner"
+          },
+          "identsToGroup": {
+            "hint": "Eksempler: \"sæt gruppe Alpha på enheder D-12, D-14\", \"ryd gruppe for enheder D-12, D-14\"",
+            "label": "Gruppenheder"
+          },
+          "lookup": {
+            "hint": "Eksempler: \"kør en nummerplade ABC123\", \"slå John Smith op\"",
+            "label": "Person- eller nummerpladeopslag",
+            "placeholder": "Kør en plade ABC123"
+          },
+          "routeToCoordinates": {
+            "hint": "Eksempler: \"rute til X 123.4 Y 567.8\", \"indstil GPS til koordinater\"",
+            "label": "Rute til koordinater",
+            "placeholder": "Rute til X 123.4 Y 567.8"
+          },
+          "routeToPostal": {
+            "hint": "Eksempler: \"rute mig til postnummer 1234\", \"sæt GPS til postnummer 90210\"",
+            "label": "Rute til post"
+          },
+          "status": {
+            "hint": "Eksempler: \"sæt min status til tilgængelig\", \"vis mig utilgængelig\"",
+            "label": "Statusopdateringer"
+          },
+          "togglePanic": {
+            "hint": "Eksempler: \"aktivér min panik\", \"ryd min panik\"",
+            "label": "Slå panik til/fra",
+            "placeholder": "Aktivér min panik"
+          },
+          "unattachFromCall": {
+            "hint": "Eksempler: \"fjern mig fra opkaldet\"",
+            "label": "Fjern fra et opkald",
+            "placeholder": "Fjern mig fra opkaldet"
           }
         }
       },
@@ -560,56 +717,103 @@
         "id": "ID",
         "name": "Navn",
         "origin": "IP/Oprindelse",
-        "pushUrl": "Push URL"
+        "pushUrl": "Push-URL"
       },
       "communityServers": "Fællesskabsservere",
-      "communityServersSubtitle": "Tilføj eller fjern servere for at adskille dine radiokommunikationer",
-      "customCommunityIdHint": "Indstil dit brugerdefinerede Community-ID, som er til vanity URL, FiveM-ressourcen, og for at deltage i community'et"
+      "communityServersSubtitle": "Tilføj eller fjern servere for at adskille din radiokommunikation",
+      "customCommunityIdHint": "Angiv dit brugerdefinerede Community ID, som bruges til vanity-URL'en, FiveM-ressourcen og til at deltage i community'et",
+      "disabled": "Deaktiveret",
+      "dispatchAiPause": "Deaktiver, når Human Dispatch er i CAD",
+      "enabled": "Aktiveret",
+      "openAiApiKey": "Open AI API-nøgle",
+      "openAiApiKeyHint": "Angiv din egen OpenAI API-nøgle for at aktivere Dispatch AI-funktioner."
     },
     "settings": {
-      "agc": "Automatisk Forstærkningskontrol",
-      "agcDesc": "Justér automatisk mikrofonens inputlydstyrke for at udligne lydstyrken af alle brugere.",
-      "hearOtherPttSfx": "Afspil Andres PTT SFX",
-      "hearOtherPttSfxDesc": "Afspil PTT lyden når andre brugere trykker på deres mikrofon.",
+      "agc": "Automatisk forstærkningskontrol",
+      "agcDesc": "Juster automatisk mikrofonens inputvolumen for at udligne lydstyrken for alle brugere.",
+      "aiRepliesOnlyMe": "AI svarer kun til mig",
+      "aiRepliesOnlyMeDesc": "Hør kun AI-agenten, når den svarer direkte til dig, ikke hele kanalen.",
+      "echoAutoXmit": "Hør AI-udkald",
+      "echoAutoXmitDesc": "Hør dine egne AI-stedopkald, når du er i en forfølgelse.",
+      "hearOtherPttSfx": "Afspil andres PTT SFX",
+      "hearOtherPttSfxDesc": "Afspil PTT lyden når andre brugere slipper deres mikrofon.",
       "hearPttSfx": "Afspil PTT SFX",
-      "hearPttSfxDesc": "Afspil PTT lyden når du trykker på din mikrofon.",
-      "keyUpDelay": "Key Up Forsinkelse",
+      "hearPttSfxDesc": "Afspil PTT lyden når du slipper din mikrofon.",
+      "keyUpDelay": "Forsinkelse ved slip af tast",
       "keyUpDelayDesc": "Forsinkelse efter afslutning af en transmission før mikrofonen frigives.",
-      "muteScannedWhileTransmitting": "Mute Scannet Mens Der Sendes",
+      "muteScannedWhileTransmitting": "Dæmp scannede mens der sendes",
       "muteScannedWhileTransmittingDesc": "Dæmp scannede kanaler mens der sendes på en kanal.",
-      "sirenVolume": "Siren Lydstyrke",
-      "sirenVolumeDesc": "Når in-game sirene er aktiveret, tilføj/fratræk lydstyrke.",
-      "subtitle": "Konfigurer standardindstillingerne for din community. Brugere kan tilpasse deres egne præferencer, men disse vil tjene som standardudgangspunkt.",
+      "sirenVolume": "Volumenforstærkning med aktiv sirene",
+      "sirenVolumeDesc": "Øg en brugers radiovolumen med denne procentdel, når deres køretøjs sirene er aktiv.",
+      "subtitle": "Konfigurer standardindstillingerne for dit fællesskab. Brugere kan tilpasse deres egne præferencer, men disse vil fungere som de indledende standarder.",
       "title": "Standard Indstillinger",
-      "tts": "Kanal Tekst-til-tale",
-      "ttsDesc": "Afspil en tekst-til-tale stemme af kanalnavnet når du skifter kanaler.",
+      "tts": "Kanal tekst-til-tale",
+      "ttsDesc": "Afspil en tekst-til-tale-stemme af kanalnavnet, når du skifter kanaler.",
       "volChange": "Lydstyrkeskift",
-      "volChangeDesc": "Lydstyrkeskift % ved brug af lydstyrke op/ned genveje."
+      "volChangeDesc": "Lydstyrkeændring % ved brug af genvejstasterne til lydstyrke op/ned.",
+      "wakeWord": "Vågeord (AI)",
+      "wakeWordDesc": "Vækkeord, der bruges til at aktivere Dispatch AI."
     },
     "toPortal": "Tilbage til Portal",
     "transfer": {
       "cancel": "Annuller",
-      "confirmInstruction": "Indtast {code} for at bekræfte overførslen (følsom for store og små bogstaver)",
+      "confirmInstruction": "Skriv {code} for at bekræfte overførslen (der skelnes mellem store og små bogstaver)",
       "confirmLabel": "Bekræft overførsel",
       "ok": "Ok",
-      "requestCreatedMsg": "Overførslen er endnu ikke fuldført! En e-mail er blevet sendt til dig for ekstra verifikation",
-      "requestCreatedTitle": "Overførselsanmodning Oprettet",
-      "selectNewOwner": "Vælg Ny Ejer",
+      "requestCreatedMsg": "Overførslen er ikke færdig endnu! Der er sendt en e-mail til dig for ekstra verificering",
+      "requestCreatedTitle": "Anmodning om overførsel oprettet",
+      "selectNewOwner": "Vælg ny ejer",
       "title": "Overfør Community",
-      "warning": "Er du sikker på, at du vil overføre dit community? Du vil ikke længere være ejer af dette community, og du kan miste dine tilladelser"
+      "warning": "Er du sikker på, at du vil overføre dit fællesskab? Du vil აღარ ikke længere være ejeren af dette fællesskab, og du kan miste dine tilladelser"
     },
     "transferServer": "Overfør Community",
-    "unauthorizeMsg": "Er du sikker på at du vil uautorise denne konfiguration?",
-    "unauthorizeServer": "Uautoriser Server",
-    "unauthorizeSuccess": "Din server blev succesfuldt uautoriseret",
+    "unauthorizeMsg": "Er du sikker på, at du vil tilbagekalde godkendelsen af denne konfiguration?",
+    "unauthorizeServer": "Fjern servergodkendelse",
+    "unauthorizeSuccess": "Din server blev succesfuldt afgodkendt",
     "voiceCustomization": {
-      "header": "Stemme Tilpasning",
+      "analogAggressiveness": "Analog aggression",
+      "analogAggressivenessDescription": "Styrer, hvor hurtigt analog slitage og sus opbygges.",
+      "analogDescription": "Blander sus, båndbreddetab og blød forringelse for en klassisk analog håndholdt lyd.",
+      "clippingAggressiveness": "Klipaggressivitet",
+      "clippingAggressivenessDescription": "Presser klipningen hårdere, når signalkvaliteten falder.",
+      "clippingDescription": "Skærer dele af signalet for at simulere udfald, gating og rå, afbrudte transmissioner.",
+      "constantStatic": "Statisk",
+      "constantStaticDescription": "Tilføjer et stabilt lag baggrundsstøj over effekten.",
+      "digitalAggressiveness": "Digital aggressivitet",
+      "digitalAggressivenessDescription": "Får den digitale forvrængning til at stige hurtigere.",
+      "digitalDescription": "Tilføjer bit-crushet statisk støj og hårde artefakter, der føles som ustabil digital radiotrafik.",
+      "disabled": "Deaktiveret",
+      "enabled": "Aktiveret",
+      "equalizerDescription": "Former klangen før forvrængning, så du kan gøre stemmekilden lysere, tyndere eller mørkere.",
+      "header": "Stemmetilpasning",
       "input": "Input",
+      "localVocoderPerformanceWarning": "Stærkt anbefalet: Aktivér vocoderen på fællesskabs-/kanalniveau. Ellers skal din lokale klient vocode hver indgående stream selv, hvilket øger behandlingsbelastningen og kan reducere ydeevnen.",
+      "maximumAnalogDistortion": "Maks. analog",
+      "maximumAnalogDistortionDescription": "Begrænser den stærkeste analoge forringelse, der anvendes.",
+      "maximumClipping": "Maks. klip",
+      "maximumClippingDescription": "Begrænser, hvor alvorlige klipningsudfaldene kan blive.",
+      "maximumDigitalDistortion": "Maks. digital",
+      "maximumDigitalDistortionDescription": "Begrænser, hvor intense de digitale artefakter kan blive.",
+      "minimumAnalogDistortion": "Min. analog",
+      "minimumAnalogDistortionDescription": "Tilføjer et minimum af analog råhed selv ved bedre signalniveauer.",
+      "minimumClipping": "Min. klip",
+      "minimumClippingDescription": "Angiver den laveste chance for, at signalet afbrydes.",
+      "minimumDigitalDistortion": "Min. digital",
+      "minimumDigitalDistortionDescription": "Bevarer et grundlæggende niveau af digital forvrængning i lyden.",
       "name": "Navn",
+      "postEqualizerDescription": "Forfiner det endelige output efter effektkæden for det sidste lag af finish eller skarphed.",
+      "previewEffects": "Forhåndsvis effekter",
+      "receiveSignal": "Modtag signal",
+      "receiveSignalDescription": "Styrer hvor forringet den modtagne side af forhåndsvisningen lyder efter transmissionstab.",
       "signalStrength": "Signalstyrke",
-      "subheader": "Tilpas radio stemme effekter for din community.",
-      "useForEmergency": "Brug til Nødopkald",
-      "vocoderPreviewWarning": "Vocoder-lydforhåndsvisning er endnu ikke tilgængelig."
+      "signalStrengthDescription": "Forhåndsvis, hvordan effekten reagerer, når kvaliteten af dit udgående og indgående radiosignal ændrer sig.",
+      "stopPreview": "Stop forhåndsvisning",
+      "subheader": "Tilpas radio-stemeeffekterne til din community.",
+      "transmitSignal": "Send signal",
+      "transmitSignalDescription": "Styrer hvor stærk din egen udgående radiotransmission lyder i forhåndsvisningen.",
+      "useForEmergency": "Brug til nødopkald",
+      "vocoderDescription": "Komprimerer tale til en syntetisk radiokodeklyd med en stemmeprofil med lavere bitrate.",
+      "vocoderPreviewWarning": "Vocoder-lydpreview er endnu ikke tilgængelig."
     }
   },
   "misc": {
@@ -620,56 +824,56 @@
   "portal": {
     "beginTitle": "Begynd Din Rejse",
     "beginYourJourney": "Begynd Din Rejse!",
-    "billingPortal": "Abonnementer & Fakturering",
-    "discovery": "Opdagelse",
-    "discoveryActiveMembers": "Dette community har nogle af de mest aktive medlemmer",
-    "discoveryGrowingRapidly": "Dette community vokser hurtigt",
+    "billingPortal": "Abonnementer & fakturering",
+    "discovery": "Udforskning",
+    "discoveryActiveMembers": "Dette fællesskab har nogle af de mest aktive medlemmer",
+    "discoveryGrowingRapidly": "Dette fællesskab vokser hurtigt",
     "discoveryHighTraffic": "Dette community modtager meget høj webside trafik",
-    "discoveryRecentlyBumped": "Dette community blev for nylig bumpet",
+    "discoveryRecentlyBumped": "Dette fællesskab blev for nylig bumpet",
     "documentation": "Dokumentation",
-    "joinACommunity": "Deltag i et Sonoran Radio Community",
+    "joinACommunity": "Bliv en del af et Sonoran Radio Community",
     "leaveServer": "Forlad",
-    "myCommunities": "Mine Communities",
-    "needACommunity": "Brug for et nyt Sonoran Radio community?",
-    "needsMemberAuth": "Afventer Godkendelse",
-    "needsTsAuth": "Behov for TeamSpeak3 Auth",
-    "pendingAuth": "Afventer Autorisation",
-    "subtitle": "Velkommen til operationsbasen! Her kan du redigere abonnementer i Faktureringsportalen, administrere community indstillinger med den easy Konfigurations panel, eller registrere en helt ny server med vores setup guide.",
-    "title": "Sonoran Radio Portal",
-    "upgradeServer": "Opgradering"
+    "myCommunities": "Mine fællesskaber",
+    "needACommunity": "Har du brug for et nyt Sonoran Radio Community?",
+    "needsMemberAuth": "Afventer godkendelse",
+    "needsTsAuth": "Kræver TeamSpeak3-godkendelse",
+    "pendingAuth": "Afventer godkendelse",
+    "subtitle": "Velkommen til operationsbasen! Her kan du redigere abonnementer i          Billing Portal, administrere fællesskabsindstillinger med det enkle          Configuration Panel eller registrere en helt ny server med vores opsætnings          guide.",
+    "title": "Sonoran Radioportal",
+    "upgradeServer": "Opgrader"
   },
   "pricing": {
-    "description": "Sonoran Radios betalte abonnementer giver dig adgang til avancerede funktioner, tilpasning, øgede grænser, og mere!",
+    "description": "Sonoran Radios betalte abonnementer giver dig adgang til avancerede funktioner, tilpasning, øgede grænser og mere!",
     "dispatchPanel": "Dispatch Panel",
-    "dispatchPanelDescription": "Den TeamSpeak dialog der lader dig ændre indstillingerne på din radio eller andres radioer.",
+    "dispatchPanelDescription": "TeamSpeak-dialogen, der lader dig ændre indstillingerne for din radio eller andres radioer.",
     "fivemRadio": "FiveM håndholdt radio",
-    "fivemRadioDescription": "Den FiveM håndholdte radio lader dig skifte dine frekvenser, scaneliste, og andre radio indstillinger",
-    "fivemTowerDestruction": "FiveM Tårn Destruktion",
-    "fivemTowerDestructionDescription": "Muligheden (valgfri) for spillere at ødelægge fysiske tårne for at forringe radio modtagelse.",
-    "fivemTowers": "FiveM Fysiske Tårne",
+    "fivemRadioDescription": "FiveM-håndradioen giver dig mulighed for at ændre dine frekvenser, scanningsliste og andre radiindstillinger",
+    "fivemTowerDestruction": "FiveM Tårnødelæggelse",
+    "fivemTowerDestructionDescription": "Muligheden (valgfri) for spillere til at ødelægge fysiske tårne for at forringe radiomodtagelsen.",
+    "fivemTowers": "FiveM fysiske tårne",
     "fivemTowersDescription": "Tårne simulerer modtagelse til et fysisk tårn, baseret på din afstand. Placeringer og rækkevidder kan tilpasses.",
-    "howToPurchase": "Hvordan man køber",
-    "monthCostDescription": "Omkostningerne ved vores månedlige abonnements pakker.",
+    "howToPurchase": "Sådan køber du",
+    "monthCostDescription": "Prisen på vores månedlige abonnementspakke.",
     "onlyOnStatewide": "Kun tilladt på statewide frekvenser.",
     "onlySelfFrequencies": "Kun tilladt at ændre dine egne frekvenser",
-    "patrolChannels": "Patrulje Kanaler",
-    "patrolChannelsDescription": "# af TeamSpeak kanaler hvor radio-plugin kan bruges.",
-    "planPricing": "Plan Priser",
+    "patrolChannels": "Patruljekanaler",
+    "patrolChannelsDescription": "Antal TeamSpeak-kanaler, hvor radio-pluginet kan bruges.",
+    "planPricing": "Planpriser",
     "plans": {
       "free": "Gratis",
       "plus": "Plus",
       "pro": "Pro"
     },
     "pricing": "Priser",
-    "profileLimits": "Profil Grænser",
-    "profileLimitsDescription": "# af tilladte profiler.",
-    "statewideFrequencyLimits": "Statewide Frekvens Grænser",
-    "statewideFrequencyLimitsDescription": "# af tilladte statewide frekvenser.",
-    "talkaroundFrequencies": "Talkaround Frekvenser",
+    "profileLimits": "Profilgrænser",
+    "profileLimitsDescription": "Antal tilladte profiler.",
+    "statewideFrequencyLimits": "Frekvensgrænser på landsplan",
+    "statewideFrequencyLimitsDescription": "# af statewide frekvenser tilladt.",
+    "talkaroundFrequencies": "Talkaround-frekvenser",
     "talkaroundFrequenciesDescription": "Talkaround frekvenser tillader individer at tale radio til radio i stedet for radio til tårn.",
     "talkoverProtection": "Talkover Beskyttelse",
-    "talkoverProtectionDescription": "Talkover beskyttelse tillader kun en person at tale over en frekvens ad gangen.",
-    "toBilling": "Tilbage til Fakturering",
+    "talkoverProtectionDescription": "Talkover-beskyttelse tillader kun én person at tale over en frekvens ad gangen.",
+    "toBilling": "Tilbage til fakturering",
     "unlimited": "Ubegrænset"
   },
   "radio": {
@@ -677,118 +881,148 @@
     "backToPortal": "Tilbage til Portal",
     "channelDialog": {
       "channelTitle": "Skift Kanal",
-      "scanTitle": "Scanliste"
+      "scanTitle": "Scannliste"
     },
     "channelList": "Kanalliste",
-    "configureChannel": "Konfigurér {0}",
-    "connect": "Forbind",
-    "hiddenChannel": "Skjult Kanal (Synlig for dig)",
+    "configureChannel": "Konfigurer {0}",
+    "connect": "Opret forbindelse",
+    "hiddenChannel": "Skjult kanal (Synlig for dig)",
     "listenScan": "Lyt til {0}",
     "microphonePTT": "Mikrofon PTT",
     "multiXmit": "CTRL + Klik Multi-XMIT",
-    "muteScan": "Mute {0}",
-    "openInNewWindow": "Åbn i Nyt Vindue",
+    "muteScan": "Slå {0} fra",
+    "openInDesktopFrame": "Åbn overlejring",
+    "openInNewWindow": "Åbn i nyt vindue",
     "openUserList": "Åbn brugerlisten-overlejring",
     "recvFreq": "RECV: {0}MHz",
     "scanList": "Scanliste",
     "selectServer": "Vælg Server",
-    "setHotkeyFor": "Indstil Genvej for {0}",
+    "setHotkeyFor": "Indstil genvejstast til {0}",
     "settingsDialog": {
       "advanced": "Avanceret",
+      "agentGain": "AI Lydstyrke",
+      "aiRepliesOnlyMe": "Hør kun AI-svar til mig",
+      "aiWakeWordKeyword": "AI-vågeord",
+      "aiWakeWordKeywordSelect": "Vækkeordsfrase",
       "audioTab": "Lyd",
       "automaticGainControlDisabled": "Automatisk forstærkningskontrol deaktiveret",
       "automaticGainControlEnabled": "Automatisk forstærkningskontrol aktiveret",
-      "changingOutputsUnsupported": "Din enhed understøtter ikke skift af lydudgange",
+      "changingOutputsUnsupported": "Din enhed understøtter ikke ændring af lydudgange",
       "channelTts": "Kanal TTS",
-      "escapeMode": "Escape tilstand",
-      "escapeModeHide": "Skjul Radio",
-      "escapeModeHideTooltip": "Radioen lukker ved ESC",
-      "escapeModeKeep": "Hold Radio Synlig",
+      "defaultOutputWarning": "Standardoutput kan få Windows til at sænke lydstyrken for andre apps. Prøv at vælge en specifik enhed.",
+      "enableTransmissionRecordings": "Aktivér transmissionsoptagelser",
+      "escapeMode": "Flugt-tilstand",
+      "escapeModeHide": "Skjul radio",
+      "escapeModeHideTooltip": "Radioen lukkes med ESC",
+      "escapeModeKeep": "Behold radio synlig",
       "escapeModeKeepTooltip": "Radioen forbliver synlig ved ESC",
       "escapeModeXmit": "XMIT (PTT)",
-      "escapeModeXmitTooltip": "Radioen lukker ved ESC, men er synlig under transmission",
+      "escapeModeXmitTooltip": "Radioen lukkes med ESC, men er synlig under transmission",
       "fivemTab": "FiveM",
+      "hearAllAiReplies": "Hør alle AI-svar",
       "hearScannedWhileXmit": "Hør scannede mens der sendes",
-      "hotkeysTab": "Genveje",
+      "hotkeysTab": "Genvejstaster",
       "keydownSfx": "Keydown SFX",
       "keyupSfx": "Keyup SFX",
       "macosPermWarning": "Din enhed kan kræve yderligere tilladelser: {link}",
-      "macosPermWarningLink": "Lær hvordan du giver tilladelser",
+      "macosPermWarningLink": "Lær, hvordan du giver tilladelser",
       "moveResize": "Flyt/Ændre størrelse",
       "myPttSfx": "Min PTT SFX",
       "othersPttSfx": "Andres PTT SFX",
-      "pttOffDelay": "PTT-Off Forsinkelse",
+      "privacyTab": "Privatliv",
+      "pttOffDelay": "PTT-slukforsinkelse",
+      "recordWakeWord": "Optag vågeord",
+      "recordWakeWordListening": "Lytter...",
       "resetPeerVolumes": "Nulstil peer-volumener",
-      "resetSettings": "Nulstil Indstillinger",
-      "selectRadioFrame": "Radio Ramme",
-      "sfxTab": "SFX",
+      "resetSettings": "Nulstil indstillinger",
+      "selectRadioFrame": "Radio ramme",
+      "sfxTab": "Lydeffekter",
       "sfxVolume": "SFX Lydstyrke",
       "title": "Indstillinger",
       "toggleBackgroundAudio": "Baggrundslyd",
-      "troubleHearingInGame": "Har du problemer med at høre i spillet?",
+      "troubleHearingInGame": "Har du problemer med at høre i spillet?:",
       "unlink": "Frakobl",
+      "voiceFxCommunity": "Community FX",
+      "voiceFxEmpty": "Opret eller importér en lokal stemmeeffekt for at aktivere lokal lytning.",
+      "voiceFxLocal": "Lokale effekter",
+      "voiceFxMode": "Voice FX-tilstand",
+      "voiceFxTab": "Voice FX",
       "volume": "Lydstyrke",
-      "volumeChangeSirens": "Lydstyrkeskift v/Sirener",
-      "volumeHotkeyChange": "Lydstyrke Genvejskift",
-      "webHotkeyWarning": "Genveje fungerer kun når browser vinduet er fokuseret. {link} for globale genveje",
-      "webHotkeyWarningLink": "Download desktop appen"
+      "volumeChangeSirens": "Lydstyrkeskift med sirener",
+      "volumeHotkeyChange": "Lydstyrke Genvejsskift",
+      "wakeWord": "Vågeord (AI)",
+      "wakeWordListenSeconds": "Lyt i sekunder for vækkeord",
+      "wakeWordRecordNoSpeech": "Ingen tale registreret. Tjek din mikrofon, og prøv igen.",
+      "webHotkeyWarning": "Genvejstaster virker kun, når browservinduet er i fokus.\n{link} for globale genvejstaster",
+      "webHotkeyWarningLink": "Download desktop-appen"
     },
-    "showChannelIds": "Vis Kanal IDs",
+    "showChannelIds": "Vis kanal-id'er",
     "stopXmit": "Stop XMIT",
     "toneBoard": {
-      "aiMode": "AI Tilstand",
+      "aiMode": "AI-tilstand",
       "aiTts": "AI Tekst-til-tale",
       "audioMode": "Lydtilstand",
-      "broadcastTo": "Broadcast Til",
-      "count": "Tæl",
+      "audioRecording": "Lydoptagelse",
+      "broadcastTo": "Send til",
+      "count": "Antal",
+      "deleteStack": "Slet stack",
       "generate": "Generer",
       "inGameSpeaker": "In-Game Højttaler",
       "inGameSpeakerGroup": "In-Game Højttalergruppe",
-      "newTone": "Ny Tone",
-      "noTones": "Ingen Toner",
-      "preview": "Forhåndsvis",
+      "loadStack": "Indlæs stak (enkelt klik)",
+      "newTone": "Ny tone",
+      "noSavedStacks": "Ingen gemte stakke endnu.",
+      "noTones": "Ingen toner",
+      "playStack": "Afspil stak (dobbeltklik)",
+      "preview": "Forhåndsvisning",
       "recording": "Optagelse",
+      "recordMic": "Optag mikrofon",
       "repeat": "Gentag",
+      "savedTab": "Gemte stakke",
+      "saveStackDesc": "Navngiv din tone-stack",
+      "saveStackTitle": "Gem stak",
       "seconds": "Sekunder",
+      "speechToText": "Tale til tekst",
       "speed": "Hastighed",
       "stack": "Stak",
       "subtitle": "Tilpas dispatch toner til din community",
       "title": "Tone Board",
-      "toneLabel": "Tone Etiket",
+      "toneLabel": "Toneetiket",
+      "tonesTab": "Toner",
       "voices": "Stemmer"
     },
     "xmitFreq": "XMIT {0}MHz"
   },
   "registerServer": {
-    "errExists": "Den angivne TeamSpeak Server UID findes allerede på en verificeret server, brug venligst en anden TS server UID",
-    "errUnknown": "Der opstod en fejl under forsøg på at hente serverinformation, prøv igen senere.",
-    "registerAStandServer": "Registrer en Community",
+    "errExists": "TeamSpeak Server UID’en, der er angivet, findes allerede på en verificeret server, brug venligst en anden TS-server UID",
+    "errUnknown": "Der opstod en fejl under forsøget på at hente serveroplysninger, prøv igen senere.",
+    "registerAStandServer": "Registrer et fællesskab",
     "registerAStandServerDesc": "Registrér dit fællesskab for at bruge Sonoran Radio.",
-    "registerATSServer": "Registrer en TeamSpeak Server",
-    "registerATSServerDesc": "Registrer din TeamSpeak Server for at tillade din server at kunne bruge Sonoran Radio TeamSpeak plugin.",
-    "submit": "Registrer Server"
+    "registerATSServer": "Registrer en TeamSpeak-server",
+    "registerATSServerDesc": "Registrer din TeamSpeak-server for at give din server mulighed for at bruge Sonoran Radio TeamSpeak-pluginnet.",
+    "submit": "Registrer server"
   },
   "serverCommon": {
     "nicknameInput": "Kaldenavn",
-    "nicknameInputDesc": "Indstil et brugerdefineret kaldenavn for din community, som du og dine medlemmer vil se",
+    "nicknameInputDesc": "Angiv et brugerdefineret kaldenavn til dit fællesskab, som du og dine medlemmer vil se",
     "serverUidInput": "TeamSpeak Server UID",
-    "serverUidInputDesc": "Indtast din TeamSpeak 3 servers UID her"
+    "serverUidInputDesc": "Indtast din TeamSpeak 3-server-UID her"
   },
   "serverPending": {
     "backToPortal": "Tilbage til Portal",
     "deleteCommunity": "Slet Community",
-    "leaveServer": "Forlad Server",
-    "switchToStandalone": "Skift til Standalone"
+    "leaveServer": "Forlad server",
+    "switchToStandalone": "Skift til selvstændig"
   },
   "signup": {
-    "checkEmail": "Tjek din e-mail og bekræft din konto.",
-    "checkSpam": "Sørg for at tjekke din spam mappe, hvis du ikke kan finde e-mailen.",
-    "emailPreferencesDesc": "E-mail vigtige meddelelser, opdateringer og kampagner.",
-    "verifyPassword": "Bekræft Adgangskode"
+    "checkEmail": "Tjek din e-mail, og bekræft din konto.",
+    "checkSpam": "Sørg for at tjekke din spam-mappe, hvis du ikke kan finde e-mailen.",
+    "emailPreferencesDesc": "Send mig vigtige meddelelser, opdateringer og kampagner.",
+    "verifyPassword": "Bekræft adgangskode"
   },
   "splash": {
     "feats": "Fuldt udstyret med sms-kommunikation mellem personale og Sonoran CAD\n      integration giver Sonoran Radio fuldt udstyrede kommunikationsenheder\n      direkte i hænderne på dit personale i spillet og dine dispatchere. Prøv det\n      gratis i dag!",
-    "getStarted": "Kom I Gang I Dag",
+    "getStarted": "Kom i gang i dag",
     "introducing": "Introducerer",
     "learnMore": "Lær Mere",
     "marketExplain": "I offentlig sikkerhed er enkelhed og pålidelighed afgørende, når man vælger\n      et kommunikationssystem. Sonoran Radio tilbyder det mest omfattende\n      og altomfattende kommunikationssystem på markedet i dag. Dette nye\n      radiosystem har banebrydende teknologi og tilbyder både simplex- og\n      duplexkonfigurationer, cloud-baseret programmering og et skalerbart,\n      repeaterdrevet radionetværk.",
@@ -796,19 +1030,32 @@
   },
   "standalone": {
     "desktop": {
+      "applyFilter": "Anvend",
+      "applyFilters": "Anvend",
+      "channel": "Kanal",
+      "clearFilter": "Ryd",
+      "clearFilters": "Ryd",
+      "dial": "Ring",
+      "dialPlaceholder": "Indtast nummer...",
       "downloadFile": "Download fil",
       "emergencyCalls": "Nødopkald (911)",
       "noEmergencyCalls": "Ingen nødopkald!",
       "noTransmissions": "Ingen transmissioner fundet",
       "playAudio": "Afspil lyd",
-      "redial": "Genopkald {name}"
+      "redial": "Ring op igen {name}",
+      "showTranscript": "Vis udskrift",
+      "time": "Tid",
+      "transcriptTitle": "{name}s Transmission",
+      "user": "Bruger"
     },
     "peers": {
       "clearPanic": "Ryd panik",
-      "displayName": "Vist navn",
+      "displayName": "Vis Navn",
       "kick": "Fjern",
       "moveTo": "Flyt til",
-      "volume": "Lydstyrke"
+      "ping": "Ping",
+      "stun": "Stun",
+      "volume": "Kanalstyrke"
     },
     "settings": {
       "rightClickToClear": "Højreklik for at rydde"

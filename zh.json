@@ -1,11 +1,11 @@
 {
   "account": {
     "noServers": "没有服务器",
-    "serversDesc": "在这里您可以查看您拥有或管理的所有 Sonoran Radio 社区",
-    "serversTitle": "您的服务器",
-    "tokenCopied": "密钥已复制到您的剪贴板！",
-    "tokenDesc": "复制此密钥以用于通过 FiveM 广播登录！",
-    "tokenDescWarning": "此代码是保密的，切勿与他人共享！",
+    "serversDesc": "在这里你可以查看你拥有或管理的所有 Sonoran Radio 社区",
+    "serversTitle": "你的服务器",
+    "tokenCopied": "密钥已复制到你的剪贴板！",
+    "tokenDesc": "复制此令牌以用于使用 FiveM radio 登录！",
+    "tokenDescWarning": "此代码为机密，不应与任何人共享！",
     "tokenInputLabel": "您的登录密钥",
     "tokenLoadBtn": "点击加载",
     "tokenTitle": "无线电登录密钥"
@@ -13,22 +13,22 @@
   "authMember": {
     "errLeave": "离开社区时发生意外错误。",
     "leaveMsg": "你确定要离开这个 Sonoran Radio 社区吗？",
-    "subtitle": "在能够使用 Sonoran Radio 达 {serverName} 之前，您必须得到服务器所有者或社区管理员的批准。请稍等以获得批准。",
+    "subtitle": "在能够使用 Sonoran Radio 访问 {serverName} 之前，您必须获得服务器所有者或社区管理员的批准。请等待审批。",
     "subtitleShort": "在此社区使用 Sonoran Radio 之前，您必须获得社区工作人员的批准",
-    "title": "您正在等待批准"
+    "title": "您正在等待审批"
   },
   "authServer": {
     "authCodeTitle": "授权码",
     "clickToCopy": "点击复制",
-    "copiedCode": "服务器认证码已复制到剪贴板",
+    "copiedCode": "已将服务器身份验证代码复制到剪贴板",
     "errDelete": "删除服务器时发生意外错误。",
     "errSave": "保存服务器时发生意外错误。",
     "submit": "保存服务器",
-    "subtitle": "通过 Sonoran Radio 插件和网页面板，利用简单的认证过程认证您的 TeamSpeak 服务器。在此认证过程中，在您的 TeamSpeak 服务器中拥有足够权限的个人将看到一个弹出页面，显示您待定的授权，请在 TeamSpeak 弹出窗口中输入授权代码来授权。如果您不小心将 TeamSpeak 服务器 UID 设置错误，您可以在下面更改。如果您在 Sonoran Radio 中未看到 TeamSpeak 弹窗，请验证您输入了正确的 UID，并且已安装至少 v0.2.0 的插件。否则，请联系支持。",
-    "title": "认证您的 TeamSpeak 服务器"
+    "subtitle": "通过使用 Sonoran Radio 插件和 web 面板的简单认证流程来验证您的 TeamSpeak 服务器。在此认证过程中，您的 TeamSpeak 服务器中具有足够权限的个人将看到一个弹窗，提示您的待授权信息，请将下面的授权代码输入 TeamSpeak 弹窗窗口以进行授权。如果您不小心将 TeamSpeak 服务器 UID 设置错误，您可以在下面更改它。如果您没有看到来自 Sonoran Radio 的 TeamSpeak 弹窗，请验证您输入了正确的 UID，并且已安装至少 v0.2.0 的插件。否则，请联系支持。",
+    "title": "验证你的 TeamSpeak 服务器"
   },
   "billing": {
-    "alreadyActiveSub": "已激活订阅",
+    "alreadyActiveSub": "已拥有有效订阅",
     "changeServer": "更改服务器",
     "changeSvDialog": {
       "errSave": "更改订阅时发生意外错误",
@@ -36,17 +36,17 @@
       "subtitle": "选择服务器",
       "title": "更新订阅"
     },
-    "chooseSub": "选择订阅计划",
-    "compPlans": "比较计划",
+    "chooseSub": "选择订阅方案",
+    "compPlans": "比较方案",
     "confirmChangeSub": {
-      "possibleDataLoss": "如果转移或移除您的订阅，可能会丢失以前服务器上的数据。",
-      "remove": "您确定要从订阅中移除此服务器吗？",
+      "possibleDataLoss": "如果转移或移除你的订阅，之前服务器上的数据可能会丢失。",
+      "remove": "您确定要将此服务器从您的订阅中移除吗？",
       "set": "您确定要为您的订阅设置此服务器吗？",
       "title": "更改订阅",
-      "transfer": "您确定要将此订阅转移到其他服务器吗？"
+      "transfer": "您确定要将此订阅转移到另一个服务器吗？"
     },
-    "errCheck": "检查您的订阅时发生意外错误",
-    "isUnauthorized": "未经授权的服务器无法应用订阅",
+    "errCheck": "检查订阅时发生意外错误。",
+    "isUnauthorized": "订阅无法应用于未授权的服务器",
     "modifySub": "修改订阅",
     "newSub": "新订阅",
     "newSubDialog": {
@@ -55,12 +55,12 @@
       "errCreate": "创建订阅时发生意外错误",
       "expertInstallation": "专家安装",
       "mostPop": "最受欢迎",
-      "noServer": "无服务器",
-      "noServerDesc": "此订阅不会与社区关联。您可以稍后更改。",
+      "noServer": "没有服务器",
+      "noServerDesc": "此订阅将不会关联到社区。您可以稍后更改。",
       "one": "Sonoran One（$49.99/月）",
-      "oneLearnMore": "了解有关 Sonoran One 的更多信息",
-      "plus": "加计划（$14.99/月）",
-      "pro": "专业计划（$19.99/月）",
+      "oneLearnMore": "了解更多关于 Sonoran One",
+      "plus": "Plus 计划（$14.99/月）",
+      "pro": "Pro 计划（$19.99/月）",
       "title": "新订阅"
     },
     "noServerAssociated": "未关联服务器",
@@ -69,9 +69,9 @@
       "active": "活跃",
       "canceled": "已取消",
       "incomplete": "不完整",
-      "incomplete_expired": "不完整已过期",
-      "past_due": "过期",
-      "unpaid": "未支付"
+      "incomplete_expired": "不完整 已过期",
+      "past_due": "已逾期",
+      "unpaid": "未付款"
     },
     "toPortal": "返回门户"
   },
@@ -85,7 +85,7 @@
     "communityIdField": "社区 ID",
     "confirm": "确认",
     "copy": "复制",
-    "currently": "当前",
+    "currently": "目前",
     "delete": "删除",
     "edit": "编辑",
     "email": "电子邮件",
@@ -94,13 +94,13 @@
     "learnMore": "了解更多",
     "limited": "有限",
     "login": "登录",
-    "logout": "退出",
+    "logout": "退出登录",
     "management": "管理",
     "menu": "菜单",
     "miscServer": "服务器 {id}",
     "needsInteger": "必须是整数",
     "notApplicable": "不适用",
-    "only": "{0} 仅",
+    "only": "仅{0}",
     "password": "密码",
     "plans": {
       "free": "免费",
@@ -109,7 +109,7 @@
       "pro": "专业"
     },
     "portal": "门户",
-    "premium": "高级",
+    "premium": "高级版",
     "reenable": "重新启用",
     "refresh": "刷新",
     "save": "保存",
@@ -126,7 +126,7 @@
   },
   "error404": {
     "goHome": "返回首页",
-    "message": "哎呀。这里什么都没有..."
+    "message": "糟糕。这里什么也没有..."
   },
   "errors": {
     "common": {
@@ -134,26 +134,28 @@
       "enterPassword": "请输入密码。"
     },
     "misc": {
-      "noLocalStorageSupport": "您的浏览器不支持本地存储或可能已禁用。"
+      "noLocalStorageSupport": "您的浏览器不支持本地存储，或者它可能已被禁用。"
     },
     "signup": {
       "invalidEmail": "指定的电子邮件不是有效的电子邮件地址，请使用其他电子邮件地址。",
       "invalidPassword": "无效密码",
-      "noEmail": "没有指定电子邮件。",
+      "noEmail": "未指定电子邮件。",
       "noPassword": "未指定密码。",
-      "noUsername": "没有指定用户名。",
+      "noUsername": "未指定用户名。",
       "passwordNoNumber": "密码不包含任何数字",
-      "passwordNoSymbol": "密码不包含任何符号（'!@#$%^&*'）",
+      "passwordNoSymbol": "密码不包含任何符号 ({'!@#$%^&*'})",
       "passwordNotMoreThan": "密码不超过 6 个字符",
       "passwordNoUppercase": "密码不包含任何大写字母",
       "passwordsDontMatch": "密码不匹配。",
       "usernameInvalidCharacter": "用户名包含无效字符。",
-      "usernameNotLongEnough": "用户名长度不超过 4 个字符。",
-      "usernameTooLong": "用户名太长。"
+      "usernameNotLongEnough": "用户名不超过 4 个字符。",
+      "usernameTooLong": "用户名过长。"
     }
   },
   "fivemView": {
-    "browserLoginInstruction": "在浏览器中访问 {link} 来登录",
+    "browserLoginInstruction": "在浏览器中前往 {link} 登录",
+    "guestLogin": "访客登录",
+    "guestLoginInstruction": "以访客身份登录",
     "loginWithCode": "使用验证码登录",
     "refresh": "刷新",
     "unlink": "取消链接"
@@ -162,8 +164,12 @@
     "learnMore": "了解更多"
   },
   "hotkeys": {
-    "clearHotkey": "清除热键",
-    "noKeySet": "未设置键",
+    "clearHotkey": "清除快捷键",
+    "clickToEndRecording": "点击结束录制",
+    "focusDesktopRadio": "聚焦桌面收音机",
+    "noKeySet": "未设置快捷键",
+    "openConnectedUsers": "打开用户列表覆盖层",
+    "openDesktopOverlay": "打开覆盖层",
     "pressAKey": "按一个键",
     "toggleDesktopRadio": "切换桌面收音机"
   },
@@ -180,18 +186,18 @@
     "download": "下载",
     "export": "导出",
     "import": "导入",
-    "placeholder": "在此粘贴 JSON",
+    "placeholder": "在此处粘贴 JSON",
     "title": "JSON 导入/导出",
     "tooltip": "导入 JSON 文件"
   },
   "landingPage": {
     "BackgroundAudio": {
-      "desc": "响应呼叫中？Sonoran Radio 将实时警报声、枪声等直接注入到您的麦克风馈送中，提供终极沉浸体验。",
+      "desc": "接听电话中？Sonoran Radio 将实时警笛声、枪声等直接注入你的麦克风音频流，带来极致沉浸感。",
       "title": "背景音频"
     },
     "bigDaddyRadio": {
-      "desc": "Sonoran Radio 与 Big Daddy Scripts 合作，为您提供他们免费无线电动画脚本！",
-      "title": "大佬无线电动画"
+      "desc": "Sonoran Radio 与 Big Daddy Scripts 合作，提供他们的电台动画脚本的免费副本！",
+      "title": "大爸爸电台动画"
     },
     "Cloud_Configurations": {
       "desc": "通过我们易于使用的配置面板提供实时更新，自定义您的 radio 从未如此简单。",
@@ -199,54 +205,54 @@
     },
     "Customizable_SFX": {
       "desc": "配置隧道、地下位置等的信号丢失！",
-      "title": "可自定义的 SFX"
+      "title": "可定制的 SFX"
     },
     "Custom_Voice_Effects": {
-      "desc": "为您的社区定制数字和模拟风格的语音效果！",
+      "desc": "为您的社区自定义数字和模拟风格的语音效果！",
       "title": "自定义语音效果"
     },
     "Destructible_towers": {
-      "desc1": "游戏中的实体塔楼可以被罪犯摧毁，周围的广播质量将受到严重影响。",
-      "desc2": "通过三种不同的游戏模型类型，Sonoran Radio 将沉浸感提升到一个新水平！",
-      "title": "可破坏的塔"
+      "desc1": "游戏中的物理塔楼可以被罪犯摧毁，这会严重破坏周围无线电的质量。",
+      "desc2": "拥有三种不同的游戏内模型类型，Sonoran Radio 将沉浸感提升到新高度！",
+      "title": "可破坏塔楼"
     },
     "Dispatch_Panel": {
-      "desc1": "轻松可视化、管理用户、播放音调等等！",
-      "desc2": "Sonoran Radios 调度用户界面适用于所有网络和 Windows 和 OSX 桌面。",
+      "desc1": "轻松可视化、管理用户、播放提示音等更多功能！",
+      "desc2": "Sonoran Radios 调度 UI 可在 Web 和 Windows 及 OSX 桌面端的任何地方使用。",
       "title": "调度面板"
     },
     "EmergencyCalls": {
-      "desc": "从游戏中进行紧急呼叫调度！",
+      "desc": "在游戏内即可拨打紧急电话联系调度！",
       "title": "游戏内紧急呼叫"
     },
     "inGameToneBoard": {
       "desc": "Sonoran Radios 调度用户界面允许您指定特定频道和小组，重复音调等！您甚至可以在游戏扬声器上播放音调！",
-      "title": "游戏内音调板"
+      "title": "音色板到游戏内扬声器"
     },
-    "intro": "通过 Sonoran Radio 将您的游戏通信提升到一个新高度。在逼真的无线电频道中聊天，自定义您的语音效果，轻松连接到游戏功能，带来真正身临其境的体验。",
+    "intro": "使用 Sonoran Radio 将您的游戏沟通提升到新水平。在逼真的电台频道中聊天，自定义您的语音效果，并与游戏内功能无缝连接，获得真正沉浸式的体验。",
     "mobileCommandCenter": {
-      "desc": "Sonoran 的移动指挥中心让您以前所未有的方式指挥。这个独特的实用车带来了无限可能！",
+      "desc": "Sonorans 移动指挥中心让您以前所未有的方式掌控全局。这款独一无二的多功能车辆带来无限可能！",
       "title": "移动指挥中心"
     },
     "MultipleRadioOperations": {
-      "desc1": "Sonoran Radio 提供了多种游戏内用户界面，使您在地面上、车内等轻松连接！",
-      "desc2": "从我们的无线电样式选项中选择，甚至添加您自己的样式！",
-      "title": "多无线电选项"
+      "desc1": "Sonoran Radio 提供多个游戏内用户界面，让你在步行、车内等情况下保持连接！",
+      "desc2": "从我们的单选样式选项中选择一个，或者甚至添加您自己的！",
+      "title": "多个单选项"
     },
     "Power_Grid": {
-      "desc": "侵入集成电网以在您所在区域禁用 Sonoran Radio 塔楼！了解有关该脚本的更多信息！",
-      "title": "电力网"
+      "desc": "入侵集成电网，禁用你所在区域的 Sonoran 广播塔！了解更多关于这个脚本的信息！",
+      "title": "电网"
     },
     "Radio_Chattrer": {
-      "desc": "在交通停靠时被拦下？当附近有执法人员正在使用无线电时，您会听到真实的无线电闲聊！",
-      "title": "听到附近的无线电闲聊"
+      "desc": "被交通拦停了？当警官附近有正在使用的对讲机时，你会听到真实的电台通话！",
+      "title": "聆听附近的无线电闲谈"
     },
     "Scanners": {
-      "desc": "游戏内扫描器允许您及附近其他人监听无线电流量！",
+      "desc": "游戏内扫描器让你和附近的其他人可以监听无线电通信！",
       "title": "扫描器"
     },
     "Sonoran_CAD": {
-      "desc": "此插件允许 Sonoran Radio 客户将无线电连接到 Sonoran CAD。查看您的单位状态、调度呼叫信息、切换警报等等！",
+      "desc": "此插件允许 Sonoran Radio 客户将无线电与 Sonoran CAD 连接。查看你的单位状态、调度呼叫信息、切换 panic，以及更多功能！",
       "title": "Sonoran CAD"
     },
     "Sonoran_CMS": {
@@ -259,7 +265,7 @@
       "title": "音调板"
     },
     "Transmission_Logs": {
-      "desc": "查看和播放传输日志，并可选用 AI 驱动的文本转录！",
+      "desc": "查看并回放传输日志，可选 AI 文本转写！",
       "title": "传输日志"
     },
     "tunnelSignalLoss": {
@@ -267,29 +273,36 @@
       "title": "隧道信号丢失"
     },
     "VehicleDisplay": {
-      "desc": "我们的 3D 车辆无线电显示反映您的频道信息、发射用户以及实时发生的恐慌状态，带来新的沉浸水平！",
-      "title": "车辆显示"
+      "desc": "我们的 3D 车辆电台显示可实时反映您的频道信息、传输用户和紧急状态，带来全新的沉浸体验！",
+      "title": "车辆展示"
     }
   },
   "login": {
     "createAccount": "创建账户",
     "forgotPassword": "忘记密码",
-    "forgotPasswordDesc": "忘记了 Sonoran 账户密码？在下面输入您的电子邮件以重置您的凭据。",
+    "forgotPasswordDesc": "忘记了您的 Sonoran 帐户密码？在下方输入您的电子邮件以重置您的凭据。",
     "loginWithSonoran": "使用 Sonoran 登录"
   },
   "loginLink": {
-    "enterCode": "输入您的 4 位数代码..."
+    "enterCode": "输入您的4位验证码..."
   },
   "managementPage": {
     "searchTitle": "搜索社区",
-    "subtitle": "仅供未来的亿万富翁使用",
-    "title": "Sonoran 电台管理面板"
+    "subtitle": "仅供未来的亿万富翁",
+    "title": "索诺兰电台管理面板"
   },
   "manageServer": {
     "admin": {
-      "apiInfoHint": "邀请成员加入社区时给予他们",
+      "apiInfoHint": "邀请成员加入社区时将此提供给他们",
       "apiInfoTitle": "API 信息",
       "communityApiKeyField": "社区 API 密钥",
+      "communityLogs": "社区日志",
+      "logAccount": "来源（账户）",
+      "logContent": "内容",
+      "logDate": "日期",
+      "logSearch": "搜索",
+      "logSearchSubtitle": "查看你社区的所有可用日志，按类型、日期和内容筛选。",
+      "logSearchTitle": "搜索",
       "logType": "类型",
       "updateApiKey": "更新 API 密钥"
     },
@@ -304,7 +317,7 @@
     },
     "customDomain": {
       "chooseName": "选择您的域名",
-      "defaultRecordName": "@ 或空白",
+      "defaultRecordName": "@ 或留空",
       "dns": {
         "content": "内容",
         "name": "名称",
@@ -312,58 +325,136 @@
       },
       "ownershipHint": "您必须拥有您的域名！",
       "placeholder": "radio.example.com",
-      "requiresPro": "您必须拥有专业订阅才能设置自定义域",
+      "requiresPro": "您必须拥有 Pro 订阅才能设置自定义域名",
       "tryItOut": "试试看",
-      "vanityCopied": "已将个性化网址复制到剪贴板！",
+      "vanityCopied": "已将虚拟网址复制到剪贴板！",
       "vanityLabel": "个性化网址",
       "vanityTitle": "免费个性化网址",
-      "verified": "恭喜，您的自定义域已验证！",
+      "verified": "恭喜，你的自定义域名已验证！",
       "verifyButton": "验证自定义域",
       "verifyTitle": "验证你的域名"
     },
     "customizeDesktopFrames": {
+      "addButton": "添加按钮",
+      "bodyImage": "身体图像",
+      "cancel": "取消",
+      "chooseSkin": "选择皮肤.json",
+      "create": "创建",
+      "frameBodyImage": "框体图像",
+      "frameLabel": "框标签",
+      "frameWidth": "框宽度",
+      "importDefaultFrameType": "导入默认框类型",
+      "importFromSkin": "从 FiveM 导入（skin.json）",
+      "importNoFramesFound": "未找到包含 body.width 和 screen 的桌面框架。",
+      "label": "标签",
+      "newFrame": "新框",
+      "noneFound": "未找到此服务器的桌面框架。",
+      "saved": "桌面边框已保存。",
+      "screenPlaceholder": "这是屏幕",
+      "selectFrame": "选择框架",
       "tooltip": {
-        "dragBody": "移动组件"
-      }
+        "dragBody": "移动组件",
+        "dragTitle": "拖动",
+        "removeTitle": "右键",
+        "resizeBody": "调整组件大小",
+        "resizeTitle": "CTRL+拖动"
+      },
+      "upload": "上传"
     },
     "customizeMenu": {
       "ai": "AI",
-      "channelsGroups": "频道与组",
+      "channelsGroups": "频道与群组",
       "customDomain": "自定义域",
       "defaultSettings": "默认设置",
+      "desktopFrames": "桌面边框",
       "fivemIntegration": "FiveM 集成",
       "info": "信息",
       "patrolChannels": "巡逻频道",
       "permissions": "权限",
       "profiles": "个人资料",
-      "sfxCustomization": "音效定制",
+      "sfxCustomization": "SFX 自定义",
       "toneBoard": "音调板",
-      "voiceCustomization": "语音定制"
+      "voiceCustomization": "语音定制",
+      "zones": "区域"
     },
     "customizeTab": "自定义",
-    "deleteMsg": "您确定要删除此配置吗？这将导致数据不可恢复的丢失。",
+    "deleteMsg": "您确定要删除此配置吗？这将导致不可逆的数据丢失。",
     "deleteServer": "删除社区",
     "deleteSuccess": "服务器已成功删除",
     "dispatchTab": "调度",
     "emergency911": {
+      "callBtn": "拨打 911",
+      "connected": "已连接—您的通话正在转接至调度员。",
+      "connecting": "正在连接...",
+      "disconnectsDispatchHint": "开始通话将断开其他标签页中的任何活动调度会话。",
+      "dispatchersTitle": "本通电话的调度员",
+      "endBtn": "结束通话",
+      "selectRoom": "服务器",
+      "subtitle": "向这个社区的调度员拨打 911 电话。",
       "title": "紧急呼叫",
       "waitingDispatcher": "等待调度员接听..."
     },
-    "errImport": "导入 SAPR 配置时发生意外错误。",
-    "errImportNotFound": "未找到 TeamSpeak UID 的 SAPR 配置。",
+    "emergency911Tab": "911 呼叫",
+    "errImport": "导入您的 SAPR Config 时发生意外错误。",
+    "errImportNotFound": "未找到适用于你的 TeamSpeak UID 的 SAPR 配置。",
     "errSaveInfo": "保存服务器信息时发生意外错误。",
     "errServerCheck": "检查服务器时发生意外错误。",
-    "errUidTaken": "TeamSpeak 服务器 UID 已被另一个授权服务器使用。",
-    "errUnauthorize": "撤销授权服务器时发生意外错误。",
+    "errUidTaken": "该 TeamSpeak 服务器 UID 已被另一台已授权服务器使用。",
+    "errUnauthorize": "取消服务器授权时发生意外错误。",
     "explainOwnerOnly": "只有所有者可以更改此设置",
     "geoZoneViewer": {
+      "custom": "自定义",
       "customMap": {
+        "cancel": "取消",
+        "detectedTemplate": "检测到的模板: {template}",
+        "dialogInstructions": "选择图像文件（或文件夹）。检测期望文件名类似 something_12_34.png，其中 12=y 且 34=x。y 和 x 之间使用下划线。支持负坐标，例如 something_-12_34.png。",
+        "dialogInstructionsPrefix": "选择一个或多个图像用作自定义地图瓦片。图像文件名必须采用以下格式",
+        "dialogInstructionsSuffix": "（GTAV 风格）。",
+        "dialogSubtitle": "选择一个切片文件夹或切片文件。Sonoran Radio 将检测 URL 模板和地图范围。",
+        "dialogTitle": "自定义地图瓦片",
+        "fileSizeLimitError": "图块图像'{file}'超过了{limit}上传限制。",
+        "fileStats": "瓦片统计",
+        "fileStatsValue": "{matched} 已匹配 / {total} 张图像（估计缺少 {missing} 张）",
+        "invalidSeparator": "'{file}'中的分隔符无效。请在 y/x 之间使用下划线，例如 something_-12_34.png。",
+        "leafletBounds": "地图边界",
         "leafletBoundsPixels": "地图边界（像素）",
-        "uploadSuccess": "{count} 张图块图片上传成功。"
+        "matchedFiles": "匹配的文件",
+        "mismatchedTileSize": "所有图块必须大小相同。'{file}' 为 {width}x{height}，应为 {expectedWidth}x{expectedHeight}。",
+        "missingServer": "未选择用于上传的活动服务器。",
+        "noImages": "未选择图片文件。",
+        "openUploader": "上传瓦片",
+        "resolvedTemplate": "已解析模板",
+        "selectedSummary": "已选择 {count} 个瓦片图像（{total}）",
+        "selectFiles": "选择文件",
+        "selectFolder": "选择文件夹",
+        "statusFailed": "失败",
+        "statusPending": "待处理",
+        "statusUploaded": "已上传",
+        "statusUploading": "上传中",
+        "template": "模板",
+        "tileBounds": "图块边界（x/y 索引）",
+        "tileSize": "瓦片大小",
+        "unableReadDimensions": "无法从 '{file}' 读取图像尺寸。",
+        "uploadFailed": "瓦片上传失败。",
+        "uploadMissingUrl": "上传已完成，但未返回配置。",
+        "uploadProgress": "正在上传第 {current} 个图块，共 {total} 个",
+        "uploadSuccess": "{count} 张图块图片上传成功。",
+        "warningTileSizes": "检测到的切片并非都具有相同的尺寸。",
+        "warningUnmatched": "只有 {matched} 张图像与检测到的模板匹配，共 {total} 张。",
+        "zoomRange": "缩放范围"
       },
-      "degradeZones": "降级区域"
+      "degradeZones": "降级区域",
+      "degradeZonesDescription": "降级区域会降低信号强度。 例如：隧道、地下区域等。",
+      "emergencyZones": "紧急区域",
+      "emergencyZonesDescription": "紧急区域会根据位置告诉 AI 调度器将传入的紧急情况广播到哪些频道。",
+      "erlc": "ERLC",
+      "fivem": "FiveM",
+      "geoChannels": "地理频道",
+      "geoChannelsDescription": "地理频道会根据用户在游戏中的位置自动切换到特定频道。",
+      "mapType": "地图类型",
+      "server": "服务器"
     },
-    "guidesLink": "Sonoran Radio 信息和指南",
+    "guidesLink": "Sonoran Radio 信息与指南",
     "importSAPR": {
       "btn": "导入 SAPR 配置",
       "confirmMsg": "您即将导入 {n} 个频道。您确定吗？",
@@ -373,6 +464,9 @@
     "members": {
       "actions": "操作",
       "approveBtn": "批准",
+      "ban": "封禁",
+      "banBtn": "封禁",
+      "cannotModifyPermsOfMyself": "无法修改我自己的权限",
       "displayName": "显示名称",
       "editMemberPerms": "编辑成员权限",
       "errAddInvalidAccount": "提供的用户名不存在",
@@ -384,14 +478,14 @@
       "kickBtn": "踢出",
       "owner": "所有者",
       "ownerHasAllPerms": "社区所有者拥有所有权限",
-      "paysSubscription": "支付订阅费",
+      "paysSubscription": "支付订阅",
       "pending": "待处理",
       "permissionsBtn": "权限",
       "privateChannels": "私人频道",
       "remove": "移除",
       "removeWarn": "警告",
-      "removeWarnSelfMsg": "您确定要从该服务器移除自己吗？您将失去访问权限，并需要服务器所有者重新添加您。",
-      "removeWarnSubHolderMsg": "移除订阅持有人会将该服务器降级为免费！您确定要继续吗？",
+      "removeWarnSelfMsg": "你确定要将自己从此服务器移除吗？你将失去访问权限，服务器所有者将不得不重新添加你。",
+      "removeWarnSubHolderMsg": "移除订阅持有人将使此服务器降级为免费版！您确定要继续吗？",
       "search": "搜索",
       "selectPrivateChannels": "选择用户允许加入的私密频道",
       "setDisplayName": "设置显示名称",
@@ -399,91 +493,92 @@
       "subtitle": "管理社区中的用户权限和访问。",
       "title": "社区成员",
       "traits": "特点",
+      "unbanBtn": "解除封禁",
       "username": "用户名"
     },
     "membersTab": "成员",
     "micClick": {
-      "emergencyCallSfx": "紧急呼叫 SFX",
+      "emergencyCallSfx": "紧急呼叫音效",
       "header": "SFX 自定义",
       "keyDownSfx": "下键 SFX",
       "keyUpSfx": "上键 SFX",
-      "overrideSuccessSfx": "通话覆盖成功 SFX",
-      "panicSfx": "紧急按钮 SFX",
-      "sfxGameBoatEngine": "游戏内船发动机 SFX",
-      "sfxGameHelicopterRotors": "游戏内直升机旋翼 SFX",
+      "overrideSuccessSfx": "话筒覆盖成功音效",
+      "panicSfx": "紧急按钮音效",
+      "sfxGameBoatEngine": "游戏内船引擎音效",
+      "sfxGameHelicopterRotors": "游戏内直升机旋翼音效",
       "sfxGamePistol": "游戏内手枪 SFX",
       "sfxGamePistolSilenced": "游戏内消音手枪 SFX",
       "sfxGameRifle": "游戏内步枪 SFX",
       "sfxGameRifleSilenced": "游戏内消音步枪 SFX",
-      "sfxGameSiren": "游戏内警笛 SFX",
-      "sfxVolDown": "音量减少（热键） SFX",
+      "sfxGameSiren": "游戏内警报器 SFX",
+      "sfxVolDown": "音量降低（热键） SFX",
       "sfxVolUp": "音量增加（热键） SFX",
       "simulatedAudio": "游戏内背景音频 SFX",
-      "simulatedAudioSubtitle": "背景音频注入将游戏中的声音（如警笛声、直升机旋翼声、船发动机声和枪声）混合到您的麦克风输出中。",
+      "simulatedAudioSubtitle": "背景音频注入会将警笛、直升机旋翼、船只引擎和枪声等游戏内声音混入你的麦克风输出。",
       "subheader": "为您的整个社区自定义声音效果。",
-      "talkoverSfx": "通话覆盖 SFX"
+      "talkoverSfx": "Talkover SFX"
     },
     "myself": {
-      "subtitle": "查看和编辑您的社区设置",
-      "title": "您的社区信息"
+      "subtitle": "查看并编辑你的社区设置",
+      "title": "你的社区信息"
     },
-    "noPermPage": "您无权查看此页面",
+    "noPermPage": "你没有权限查看此页面",
     "patrolChannels": {
       "addChannel": "添加巡逻频道",
       "allowTalkover": "允许通话覆盖",
       "channelUid": "TS 频道 ID",
-      "channelUidInput": "TS 频道 ID - 必须",
-      "customizeTalkaround": "定制通话范围",
+      "channelUidInput": "TS 频道 ID - 必填",
+      "customizeTalkaround": "自定义通话范围",
       "dialogAddTitle": "添加巡逻频道",
       "dialogEditTitle": "编辑巡逻频道",
-      "dialogSubtitle": "巡逻频道是 TeamSpeak 频道，被列入白名单以使用 Sonoran Radio TeamSpeak 插件功能。在这里您将设置 TeamSpeak 频道 ID 并设置“巡逻频道”是否应允许通话覆盖。",
+      "dialogSubtitle": "巡逻频道是被列入白名单以使用 Sonoran Radio TeamSpeak 插件功能的 TeamSpeak 频道。在这里您将设置 TeamSpeak 频道 ID，并设置“巡逻频道”是否应允许抢话。",
       "errDelete": "删除巡逻频道时发生意外错误。",
       "errReenable": "启用巡逻频道时发生意外错误。",
       "errSave": "保存巡逻频道时发生意外错误。",
-      "explainDisabled": "由于降级到较低的计划，巡逻频道已禁用，您必须删除其他巡逻频道才能重新启用此频道。",
-      "explainDisabledCanReenable": "由于降级到较低的计划，巡逻频道已禁用，但您可以在下拉菜单中重新启用！",
-      "legacyChannelUidWarn": "这种形式的频道 ID 已被弃用。请升级到最新版本的 Sonoran Radio TS 并更新为新的数字 ID",
+      "explainDisabled": "由于降级到较低的计划，巡逻频道已禁用，您必须删除其他巡逻频道才能重新启用此巡逻频道。",
+      "explainDisabledCanReenable": "由于降级到较低的计划，巡逻频道已禁用，但您可以在下拉菜单中重新启用它！",
+      "legacyChannelUidWarn": "此种频道 ID 已弃用。请升级到最新版本的 Sonoran Radio TS 并更新为新的数字 ID",
       "nickname": "昵称",
       "range": {
         "long": "长距离",
-        "medium": "中距离",
+        "medium": "中等范围",
         "short": "短距离"
       },
-      "subtitle": "巡逻频道是 TeamSpeak 频道，已被列入白名单以使用 Sonoran Radio TeamSpeak 插件功能。",
+      "subtitle": "巡逻频道是被列入白名单以使用 Sonoran Radio TeamSpeak 插件功能的 TeamSpeak 频道。",
       "talkAroundRange": "通话范围",
       "title": "巡逻频道"
     },
     "perms": {
       "addPerm": "添加权限",
-      "dialogSubtitle": "为服务器组在 Sonoran Radio 中授予特定权限。要了解有关权限及如何获取服务器组的更多信息，请参阅 Sonoran Radio 文档。",
+      "dialogSubtitle": "在 Sonoran Radio 中为服务器组赋予特定权限。要了解有关权限以及如何获取服务器组的更多信息，请参阅 Sonoran Radio 文档。",
       "dialogTitle": "添加权限",
       "errDelete": "删除权限时发生意外错误。",
       "errSave": "保存权限时发生意外错误。",
-      "explainPrefix": "这有什么用？",
-      "invalidGroupId": "无效的服务器组，必须为数字。",
+      "explainPrefix": "这有什么作用？",
+      "invalidGroupId": "无效的服务器组，必须是一个数字。",
       "nickname": "昵称",
       "permInput": "权限",
       "permName": "权限名称",
       "serverGroup": "服务器组",
-      "serverGroupInput": "服务器组 - 必须",
-      "subtitle": "权限允许您更改用户如何与 Sonoran Radio 插件交互，以及他们可以与什么交互。",
+      "serverGroupInput": "服务器组 - 必填",
+      "subtitle": "权限允许你更改用户与 Sonoran Radio 插件的交互方式，以及他们可以与什么进行交互。",
       "title": "权限",
       "types": {
         "dispatch::ext_commands": {
-          "desc": "此权限授予通过调度用户界面更改频道用户的频率和昵称的能力",
+          "desc": "此权限授予通过 Dispatch 界面更改频道用户频率和昵称的能力",
           "name": "修改频道用户"
         },
         "dispatch::open": {
-          "desc": "此权限授予打开调度用户界面的能力",
-          "name": "打开调度用户界面"
+          "desc": "此权限授予打开 Dispatch UI 的能力",
+          "name": "打开 调度 UI"
         },
         "menu::radio_attn": {
-          "desc": "此权限授予您在其他用户的无线电上播放声音以吸引他们注意力的能力",
+          "desc": "此权限可让你在其他用户的无线电上播放声音以吸引他们的注意",
           "name": "广播注意"
         },
         "menu::radio_lock": {
-          "desc": "此权限允许您在其他人已经在发射时阻止其发射",
-          "name": "无线电锁定"
+          "desc": "此权限允许你在他人已在传输时中止其传输",
+          "name": "电台锁定"
         },
         "tg::talkover_override": {
           "desc": "此权限授予您可以双击 PTT 按钮以进行通话覆盖的能力",
@@ -496,14 +591,14 @@
       "addProfile": "添加配置文件",
       "addProfileStandalone": "添加频道",
       "advancedMode": "高级",
-      "basicMode": "基本",
+      "basicMode": "基础",
       "defaultProfile": "默认配置文件",
       "deleteGroup": "删除组",
       "dialogAddTitle": "添加配置文件",
       "dialogAddTitleStandalone": "添加频道",
       "dialogEditTitle": "编辑配置文件",
       "dialogEditTitleStandalone": "编辑频道",
-      "dialogSubtitle": "配置文件是预设的频率设置，允许在特定频率之间轻松切换，无需手动输入每个频率。在这里，您将设置显示名称（可选）、接收频率（必需）、发射频率（可选），以及是否重复发射频率。",
+      "dialogSubtitle": "配置文件是一种预设的频率设置，可在特定频率之间轻松切换，无需手动输入每个频率。在这里，您将设置显示名称（可选）、接收频率（必填）、发射频率（可选），以及发射频率是否重复。",
       "displayName": "显示名称",
       "displayNameInput": "显示名称 - 必填",
       "editGroup": "编辑组",
@@ -511,47 +606,109 @@
       "errReenable": "重新启用配置文件时发生意外错误。",
       "errSave": "保存配置文件时发生意外错误。",
       "errSetDefault": "设置默认配置文件时发生意外错误。",
-      "explainDisabled": "配置文件因降级到较低方案而被禁用，您必须删除其他配置文件才能重新启用此配置文件。",
-      "explainDisabledCanReenable": "配置文件因降级到较低方案而被禁用，但您可以在下拉菜单中重新启用此配置文件！",
+      "explainDisabled": "由于降级到较低的计划，配置文件已禁用，您必须删除其他配置文件才能重新启用此配置文件。",
+      "explainDisabledCanReenable": "由于降级到较低的计划，配置文件已禁用，但您可以在下拉菜单中重新启用此配置文件！",
       "groupName": "组名",
       "preventTalkover": "防止通话覆盖",
       "privateChannel": "私人频道",
       "pronounce": "发音",
-      "pronounceTooltip": "AI 频道文本到语音的高级发音。",
+      "pronounceTooltip": "用于 AI 频道文本转语音的高级发音。",
       "recvFreq": "接收频率",
-      "recvFreqTooltip": "接收传输的频率。这仅用于无线电用户界面的美观。",
-      "reorder": "重新排序配置文件",
+      "recvFreqTooltip": "用于接收传输的频率。这仅用于无线电 UI 的美观。",
+      "reorder": "重新排序个人资料",
       "reorderStandalone": "重新排序 频道",
       "repeatsXmit": "重复发射频率",
-      "setAsDefault": "设置为默认配置文件",
-      "sharedTooltip": "共享频道镜像另一个链接频道的访问权限和频率。连接到任意一个可以访问相同的通信流。",
+      "setAsDefault": "设为默认配置文件",
+      "sharedTooltip": "共享频道会镜像另一个关联频道的访问权限和频率。连接任一频道都可访问相同的通信流。",
       "shareWith": "共享给",
-      "standardTooltip": "标准频道独立运作，拥有自己的频率和访问权限。频道应独立时请使用此模式。",
+      "standardTooltip": "标准频道独立运行，具有各自的频率和访问。 当频道应为独立时，使用此模式。",
       "subtitle": "配置文件是预设的频率设置，允许在特定频率之间轻松切换，无需手动输入每个频率。",
       "talkoverAllowed": "允许通话覆盖",
-      "talkoverPrevented": "防止通话覆盖",
-      "title": "配置文件",
+      "talkoverPrevented": "已防止通话覆盖",
+      "title": "个人资料",
       "titleStandalone": "频道",
-      "ttsFailed": "文本到语音生成失败或不存在。\n重新保存频道以生成。",
+      "ttsFailed": "文本转语音生成失败或不存在。\\n重新保存频道以生成。",
       "ttsPreview": "文本到语音预览",
       "visibility": "可见性",
       "visibilityOptions": {
-        "private": "私密",
+        "private": "私人",
         "public": "公开"
       },
       "voiceEffect": "语音效果",
       "xmitFreq": "发射频率",
-      "xmitFreqTooltip": "传输频率。这仅用于无线电用户界面的美观。"
+      "xmitFreqTooltip": "发送传输的频率。这仅用于无线电用户界面的美观。"
     },
     "saveInfo": "保存服务器信息",
     "saveServer": "保存服务器",
     "serverInfo": {
       "addServer": "添加服务器",
       "cadPrompts": {
+        "addPhrase": "添加短语",
+        "emptyState": "尚未添加短语。",
         "subtitle": "帮助 Dispatch AI 将请求映射到 CAD/Radio 功能的自定义短语。",
+        "title": "示例提示",
         "tools": {
+          "addCallNote": {
+            "hint": "示例：\"给我的通话添加备注\"",
+            "label": "添加通话备注",
+            "placeholder": "给我的通话添加备注"
+          },
+          "attachToCall": {
+            "hint": "示例：\"attach me to call...\"",
+            "label": "附加到通话",
+            "placeholder": "附加我到通话..."
+          },
+          "closeCall": {
+            "hint": "示例：\"结束我的通话\"",
+            "label": "结束通话",
+            "placeholder": "结束我的通话"
+          },
+          "createCall": {
+            "hint": "示例: \"为 Main St 创建一个 10-50 的通话\"",
+            "label": "创建通话",
+            "placeholder": "为 Main St 创建一个 10-50 的通话"
+          },
           "getRecentCadEvents": {
-            "hint": "示例：\"最新通话\", \"最近恐慌\", \"那个通话\""
+            "hint": "示例：\"最新通话是什么\"，\"最近惊慌\"，\"那个通话\"",
+            "label": "最近事件",
+            "placeholder": "最新通话是什么？"
+          },
+          "getRecordTemplates": {
+            "hint": "示例：\"列出记录模板\"，\"显示可用记录\"",
+            "label": "记录模板",
+            "placeholder": "列出记录模板"
+          },
+          "identsToGroup": {
+            "hint": "示例：\"将组 Alpha 设置到单元 D-12、D-14 上\"，\"清除单元 D-12、D-14 的组\"",
+            "label": "分组单位"
+          },
+          "lookup": {
+            "hint": "例如：\"运行一个牌照 ABC123\"，\"查询 John Smith\"",
+            "label": "人员或车牌查找",
+            "placeholder": "运行一个牌照 ABC123"
+          },
+          "routeToCoordinates": {
+            "hint": "示例: \"route to X 123.4 Y 567.8\", \"set GPS to coordinates\"",
+            "label": "导航到坐标",
+            "placeholder": "路由到 X 123.4 Y 567.8"
+          },
+          "routeToPostal": {
+            "hint": "示例：“将我路由到邮政1234”，“将GPS设置为邮政90210”",
+            "label": "路由到邮政"
+          },
+          "status": {
+            "hint": "示例：\"将我的状态设为可用\"，\"显示我不可用\"",
+            "label": "状态更新"
+          },
+          "togglePanic": {
+            "hint": "示例：\"激活我的 panic\"，\"清除我的 panic\"",
+            "label": "切换恐慌",
+            "placeholder": "激活我的 panic"
+          },
+          "unattachFromCall": {
+            "hint": "示例：\"detach me from the call\"",
+            "label": "取消与通话的关联",
+            "placeholder": "将我从通话中移除"
           }
         }
       },
@@ -560,56 +717,103 @@
         "id": "ID",
         "name": "名称",
         "origin": "IP/来源",
-        "pushUrl": "推送网址"
+        "pushUrl": "推送 URL"
       },
       "communityServers": "社区服务器",
-      "communityServersSubtitle": "添加或移除服务器以分隔您的无线电通信",
-      "customCommunityIdHint": "设置您的自定义社区 ID，这用于个性化网址、FiveM 资源和加入社区"
+      "communityServersSubtitle": "添加或移除服务器以分隔你的无线电通信",
+      "customCommunityIdHint": "设置你的自定义社区 ID，用于个性化 URL、FiveM 资源，以及加入社区",
+      "disabled": "已禁用",
+      "dispatchAiPause": "当人工派发处于 CAD 时禁用",
+      "enabled": "已启用",
+      "openAiApiKey": "Open AI API 密钥",
+      "openAiApiKeyHint": "提供自带的 OpenAI API 密钥以启用 Dispatch AI 功能。"
     },
     "settings": {
       "agc": "自动增益控制",
       "agcDesc": "自动调整麦克风输入音量以平衡所有用户的音量。",
+      "aiRepliesOnlyMe": "AI 仅回复我",
+      "aiRepliesOnlyMeDesc": "仅在 AI 代理直接回复你时听到它，不听完整频道。",
+      "echoAutoXmit": "听 AI 提示",
+      "echoAutoXmitDesc": "在追捕时听到你自己的 AI 位置提示。",
       "hearOtherPttSfx": "播放其他人的 PTT SFX",
-      "hearOtherPttSfxDesc": "其他用户按下麦克风时播放 PTT 声音。",
+      "hearOtherPttSfxDesc": "当其他用户松开麦克风时播放 PTT 声音。",
       "hearPttSfx": "播放 PTT SFX",
-      "hearPttSfxDesc": "按下麦克风时播放 PTT 声音。",
-      "keyUpDelay": "按键延迟",
+      "hearPttSfxDesc": "当你松开麦克风时播放 PTT 声音。",
+      "keyUpDelay": "按键抬起延迟",
       "keyUpDelayDesc": "终止传输后麦克释放前的延迟。",
-      "muteScannedWhileTransmitting": "在发射时静音扫描",
+      "muteScannedWhileTransmitting": "在发射时将扫描静音",
       "muteScannedWhileTransmittingDesc": "在发射时将扫描频道静音。",
-      "sirenVolume": "警笛音量",
-      "sirenVolumeDesc": "在游戏中的警笛激活时，添加/减少音量。",
-      "subtitle": "为您的社区配置默认设置。用户可以个性化自己的偏好，但这些将作为起始默认值。",
+      "sirenVolume": "启用警报器时的音量增强",
+      "sirenVolumeDesc": "当车辆警报器处于激活状态时，按此百分比提高用户的对讲机音量。",
+      "subtitle": "配置你社区的默认设置。用户可以自定义自己的偏好，但这些将作为起始默认值。",
       "title": "默认设置",
       "tts": "频道文本到语音",
-      "ttsDesc": "变更频道时播放频道名称的文本到语音声音。",
-      "volChange": "音量变化",
-      "volChangeDesc": "使用音量上下热键时的音量变化百分比。"
+      "ttsDesc": "切换频道时播放频道名称的文本转语音语音。",
+      "volChange": "音量更改",
+      "volChangeDesc": "使用音量增减热键时的音量变化 %。",
+      "wakeWord": "唤醒词（AI）",
+      "wakeWordDesc": "用于激活 Dispatch AI 的唤醒词。"
     },
     "toPortal": "返回门户",
     "transfer": {
       "cancel": "取消",
       "confirmInstruction": "输入 {code} 以确认转移（区分大小写）",
       "confirmLabel": "确认转移",
-      "ok": "确定",
-      "requestCreatedMsg": "转移尚未完成！一封验证邮件已向您发送",
+      "ok": "好",
+      "requestCreatedMsg": "转移尚未完成！已向您发送一封电子邮件以进行额外验证",
       "requestCreatedTitle": "转移请求已创建",
       "selectNewOwner": "选择新所有者",
       "title": "转移社区",
-      "warning": "您确定要转移您的社区吗？您将不再是该社区的所有者，并可能失去您的权限"
+      "warning": "你确定要转移你的社区吗？你将不再是这个社区的所有者，而且你可能会失去你的权限"
     },
-    "transferServer": "转让社区",
-    "unauthorizeMsg": "您确定要撤销此配置的授权吗？",
-    "unauthorizeServer": "撤销授权服务器",
-    "unauthorizeSuccess": "服务器已成功撤销授权",
+    "transferServer": "转移社区",
+    "unauthorizeMsg": "您确定要取消对此配置的授权吗？",
+    "unauthorizeServer": "取消服务器授权",
+    "unauthorizeSuccess": "您的服务器已成功取消授权",
     "voiceCustomization": {
-      "header": "语音自定义",
+      "analogAggressiveness": "模拟激进度",
+      "analogAggressivenessDescription": "控制模拟失真和嘶声积累的速度。",
+      "analogDescription": "融合嘶声、带宽损失和柔和失真，呈现经典模拟手持音效。",
+      "clippingAggressiveness": "剪辑激进度",
+      "clippingAggressivenessDescription": "随着信号质量下降，更强地推动削波。",
+      "clippingDescription": "裁切部分信号以模拟掉线、门控和粗糙的故障传输。",
+      "constantStatic": "静态",
+      "constantStaticDescription": "在 效果 中 添加 一层 稳定 的 背景 噪音。",
+      "digitalAggressiveness": "数字攻击性",
+      "digitalAggressivenessDescription": "让数字失真更快增强。",
+      "digitalDescription": "添加比特压缩静噪和刺耳伪影，带来不稳定的数字无线电流量感。",
+      "disabled": "已禁用",
+      "enabled": "已启用",
+      "equalizerDescription": "在失真之前塑造音色，让你可以提亮、变薄或压暗源语音。",
+      "header": "语音定制",
       "input": "输入",
+      "localVocoderPerformanceWarning": "强烈建议：在社区/频道级别启用 vocoder。否则，您的本地客户端必须自行对每个传入流进行 vocode，这会增加处理负载并可能降低性能。",
+      "maximumAnalogDistortion": "最大模拟",
+      "maximumAnalogDistortionDescription": "限制施加的最强模拟失真。",
+      "maximumClipping": "最大剪辑",
+      "maximumClippingDescription": "限制削波掉音的严重程度。",
+      "maximumDigitalDistortion": "最大数字",
+      "maximumDigitalDistortionDescription": "限制 数字 伪影 的 强度 上限。",
+      "minimumAnalogDistortion": "最小模拟",
+      "minimumAnalogDistortionDescription": "即使在更好的信号水平下也会增加模拟粗糙度下限。",
+      "minimumClipping": "最小剪辑",
+      "minimumClippingDescription": "设置信号中断的最低概率。",
+      "minimumDigitalDistortion": "最小数字",
+      "minimumDigitalDistortionDescription": "保持音频中的基础数字失真水平。",
       "name": "名称",
+      "postEqualizerDescription": "对效果链之后的最终输出进行微调，以去除最后一点润色或刺耳感。",
+      "previewEffects": "预览效果",
+      "receiveSignal": "接收信号",
+      "receiveSignalDescription": "控制预览接收端在传输丢失后声音劣化的程度",
       "signalStrength": "信号强度",
-      "subheader": "为您的社区自定义无线电语音效果。",
+      "signalStrengthDescription": "预览当您的发出和接收无线电信号质量变化时效果的反应。",
+      "stopPreview": "停止预览",
+      "subheader": "为您的社区自定义广播语音效果。",
+      "transmitSignal": "传输信号",
+      "transmitSignalDescription": "控制预览中你自己的传出无线电信号听起来有多强",
       "useForEmergency": "用于紧急呼叫",
-      "vocoderPreviewWarning": "编码器音频预览尚不可用。"
+      "vocoderDescription": "将语音压缩为低比特率语音配置文件的合成无线电编解码器音效。",
+      "vocoderPreviewWarning": "Vocoder 音频预览尚不可用。"
     }
   },
   "misc": {
@@ -620,171 +824,201 @@
   "portal": {
     "beginTitle": "开始您的旅程",
     "beginYourJourney": "开始您的旅程！",
-    "billingPortal": "订阅和账单",
-    "discovery": "探索",
-    "discoveryActiveMembers": "这个社区拥有一些最活跃的成员",
-    "discoveryGrowingRapidly": "这个社区正在迅速增长",
+    "billingPortal": "订阅与账单",
+    "discovery": "发现",
+    "discoveryActiveMembers": "这个社区有一些最活跃的成员",
+    "discoveryGrowingRapidly": "这个社区正在快速增长",
     "discoveryHighTraffic": "这个社区正在接收高网站流量",
-    "discoveryRecentlyBumped": "这个社区最近被宣推",
+    "discoveryRecentlyBumped": "此社区最近被顶起",
     "documentation": "文档",
-    "joinACommunity": "加入 Sonoran Radio 社区",
+    "joinACommunity": "加入一个 Sonoran Radio 社区",
     "leaveServer": "离开",
     "myCommunities": "我的社区",
     "needACommunity": "需要一个新的 Sonoran Radio 社区？",
-    "needsMemberAuth": "待批准",
-    "needsTsAuth": "需要 TeamSpeak3 授权",
+    "needsMemberAuth": "待审批",
+    "needsTsAuth": "需要 TeamSpeak3 认证",
     "pendingAuth": "待授权",
-    "subtitle": "欢迎来到行动基地！在这里，您可以在账单门户中编辑订阅，使用简单的配置面板管理社区设置，或通过我们的设置向导注册一个全新的服务器。",
-    "title": "Sonoran Radio 门户",
+    "subtitle": "欢迎来到运营基地！在这里，您可以在 Billing Portal 中编辑订阅，使用简单的 Configuration Panel 管理社区设置，或者通过我们的设置向导注册全新的服务器。",
+    "title": "索诺兰广播门户",
     "upgradeServer": "升级"
   },
   "pricing": {
-    "description": "Sonoran Radio 的付费订阅可让您访问高级功能、定制、增加的限制等等！",
+    "description": "Sonoran Radio 的付费订阅可让您使用高级功能、自定义、更高限制等更多内容！",
     "dispatchPanel": "调度面板",
-    "dispatchPanelDescription": "TeamSpeak 对话框允许您更改您的无线电或其他人的无线电设置。",
+    "dispatchPanelDescription": "让你更改自己的无线电或他人的无线电设置的 TeamSpeak 对话框。",
     "fivemRadio": "FiveM 手持无线电",
-    "fivemRadioDescription": "FiveM 手持无线电允许您更改频率，扫描列表和其他无线电设置",
-    "fivemTowerDestruction": "FiveM 塔楼破坏",
-    "fivemTowerDestructionDescription": "玩家可以破坏物理塔楼以削弱无线电接收的（可选）能力。",
-    "fivemTowers": "FiveM 物理塔",
+    "fivemRadioDescription": "FiveM 手持对讲机允许你更改你的频率、扫描列表和其他对讲机设置",
+    "fivemTowerDestruction": "FiveM 塔楼毁坏",
+    "fivemTowerDestructionDescription": "玩家可（可选）摧毁实体塔以削弱无线电接收的能力。",
+    "fivemTowers": "FiveM 实体塔楼",
     "fivemTowersDescription": "塔模拟对物理塔的接收，基于您的距离。位置和范围可自定义。",
     "howToPurchase": "如何购买",
-    "monthCostDescription": "我们的月度订阅套餐成本。",
-    "onlyOnStatewide": "仅限于全州范围内的频率。",
-    "onlySelfFrequencies": "仅允许更改您自己的频率",
+    "monthCostDescription": "我们的月度订阅套餐费用。",
+    "onlyOnStatewide": "仅允许用于全州频率。",
+    "onlySelfFrequencies": "仅可修改自己的频率",
     "patrolChannels": "巡逻频道",
-    "patrolChannelsDescription": "可使用无线电插件的 TeamSpeak 频道数量。",
-    "planPricing": "计划定价",
+    "patrolChannelsDescription": "可使用电台插件的 TeamSpeak 频道数量。",
+    "planPricing": "方案定价",
     "plans": {
       "free": "免费",
       "plus": "加",
       "pro": "专业"
     },
     "pricing": "定价",
-    "profileLimits": "配置文件限制",
+    "profileLimits": "档案限制",
     "profileLimitsDescription": "允许的配置文件数量。",
     "statewideFrequencyLimits": "全州频率限制",
     "statewideFrequencyLimitsDescription": "允许的全州频率数量。",
-    "talkaroundFrequencies": "通话频率",
+    "talkaroundFrequencies": "对讲频率",
     "talkaroundFrequenciesDescription": "通话频率允许个人进行无线对无线通话，而不是无线对塔楼。",
-    "talkoverProtection": "通话保护",
-    "talkoverProtectionDescription": "通话保护允许在同一时间只有一个人进行通话。",
+    "talkoverProtection": "通话覆盖保护",
+    "talkoverProtectionDescription": "频率对讲保护一次只允许一人对讲。",
     "toBilling": "返回账单",
-    "unlimited": "无限"
+    "unlimited": "无限制"
   },
   "radio": {
     "addNewChannel": "添加新频道",
     "backToPortal": "返回门户",
     "channelDialog": {
-      "channelTitle": "变更频道",
+      "channelTitle": "更改频道",
       "scanTitle": "扫描列表"
     },
     "channelList": "频道列表",
     "configureChannel": "配置 {0}",
     "connect": "连接",
-    "hiddenChannel": "隐藏频道（仅您可见）",
+    "hiddenChannel": "隐藏频道（仅对您可见）",
     "listenScan": "收听 {0}",
-    "microphonePTT": "麦克风 PTT",
-    "multiXmit": "CTRL + 点击多点发射",
+    "microphonePTT": "麦克风 按住说话",
+    "multiXmit": "CTRL + 点击 多点发射",
     "muteScan": "静音 {0}",
+    "openInDesktopFrame": "打开覆盖层",
     "openInNewWindow": "在新窗口中打开",
     "openUserList": "打开用户列表覆盖层",
-    "recvFreq": "接收：{0}MHz",
+    "recvFreq": "接收: {0}MHz",
     "scanList": "扫描列表",
     "selectServer": "选择服务器",
-    "setHotkeyFor": "为 {0} 设置热键",
+    "setHotkeyFor": "为 {0} 设置快捷键",
     "settingsDialog": {
       "advanced": "高级",
+      "agentGain": "AI 音量",
+      "aiRepliesOnlyMe": "仅听我收到的 AI 回复",
+      "aiWakeWordKeyword": "AI 唤醒词",
+      "aiWakeWordKeywordSelect": "唤醒词短语",
       "audioTab": "音频",
       "automaticGainControlDisabled": "自动增益控制已禁用",
       "automaticGainControlEnabled": "自动增益控制已启用",
-      "changingOutputsUnsupported": "您的设备不支持更改音频输出",
+      "changingOutputsUnsupported": "你的设备不支持更改音频输出",
       "channelTts": "频道 TTS",
-      "escapeMode": "逃脱模式",
-      "escapeModeHide": "隐藏无线电",
-      "escapeModeHideTooltip": "按 ESC 时无线电关闭",
-      "escapeModeKeep": "保持无线电可见",
-      "escapeModeKeepTooltip": "按 ESC 时无线电保持可见",
+      "defaultOutputWarning": "默认输出可能会导致 Windows 降低其他应用的音量。请尝试选择特定设备。",
+      "enableTransmissionRecordings": "启用传输录音",
+      "escapeMode": "退出模式",
+      "escapeModeHide": "隐藏收音机",
+      "escapeModeHideTooltip": "单选按钮在 ESC 时关闭",
+      "escapeModeKeep": "保持 Radio 可见",
+      "escapeModeKeepTooltip": "按 ESC 时收音机保持可见",
       "escapeModeXmit": "发射（PTT）",
-      "escapeModeXmitTooltip": "按 ESC 时无线电关闭，但发射时可见",
+      "escapeModeXmitTooltip": "无线电在 ESC 时关闭，但在发射时可见",
       "fivemTab": "FiveM",
+      "hearAllAiReplies": "听取所有 AI 回复",
       "hearScannedWhileXmit": "在发射时听扫描频道",
-      "hotkeysTab": "热键",
-      "keydownSfx": "释放键 SFX",
-      "keyupSfx": "按键 SFX",
+      "hotkeysTab": "快捷键",
+      "keydownSfx": "按键 SFX",
+      "keyupSfx": "上键 SFX",
       "macosPermWarning": "您的设备可能需要额外的权限：{link}",
       "macosPermWarningLink": "了解如何授予权限",
       "moveResize": "移动/调整大小",
       "myPttSfx": "我的 PTT SFX",
       "othersPttSfx": "其他人的 PTT SFX",
-      "pttOffDelay": "PTT-Off 延迟",
+      "privacyTab": "隐私",
+      "pttOffDelay": "PTT关闭延迟",
+      "recordWakeWord": "录制唤醒词",
+      "recordWakeWordListening": "正在聆听...",
       "resetPeerVolumes": "重置对等音量",
       "resetSettings": "重置设置",
-      "selectRadioFrame": "无线电框架",
-      "sfxTab": "SFX",
+      "selectRadioFrame": "电台框架",
+      "sfxTab": "音效",
       "sfxVolume": "SFX 音量",
       "title": "设置",
       "toggleBackgroundAudio": "背景音频",
-      "troubleHearingInGame": "在游戏中听不清楚？",
+      "troubleHearingInGame": "在游戏中听不清吗？：",
       "unlink": "取消链接",
+      "voiceFxCommunity": "社区 FX",
+      "voiceFxEmpty": "创建或导入本地语音效果以启用本地收听。",
+      "voiceFxLocal": "本地 FX",
+      "voiceFxMode": "语音 FX 模式",
+      "voiceFxTab": "语音 FX",
       "volume": "音量",
-      "volumeChangeSirens": "音量变化/警笛声",
+      "volumeChangeSirens": "音量更改带警报",
       "volumeHotkeyChange": "音量热键更改",
-      "webHotkeyWarning": "热键仅在浏览器窗口处于焦点时有效。{link} 可用于全局热键",
-      "webHotkeyWarningLink": "下载桌面应用程序"
+      "wakeWord": "唤醒词（AI）",
+      "wakeWordListenSeconds": "唤醒词监听秒数",
+      "wakeWordRecordNoSpeech": "未检测到语音。请检查你的麦克风并重试。",
+      "webHotkeyWarning": "快捷键仅在浏览器窗口获得焦点时生效。\n{link} 用于全局快捷键",
+      "webHotkeyWarningLink": "下载桌面应用"
     },
     "showChannelIds": "显示频道 ID",
-    "stopXmit": "停止发射",
+    "stopXmit": "停止 XMIT",
     "toneBoard": {
       "aiMode": "AI 模式",
-      "aiTts": "AI 文本到语音",
+      "aiTts": "AI文本到语音",
       "audioMode": "音频模式",
+      "audioRecording": "音频录音",
       "broadcastTo": "广播到",
       "count": "计数",
+      "deleteStack": "删除堆栈",
       "generate": "生成",
       "inGameSpeaker": "游戏内扬声器",
       "inGameSpeakerGroup": "游戏内扬声器组",
-      "newTone": "新音调",
-      "noTones": "无音调",
+      "loadStack": "加载堆栈（单击）",
+      "newTone": "新音色",
+      "noSavedStacks": "还没有保存的堆叠。",
+      "noTones": "无铃声",
+      "playStack": "播放堆栈（双击）",
       "preview": "预览",
       "recording": "录音",
+      "recordMic": "录制 麦克风",
       "repeat": "重复",
+      "savedTab": "已保存的堆叠",
+      "saveStackDesc": "为你的音色堆栈命名",
+      "saveStackTitle": "保存叠层",
       "seconds": "秒",
+      "speechToText": "语音到文本",
       "speed": "速度",
-      "stack": "堆叠",
+      "stack": "叠层",
       "subtitle": "为您的社区定制广播音调",
       "title": "音调板",
       "toneLabel": "音调标签",
+      "tonesTab": "铃声",
       "voices": "声音"
     },
-    "xmitFreq": "发射 {0}MHz"
+    "xmitFreq": "XMIT {0} MHz"
   },
   "registerServer": {
-    "errExists": "提供的 TeamSpeak 服务器 UID 在一个已验证的服务器上已存在，请使用其他 TS 服务器 UID",
+    "errExists": "提供的 TeamSpeak 服务器 UID 已存在于已验证的服务器上，请使用其他 TS 服务器 UID",
     "errUnknown": "获取服务器信息时发生错误，请稍后再试。",
     "registerAStandServer": "注册社区",
     "registerAStandServerDesc": "注册你的社区以使用 Sonoran Radio。",
     "registerATSServer": "注册 TeamSpeak 服务器",
-    "registerATSServerDesc": "注册您的 TeamSpeak 服务器，以便您的服务器可以使用 Sonoran Radio TeamSpeak 插件。",
-    "submit": "注册服务器"
+    "registerATSServerDesc": "注册您的 TeamSpeak 服务器，以允许您的服务器能够使用 Sonoran Radio TeamSpeak 插件。",
+    "submit": "注册 服务器"
   },
   "serverCommon": {
     "nicknameInput": "昵称",
-    "nicknameInputDesc": "为您的社区设置一个自定义昵称，您和您的成员将看到",
+    "nicknameInputDesc": "为你的社区设置一个自定义昵称，你和成员都会看到",
     "serverUidInput": "TeamSpeak 服务器 UID",
-    "serverUidInputDesc": "在此输入您的 TeamSpeak 3 服务器的 UID"
+    "serverUidInputDesc": "在此输入您的 TeamSpeak 3 服务器 UID"
   },
   "serverPending": {
     "backToPortal": "返回门户",
     "deleteCommunity": "删除社区",
     "leaveServer": "离开服务器",
-    "switchToStandalone": "切换到独立"
+    "switchToStandalone": "切换到独立模式"
   },
   "signup": {
-    "checkEmail": "查看您的电子邮件并验证您的账户。",
-    "checkSpam": "如果找不到电子邮件，请确保查看垃圾邮件文件夹。",
-    "emailPreferencesDesc": "通过电子邮件接收重要公告、更新和促销信息。",
-    "verifyPassword": "确认密码"
+    "checkEmail": "检查你的电子邮件并验证你的账户。",
+    "checkSpam": "如果找不到邮件，请务必检查垃圾邮件文件夹。",
+    "emailPreferencesDesc": "给我发送重要公告、更新和促销信息。",
+    "verifyPassword": "验证密码"
   },
   "splash": {
     "feats": "通过人员间短信和 Sonoran CAD\n      集成，Sonoran Radio 将功能完备的通信设备\n      直接交到你游戏内人员和调度员手中。今天就\n      免费试用吧！",
@@ -796,26 +1030,39 @@
   },
   "standalone": {
     "desktop": {
+      "applyFilter": "应用",
+      "applyFilters": "应用",
+      "channel": "频道",
+      "clearFilter": "清除",
+      "clearFilters": "清除",
+      "dial": "拨号",
+      "dialPlaceholder": "输入号码...",
       "downloadFile": "下载文件",
-      "emergencyCalls": "紧急（911）电话",
+      "emergencyCalls": "紧急（911）呼叫",
       "noEmergencyCalls": "没有紧急呼叫！",
       "noTransmissions": "未找到传输",
-      "playAudio": "播放音频",
-      "redial": "重拨 {name}"
+      "playAudio": "播放 音频",
+      "redial": "重新拨打 {name}",
+      "showTranscript": "显示字幕",
+      "time": "时间",
+      "transcriptTitle": "{name} 的传输",
+      "user": "用户"
     },
     "peers": {
-      "clearPanic": "清除恐慌",
+      "clearPanic": "清除 恐慌",
       "displayName": "显示名称",
       "kick": "踢出",
-      "moveTo": "移动到",
-      "volume": "音量"
+      "moveTo": "移至",
+      "ping": "Ping",
+      "stun": "STUN",
+      "volume": "频道音量"
     },
     "settings": {
-      "rightClickToClear": "右击清除"
+      "rightClickToClear": "右键清除"
     }
   },
   "upgradePromo": {
-    "goProToday": "立即升级到专业版",
+    "goProToday": "升级到专业版",
     "learnMore": "了解更多"
   }
 }
