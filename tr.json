@@ -124,6 +124,12 @@
   "config": {
     "displayName": "İngilizce (ABD)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Masaüstü oyunlar için özel radyo kaplamaları oluşturun."
+  },
+  "desktopPanel": {
+    "channelHotkey": "Kanal Kısayolu"
+  },
   "error404": {
     "goHome": "Ana sayfaya git",
     "message": "Hata. Burada hiçbir şey yok..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "Kullanıcı adı çok uzun."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "Oyun sunucusunun paneline erişin.",
+    "addTheFollowingToYour": "Şunları ekleyin:",
+    "andClickToCopyPasteTheIDAndKeyBelow": "ve aşağıdaki ID ve anahtarı kopyalamak/yapıştırmak için tıklayın.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "Ve sunucunu yeniden başlattığında, işte bu kadar! Kaynağın ve özelliklerinin nasıl kullanılacağını öğrenmek için dokümanlara göz at",
+    "aPIKey": "API Anahtarı",
+    "back": "Geri",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy's radyo animasyon scripti, yeni oyun içi animasyonlar ekleyerek Sonoran Radio deneyiminizi geliştirir. Türünün en popüler scriptlerinden biri olarak, radyonuzun konumuna göre çok yönlü seçenekler sunar—ister göğsünüzde, omuzlarınızda, ister elde taşınıyor olsun. Bu, daha sürükleyici ve kişiselleştirilmiş bir etkileşim sağlar.",
+    "click": "Tıklayın",
+    "configuration": "Yapılandırma",
+    "configureFeatures": "Özellikleri Yapılandır",
+    "configureResource": "Kaynağı Yapılandır",
+    "configureServer": "Sunucuyu Yapılandır",
+    "continue": "Devam",
+    "downloadInstall": "İndir ve Yükle",
+    "downloadSonoranRadioForFiveM": "FiveM için Sonoran Radio'yu İndir",
+    "fileManager": "Dosya Yöneticisi",
+    "fileToCustomizeYourFeatures": "özelliklerinizi özelleştirmek için dosya.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "sunucunuzun resources klasörüne klasör.",
+    "forOff": "%20 indirim için.",
+    "freeAnimationsScript": "Ücretsiz Animasyon Scripti",
+    "freeVehicleDisplayScript": "Ücretsiz Araç Görüntüleme Scripti",
+    "gamePanelPurchase": "Oyun Paneli Satın Alma",
+    "here": "burada",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Eğer Standalone Sonoran Radio kaynağı zaten yüklü değilse, sizin",
+    "installSonoran": "Sonoran'ı Kur",
+    "learnMore": "Daha Fazla Öğren!",
+    "manualInstall": "Manuel Kurulum",
+    "navigateToThe": "Şuraya git",
+    "onceDownloadedExtractThe": "İndirdikten sonra, şunu çıkarın:",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Kurulum tamamlandıktan sonra, kaynak dosyalara şuradan erişebilirsiniz:",
+    "oneClickInstallation": "Tek Tıkla Kurulum",
+    "onTheRocketNodeGamePanelNavigateTo": "Rocket Node oyun panelinde şuraya gidin",
+    "onTheRocketNodePanel": "Rocket Node panelinde.",
+    "open": "Aç",
+    "preConfigured": "önceden yapılandırılmış.",
+    "purchaseAFiveMGameServerFromRocketNode": "Rocket Node'dan bir FiveM Oyun Sunucusu Satın Alın",
+    "radio": "Radyo",
+    "resources": "kaynaklar",
+    "seeTheDocs": "Dokümanları Gör",
+    "serverYouCanFollowThisTutorialToGetSetUp": "sunucu, kurulmak için bu öğreticiyi takip edebilirsiniz!",
+    "sonoranInstaller": "Sonoran Kurulumu",
+    "theResourceWillAlreadyHaveThe": "Kaynak zaten sahip olacaktır",
+    "toConfigureTheResource": "kaynağı yapılandırmak için.",
+    "useCouponCode": "Kupon Kodunu Kullan",
+    "videoTutorial": "Video Eğitimi",
+    "youCanLearnMoreAboutConfigurationOptions": "Yapılandırma seçenekleri hakkında daha fazla bilgi edinebilirsiniz",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "Diğer yapılandırma seçenekleri hakkında daha fazla bilgi edinebilirsiniz",
+    "youMustBeAnAdminToViewTheAPIKey": "API anahtarını görüntülemek için yönetici olmalısınız.",
+    "yourAPIKeyFoundInTheAdministrationTab": "API Anahtarınız, Yönetim sekmesinde bulunur",
+    "yourCommunityIDFoundInTheAdministrationTab": "Topluluk Kimliğiniz, Yönetim sekmesinde bulunur"
+  },
   "fivemView": {
     "browserLoginInstruction": "Giriş yapmak için tarayıcınızda {link} adresine gidin",
     "guestLogin": "Misafir Girişi",
@@ -159,6 +218,9 @@
     "loginWithCode": "Kodla Giriş Yap",
     "refresh": "Yenile",
     "unlink": "Bağlantıyı kaldır"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Sonoran Radyo Polymap"
   },
   "getStartedButton": {
     "learnMore": "Daha Fazla Öğren"
@@ -277,6 +339,9 @@
       "title": "Araç Görüntüleme"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Seçili Efekt"
+  },
   "login": {
     "createAccount": "Hesap Oluştur",
     "forgotPassword": "Şifremi Unuttum",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "4 haneli kodunuzu girin..."
+  },
+  "loginMain": {
+    "withApple": "Apple ile giriş yapın",
+    "withDiscord": "Discord ile",
+    "withSonoran": "Sonoran ile"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Bu çevirileri iyileştirmeye yardımcı olun",
+    "serverHosting": "Sunucu Barındırma"
+  },
+  "management": {
+    "forceJoinAsOwner": "Sahip Olarak Zorla Katıl"
   },
   "managementPage": {
     "searchTitle": "Topluluk Ara",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "Vokoder ses önizlemesi henüz kullanılamıyor."
     }
   },
+  "memberTable": {
+    "banned": "Yasaklandı",
+    "cancel": "İptal",
+    "noPrivateChannels": "Özel kanal yok"
+  },
   "misc": {
     "learnMoreAboutRadio": "Sonoran Radio'nun rol yapmanı nasıl devrimleştirebileceği hakkında daha fazla bilgi edin!",
     "welcome": "Hoş geldiniz",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0}MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "Yapay Zeka Anahtarı",
+    "changeGroup": "Grubu Değiştir",
+    "clearCache": "Önbelleği Temizle",
+    "debugMode": "Hata Ayıklama Modu:",
+    "flagTimestamp": "Zaman Damgasını İşaretle",
+    "inputCount": "Girdi Sayısı:",
+    "outputCount": "Çıkış Sayısı:",
+    "pTTHotkey": "PTT Kısayol Tuşu",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Özel SFX’inizi web veya masaüstü uygulamasında ayarlayın",
+    "setYourPTTKeybindInYourGTASettings": "GTA Ayarlarınızda PTT Tuş Atamanızı Ayarlayın",
+    "toneHotkey": "Ton Kısayolu",
+    "volume": "Ses -/+"
+  },
   "registerServer": {
     "errExists": "Sağlanan TeamSpeak Server UID zaten doğrulanmış bir sunucuda mevcut, lütfen başka bir TS server UID kullanın",
     "errUnknown": "Sunucu bilgileri alınmaya çalışılırken bir hata oluştu, lütfen daha sonra tekrar deneyin.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "Topluluğunuz için sizin ve üyelerinizin göreceği özel bir takma ad belirleyin",
     "serverUidInput": "TeamSpeak Sunucusu UID",
     "serverUidInputDesc": "TeamSpeak 3 sunucunuzun UID'sini buraya girin"
+  },
+  "serverInfoForm": {
+    "cancel": "İptal",
+    "communityImage": "Topluluk Görseli",
+    "linkSonoranCAD": "Sonoran CAD'yi Bağla",
+    "linkSonoranCADDispatchAI": "Sonoran CAD'yi Bağla (Dispatch AI)",
+    "serverID": "Sunucu Kimliği",
+    "serverName": "Sunucu Adı",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio, webde, masaüstünde ve oyunda!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "TeamSpeak 3 için bir eklenti kullanan Sonoran Radio",
+    "standalone": "Bağımsız",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "Özel bir topluluk görseli yükle."
   },
   "serverPending": {
     "backToPortal": "Portala Dön",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Pro'ya yükselt",
     "learnMore": "Daha Fazla Öğren"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "Analog",
+    "clipping": "Kırpma",
+    "digital": "Dijital",
+    "postEQ": "Post EQ",
+    "preEQ": "Ön EQ",
+    "vocoder": "Vokoder"
   }
 }

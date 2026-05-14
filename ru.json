@@ -124,6 +124,12 @@
   "config": {
     "displayName": "Английский (США)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Создавать собственные радионаклады для игр на ПК."
+  },
+  "desktopPanel": {
+    "channelHotkey": "Горячая клавиша канала"
+  },
   "error404": {
     "goHome": "На главную",
     "message": "Упс. Здесь ничего нет..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "Имя пользователя слишком длинное."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "Получите доступ к панели игрового сервера.",
+    "addTheFollowingToYour": "Добавьте следующее в ваш",
+    "andClickToCopyPasteTheIDAndKeyBelow": "и нажмите, чтобы скопировать/вставить ID и ключ ниже.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "И как только вы перезапустите сервер, всё готово! Ознакомьтесь с документацией, чтобы узнать, как использовать ресурс и его функции",
+    "aPIKey": "Ключ API",
+    "back": "Назад",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Скрипт анимации радио Big Daddy улучшает работу Sonoran Radio, добавляя новые внутриигровые анимации. Как один из самых популярных скриптов такого рода, он предлагает универсальные варианты в зависимости от того, где расположено ваше радио — на груди, плечах или в руке. Это обеспечивает более захватывающее и персонализированное взаимодействие.",
+    "click": "Щёлкните",
+    "configuration": "Конфигурация",
+    "configureFeatures": "Настроить функции",
+    "configureResource": "Настроить ресурс",
+    "configureServer": "Настроить сервер",
+    "continue": "Продолжить",
+    "downloadInstall": "Скачать и установить",
+    "downloadSonoranRadioForFiveM": "Скачать Sonoran Radio для FiveM",
+    "fileManager": "Файловый менеджер",
+    "fileToCustomizeYourFeatures": "файл для настройки ваших функций.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "папку в папке ресурсов вашего сервера.",
+    "forOff": "со скидкой 20%.",
+    "freeAnimationsScript": "Бесплатный скрипт анимаций",
+    "freeVehicleDisplayScript": "Бесплатный скрипт отображения транспортного средства",
+    "gamePanelPurchase": "Покупка игрового панели",
+    "here": "здесь",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Если у вас ещё не установлен ресурс Standalone Sonoran Radio в вашем",
+    "installSonoran": "Установить Sonoran",
+    "learnMore": "Узнать больше!",
+    "manualInstall": "Ручная установка",
+    "navigateToThe": "Перейдите к",
+    "onceDownloadedExtractThe": "После загрузки распакуйте",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "После завершения установки вы сможете получить доступ к файлам ресурса в",
+    "oneClickInstallation": "Установка в один клик",
+    "onTheRocketNodeGamePanelNavigateTo": "На игровой панели Rocket Node перейдите к",
+    "onTheRocketNodePanel": "на панели Rocket Node.",
+    "open": "Открыть",
+    "preConfigured": "предварительно настроено.",
+    "purchaseAFiveMGameServerFromRocketNode": "Купить игровой сервер FiveM у Rocket Node",
+    "radio": "Радио",
+    "resources": "ресурсы",
+    "seeTheDocs": "См. документацию",
+    "serverYouCanFollowThisTutorialToGetSetUp": "сервер, вы можете следовать этому руководству, чтобы настроить всё!",
+    "sonoranInstaller": "Установщик Sonoran",
+    "theResourceWillAlreadyHaveThe": "У ресурса уже будет",
+    "toConfigureTheResource": "для настройки ресурса.",
+    "useCouponCode": "Использовать код купона",
+    "videoTutorial": "Видеоруководство",
+    "youCanLearnMoreAboutConfigurationOptions": "Вы можете узнать больше о параметрах конфигурации",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "Вы можете узнать больше о других параметрах конфигурации",
+    "youMustBeAnAdminToViewTheAPIKey": "Для просмотра ключа API вы должны быть администратором.",
+    "yourAPIKeyFoundInTheAdministrationTab": "Ваш API-ключ, найденный на вкладке Administration",
+    "yourCommunityIDFoundInTheAdministrationTab": "Ваш ID сообщества, найденный на вкладке Administration"
+  },
   "fivemView": {
     "browserLoginInstruction": "Перейдите в {link} в браузере, чтобы войти",
     "guestLogin": "Вход для гостя",
@@ -159,6 +218,9 @@
     "loginWithCode": "Войти с кодом",
     "refresh": "Обновить",
     "unlink": "Отвязать"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Мультикарта Sonoran Radio"
   },
   "getStartedButton": {
     "learnMore": "Узнать больше"
@@ -277,6 +339,9 @@
       "title": "Отображение транспортного средства"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Выбранный эффект"
+  },
   "login": {
     "createAccount": "Создать аккаунт",
     "forgotPassword": "Забыли пароль",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "Введите свой 4-значный код..."
+  },
+  "loginMain": {
+    "withApple": "с Apple",
+    "withDiscord": "через Discord",
+    "withSonoran": "через Sonoran"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Помогите улучшить эти переводы",
+    "serverHosting": "Хостинг серверов"
+  },
+  "management": {
+    "forceJoinAsOwner": "Принудительно присоединить как владельца"
   },
   "managementPage": {
     "searchTitle": "Поиск сообщества",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "Предпросмотр аудио вокодера пока недоступен."
     }
   },
+  "memberTable": {
+    "banned": "Заблокирован",
+    "cancel": "Отмена",
+    "noPrivateChannels": "Нет закрытых каналов"
+  },
   "misc": {
     "learnMoreAboutRadio": "Узнайте больше о том, как Sonoran Radio может революционизировать вашу ролевую игру!",
     "welcome": "Добро пожаловать",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "ПЕРЕДАТЧИК {0} МГц"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "Переключатель ИИ",
+    "changeGroup": "Изменить группу",
+    "clearCache": "Очистить кэш",
+    "debugMode": "Режим отладки:",
+    "flagTimestamp": "Пометить временную метку",
+    "inputCount": "Количество ввода:",
+    "outputCount": "Количество выходов:",
+    "pTTHotkey": "Клавиша PTT",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Установите свои пользовательские SFX в веб- или настольном приложении",
+    "setYourPTTKeybindInYourGTASettings": "Назначьте клавишу PTT в настройках GTA",
+    "toneHotkey": "Горячая клавиша тона",
+    "volume": "Громкость -/+"
+  },
   "registerServer": {
     "errExists": "Указанный UID сервера TeamSpeak уже существует на проверенном сервере, пожалуйста, используйте другой UID сервера TS",
     "errUnknown": "Произошла ошибка при попытке получить информацию о сервере, пожалуйста, попробуйте позже.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "Задайте собственный никнейм для вашего сообщества, который будете видеть вы и ваши участники",
     "serverUidInput": "UID сервера TeamSpeak",
     "serverUidInputDesc": "Введите UID вашего сервера TeamSpeak 3 здесь"
+  },
+  "serverInfoForm": {
+    "cancel": "Отмена",
+    "communityImage": "Изображение сообщества",
+    "linkSonoranCAD": "Связать Sonoran CAD",
+    "linkSonoranCADDispatchAI": "Связать Sonoran CAD (Dispatch AI)",
+    "serverID": "ID сервера",
+    "serverName": "Имя сервера",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio в вебе, на компьютере и в игре!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio, использующий плагин для TeamSpeak 3",
+    "standalone": "Автономный",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "Загрузите собственное изображение сообщества."
   },
   "serverPending": {
     "backToPortal": "Назад в портал",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Обновить до Pro",
     "learnMore": "Узнать больше"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "Аналог",
+    "clipping": "Клиппинг",
+    "digital": "Цифровое",
+    "postEQ": "Пост-эквалайзер",
+    "preEQ": "Пре-эквалайзер",
+    "vocoder": "Вокодер"
   }
 }

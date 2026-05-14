@@ -124,6 +124,12 @@
   "config": {
     "displayName": "الإنجليزية (الولايات المتحدة)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "إنشاء تراكبات راديو مخصصة لألعاب سطح المكتب."
+  },
+  "desktopPanel": {
+    "channelHotkey": "اختصار القناة"
+  },
   "error404": {
     "goHome": "العودة إلى الصفحة الرئيسية",
     "message": "عفوًا. لا شيء هنا..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "اسم المستخدم طويل جدًا."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "الوصول إلى لوحة خادم اللعبة.",
+    "addTheFollowingToYour": "أضف ما يلي إلى",
+    "andClickToCopyPasteTheIDAndKeyBelow": "وانقر لنسخ/لصق المعرّف والمفتاح أدناه.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "وبمجرد إعادة تشغيل خادمك، تكون قد انتهيت! اطلع على الوثائق لمعرفة كيفية استخدام المورد وميزاته",
+    "aPIKey": "مفتاح API",
+    "back": "رجوع",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "يعزز سكربت رسوم Big Daddy المتحركة للراديو تجربة Sonoran Radio الخاصة بك من خلال إضافة رسوم متحركة جديدة داخل اللعبة. وبصفته أحد أكثر السكربتات شيوعًا من هذا النوع، فإنه يوفّر خيارات متعددة بناءً على موضع الراديو لديك—سواء كان على صدرك أو كتفيك أو محمولًا باليد. وهذا يوفّر تفاعلًا أكثر غمرًا وتخصيصًا.",
+    "click": "انقر",
+    "configuration": "التكوين",
+    "configureFeatures": "تكوين الميزات",
+    "configureResource": "تكوين المورد",
+    "configureServer": "تكوين الخادم",
+    "continue": "متابعة",
+    "downloadInstall": "تنزيل وتثبيت",
+    "downloadSonoranRadioForFiveM": "تحميل Sonoran Radio لـ FiveM",
+    "fileManager": "مدير الملفات",
+    "fileToCustomizeYourFeatures": "الملف لتخصيص ميزاتك.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "مجلد إلى مجلد الموارد الخاص بخادمك.",
+    "forOff": "خصم 20%.",
+    "freeAnimationsScript": "سكريبت الرسوم المتحركة المجاني",
+    "freeVehicleDisplayScript": "سكربت عرض المركبات المجاني",
+    "gamePanelPurchase": "شراء لوحة اللعبة",
+    "here": "هنا",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "إذا لم تكن قد ثبّتَّ مورد Sonoran Radio المستقل بالفعل في",
+    "installSonoran": "تثبيت Sonoran",
+    "learnMore": "تعرف على المزيد!",
+    "manualInstall": "التثبيت اليدوي",
+    "navigateToThe": "انتقل إلى",
+    "onceDownloadedExtractThe": "بعد التنزيل، استخرج",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "بمجرد اكتمال التثبيت، يمكنك الوصول إلى ملفات المورد في",
+    "oneClickInstallation": "التثبيت بنقرة واحدة",
+    "onTheRocketNodeGamePanelNavigateTo": "على لوحة لعبة Rocket Node، انتقل إلى",
+    "onTheRocketNodePanel": "على لوحة Rocket Node.",
+    "open": "افتح",
+    "preConfigured": "مُهيّأ مسبقًا.",
+    "purchaseAFiveMGameServerFromRocketNode": "اشترِ خادم لعبة FiveM من Rocket Node",
+    "radio": "الراديو",
+    "resources": "الموارد",
+    "seeTheDocs": "اطّلع على الوثائق",
+    "serverYouCanFollowThisTutorialToGetSetUp": "يمكنك اتباع هذا البرنامج التعليمي لإعداد الخادم!",
+    "sonoranInstaller": "مثبت Sonoran",
+    "theResourceWillAlreadyHaveThe": "سيكون المورد قد يحتوي بالفعل على ال",
+    "toConfigureTheResource": "لتكوين المورد.",
+    "useCouponCode": "استخدم رمز القسيمة",
+    "videoTutorial": "فيديو تعليمي",
+    "youCanLearnMoreAboutConfigurationOptions": "يمكنك معرفة المزيد عن خيارات التكوين",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "يمكنك معرفة المزيد عن خيارات التكوين الأخرى",
+    "youMustBeAnAdminToViewTheAPIKey": "يجب أن تكون مسؤولًا لعرض مفتاح API.",
+    "yourAPIKeyFoundInTheAdministrationTab": "مفتاح API الخاص بك، الموجود في علامة التبويب الإدارة",
+    "yourCommunityIDFoundInTheAdministrationTab": "معرّف مجتمعك، الموجود في علامة التبويب الإدارة"
+  },
   "fivemView": {
     "browserLoginInstruction": "اذهب إلى {link} في متصفحك لتسجيل الدخول",
     "guestLogin": "تسجيل دخول الضيف",
@@ -159,6 +218,9 @@
     "loginWithCode": "تسجيل الدخول بالرمز",
     "refresh": "تحديث",
     "unlink": "فصل"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "خريطة سونوران راديو المتعددة"
   },
   "getStartedButton": {
     "learnMore": "تعرّف على المزيد"
@@ -277,6 +339,9 @@
       "title": "عرض المركبات"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "التأثير المحدد"
+  },
   "login": {
     "createAccount": "إنشاء حساب",
     "forgotPassword": "نسيت كلمة المرور",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "أدخل رمزك المكوّن من 4 أرقام..."
+  },
+  "loginMain": {
+    "withApple": "المتابعة باستخدام Apple",
+    "withDiscord": "مع Discord",
+    "withSonoran": "مع Sonoran"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "ساعد في تحسين هذه الترجمات",
+    "serverHosting": "استضافة الخادم"
+  },
+  "management": {
+    "forceJoinAsOwner": "انضمام قسري كمالك"
   },
   "managementPage": {
     "searchTitle": "بحث المجتمع",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "المعاينة الصوتية للمُحوِّل الصوتي غير متاحة بعد."
     }
   },
+  "memberTable": {
+    "banned": "محظور",
+    "cancel": "إلغاء",
+    "noPrivateChannels": "لا توجد قنوات خاصة"
+  },
   "misc": {
     "learnMoreAboutRadio": "تعرف على المزيد حول كيفية تمكّن Sonoran Radio من إحداث ثورة في لعب الأدوار الخاص بك!",
     "welcome": "أهلاً",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0}MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "مفتاح الذكاء الاصطناعي",
+    "changeGroup": "تغيير المجموعة",
+    "clearCache": "مسح ذاكرة التخزين المؤقت",
+    "debugMode": "وضع التصحيح:",
+    "flagTimestamp": "وضع علامة زمنية",
+    "inputCount": "عدد الإدخال:",
+    "outputCount": "عدد المخرجات:",
+    "pTTHotkey": "اختصار التحدث",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "عيّن مؤثراتك الصوتية المخصصة على الويب أو تطبيق سطح المكتب",
+    "setYourPTTKeybindInYourGTASettings": "عيّن اختصار PTT في إعدادات GTA الخاصة بك",
+    "toneHotkey": "اختصار النغمة",
+    "volume": "مستوى الصوت -/+"
+  },
   "registerServer": {
     "errExists": "معرّف خادم TeamSpeak المقدم موجود بالفعل على خادم موثّق، يرجى استخدام معرّف TS آخر للخادم",
     "errUnknown": "حدث خطأ أثناء محاولة الحصول على معلومات الخادم، يرجى المحاولة مرة أخرى لاحقًا.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "عيّن اسمًا مستعارًا مخصصًا لمجتمعك، والذي ستراه أنت وأعضاؤك",
     "serverUidInput": "معرّف خادم TeamSpeak",
     "serverUidInputDesc": "أدخل رقم تعريف خادم TeamSpeak 3 هنا"
+  },
+  "serverInfoForm": {
+    "cancel": "إلغاء",
+    "communityImage": "صورة المجتمع",
+    "linkSonoranCAD": "ربط Sonoran CAD",
+    "linkSonoranCADDispatchAI": "ربط Sonoran CAD (Dispatch AI)",
+    "serverID": "معرّف الخادم",
+    "serverName": "اسم الخادم",
+    "sonoranRadioOnWebDesktopAndInGame": "راديو Sonoran، على الويب وسطح المكتب وداخل اللعبة!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "سونوران راديو يستخدم إضافة لـ TeamSpeak 3",
+    "standalone": "مستقل",
+    "teamSpeak": "تيم سبيك 3",
+    "uploadACustomCommunityImage": "رفع صورة مخصصة للمجتمع."
   },
   "serverPending": {
     "backToPortal": "العودة إلى البوابة",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "الترقية إلى Pro",
     "learnMore": "تعرف على المزيد"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "تماثلي",
+    "clipping": "التشذيب",
+    "digital": "الرقمي",
+    "postEQ": "المعادلة بعدية",
+    "preEQ": "قبل المعادل",
+    "vocoder": "فوكدَر"
   }
 }

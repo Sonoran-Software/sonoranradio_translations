@@ -124,6 +124,12 @@
   "config": {
     "displayName": "Engels (VS)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Maak aangepaste radio-overlays voor desktopgames."
+  },
+  "desktopPanel": {
+    "channelHotkey": "Kanaalsneltoets"
+  },
   "error404": {
     "goHome": "Ga naar start",
     "message": "Oeps. Niets hier..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "Gebruikersnaam is te lang."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "Toegang tot het paneel van de gameserver.",
+    "addTheFollowingToYour": "Voeg het volgende toe aan je",
+    "andClickToCopyPasteTheIDAndKeyBelow": "en klik om de ID en sleutel hieronder te kopiëren/plakken.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "En zodra je je server opnieuw opstart, ben je klaar! Bekijk de documentatie voor hoe je de resource en de functies ervan gebruikt",
+    "aPIKey": "API-sleutel",
+    "back": "Terug",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy's radio-animatiescript verbetert je Sonoran Radio-ervaring door nieuwe in-game animaties toe te voegen. Als een van de populairste scripts in zijn soort biedt het veelzijdige opties op basis van waar je radio is geplaatst—of dat nu op je borst, schouders of in de hand is. Dit zorgt voor een meer meeslepende en gepersonaliseerde interactie.",
+    "click": "Klik",
+    "configuration": "Configuratie",
+    "configureFeatures": "Functies configureren",
+    "configureResource": "Resource configureren",
+    "configureServer": "Server configureren",
+    "continue": "Doorgaan",
+    "downloadInstall": "Downloaden & installeren",
+    "downloadSonoranRadioForFiveM": "Download Sonoran Radio voor FiveM",
+    "fileManager": "Bestandsbeheer",
+    "fileToCustomizeYourFeatures": "bestand om je functies aan te passen.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "map naar de resourcesmap van je server.",
+    "forOff": "met 20% korting.",
+    "freeAnimationsScript": "Gratis animatiescript",
+    "freeVehicleDisplayScript": "Gratis voertuigweergave-script",
+    "gamePanelPurchase": "Aankoop gamepaneel",
+    "here": "hier",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Als je de Standalone Sonoran Radio-resource nog niet hebt geïnstalleerd in je",
+    "installSonoran": "Sonoran installeren",
+    "learnMore": "Meer leren!",
+    "manualInstall": "Handmatige installatie",
+    "navigateToThe": "Navigeer naar de",
+    "onceDownloadedExtractThe": "Na het downloaden, pak het",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Zodra de installatie is voltooid, kunt u toegang krijgen tot de resourcebestanden in de",
+    "oneClickInstallation": "Installatie met één klik",
+    "onTheRocketNodeGamePanelNavigateTo": "Op het Rocket Node-gamepaneel, navigeer naar",
+    "onTheRocketNodePanel": "op het Rocket Node-paneel.",
+    "open": "Openen",
+    "preConfigured": "vooraf geconfigureerd.",
+    "purchaseAFiveMGameServerFromRocketNode": "Koop een FiveM Game Server bij Rocket Node",
+    "radio": "Radio",
+    "resources": "bronnen",
+    "seeTheDocs": "Bekijk de documentatie",
+    "serverYouCanFollowThisTutorialToGetSetUp": "server, je kunt deze handleiding volgen om aan de slag te gaan!",
+    "sonoranInstaller": "Sonoran-installatieprogramma",
+    "theResourceWillAlreadyHaveThe": "De resource zal al de",
+    "toConfigureTheResource": "om de resource te configureren.",
+    "useCouponCode": "Couponcode gebruiken",
+    "videoTutorial": "Videotutorial",
+    "youCanLearnMoreAboutConfigurationOptions": "Je kunt meer leren over configuratieopties",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "Je kunt meer leren over de andere configuratieopties",
+    "youMustBeAnAdminToViewTheAPIKey": "Je moet een beheerder zijn om de API-sleutel te bekijken.",
+    "yourAPIKeyFoundInTheAdministrationTab": "Uw API-sleutel, te vinden in het tabblad Beheer",
+    "yourCommunityIDFoundInTheAdministrationTab": "Uw Community-ID, te vinden in het tabblad Beheer"
+  },
   "fivemView": {
     "browserLoginInstruction": "Ga in je browser naar {link} om in te loggen",
     "guestLogin": "Gastlogin",
@@ -159,6 +218,9 @@
     "loginWithCode": "Inloggen met code",
     "refresh": "Vernieuwen",
     "unlink": "Ontkoppelen"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
     "learnMore": "Meer leren"
@@ -277,6 +339,9 @@
       "title": "Voertuigweergave"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Geselecteerd effect"
+  },
   "login": {
     "createAccount": "Account aanmaken",
     "forgotPassword": "Wachtwoord vergeten",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "Voer uw 4-cijferige code in..."
+  },
+  "loginMain": {
+    "withApple": "met Apple",
+    "withDiscord": "met Discord",
+    "withSonoran": "met Sonoran"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Help deze vertalingen verbeteren",
+    "serverHosting": "Serverhosting"
+  },
+  "management": {
+    "forceJoinAsOwner": "Als eigenaar forceren om deel te nemen"
   },
   "managementPage": {
     "searchTitle": "Zoek community",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "Vocoder-audiovoorbeeld is nog niet beschikbaar."
     }
   },
+  "memberTable": {
+    "banned": "Verbannen",
+    "cancel": "Annuleren",
+    "noPrivateChannels": "Geen privékanalen"
+  },
   "misc": {
     "learnMoreAboutRadio": "Lees meer over hoe Sonoran Radio je roleplay kan revolutioneren!",
     "welcome": "Welkom",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0} MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "AI-schakelaar",
+    "changeGroup": "Groep wijzigen",
+    "clearCache": "Cache wissen",
+    "debugMode": "Debugmodus:",
+    "flagTimestamp": "Tijdstempel markeren",
+    "inputCount": "Invoer aantal:",
+    "outputCount": "Uitvoer aantal:",
+    "pTTHotkey": "PTT-sneltoets",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Stel je aangepaste SFX in op de web- of desktop-app",
+    "setYourPTTKeybindInYourGTASettings": "Stel je PTT-toetsbinding in bij je GTA-instellingen",
+    "toneHotkey": "Toon-sneltoets",
+    "volume": "Volume -/+"
+  },
   "registerServer": {
     "errExists": "De opgegeven TeamSpeak Server UID bestaat al op een geverifieerde server, gebruik alstublieft een andere TS server UID",
     "errUnknown": "Er is een fout opgetreden bij het proberen serverinformatie op te halen, probeer het later opnieuw.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "Stel een aangepaste bijnaam in voor je community, die jij en je leden zullen zien",
     "serverUidInput": "TeamSpeak-server-UID",
     "serverUidInputDesc": "Voer hier de UID van uw TeamSpeak 3-server in"
+  },
+  "serverInfoForm": {
+    "cancel": "Annuleren",
+    "communityImage": "Communityafbeelding",
+    "linkSonoranCAD": "Sonoran CAD koppelen",
+    "linkSonoranCADDispatchAI": "Sonoran CAD koppelen (Dispatch AI)",
+    "serverID": "Server-ID",
+    "serverName": "Servernaam",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio, op het web, op desktop en in-game!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio met een plugin voor TeamSpeak 3",
+    "standalone": "Zelfstandig",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "Upload een aangepaste communityafbeelding."
   },
   "serverPending": {
     "backToPortal": "Terug naar Portaal",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Upgraden naar Pro",
     "learnMore": "Meer leren"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "Analoog",
+    "clipping": "Clipping",
+    "digital": "Digitaal",
+    "postEQ": "Post-EQ",
+    "preEQ": "Pre-EQ",
+    "vocoder": "Vocoder"
   }
 }

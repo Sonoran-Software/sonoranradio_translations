@@ -124,6 +124,12 @@
   "config": {
     "displayName": "Angličtina (USA)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Vytvořte vlastní rádio překryvy pro desktopové hry."
+  },
+  "desktopPanel": {
+    "channelHotkey": "Klávesová zkratka kanálu"
+  },
   "error404": {
     "goHome": "Jít domů",
     "message": "Jejda. Nic tu není..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "Uživatelské jméno je příliš dlouhé."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "Přistupte k panelu herního serveru.",
+    "addTheFollowingToYour": "Přidejte následující do svého",
+    "andClickToCopyPasteTheIDAndKeyBelow": "a klikněte pro zkopírování/vložení ID a klíče níže.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "Až restartujete server, je hotovo! Podívejte se do dokumentace, jak používat tento resource a jeho funkce",
+    "aPIKey": "API klíč",
+    "back": "Zpět",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Skript animace rádia Big Daddy vylepšuje váš zážitek ze Sonoran Radio přidáním nových herních animací. Jako jeden z nejoblíbenějších skriptů svého druhu nabízí všestranné možnosti podle toho, kde je vaše rádio umístěno—zda na hrudi, na ramenou nebo v ruce. To poskytuje pohlcujícíjší a osobnější interakci.",
+    "click": "Klikněte",
+    "configuration": "Konfigurace",
+    "configureFeatures": "Konfigurovat funkce",
+    "configureResource": "Konfigurovat zdroj",
+    "configureServer": "Konfigurovat server",
+    "continue": "Pokračovat",
+    "downloadInstall": "Stáhnout a nainstalovat",
+    "downloadSonoranRadioForFiveM": "Stáhnout Sonoran Radio pro FiveM",
+    "fileManager": "Správce souborů",
+    "fileToCustomizeYourFeatures": "soubor pro přizpůsobení vašich funkcí.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "složku do složky resources vašeho serveru.",
+    "forOff": "se slevou 20 %.",
+    "freeAnimationsScript": "Skript s animacemi zdarma",
+    "freeVehicleDisplayScript": "Skript pro zobrazení vozidla zdarma",
+    "gamePanelPurchase": "Nákup herního panelu",
+    "here": "zde",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Pokud ještě nemáte nainstalovaný samostatný zdroj Sonoran Radio ve svém",
+    "installSonoran": "Nainstalovat Sonoran",
+    "learnMore": "Více informací!",
+    "manualInstall": "Ruční instalace",
+    "navigateToThe": "Přejděte na",
+    "onceDownloadedExtractThe": "Po stažení rozbalte",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Jakmile bude instalace dokončena, můžete přistupovat k souborům zdrojů v",
+    "oneClickInstallation": "Instalace na jedno kliknutí",
+    "onTheRocketNodeGamePanelNavigateTo": "Na herním panelu Rocket Node přejděte na",
+    "onTheRocketNodePanel": "na panelu Rocket Node.",
+    "open": "Otevřít",
+    "preConfigured": "předkonfigurováno.",
+    "purchaseAFiveMGameServerFromRocketNode": "Zakoupit FiveM herní server od Rocket Node",
+    "radio": "Rádio",
+    "resources": "zdroje",
+    "seeTheDocs": "Podívejte se do dokumentace",
+    "serverYouCanFollowThisTutorialToGetSetUp": "server, můžete se řídit tímto návodem, abyste se nastavili!",
+    "sonoranInstaller": "Sonoran Instalátor",
+    "theResourceWillAlreadyHaveThe": "Zdroj už bude mít",
+    "toConfigureTheResource": "ke konfiguraci zdroje.",
+    "useCouponCode": "Použít kód kupónu",
+    "videoTutorial": "Videonávod",
+    "youCanLearnMoreAboutConfigurationOptions": "Můžete se dozvědět více o možnostech konfigurace",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "Můžete se dozvědět více o ostatních možnostech konfigurace",
+    "youMustBeAnAdminToViewTheAPIKey": "Musíte být administrátor, abyste mohli zobrazit klíč API.",
+    "yourAPIKeyFoundInTheAdministrationTab": "Váš API klíč naleznete na kartě Správa",
+    "yourCommunityIDFoundInTheAdministrationTab": "Vaše ID komunity naleznete na kartě Správa"
+  },
   "fivemView": {
     "browserLoginInstruction": "Přejděte do {link} ve svém prohlížeči a přihlaste se",
     "guestLogin": "Přihlášení hosta",
@@ -159,6 +218,9 @@
     "loginWithCode": "Přihlásit se kódem",
     "refresh": "Obnovit",
     "unlink": "Odpojit"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
     "learnMore": "Více informací"
@@ -277,6 +339,9 @@
       "title": "Zobrazení vozidla"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Vybraný efekt"
+  },
   "login": {
     "createAccount": "Vytvořit účet",
     "forgotPassword": "Zapomenuté heslo",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "Zadejte svůj 4místný kód..."
+  },
+  "loginMain": {
+    "withApple": "s Apple",
+    "withDiscord": "s Discordem",
+    "withSonoran": "pomocí Sonoran"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Pomozte zlepšit tyto překlady",
+    "serverHosting": "Server hosting"
+  },
+  "management": {
+    "forceJoinAsOwner": "Připojit jako vlastník"
   },
   "managementPage": {
     "searchTitle": "Hledat komunitu",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "Náhled zvuku vokodéru zatím není k dispozici."
     }
   },
+  "memberTable": {
+    "banned": "Zakázáno",
+    "cancel": "Zrušit",
+    "noPrivateChannels": "Žádné soukromé kanály"
+  },
   "misc": {
     "learnMoreAboutRadio": "Zjistěte více o tom, jak může Sonoran Radio převrátit vaše roleplay naruby!",
     "welcome": "Vítejte",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0} MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "Přepínač AI",
+    "changeGroup": "Změnit skupinu",
+    "clearCache": "Vymazat mezipaměť",
+    "debugMode": "Režim ladění:",
+    "flagTimestamp": "Označit časové razítko",
+    "inputCount": "Počet vstupů:",
+    "outputCount": "Počet výstupů:",
+    "pTTHotkey": "PTT klávesová zkratka",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Nastavte si vlastní SFX ve webové nebo desktopové aplikaci",
+    "setYourPTTKeybindInYourGTASettings": "Nastavte si klávesovou zkratku PTT v nastavení GTA",
+    "toneHotkey": "Klávesová zkratka tónu",
+    "volume": "Hlasitost -/+"
+  },
   "registerServer": {
     "errExists": "Zadané UID serveru TeamSpeak již existuje na ověřeném serveru, použijte prosím jiné UID TS serveru",
     "errUnknown": "Při pokusu o získání informací o serveru došlo k chybě, zkuste to prosím později.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "Nastavte vlastní přezdívku pro svou komunitu, kterou uvidíte vy i vaši členové",
     "serverUidInput": "UID serveru TeamSpeak",
     "serverUidInputDesc": "Zadejte sem UID vašeho serveru TeamSpeak 3"
+  },
+  "serverInfoForm": {
+    "cancel": "Zrušit",
+    "communityImage": "Obrázek komunity",
+    "linkSonoranCAD": "Propojit Sonoran CAD",
+    "linkSonoranCADDispatchAI": "Propojit Sonoran CAD (Dispatch AI)",
+    "serverID": "ID serveru",
+    "serverName": "Název Serveru",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio na webu, na desktopu a ve hře!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio používá plugin pro TeamSpeak 3",
+    "standalone": "Samostatný",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "Nahrajte vlastní obrázek komunity."
   },
   "serverPending": {
     "backToPortal": "Zpět na Portál",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Upgradujte na Pro",
     "learnMore": "Více informací"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "Analog",
+    "clipping": "Ořezávání",
+    "digital": "Digitální",
+    "postEQ": "Post EQ",
+    "preEQ": "Před EQ",
+    "vocoder": "Vokodér"
   }
 }

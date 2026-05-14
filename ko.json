@@ -124,6 +124,12 @@
   "config": {
     "displayName": "영어(미국)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "데스크톱 게임용 사용자 지정 라디오 오버레이 만들기."
+  },
+  "desktopPanel": {
+    "channelHotkey": "채널 단축키"
+  },
   "error404": {
     "goHome": "홈으로 이동",
     "message": "앗. 여기에 아무것도 없어요..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "사용자 이름이 너무 깁니다."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "게임 서버의 패널에 액세스하세요.",
+    "addTheFollowingToYour": "다음 내용을 your에 추가",
+    "andClickToCopyPasteTheIDAndKeyBelow": "아래 ID와 키를 복사/붙여넣기하려면 클릭하세요.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "서버를 다시 시작하면 완료됩니다! 리소스와 기능 사용 방법은 문서를 확인하세요",
+    "aPIKey": "API 키",
+    "back": "뒤로",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy의 radio 애니메이션 스크립트는 새로운 게임 내 애니메이션을 추가해 Sonoran Radio 경험을 향상합니다. 이 종류에서 가장 인기 있는 스크립트 중 하나로서, radio가 가슴, 어깨, 또는 손에 들려 있는 위치에 따라 다양한 옵션을 제공합니다. 이를 통해 더 몰입감 있고 개인화된 상호작용을 제공합니다.",
+    "click": "클릭",
+    "configuration": "구성",
+    "configureFeatures": "기능 구성",
+    "configureResource": "리소스 구성",
+    "configureServer": "서버 구성",
+    "continue": "계속",
+    "downloadInstall": "다운로드 및 설치",
+    "downloadSonoranRadioForFiveM": "FiveM용 Sonoran Radio 다운로드",
+    "fileManager": "파일 관리자",
+    "fileToCustomizeYourFeatures": "기능을 사용자 지정할 파일.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "서버의 resources 폴더로",
+    "forOff": "20% 할인용.",
+    "freeAnimationsScript": "무료 애니메이션 스크립트",
+    "freeVehicleDisplayScript": "무료 차량 디스플레이 스크립트",
+    "gamePanelPurchase": "게임 패널 구매",
+    "here": "여기",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Standalone Sonoran Radio 리소스가 아직 설치되어 있지 않다면",
+    "installSonoran": "Sonoran 설치",
+    "learnMore": "더 알아보기!",
+    "manualInstall": "수동 설치",
+    "navigateToThe": "다음으로 이동",
+    "onceDownloadedExtractThe": "다운로드되면, {the} 압축을 풉니다",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "설치가 완료되면 리소스 파일에 액세스할 수 있습니다.",
+    "oneClickInstallation": "원클릭 설치",
+    "onTheRocketNodeGamePanelNavigateTo": "Rocket Node 게임 패널에서, 이동합니다",
+    "onTheRocketNodePanel": "Rocket Node 패널에서.",
+    "open": "열기",
+    "preConfigured": "사전 구성됨.",
+    "purchaseAFiveMGameServerFromRocketNode": "Rocket Node에서 FiveM 게임 서버 구매",
+    "radio": "라디오",
+    "resources": "리소스",
+    "seeTheDocs": "문서 보기",
+    "serverYouCanFollowThisTutorialToGetSetUp": "서버, 이 튜토리얼을 따라 설정할 수 있습니다!",
+    "sonoranInstaller": "Sonoran 설치 프로그램",
+    "theResourceWillAlreadyHaveThe": "리소스에는 이미 다음이 있습니다",
+    "toConfigureTheResource": "리소스를 구성하려면.",
+    "useCouponCode": "쿠폰 코드 사용",
+    "videoTutorial": "비디오 튜토리얼",
+    "youCanLearnMoreAboutConfigurationOptions": "구성 옵션에 대해 더 알아볼 수 있습니다",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "다른 구성 옵션에 대해 더 알아볼 수 있습니다",
+    "youMustBeAnAdminToViewTheAPIKey": "API 키를 보려면 관리자인 상태여야 합니다.",
+    "yourAPIKeyFoundInTheAdministrationTab": "관리 탭에서 찾을 수 있는 API 키",
+    "yourCommunityIDFoundInTheAdministrationTab": "관리 탭에서 찾을 수 있는 Community ID"
+  },
   "fivemView": {
     "browserLoginInstruction": "브라우저에서 {link}로 이동하여 로그인하세요",
     "guestLogin": "게스트 로그인",
@@ -159,6 +218,9 @@
     "loginWithCode": "코드로 로그인",
     "refresh": "새로 고침",
     "unlink": "연결 해제"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "소노란 라디오 폴리맵"
   },
   "getStartedButton": {
     "learnMore": "더 알아보기"
@@ -277,6 +339,9 @@
       "title": "차량 디스플레이"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "선택된 효과"
+  },
   "login": {
     "createAccount": "계정 만들기",
     "forgotPassword": "비밀번호를 잊으셨나요",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "4자리 코드를 입력하세요..."
+  },
+  "loginMain": {
+    "withApple": "Apple로 계속하기",
+    "withDiscord": "Discord로",
+    "withSonoran": "Sonoran으로"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "이 번역을 개선하는 데 도움을 주세요",
+    "serverHosting": "서버 호스팅"
+  },
+  "management": {
+    "forceJoinAsOwner": "소유자로 강제 참여"
   },
   "managementPage": {
     "searchTitle": "커뮤니티 검색",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "보코더 오디오 미리보기는 아직 사용할 수 없습니다."
     }
   },
+  "memberTable": {
+    "banned": "차단됨",
+    "cancel": "취소",
+    "noPrivateChannels": "비공개 채널 없음"
+  },
   "misc": {
     "learnMoreAboutRadio": "Sonoran Radio가 어떻게 당신의 롤플레이를 혁신할 수 있는지 더 알아보세요!",
     "welcome": "환영합니다",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0} MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "AI 토글",
+    "changeGroup": "그룹 변경",
+    "clearCache": "캐시 지우기",
+    "debugMode": "디버그 모드:",
+    "flagTimestamp": "타임스탬프 플래그",
+    "inputCount": "입력 개수:",
+    "outputCount": "출력 개수:",
+    "pTTHotkey": "PTT 단축키",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "웹 또는 데스크톱 앱에서 사용자 지정 SFX를 설정하세요",
+    "setYourPTTKeybindInYourGTASettings": "GTA 설정에서 PTT 키 바인드를 설정하세요",
+    "toneHotkey": "톤 단축키",
+    "volume": "볼륨 -/+"
+  },
   "registerServer": {
     "errExists": "제공된 TeamSpeak Server UID는 이미 검증된 서버에 존재합니다, 다른 TS 서버 UID를 사용하세요",
     "errUnknown": "서버 정보를 가져오려는 중 오류가 발생했습니다, 나중에 다시 시도해 주세요.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "커뮤니티에 사용할 사용자 지정 별명을 설정하세요, 당신과 멤버들이 볼 수 있습니다",
     "serverUidInput": "TeamSpeak 서버 UID",
     "serverUidInputDesc": "TeamSpeak 3 서버의 UID를 여기에 입력하세요"
+  },
+  "serverInfoForm": {
+    "cancel": "취소",
+    "communityImage": "커뮤니티 Image",
+    "linkSonoranCAD": "Sonoran CAD 연결",
+    "linkSonoranCADDispatchAI": "Sonoran CAD (Dispatch AI) 연결",
+    "serverID": "서버 ID",
+    "serverName": "서버 이름",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio, 웹, 데스크톱, 게임 내에서!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "TeamSpeak 3용 플러그인을 사용하는 Sonoran Radio",
+    "standalone": "독립 실행형",
+    "teamSpeak": "팀스피크 3",
+    "uploadACustomCommunityImage": "커스텀 커뮤니티 Image를 업로드하세요."
   },
   "serverPending": {
     "backToPortal": "포털로 돌아가기",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Pro로 업그레이드",
     "learnMore": "더 알아보기"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "아날로그",
+    "clipping": "클리핑",
+    "digital": "디지털",
+    "postEQ": "후 EQ",
+    "preEQ": "프리 EQ",
+    "vocoder": "보코더"
   }
 }

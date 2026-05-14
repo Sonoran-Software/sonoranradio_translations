@@ -124,6 +124,12 @@
   "config": {
     "displayName": "Inglés (Estados Unidos)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Crear superposiciones de radio personalizadas para juegos de escritorio."
+  },
+  "desktopPanel": {
+    "channelHotkey": "Atajo de canal"
+  },
   "error404": {
     "goHome": "Ir a inicio",
     "message": "Vaya. No hay nada aquí..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "El nombre de usuario es demasiado largo."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "Accede al panel del servidor del juego.",
+    "addTheFollowingToYour": "Añade lo siguiente a tu",
+    "andClickToCopyPasteTheIDAndKeyBelow": "y haz clic para copiar/pegar el ID y la clave de abajo.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "Y una vez que reinicies tu servidor, ¡listo! Consulta la documentación para saber cómo usar el recurso y sus funciones",
+    "aPIKey": "Clave de API",
+    "back": "Atrás",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "El script de animación de radio de Big Daddy mejora tu experiencia con Sonoran Radio al añadir nuevas animaciones dentro del juego. Como uno de los scripts más populares de su tipo, ofrece opciones versátiles según dónde esté colocada tu radio—ya sea en el pecho, los hombros o en la mano. Esto proporciona una interacción más inmersiva y personalizada.",
+    "click": "Clic",
+    "configuration": "Configuración",
+    "configureFeatures": "Configurar funciones",
+    "configureResource": "Configurar recurso",
+    "configureServer": "Configurar servidor",
+    "continue": "Continuar",
+    "downloadInstall": "Descargar e instalar",
+    "downloadSonoranRadioForFiveM": "Descargar Sonoran Radio para FiveM",
+    "fileManager": "Gestor de archivos",
+    "fileToCustomizeYourFeatures": "archivo para personalizar tus funciones.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "carpeta a la carpeta de recursos de tu servidor.",
+    "forOff": "con un 20% de descuento.",
+    "freeAnimationsScript": "Script de animaciones gratis",
+    "freeVehicleDisplayScript": "Script gratuito de visualización de vehículos",
+    "gamePanelPurchase": "Compra del panel del juego",
+    "here": "aquí",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Si aún no tienes instalado el recurso Sonoran Radio independiente en tu",
+    "installSonoran": "Instalar Sonoran",
+    "learnMore": "¡Aprender más!",
+    "manualInstall": "Instalación manual",
+    "navigateToThe": "Navega a la",
+    "onceDownloadedExtractThe": "Una vez descargado, extrae el",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Una vez que la instalación esté completa, puedes acceder a los archivos del recurso en la",
+    "oneClickInstallation": "Instalación con un clic",
+    "onTheRocketNodeGamePanelNavigateTo": "En el panel del juego de Rocket Node, ve a",
+    "onTheRocketNodePanel": "en el panel de Rocket Node.",
+    "open": "Abrir",
+    "preConfigured": "preconfigurado.",
+    "purchaseAFiveMGameServerFromRocketNode": "Comprar un servidor de juego FiveM de Rocket Node",
+    "radio": "Radio",
+    "resources": "recursos",
+    "seeTheDocs": "Ver la documentación",
+    "serverYouCanFollowThisTutorialToGetSetUp": "servidor, puedes seguir este tutorial para configurarte!",
+    "sonoranInstaller": "Instalador de Sonoran",
+    "theResourceWillAlreadyHaveThe": "El recurso ya tendrá el",
+    "toConfigureTheResource": "para configurar el recurso.",
+    "useCouponCode": "Usar código de cupón",
+    "videoTutorial": "Videotutorial",
+    "youCanLearnMoreAboutConfigurationOptions": "Puedes obtener más información sobre las opciones de configuración",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "Puedes obtener más información sobre las otras opciones de configuración",
+    "youMustBeAnAdminToViewTheAPIKey": "Debes ser administrador para ver la clave API.",
+    "yourAPIKeyFoundInTheAdministrationTab": "Tu clave de API, que se encuentra en la pestaña Administración",
+    "yourCommunityIDFoundInTheAdministrationTab": "Tu ID de comunidad, que se encuentra en la pestaña Administración"
+  },
   "fivemView": {
     "browserLoginInstruction": "Ve a {link} en tu navegador para iniciar sesión",
     "guestLogin": "Inicio de sesión de invitado",
@@ -159,6 +218,9 @@
     "loginWithCode": "Iniciar sesión con código",
     "refresh": "Actualizar",
     "unlink": "Desvincular"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Polimapa de radio de Sonora"
   },
   "getStartedButton": {
     "learnMore": "Aprender más"
@@ -277,6 +339,9 @@
       "title": "Visualización de vehículos"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Efecto seleccionado"
+  },
   "login": {
     "createAccount": "Crear cuenta",
     "forgotPassword": "¿Has olvidado la contraseña?",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "Introduce tu código de 4 dígitos..."
+  },
+  "loginMain": {
+    "withApple": "Con Apple",
+    "withDiscord": "con Discord",
+    "withSonoran": "con Sonoran"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Ayuda a mejorar estas traducciones",
+    "serverHosting": "Alojamiento de servidor"
+  },
+  "management": {
+    "forceJoinAsOwner": "Forzar unirse como propietario"
   },
   "managementPage": {
     "searchTitle": "Buscar comunidad",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "La vista previa de audio del vocoder aún no está disponible."
     }
   },
+  "memberTable": {
+    "banned": "Bloqueado",
+    "cancel": "Cancelar",
+    "noPrivateChannels": "Sin canales privados"
+  },
   "misc": {
     "learnMoreAboutRadio": "¡Descubre más sobre cómo Sonoran Radio puede revolucionar tu roleplay!",
     "welcome": "Bienvenido",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0}MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "Conmutador de IA",
+    "changeGroup": "Cambiar grupo",
+    "clearCache": "Limpiar caché",
+    "debugMode": "Modo de depuración:",
+    "flagTimestamp": "Marcar marca de tiempo",
+    "inputCount": "Cantidad de entrada:",
+    "outputCount": "Número de salidas:",
+    "pTTHotkey": "Tecla PTT",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Configura tus SFX personalizados en la app web o de escritorio",
+    "setYourPTTKeybindInYourGTASettings": "Configura tu atajo PTT en los ajustes de GTA",
+    "toneHotkey": "Tecla rápida del tono",
+    "volume": "Volumen -/+"
+  },
   "registerServer": {
     "errExists": "El UID de servidor TeamSpeak proporcionado ya existe en un servidor verificado, usa otro UID de servidor TS",
     "errUnknown": "Se produjo un error al intentar obtener la información del servidor, vuelve a intentarlo más tarde.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "Establece un apodo personalizado para tu comunidad, que tú y tus miembros veréis",
     "serverUidInput": "UID del servidor TeamSpeak",
     "serverUidInputDesc": "Introduce aquí el UID de tu servidor TeamSpeak 3"
+  },
+  "serverInfoForm": {
+    "cancel": "Cancelar",
+    "communityImage": "Imagen de la comunidad",
+    "linkSonoranCAD": "Vincular Sonoran CAD",
+    "linkSonoranCADDispatchAI": "Vincular Sonoran CAD (Dispatch AI)",
+    "serverID": "ID del servidor",
+    "serverName": "Nombre del servidor",
+    "sonoranRadioOnWebDesktopAndInGame": "¡Sonoran Radio, en la web, en escritorio y en el juego!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio usando un complemento para TeamSpeak 3",
+    "standalone": "Independiente",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "Sube una imagen personalizada de la comunidad."
   },
   "serverPending": {
     "backToPortal": "Volver al portal",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Actualiza a Pro",
     "learnMore": "Aprender más"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "Analógica",
+    "clipping": "Recorte",
+    "digital": "digital",
+    "postEQ": "EQ posterior",
+    "preEQ": "Pre-EQ",
+    "vocoder": "Vocoder"
   }
 }

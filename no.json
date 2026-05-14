@@ -124,6 +124,12 @@
   "config": {
     "displayName": "Engelsk (US)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Lag egendefinerte radio-overlegg for PC-spill."
+  },
+  "desktopPanel": {
+    "channelHotkey": "Kanalsnarvei"
+  },
   "error404": {
     "goHome": "Gå hjem",
     "message": "Oops. Ingenting her..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "Brukernavnet er for langt."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "Få tilgang til spillserverens panel.",
+    "addTheFollowingToYour": "Legg til følgende i din",
+    "andClickToCopyPasteTheIDAndKeyBelow": "og klikk for å kopiere/lime inn ID-en og nøkkelen nedenfor.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "Og når du har startet serveren på nytt, er du ferdig! Sjekk dokumentasjonen for hvordan du bruker ressursen og funksjonene dens",
+    "aPIKey": "API-nøkkel",
+    "back": "Tilbake",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy's radioanimasjonsskript forbedrer Sonoran Radio-opplevelsen din ved å legge til nye animasjoner i spillet. Som et av de mest populære skriptene av sitt slag tilbyr det allsidige alternativer basert på hvor radioen din er plassert—enten på brystet, skuldrene eller i hånden. Dette gir en mer oppslukende og personlig interaksjon.",
+    "click": "Klikk",
+    "configuration": "Konfigurasjon",
+    "configureFeatures": "Konfigurer funksjoner",
+    "configureResource": "Konfigurer ressurs",
+    "configureServer": "Konfigurer server",
+    "continue": "Fortsett",
+    "downloadInstall": "Last ned og installer",
+    "downloadSonoranRadioForFiveM": "Last ned Sonoran Radio for FiveM",
+    "fileManager": "Filbehandling",
+    "fileToCustomizeYourFeatures": "fil for å tilpasse funksjonene dine.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "mappe til serverens ressursmappe.",
+    "forOff": "med 20 % avslag.",
+    "freeAnimationsScript": "Gratis animasjonsskript",
+    "freeVehicleDisplayScript": "Gratis kjøretøysvisningsskript",
+    "gamePanelPurchase": "Kjøp av spillpanel",
+    "here": "her",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Hvis du ikke allerede har Standalone Sonoran Radio-resursen installert i din",
+    "installSonoran": "Installer Sonoran",
+    "learnMore": "Lær mer!",
+    "manualInstall": "Manuell installasjon",
+    "navigateToThe": "Naviger til den",
+    "onceDownloadedExtractThe": "Når det er lastet ned, pakk ut",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Når installasjonen er fullført, kan du få tilgang til ressursfilene i",
+    "oneClickInstallation": "Installasjon med ett klikk",
+    "onTheRocketNodeGamePanelNavigateTo": "På Rocket Node-spillpanelet, naviger til",
+    "onTheRocketNodePanel": "på Rocket Node-panelet.",
+    "open": "Åpne",
+    "preConfigured": "forhåndskonfigurert.",
+    "purchaseAFiveMGameServerFromRocketNode": "Kjøp en FiveM-spillserver fra Rocket Node",
+    "radio": "Radio",
+    "resources": "ressurser",
+    "seeTheDocs": "Se dokumentasjonen",
+    "serverYouCanFollowThisTutorialToGetSetUp": "server, du kan følge denne veiledningen for å komme i gang!",
+    "sonoranInstaller": "Sonoran-installasjon",
+    "theResourceWillAlreadyHaveThe": "Ressursen vil allerede ha",
+    "toConfigureTheResource": "for å konfigurere ressursen.",
+    "useCouponCode": "Bruk kupongkode",
+    "videoTutorial": "Videoopplæring",
+    "youCanLearnMoreAboutConfigurationOptions": "Du kan lære mer om konfigurasjonsalternativer",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "Du kan lære mer om de andre konfigurasjonsalternativene",
+    "youMustBeAnAdminToViewTheAPIKey": "Du må være en administrator for å se API-nøkkelen.",
+    "yourAPIKeyFoundInTheAdministrationTab": "Din API-nøkkel, funnet i Administrasjon-fanen",
+    "yourCommunityIDFoundInTheAdministrationTab": "Din fellesskaps-ID, funnet i Administrasjon-fanen"
+  },
   "fivemView": {
     "browserLoginInstruction": "Gå til {link} i nettleseren din for å logge inn",
     "guestLogin": "Gjesteinnlogging",
@@ -159,6 +218,9 @@
     "loginWithCode": "Logg inn med kode",
     "refresh": "Oppdater",
     "unlink": "Koble fra"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
     "learnMore": "Lær mer"
@@ -277,6 +339,9 @@
       "title": "Kjøretøysvisning"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Valgt effekt"
+  },
   "login": {
     "createAccount": "Opprett konto",
     "forgotPassword": "Glemt passord",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "Skriv inn din 4-sifrede kode..."
+  },
+  "loginMain": {
+    "withApple": "med Apple",
+    "withDiscord": "med Discord",
+    "withSonoran": "med Sonoran"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Hjelp med å forbedre disse oversettelsene",
+    "serverHosting": "Serverhosting"
+  },
+  "management": {
+    "forceJoinAsOwner": "Tving inn som eier"
   },
   "managementPage": {
     "searchTitle": "Søk i fellesskap",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "Vocoder-lydforspill er ennå ikke tilgjengelig."
     }
   },
+  "memberTable": {
+    "banned": "Utestengt",
+    "cancel": "Avbryt",
+    "noPrivateChannels": "Ingen private kanaler"
+  },
   "misc": {
     "learnMoreAboutRadio": "Lær mer om hvordan Sonoran Radio kan revolusjonere rollespillet ditt!",
     "welcome": "Velkommen",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0}MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "AI-bryter",
+    "changeGroup": "Endre gruppe",
+    "clearCache": "Fjern hurtigbuffer",
+    "debugMode": "Feilsøkingsmodus:",
+    "flagTimestamp": "Merk tidsstempel",
+    "inputCount": "Inndatantall:",
+    "outputCount": "Antall utganger:",
+    "pTTHotkey": "Push-to-talk-hurtigtast",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Angi din egendefinerte SFX i nett- eller skrivebordsappen",
+    "setYourPTTKeybindInYourGTASettings": "Angi PTT-tastbindingen din i GTA-innstillingene",
+    "toneHotkey": "Tone-hurtigtast",
+    "volume": "Volum -/+"
+  },
   "registerServer": {
     "errExists": "TeamSpeak-server-UID-en som er oppgitt finnes allerede på en verifisert server, bruk en annen TS-server-UID",
     "errUnknown": "Det oppstod en feil under forsøk på å hente serverinformasjon, prøv igjen senere.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "Angi et egendefinert kallenavn for fellesskapet ditt, som du og medlemmene dine vil se",
     "serverUidInput": "TeamSpeak-server-UID",
     "serverUidInputDesc": "Skriv inn UID-en til TeamSpeak 3-serveren din her"
+  },
+  "serverInfoForm": {
+    "cancel": "Avbryt",
+    "communityImage": "Fellesskapsbilde",
+    "linkSonoranCAD": "Koble til Sonoran CAD",
+    "linkSonoranCADDispatchAI": "Koble til Sonoran CAD (Dispatch AI)",
+    "serverID": "Server-ID",
+    "serverName": "Servernavn",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio, på nett, skrivebord og i spillet!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio bruker et plugin for TeamSpeak 3",
+    "standalone": "Frittstående",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "Last opp et egendefinert fellesskapsbilde."
   },
   "serverPending": {
     "backToPortal": "Tilbake til portal",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Oppgrader til Pro",
     "learnMore": "Lær mer"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "Analog",
+    "clipping": "Klipping",
+    "digital": "Digital",
+    "postEQ": "Post-EQ",
+    "preEQ": "Pre EQ",
+    "vocoder": "Vokoder"
   }
 }

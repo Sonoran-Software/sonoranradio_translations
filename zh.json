@@ -124,6 +124,12 @@
   "config": {
     "displayName": "英语（美国）"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "为桌面游戏创建自定义电台覆盖层。"
+  },
+  "desktopPanel": {
+    "channelHotkey": "频道快捷键"
+  },
   "error404": {
     "goHome": "返回首页",
     "message": "糟糕。这里什么也没有..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "用户名过长。"
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "访问游戏服务器面板。",
+    "addTheFollowingToYour": "将以下内容添加到您的",
+    "andClickToCopyPasteTheIDAndKeyBelow": "并点击复制/粘贴下面的 ID 和密钥。",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "并且一旦你重启你的服务器，就完成了！查看文档了解如何使用该资源及其功能",
+    "aPIKey": "API 密钥",
+    "back": "返回",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy 的 radio 动画脚本通过添加新的游戏内动画来增强你的 Sonoran Radio 体验。作为同类中最受欢迎的脚本之一，它根据你的 radio 放置位置提供多样化选项——无论是在胸前、肩上，还是手持。这带来更沉浸且个性化的互动。",
+    "click": "点击",
+    "configuration": "配置",
+    "configureFeatures": "配置功能",
+    "configureResource": "配置资源",
+    "configureServer": "配置服务器",
+    "continue": "继续",
+    "downloadInstall": "下载并安装",
+    "downloadSonoranRadioForFiveM": "下载 Sonoran Radio 适用于 FiveM",
+    "fileManager": "文件管理器",
+    "fileToCustomizeYourFeatures": "用于自定义你的功能的文件。",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "到你服务器的资源文件夹",
+    "forOff": "立减20%。",
+    "freeAnimationsScript": "免费 动画 脚本",
+    "freeVehicleDisplayScript": "免费车辆展示脚本",
+    "gamePanelPurchase": "游戏面板购买",
+    "here": "这里",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "如果你还没有在你的系统中安装 Standalone Sonoran Radio 资源",
+    "installSonoran": "安装 Sonoran",
+    "learnMore": "了解更多！",
+    "manualInstall": "手动安装",
+    "navigateToThe": "前往",
+    "onceDownloadedExtractThe": "下载后，解压",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "安装完成后，您可以访问资源文件在",
+    "oneClickInstallation": "一键安装",
+    "onTheRocketNodeGamePanelNavigateTo": "在 Rocket Node 游戏面板上，导航到",
+    "onTheRocketNodePanel": "在 Rocket Node 面板上。",
+    "open": "打开",
+    "preConfigured": "预配置。",
+    "purchaseAFiveMGameServerFromRocketNode": "从 Rocket Node 购买 FiveM 游戏服务器",
+    "radio": "电台",
+    "resources": "资源",
+    "seeTheDocs": "查看文档",
+    "serverYouCanFollowThisTutorialToGetSetUp": "服务器，您可以按照本教程进行设置！",
+    "sonoranInstaller": "Sonoran 安装程序",
+    "theResourceWillAlreadyHaveThe": "该资源将已经具有",
+    "toConfigureTheResource": "来配置资源。",
+    "useCouponCode": "使用优惠码",
+    "videoTutorial": "视频教程",
+    "youCanLearnMoreAboutConfigurationOptions": "你可以了解更多有关配置选项",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "你可以了解更多有关其他配置选项",
+    "youMustBeAnAdminToViewTheAPIKey": "您必须是管理员才能查看 API 密钥。",
+    "yourAPIKeyFoundInTheAdministrationTab": "您的 API 密钥，在管理选项卡中找到",
+    "yourCommunityIDFoundInTheAdministrationTab": "您的 Community ID，在管理选项卡中找到"
+  },
   "fivemView": {
     "browserLoginInstruction": "在浏览器中前往 {link} 登录",
     "guestLogin": "访客登录",
@@ -159,6 +218,9 @@
     "loginWithCode": "使用验证码登录",
     "refresh": "刷新",
     "unlink": "取消链接"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "索诺兰广播多边形地图"
   },
   "getStartedButton": {
     "learnMore": "了解更多"
@@ -277,6 +339,9 @@
       "title": "车辆展示"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "已选效果"
+  },
   "login": {
     "createAccount": "创建账户",
     "forgotPassword": "忘记密码",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "输入您的4位验证码..."
+  },
+  "loginMain": {
+    "withApple": "使用 Apple 继续",
+    "withDiscord": "使用 Discord 登录",
+    "withSonoran": "使用 Sonoran"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "帮助改进这些翻译",
+    "serverHosting": "服务器托管"
+  },
+  "management": {
+    "forceJoinAsOwner": "强制以所有者身份加入"
   },
   "managementPage": {
     "searchTitle": "搜索社区",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "Vocoder 音频预览尚不可用。"
     }
   },
+  "memberTable": {
+    "banned": "已封禁",
+    "cancel": "取消",
+    "noPrivateChannels": "没有私人频道"
+  },
   "misc": {
     "learnMoreAboutRadio": "了解 Sonoran Radio 如何革新您的角色扮演！",
     "welcome": "欢迎",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0} MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "AI 切换",
+    "changeGroup": "更改组",
+    "clearCache": "清除缓存",
+    "debugMode": "调试模式：",
+    "flagTimestamp": "标记时间戳",
+    "inputCount": "输入计数:",
+    "outputCount": "输出数量：",
+    "pTTHotkey": "PTT 热键",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "在网页或桌面应用中设置你的自定义 SFX",
+    "setYourPTTKeybindInYourGTASettings": "在你的 GTA 设置中设置你的 PTT 快捷键",
+    "toneHotkey": "音调快捷键",
+    "volume": "音量 -/+"
+  },
   "registerServer": {
     "errExists": "提供的 TeamSpeak 服务器 UID 已存在于已验证的服务器上，请使用其他 TS 服务器 UID",
     "errUnknown": "获取服务器信息时发生错误，请稍后再试。",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "为你的社区设置一个自定义昵称，你和成员都会看到",
     "serverUidInput": "TeamSpeak 服务器 UID",
     "serverUidInputDesc": "在此输入您的 TeamSpeak 3 服务器 UID"
+  },
+  "serverInfoForm": {
+    "cancel": "取消",
+    "communityImage": "社区图片",
+    "linkSonoranCAD": "连接 Sonoran CAD",
+    "linkSonoranCADDispatchAI": "连接 Sonoran CAD（Dispatch AI）",
+    "serverID": "服务器 ID",
+    "serverName": "服务器名称",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio，网页、桌面和游戏内！",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio 使用 TeamSpeak 3 插件",
+    "standalone": "独立模式",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "上传自定义社区图片。"
   },
   "serverPending": {
     "backToPortal": "返回门户",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "升级到专业版",
     "learnMore": "了解更多"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "模拟",
+    "clipping": "削波",
+    "digital": "数字",
+    "postEQ": "后置 EQ",
+    "preEQ": "前置 EQ",
+    "vocoder": "声码器"
   }
 }

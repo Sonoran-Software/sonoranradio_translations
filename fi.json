@@ -124,6 +124,12 @@
   "config": {
     "displayName": "Englanti (Yhdysvallat)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "Luo mukautettuja radiopeittoja työpöytäpeleihin."
+  },
+  "desktopPanel": {
+    "channelHotkey": "Kanavan pikanäppäin"
+  },
   "error404": {
     "goHome": "Siirry kotiin",
     "message": "Hups. Ei mitään täällä..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "Käyttäjänimi on liian pitkä."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "Avaa pelipalvelimen hallintapaneeli.",
+    "addTheFollowingToYour": "Lisää seuraava kohteeseen",
+    "andClickToCopyPasteTheIDAndKeyBelow": "ja napsauta kopioidaksesi/liittääksesi alla olevan ID:n ja avaimen.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "Ja kun käynnistät palvelimesi uudelleen, olet valmis! Katso dokumentaatiosta, miten resurssia ja sen ominaisuuksia käytetään",
+    "aPIKey": "API-avain",
+    "back": "Takaisin",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy'n radioanimaatioskripti parantaa Sonoran Radio -kokemustasi lisäämällä uusia pelin sisäisiä animaatioita. Yhtenä lajinsa suosituimmista skripteistä se tarjoaa monipuolisia vaihtoehtoja sen mukaan, missä radioasi pidetään—olipa se rinnalla, hartioilla tai kädessä. Tämä tarjoaa mukaansatempaavamman ja personoidumman vuorovaikutuksen.",
+    "click": "Napsauta",
+    "configuration": "Konfigurointi",
+    "configureFeatures": "Määritä ominaisuudet",
+    "configureResource": "Määritä resurssi",
+    "configureServer": "Määritä palvelin",
+    "continue": "Jatka",
+    "downloadInstall": "Lataa ja asenna",
+    "downloadSonoranRadioForFiveM": "Lataa Sonoran Radio FiveM:lle",
+    "fileManager": "Tiedostonhallinta",
+    "fileToCustomizeYourFeatures": "tiedosto ominaisuuksiesi mukauttamiseen.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "kansio palvelimesi resources-kansioon.",
+    "forOff": "20 %:n alennuksella.",
+    "freeAnimationsScript": "Ilmainen animaatioskripti",
+    "freeVehicleDisplayScript": "Ilmainen ajoneuvon näyttöskripti",
+    "gamePanelPurchase": "Pelipaneelin osto",
+    "here": "tässä",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Jos sinulla ei vielä ole Standalone Sonoran Radio -resurssia asennettuna",
+    "installSonoran": "Asenna Sonoran",
+    "learnMore": "Lisätietoja!",
+    "manualInstall": "Manuaalinen asennus",
+    "navigateToThe": "Siirry kohteeseen",
+    "onceDownloadedExtractThe": "Kun se on ladattu, pura",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "Kun asennus on valmis, voit käyttää resurssitiedostoja kohteessa",
+    "oneClickInstallation": "Yhden klikkauksen asennus",
+    "onTheRocketNodeGamePanelNavigateTo": "Rocket Node -pelipaneelissa siirry kohtaan",
+    "onTheRocketNodePanel": "Rocket Node -paneelissa.",
+    "open": "Avaa",
+    "preConfigured": "esikonfiguroitu.",
+    "purchaseAFiveMGameServerFromRocketNode": "Osta FiveM-pelipalvelin Rocket Nodesta",
+    "radio": "Radio",
+    "resources": "resurssit",
+    "seeTheDocs": "Katso ohjeet",
+    "serverYouCanFollowThisTutorialToGetSetUp": "Palvelin, voit seurata tätä opasta päästäksesi alkuun!",
+    "sonoranInstaller": "Sonoranin asennusohjelma",
+    "theResourceWillAlreadyHaveThe": "Resurssissa on jo",
+    "toConfigureTheResource": "resurssin määrittämiseksi.",
+    "useCouponCode": "Käytä alennuskoodia",
+    "videoTutorial": "Video-opas",
+    "youCanLearnMoreAboutConfigurationOptions": "Voit lukea lisää määritysvaihtoehdoista",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "Voit lukea lisää muista määritysvaihtoehdoista",
+    "youMustBeAnAdminToViewTheAPIKey": "Sinun täytyy olla ylläpitäjä nähdäksesi API-avaimen.",
+    "yourAPIKeyFoundInTheAdministrationTab": "API-avaimesi, joka löytyy Hallinta-välilehdeltä",
+    "yourCommunityIDFoundInTheAdministrationTab": "Yhteisö-ID:si, joka löytyy Hallinta-välilehdeltä"
+  },
   "fivemView": {
     "browserLoginInstruction": "Siirry selaimessasi osoitteeseen {link} kirjautuaksesi",
     "guestLogin": "Vieras­kirjautuminen",
@@ -159,6 +218,9 @@
     "loginWithCode": "Kirjaudu koodilla",
     "refresh": "Päivitä",
     "unlink": "Poista linkitys"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
     "learnMore": "Lisätietoja"
@@ -277,6 +339,9 @@
       "title": "Ajoneuvon näyttö"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "Valittu tehoste"
+  },
   "login": {
     "createAccount": "Luo tili",
     "forgotPassword": "Unohditko salasanasi",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "Anna 4-numeroinen koodisi..."
+  },
+  "loginMain": {
+    "withApple": "Applella",
+    "withDiscord": "Discordilla",
+    "withSonoran": "Sonoranilla"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "Auta parantamaan näitä käännöksiä",
+    "serverHosting": "Palvelinhosting"
+  },
+  "management": {
+    "forceJoinAsOwner": "Pakota liittyminen omistajana"
   },
   "managementPage": {
     "searchTitle": "Etsi yhteisö",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "Vocoder-ääniesikatselu ei ole vielä saatavilla."
     }
   },
+  "memberTable": {
+    "banned": "Estetty",
+    "cancel": "Peruuta",
+    "noPrivateChannels": "Ei yksityisiä kanavia"
+  },
   "misc": {
     "learnMoreAboutRadio": "Lue lisää siitä, miten Sonoran Radio voi mullistaa roolipelisi!",
     "welcome": "Tervetuloa",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0}MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "Tekoälyn vaihto",
+    "changeGroup": "Vaihda ryhmää",
+    "clearCache": "Tyhjennä välimuisti",
+    "debugMode": "Vianetsintätila:",
+    "flagTimestamp": "Merkitse aikaleima",
+    "inputCount": "Syötteen määrä:",
+    "outputCount": "Lähtöjen määrä:",
+    "pTTHotkey": "PTT-pikanäppäin",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "Aseta oma mukautettu SFX verkkosovelluksessa tai työpöytäsovelluksessa",
+    "setYourPTTKeybindInYourGTASettings": "Aseta PTT-pikanäppäin GTA-asetuksissasi",
+    "toneHotkey": "Sävy-pikanäppäin",
+    "volume": "Äänenvoimakkuus -/+"
+  },
   "registerServer": {
     "errExists": "Annettu TeamSpeak-palvelimen UID on jo vahvistetulla palvelimella, käytä toista TS-palvelimen UID:tä",
     "errUnknown": "Palvelimen tietoja yritettäessä hakea tapahtui virhe, yritä myöhemmin uudelleen.",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "Aseta yhteisöllesi mukautettu lempinimi, jonka sinä ja jäsenesi näette",
     "serverUidInput": "TeamSpeak-palvelimen UID",
     "serverUidInputDesc": "Syötä TeamSpeak 3 -palvelimesi UID tähän"
+  },
+  "serverInfoForm": {
+    "cancel": "Peruuta",
+    "communityImage": "Yhteisön kuva",
+    "linkSonoranCAD": "Yhdistä Sonoran CAD",
+    "linkSonoranCADDispatchAI": "Yhdistä Sonoran CAD (Dispatch AI)",
+    "serverID": "Palvelintunnus",
+    "serverName": "Palvelimen nimi",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio, verkossa, työpöydällä ja pelissä!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "Sonoran Radio käyttää TeamSpeak 3 -lisäosaa",
+    "standalone": "Itsenäinen",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "Lataa mukautettu yhteisön kuva."
   },
   "serverPending": {
     "backToPortal": "Takaisin portaaliin",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Päivitä Pro-versioon",
     "learnMore": "Lisätietoja"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "Analoginen",
+    "clipping": "Leikkautuminen",
+    "digital": "Digitaalinen",
+    "postEQ": "Jälkikaiutin EQ",
+    "preEQ": "Esim. EQ",
+    "vocoder": "Vokooderi"
   }
 }

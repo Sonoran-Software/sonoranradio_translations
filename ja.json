@@ -124,6 +124,12 @@
   "config": {
     "displayName": "英語 (米国)"
   },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "デスクトップ ゲーム用のカスタム ラジオ オーバーレイを作成します。"
+  },
+  "desktopPanel": {
+    "channelHotkey": "チャンネル ホットキー"
+  },
   "error404": {
     "goHome": "ホームへ戻る",
     "message": "おっと。ここには何もない..."
@@ -152,6 +158,59 @@
       "usernameTooLong": "ユーザー名が長すぎます。"
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "ゲームサーバーのパネルにアクセスする。",
+    "addTheFollowingToYour": "次のものをあなたのに追加",
+    "andClickToCopyPasteTheIDAndKeyBelow": "下のIDとキーをクリックしてコピー/貼り付けしてください。",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "そしてサーバーを再起動したら、完了です！ドキュメントでリソースとその機能の使い方を確認してください",
+    "aPIKey": "APIキー",
+    "back": "戻る",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy's radio animation script は、新しいゲーム内アニメーションを追加することで Sonoran Radio の体験を向上させます。この種のスクリプトの中で最も人気のあるものの一つとして、ラジオを胸、肩、または手持ちのどこに配置するかに基づく多彩なオプションを提供します。これにより、より没入感のあるパーソナライズされた操作が実現します。",
+    "click": "クリック",
+    "configuration": "設定",
+    "configureFeatures": "機能を設定",
+    "configureResource": "リソースを設定",
+    "configureServer": "サーバーを設定",
+    "continue": "続ける",
+    "downloadInstall": "ダウンロードしてインストール",
+    "downloadSonoranRadioForFiveM": "FiveM 用の Sonoran Radio をダウンロード",
+    "fileManager": "ファイルマネージャー",
+    "fileToCustomizeYourFeatures": "機能をカスタマイズするためのファイル。",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "サーバーの resources フォルダにあるフォルダ。",
+    "forOff": "20%割引で。",
+    "freeAnimationsScript": "無料アニメーションスクリプト",
+    "freeVehicleDisplayScript": "無料車両表示スクリプト",
+    "gamePanelPurchase": "ゲーム パネル 購入",
+    "here": "ここ",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "まだ Standalone Sonoran Radio リソースをインストールしていない場合は、あなたの",
+    "installSonoran": "Sonoran をインストール",
+    "learnMore": "さらに学ぶ!",
+    "manualInstall": "手動インストール",
+    "navigateToThe": "{literal}",
+    "onceDownloadedExtractThe": "ダウンロード後、{ }を展開してください",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "インストールが完了したら、リソース ファイルにアクセスできます",
+    "oneClickInstallation": "ワンクリックインストール",
+    "onTheRocketNodeGamePanelNavigateTo": "Rocket Node ゲーム パネル上で、移動先",
+    "onTheRocketNodePanel": "Rocket Node パネル上",
+    "open": "開く",
+    "preConfigured": "事前設定済み。",
+    "purchaseAFiveMGameServerFromRocketNode": "Rocket Node から FiveM ゲームサーバーを購入",
+    "radio": "ラジオ",
+    "resources": "リソース",
+    "seeTheDocs": "ドキュメントを見る",
+    "serverYouCanFollowThisTutorialToGetSetUp": "サーバー、セットアップするにはこのチュートリアルに従えます！",
+    "sonoranInstaller": "Sonoran インストーラー",
+    "theResourceWillAlreadyHaveThe": "リソースにはすでに\n",
+    "toConfigureTheResource": "リソースを設定するには。",
+    "useCouponCode": "クーポンコードを使う",
+    "videoTutorial": "ビデオチュートリアル",
+    "youCanLearnMoreAboutConfigurationOptions": "設定オプションについて詳しく知ることができます",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "その他の設定オプションについて詳しく知ることができます",
+    "youMustBeAnAdminToViewTheAPIKey": "API キーを表示するには管理者である必要があります。",
+    "yourAPIKeyFoundInTheAdministrationTab": "管理タブにあるあなたの API キー",
+    "yourCommunityIDFoundInTheAdministrationTab": "管理タブにあるあなたの Community ID"
+  },
   "fivemView": {
     "browserLoginInstruction": "ブラウザで{link}にアクセスしてログインしてください",
     "guestLogin": "ゲストログイン",
@@ -159,6 +218,9 @@
     "loginWithCode": "コードでログイン",
     "refresh": "更新",
     "unlink": "リンク解除"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "ソノラン ラジオ ポリマップ"
   },
   "getStartedButton": {
     "learnMore": "詳細を学ぶ"
@@ -277,6 +339,9 @@
       "title": "車両表示"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "選択されたエフェクト"
+  },
   "login": {
     "createAccount": "アカウントを作成",
     "forgotPassword": "パスワードを忘れた",
@@ -285,6 +350,18 @@
   },
   "loginLink": {
     "enterCode": "4桁のコードを入力してください..."
+  },
+  "loginMain": {
+    "withApple": "Appleでサインイン",
+    "withDiscord": "Discordでログイン",
+    "withSonoran": "Sonoranで"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "これらの翻訳の改善にご協力ください",
+    "serverHosting": "サーバーホスティング"
+  },
+  "management": {
+    "forceJoinAsOwner": "所有者として強制参加"
   },
   "managementPage": {
     "searchTitle": "コミュニティを検索",
@@ -824,6 +901,11 @@
       "vocoderPreviewWarning": "ボコーダー音声プレビューはまだ利用できません。"
     }
   },
+  "memberTable": {
+    "banned": "利用禁止",
+    "cancel": "キャンセル",
+    "noPrivateChannels": "プライベートチャンネルはありません"
+  },
   "misc": {
     "learnMoreAboutRadio": "Sonoran Radio があなたのロールプレイをどう革新できるか、詳しく知る!",
     "welcome": "ようこそ",
@@ -1001,6 +1083,20 @@
     },
     "xmitFreq": "XMIT {0} MHz"
   },
+  "radioSettingsDialog": {
+    "aIToggle": "AIトグル",
+    "changeGroup": "グループを変更",
+    "clearCache": "キャッシュをクリア",
+    "debugMode": "デバッグモード:",
+    "flagTimestamp": "タイムスタンプにフラグ",
+    "inputCount": "入力件数:",
+    "outputCount": "出力数:",
+    "pTTHotkey": "PTTホットキー",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "WebまたはデスクトップアプリでカスタムSFXを設定",
+    "setYourPTTKeybindInYourGTASettings": "GTAの設定でPTTキー割り当てを設定",
+    "toneHotkey": "トーンホットキー",
+    "volume": "音量 -/+"
+  },
   "registerServer": {
     "errExists": "指定された TeamSpeak Server UID は既に検証済みサーバーに存在します。別の TS server UID を使用してください",
     "errUnknown": "サーバー情報の取得中にエラーが発生しました。後でもう一度お試しください。",
@@ -1015,6 +1111,19 @@
     "nicknameInputDesc": "コミュニティ用のカスタムニックネームを設定します。あなたとメンバーが表示できます",
     "serverUidInput": "TeamSpeak サーバーのUID",
     "serverUidInputDesc": "TeamSpeak 3 サーバーのUIDをここに入力してください"
+  },
+  "serverInfoForm": {
+    "cancel": "キャンセル",
+    "communityImage": "コミュニティ Image",
+    "linkSonoranCAD": "Sonoran CAD をリンク",
+    "linkSonoranCADDispatchAI": "Sonoran CAD をリンク（Dispatch AI）",
+    "serverID": "サーバー ID",
+    "serverName": "サーバー名",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio、Web、デスクトップ、ゲーム内で！",
+    "sonoranRadioUsingAPluginForTeamSpeak": "TeamSpeak 3 用のプラグインを使用している Sonoran Radio",
+    "standalone": "スタンドアロン",
+    "teamSpeak": "TeamSpeak 3",
+    "uploadACustomCommunityImage": "カスタムコミュニティ Image をアップロードしてください。"
   },
   "serverPending": {
     "backToPortal": "ポータルに戻る",
@@ -1072,5 +1181,13 @@
   "upgradePromo": {
     "goProToday": "Pro にアップグレード",
     "learnMore": "さらに学ぶ"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "アナログ",
+    "clipping": "クリッピング",
+    "digital": "デジタル",
+    "postEQ": "ポストEQ",
+    "preEQ": "プリEQ",
+    "vocoder": "ボコーダー"
   }
 }
