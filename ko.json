@@ -1,28 +1,87 @@
 {
+  "account": {
+    "noServers": "서버 없음",
+    "serversDesc": "여기에서 소유하거나 관리하는 모든 Sonoran Radio 커뮤니티를 볼 수 있습니다",
+    "serversTitle": "당신의 서버",
+    "tokenCopied": "비밀이 클립보드에 복사됨!",
+    "tokenDesc": "로그인에 사용하려면 이 토큰을 복사하세요 with the FiveM radio!",
+    "tokenDescWarning": "이 코드는 비밀이며 누구와도 공유하면 안 됩니다!",
+    "tokenInputLabel": "귀하의 Login Secret",
+    "tokenLoadBtn": "불러오려면 클릭",
+    "tokenTitle": "Radio Login Secret"
+  },
   "authMember": {
-    "errLeave": "커뮤니티를 떠나는 동안 예상치 못한 오류가 발생했습니다.",
-    "leaveMsg": "이 Sonoran Radio 커뮤니티를 떠나시겠습니까?",
-    "subtitle": "{serverName}에서 Sonoran Radio를 사용하기 전에, 서버 소유자 또는 커뮤니티 관리자가 귀하를 승인해야 합니다. 승인을 기다리세요.",
-    "subtitleShort": "이 커뮤니티에서 Sonoran Radio를 사용하기 전에, 커뮤니티 직원의 승인을 받아야 합니다.",
-    "title": "승인을 기다리고 있습니다"
+    "errLeave": "커뮤니티를 나가는 중 예상치 못한 오류가 발생했습니다.",
+    "leaveMsg": "정말 이 Sonoran Radio Community를 떠나시겠습니까?",
+    "subtitle": "Sonoran Radio를 {serverName}에서 사용하려면, 서버 소유자 또는 커뮤니티 관리자에게 승인을 받아야 합니다. 승인을 기다려 주세요.",
+    "subtitleShort": "이 커뮤니티에서 Sonoran Radio를 사용하기 전에 커뮤니티 직원의 승인을 받아야 합니다",
+    "title": "승인을 기다리는 중"
   },
   "authServer": {
     "authCodeTitle": "인증 코드",
-    "clickToCopy": "클릭하여 복사",
-    "copiedCode": "서버 인증 코드가 클립보드에 복사되었습니다",
-    "errDelete": "서버 삭제 중 예상치 못한 오류가 발생했습니다.",
+    "clickToCopy": "복사하려면 클릭",
+    "copiedCode": "서버 인증 코드를 클립보드에 복사했습니다",
+    "errDelete": "서버를 삭제하는 동안 예상치 못한 오류가 발생했습니다.",
     "errSave": "서버 저장 중 예상치 못한 오류가 발생했습니다.",
     "submit": "서버 저장",
-    "subtitle": "Sonoran Radio 플러그인 및 웹 패널을 사용하여 손쉽게 인증 프로세스를 통해 TeamSpeak 서버를 인증하세요. 인증 프로세스 중, 적절한 권한을 가진 TeamSpeak 서버의 사용자에게 다음 팝업 창이 표시됩니다. 인증 코드를 TeamSpeak 팝업 창에 입력하여 인증을 완료하세요. TeamSpeak 서버 UID를 잘못 설정한 경우, 아래에서 변경할 수 있습니다. Sonoran Radio의 TeamSpeak 팝업을 볼 수 없다면, 올바른 UID를 입력했는지, 적어도 v0.2.0 이상 버전의 플러그인을 설치했는지 확인하세요. 그렇지 않다면, 지원 팀에 문의하세요.",
+    "subtitle": "Sonoran Radio 플러그인과 웹 패널을 활용한 쉬운 인증 프로세스를 통해 TeamSpeak 서버를 인증하세요. 이 인증 프로세스 동안 TeamSpeak 서버에서 적절한 권한을 가진 사용자에게는 보류 중인 승인을 알리는 팝업이 표시됩니다. 아래의 인증 코드를 TeamSpeak 팝업 창에 입력하여 승인하세요. TeamSpeak 서버 UID를 잘못 설정한 경우 아래에서 변경할 수 있습니다. Sonoran Radio에서 TeamSpeak 팝업이 보이지 않는다면 올바른 UID를 입력했는지와 플러그인 v0.2.0 이상이 설치되어 있는지 확인하세요. 그렇지 않다면 지원팀에 문의하세요.",
     "title": "TeamSpeak 서버 인증"
+  },
+  "billing": {
+    "alreadyActiveSub": "이미 활성 구독이 있습니다",
+    "changeServer": "서버 변경",
+    "changeSvDialog": {
+      "errSave": "구독 변경 중 예상치 못한 오류가 발생했습니다.",
+      "removeServer": "서버 제거",
+      "subtitle": "서버 선택",
+      "title": "구독 업데이트"
+    },
+    "chooseSub": "구독 플랜 선택",
+    "compPlans": "플랜 비교",
+    "confirmChangeSub": {
+      "possibleDataLoss": "구독을 이전하거나 제거하면 이전 서버의 데이터가 손실될 수 있습니다.",
+      "remove": "이 서버를 구독에서 제거하시겠습니까?",
+      "set": "이 서버를 구독에 설정하시겠습니까?",
+      "title": "구독 변경",
+      "transfer": "이 구독을 다른 서버로 이전하시겠습니까?"
+    },
+    "errCheck": "구독을 확인하는 동안 예상치 못한 오류가 발생했습니다.",
+    "isUnauthorized": "구독은 권한이 없는 서버에 적용할 수 없습니다",
+    "modifySub": "구독 수정",
+    "newSub": "새 구독",
+    "newSubDialog": {
+      "chooseSub": "구독 선택",
+      "chooseSv": "서버 선택",
+      "errCreate": "구독을 생성하는 동안 예상치 못한 오류가 발생했습니다.",
+      "expertInstallation": "전문가 설치",
+      "mostPop": "가장 인기 있는",
+      "noServer": "서버 없음",
+      "noServerDesc": "이 구독은 커뮤니티와 연결되지 않습니다. 나중에 변경할 수 있습니다.",
+      "one": "소노란 원 ($49.99/월)",
+      "oneLearnMore": "Sonoran One에 대해 더 알아보기",
+      "plus": "플러스 플랜 ($14.99/월)",
+      "pro": "프로 플랜 ($19.99/월)",
+      "title": "새 구독"
+    },
+    "noServerAssociated": "연결된 서버 없음",
+    "setServer": "서버 설정",
+    "statuses": {
+      "active": "활성",
+      "canceled": "취소됨",
+      "incomplete": "미완료",
+      "incomplete_expired": "미완료 만료",
+      "past_due": "연체",
+      "unpaid": "미납"
+    },
+    "toPortal": "포털로 돌아가기"
   },
   "common": {
     "account": "계정",
-    "actions": "동작",
+    "actions": "작업",
     "add": "추가",
     "billing": "결제",
     "cancel": "취소",
-    "clipboard": "클립보드에 복사되었습니다!",
+    "clipboard": "클립보드에 복사됨!",
     "communityIdField": "커뮤니티 ID",
     "confirm": "확인",
     "copy": "복사",
@@ -33,79 +92,148 @@
     "help": "도움말",
     "language": "언어",
     "learnMore": "더 알아보기",
-    "limited": "제한 있음",
+    "limited": "제한됨",
     "login": "로그인",
     "logout": "로그아웃",
     "management": "관리",
     "menu": "메뉴",
     "miscServer": "서버 {id}",
-    "needsInteger": "정수를 입력해야 합니다",
+    "needsInteger": "정수여야 함",
     "notApplicable": "해당 없음",
     "only": "{0} 전용",
     "password": "비밀번호",
     "plans": {
       "free": "무료",
-      "plan": "계획",
+      "plan": "플랜",
       "plus": "플러스",
-      "pro": "프로"
+      "pro": "Pro"
     },
     "portal": "포털",
     "premium": "프리미엄",
-    "reenable": "다시 활성화",
+    "reenable": "다시 사용 설정",
     "refresh": "새로 고침",
     "save": "저장",
     "search": "검색",
     "select": "선택",
     "signup": "가입",
-    "startToday": "오늘 시작",
+    "startToday": "오늘 시작하세요",
     "unlink": "연결 해제",
     "upload": "업로드",
     "username": "사용자 이름"
   },
   "config": {
-    "displayName": "영어 (미국)"
+    "displayName": "영어(미국)"
+  },
+  "customizePanel": {
+    "createCustomRadioOverlaysForDesktopGames": "데스크톱 게임용 사용자 지정 라디오 오버레이 만들기."
+  },
+  "desktopPanel": {
+    "channelHotkey": "채널 단축키"
   },
   "error404": {
     "goHome": "홈으로 이동",
-    "message": "이런. 여기에 아무것도 없습니다..."
+    "message": "앗. 여기에 아무것도 없어요..."
   },
   "errors": {
     "common": {
       "enterEmail": "이메일 주소를 입력하세요.",
-      "enterPassword": "비밀번호를 입력하세요."
+      "enterPassword": "비밀번호를 입력해 주세요."
     },
     "misc": {
-      "noLocalStorageSupport": "브라우저가 로컬 저장소를 지원하지 않거나 비활성화되었을 수 있습니다."
+      "noLocalStorageSupport": "귀하의 브라우저는 로컬 스토리지를 지원하지 않거나 비활성화되었을 수 있습니다."
     },
     "signup": {
-      "invalidEmail": "지정된 이메일이 유효한 이메일 주소가 아닙니다. 다른 이메일 주소를 사용하세요.",
+      "invalidEmail": "지정된 이메일은 유효한 이메일 주소가 아닙니다, 다른 이메일 주소를 사용해 주세요.",
       "invalidPassword": "잘못된 비밀번호",
-      "noEmail": "지정된 이메일이 없습니다.",
-      "noPassword": "지정된 비밀번호가 없습니다.",
-      "noUsername": "지정된 사용자 이름이 없습니다.",
+      "noEmail": "이메일이 지정되지 않았습니다.",
+      "noPassword": "비밀번호가 지정되지 않았습니다.",
+      "noUsername": "사용자 이름이 지정되지 않았습니다.",
       "passwordNoNumber": "비밀번호에 숫자가 포함되어 있지 않습니다",
-      "passwordNoSymbol": "비밀번호에 기호가 포함되어 있지 않습니다({'!@#$%^&*'})",
-      "passwordNotMoreThan": "비밀번호가 6자 이상이 아닙니다",
-      "passwordNoUppercase": "비밀번호에 대문자가 포함되어 있지 않습니다",
+      "passwordNoSymbol": "비밀번호에 기호가 포함되어 있지 않습니다 ({'!@#$%^&*'})",
+      "passwordNotMoreThan": "비밀번호는 6자리를 초과하지 않아야 합니다",
+      "passwordNoUppercase": "비밀번호에 대문자 문자가 포함되어 있지 않습니다",
       "passwordsDontMatch": "비밀번호가 서로 일치하지 않습니다.",
-      "usernameInvalidCharacter": "사용자 이름에 유효하지 않은 문자가 포함되어 있습니다.",
-      "usernameNotLongEnough": "사용자 이름이 4자 이상이 아닙니다.",
+      "usernameInvalidCharacter": "사용자 이름에 잘못된 문자가 있습니다.",
+      "usernameNotLongEnough": "사용자 이름은 4자보다 길지 않습니다.",
       "usernameTooLong": "사용자 이름이 너무 깁니다."
     }
   },
+  "fivemResourceStepper": {
+    "accessTheGameServerSPanel": "게임 서버의 패널에 액세스하세요.",
+    "addTheFollowingToYour": "다음 내용을 your에 추가",
+    "andClickToCopyPasteTheIDAndKeyBelow": "아래 ID와 키를 복사/붙여넣기하려면 클릭하세요.",
+    "andOnceYouRestartYourServerYouReDoneCheckTheDocsOutForHowToU": "서버를 다시 시작하면 완료됩니다! 리소스와 기능 사용 방법은 문서를 확인하세요",
+    "aPIKey": "API 키",
+    "back": "뒤로",
+    "bigDaddySRadioAnimationScriptEnhancesYourSonoranRadioExperie": "Big Daddy의 radio 애니메이션 스크립트는 새로운 게임 내 애니메이션을 추가해 Sonoran Radio 경험을 향상합니다. 이 종류에서 가장 인기 있는 스크립트 중 하나로서, radio가 가슴, 어깨, 또는 손에 들려 있는 위치에 따라 다양한 옵션을 제공합니다. 이를 통해 더 몰입감 있고 개인화된 상호작용을 제공합니다.",
+    "click": "클릭",
+    "configuration": "구성",
+    "configureFeatures": "기능 구성",
+    "configureResource": "리소스 구성",
+    "configureServer": "서버 구성",
+    "continue": "계속",
+    "downloadInstall": "다운로드 및 설치",
+    "downloadSonoranRadioForFiveM": "FiveM용 Sonoran Radio 다운로드",
+    "fileManager": "파일 관리자",
+    "fileToCustomizeYourFeatures": "기능을 사용자 지정할 파일.",
+    "fiveM": "FiveM",
+    "folderToYourServerSResourcesFolder": "서버의 resources 폴더로",
+    "forOff": "20% 할인용.",
+    "freeAnimationsScript": "무료 애니메이션 스크립트",
+    "freeVehicleDisplayScript": "무료 차량 디스플레이 스크립트",
+    "gamePanelPurchase": "게임 패널 구매",
+    "here": "여기",
+    "ifYouDonTAlreadyHaveTheStandaloneSonoranRadioResourceInstall": "Standalone Sonoran Radio 리소스가 아직 설치되어 있지 않다면",
+    "installSonoran": "Sonoran 설치",
+    "learnMore": "더 알아보기!",
+    "manualInstall": "수동 설치",
+    "navigateToThe": "다음으로 이동",
+    "onceDownloadedExtractThe": "다운로드되면, {the} 압축을 풉니다",
+    "onceTheInstallationIsCompleteYouCanAccessTheResourceFilesInT": "설치가 완료되면 리소스 파일에 액세스할 수 있습니다.",
+    "oneClickInstallation": "원클릭 설치",
+    "onTheRocketNodeGamePanelNavigateTo": "Rocket Node 게임 패널에서, 이동합니다",
+    "onTheRocketNodePanel": "Rocket Node 패널에서.",
+    "open": "열기",
+    "preConfigured": "사전 구성됨.",
+    "purchaseAFiveMGameServerFromRocketNode": "Rocket Node에서 FiveM 게임 서버 구매",
+    "radio": "라디오",
+    "resources": "리소스",
+    "seeTheDocs": "문서 보기",
+    "serverYouCanFollowThisTutorialToGetSetUp": "서버, 이 튜토리얼을 따라 설정할 수 있습니다!",
+    "sonoranInstaller": "Sonoran 설치 프로그램",
+    "theResourceWillAlreadyHaveThe": "리소스에는 이미 다음이 있습니다",
+    "toConfigureTheResource": "리소스를 구성하려면.",
+    "useCouponCode": "쿠폰 코드 사용",
+    "videoTutorial": "비디오 튜토리얼",
+    "youCanLearnMoreAboutConfigurationOptions": "구성 옵션에 대해 더 알아볼 수 있습니다",
+    "youCanLearnMoreAboutTheOtherConfigurationOptions": "다른 구성 옵션에 대해 더 알아볼 수 있습니다",
+    "youMustBeAnAdminToViewTheAPIKey": "API 키를 보려면 관리자인 상태여야 합니다.",
+    "yourAPIKeyFoundInTheAdministrationTab": "관리 탭에서 찾을 수 있는 API 키",
+    "yourCommunityIDFoundInTheAdministrationTab": "관리 탭에서 찾을 수 있는 Community ID"
+  },
   "fivemView": {
-    "browserLoginInstruction": "{link}으로 이동하여 로그인하세요",
+    "browserLoginInstruction": "브라우저에서 {link}로 이동하여 로그인하세요",
+    "guestLogin": "게스트 로그인",
+    "guestLoginInstruction": "게스트로 로그인",
     "loginWithCode": "코드로 로그인",
     "refresh": "새로 고침",
     "unlink": "연결 해제"
+  },
+  "geoZoneViewer": {
+    "sonoranRadioPolymap": "소노란 라디오 폴리맵"
   },
   "getStartedButton": {
     "learnMore": "더 알아보기"
   },
   "hotkeys": {
     "clearHotkey": "단축키 지우기",
-    "noKeySet": "설정된 키 없음",
-    "pressAKey": "키를 누르세요"
+    "clickToEndRecording": "녹음 종료하려면 클릭",
+    "focusDesktopRadio": "데스크톱 라디오 포커스",
+    "noKeySet": "키가 설정되지 않음",
+    "openConnectedUsers": "사용자 목록 오버레이 열기",
+    "openDesktopOverlay": "오버레이 열기",
+    "pressAKey": "키를 누르세요",
+    "toggleDesktopRadio": "데스크톱 라디오 전환"
   },
   "iconPicker": {
     "colorLabel": "색상",
@@ -120,73 +248,73 @@
     "download": "다운로드",
     "export": "내보내기",
     "import": "가져오기",
-    "placeholder": "여기에 JSON을 붙여 넣으세요",
+    "placeholder": "JSON을 여기에 붙여넣기",
     "title": "JSON 가져오기/내보내기",
     "tooltip": "JSON 파일 가져오기"
   },
   "landingPage": {
     "BackgroundAudio": {
-      "desc": "비상 호출에 응답 중인가요? Sonoran Radio는 실시간으로 사이렌, 총성 등을 마이크 피드에 직접 주입하여 궁극의 몰입감을 제공합니다.",
+      "desc": "통화에 응답 중인가요? Sonoran Radio는 실시간 사이렌, 총성 등 더 많은 소리를 마이크 피드에 직접 주입해 최고의 몰입감을 제공합니다.",
       "title": "배경 오디오"
     },
     "bigDaddyRadio": {
-      "desc": "Sonoran Radio는 Big Daddy Scripts와 제휴하여 그들의 라디오 애니메이션 스크립트를 무료로 제공합니다!",
-      "title": "Big-Daddy Radio 애니메이션"
+      "desc": "Sonoran Radio는 Big Daddy Scripts와 파트너십을 맺고 그들의 라디오 애니메이션 스크립트 무료 사본을 제공합니다!",
+      "title": "빅 대디 라디오 애니메이션"
     },
     "Cloud_Configurations": {
-      "desc": "우리의 간편한 구성 패널을 통해 라이브 업데이트로 라디오를 커스터마이징하는 것이 그 어느 때보다 쉬워졌습니다.",
+      "desc": "사용하기 쉬운 구성 패널에서 실시간 업데이트로 라디오를 맞춤 설정하는 일이 그 어느 때보다 쉬워졌습니다.",
       "title": "클라우드 구성"
     },
     "Customizable_SFX": {
       "desc": "터널, 지하 위치 등에서 신호 손실을 구성하세요!",
-      "title": "맞춤 SFX"
+      "title": "사용자 지정 가능한 SFX"
     },
     "Custom_Voice_Effects": {
-      "desc": "커뮤니티를 위해 디지털 및 아날로그 스타일의 음성 효과를 커스터마이징하세요!",
+      "desc": "커뮤니티를 위해 디지털 및 아날로그 스타일 음성 효과를 사용자 지정하세요!",
       "title": "맞춤 음성 효과"
     },
     "Destructible_towers": {
-      "desc1": "게임 내의 물리적 타워는 범죄자에 의해 파괴될 수 있으며, 그 주변의 라디오 품질에 큰 영향을 미칩니다.",
-      "desc2": "세 가지 다른 게임 내 모델 유형으로 Sonoran Radio는 몰입감을 한 단계 더 발전시킵니다!",
+      "desc1": "게임 내 물리적 타워는 범죄자에 의해 파괴될 수 있으며, 이로 인해 주변 라디오 품질이 크게 저하됩니다.",
+      "desc2": "3가지 서로 다른 게임 내 모델 유형으로, Sonoran Radio는 몰입감을 한 단계 더 끌어올립니다!",
       "title": "파괴 가능한 타워"
     },
     "Dispatch_Panel": {
-      "desc1": "사용자를 쉽게 시각화하고 관리하며, 톤을 재생하고, 더 많은 것을 할 수 있습니다!",
-      "desc2": "Sonoran Radios의 디스패치 UI는 웹과 데스크톱의 Windows 및 OSX 등 어디서든 사용할 수 있습니다.",
+      "desc1": "사용자 를 쉽게 시각화하고, 관리하고, 톤을 재생하고, 더 많은 기능을 사용하세요!",
+      "desc2": "Sonoran Radios 디스패치 UI는 웹과 Windows 및 OSX 데스크톱 어디에서나 사용할 수 있습니다.",
       "title": "디스패치 패널"
     },
     "EmergencyCalls": {
-      "desc": "게임 내에서 디스패치로 비상 통화를 걸 수 있습니다!",
-      "title": "게임 내 비상 통화"
+      "desc": "게임 내에서 모두 긴급 통화를 발신 센터로 연결하세요!",
+      "title": "게임 내 비상 호출"
     },
     "inGameToneBoard": {
       "desc": "Sonoran Radios의 디스패치 UI는 특정 채널 및 그룹을 지정하고, 톤을 반복 재생하며, 더 많은 것을 할 수 있습니다! 심지어 게임 내 스피커에서 톤을 재생할 수도 있습니다!",
-      "title": "게임 내 스피커로 톤보드"
+      "title": "톤 보드에서 게임 내 스피커로"
     },
-    "intro": "Sonoran Radio로 게임 커뮤니케이션을 한 단계 더 발전시킵니다. 현실적인 라디오 채널에서 채팅하고, 음성 효과를 커스터마이징하며, 게임 내 기능과 손쉽게 연결하여 진정한 몰입 경험을 제공합니다.",
+    "intro": "Sonoran  Radio로 게임 내 커뮤니케이션을 한 단계 더 높이세요. 현실감 있는 라디오 채널에서 채팅하고, 음성 효과를 맞춤 설정하고, 게임 내 기능과 손쉽게 연결해 진정으로 몰입감 있는 경험을 누리세요.",
     "mobileCommandCenter": {
-      "desc": "Sonoran의 모바일 커맨드 센터를 통해 전례 없는 방식으로 명령을 내릴 수 있습니다. 이 독특한 유틸리티 차량은 무한한 가능성을 제공합니다!",
-      "title": "모바일 커맨드 센터"
+      "desc": "Sonorans 모바일 명령 센터는 그 어느 때보다도 지휘할 수 있게 해줍니다. 이 독보적인 유틸리티 차량은 무한한 가능성을 가져다줍니다!",
+      "title": "모바일 Command Center"
     },
     "MultipleRadioOperations": {
-      "desc1": "Sonoran Radio는 게임 내 여러 사용자 인터페이스를 제공하여, 도보, 차량 내 등 어디서든 연결 상태를 유지할 수 있도록 합니다!",
-      "desc2": "우리의 라디오 스타일 옵션 중에서 선택하거나, 자신만의 스타일을 추가하세요!",
-      "title": "다중 라디오 옵션"
+      "desc1": "Sonoran Radio는 여러 게임 내 사용자 인터페이스를 제공하여 도보 중, 차량 탑승 중, 그 외 상황에서도 연결을 유지할 수 있게 합니다!",
+      "desc2": "라디오 스타일 옵션 중 하나를 선택하거나 직접 추가해 보세요!",
+      "title": "다중 Radio 옵션"
     },
     "Power_Grid": {
-      "desc": "통합 전력망에 해킹하여 여러분의 지역에서 Sonoran Radio 타워를 비활성화하세요! 이 스크립트에 대해 더 알아보세요!",
+      "desc": "통합 전력망에 해킹해 여러분 지역의 Sonoran Radio 타워를 비활성화하세요! 이 스크립트에 대해 더 알아보세요!",
       "title": "전력망"
     },
     "Radio_Chattrer": {
-      "desc": "교통 정차 중이신가요? 경관이 근처에서 활성 라디오를 사용할 때 실제 라디오 잡음을 듣게 됩니다!",
-      "title": "주변 라디오 잡음 듣기"
+      "desc": "교통 단속에 걸리셨나요? 경찰관이 활성화된 무전기를 근처에 두면 실제 무전 교신을 들을 수 있습니다!",
+      "title": "근처 무전 대화 듣기"
     },
     "Scanners": {
-      "desc": "게임 내 스캐너를 사용하면 가까운 사람도 라디오 트래픽을 듣고 동행할 수 있습니다!",
+      "desc": "게임 내 스캐너를 사용하면 당신과 주변의 다른 사람들이 무전 통신을 들을 수 있습니다!",
       "title": "스캐너"
     },
     "Sonoran_CAD": {
-      "desc": "이 플러그인은 Sonoran Radio 사용자가 라디오를 Sonoran CAD와 연결할 수 있도록 합니다. 유닛 상태를 보고, 호출 정보를 디스패치하며, 패닉을 토글하는 등 다양한 작업을 수행할 수 있습니다!",
+      "desc": "이 플러그인을 사용하면 Sonoran Radio 고객이 무전을 Sonoran CAD와 연결할 수 있습니다. 부대 상태를 확인하고, 출동 호출 정보를 보고, 패닉을 토글하는 등 다양한 기능을 사용할 수 있습니다!",
       "title": "Sonoran CAD"
     },
     "Sonoran_CMS": {
@@ -194,12 +322,12 @@
       "title": "Sonoran CMS"
     },
     "ToneBoard": {
-      "desc1": "커뮤니티를 위해 디스패치 톤을 업로드하여 맞춤 설정하세요!",
-      "desc2": "Sonoran Radios의 디스패치 UI는 특정 채널 및 그룹을 지정하고, 톤을 반복 재생하며 더 많은 것을 할 수 있습니다! 심지어 게임 내 스피커에서 톤을 재생할 수도 있습니다!",
-      "title": "톤보드"
+      "desc1": "커뮤니티를 위한 디스패치 톤을 업로드하고 커스터마이징!",
+      "desc2": "Sonoran Radios의 디스패치 UI는 특정 채널 및 그룹을 지정하고, 톤을 반복 재생하며, 더 많은 것을 할 수 있습니다! 심지어 게임 내 스피커에서 톤을 재생할 수도 있습니다!",
+      "title": "톤 보드"
     },
     "Transmission_Logs": {
-      "desc": "옵션으로 AI 기반 텍스트 전사를 포함하여 전송 로그를 보고 재생할 수 있습니다!",
+      "desc": "전송 로그를 보고 재생하며 선택 사항인 AI 기반 텍스트 전사를 사용할 수 있습니다!",
       "title": "전송 로그"
     },
     "tunnelSignalLoss": {
@@ -207,48 +335,636 @@
       "title": "터널 신호 손실"
     },
     "VehicleDisplay": {
-      "desc": "우리의 3D 차량 라디오 디스플레이는 채널 정보, 전송 사용자, 그리고 패닉 상태를 실시간으로 반영하여 몰입을 새롭게 고취시킵니다!",
+      "desc": "당사의 3D 차량 라디오 디스플레이는 채널 정보, 송신 사용자, 패닉 상태를 실시간으로 반영하여 새로운 수준의 몰입감을 제공합니다!",
       "title": "차량 디스플레이"
     }
   },
+  "localVoiceFxSettings": {
+    "selectedEffect": "선택된 효과"
+  },
   "login": {
-    "createAccount": "계정 생성",
-    "forgotPassword": "비밀번호 찾기",
+    "createAccount": "계정 만들기",
+    "forgotPassword": "비밀번호를 잊으셨나요",
     "forgotPasswordDesc": "Sonoran 계정 비밀번호를 잊으셨나요? 아래에 이메일을 입력하여 자격 증명을 재설정하세요.",
     "loginWithSonoran": "Sonoran으로 로그인"
   },
   "loginLink": {
     "enterCode": "4자리 코드를 입력하세요..."
   },
+  "loginMain": {
+    "withApple": "Apple로 계속하기",
+    "withDiscord": "Discord로",
+    "withSonoran": "Sonoran으로"
+  },
+  "mainLayout": {
+    "helpImproveTheseTranslations": "이 번역을 개선하는 데 도움을 주세요",
+    "serverHosting": "서버 호스팅"
+  },
+  "management": {
+    "forceJoinAsOwner": "소유자로 강제 참여"
+  },
   "managementPage": {
     "searchTitle": "커뮤니티 검색",
-    "subtitle": "미래의 억만장자만을 위해",
-    "title": "Sonoran Radio 관리 패널"
+    "subtitle": "미래의 억만장자만을 위한",
+    "title": "소노란 라디오 관리 패널"
   },
   "manageServer": {
-    "adminTab": "관리자",
+    "admin": {
+      "apiInfoHint": "커뮤니티에 초대할 때 멤버들에게 이것을 주세요",
+      "apiInfoTitle": "API 정보",
+      "communityApiKeyField": "커뮤니티 API 키",
+      "communityLogs": "커뮤니티 로그",
+      "logAccount": "Source (Account)",
+      "logContent": "내용",
+      "logDate": "날짜",
+      "logSearch": "검색",
+      "logSearchSubtitle": "커뮤니티의 사용 가능한 모든 로그를 보고 유형, 날짜, 콘텐츠로 필터링하세요.",
+      "logSearchTitle": "검색",
+      "logType": "유형",
+      "updateApiKey": "API 키 업데이트"
+    },
+    "adminTab": "관리",
+    "ai": {
+      "addKey": "AI 키 추가",
+      "services": {
+        "0": "전송 로그 STT",
+        "1": "톤 보드 STT"
+      },
+      "title": "AI API 키"
+    },
+    "customDomain": {
+      "chooseName": "도메인 이름 선택",
+      "defaultRecordName": "@ 또는 비어 있음",
+      "dns": {
+        "content": "내용",
+        "name": "이름",
+        "type": "유형"
+      },
+      "ownershipHint": "도메인 이름을 소유해야 합니다!",
+      "placeholder": "radio.example.com",
+      "requiresPro": "사용자 지정 도메인을 설정하려면 Pro 구독이 필요합니다",
+      "tryItOut": "사용해 보기",
+      "vanityCopied": "바닐리 URL을 클립보드에 복사됨!",
+      "vanityLabel": "가상 URL",
+      "vanityTitle": "무료 가상 URL",
+      "verified": "축하합니다, 사용자 정의 도메인이 확인되었습니다!",
+      "verifyButton": "커스텀 도메인 확인",
+      "verifyTitle": "도메인 확인"
+    },
+    "customizeDesktopFrames": {
+      "addButton": "버튼 추가",
+      "bodyImage": "바디 이미지",
+      "cancel": "취소",
+      "chooseSkin": "스킨 선택",
+      "confirmRemove": "이 프레임을 제거하시겠습니까?",
+      "create": "만들기",
+      "frameBodyImage": "프레임 바디 이미지",
+      "frameLabel": "프레임 레이블",
+      "frameWidth": "프레임 너비",
+      "importDefaultFrameType": "기본 프레임 유형 가져오기",
+      "importFromSkin": "FiveM (skin.json)에서 가져오기",
+      "importNoFramesFound": "body.width와 screen이 있는 데스크톱 프레임이 없습니다.",
+      "label": "레이블",
+      "newFrame": "새 프레임",
+      "noneFound": "이 서버에 대해 찾은 데스크톱 프레임이 없습니다.",
+      "saved": "데스크톱 프레임 저장됨.",
+      "screenPlaceholder": "이것은 화면입니다",
+      "selectFrame": "프레임 선택",
+      "tooltip": {
+        "dragBody": "구성 요소를 이동하려면",
+        "dragTitle": "드래그",
+        "removeBody": "구성 요소를 제거하려면(화면 제외)",
+        "removeTitle": "우클릭",
+        "resizeBody": "구성 요소의 크기를 조정하려면",
+        "resizeTitle": "CTRL+드래그"
+      },
+      "upload": "업로드"
+    },
     "customizeMenu": {
-      "channelsGroups": "채널 & 그룹",
+      "ai": "AI",
+      "channelsGroups": "채널 및 그룹",
+      "customDomain": "커스텀 도메인",
+      "defaultSettings": "기본 설정",
+      "desktopFrames": "데스크톱 프레임",
+      "fivemIntegration": "FiveM 통합",
       "info": "정보",
       "patrolChannels": "순찰 채널",
       "permissions": "권한",
       "profiles": "프로필",
-      "voiceCustomization": "음성 맞춤"
+      "sfxCustomization": "SFX 맞춤",
+      "toneBoard": "톤 보드",
+      "voiceCustomization": "음성 맞춤",
+      "zones": "존"
     },
-    "customizeTab": "맞춤",
+    "customizeTab": "사용자 지정",
+    "deleteMsg": "이 구성을 삭제하시겠습니까? 이 작업으로 인해 되돌릴 수 없는 데이터 손실이 발생합니다.",
     "deleteServer": "커뮤니티 삭제",
+    "deleteSuccess": "서버가 성공적으로 삭제되었습니다",
     "dispatchTab": "디스패치",
-    "guidesLink": "Sonoran Radio 정보 & 가이드",
-    "membersTab": "회원",
+    "emergency911": {
+      "callBtn": "911에 전화",
+      "connected": "연결됨 — 통화가 배차 담당자에게 방송되고 있습니다.",
+      "connecting": "연결 중...",
+      "disconnectsDispatchHint": "통화를 시작하면 다른 탭의 활성 배차 세션이 연결 해제됩니다.",
+      "dispatchersTitle": "이 통화의 디스패처",
+      "endBtn": "통화 종료",
+      "selectRoom": "서버",
+      "subtitle": "이 커뮤니티의 디스패처에게 911 전화를 걸 수 있습니다.",
+      "title": "비상 호출",
+      "waitingDispatcher": "상담원의 응답을 기다리는 중..."
+    },
+    "emergency911Tab": "911 통화",
+    "errImport": "SAPR Config 가져오기 중 예상치 못한 오류가 발생했습니다.",
+    "errImportNotFound": "TeamSpeak UID에 대한 SAPR 구성을 찾을 수 없습니다.",
+    "errSaveInfo": "서버 정보 저장 중 예상치 못한 오류가 발생했습니다.",
+    "errServerCheck": "서버를 확인하는 동안 예상치 못한 오류가 발생했습니다.",
+    "errUidTaken": "TeamSpeak 서버 UID는 이미 다른 승인된 서버에서 사용 중입니다.",
+    "errUnauthorize": "서버를 인증 해제하는 동안 예상치 못한 오류가 발생했습니다.",
+    "explainOwnerOnly": "소유자만 이 설정을 변경할 수 있습니다",
+    "geoZoneViewer": {
+      "custom": "사용자 지정",
+      "customMap": {
+        "cancel": "취소",
+        "detectedTemplate": "감지된 템플릿: {template}",
+        "dialogInstructions": "이미지 파일(또는 폴더)을 선택하세요. 감지는 something_12_34.png와 같은 파일 이름을 기대합니다. 여기서 12=y이고 34=x입니다. y와 x 사이에는 밑줄을 사용하세요. 음수 좌표도 지원됩니다. 예: something_-12_34.png.",
+        "dialogInstructionsPrefix": "사용할 사용자 지정 지도 타일로 사용할 이미지 하나 이상을 선택하세요. 이미지 파일 이름은 다음 형식이어야 합니다",
+        "dialogInstructionsSuffix": "(GTAV 스타일).",
+        "dialogSubtitle": "타일 폴더 또는 타일 파일을 선택하세요. Sonoran Radio는 URL 템플릿과 지도 범위를 감지합니다.",
+        "dialogTitle": "사용자 지정 지도 타일",
+        "fileSizeLimitError": "타일 이미지 '{file}'이 {limit} 업로드 제한을 초과했습니다.",
+        "fileStats": "타일 통계",
+        "fileStatsValue": "{matched}개 일치 / {total}개 이미지 ({missing}개 누락 추정)",
+        "invalidSeparator": "'{file}'의 구분자가 잘못되었습니다. y/x 사이에 밑줄을 사용하세요. 예: something_-12_34.png.",
+        "leafletBounds": "지도 범위",
+        "leafletBoundsPixels": "지도 범위(픽셀)",
+        "matchedFiles": "일치하는 파일",
+        "mismatchedTileSize": "모든 타일은 같은 크기여야 합니다. '{file}'은 {width}x{height}이고, 예상 크기는 {expectedWidth}x{expectedHeight}입니다.",
+        "missingServer": "업로드할 활성 서버가 선택되지 않았습니다.",
+        "noImages": "선택된 이미지 파일이 없습니다.",
+        "noTemplateMatch": "지원되는 타일 이름 템플릿이 감지되지 않았습니다.",
+        "openUploader": "타일 업로드",
+        "resolvedTemplate": "해결된 템플릿",
+        "selectedSummary": "{count}개 타일 이미지 선택됨 ({total})",
+        "selectFiles": "파일 선택",
+        "selectFolder": "폴더 선택",
+        "statusFailed": "실패",
+        "statusPending": "대기 중",
+        "statusUploaded": "업로드됨",
+        "statusUploading": "업로드 중",
+        "template": "템플릿",
+        "tileBounds": "타일 경계(x/y 인덱스)",
+        "tileSize": "타일 크기",
+        "totalSizeLimitError": "총 타일 업로드 크기는 {total}이며 {limit} 제한을 초과했습니다.",
+        "unableReadDimensions": "'{file}'에서 이미지 크기를 읽을 수 없습니다.",
+        "uploadFailed": "타일 업로드에 실패했습니다.",
+        "uploadMissingUrl": "업로드가 완료되었지만 구성이 반환되지 않았습니다.",
+        "uploadProgress": "타일 {current} / {total} 업로드 중",
+        "uploadSuccess": "{count}개 타일 이미지 업로드 완료.",
+        "warningTileSizes": "감지된 타일의 크기가 모두 같지 않습니다.",
+        "warningUnmatched": "감지된 템플릿과 일치한 이미지가 {matched}/{total}개뿐입니다.",
+        "zoomRange": "줌 범위"
+      },
+      "degradeZones": "등급 하향 영역",
+      "degradeZonesDescription": "Degrade Zones는 신호 세기를 줄입니다. Ex: 터널, 지하 지역 등.",
+      "emergencyZones": "비상 구역",
+      "emergencyZonesDescription": "Emergency Zones는 위치를 기반으로 AI dispatcher가 들어오는 emergency를 어떤 channel에 broadcast할지 알려줍니다.",
+      "erlc": "ERLC",
+      "fivem": "FiveM",
+      "geoChannels": "Geo 채널",
+      "geoChannelsDescription": "Geo Channels는 사용자의 게임 내 위치에 따라 특정 채널로 자동 전환합니다.",
+      "mapType": "지도 유형",
+      "server": "서버"
+    },
+    "guidesLink": "소노란 라디오 정보 및 가이드",
+    "importSAPR": {
+      "btn": "SAPR 구성 가져오기",
+      "confirmMsg": "{n}개의 채널을 가져오려고 합니다. 계속하시겠습니까?",
+      "jsonMsg": "여기에 SAPR config JSON 붙여넣기",
+      "jsonTitle": "SAPR 구성 가져오기"
+    },
+    "members": {
+      "actions": "작업",
+      "approveBtn": "승인",
+      "ban": "차단",
+      "banBtn": "차단",
+      "cannotModifyPermsOfMyself": "내 권한은 수정할 수 없습니다",
+      "displayName": "표시 이름",
+      "editMemberPerms": "멤버 권한 편집",
+      "errAddInvalidAccount": "제공된 사용자 이름이 존재하지 않습니다",
+      "errAddUnknown": "관리자 추가 중 알 수 없는 오류가 발생했습니다",
+      "errRemoveUnknown": "관리자 제거 중 알 수 없는 오류가 발생했습니다",
+      "explainDisabled": "서버 소유자만 관리자를 추가하거나 수정할 수 있습니다",
+      "filterAll": "전체",
+      "filterPending": "대기 중",
+      "kickBtn": "추방",
+      "owner": "소유자",
+      "ownerHasAllPerms": "커뮤니티 소유자는 모든 권한을 가지고 있습니다",
+      "paysSubscription": "구독 결제",
+      "pending": "대기 중",
+      "permissionsBtn": "권한",
+      "privateChannels": "비공개 채널",
+      "remove": "제거",
+      "removeWarn": "경고",
+      "removeWarnSelfMsg": "이 서버에서 자신을 제거하시겠습니까? 액세스 권한을 잃게 되며 서버 소유자가 다시 추가해야 합니다.",
+      "removeWarnSubHolderMsg": "구독 소유자를 제거하면 이 서버가 무료로 전환됩니다! 계속하시겠습니까?",
+      "search": "검색",
+      "selectPrivateChannels": "사용자가 참여할 수 있는 비공개 채널을 선택하세요",
+      "setDisplayName": "표시 이름 설정",
+      "subOwner": "구독 보유자",
+      "subtitle": "커뮤니티에서 사용자 권한과 접근을 관리하세요.",
+      "title": "커뮤니티 멤버",
+      "traits": "특성",
+      "unbanBtn": "차단 해제",
+      "username": "사용자 이름"
+    },
+    "membersTab": "멤버",
+    "micClick": {
+      "emergencyCallSfx": "비상 호출 SFX",
+      "header": "SFX 맞춤",
+      "keyDownSfx": "키 다운 SFX",
+      "keyUpSfx": "키 업 SFX",
+      "overrideSuccessSfx": "토크오버 오버라이드 성공 SFX",
+      "panicSfx": "패닉 버튼 SFX",
+      "sfxGameBoatEngine": "게임 내 보트 엔진 SFX",
+      "sfxGameHelicopterRotors": "인-게임 헬리콥터 로터 효과음",
+      "sfxGamePistol": "인게임 권총 효과음",
+      "sfxGamePistolSilenced": "게임 내 소음기 장착 권총 효과음",
+      "sfxGameRifle": "게임 내 소총 효과음",
+      "sfxGameRifleSilenced": "게임 내 소음기 장착 소총 효과음",
+      "sfxGameSiren": "인게임 사이렌 효과음",
+      "sfxVolDown": "볼륨 낮추기 (단축키) SFX",
+      "sfxVolUp": "볼륨 높이기 (단축키) SFX",
+      "simulatedAudio": "인게임 배경 오디오 SFX",
+      "simulatedAudioSubtitle": "배경 오디오 주입은 사이렌, 헬리콥터 로터, 보트 엔진, 총성과 같은 게임 내 사운드를 마이크 출력에 섞습니다.",
+      "subheader": "커뮤니티 전체의 음향 효과를 사용자 지정하세요.",
+      "talkoverSfx": "토크오버 SFX"
+    },
+    "myself": {
+      "subtitle": "커뮤니티 설정 보기 및 편집",
+      "title": "당신의 커뮤니티 정보"
+    },
+    "noPermPage": "이 페이지를 볼 권한이 없습니다",
+    "patrolChannels": {
+      "addChannel": "순찰 채널 추가",
+      "allowTalkover": "토크오버 허용",
+      "channelUid": "TS 채널 ID",
+      "channelUidInput": "TS 채널 ID - 필수",
+      "customizeTalkaround": "토크어라운드 범위 사용자 지정",
+      "dialogAddTitle": "순찰 채널 추가",
+      "dialogEditTitle": "순찰 채널 편집",
+      "dialogSubtitle": "순찰 채널은 Sonoran Radio TeamSpeak 플러그인 기능을 사용할 수 있도록 화이트리스트에 등록된 TeamSpeak 채널입니다. 여기에서 TeamSpeak 채널 ID를 설정하고 \"순찰 채널\"에서 talkover를 허용할지 여부를 설정합니다.",
+      "errDelete": "순찰 채널을 삭제하는 동안 예상치 못한 오류가 발생했습니다.",
+      "errReenable": "순찰 채널 활성화 중 예상치 못한 오류가 발생했습니다.",
+      "errSave": "순찰 채널 저장 중 예상치 못한 오류가 발생했습니다.",
+      "explainDisabled": "Patrol Channel은 더 낮은 플랜으로 다운그레이드되어 비활성화되었으며, 이 채널을 다시 활성화하려면 다른 patrol channels를 먼저 제거해야 합니다.",
+      "explainDisabledCanReenable": "Patrol Channel은 더 낮은 플랜으로 다운그레이드되어 비활성화되었지만, 드롭다운 메뉴에서 다시 활성화할 수 있습니다!",
+      "legacyChannelUidWarn": "이 형식의 Channel ID 는 더 이상 사용되지 않습니다. 최신 버전의 Sonoran Radio TS 로 업그레이드하고 새 숫자 ID 로 업데이트하세요",
+      "nickname": "닉네임",
+      "range": {
+        "long": "장거리",
+        "medium": "중간 범위",
+        "short": "짧은 범위"
+      },
+      "subtitle": "순찰 채널은 Sonoran Radio TeamSpeak 플러그인 기능을 사용할 수 있도록 화이트리스트에 등록된 TeamSpeak 채널입니다.",
+      "talkAroundRange": "토크어라운드 범위",
+      "title": "순찰 채널"
+    },
+    "perms": {
+      "addPerm": "권한 추가",
+      "dialogSubtitle": "Sonoran Radio에서 서버 그룹에 특정 권한을 부여합니다. 권한과 서버 그룹을 가져오는 방법에 대해 자세히 알아보려면 Sonoran Radio 문서를 참조하세요.",
+      "dialogTitle": "권한 추가",
+      "errDelete": "권한을 삭제하는 동안 예상치 못한 오류가 발생했습니다.",
+      "errSave": "권한 저장 중 예상치 못한 오류가 발생했습니다.",
+      "explainPrefix": "이것은 무엇을 하나요?",
+      "invalidGroupId": "잘못된 서버 그룹, 숫자여야 합니다.",
+      "nickname": "닉네임",
+      "permInput": "권한",
+      "permName": "권한 이름",
+      "serverGroup": "서버 그룹",
+      "serverGroupInput": "서버 그룹 - 필수",
+      "subtitle": "권한은 사용자가 Sonoran Radio 플러그인과 상호 작용하는 방식을, 그리고 사용자가 무엇과 상호 작용할 수 있는지를 변경할 수 있게 합니다.",
+      "title": "권한",
+      "types": {
+        "dispatch::ext_commands": {
+          "desc": "이 권한은 Dispatch UI를 통해 채널 사용자들의 주파수와 닉네임을 변경할 수 있는 기능을 부여합니다",
+          "name": "채널 사용자 수정"
+        },
+        "dispatch::open": {
+          "desc": "이 권한은 Dispatch UI를 열 수 있는 권한을 부여합니다",
+          "name": "오픈 디스패치 UI"
+        },
+        "menu::radio_attn": {
+          "desc": "이 권한은 다른 사용자의 라디오에서 소리를 재생하여 그들의 주의를 끌 수 있게 해줍니다",
+          "name": "라디오 주의"
+        },
+        "menu::radio_lock": {
+          "desc": "이 권한은 다른 사람이 이미 전송 중일 때 그 사람의 전송을 중단할 수 있게 합니다",
+          "name": "라디오 잠금"
+        },
+        "tg::talkover_override": {
+          "desc": "이 권한은 PTT 버튼을 두 번 클릭하여 다른 클라이언트 위로 말할 수 있는 기능을 부여합니다",
+          "name": "토크오버 보호 재정의"
+        }
+      }
+    },
+    "profiles": {
+      "addGroup": "그룹 추가",
+      "addProfile": "프로필 추가",
+      "addProfileStandalone": "채널 추가",
+      "advancedMode": "고급",
+      "basicMode": "기본",
+      "defaultProfile": "기본 프로필",
+      "deleteGroup": "그룹 삭제",
+      "dialogAddTitle": "프로필 추가",
+      "dialogAddTitleStandalone": "채널 추가",
+      "dialogEditTitle": "프로필 수정",
+      "dialogEditTitleStandalone": "채널 편집",
+      "dialogSubtitle": "프로필은 특정 주파수 사이를 쉽게 전환할 수 있도록 각 주파수를 직접 입력할 필요 없이 미리 설정된 주파수 설정입니다. 여기에서 표시 이름(선택 사항), 수신 주파수(필수), 송신 주파수(선택 사항), 그리고 송신 주파수를 반복할지 여부를 설정합니다.",
+      "displayName": "표시 이름",
+      "displayNameInput": "표시 이름 - 필수",
+      "editGroup": "그룹 편집",
+      "errDelete": "프로필을 삭제하는 동안 예상치 못한 오류가 발생했습니다.",
+      "errReenable": "프로필을 다시 활성화하는 동안 예상치 못한 오류가 발생했습니다.",
+      "errSave": "프로필 저장 중 예상치 못한 오류가 발생했습니다.",
+      "errSetDefault": "기본 프로필을 설정하는 동안 예상치 못한 오류가 발생했습니다.",
+      "explainDisabled": "프로필은 더 낮은 플랜으로 다운그레이드되어 비활성화되었으며, 이 프로필을 다시 활성화하려면 다른 프로필을 먼저 제거해야 합니다.",
+      "explainDisabledCanReenable": "프로필은 더 낮은 플랜으로 다운그레이드되어 비활성화되었지만, 드롭다운 메뉴에서 이 프로필을 다시 활성화할 수 있습니다!",
+      "groupName": "그룹 이름",
+      "preventTalkover": "말 끼어들기 방지",
+      "privateChannel": "비공개 채널",
+      "pronounce": "발음",
+      "pronounceTooltip": "AI 채널 텍스트 음성 변환용 고급 발음.",
+      "recvFreq": "수신 빈도",
+      "recvFreqTooltip": "수신 주파수입니다. 이는 라디오 UI의 미관 목적일 뿐입니다.",
+      "reorder": "프로필 순서 변경",
+      "reorderStandalone": "채널 순서 변경",
+      "repeatsXmit": "송신 주파수 반복",
+      "setAsDefault": "기본 프로필로 설정",
+      "sharedTooltip": "공유 채널은 다른 연결된 채널의 접근 권한과 빈도를 복제합니다. 둘 중 하나에 연결하면 동일한 통신 스트림에 접근할 수 있습니다.",
+      "shareWith": "공유 대상",
+      "standardTooltip": "표준 채널은 자체 주파수와 접근 권한으로 독립적으로 작동합니다. 채널이 독립적으로 운영되어야 할 때 이 모드를 사용하세요.",
+      "subtitle": "프로필은 특정 주파수 사이를 쉽게 전환할 수 있도록 각 주파수를 직접 입력할 필요 없이 미리 설정된 주파수 설정입니다.",
+      "talkoverAllowed": "토크오버 허용",
+      "talkoverPrevented": "말 끼어듦 방지됨",
+      "title": "프로필",
+      "titleStandalone": "채널",
+      "ttsFailed": "텍스트 음성 변환 생성에 실패했거나 존재하지 않습니다.\\n채널을 다시 저장하여 생성하세요.",
+      "ttsPreview": "텍스트 음성 변환 미리 보기",
+      "visibility": "가시성",
+      "visibilityOptions": {
+        "private": "비공개",
+        "public": "공개"
+      },
+      "voiceEffect": "음성 효과",
+      "xmitFreq": "송신 주파수",
+      "xmitFreqTooltip": "송신 주파수입니다. 이는 라디오 UI의 미관 목적일 뿐입니다."
+    },
+    "saveInfo": "서버 정보 저장",
     "saveServer": "서버 저장",
+    "serverInfo": {
+      "addServer": "서버 추가",
+      "cadPrompts": {
+        "addPhrase": "문구 추가",
+        "emptyState": "아직 추가된 문구가 없습니다.",
+        "subtitle": "Dispatch AI가 요청을 CAD/Radio 기능에 매핑하는 데 도움이 되는 사용자 지정 문구.",
+        "title": "예시 프롬프트",
+        "tools": {
+          "addCallNote": {
+            "hint": "예: \"내 통화에 메모 추가\"",
+            "label": "통화에 메모 추가",
+            "placeholder": "내 통화에 메모 추가"
+          },
+          "attachToCall": {
+            "hint": "예: \"통화에 연결해 줘...\"",
+            "label": "통화에 연결",
+            "placeholder": "통화에 연결해 줘..."
+          },
+          "closeCall": {
+            "hint": "예시: \"내 통화 닫기\"",
+            "label": "통화 닫기",
+            "placeholder": "내 통화 닫기"
+          },
+          "createCall": {
+            "hint": "예: \"Main St에서 10-50에 대한 통화 생성\"",
+            "label": "통화 만들기",
+            "placeholder": "Main St에서 10-50에 대한 통화를 생성"
+          },
+          "getRecentCadEvents": {
+            "hint": "예시: \"최근 통화는 무엇인가요\", \"최근 패닉\", \"그 통화\"",
+            "label": "최근 이벤트",
+            "placeholder": "최근 통화는 무엇인가요?"
+          },
+          "getRecordTemplates": {
+            "hint": "예: \"레코드 템플릿 목록\", \"사용 가능한 레코드 표시\"",
+            "label": "레코드 템플릿",
+            "placeholder": "레코드 템플릿 목록"
+          },
+          "identsToGroup": {
+            "hint": "예: \"단위 D-12, D-14에 그룹 Alpha 설정\", \"단위 D-12, D-14의 그룹 해제\"",
+            "label": "단위 그룹",
+            "placeholder": "A-10과 B-11 단위를 '그룹 1'으로 그룹화"
+          },
+          "lookup": {
+            "hint": "예: \"차량번호 ABC123 조회\", \"John Smith 검색\"",
+            "label": "사람 또는 차량 번호판 조회",
+            "placeholder": "판 ABC123 실행"
+          },
+          "routeToCoordinates": {
+            "hint": "예시: \"route to X 123.4 Y 567.8\", \"set GPS to coordinates\"",
+            "label": "좌표로 경로 지정",
+            "placeholder": "X 123.4 Y 567.8로 경로 지정"
+          },
+          "routeToPostal": {
+            "hint": "예: \"우편 1234로 안내해 줘\", \"GPS를 우편 90210으로 설정해 줘\"",
+            "label": "우편으로 라우팅",
+            "placeholder": "우편 1234로 안내해 줘"
+          },
+          "status": {
+            "hint": "예: \"내 상태를 사용 가능으로 설정\", \"사용 불가를 보여 줘\"",
+            "label": "상태 업데이트",
+            "placeholder": "내 상태를 사용 가능으로 설정"
+          },
+          "togglePanic": {
+            "hint": "예: \"내 패닉 활성화\", \"내 패닉 해제\"",
+            "label": "패닉 토글",
+            "placeholder": "내 패닉 활성화"
+          },
+          "unattachFromCall": {
+            "hint": "예: \"통화에서 분리해 줘\"",
+            "label": "통화에서 분리",
+            "placeholder": "통화에서 분리해 주세요"
+          }
+        }
+      },
+      "columns": {
+        "actions": "작업",
+        "id": "ID",
+        "name": "이름",
+        "origin": "IP/출처",
+        "pushUrl": "푸시 URL"
+      },
+      "communityServers": "커뮤니티 서버",
+      "communityServersSubtitle": "라디오 통신을 분리하기 위해 서버를 추가하거나 제거하세요",
+      "customCommunityIdHint": "바니티 URL, FiveM 리소스, 커뮤니티에 참여하기 위한 사용자 지정 커뮤니티 ID를 설정하세요",
+      "disabled": "비활성화됨",
+      "dispatchAiPause": "Human Dispatch가 CAD일 때 비활성화",
+      "enabled": "사용 설정됨",
+      "openAiApiKey": "Open AI API 키",
+      "openAiApiKeyHint": "Dispatch AI 기능을 사용하려면 직접 제공한 OpenAI API 키를 입력하세요."
+    },
+    "settings": {
+      "agc": "자동 게인 제어",
+      "agcDesc": "모든 사용자의 볼륨을 맞추기 위해 마이크 입력 볼륨을 자동으로 조정합니다.",
+      "aiRepliesOnlyMe": "AI 답변을 나에게만 듣기",
+      "aiRepliesOnlyMeDesc": "AI 에이전트가 당신에게 직접 답장할 때만 듣고, 전체 채널은 듣지 않습니다.",
+      "echoAutoXmit": "AI 호출 듣기",
+      "echoAutoXmitDesc": "추적 중일 때 자신의 AI 위치 안내를 들을 수 있습니다.",
+      "hearOtherPttSfx": "다른 사람의 PTT 효과음 재생",
+      "hearOtherPttSfxDesc": "다른 사용자가 마이크를 키업할 때 PTT 사운드를 재생합니다.",
+      "hearPttSfx": "PTT 효과음 재생",
+      "hearPttSfxDesc": "마이크를 키업할 때 PTT 사운드를 재생합니다.",
+      "keyUpDelay": "키 업 지연",
+      "keyUpDelayDesc": "전송 종료 후 마이크가 해제되기까지의 지연 시간.",
+      "muteScannedWhileTransmitting": "송신 중일 때 스캔 음소거",
+      "muteScannedWhileTransmittingDesc": "채널에서 송신 중일 때 스캔된 채널 음소거.",
+      "sirenVolume": "활성 사이렌과 함께 볼륨 부스트",
+      "sirenVolumeDesc": "차량 사이렌이 활성화되어 있을 때 사용자의 라디오 볼륨을 이 비율만큼 높입니다.",
+      "subtitle": "커뮤니티의 기본 설정을 구성하세요. 사용자는 자신의 기본 설정을 개인화할 수 있지만, 이는 시작 기본값으로 사용됩니다.",
+      "title": "기본 설정",
+      "tts": "채널 텍스트-음성 변환",
+      "ttsDesc": "채널을 변경할 때 채널 이름의 텍스트 음성 변환 음성을 재생합니다.",
+      "volChange": "볼륨 변경",
+      "volChangeDesc": "볼륨 위/아래 단축키 사용 시 볼륨 변경 %.",
+      "wakeWord": "웨이크 워드 (AI)",
+      "wakeWordDesc": "Dispatch AI를 활성화하는 데 사용되는 웨이크 워드."
+    },
     "toPortal": "포털로 돌아가기",
+    "transfer": {
+      "cancel": "취소",
+      "confirmInstruction": "전송을 확인하려면 {code}를 입력하세요(대소문자 구분)",
+      "confirmLabel": "전송 확인",
+      "ok": "확인",
+      "requestCreatedMsg": "전송이 아직 완료되지 않았습니다! 추가 인증을 위해 이메일이 전송되었습니다",
+      "requestCreatedTitle": "전송 요청이 생성됨",
+      "selectNewOwner": "새 소유자 선택",
+      "title": "커뮤니티 이전",
+      "warning": "커뮤니티를 이전하시겠습니까? 더 이상 이 커뮤니티의 소유자가 아니게 되며, 권한을 잃을 수 있습니다"
+    },
     "transferServer": "커뮤니티 이전",
-    "unauthorizeServer": "서버 인증 해제"
+    "unauthorizeMsg": "이 구성을 인증 해제하시겠습니까?",
+    "unauthorizeServer": "서버 권한 해제",
+    "unauthorizeSuccess": "서버의 인증이 성공적으로 해제되었습니다",
+    "voiceCustomization": {
+      "analogAggressiveness": "아날로그 어그로",
+      "analogAggressivenessDescription": "아날로그 손상과 히스가 얼마나 빨리 쌓이는지 조절합니다.",
+      "analogDescription": "클래식한 아날로그 핸드헬드 사운드를 위해 히스, 대역폭 손실, 부드러운 열화를 섞습니다.",
+      "clippingAggressiveness": "클립 공격성",
+      "clippingAggressivenessDescription": "신호 품질이 떨어질수록 클리핑을 더 강하게 적용합니다.",
+      "clippingDescription": "신호의 일부를 잘라 드롭아웃, 게이팅, 거친 끊김 전송을 시뮬레이션합니다.",
+      "constantStatic": "고정",
+      "constantStaticDescription": "효과 전반에 걸쳐 일정한 배경 노이즈 레이어를 추가합니다.",
+      "digitalAggressiveness": "디지털 어그로",
+      "digitalAggressivenessDescription": "디지털 왜곡이 더 빠르게 증가합니다.",
+      "digitalDescription": "불안정한 디지털 라디오 전파처럼 느껴지는 비트 크러시된 잡음과 거친 아티팩트를 추가합니다.",
+      "disabled": "비활성화됨",
+      "enabled": "사용 설정됨",
+      "equalizerDescription": "왜곡 전에 음색을 조정해 소스 음성을 더 밝게, 더 얇게, 또는 더 어둡게 만들 수 있습니다.",
+      "header": "음성 맞춤",
+      "input": "입력",
+      "localVocoderPerformanceWarning": "강력히 권장: 커뮤니티/채널 수준에서 vocoder를 활성화하세요. 그렇지 않으면 로컬 클라이언트가 들어오는 모든 스트림을 직접 vocode해야 하며, 이로 인해 처리 부하가 증가하고 성능이 저하될 수 있습니다.",
+      "maximumAnalogDistortion": "최대 아날로그",
+      "maximumAnalogDistortionDescription": "적용되는 가장 강한 아날로그 열화를 제한합니다.",
+      "maximumClipping": "최대 클립",
+      "maximumClippingDescription": "클리핑 끊김이 얼마나 심해질 수 있는지 제한합니다.",
+      "maximumDigitalDistortion": "최대 디지털",
+      "maximumDigitalDistortionDescription": "디지털 아티팩트가 얼마나 강해질 수 있는지 제한합니다.",
+      "minimumAnalogDistortion": "최소 아날로그",
+      "minimumAnalogDistortionDescription": "더 나은 신호 수준에서도 아날로그 거칠기의 하한을 추가합니다.",
+      "minimumClipping": "최소 클립",
+      "minimumClippingDescription": "신호가 끊길 가장 낮은 가능성을 설정합니다.",
+      "minimumDigitalDistortion": "최소 디지털",
+      "minimumDigitalDistortionDescription": "오디오의 디지털 왜곡 수준을 기본으로 유지합니다.",
+      "mode": "모드",
+      "name": "이름",
+      "postEqualizerDescription": "효과 체인 이후의 최종 출력을 다듬어 마지막 미세한 다듬기나 거친 느낌을 줄입니다.",
+      "previewEffects": "효과 미리 보기",
+      "receiveSignal": "신호 받기",
+      "receiveSignalDescription": "전송 손실 후 미리보기의 수신 측 소리가 얼마나 저하되는지 제어합니다.",
+      "signalStrength": "신호 강도",
+      "signalStrengthDescription": "나가는 및 들어오는 무선 신호 품질이 변할 때 효과가 어떻게 반응하는지 미리 보기",
+      "stopPreview": "미리 보기 중지",
+      "subheader": "커뮤니티를 위해 라디오 음성 효과를 사용자 지정하세요.",
+      "transmitSignal": "신호 전송",
+      "transmitSignalDescription": "미리보기에서 자신의 발신 라디오 전송 소리가 얼마나 강하게 들릴지 제어합니다.",
+      "useForEmergency": "비상 호출에 사용",
+      "vocoderDescription": "음성을 더 낮은 비트레이트의 보이스 프로필로 합성 라디오 코덱 사운드로 압축합니다.",
+      "vocoderPreviewWarning": "보코더 오디오 미리보기는 아직 사용할 수 없습니다."
+    }
+  },
+  "memberTable": {
+    "banned": "차단됨",
+    "cancel": "취소",
+    "noPrivateChannels": "비공개 채널 없음"
   },
   "misc": {
-    "learnMoreAboutRadio": "Sonoran Radio가 어떻게 여러분의 역할놀이를 혁신할 수 있는지 더 알아보세요!",
+    "learnMoreAboutRadio": "Sonoran Radio가 어떻게 당신의 롤플레이를 혁신할 수 있는지 더 알아보세요!",
     "welcome": "환영합니다",
-    "welcomeTo": "Sonoran 라디오에 오신 것을 환영합니다!"
+    "welcomeTo": "Sonoran Radio에 오신 것을 환영합니다!"
+  },
+  "portal": {
+    "beginTitle": "여정을 시작하세요",
+    "beginYourJourney": "여정을 시작하세요!",
+    "billingPortal": "구독 & 청구",
+    "discovery": "발견",
+    "discoveryActiveMembers": "이 커뮤니티에는 가장 활발한 회원들이 있습니다",
+    "discoveryGrowingRapidly": "이 커뮤니티는 빠르게 성장하고 있습니다",
+    "discoveryHighTraffic": "이 커뮤니티는 높은 웹사이트 트래픽을 받고 있습니다",
+    "discoveryRecentlyBumped": "이 커뮤니티는 최근에 부스트되었습니다",
+    "documentation": "문서",
+    "joinACommunity": "Sonoran Radio 커뮤니티에 참여하기",
+    "leaveServer": "나가기",
+    "myCommunities": "내 커뮤니티",
+    "needACommunity": "새 Sonoran Radio 커뮤니티가 필요하신가요?",
+    "needsMemberAuth": "승인 대기 중",
+    "needsTsAuth": "TeamSpeak3 인증 필요",
+    "pendingAuth": "승인 대기",
+    "subtitle": "작전 기지에 오신 것을 환영합니다! 여기에서 Billing Portal에서 구독을 편집하고, 쉬운 Configuration Panel로 커뮤니티 설정을 관리하거나, 설정 마법사로 새 서버를 등록할 수 있습니다.",
+    "title": "소노란 라디오 포털",
+    "upgradeServer": "업그레이드"
+  },
+  "pricing": {
+    "description": "Sonoran Radio의 유료 구독은 고급 기능, 사용자 지정, 증가된 한도 등 더 많은 기능을 제공합니다!",
+    "dispatchPanel": "디스패치 패널",
+    "dispatchPanelDescription": "라디오 또는 다른 사람의 라디오 설정을 변경할 수 있는 TeamSpeak 대화 상자.",
+    "fivemRadio": "FiveM 휴대용 라디오",
+    "fivemRadioDescription": "FiveM 휴대용 라디오는 주파수, 스캔 목록 및 기타 라디오 설정을 변경할 수 있게 해줍니다",
+    "fivemTowerDestruction": "파이브엠 타워 파괴",
+    "fivemTowerDestructionDescription": "플레이어가 물리적인 타워를 파괴해 라디오 수신을 방해할 수 있는 (선택 사항) 기능.",
+    "fivemTowers": "FiveM 물리적 타워",
+    "fivemTowersDescription": "타워는 거리 기준으로 실제 타워에 대한 수신을 시뮬레이션합니다. 위치와 범위는 사용자 지정할 수 있습니다.",
+    "howToPurchase": "구매 방법",
+    "monthCostDescription": "우리 월간 구독 패키지의 비용.",
+    "onlyOnStatewide": "주 전체 주파수에서만 허용됩니다.",
+    "onlySelfFrequencies": "본인 주파수만 변경 가능",
+    "patrolChannels": "순찰 채널",
+    "patrolChannelsDescription": "라디오 플러그인을 사용할 수 있는 TeamSpeak 채널 수.",
+    "planPricing": "요금제 가격",
+    "plans": {
+      "free": "무료",
+      "plus": "플러스",
+      "pro": "Pro"
+    },
+    "pricing": "가격",
+    "profileLimits": "프로필 제한",
+    "profileLimitsDescription": "허용되는 프로필 수.",
+    "statewideFrequencyLimits": "주 전체 빈도 제한",
+    "statewideFrequencyLimitsDescription": "허용되는 주 전체 주파수 수.",
+    "talkaroundFrequencies": "토크어라운드 주파수",
+    "talkaroundFrequenciesDescription": "토커라운드 주파수는 개인이 타워 대신 무전기끼리 직접 대화할 수 있게 합니다.",
+    "talkoverProtection": "토크오버 보호",
+    "talkoverProtectionDescription": "Talkover 보호는 한 번에 한 사람만 한 주파수에서 말할 수 있도록 합니다.",
+    "toBilling": "결제로 돌아가기",
+    "unlimited": "무제한"
   },
   "radio": {
     "addNewChannel": "새 채널 추가",
@@ -260,135 +976,218 @@
     "channelList": "채널 목록",
     "configureChannel": "{0} 구성",
     "connect": "연결",
-    "hiddenChannel": "숨겨진 채널 (여러분에게만 보임)",
+    "hiddenChannel": "숨겨진 채널 (당신에게 보임)",
     "listenScan": "{0} 듣기",
     "microphonePTT": "마이크 PTT",
-    "multiXmit": "CTRL + 클릭 다중-XMIT",
-    "muteScan": "음소거 {0}",
+    "multiXmit": "CTRL + 클릭 Multi-XMIT",
+    "muteScan": "{0} 음소거",
+    "openInDesktopFrame": "오버레이 열기",
     "openInNewWindow": "새 창에서 열기",
-    "openUserList": "Open User List",
-    "recvFreq": "RECV: {0}MHz",
+    "openUserList": "사용자 목록 오버레이 열기",
+    "recvFreq": "수신: {0}MHz",
     "scanList": "스캔 목록",
     "selectServer": "서버 선택",
-    "setHotkeyFor": "{0}에 대한 단축키 설정",
+    "setHotkeyFor": "{0}에 단축키 설정",
     "settingsDialog": {
+      "advanced": "고급",
+      "agentGain": "AI 볼륨",
+      "aiRepliesOnlyMe": "AI 답변을 나에게만 듣기",
+      "aiWakeWordKeyword": "AI 웨이크 워드",
+      "aiWakeWordKeywordSelect": "웨이크 워드 구문",
       "audioTab": "오디오",
       "automaticGainControlDisabled": "자동 게인 제어 비활성화됨",
-      "automaticGainControlEnabled": "자동 게인 제어 활성화됨",
-      "changingOutputsUnsupported": "장치에서 오디오 출력을 변경하는 것을 지원하지 않습니다.",
+      "automaticGainControlEnabled": "자동 게인 제어 사용됨",
+      "changingOutputsUnsupported": "이 기기는 오디오 출력 변경을 지원하지 않습니다",
       "channelTts": "채널 TTS",
-      "escapeMode": "ESC 모드",
-      "escapeModeHide": "라디오 숨기기 ",
-      "escapeModeHideTooltip": "ESC를 누르면 라디오가 닫힙니다",
-      "escapeModeKeep": "라디오 보이기 ",
-      "escapeModeKeepTooltip": "ESC를 눌러도 라디오가 보입니다",
-      "escapeModeXmit": "XMIT (PTT) ",
-      "escapeModeXmitTooltip": "ESC를 누르면 라디오가 닫히지만 전송 중일 때 보입니다",
+      "defaultOutputWarning": "기본 출력은 Windows가 다른 앱 볼륨을 낮추게 할 수 있습니다. 특정 장치를 선택해 보세요.",
+      "enableTransmissionRecordings": "송신 녹음 사용",
+      "escapeMode": "이스케이프 모드",
+      "escapeModeHide": "라디오 숨기기",
+      "escapeModeHideTooltip": "라디오가 ESC에서 닫힙니다",
+      "escapeModeKeep": "라디오 계속 표시",
+      "escapeModeKeepTooltip": "라디오가 ESC에서 계속 표시됨",
+      "escapeModeXmit": "XMIT (PTT)",
+      "escapeModeXmitTooltip": "라디오는 ESC에서 닫히지만 전송 중에는 표시됩니다",
       "fivemTab": "FiveM",
-      "hearScannedWhileXmit": "XMIT 중 스캔된 채널 듣기",
+      "hearAllAiReplies": "모든 AI 답변 듣기",
+      "hearScannedWhileXmit": "송신 중일 때 스캔된 채널 듣기",
       "hotkeysTab": "단축키",
       "keydownSfx": "키다운 SFX",
-      "keyupSfx": "키업 SFX",
-      "macosPermWarning": "장치에서 추가 권한이 필요할 수 있습니다: {link}",
-      "macosPermWarningLink": "권한 부여 방법 알아보기",
-      "moveResize": "이동/크기 조정",
-      "myPttSfx": "내 PTT SFX",
-      "othersPttSfx": "다른 사람의 PTT SFX",
-      "pttOffDelay": "PTT-오프 지연",
-      "resetPeerVolumes": "피어 볼륨 초기화",
+      "keyupSfx": "키 업 SFX",
+      "macosPermWarning": "사용자 기기에는 추가 권한이 필요할 수 있습니다: {link}",
+      "macosPermWarningLink": "권한을 부여하는 방법 알아보기",
+      "moveResize": "이동/크기 조절",
+      "myPttSfx": "내 PTT 효과음",
+      "othersPttSfx": "다른 사람의 PTT 효과음",
+      "privacyTab": "개인정보",
+      "pttOffDelay": "PTT 끄기 지연",
+      "recordWakeWord": "웨이크 워드 녹음",
+      "recordWakeWordListening": "듣는 중...",
+      "resetPeerVolumes": "피어 볼륨 재설정",
       "resetSettings": "설정 초기화",
-      "selectRadioFrame": "라디오 프레임 선택",
+      "selectRadioFrame": "라디오 프레임",
       "sfxTab": "SFX",
       "sfxVolume": "SFX 볼륨",
       "title": "설정",
       "toggleBackgroundAudio": "배경 오디오",
-      "troubleHearingInGame": "게임 내에서 소리가 들리지 않나요?:",
+      "troubleHearingInGame": "게임 내 소리가 잘 안 들리시나요?:",
       "unlink": "연결 해제",
+      "voiceFxCommunity": "커뮤니티 FX",
+      "voiceFxEmpty": "로컬 듣기를 사용하려면 로컬 음성 효과를 만들거나 가져오세요.",
+      "voiceFxLocal": "로컬 FX",
+      "voiceFxMode": "Voice FX 모드",
+      "voiceFxTab": "Voice FX",
       "volume": "볼륨",
-      "volumeChangeSirens": "볼륨 변경/사이렌",
+      "volumeChangeSirens": "사이렌 포함 볼륨 변경",
       "volumeHotkeyChange": "볼륨 단축키 변경",
-      "webHotkeyWarning": "단축키는 브라우저 창이 포커스일 때만 작동합니다.\n하나의 키로 이 창뿐만 아니라 글로벌 단축키도 작동하도록 하려면 {link}",
+      "wakeWord": "웨이크 워드 (AI)",
+      "wakeWordListenSeconds": "웨이크 워드 듣기 초",
+      "wakeWordRecordNoSpeech": "음성이 감지되지 않았습니다. 마이크를 확인하고 다시 시도하세요.",
+      "webHotkeyWarning": "단축키는 브라우저 창이 포커스될 때만 작동합니다.\n글로벌 단축키는 {link}",
       "webHotkeyWarningLink": "데스크톱 앱 다운로드"
     },
     "showChannelIds": "채널 ID 표시",
     "stopXmit": "XMIT 중지",
     "toneBoard": {
       "aiMode": "AI 모드",
-      "aiTts": "AI 텍스트 음성 변환",
+      "aiTts": "AI 텍스트-음성 변환",
       "audioMode": "오디오 모드",
-      "broadcastTo": "방송 주소",
-      "count": "카운트",
+      "audioRecording": "오디오 녹음",
+      "broadcastTo": "방송 대상",
+      "count": "개수",
+      "deleteStack": "스택 삭제",
       "generate": "생성",
       "inGameSpeaker": "게임 내 스피커",
       "inGameSpeakerGroup": "게임 내 스피커 그룹",
-      "newTone": "새로운 톤",
+      "loadStack": "스택 불러오기 (한 번 클릭)",
+      "newTone": "새 톤",
+      "noSavedStacks": "저장된 스택이 아직 없습니다.",
       "noTones": "톤 없음",
+      "playStack": "스택 재생(더블 클릭)",
       "preview": "미리 보기",
-      "recording": "녹음 중",
+      "recording": "녹음",
+      "recordMic": "녹음 마이크",
       "repeat": "반복",
+      "savedTab": "저장된 스택",
+      "saveStackDesc": "톤 스택 이름 지정",
+      "saveStackTitle": "스택 저장",
       "seconds": "초",
+      "speechToText": "음성을 텍스트로 변환",
       "speed": "속도",
       "stack": "스택",
-      "subtitle": "커뮤니티를 위한 디스패치 톤을 커스터마이징",
+      "subtitle": "커뮤니티를 위한 디스패치 톤 커스터마이징",
       "title": "톤 보드",
-      "toneLabel": "톤 라벨",
+      "toneLabel": "톤 레이블",
+      "tonesTab": "톤",
       "voices": "음성"
     },
-    "xmitFreq": "XMIT {0}MHz"
+    "xmitFreq": "XMIT {0} MHz"
+  },
+  "radioSettingsDialog": {
+    "aIToggle": "AI 토글",
+    "changeGroup": "그룹 변경",
+    "clearCache": "캐시 지우기",
+    "debugMode": "디버그 모드:",
+    "flagTimestamp": "타임스탬프 플래그",
+    "inputCount": "입력 개수:",
+    "outputCount": "출력 개수:",
+    "pTTHotkey": "PTT 단축키",
+    "setYourCustomSFXOnTheWebOrDesktopApp": "웹 또는 데스크톱 앱에서 사용자 지정 SFX를 설정하세요",
+    "setYourPTTKeybindInYourGTASettings": "GTA 설정에서 PTT 키 바인드를 설정하세요",
+    "toneHotkey": "톤 단축키",
+    "volume": "볼륨 -/+"
   },
   "registerServer": {
-    "errExists": "제공된 TeamSpeak 서버 UID가 이미 확인된 서버에 존재합니다. 다른 TS 서버 UID를 사용하세요",
-    "errUnknown": "서버 정보를 가져오는 중 오류가 발생했습니다. 나중에 다시 시도하세요.",
+    "errExists": "제공된 TeamSpeak Server UID는 이미 검증된 서버에 존재합니다, 다른 TS 서버 UID를 사용하세요",
+    "errUnknown": "서버 정보를 가져오려는 중 오류가 발생했습니다, 나중에 다시 시도해 주세요.",
     "registerAStandServer": "커뮤니티 등록",
-    "registerAStandServerDesc": "Sonoran Radio를 사용하기 위해 커뮤니티를 등록하세요.",
+    "registerAStandServerDesc": "커뮤니티를 Sonoran Radio 사용하도록 등록하세요.",
     "registerATSServer": "TeamSpeak 서버 등록",
-    "registerATSServerDesc": "TeamSpeak 서버를 Sonoran Radio TeamSpeak 플러그인을 사용할 수 있도록 등록하세요.",
+    "registerATSServerDesc": "Sonoran Radio TeamSpeak 플러그인을 사용할 수 있도록 서버를 TeamSpeak Server에 등록하세요.",
     "submit": "서버 등록"
   },
   "serverCommon": {
     "nicknameInput": "닉네임",
-    "nicknameInputDesc": "커뮤니티에 대한 사용자 지정 닉네임을 설정하세요. 여러분과 회원이 이를 볼 수 있습니다.",
+    "nicknameInputDesc": "커뮤니티에 사용할 사용자 지정 별명을 설정하세요, 당신과 멤버들이 볼 수 있습니다",
     "serverUidInput": "TeamSpeak 서버 UID",
     "serverUidInputDesc": "TeamSpeak 3 서버의 UID를 여기에 입력하세요"
+  },
+  "serverInfoForm": {
+    "cancel": "취소",
+    "communityImage": "커뮤니티 Image",
+    "linkSonoranCAD": "Sonoran CAD 연결",
+    "linkSonoranCADDispatchAI": "Sonoran CAD (Dispatch AI) 연결",
+    "serverID": "서버 ID",
+    "serverName": "서버 이름",
+    "sonoranRadioOnWebDesktopAndInGame": "Sonoran Radio, 웹, 데스크톱, 게임 내에서!",
+    "sonoranRadioUsingAPluginForTeamSpeak": "TeamSpeak 3용 플러그인을 사용하는 Sonoran Radio",
+    "standalone": "독립 실행형",
+    "teamSpeak": "팀스피크 3",
+    "uploadACustomCommunityImage": "커스텀 커뮤니티 Image를 업로드하세요."
   },
   "serverPending": {
     "backToPortal": "포털로 돌아가기",
     "deleteCommunity": "커뮤니티 삭제",
-    "leaveServer": "서버 떠나기",
-    "switchToStandalone": "독립형으로 전환"
+    "leaveServer": "서버 나가기",
+    "switchToStandalone": "독립 실행형으로 전환"
   },
   "signup": {
     "checkEmail": "이메일을 확인하고 계정을 인증하세요.",
-    "checkSpam": "이메일을 찾을 수 없는 경우 스팸 폴더를 확인하세요.",
-    "emailPreferencesDesc": "중요 공지, 업데이트 및 프로모션을 이메일로 받겠습니다.",
+    "checkSpam": "이메일을 찾을 수 없으면 스팸 폴더를 확인하세요.",
+    "emailPreferencesDesc": "중요한 공지, 업데이트, 프로모션을 이메일로 보내주세요.",
     "verifyPassword": "비밀번호 확인"
   },
   "splash": {
-    "feats": "사람 간 텍스트 메시징과 Sonoran CAD 통합을 완비한 Sonoran Radio는 완전히 기능이 갖춰진 통신 장치를 게임 내 인원과 디스패처의 손에 직접 제공합니다. 오늘 무료로 체험해 보세요!",
+    "feats": "대인 간 문자 메시지와 Sonoran CAD\n      통합을 갖춘 Sonoran Radio는 완전한 기능의 통신 장치를\n      게임 내 인원과 디스패처의 손에 직접 쥐여 줍니다. 지금\n      무료로 사용해 보세요!",
     "getStarted": "오늘 시작하세요",
     "introducing": "소개합니다",
     "learnMore": "더 알아보기",
-    "marketExplain": "공공 안전에서, 단순성과 신뢰성은 통신 시스템을 선택하는 데 필수적입니다. Sonoran Radio는 오늘날 시장에서 가장 포괄적이고 모든 것을 포함한 통신 시스템을 제공합니다. 이 새로운 라디오 시스템은 최첨단 기술을 제공하며, 단순 모드와 복합 모드를 모두 지원하고, 클라우드 기반 프로그래밍을 하며, 확장 가능하고 리피터 기반의 라디오 네트워크를 제공합니다.",
-    "toPortal": "포털로 이동"
+    "marketExplain": "공공 안전에서 단순성과 신뢰성은\n      통신 시스템을 선택할 때 필수적입니다. Sonoran Radio는 오늘날 시장에서 가장 포괄적이고\n      올인클루시브한 통신 시스템을 제공합니다. 이 새로운\n      라디오 시스템은 최첨단 기술을 갖추고 있으며, simplex와\n      duplex 구성, cloud 기반 프로그래밍, 그리고 확장 가능한\n      repeater 중심 라디오 네트워크를 제공합니다.",
+    "toPortal": "포털로 이동하기"
   },
   "standalone": {
     "desktop": {
+      "applyFilter": "적용",
+      "applyFilters": "적용",
+      "channel": "채널",
+      "clearFilter": "지우기",
+      "clearFilters": "지우기",
+      "dial": "다이얼",
+      "dialPlaceholder": "번호를 입력하세요...",
       "downloadFile": "파일 다운로드",
-      "emergencyCalls": "비상(911) 호출",
+      "emergencyCalls": "비상 (911) 호출",
       "noEmergencyCalls": "비상 호출 없음!",
       "noTransmissions": "전송 없음",
       "playAudio": "오디오 재생",
-      "redial": "다이얼 {name}"
+      "redial": "다시 걸기 {name}",
+      "showTranscript": "스크립트 보기",
+      "time": "시간",
+      "transcriptTitle": "{name}의 전송",
+      "user": "사용자"
     },
     "peers": {
       "clearPanic": "패닉 해제",
       "displayName": "표시 이름",
       "kick": "추방",
       "moveTo": "이동",
-      "volume": "볼륨"
+      "ping": "핑",
+      "stun": "스턴",
+      "volume": "채널 볼륨"
     },
     "settings": {
-      "rightClickToClear": "오른쪽 클릭하여 지우기"
+      "rightClickToClear": "우클릭하여 지우기"
     }
+  },
+  "upgradePromo": {
+    "goProToday": "Pro로 업그레이드",
+    "learnMore": "더 알아보기"
+  },
+  "voiceFxEffectEditor": {
+    "analog": "아날로그",
+    "clipping": "클리핑",
+    "digital": "디지털",
+    "postEQ": "후 EQ",
+    "preEQ": "프리 EQ",
+    "vocoder": "보코더"
   }
 }

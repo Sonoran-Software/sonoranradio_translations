@@ -1,4 +1,4 @@
-name: Tolgee Sync
+﻿name: Tolgee Sync
 
 on:
   push:
@@ -77,25 +77,32 @@ jobs:
             .map(file => file.language)
             .filter(Boolean);
           const languageMetadata = {
-            ar: { name: 'Arabic', originalName: 'العربية', flagEmoji: '🇸🇦' },
-            cs: { name: 'Czech', originalName: 'Čeština', flagEmoji: '🇨🇿' },
-            da: { name: 'Danish', originalName: 'Dansk', flagEmoji: '🇩🇰' },
-            de: { name: 'German', originalName: 'Deutsch', flagEmoji: '🇩🇪' },
-            'en-US': { name: 'English (United States)', originalName: 'English (United States)', flagEmoji: '🇺🇸' },
-            'es-ES': { name: 'Spanish (Spain)', originalName: 'Español (España)', flagEmoji: '🇪🇸' },
-            fi: { name: 'Finnish', originalName: 'Suomi', flagEmoji: '🇫🇮' },
-            fr: { name: 'French', originalName: 'Français', flagEmoji: '🇫🇷' },
-            it: { name: 'Italian', originalName: 'Italiano', flagEmoji: '🇮🇹' },
-            ja: { name: 'Japanese', originalName: '日本語', flagEmoji: '🇯🇵' },
-            ko: { name: 'Korean', originalName: '한국어', flagEmoji: '🇰🇷' },
-            nl: { name: 'Dutch', originalName: 'Nederlands', flagEmoji: '🇳🇱' },
-            no: { name: 'Norwegian', originalName: 'Norsk', flagEmoji: '🇳🇴' },
-            pl: { name: 'Polish', originalName: 'Polski', flagEmoji: '🇵🇱' },
-            pt: { name: 'Portuguese', originalName: 'Português', flagEmoji: '🇵🇹' },
-            ru: { name: 'Russian', originalName: 'Русский', flagEmoji: '🇷🇺' },
-            sv: { name: 'Swedish', originalName: 'Svenska', flagEmoji: '🇸🇪' },
-            tr: { name: 'Turkish', originalName: 'Türkçe', flagEmoji: '🇹🇷' },
-            zh: { name: 'Chinese', originalName: '中文', flagEmoji: '🇨🇳' }
+            ar: { name: 'Arabic', originalName: 'Arabic', flagEmoji: 'SA' },
+            cs: { name: 'Czech', originalName: 'Cestina', flagEmoji: 'CZ' },
+            da: { name: 'Danish', originalName: 'Dansk', flagEmoji: 'DK' },
+            de: { name: 'German', originalName: 'Deutsch', flagEmoji: 'DE' },
+            en: { name: 'English', originalName: 'English', flagEmoji: 'US' },
+            'en-US': { name: 'English (United States)', originalName: 'English (United States)', flagEmoji: 'US' },
+            es: { name: 'Spanish', originalName: 'Espanol', flagEmoji: 'ES' },
+            'es-ES': { name: 'Spanish (Spain)', originalName: 'Espanol (Espana)', flagEmoji: 'ES' },
+            fi: { name: 'Finnish', originalName: 'Suomi', flagEmoji: 'FI' },
+            fr: { name: 'French', originalName: 'Francais', flagEmoji: 'FR' },
+            it: { name: 'Italian', originalName: 'Italiano', flagEmoji: 'IT' },
+            ja: { name: 'Japanese', originalName: 'Japanese', flagEmoji: 'JP' },
+            ko: { name: 'Korean', originalName: 'Korean', flagEmoji: 'KR' },
+            'ko-KR': { name: 'Korean (South Korea)', originalName: 'Korean (South Korea)', flagEmoji: 'KR' },
+            nl: { name: 'Dutch', originalName: 'Nederlands', flagEmoji: 'NL' },
+            'nl-BE': { name: 'Dutch (Belgium)', originalName: 'Nederlands (Belgie)', flagEmoji: 'BE' },
+            no: { name: 'Norwegian', originalName: 'Norsk', flagEmoji: 'NO' },
+            pl: { name: 'Polish', originalName: 'Polski', flagEmoji: 'PL' },
+            pt: { name: 'Portuguese', originalName: 'Portugues', flagEmoji: 'PT' },
+            ru: { name: 'Russian', originalName: 'Russian', flagEmoji: 'RU' },
+            sv: { name: 'Swedish', originalName: 'Svenska', flagEmoji: 'SE' },
+            tr: { name: 'Turkish', originalName: 'Turkce', flagEmoji: 'TR' },
+            uk: { name: 'Ukrainian', originalName: 'Ukrainian', flagEmoji: 'UA' },
+            zh: { name: 'Chinese', originalName: 'Chinese', flagEmoji: 'CN' },
+            'zh-CN': { name: 'Chinese (Simplified)', originalName: 'Chinese (Simplified)', flagEmoji: 'CN' },
+            'zh-TW': { name: 'Chinese (Traditional)', originalName: 'Chinese (Traditional)', flagEmoji: 'TW' }
           };
 
           const request = async (url, options = {}) => {
@@ -128,11 +135,9 @@ jobs:
           console.log(`Required by ${configPath}: ${required.join(', ')}`);
 
           for (const tag of required) {
-            if (existing.has(tag)) {
-              continue;
-            }
+            if (existing.has(tag)) continue;
 
-            const metadata = languageMetadata[tag] || { name: tag, originalName: tag, flagEmoji: '🏳️' };
+            const metadata = languageMetadata[tag] || { name: tag, originalName: tag, flagEmoji: 'UN' };
             console.log(`Creating Tolgee language: ${tag}`);
             await request(`${apiUrl}/v2/projects/${process.env.TOLGEE_PROJECT_ID}/languages`, {
               method: 'POST',
@@ -198,9 +203,59 @@ jobs:
           set -euo pipefail
           if git diff --quiet -- "*.json"; then
             echo "No translation file changes to commit."
-            exit 0
+          else
+            git add *.json
+            git commit -m "chore: sync translations from Tolgee"
+            git push origin HEAD:staging
           fi
 
-          git add *.json
-          git commit -m "chore: sync translations from Tolgee"
-          git push origin HEAD:staging
+      - name: Promote staging to main
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.TRANSLATION_AUTOMATION_TOKEN }}
+          script: |
+            const owner = 'Sonoran-Software';
+            const repo = 'sonoranradio_translations';
+            try {
+              await github.rest.repos.merge({
+                owner,
+                repo,
+                base: 'main',
+                head: 'staging',
+                commit_message: 'chore: promote synced translations',
+              });
+              core.info('Merged staging into main');
+            } catch (error) {
+              if (error.status === 204 || (error.status === 409 && String(error.message).includes('No commits'))) {
+                core.info('main is already up to date');
+              } else {
+                throw error;
+              }
+            }
+
+      - name: Trigger frontend rebuild
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.TRANSLATION_AUTOMATION_TOKEN }}
+          script: |
+            const owner = 'Sonoran-Software';
+            const repo = 'radio-panel-frontend';
+            const branchName = 'master';
+            const branch = await github.rest.repos.getBranch({ owner, repo, branch: branchName });
+            const parentSha = branch.data.commit.sha;
+            const parentCommit = await github.rest.git.getCommit({ owner, repo, commit_sha: parentSha });
+            const commit = await github.rest.git.createCommit({
+              owner,
+              repo,
+              message: 'chore: refresh Radio translations',
+              tree: parentCommit.data.tree.sha,
+              parents: [parentSha],
+            });
+            await github.rest.git.updateRef({
+              owner,
+              repo,
+              ref: `heads/${branchName}`,
+              sha: commit.data.sha,
+              force: false,
+            });
+            core.info(`Created ${repo} ${branchName} empty commit ${commit.data.sha}`);
