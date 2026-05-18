@@ -244,6 +244,15 @@
     },
     "textColorLabel": "Text Color"
   },
+  "iframeAuth": {
+    "description": "Oauth logins must be completed outside of an embedded frame.",
+    "stepOneDescription": "Use your phone or browser to open the login link.",
+    "stepOneTitle": "Scan the QR code",
+    "stepTwoDescription": "Sign in to Sonoran Radio, then enter this 4-digit code.",
+    "stepTwoTitle": "Enter the code",
+    "title": "Link Login",
+    "waiting": "Waiting for login approval..."
+  },
   "importExport": {
     "download": "Download",
     "export": "Export",
@@ -347,15 +356,6 @@
     "forgotPassword": "Forgot Password",
     "forgotPasswordDesc": "Forgot your Sonoran account password? Enter your email below to reset your credentials.",
     "loginWithSonoran": "Login with Sonoran"
-  },
-  "iframeAuth": {
-    "description": "Oauth logins must be completed outside of an embedded frame.",
-    "stepOneDescription": "Use your phone or browser to open the login link.",
-    "stepOneTitle": "Scan the QR code",
-    "stepTwoDescription": "Sign in to Sonoran Radio, then enter this 4-digit code.",
-    "stepTwoTitle": "Enter the code",
-    "title": "Link Login",
-    "waiting": "Waiting for login approval..."
   },
   "loginLink": {
     "enterCode": "Enter your 4-digit code..."
