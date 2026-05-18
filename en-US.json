@@ -349,7 +349,7 @@
     "loginWithSonoran": "Login with Sonoran"
   },
   "iframeAuth": {
-    "description": "Open this page outside the iframe, then enter the code to sign in here.",
+    "description": "Oauth logins must be completed outside of an embedded frame.",
     "stepOneDescription": "Use your phone or browser to open the login link.",
     "stepOneTitle": "Scan the QR code",
     "stepTwoDescription": "Sign in to Sonoran Radio, then enter this 4-digit code.",
