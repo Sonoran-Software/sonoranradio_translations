@@ -116,7 +116,7 @@
     "search": "Search",
     "select": "Select",
     "signup": "Signup",
-    "startToday": "Start today",
+    "startToday": "Start Today",
     "unlink": "Unlink",
     "upload": "Upload",
     "username": "Username"
@@ -262,6 +262,10 @@
     "tooltip": "Import JSON file"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "Install links for the official Sonoran SDK libraries used with the v2 API.",
+      "title": "API Libraries"
+    },
     "BackgroundAudio": {
       "desc": "Responding to a call? Sonoran Radio injects real-time sirens, gunshots, and more directly into your microphone feed for the ultimate immersion.",
       "title": "Background Audio"
@@ -287,6 +291,10 @@
       "desc2": "With three different in-game model types, Sonoran Radio takes immersion to the next level!",
       "title": "Destructible Towers"
     },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI is our most powerful integration ever built. Talk to a live AI dispatcher over the radio to create calls, run license plate lookups, update your status, and so much more!",
+      "title": "Dispatch AI"
+    },
     "Dispatch_Panel": {
       "desc1": "Easily visualize, manage users, play tones, and more!",
       "desc2": "Sonoran Radios dispatch UI is available everywhere on the web and desktop for Windows and OSX.",
@@ -296,11 +304,53 @@
       "desc": "Make emergency calls to dispatch, all from in-game!",
       "title": "In-Game Emergency Calls"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio offers free functionality, but some advanced features (such as scanners, AI dispatch, custom SFX uploads, and certain integrations) require paid subscription tiers like Plus or Pro.",
+        "question": "Is Sonoran Radio free?"
+      },
+      "guestAccess": {
+        "answer": "Yes. Communities can enable guest access using ACE permissions, allowing users to join without linking an account.",
+        "question": "Can users connect without creating accounts?"
+      },
+      "installTime": {
+        "answer": "Most communities can complete the initial setup within minutes, especially when using the pre-configured resource download or RocketNode one-click installation option.",
+        "question": "How long does it take to install Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio supports integrations with:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM inventories\n-Phone scripts\n-Vehicle displays\n-Big Daddy radio animations",
+        "question": "What other integrations are supported?"
+      },
+      "outsideFiveM": {
+        "answer": "Yes. Sonoran Radio includes standalone web and desktop applications that allow users and dispatchers to connect without being in-game.",
+        "question": "Does Sonoran Radio work outside of FiveM?"
+      },
+      "title": "Frequently Asked Questions"
+    },
+    "fivem": {
+      "description": "Connect Sonoran Radio directly to GTA FiveM with the FiveM Integration. See all the special features accessible within FiveM through the integration.",
+      "eyebrow": "Direct Integration",
+      "heading": "Integration"
+    },
+    "hero": {
+      "subtitle": "Chat in realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly immersive experience.",
+      "title": "Take your gaming communication to the next level with Sonoran Radio"
+    },
+    "imageAlt": "{title} Image",
     "inGameToneBoard": {
       "desc": "Sonoran Radios dispatch UI allows you to specify specific channels and groups, repeat tones, and more! You can even play tones on in-game speakers!",
       "title": "Tone Board to In-Game Speakers"
     },
     "intro": "Take your gaming communication to the next level with Sonoran  Radio. Chat in       realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly  immersive experience.",
+    "meta": {
+      "audienceType": "Gamers and Community Managers",
+      "description": "Experience Sonoran Radio, the free, most popular radio transmission software for FiveM, ER:LC & gaming communities alike!",
+      "keywords": "radio communications, FiveM Radio, ER:LC Radio, gaming, role-play communities, emergency response, dispatch software, Sonoran Radio, in-game management, dispatch system",
+      "ogTitle": "Gaming Community Radio - Sonoran Radio",
+      "productName": "Sonoran Radio",
+      "title": "Radio Communications Simulator - Sonoran Radio",
+      "titleSuffix": "Sonoran Radio - Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Sonorans mobile command center enables you to take command like never before. This one-of-a-kind utility vehicle brings endless possibilities!",
       "title": "Mobile Command Center"
@@ -311,7 +361,7 @@
       "title": "Multiple Radio Options"
     },
     "Power_Grid": {
-      "desc": "Hack into the integrated power grid to disable Sonoran Radio towers in your area! Learn more about this script!",
+      "desc": "Hack into the integrated power grid to disable Sonoran Radio towers in your area!",
       "title": "Power Grid"
     },
     "Radio_Chattrer": {
@@ -319,8 +369,16 @@
       "title": "Hear Nearby Radio Chatter"
     },
     "Scanners": {
-      "desc": "In-game scanners allow you and others nearby to listen in on radio traffic!",
+      "desc": "In-game scanners allow you and others nearby to listen in on radio traffic! Or configure custom in-game items to jam nearby radio signals!",
       "title": "Scanners"
+    },
+    "scannersAndJammers": {
+      "desc": "In-game scanners allow you and others nearby to listen in on radio traffic! Or configure custom in-game items to jam nearby radio signals!",
+      "title": "Scanners and Jammers"
+    },
+    "sections": {
+      "dispatchAdmin": "Dispatch and Admin Panel",
+      "integrations": "Integrations"
     },
     "Sonoran_CAD": {
       "desc": "This plugin allows Sonoran Radio customers to connect the radio with the Sonoran CAD. View your unit status, dispatch call information, toggle a panic, and more!",
@@ -333,6 +391,7 @@
     "ToneBoard": {
       "desc1": "Upload and customize dispatch tones for your community!",
       "desc2": "Sonoran Radios dispatch UI allows you to specify specific channels and groups, repeat tones, and more! You can even play tones on in-game speakers!",
+      "panelTitle": "Tone Board",
       "title": "Toneboard"
     },
     "Transmission_Logs": {
