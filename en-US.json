@@ -286,31 +286,27 @@
       "desc": "Customize digital and analog style voice effects for your community!",
       "title": "Custom Voice Effects"
     },
+    "Desktop_Overlay": {
+      "desc": "The desktop overlay allows you to view your radio on top of any game on Windows and OSX for an immersive experience.",
+      "title": "Desktop Overlay"
+    },
     "Destructible_towers": {
       "desc1": "The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.",
       "desc2": "With three different in-game model types, Sonoran Radio takes immersion to the next level!",
       "title": "Destructible Towers"
     },
-    "Dispatch_AI": {
-      "desc": "Dispatch AI is our most powerful integration ever built. Talk to a live AI dispatcher over the radio to create calls, run license plate lookups, update your status, and so much more!",
-      "title": "Dispatch AI"
-    },
     "Discord": {
       "desc": "Discord integration syncs Discord roles with radio permissions, making user management easy.",
       "title": "Discord"
     },
-    "Streamdeck": {
-      "desc": "Control your radio channels, push-to-talk, volume, and more right from your Stream Deck.",
-      "title": "Stream Deck"
+    "Dispatch_AI": {
+      "desc": "Dispatch AI is our most powerful integration ever built. Talk to a live AI dispatcher over the radio to create calls, run license plate lookups, update your status, and so much more!",
+      "title": "Dispatch AI"
     },
     "Dispatch_Panel": {
       "desc1": "Easily visualize, manage users, play tones, and more!",
       "desc2": "Sonoran Radios dispatch UI is available everywhere on the web and desktop for Windows and OSX.",
       "title": "Dispatch Panel"
-    },
-    "Desktop_Overlay": {
-      "desc": "The desktop overlay allows you to view your radio on top of any game on Windows and OSX for an immersive experience.",
-      "title": "Desktop Overlay"
     },
     "EmergencyCalls": {
       "desc": "Make emergency calls to dispatch, all from in-game!",
@@ -328,6 +324,10 @@
       "installTime": {
         "answer": "Creating a community only takes a few seconds! FiveM communities can install the pre-configured resource within minutes, or use the RocketNode one-click installation option.",
         "question": "How long does it take to install Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio supports integrations with:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM inventories\n-Phone scripts\n-Vehicle displays\n-Big Daddy radio animations",
+        "question": "What other integrations are supported?"
       },
       "outsideFiveM": {
         "answer": "Yes! Sonoran Radio includes standalone web, desktop, and mobile applications that allow users and dispatchers to connect for any game!",
@@ -395,6 +395,10 @@
     "Sonoran_CMS": {
       "desc": "Automate Sonoran Radio permissions with Sonoran CMS!",
       "title": "Sonoran CMS"
+    },
+    "Streamdeck": {
+      "desc": "Control your radio channels, push-to-talk, volume, and more right from your Stream Deck.",
+      "title": "Stream Deck"
     },
     "ToneBoard": {
       "desc1": "Upload and customize dispatch tones for your community!",
