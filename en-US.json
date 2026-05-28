@@ -286,10 +286,18 @@
       "desc": "Customize digital and analog style voice effects for your community!",
       "title": "Custom Voice Effects"
     },
+    "Desktop_Overlay": {
+      "desc": "The desktop overlay allows you to view your radio on top of any game on Windows and OSX for an immersive experience.",
+      "title": "Desktop Overlay"
+    },
     "Destructible_towers": {
       "desc1": "The physical in-game towers are able to be destroyed by criminals, which will devastate quality of radios around it.",
       "desc2": "With three different in-game model types, Sonoran Radio takes immersion to the next level!",
       "title": "Destructible Towers"
+    },
+    "Discord": {
+      "desc": "Discord integration syncs Discord roles with radio permissions, making user management easy.",
+      "title": "Discord"
     },
     "Dispatch_AI": {
       "desc": "Dispatch AI is our most powerful integration ever built. Talk to a live AI dispatcher over the radio to create calls, run license plate lookups, update your status, and so much more!",
@@ -306,15 +314,15 @@
     },
     "faq": {
       "free": {
-        "answer": "Sonoran Radio offers free functionality, but some advanced features (such as scanners, AI dispatch, custom SFX uploads, and certain integrations) require paid subscription tiers like Plus or Pro.",
+        "answer": "Sonoran Radio offers everything needed to start in the free version. For larger communities, some advanced features (such as scanners, AI dispatch, custom SFX uploads, and certain integrations) require paid subscription tiers like Plus or Pro.",
         "question": "Is Sonoran Radio free?"
       },
       "guestAccess": {
-        "answer": "Yes. Communities can enable guest access using ACE permissions, allowing users to join without linking an account.",
+        "answer": "Yes! FiveM communities can enable guest access using ACE permissions, allowing users to join without linking a Sonoran account.",
         "question": "Can users connect without creating accounts?"
       },
       "installTime": {
-        "answer": "Most communities can complete the initial setup within minutes, especially when using the pre-configured resource download or RocketNode one-click installation option.",
+        "answer": "Creating a community only takes a few seconds! FiveM communities can install the pre-configured resource within minutes, or use the RocketNode one-click installation option.",
         "question": "How long does it take to install Sonoran Radio?"
       },
       "integrations": {
@@ -322,7 +330,7 @@
         "question": "What other integrations are supported?"
       },
       "outsideFiveM": {
-        "answer": "Yes. Sonoran Radio includes standalone web and desktop applications that allow users and dispatchers to connect without being in-game.",
+        "answer": "Yes! Sonoran Radio includes standalone web, desktop, and mobile applications that allow users and dispatchers to connect for any game!",
         "question": "Does Sonoran Radio work outside of FiveM?"
       },
       "title": "Frequently Asked Questions"
@@ -334,7 +342,7 @@
     },
     "hero": {
       "subtitle": "Chat in realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly immersive experience.",
-      "title": "Take your gaming communication to the next level with Sonoran Radio"
+      "title": "Better radio comms start here"
     },
     "imageAlt": "{title} Image",
     "inGameToneBoard": {
@@ -387,6 +395,10 @@
     "Sonoran_CMS": {
       "desc": "Automate Sonoran Radio permissions with Sonoran CMS!",
       "title": "Sonoran CMS"
+    },
+    "Streamdeck": {
+      "desc": "Control your radio channels, push-to-talk, volume, and more right from your Stream Deck.",
+      "title": "Stream Deck"
     },
     "ToneBoard": {
       "desc1": "Upload and customize dispatch tones for your community!",
