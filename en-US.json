@@ -368,13 +368,13 @@
       "desc": "Pulled over in a traffic stop? You will hear the real radio chatter when an officer has an active radio nearby!",
       "title": "Hear Nearby Radio Chatter"
     },
-    "Scanners": {
-      "desc": "In-game scanners allow you and others nearby to listen in on radio traffic! Or configure custom in-game items to jam nearby radio signals!",
-      "title": "Scanners"
-    },
     "scannersAndJammers": {
       "desc": "In-game scanners allow you and others nearby to listen in on radio traffic! Or configure custom in-game items to jam nearby radio signals!",
       "title": "Scanners and Jammers"
+    },
+    "Scanners": {
+      "desc": "In-game scanners allow you and others nearby to listen in on radio traffic! Or configure custom in-game items to jam nearby radio signals!",
+      "title": "Scanners"
     },
     "sections": {
       "dispatchAdmin": "Dispatch and Admin Panel",
