@@ -1078,8 +1078,8 @@
     "settingsDialog": {
       "advanced": "Advanced",
       "agentGain": "AI Volume",
-      "aiTab": "AI",
       "aiRepliesOnlyMe": "Hear AI Replies to Me Only",
+      "aiTab": "AI",
       "aiWakeWordKeyword": "AI Wake Word",
       "aiWakeWordKeywordSelect": "Wake Word Phrase",
       "audioTab": "Audio",
