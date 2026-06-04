@@ -1079,6 +1079,7 @@
       "advanced": "Advanced",
       "agentGain": "AI Volume",
       "aiRepliesOnlyMe": "Hear AI Replies to Me Only",
+      "aiRepliesOnlyMeTooltip": "Only play Dispatch AI replies that are directed specifically to you.",
       "aiTab": "AI",
       "aiWakeWordKeyword": "AI Wake Word",
       "aiWakeWordKeywordSelect": "Wake Word Phrase",
@@ -1106,6 +1107,7 @@
       "escapeModeXmitTooltip": "The radio closes on ESC, but is visible when transmitting",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Hear All AI Replies",
+      "hearAllAiRepliesTooltip": "Play all Dispatch AI replies you can hear on the radio, not just replies directed to you.",
       "hearScannedWhileXmit": "Hear Scanned While Transmitting",
       "hotkeysTab": "Hotkeys",
       "keydownSfx": "Keydown SFX",
@@ -1143,6 +1145,7 @@
       "wakeWord": "Wake Word (AI)",
       "wakeWordDesc": "Wake word used to activate Dispatch AI.",
       "wakeWordListenSeconds": "Wake word listen seconds",
+      "wakeWordListenSecondsTooltip": "Maximum time the AI will listen for the wake word when starting a transmission. Lowering this can reduce accidental AI activations.",
       "wakeWordRecordNoSpeech": "No speech detected. Check your microphone and try again.",
       "webHotkeyWarning": "Hotkeys only work when the browser window is focused.\n{link} for global hotkeys",
       "webHotkeyWarningLink": "Download the desktop app"
