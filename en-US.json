@@ -810,6 +810,7 @@
     "saveServer": "Save Server",
     "serverInfo": {
       "addServer": "Add Server",
+      "clickToEditName": "Click to edit name",
       "cadPrompts": {
         "addPhrase": "Add phrase",
         "emptyState": "No phrases added yet.",
