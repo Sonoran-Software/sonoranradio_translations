@@ -19,7 +19,6 @@
   },
   "authServer": {
     "authCodeTitle": "Authorization Code",
-    "clickToCopy": "Click to copy",
     "copiedCode": "Copied server authentication code to clipboard",
     "errDelete": "An unexpected error occurred while deleteing the server.",
     "errSave": "An unexpected error occurred while saving the server.",
@@ -119,7 +118,8 @@
     "startToday": "Start Today",
     "unlink": "Unlink",
     "upload": "Upload",
-    "username": "Username"
+    "username": "Username",
+    "clickToCopy": "Click to copy"
   },
   "config": {
     "displayName": "English (US)"
