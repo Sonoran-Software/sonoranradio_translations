@@ -19,6 +19,7 @@
   },
   "authServer": {
     "authCodeTitle": "Authorization Code",
+    "clickToCopy": "Click to copy",
     "copiedCode": "Copied server authentication code to clipboard",
     "errDelete": "An unexpected error occurred while deleteing the server.",
     "errSave": "An unexpected error occurred while saving the server.",
@@ -80,6 +81,7 @@
     "add": "Add",
     "billing": "Billing",
     "cancel": "Cancel",
+    "clickToCopy": "Click to copy",
     "clipboard": "Copied to Clipboard!",
     "communityIdField": "Community ID",
     "confirm": "Confirm",
@@ -118,8 +120,7 @@
     "startToday": "Start Today",
     "unlink": "Unlink",
     "upload": "Upload",
-    "username": "Username",
-    "clickToCopy": "Click to copy"
+    "username": "Username"
   },
   "config": {
     "displayName": "English (US)"
@@ -810,7 +811,6 @@
     "saveServer": "Save Server",
     "serverInfo": {
       "addServer": "Add Server",
-      "clickToEditName": "Click to edit name",
       "cadPrompts": {
         "addPhrase": "Add phrase",
         "emptyState": "No phrases added yet.",
@@ -884,6 +884,7 @@
           }
         }
       },
+      "clickToEditName": "Click to edit name",
       "columns": {
         "actions": "Actions",
         "id": "ID",
