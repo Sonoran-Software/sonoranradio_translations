@@ -1171,6 +1171,7 @@
       "count": "Count",
       "deleteStack": "Delete Stack",
       "generate": "Generate",
+      "infiniteRepeats": "Infinite Repeats",
       "inGameSpeaker": "In-Game Speaker",
       "inGameSpeakerGroup": "In-Game Speaker Group",
       "loadStack": "Load Stack (Single Click)",
@@ -1182,6 +1183,8 @@
       "recording": "Recording",
       "recordMic": "Record Microphone",
       "repeat": "Repeat",
+      "repeatByDefault": "Repeat by Default",
+      "repeatCountLabel": "Default Repeat Count",
       "savedTab": "Saved Stacks",
       "saveStackDesc": "Name your tone stack",
       "saveStackTitle": "Save Stack",
@@ -1193,6 +1196,8 @@
       "title": "Tone Board",
       "toneLabel": "Tone Label",
       "tonesTab": "Tones",
+      "toneWillRepeat": "This tone will repeat {count} times when selected",
+      "toneWillRepeatInfinite": "This tone will repeat indefinitely when selected",
       "voices": "Voices"
     },
     "xmitFreq": "XMIT {0}MHz"
