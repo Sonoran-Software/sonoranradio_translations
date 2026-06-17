@@ -485,6 +485,7 @@
       },
       "ownershipHint": "You must own your domain name!",
       "placeholder": "radio.example.com",
+      "removeButton": "Remove Custom Domain",
       "requiresPro": "You must have a Pro subscription to set a Custom Domain",
       "tryItOut": "Try it out",
       "vanityCopied": "Copied Vanity URL to Clipboard!",
