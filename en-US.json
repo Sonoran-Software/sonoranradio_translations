@@ -216,8 +216,8 @@
     "browserLoginInstruction": "Open the link page in your browser to sign in.",
     "guestLogin": "Guest Login",
     "guestLoginInstruction": "Login as guest",
-    "loginWithCode": "Link Your Account",
     "loginWithAccount": "Account Login",
+    "loginWithCode": "Link Your Account",
     "openLinkButton": "Link",
     "refresh": "Refresh",
     "unlink": "Unlink"
