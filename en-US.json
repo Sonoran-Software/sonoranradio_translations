@@ -217,6 +217,7 @@
     "guestLogin": "Guest Login",
     "guestLoginInstruction": "Login as guest",
     "loginWithCode": "Link Your Account",
+    "loginWithAccount": "Account Login",
     "openLinkButton": "Link",
     "refresh": "Refresh",
     "unlink": "Unlink"
