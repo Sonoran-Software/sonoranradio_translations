@@ -212,10 +212,11 @@
     "yourCommunityIDFoundInTheAdministrationTab": "Your Community ID, found in the Administration tab"
   },
   "fivemView": {
-    "browserLoginInstruction": "Go to {link} in your browser to login",
+    "browserLoginInstruction": "Open the link page in your browser to sign in.",
     "guestLogin": "Guest Login",
     "guestLoginInstruction": "Login as guest",
-    "loginWithCode": "Login with Code",
+    "loginWithCode": "Link Your Account",
+    "openLinkButton": "Link",
     "refresh": "Refresh",
     "unlink": "Unlink"
   },
