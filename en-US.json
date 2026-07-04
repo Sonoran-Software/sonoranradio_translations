@@ -591,6 +591,11 @@
       },
       "subtitle": "Connect Sonoran CAD, enable Dispatch AI, and teach it your community's radio language.",
       "title": "Dispatch AI",
+      "troubleshooting": {
+        "body": "Each user can review their recent Dispatch AI transmissions and add word overrides for phrases the AI mishears.",
+        "path": "Open the Dispatch panel, select the gear icon, then open the AI tab.",
+        "title": "Having Trouble?"
+      },
       "usage": {
         "monthlyUsage": "Monthly usage",
         "resetNotice": "Dispatch AI usage limits reset at the start of every month.",
