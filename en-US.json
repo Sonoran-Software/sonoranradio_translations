@@ -119,6 +119,7 @@
     "signup": "Signup",
     "startToday": "Start Today",
     "unlink": "Unlink",
+    "unknownError": "Unknown error occurred",
     "upload": "Upload",
     "username": "Username"
   },
@@ -530,6 +531,7 @@
       "customDomain": "Custom Domain",
       "defaultSettings": "Default Settings",
       "desktopFrames": "Desktop Frames",
+      "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM Integration",
       "info": "Info",
       "patrolChannels": "Patrol Channels",
@@ -544,6 +546,58 @@
     "deleteMsg": "Are you sure you want to delete this configuration? This will result in irreversable data loss.",
     "deleteServer": "Delete Community",
     "deleteSuccess": "Your server was successfully deleted",
+    "dispatchAi": {
+      "addServer": "Add Server",
+      "addServerSubtitle": "Name the radio server users will connect to for this Dispatch AI configuration.",
+      "autoAddingServer": "Creating a default server for this community...",
+      "betaNotice": "Dispatch AI is in public beta. Services may be intermittent while this feature continues to improve.",
+      "cadCommunityIdRequired": "CAD community ID is required when Dispatch AI is enabled",
+      "cadApiKeyHint": "Found in CAD Admin > Advanced > In-Game Integration > Web API.",
+      "cadApiKeyRequired": "CAD API key is required when Dispatch AI is enabled",
+      "cadServerIdHint": "Found in CAD Admin > Customization > Servers. The default CAD server ID is 1.",
+      "cadServerIdRequired": "CAD server ID is required when Dispatch AI is enabled",
+      "defaultServerName": "Default Server",
+      "disabledButton": "Dispatch AI Disabled",
+      "dispatchAiEnabled": "Enable Dispatch AI",
+      "enabledButton": "Dispatch AI Enabled",
+      "linkCadSubtitle": "Enter the Sonoran CAD API information for the CAD community this radio server should control.",
+      "linkCadTitle": "Link Sonoran CAD",
+      "miscServer": "Server {id}",
+      "pauseDisabledButton": "Keep AI active with human dispatchers",
+      "pauseEnabledButton": "Disable AI when human dispatchers are active",
+      "pauseWhenDispatcherActive": "Disable when a human dispatcher is active",
+      "radioServerName": "Radio Server Name",
+      "removeServer": "Remove Server",
+      "requirements": {
+        "cadApi": "CAD community ID, API key, and CAD server ID",
+        "radioServer": "A radio server to link with CAD, created automatically if this community does not have one",
+        "title": "Before You Start"
+      },
+      "roomNotFound": "Server not found",
+      "serverSelect": "Radio Server",
+      "steps": {
+        "cad": {
+          "body": "Copy the Sonoran CAD community ID and API key from CAD Admin > Advanced > In-Game Integration > Web API. Copy the CAD server ID from CAD Admin > Customization > Servers.",
+          "title": "Copy Sonoran CAD API information"
+        },
+        "link": {
+          "body": "Select the radio server below and enter the Sonoran CAD information.",
+          "title": "Link Sonoran CAD to radio"
+        },
+        "prompts": {
+          "body": "Add short example phrases for the way your community speaks on air so Dispatch AI can map local wording to the right CAD action.",
+          "title": "Customize prompt phrases"
+        }
+      },
+      "subtitle": "Connect Sonoran CAD, enable Dispatch AI, and teach it your community's radio language.",
+      "title": "Dispatch AI",
+      "usage": {
+        "monthlyUsage": "Monthly usage",
+        "resetNotice": "Dispatch AI usage limits reset at the start of every month.",
+        "title": "Community Usage",
+        "upgrade": "Upgrade Limits"
+      }
+    },
     "dispatchTab": "Dispatch",
     "emergency911": {
       "callBtn": "Call 911",
@@ -817,7 +871,7 @@
       "cadPrompts": {
         "addPhrase": "Add phrase",
         "emptyState": "No phrases added yet.",
-        "subtitle": "Custom phrases to help Dispatch AI map requests to CAD/Radio functions.",
+        "subtitle": "Custom phrases to help Dispatch AI map requests to CAD/Radio functions. If your users say something that is not in this list, the AI will not know what to do.",
         "title": "Example prompts",
         "tools": {
           "addCallNote": {
