@@ -324,7 +324,8 @@
     "ToneBoard": {
       "desc1": "Laden Sie Dispatch-Töne für Ihre Community hoch und passen Sie sie an!",
       "desc2": "Sonoran Radios Dispatch-UI ermöglicht es Ihnen, spezifische Kanäle und Gruppen zu spezifizieren, Töne zu wiederholen und mehr! Sie können sogar Töne auf In-Game-Lautsprechern abspielen!",
-      "title": "Tonbrett"
+      "title": "Tonbrett",
+      "panelTitle": "Tone Board"
     },
     "Transmission_Logs": {
       "desc": "Übertragungsprotokolle mit optionalen KI-gestützten Texttranskriptionen anzeigen und wiedergeben!",
@@ -337,6 +338,76 @@
     "VehicleDisplay": {
       "desc": "Unser 3D-Fahrzeug-Funkdisplay zeigt Ihre Kanalinformationen, den sendenden Benutzer und den Panikstatus in Echtzeit an und bringt ein neues Maß an Immersion!",
       "title": "Fahrzeuganzeige"
+    },
+    "API_Libraries": {
+      "desc": "Installationslinks für die offiziellen Sonoran SDK-Bibliotheken, die mit der v2-API verwendet werden.",
+      "title": "API-Bibliotheken"
+    },
+    "Desktop_Overlay": {
+      "desc": "Mit dem Desktop-Overlay kannst du dein Funkgerät über jedem Spiel unter Windows und OSX anzeigen lassen, für ein immersiveres Erlebnis.",
+      "title": "Desktop-Overlay"
+    },
+    "Discord": {
+      "desc": "Die Discord-Integration synchronisiert Discord-Rollen mit Funkberechtigungen und erleichtert so die Benutzerverwaltung.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI ist unsere leistungsstärkste Integration. Sprich über Funk mit einem Live-KI-Dispatcher, um Einsätze zu erstellen, Kennzeichen abzufragen, deinen Status zu ändern und vieles mehr!",
+      "title": "Dispatch AI"
+    },
+    "Streamdeck": {
+      "desc": "Steuere Funkkanäle, Push-to-Talk, Lautstärke und mehr direkt über dein Stream Deck.",
+      "title": "Stream Deck"
+    },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio bietet in der kostenlosen Version alles, was du für den Einstieg brauchst. Für größere Communities benötigen einige erweiterte Funktionen, wie Scanner, KI-Dispatch, eigene SFX-Uploads und bestimmte Integrationen, kostenpflichtige Stufen wie Plus oder Pro.",
+        "question": "Ist Sonoran Radio kostenlos?"
+      },
+      "guestAccess": {
+        "answer": "Ja! FiveM-Communities können den Gastzugang über ACE-Berechtigungen aktivieren, sodass Benutzer ohne verknüpftes Sonoran-Konto beitreten können.",
+        "question": "Können Benutzer ohne Konto beitreten?"
+      },
+      "installTime": {
+        "answer": "Das Erstellen einer Community dauert nur wenige Sekunden! FiveM-Communities können die vorkonfigurierte Ressource innerhalb weniger Minuten installieren oder die One-Click-Installationsoption von RocketNode verwenden.",
+        "question": "Wie lange dauert die Installation von Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio unterstützt Integrationen mit:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-Inventaren\n-Telefonskripten\n-Fahrzeuganzeigen\n-Big Daddy Radio-Animationen",
+        "question": "Welche weiteren Integrationen werden unterstützt?"
+      },
+      "outsideFiveM": {
+        "answer": "Ja! Sonoran Radio umfasst eigenständige Web-, Desktop- und Mobilanwendungen, mit denen Benutzer und Dispatcher für jedes Spiel verbunden bleiben können!",
+        "question": "Funktioniert Sonoran Radio auch außerhalb von FiveM?"
+      },
+      "title": "Häufig gestellte Fragen"
+    },
+    "fivem": {
+      "description": "Verbinde Sonoran Radio direkt mit GTA FiveM über die FiveM-Integration. Sieh dir alle speziellen Funktionen an, die in FiveM über die Integration verfügbar sind.",
+      "eyebrow": "Direkte Integration",
+      "heading": "Integration"
+    },
+    "hero": {
+      "subtitle": "Sprich in realistischen Funkkanälen, passe deine Stimmeffekte an und verbinde dich mühelos mit In-Game-Funktionen für ein wirklich immersives Erlebnis.",
+      "title": "Bessere Funkkommunikation beginnt hier"
+    },
+    "imageAlt": "{title} Bild",
+    "meta": {
+      "audienceType": "Gamer und Community-Manager",
+      "description": "Realistische Funkkommunikationssoftware für FiveM, ER:LC, Arma 3 und Rollenspiel-Communities.",
+      "keywords": "Sonoran Radio, Gaming-Funk, FiveM-Funk, ER:LC-Funk, Arma 3-Funk, Rollenspiel-Kommunikation, Dispatch-Software, Desktop-Funk-Overlay, kostenloser FiveM-Funk, kostenloser ER:LC-Funk",
+      "ogTitle": "Sonoran Radio - Funkkommunikation für Gaming",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Funkkommunikation für Gaming",
+      "titleSuffix": "Sonoran Software Systems"
+    },
+    "scannersAndJammers": {
+      "desc": "In-Game-Scanner ermöglichen dir und anderen in der Nähe, den Funkverkehr mitzuhören! Oder konfiguriere eigene In-Game-Gegenstände, um nahegelegene Funksignale zu stören!",
+      "title": "Scanner und Störsender"
+    },
+    "sections": {
+      "dispatchAdmin": "Dispatch- und Admin-Panel",
+      "integrations": "Integrationen"
     }
   },
   "localVoiceFxSettings": {

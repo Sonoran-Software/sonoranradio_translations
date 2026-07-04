@@ -324,7 +324,8 @@
     "ToneBoard": {
       "desc1": "Envie e personalize tons de despacho para sua comunidade!",
       "desc2": "A interface de despacho do Sonoran Radios permite que você especifique canais e grupos específicos, repita tons e mais! Você pode até tocar tons em alto-falantes do jogo!",
-      "title": "Placa de Tons"
+      "title": "Placa de Tons",
+      "panelTitle": "Tone Board"
     },
     "Transmission_Logs": {
       "desc": "Veja e reproduza logs de transmissão com transcrições de texto opcionais com tecnologia de IA!",
@@ -337,6 +338,76 @@
     "VehicleDisplay": {
       "desc": "O nosso visor de rádio de veículo em 3D reflete as informações do canal, o utilizador transmissor e o estado de pânico em tempo real, trazendo novos níveis de imersão!",
       "title": "Exibição de Veículo"
+    },
+    "API_Libraries": {
+      "desc": "Links de instalação para as bibliotecas oficiais do SDK da Sonoran usadas com a API v2.",
+      "title": "Bibliotecas da API"
+    },
+    "Desktop_Overlay": {
+      "desc": "A sobreposição para desktop permite ver seu rádio por cima de qualquer jogo no Windows e OSX, para uma experiência mais imersiva.",
+      "title": "Sobreposição para Desktop"
+    },
+    "Discord": {
+      "desc": "A integração com o Discord sincroniza cargos do Discord com permissões de rádio, facilitando o gerenciamento de usuários.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI é nossa integração mais poderosa. Fale com um despachante de IA ao vivo pelo rádio para criar chamadas, consultar placas, atualizar seu status e muito mais!",
+      "title": "Dispatch AI"
+    },
+    "Streamdeck": {
+      "desc": "Controle canais de rádio, push-to-talk, volume e muito mais diretamente pelo seu Stream Deck.",
+      "title": "Stream Deck"
+    },
+    "faq": {
+      "free": {
+        "answer": "O Sonoran Radio oferece tudo o que você precisa para começar na versão gratuita. Para comunidades maiores, alguns recursos avançados, como scanners, despacho com IA, uploads personalizados de SFX e certas integrações, exigem planos pagos como Plus ou Pro.",
+        "question": "O Sonoran Radio é gratuito?"
+      },
+      "guestAccess": {
+        "answer": "Sim! Comunidades FiveM podem habilitar acesso de convidado usando permissões ACE, permitindo que usuários entrem sem vincular uma conta Sonoran.",
+        "question": "Os usuários podem entrar sem criar contas?"
+      },
+      "installTime": {
+        "answer": "Criar uma comunidade leva apenas alguns segundos! Comunidades FiveM podem instalar o recurso pré-configurado em poucos minutos ou usar a opção de instalação em um clique da RocketNode.",
+        "question": "Quanto tempo leva para instalar o Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "O Sonoran Radio oferece suporte a integrações com:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-Inventários FiveM\n-Scripts de telefone\n-Displays de veículos\n-Animações de rádio da Big Daddy",
+        "question": "Quais outras integrações são compatíveis?"
+      },
+      "outsideFiveM": {
+        "answer": "Sim! O Sonoran Radio inclui aplicativos independentes para web, desktop e dispositivos móveis que permitem que usuários e despachantes se conectem em qualquer jogo!",
+        "question": "O Sonoran Radio funciona fora do FiveM?"
+      },
+      "title": "Perguntas Frequentes"
+    },
+    "fivem": {
+      "description": "Conecte o Sonoran Radio diretamente ao GTA FiveM com a integração FiveM. Veja todos os recursos especiais disponíveis no FiveM por meio da integração.",
+      "eyebrow": "Integração Direta",
+      "heading": "Integração"
+    },
+    "hero": {
+      "subtitle": "Converse em canais de rádio realistas, personalize seus efeitos de voz e conecte-se facilmente com recursos do jogo para uma experiência realmente imersiva.",
+      "title": "Comunicações de rádio melhores começam aqui"
+    },
+    "imageAlt": "Imagem de {title}",
+    "meta": {
+      "audienceType": "Gamers e gerentes de comunidade",
+      "description": "Software de comunicação por rádio realista para comunidades de FiveM, ER:LC, Arma 3 e roleplay.",
+      "keywords": "Sonoran Radio, rádio para jogos, rádio FiveM, rádio ER:LC, rádio Arma 3, comunicações de roleplay, software de despacho, sobreposição de rádio para desktop, rádio FiveM gratuito, rádio ER:LC gratuito",
+      "ogTitle": "Sonoran Radio - Comunicações de rádio para jogos",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Comunicações de rádio para jogos",
+      "titleSuffix": "Sonoran Software Systems"
+    },
+    "scannersAndJammers": {
+      "desc": "Scanners no jogo permitem que você e outras pessoas próximas escutem o tráfego de rádio! Ou configure itens personalizados no jogo para bloquear sinais de rádio próximos!",
+      "title": "Scanners e Bloqueadores"
+    },
+    "sections": {
+      "dispatchAdmin": "Painel de Despacho e Administração",
+      "integrations": "Integrações"
     }
   },
   "localVoiceFxSettings": {
