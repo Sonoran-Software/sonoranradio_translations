@@ -617,10 +617,10 @@
       "emergencyNumber": "Emergency number",
       "endBtn": "End Call",
       "enterEmergencyNumber": "Enter {number} to place this call",
-      "liveCall": "Live emergency call",
       "keypad": "Keypad",
-      "microphoneLive": "Microphone live",
+      "liveCall": "Live emergency call",
       "microphoneInput": "Microphone input",
+      "microphoneLive": "Microphone live",
       "mute": "Mute",
       "readyToCall": "Ready to call",
       "selectRoom": "Server",
@@ -888,13 +888,6 @@
     "saveServer": "Save Server",
     "serverInfo": {
       "addServer": "Add Server",
-      "locality": {
-        "emergencyNumber": "Emergency Number",
-        "emergencyNumberHint": "The public emergency number used in your community's location.",
-        "emergencyNumberInvalid": "Enter an emergency number using 1 to 10 digits.",
-        "subtitle": "Customize location-specific terminology and behavior for this community.",
-        "title": "Locality"
-      },
       "cadPrompts": {
         "addPhrase": "Add phrase",
         "emptyState": "No phrases added yet.",
@@ -982,6 +975,13 @@
       "disabled": "Disabled",
       "dispatchAiPause": "Disable when Human Dispatch is in CAD",
       "enabled": "Enabled",
+      "locality": {
+        "emergencyNumber": "Emergency Number",
+        "emergencyNumberHint": "The public emergency number used in your community's location.",
+        "emergencyNumberInvalid": "Enter an emergency number using 1 to 10 digits.",
+        "subtitle": "Customize location-specific terminology and behavior for this community.",
+        "title": "Locality"
+      },
       "openAiApiKey": "Open AI API Key",
       "openAiApiKeyHint": "Provide a bring-your-own OpenAI API key to enable Dispatch AI features."
     },
