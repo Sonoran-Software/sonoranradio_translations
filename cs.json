@@ -81,6 +81,7 @@
     "add": "Přidat",
     "billing": "Fakturace",
     "cancel": "Zrušit",
+    "clickToCopy": "Klikněte pro zkopírování",
     "clipboard": "Zkopírováno do schránky!",
     "communityIdField": "ID komunity",
     "confirm": "Potvrdit",
@@ -117,6 +118,7 @@
     "select": "Vybrat",
     "signup": "Registrace",
     "startToday": "Začněte dnes",
+    "unknownError": "Došlo k neznámé chybě",
     "unlink": "Odpojit",
     "upload": "Nahrát",
     "username": "Uživatelské jméno"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "Přejděte do {link} ve svém prohlížeči a přihlaste se",
     "guestLogin": "Přihlášení hosta",
     "guestLoginInstruction": "Přihlásit se jako host",
+    "loginWithAccount": "Přihlášení k účtu",
     "loginWithCode": "Přihlásit se kódem",
+    "openLinkButton": "Odkaz",
     "refresh": "Obnovit",
     "unlink": "Odpojit"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "Barva textu"
   },
+  "iframeAuth": {
+    "description": "Oauth přihlášení musí být dokončena mimo vložený rámec.",
+    "stepOneDescription": "Použijte telefon nebo prohlížeč k otevření přihlašovacího odkazu.",
+    "stepOneTitle": "Naskenujte QR kód",
+    "stepTwoDescription": "Přihlaste se do Sonoran Radio, pak zadejte tento 4místný kód.",
+    "stepTwoTitle": "Zadejte kód",
+    "title": "Přihlášení přes odkaz",
+    "waiting": "Čekání na schválení přihlášení..."
+  },
   "importExport": {
     "download": "Stáhnout",
     "export": "Export",
@@ -253,6 +266,10 @@
     "tooltip": "Importovat soubor JSON"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "Instalační odkazy pro oficiální knihovny Sonoran SDK používané s rozhraním API v2.",
+      "title": "Knihovny API"
+    },
     "BackgroundAudio": {
       "desc": "Odpovídáte na výzvu? Sonoran Radio vkládá v reálném čase sirény, výstřely a další zvuky přímo do vašeho mikrofonního vstupu pro maximální ponoření.",
       "title": "Zvuk na pozadí"
@@ -273,10 +290,22 @@
       "desc": "Přizpůsobte digitální a analogové hlasové efekty pro vaši komunitu!",
       "title": "Vlastní hlasové efekty"
     },
+    "Desktop_Overlay": {
+      "desc": "Překryvná vrstva na ploše vám umožňuje zobrazit rádio nad jakoukoli hrou ve Windows a OS X pro pohlcující zážitek.",
+      "title": "Překrytí plochy"
+    },
     "Destructible_towers": {
       "desc1": "Fyzické věže ve hře mohou být zničeny zločinci, což zdevastuje kvalitu rádií kolem nich.",
       "desc2": "Se třemi různými typy herních modelů posouvá Sonoran Radio ponoření na vyšší úroveň!",
       "title": "Zničitelné věže"
+    },
+    "Discord": {
+      "desc": "Integrace Discordu synchronizuje role Discordu s oprávněními rádia, což usnadňuje správu uživatelů.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI je naše dosud nejvýkonnější integrace. Mluvte se živým AI dispečerem přes rádio a vytvářejte hovory, provádějte vyhledávání registračních značek, aktualizujte svůj stav a mnohem víc!",
+      "title": "Dispečink AI"
     },
     "Dispatch_Panel": {
       "desc1": "Snadno vizualizujte, spravujte uživatele, přehrávejte tóny a další!",
@@ -287,11 +316,53 @@
       "desc": "Volání tísňové linky na dispečink, to vše přímo ve hře!",
       "title": "Tísňová volání ve hře"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio nabízí vše potřebné pro začátek ve verzi zdarma. Pro větší komunity vyžadují některé pokročilé funkce (například skenery, AI dispečink, vlastní nahrávání SFX a určitá propojení) placené úrovně předplatného, jako jsou Plus nebo Pro.",
+        "question": "Je Sonoran Radio zdarma?"
+      },
+      "guestAccess": {
+        "answer": "Ano! Komunity FiveM mohou povolit přístup pro hosty pomocí oprávnění ACE, což uživatelům umožní připojit se bez propojení účtu Sonoran.",
+        "question": "Mohou se uživatelé připojit bez vytváření účtů?"
+      },
+      "installTime": {
+        "answer": "Vytvoření komunity zabere jen pár sekund! Komunity FiveM mohou nainstalovat předkonfigurovaný ресурс během několika minut, nebo použít možnost instalace RocketNode jedním kliknutím.",
+        "question": "Jak dlouho trvá instalace Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio podporuje integrace s:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM inventáři\n-telefonními skripty\n-zobrazením vozidel\n-animacemi rádia Big Daddy",
+        "question": "Jaké další integrace jsou podporovány?"
+      },
+      "outsideFiveM": {
+        "answer": "Ano! Sonoran Radio obsahuje samostatné webové, desktopové a mobilní aplikace, které umožňují uživatelům i dispečerům připojit se pro jakoukoli hru!",
+        "question": "Funguje Sonoran Radio mimo FiveM?"
+      },
+      "title": "Často kladené otázky"
+    },
+    "fivem": {
+      "description": "Propojte Sonoran Radio přímo s GTA FiveM pomocí integrace FiveM. Podívejte se na všechny speciální funkce dostupné ve FiveM prostřednictvím integrace.",
+      "eyebrow": "Přímá integrace",
+      "heading": "Integrace"
+    },
+    "hero": {
+      "subtitle": "Chatujte v realistických rádiových kanálech, přizpůsobte si hlasové efekty a bez námahy se propojte s herními funkcemi pro skutečně pohlcující zážitek.",
+      "title": "Lepší rádiová komunikace začíná tady"
+    },
+    "imageAlt": "Obrázek {title}",
     "inGameToneBoard": {
       "desc": "Dispečerské UI Sonoran Radios umožňuje specifikovat konkrétní kanály a skupiny, opakovat tóny a další! Tóny můžete hrát dokonce na herních reproduktorech!",
       "title": "Tone Board do Herních Reproduktorů"
     },
     "intro": "Posuňte svou herní komunikaci na vyšší úroveň s Sonoran  Radio. Chatujte v       realistických rádiových kanálech, přizpůsobte si hlasové efekty a bez námahy se propojte s herními funkcemi pro skutečně  pohlcující zážitek.",
+    "meta": {
+      "audienceType": "Hráči a community manažeři",
+      "description": "Realistický software pro rádiovou komunikaci pro FiveM, ER:LC, Arma 3 a roleplay komunity.",
+      "keywords": "Sonoran Radio, herní rádio, FiveM rádio, ER:LC rádio, Arma 3 rádio, roleplay komunikace, dispečerský software, desktopový rádiový overlay, zdarma FiveM rádio, zdarma ER:LC rádio",
+      "ogTitle": "Sonoran Radio - Herní rádiová komunikace",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Herní rádiová komunikace",
+      "titleSuffix": "Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Mobilní velitelské centrum Sonorans vám umožní ujmout se velení jako nikdy dřív. Toto jedinečné užitkové vozidlo přináší nekonečné možnosti!",
       "title": "Mobilní velitelské centrum"
@@ -309,9 +380,17 @@
       "desc": "Zastavili vás při silniční kontrole? Uslyšíte skutečný rádiový provoz, když má policista poblíž aktivní rádio!",
       "title": "Slyšte blízký rádiový hovor"
     },
+    "scannersAndJammers": {
+      "desc": "Skenery ve hře umožňují vám i ostatním poblíž poslouchat rádiový provoz! Nebo si nastavte vlastní herní předměty, aby rušily okolní rádiové signály!",
+      "title": "Skenery a rušičky"
+    },
     "Scanners": {
       "desc": "Skenery ve hře umožňují vám i ostatním poblíž poslouchat rádiový provoz!",
       "title": "Skenery"
+    },
+    "sections": {
+      "dispatchAdmin": "Dispečerský a administrační panel",
+      "integrations": "Integrace"
     },
     "Sonoran_CAD": {
       "desc": "Tento plugin umožňuje zákazníkům Sonoran Radio propojit rádio se Sonoran CAD. Zobrazte stav své jednotky, informace o dispečerském hovoru, přepněte panikový režim a další!",
@@ -321,9 +400,14 @@
       "desc": "Automatizujte oprávnění Sonoran Radio pomocí Sonoran CMS!",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Ovládejte své rádiové kanály, push-to-talk, hlasitost a další přímo ze svého Stream Decku.",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "Nahrajte a přizpůsobte tóny dispečinku pro vaši komunitu!",
       "desc2": "Dispečerské UI Sonoran Radios umožňuje specifikovat konkrétní kanály a skupiny, opakovat tóny a další! Tóny můžete hrát dokonce na herních reproduktorech!",
+      "panelTitle": "Tone Board",
       "title": "Toneboard"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "Musíte vlastnit svůj název domény!",
       "placeholder": "radio.example.com",
+      "removeButton": "Odstranit vlastní doménu",
       "requiresPro": "K nastavení vlastní domény musíte mít předplatné Pro",
       "tryItOut": "Vyzkoušejte si to",
       "vanityCopied": "Vanity URL zkopírována do schránky!",
@@ -446,6 +531,7 @@
       "customDomain": "Vlastní doména",
       "defaultSettings": "Výchozí Nastavení",
       "desktopFrames": "Rámečky plochy",
+      "dispatchAi": "Dispečink AI",
       "fivemIntegration": "Integrace FiveM",
       "info": "Info",
       "patrolChannels": "Patrolovací Kanály",
@@ -460,17 +546,89 @@
     "deleteMsg": "Opravdu chcete odstranit tuto konfiguraci? To povede k nevratné ztrátě dat.",
     "deleteServer": "Smazat Komunitu",
     "deleteSuccess": "Váš server byl úspěšně smazán",
+    "dispatchAi": {
+      "addServer": "Přidat Server",
+      "addServerSubtitle": "Pojmenujte rádiový server, ke kterému se uživatelé připojí pro tuto konfiguraci Dispatch AI.",
+      "autoAddingServer": "Vytváří se výchozí server pro tuto komunitu...",
+      "betaNotice": "Dispatch AI je ve veřejné betaverzi. Služby mohou být občas nedostupné, zatímco se tato funkce dále zlepšuje.",
+      "cadApiKeyHint": "Nalezeno v CAD Admin > Pokročilé > Integrace ve hře > Web API.",
+      "cadApiKeyRequired": "Je vyžadován klíč CAD API, když je povoleno Dispatch AI",
+      "cadCommunityIdRequired": "Je vyžadováno ID komunity CAD, když je povoleno Dispatch AI",
+      "cadServerIdHint": "Nalezeno v CAD Admin > Přizpůsobení > Servery. Výchozí ID CAD serveru je 1.",
+      "cadServerIdRequired": "Je vyžadováno ID serveru CAD, když je povoleno Dispatch AI",
+      "defaultServerName": "Výchozí server",
+      "disabledButton": "Dispečink AI zakázán",
+      "dispatchAiEnabled": "Povolit Dispečink AI",
+      "enabledButton": "Dispečink AI povolen",
+      "fieldRequired": "Toto pole je povinné",
+      "linkCadSubtitle": "Zadejte informace o API Sonoran CAD pro komunitu CAD, kterou má tento rádiový server řídit.",
+      "linkCadTitle": "Propojit Sonoran CAD",
+      "miscServer": "Server {id}",
+      "pauseDisabledButton": "Ponechat AI aktivní s lidskými dispečery",
+      "pauseEnabledButton": "Zakázat AI, když jsou aktivní lidské dispečeři",
+      "pauseWhenDispatcherActive": "Zakázat, když je aktivní lidský dispečer",
+      "radioServerName": "Název rádiového serveru",
+      "removeServer": "Odebrat server",
+      "requirements": {
+        "cadApi": "ID komunity CAD, klíč API a ID serveru CAD",
+        "radioServer": "Radiový server pro propojení s CAD, vytvořený automaticky, pokud tato komunita žádný nemá",
+        "title": "Než začnete"
+      },
+      "roomNotFound": "Server nenalezen",
+      "serverSelect": "Rádiový server",
+      "steps": {
+        "cad": {
+          "body": "Zkopírujte ID komunity Sonoran CAD a API klíč z CAD Admin > Advanced > In-Game Integration > Web API. Zkopírujte ID serveru CAD z CAD Admin > Customization > Servers.",
+          "title": "Zkopírujte informace o API Sonoran CAD"
+        },
+        "link": {
+          "body": "Vyberte níže rádiový server a zadejte informace o Sonoran CAD.",
+          "title": "Propojit Sonoran CAD s rádiem"
+        },
+        "prompts": {
+          "body": "Přidejte krátké ukázkové fráze pro způsob, jakým vaše komunita mluví ve vysílání, aby Dispatch AI mohl přiřadit místní formulace ke správné akci CAD.",
+          "title": "Upravit fráze promptu"
+        }
+      },
+      "subtitle": "Propojte Sonoran CAD, aktivujte Dispatch AI a naučte ho rádiový jazyk své komunity.",
+      "title": "Dispečink AI",
+      "troubleshooting": {
+        "body": "Každý uživatel může zkontrolovat své nedávné přenosy Dispatch AI a přidat přepisy slov pro fráze, které AI špatně slyší.",
+        "path": "Otevřete panel Dispatch, vyberte ikonu ozubeného kola a poté otevřete kartu AI.",
+        "title": "Máte potíže?"
+      },
+      "usage": {
+        "monthlyUsage": "Měsíční využití",
+        "resetNotice": "Limity používání Dispatch AI se resetují na začátku každého měsíce.",
+        "title": "Použití komunity",
+        "upgrade": "Upgradujte limity"
+      }
+    },
     "dispatchTab": "Dispečink",
     "emergency911": {
+      "backspace": "Smazat poslední číslici",
       "callBtn": "Volat 911",
+      "callingNumber": "Volá se na {number}",
       "connected": "Připojeno — váš hovor se vysílá dispečerům.",
       "connecting": "Připojování...",
+      "dialerLabel": "Nouzový dialer",
       "disconnectsDispatchHint": "Zahájení hovoru odpojí jakoukoli aktivní dispečerskou relaci na jiné kartě.",
+      "dispatchers": "Dispečeři",
       "dispatchersTitle": "Dispečeři na tomto hovoru",
+      "emergencyNumber": "Tísňové číslo",
       "endBtn": "Ukončit hovor",
+      "enterEmergencyNumber": "Zadejte {number} pro uskutečnění tohoto hovoru",
+      "keypad": "Klávesnice",
+      "liveCall": "Živé tísňové volání",
+      "microphoneInput": "Vstup mikrofonu",
+      "microphoneLive": "Mikrofon živě",
+      "mute": "Ztlumit",
+      "readyToCall": "Připraveno k zavolání",
       "selectRoom": "Server",
       "subtitle": "Zavolejte na linku 911 dispečerům v této komunitě.",
       "title": "Tísňové volání",
+      "unmute": "Zapnout mikrofon",
+      "useEmergencyNumber": "Použít {number}",
       "waitingDispatcher": "Čeká se na odpověď dispečera..."
     },
     "emergency911Tab": "Volání 911",
@@ -548,19 +706,26 @@
       "ban": "Zablokovat",
       "banBtn": "Zabanovat",
       "cannotModifyPermsOfMyself": "Nemohu změnit svá vlastní oprávnění",
+      "copyPermissionGeneratorId": "Kopírovat ID oprávnění",
       "displayName": "Zobrazovaný název",
       "editMemberPerms": "Upravit oprávnění člena",
       "errAddInvalidAccount": "Zadané uživatelské jméno neexistuje",
       "errAddUnknown": "Při přidávání manažera došlo k neznámé chybě",
       "errRemoveUnknown": "Při odstraňování manažera došlo k neznámé chybě",
       "explainDisabled": "Pouze vlastníci serveru mohou přidávat nebo upravovat správce",
+      "filterActive": "Aktivní",
       "filterAll": "Všechny",
+      "filterBanned": "Zakázáno",
       "filterPending": "Čekající",
       "kickBtn": "Vyhodit",
       "owner": "Vlastník",
       "ownerHasAllPerms": "Vlastník komunity má všechna oprávnění",
       "paysSubscription": "Platí předplatné",
       "pending": "Čekající",
+      "permissionGeneratorBtn": "Generátor oprávnění",
+      "permissionGeneratorId": "ID oprávnění",
+      "permissionGeneratorSubtitle": "Vygenerujte ID uživatelského oprávnění pro externí použití.",
+      "permissionGeneratorTitle": "Generátor oprávnění",
       "permissionsBtn": "Oprávnění",
       "privateChannels": "Soukromé kanály",
       "remove": "Odebrat",
@@ -585,6 +750,7 @@
       "keyUpSfx": "SFX při uvolnění klávesy",
       "overrideSuccessSfx": "Přepsání úspěchu zvuku promluvy",
       "panicSfx": "Zvuk tlačítka paniky",
+      "phoneDialSfx": "Zvuk tlačítka vytáčení telefonu",
       "sfxGameBoatEngine": "Zvukové efekty herního lodního motoru",
       "sfxGameHelicopterRotors": "Zvukové efekty rotorů herního vrtulníku",
       "sfxGamePistol": "Herní Pistole SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "Kliknutím upravíte název",
       "columns": {
         "actions": "Akce",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "Zakázáno",
       "dispatchAiPause": "Zakázat, když je lidské přidělování v CAD",
       "enabled": "Povoleno",
+      "locality": {
+        "emergencyNumber": "Tísňové číslo",
+        "emergencyNumberHint": "Veřejné tísňové číslo používané v lokalitě vaší komunity.",
+        "emergencyNumberInvalid": "Zadejte tísňové číslo pomocí 1 až 10 číslic.",
+        "subtitle": "Přizpůsobte terminologii a chování specifické pro danou lokalitu pro tuto komunitu.",
+        "title": "Lokalita"
+      },
       "openAiApiKey": "Klíč API OpenAI",
       "openAiApiKeyHint": "Zadejte vlastní klíč OpenAI API, abyste povolili funkce Dispatch AI."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "Zvýšit uživatelovu hlasitost rádia o toto procento, když je aktivní siréna vozidla.",
       "subtitle": "Nastavte výchozí nastavení pro vaši komunitu. Uživatelé si mohou přizpůsobit svá vlastní předvolby, ale tato budou sloužit jako počáteční výchozí hodnoty.",
       "title": "Výchozí Nastavení",
+      "toneVoiceEffects": "Hlasové efekty Tone Board",
+      "toneVoiceEffectsDesc": "Použít vybraný řetězec efektů rádiového hlasu při přehrávání tónů tónové desky.",
       "tts": "Text na řeč kanálu",
       "ttsDesc": "Přehraj hlas textu na řeč názvu kanálu, když změníš kanály.",
       "volChange": "Změna Hlasitosti",
@@ -989,17 +1165,33 @@
     "selectServer": "Vybrat Server",
     "setHotkeyFor": "Nastavit klávesovou zkratku pro {0}",
     "settingsDialog": {
+      "addPhraseOverride": "Přidat přepsání fráze",
       "advanced": "Pokročilý",
       "agentGain": "Hlasitost AI",
       "aiRepliesOnlyMe": "Slyšet AI odpovědi jen pro mě",
+      "aiRepliesOnlyMeTooltip": "Přehrávat pouze odpovědi Dispatch AI, které jsou určeny přímo vám.",
+      "aiTab": "AI",
       "aiWakeWordKeyword": "Aktivační slovo AI",
       "aiWakeWordKeywordSelect": "Fráze aktivačního slova",
       "audioTab": "Audio",
+      "automatic": "Automaticky",
       "automaticGainControlDisabled": "Automatické řízení zisku zakázáno",
       "automaticGainControlEnabled": "Automatické řízení zisku povoleno",
       "changingOutputsUnsupported": "Vaše zařízení nepodporuje změnu výstupů zvuku",
       "channelTts": "Kanál TTS",
+      "closeSettings": "Zavřít nastavení",
+      "communityPhrases": "Komunitní fráze AI",
+      "communityPhrasesDesc": "Použijte tyto konkrétní fráze, abyste řekli AI, co má dělat. Jiné zde neuvedené fráze nebudou fungovat.",
+      "communityPhrasesEmpty": "Pro tuto místnost nejsou nakonfigurovány žádné komunitní fráze.",
+      "communityPhrasesTooltip": "Tyto fráze jsou nastaveny správcem vaší komunity a lze je měnit pouze v nastavení komunity.",
+      "defaultAudioDevice": "Výchozí",
       "defaultOutputWarning": "Výchozí výstup může způsobit, že Windows sníží hlasitost ostatních aplikací. Zkuste vybrat konkrétní zařízení.",
+      "disabled": "Zakázáno",
+      "dispatchAiLanguage": "Dispečink AI — Jazyk",
+      "dispatchAiLanguageLoadError": "Nepodařilo se načíst vybraný jazykový model Dispatch AI.",
+      "dispatchAiStatus": "Stav Dispečinku AI",
+      "dispatchAiStatusDesc": "Dispatch AI je povoleno správci vaší komunity v menu konfigurace.",
+      "enabled": "Povoleno",
       "enableTransmissionRecordings": "Povolit záznamy přenosu",
       "escapeMode": "Režim úniku",
       "escapeModeHide": "Skrýt rádio",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "Rádio se zavře klávesou ESC, ale je viditelné při vysílání",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Slyšet všechny odpovědi AI",
+      "hearAllAiRepliesTooltip": "Přehrávat všechny odpovědi Dispatch AI, které můžete slyšet v rádiu, ne jen odpovědi určené vám.",
       "hearScannedWhileXmit": "Slyšet skenované při vysílání",
       "hotkeysTab": "Klávesové zkratky",
+      "improveTranscript": "Vylepšit slova přepisu v sekci přepisů.",
       "keydownSfx": "SFX při stisknutí klávesy",
       "keyupSfx": "SFX při uvolnění klávesy",
       "macosPermWarning": "Vaše zařízení může vyžadovat další oprávnění: {link}",
       "macosPermWarningLink": "Zjistěte, jak udělit oprávnění",
+      "monthlyUsage": "Měsíční využití",
       "moveResize": "Přesun/Změna velikosti",
       "myPttSfx": "Moje PTT SFX",
       "othersPttSfx": "SFX ostatních při PTT",
+      "phraseOverrides": "Přepsání frází",
+      "phraseOverridesDesc": "Nahraďte běžně špatně slyšená slova nebo krátké fráze před odesláním vašeho přepisu do Dispatch AI. Ukládají se do vašeho účtu.",
+      "phraseOverridesEmpty": "Zatím nebyla přidána žádná přepsání frází.",
+      "phraseOverridesFind": "Slyšená fráze",
+      "phraseOverridesReplace": "Nahradit za",
       "privacyTab": "Soukromí",
       "pttOffDelay": "Zpoždění vypnutí PTT",
+      "recentAiTranscriptLabel": "Přepis {number}",
+      "recentAiTranscripts": "Nedávné přepisy",
+      "recentAiTranscriptsDesc": "Posledních několik požadavků, které od vás Dispatch AI obdržel. Použijte je ke zlepšení načasování aktivačního slova a diktování.",
+      "recentAiTranscriptsEmpty": "Zatím žádné nedávné přepisy Dispatch AI.",
       "recordWakeWord": "Nahrát aktivační slovo",
       "recordWakeWordListening": "Poslouchám...",
       "resetPeerVolumes": "Obnovit hlasitosti peerů",
       "resetSettings": "Obnovit nastavení",
+      "savingPhraseOverrides": "Ukládání...",
       "selectRadioFrame": "Rámeček rádia",
       "sfxTab": "SFX",
       "sfxVolume": "Hlasitost SFX",
       "title": "Nastavení",
       "toggleBackgroundAudio": "Zvuk na pozadí",
+      "toneVoiceEffects": "Hlasové efekty Tone board",
       "troubleHearingInGame": "Máte potíže se slyšením ve hře?:",
       "unlink": "Odpojit",
+      "upgradeCommunity": "Přechod na komunitní verzi",
       "voiceFxCommunity": "Komunitní FX",
       "voiceFxEmpty": "Vytvořte nebo importujte místní zvukový efekt, abyste povolili místní poslech.",
       "voiceFxLocal": "Lokální efekty",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "Změna Hlasitosti se Sirénami",
       "volumeHotkeyChange": "Změna klávesové zkratky hlasitosti",
       "wakeWord": "Aktivační slovo (AI)",
+      "wakeWordDesc": "Aktivační slovo používané k aktivaci Dispatch AI.",
       "wakeWordListenSeconds": "Doba naslouchání probuzení",
+      "wakeWordListenSecondsTooltip": "Maximální doba, po kterou bude AI poslouchat na budicí slovo při zahájení vysílání. Snížení této hodnoty může omezit náhodné aktivace AI.",
       "wakeWordRecordNoSpeech": "Nebyla zjištěna žádná řeč. Zkontrolujte mikrofon a zkuste to znovu.",
       "webHotkeyWarning": "Klávesové zkratky fungují jen když je okno prohlížeče aktivní.\n{link} pro globální klávesové zkratky",
       "webHotkeyWarningLink": "Stáhněte si desktopovou aplikaci"
@@ -1057,6 +1266,7 @@
       "count": "Počet",
       "deleteStack": "Smazat zásobník",
       "generate": "Generovat",
+      "infiniteRepeats": "Nekonečná opakování",
       "inGameSpeaker": "Herní reproduktor",
       "inGameSpeakerGroup": "Herní skupina reproduktoru",
       "loadStack": "Načíst zásobník (jedním kliknutím)",
@@ -1068,6 +1278,8 @@
       "recording": "Nahrávání",
       "recordMic": "Nahrát mikrofon",
       "repeat": "Opakovat",
+      "repeatByDefault": "Opakovat ve výchozím nastavení",
+      "repeatCountLabel": "Výchozí počet opakování",
       "savedTab": "Uložené zásobníky",
       "saveStackDesc": "Pojmenujte svůj tónový stack",
       "saveStackTitle": "Uložit stoh",
@@ -1079,6 +1291,8 @@
       "title": "Tone Board",
       "toneLabel": "Tónová značka",
       "tonesTab": "Tóny",
+      "toneWillRepeat": "Tento tón se při výběru zopakuje {count}×",
+      "toneWillRepeatInfinite": "Tento tón se při výběru bude opakovat neomezeně",
       "voices": "Hlasy"
     },
     "xmitFreq": "XMIT {0} MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "Zrušit",
     "communityImage": "Obrázek komunity",
+    "communityImageDrop": "Klikněte nebo sem přetáhněte obrázek pro nahrání",
     "linkSonoranCAD": "Propojit Sonoran CAD",
     "linkSonoranCADDispatchAI": "Propojit Sonoran CAD (Dispatch AI)",
     "serverID": "ID serveru",

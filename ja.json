@@ -81,6 +81,7 @@
     "add": "追加",
     "billing": "請求",
     "cancel": "キャンセル",
+    "clickToCopy": "コピーをクリック",
     "clipboard": "クリップボードにコピーしました！",
     "communityIdField": "コミュニティ ID",
     "confirm": "確認",
@@ -117,6 +118,7 @@
     "select": "選択",
     "signup": "登録",
     "startToday": "今日始める",
+    "unknownError": "不明なエラーが発生しました",
     "unlink": "リンク解除",
     "upload": "アップロード",
     "username": "ユーザー名"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "ブラウザで{link}にアクセスしてログインしてください",
     "guestLogin": "ゲストログイン",
     "guestLoginInstruction": "ゲストとしてログイン",
+    "loginWithAccount": "アカウントログイン",
     "loginWithCode": "コードでログイン",
+    "openLinkButton": "リンク",
     "refresh": "更新",
     "unlink": "リンク解除"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "テキスト色"
   },
+  "iframeAuth": {
+    "description": "Oauthログインは埋め込みフレームの外で完了する必要があります。",
+    "stepOneDescription": "ログインリンクを開くには、スマホまたはブラウザを使用してください",
+    "stepOneTitle": "QRコードをスキャン",
+    "stepTwoDescription": "Sonoran Radio にサインインしてから、この4桁のコードを入力してください。",
+    "stepTwoTitle": "コードを入力",
+    "title": "リンク ログイン",
+    "waiting": "ログイン承認を待っています..."
+  },
   "importExport": {
     "download": "ダウンロード",
     "export": "エクスポート",
@@ -253,6 +266,10 @@
     "tooltip": "JSONファイルをインポート"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "v2 APIで使用する公式Sonoran SDKライブラリのインストールリンク。",
+      "title": "API ライブラリ"
+    },
     "BackgroundAudio": {
       "desc": "通話に応答中ですか? Sonoran Radioは、サイレン、銃声などをリアルタイムで直接マイク入力に注入し、究極の没入感を実現します。",
       "title": "バックグラウンドオーディオ"
@@ -273,10 +290,22 @@
       "desc": "コミュニティ向けにデジタルとアナログ風のボイスエフェクトをカスタマイズ！",
       "title": "カスタム音声効果"
     },
+    "Desktop_Overlay": {
+      "desc": "デスクトップオーバーレイを使うと、Windows と OSX の任意のゲームの上にラジオを表示して、没入感のある体験を楽しめます。",
+      "title": "デスクトップ オーバーレイ"
+    },
     "Destructible_towers": {
       "desc1": "ゲーム内の物理的な塔は犯罪者によって破壊される可能性があり、周囲のラジオ品質を著しく低下させます。",
       "desc2": "3種類のゲーム内モデルタイプで、Sonoran Radio は没入感を次のレベルへ！",
       "title": "破壊可能なタワー"
+    },
+    "Discord": {
+      "desc": "Discord連携はDiscordのロールとradio権限を同期し、ユーザー管理を簡単にします。",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AIは、これまでに構築した中で最も強力な統合です。ラジオでライブのAIディスパッチャーと話して、通報を作成し、ナンバープレート照会を実行し、ステータスを更新するなど、さらに多くのことができます！",
+      "title": "ディスパッチ AI"
     },
     "Dispatch_Panel": {
       "desc1": "ユーザーを簡単に可視化、管理し、トーンを再生するなど、さらにいろいろ！",
@@ -287,11 +316,53 @@
       "desc": "ゲーム内からすべて、緊急通報をディスパッチへ！",
       "title": "ゲーム内緊急通話"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio は無料版で始めるのに必要なものをすべて提供します。より大きなコミュニティでは、いくつかの高度な機能（スキャナー、AI ディスパッチ、カスタム SFX アップロード、特定の連携など）は、Plus や Pro などの有料サブスクリプションプランが必要です。",
+        "question": "Sonoran Radio は無料ですか?"
+      },
+      "guestAccess": {
+        "answer": "はい！FiveMコミュニティはACE権限を使用してゲストアクセスを有効にでき、ユーザーはSonoranアカウントをリンクせずに参加できます。",
+        "question": "ユーザーはアカウントを作成せずに接続できますか?"
+      },
+      "installTime": {
+        "answer": "コミュニティの作成はほんの数秒で完了します! FiveM コミュニティは、数分以内に事前設定済みのリソースをインストールするか、RocketNode のワンクリックインストールオプションを使用できます。",
+        "question": "Sonoran Radio のインストールにはどのくらい時間がかかりますか？"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio は以下との連携をサポートしています:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM インベントリ\n-電話スクリプト\n-車両ディスプレイ\n-Big Daddy radio animations",
+        "question": "他にどの連携がサポートされていますか？"
+      },
+      "outsideFiveM": {
+        "answer": "はい！Sonoran Radioには、どのゲームでもユーザーとディスパッチャーが接続できる、スタンドアロンのWeb、デスクトップ、モバイルアプリがあります！",
+        "question": "Sonoran Radio は FiveM の外でも動作しますか？"
+      },
+      "title": "よくある質問"
+    },
+    "fivem": {
+      "description": "Sonoran Radio を FiveM Integration で GTA FiveM に直接接続します。統合を通じて FiveM 内で利用できる特別な機能をすべてご覧ください。",
+      "eyebrow": "直接統合",
+      "heading": "統合"
+    },
+    "hero": {
+      "subtitle": "リアルなラジオチャンネルでチャットし、ボイスエフェクトをカスタマイズし、ゲーム内機能とシームレスに連携して、真に没入感のある体験を。",
+      "title": "より良い無線通信はここから始まる"
+    },
+    "imageAlt": "{title} 画像",
     "inGameToneBoard": {
       "desc": "Sonoran Radios のディスパッチ UI では、特定のチャンネルやグループを指定し、トーンを繰り返すことなどが可能。ゲーム内のスピーカーでトーンを再生することも可能！",
       "title": "Tone Boardからゲーム内スピーカーへ"
     },
     "intro": "Sonoran Radioでゲーム内コミュニケーションを次のレベルへ。リアルなラジオチャンネルでチャットし、ボイスエフェクトをカスタマイズし、ゲーム内機能とシームレスに連携して、真に没入感のある体験を。",
+    "meta": {
+      "audienceType": "ゲーマーとコミュニティマネージャー",
+      "description": "FiveM、ER:LC、Arma 3、ロールプレイコミュニティ向けのリアルな無線通信ソフトウェア。",
+      "keywords": "Sonoran Radio、ゲーム用ラジオ、FiveM ラジオ、ER:LC ラジオ、Arma 3 ラジオ、ロールプレイ通信用、ディスパッチソフトウェア、デスクトップラジオオーバーレイ、無料 FiveM ラジオ、無料 ER:LC ラジオ",
+      "ogTitle": "ソノラン ラジオ - ゲーミング ラジオ通信",
+      "productName": "ソノラン ラジオ",
+      "title": "ソノラン ラジオ - ゲーミング ラジオ通信",
+      "titleSuffix": "Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Sonorans のモバイルコマンドセンターは、これまでにない形で指揮を執れるようにします。この唯一無二のユーティリティビークルは、無限の可能性をもたらします!",
       "title": "モバイル コマンド センター"
@@ -309,9 +380,17 @@
       "desc": "交通停止で止められた？ 警官が近くでアクティブな無線を使っているときの本物の無線チャッターが聞けます！",
       "title": "近くのラジオの雑談を聞く"
     },
+    "scannersAndJammers": {
+      "desc": "ゲーム内スキャナーを使うと、自分や周囲の人が無線通信を聞くことができます! または、周囲の無線信号を妨害するために、カスタムのゲーム内アイテムを設定できます!",
+      "title": "スキャナーと ジャマー"
+    },
     "Scanners": {
       "desc": "ゲーム内スキャナーを使うと、自分や周囲の人が無線通信を聞くことができます!",
       "title": "スキャナー"
+    },
+    "sections": {
+      "dispatchAdmin": "ディスパッチとAdminパネル",
+      "integrations": "統合"
     },
     "Sonoran_CAD": {
       "desc": "このプラグインを使用すると、Sonoran Radio のお客様はラジオを Sonoran CAD に接続できます。ユニットのステータス、ディスパッチ通話情報を表示し、パニックを切り替えるなどできます!",
@@ -321,9 +400,14 @@
       "desc": "Sonoran CMS で Sonoran Radio の権限を自動化！",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Stream Deck からラジオチャンネル、プッシュ・トゥ・トーク、音量などを操作できます。",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "コミュニティ用のディスパッチトーンをアップロードしてカスタマイズ",
       "desc2": "Sonoran Radios のディスパッチ UI では、特定のチャンネルやグループを指定し、トーンを繰り返すことなどが可能。ゲーム内のスピーカーでトーンを再生することも可能！",
+      "panelTitle": "トーンボード",
       "title": "トーンボード"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "ドメイン名を所有する必要があります!",
       "placeholder": "radio.example.com",
+      "removeButton": "カスタムドメインを削除",
       "requiresPro": "カスタムドメインを設定するにはProサブスクリプションが必要です",
       "tryItOut": "試してみる",
       "vanityCopied": "バニティ URL をクリップボードにコピーしました！",
@@ -446,6 +531,7 @@
       "customDomain": "カスタムドメイン",
       "defaultSettings": "デフォルト設定",
       "desktopFrames": "デスクトップ フレーム",
+      "dispatchAi": "ディスパッチ AI",
       "fivemIntegration": "FiveM 統合",
       "info": "情報",
       "patrolChannels": "パトロールチャンネル",
@@ -460,17 +546,89 @@
     "deleteMsg": "この設定を削除してもよろしいですか？これは取り消しできないデータ損失につながります。",
     "deleteServer": "コミュニティを削除",
     "deleteSuccess": "サーバーが正常に削除されました",
+    "dispatchAi": {
+      "addServer": "サーバーを追加",
+      "addServerSubtitle": "この Dispatch AI 設定でユーザーが接続するラジオサーバーに名前を付けてください。",
+      "autoAddingServer": "このコミュニティのデフォルトサーバーを作成しています...",
+      "betaNotice": "Dispatch AI は公開ベータ版です。 この機能の改善が続く間、サービスが不安定になる場合があります。",
+      "cadApiKeyHint": "CAD 管理 > 詳細設定 > ゲーム内統合 > Web API にあります。",
+      "cadApiKeyRequired": "Dispatch AI が有効な場合は CAD API キーが必要です",
+      "cadCommunityIdRequired": "Dispatch AI が有効な場合は CAD community ID が必要です",
+      "cadServerIdHint": "CAD 管理者 > カスタマイズ > サーバーで見つかります。デフォルトの CAD サーバー ID は 1 です。",
+      "cadServerIdRequired": "Dispatch AI が有効な場合は CAD サーバー ID が必要です",
+      "defaultServerName": "デフォルトサーバー",
+      "disabledButton": "ディスパッチ AI 無効",
+      "dispatchAiEnabled": "Dispatch AI を有効にする",
+      "enabledButton": "ディスパッチ AI 有効",
+      "fieldRequired": "この項目は必須です",
+      "linkCadSubtitle": "この ラジオ サーバー が制御する CAD コミュニティ の Sonoran CAD API 情報 を入力してください。",
+      "linkCadTitle": "Sonoran CAD をリンク",
+      "miscServer": "サーバー {id}",
+      "pauseDisabledButton": "人間のディスパッチャーがアクティブなときも AI を有効にする",
+      "pauseEnabledButton": "人間のディスパッチャーがアクティブなときは AI を無効にする",
+      "pauseWhenDispatcherActive": "人間のディスパッチャーがアクティブなときは無効にする",
+      "radioServerName": "ラジオサーバー名",
+      "removeServer": "サーバーを削除",
+      "requirements": {
+        "cadApi": "CAD コミュニティ ID、API キー、および CAD サーバー ID",
+        "radioServer": "CAD と連携するためのラジオサーバー。このコミュニティにない場合は自動的に作成されます",
+        "title": "開始前に"
+      },
+      "roomNotFound": "サーバーが見つかりません",
+      "serverSelect": "ラジオサーバー",
+      "steps": {
+        "cad": {
+          "body": "Sonoran CAD のコミュニティ ID と API キーを CAD Admin > Advanced > In-Game Integration > Web API からコピーします。CAD サーバー ID を CAD Admin > Customization > Servers からコピーします。",
+          "title": "Sonoran CAD API情報をコピー"
+        },
+        "link": {
+          "body": "以下の ラジオ サーバー を選択し、Sonoran CAD の情報を入力してください。",
+          "title": "Sonoran CAD を radio にリンク"
+        },
+        "prompts": {
+          "body": "コミュニティが無線で話す言い方の短い例文を追加すると、Dispatch AI が現地の言い回しを適切な CAD アクションに対応付けできます。",
+          "title": "プロンプトフレーズをカスタマイズ"
+        }
+      },
+      "subtitle": "Sonoran CAD を接続し、Dispatch AI を有効にして、コミュニティの無線用語を学習させます。",
+      "title": "ディスパッチ AI",
+      "troubleshooting": {
+        "body": "各ユーザーは、最近の Dispatch AI 送信を確認し、AI が聞き間違えたフレーズに対して単語の置換を追加できます。",
+        "path": "Dispatch パネルを開き、歯車アイコンを選択してから、AI タブを開きます。",
+        "title": "問題がありますか?"
+      },
+      "usage": {
+        "monthlyUsage": "月間使用量",
+        "resetNotice": "Dispatch AI の利用上限は毎月の初めにリセットされます。",
+        "title": "コミュニティ Usage",
+        "upgrade": "アップグレード制限"
+      }
+    },
     "dispatchTab": "ディスパッチ",
     "emergency911": {
+      "backspace": "最後の桁を削除",
       "callBtn": "911に電話",
+      "callingNumber": "{number} に発信中",
       "connected": "接続済み — 通話は緊急通報指令員に送信されています。",
       "connecting": "接続中...",
+      "dialerLabel": "緊急 ダイヤラー",
       "disconnectsDispatchHint": "通話を開始すると、別のタブでアクティブなディスパッチセッションが切断されます。",
+      "dispatchers": "ディスパッチャー",
       "dispatchersTitle": "この通話のディスパッチャー",
+      "emergencyNumber": "緊急番号",
       "endBtn": "通話を終了",
+      "enterEmergencyNumber": "{number} を入力してこの通話を発信",
+      "keypad": "キーパッド",
+      "liveCall": "ライブ緊急コール",
+      "microphoneInput": "マイク入力",
+      "microphoneLive": "マイクライブ",
+      "mute": "ミュート",
+      "readyToCall": "発信準備完了",
       "selectRoom": "サーバー",
       "subtitle": "このコミュニティの通報担当者に 911 通報を発信します。",
       "title": "緊急コール",
+      "unmute": "ミュート解除",
+      "useEmergencyNumber": "{number}を使う",
       "waitingDispatcher": "応答待ちのディスパッチャーを待機中..."
     },
     "emergency911Tab": "911通話",
@@ -548,19 +706,26 @@
       "ban": "BAN",
       "banBtn": "BAN",
       "cannotModifyPermsOfMyself": "自分の権限は変更できません",
+      "copyPermissionGeneratorId": "権限IDをコピー",
       "displayName": "表示名",
       "editMemberPerms": "メンバー権限を編集",
       "errAddInvalidAccount": "指定されたユーザー名は存在しません",
       "errAddUnknown": "管理者の追加中に不明なエラーが発生しました",
       "errRemoveUnknown": "管理者の削除中に不明なエラーが発生しました",
       "explainDisabled": "サーバー所有者のみが管理者を追加または変更できます",
+      "filterActive": "有効",
       "filterAll": "すべて",
+      "filterBanned": "利用禁止",
       "filterPending": "保留中",
       "kickBtn": "キック",
       "owner": "所有者",
       "ownerHasAllPerms": "コミュニティのオーナーはすべての権限を持っています",
       "paysSubscription": "サブスクリプションを支払う",
       "pending": "保留中",
+      "permissionGeneratorBtn": "権限ジェネレーター",
+      "permissionGeneratorId": "権限ID",
+      "permissionGeneratorSubtitle": "外部使用向けのユーザー権限IDを生成します。",
+      "permissionGeneratorTitle": "権限ジェネレーター",
       "permissionsBtn": "権限",
       "privateChannels": "プライベートチャンネル",
       "remove": "削除",
@@ -585,6 +750,7 @@
       "keyUpSfx": "キーアップ SFX",
       "overrideSuccessSfx": "トークオーバー上書き成功 SFX",
       "panicSfx": "パニックボタン SFX",
+      "phoneDialSfx": "電話ダイヤルボタンSFX",
       "sfxGameBoatEngine": "ゲーム内ボートエンジン SFX",
       "sfxGameHelicopterRotors": "ゲーム内ヘリコプターのローター SFX",
       "sfxGamePistol": "ゲーム内ピストル SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "クリックして名前を編集",
       "columns": {
         "actions": "アクション",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "無効",
       "dispatchAiPause": "Human Dispatch が CAD の場合は無効化",
       "enabled": "有効",
+      "locality": {
+        "emergencyNumber": "緊急番号",
+        "emergencyNumberHint": "お住まいの地域で使われている公的な緊急番号。",
+        "emergencyNumberInvalid": "緊急番号を1から10桁で入力してください。",
+        "subtitle": "このコミュニティ向けに場所固有の用語と動作をカスタマイズします。",
+        "title": "所在地"
+      },
       "openAiApiKey": "Open AI API キー",
       "openAiApiKeyHint": "Dispatch AI機能を有効にするには、お使いのOpenAI APIキーを入力してください。"
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "車両のサイレンが有効なときに、ユーザーのラジオ音量をこの割合で増加させます。",
       "subtitle": "コミュニティのデフォルト設定を構成します。ユーザーは各自の設定をカスタマイズできますが、これらは初期デフォルトとして使用されます。",
       "title": "デフォルト設定",
+      "toneVoiceEffects": "トーンボード音声エフェクト",
+      "toneVoiceEffectsDesc": "トーンボードの音が再生されるときに、選択したラジオ音声エフェクトチェーンを適用します。",
       "tts": "チャンネル テキスト読み上げ",
       "ttsDesc": "チャンネル名のテキスト読み上げ音声をチャンネル変更時に再生します。",
       "volChange": "音量変更",
@@ -989,17 +1165,33 @@
     "selectServer": "サーバーを選択",
     "setHotkeyFor": "{0}のホットキーを設定",
     "settingsDialog": {
+      "addPhraseOverride": "フレーズの上書きを追加",
       "advanced": "高度",
       "agentGain": "AI音量",
       "aiRepliesOnlyMe": "AIの返信を自分だけに聞く",
+      "aiRepliesOnlyMeTooltip": "自分宛ての Dispatch AI の返信のみ再生する。",
+      "aiTab": "AI",
       "aiWakeWordKeyword": "AI ウェイクワード",
       "aiWakeWordKeywordSelect": "ウェイクワードフレーズ",
       "audioTab": "オーディオ",
+      "automatic": "自動",
       "automaticGainControlDisabled": "自動ゲインコントロールが無効",
       "automaticGainControlEnabled": "自動ゲインコントロールが有効",
       "changingOutputsUnsupported": "お使いのデバイスはオーディオ出力の変更に対応していません",
       "channelTts": "チャンネルTTS",
+      "closeSettings": "設定を閉じる",
+      "communityPhrases": "コミュニティ AI フレーズ",
+      "communityPhrasesDesc": "AI に何をするかを伝えるために、これらの特定のフレーズを使ってください。ここに記載されていない他のフレーズは機能しません。",
+      "communityPhrasesEmpty": "このルームにはコミュニティフレーズが設定されていません。",
+      "communityPhrasesTooltip": "これらのフレーズはコミュニティ管理者によって設定されており、コミュニティのカスタマイズでのみ変更できます。",
+      "defaultAudioDevice": "デフォルト",
       "defaultOutputWarning": "既定の出力は、Windowsが他のアプリの音量を下げる原因になる場合があります。特定のデバイスを選択してみてください。",
+      "disabled": "無効",
+      "dispatchAiLanguage": "ディスパッチ AI — 言語",
+      "dispatchAiLanguageLoadError": "選択した Dispatch AI 言語モデルを読み込めません。",
+      "dispatchAiStatus": "ディスパッチ AI ステータス",
+      "dispatchAiStatusDesc": "Dispatch AI はコミュニティ管理者によって設定メニューで有効にされています。",
+      "enabled": "有効",
       "enableTransmissionRecordings": "送信録音を有効にする",
       "escapeMode": "エスケープモード",
       "escapeModeHide": "ラジオを非表示",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "ラジオはESCで閉じますが、送信中は表示されます",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "AIの返信をすべて聞く",
+      "hearAllAiRepliesTooltip": "ラジオで聞こえるすべての Dispatch AI の返信を再生します。あなた宛ての返信だけではありません。",
       "hearScannedWhileXmit": "送信中にスキャンを聴く",
       "hotkeysTab": "ホットキー",
+      "improveTranscript": "オーバーライド セクションでトランスクリプトの単語を改善します。",
       "keydownSfx": "キーダウン SFX",
       "keyupSfx": "キーアップ SFX",
       "macosPermWarning": "お使いのデバイスでは追加の許可が必要な場合があります: {link}",
       "macosPermWarningLink": "権限を付与する方法を確認",
+      "monthlyUsage": "月間使用量",
       "moveResize": "移動/サイズ変更",
       "myPttSfx": "自分の PTT SFX",
       "othersPttSfx": "他者のPTT SFX",
+      "phraseOverrides": "フレーズの上書き",
+      "phraseOverridesDesc": "文字起こしが Dispatch AI に送信される前に、よく聞き間違えられる単語や短いフレーズを置き換えます。これらはあなたのアカウントに保存されます。",
+      "phraseOverridesEmpty": "まだフレーズの上書きは追加されていません。",
+      "phraseOverridesFind": "認識済みフレーズ",
+      "phraseOverridesReplace": "に置き換える",
       "privacyTab": "プライバシー",
       "pttOffDelay": "PTTオフ遅延",
+      "recentAiTranscriptLabel": "文字起こし {number}",
+      "recentAiTranscripts": "最近の文字起こし",
+      "recentAiTranscriptsDesc": "Dispatch AIがあなたから受け取った最後の数件のリクエストです。これらを使ってウェイクワードのタイミングと音声入力を改善します。",
+      "recentAiTranscriptsEmpty": "まだ最近のDispatch AI文字起こしはありません。",
       "recordWakeWord": "ウェイクワードを録音",
       "recordWakeWordListening": "聞いています...",
       "resetPeerVolumes": "ピアの音量をリセット",
       "resetSettings": "設定をリセット",
+      "savingPhraseOverrides": "保存中...",
       "selectRadioFrame": "ラジオフレーム",
       "sfxTab": "SFX",
       "sfxVolume": "SFX音量",
       "title": "設定",
       "toggleBackgroundAudio": "バックグラウンドオーディオ",
+      "toneVoiceEffects": "トーンボード音声エフェクト",
       "troubleHearingInGame": "ゲーム内で音が聞き取りづらいですか?:",
       "unlink": "リンク解除",
+      "upgradeCommunity": "コミュニティをアップグレード",
       "voiceFxCommunity": "コミュニティ FX",
       "voiceFxEmpty": "ローカル音声エフェクトを作成またはインポートして、ローカルでの再生を有効にしてください。",
       "voiceFxLocal": "ローカル FX",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "サイレン付き音量変更",
       "volumeHotkeyChange": "音量ホットキー変更",
       "wakeWord": "ウェイクワード (AI)",
+      "wakeWordDesc": "Dispatch AIを起動するために使うウェイクワード。",
       "wakeWordListenSeconds": "ウェイクワード待機秒数",
+      "wakeWordListenSecondsTooltip": "送信を開始するときに AI がウェイクワードを聞き取る最大時間です。これを短くすると、AI の誤起動を減らせます。",
       "wakeWordRecordNoSpeech": "音声が検出されませんでした。マイクを確認して、もう一度お試しください。",
       "webHotkeyWarning": "ホットキーはブラウザウィンドウにフォーカスがあるときだけ動作します。\nグローバルホットキーについては{link}",
       "webHotkeyWarningLink": "デスクトップアプリ をダウンロード"
@@ -1057,6 +1266,7 @@
       "count": "件数",
       "deleteStack": "スタックを削除",
       "generate": "生成",
+      "infiniteRepeats": "無限リピート",
       "inGameSpeaker": "ゲーム内スピーカー",
       "inGameSpeakerGroup": "ゲーム内スピーカーグループ",
       "loadStack": "スタックを読み込む（シングルクリック）",
@@ -1068,6 +1278,8 @@
       "recording": "録音",
       "recordMic": "マイク録音",
       "repeat": "繰り返し",
+      "repeatByDefault": "デフォルトで繰り返す",
+      "repeatCountLabel": "デフォルトの繰り返し回数",
       "savedTab": "保存済みのスタック",
       "saveStackDesc": "トーンスタックに名前を付ける",
       "saveStackTitle": "スタックを保存",
@@ -1079,6 +1291,8 @@
       "title": "トーンボード",
       "toneLabel": "トーンラベル",
       "tonesTab": "トーン",
+      "toneWillRepeat": "このトーンは選択すると {count} 回繰り返されます",
+      "toneWillRepeatInfinite": "このトーンは選択すると無期限に繰り返されます",
       "voices": "ボイス"
     },
     "xmitFreq": "XMIT {0} MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "キャンセル",
     "communityImage": "コミュニティ Image",
+    "communityImageDrop": "クリックまたは画像をここにドラッグしてアップロード",
     "linkSonoranCAD": "Sonoran CAD をリンク",
     "linkSonoranCADDispatchAI": "Sonoran CAD をリンク（Dispatch AI）",
     "serverID": "サーバー ID",
