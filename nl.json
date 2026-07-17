@@ -81,6 +81,7 @@
     "add": "Toevoegen",
     "billing": "Facturatie",
     "cancel": "Annuleren",
+    "clickToCopy": "Klik om te kopiëren",
     "clipboard": "Gekopieerd naar klembord!",
     "communityIdField": "Community ID",
     "confirm": "Bevestigen",
@@ -117,6 +118,7 @@
     "select": "Selecteer",
     "signup": "Aanmelden",
     "startToday": "Begin vandaag",
+    "unknownError": "Er is een onbekende fout opgetreden",
     "unlink": "Ontkoppelen",
     "upload": "Uploaden",
     "username": "Gebruikersnaam"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "Ga in je browser naar {link} om in te loggen",
     "guestLogin": "Gastlogin",
     "guestLoginInstruction": "Inloggen als gast",
+    "loginWithAccount": "Accountlogin",
     "loginWithCode": "Inloggen met code",
+    "openLinkButton": "Link",
     "refresh": "Vernieuwen",
     "unlink": "Ontkoppelen"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "Tekst Kleur"
   },
+  "iframeAuth": {
+    "description": "Oauth-inlogpogingen moeten buiten een ingesloten frame worden voltooid.",
+    "stepOneDescription": "Gebruik je telefoon of browser om de inloglink te openen.",
+    "stepOneTitle": "Scan de QR-code",
+    "stepTwoDescription": "Log in bij Sonoran Radio en voer vervolgens deze 4-cijferige code in.",
+    "stepTwoTitle": "Voer de code in",
+    "title": "Link-login",
+    "waiting": "Wachten op inloggoedkeuring..."
+  },
   "importExport": {
     "download": "Downloaden",
     "export": "Exporteren",
@@ -253,6 +266,10 @@
     "tooltip": "JSON-bestand importeren"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "Installatielinks voor de officiële Sonoran SDK-bibliotheken die worden gebruikt met de v2-API.",
+      "title": "API-bibliotheken"
+    },
     "BackgroundAudio": {
       "desc": "Reageren op een oproep? Sonoran Radio voegt realtime sirenes, geweerschoten en meer rechtstreeks toe aan je microfoonfeed voor de ultieme onderdompeling.",
       "title": "Achtergrond Audio"
@@ -273,10 +290,22 @@
       "desc": "Pas digitale en analoge stemeffecten aan voor je community!",
       "title": "Aangepaste stemeffecten"
     },
+    "Desktop_Overlay": {
+      "desc": "Met de desktopoverlay kun je je radio bovenop elk spel op Windows en OSX bekijken voor een meeslepende ervaring.",
+      "title": "Bureaubladoverlay"
+    },
     "Destructible_towers": {
       "desc1": "De fysieke torens in het spel kunnen door criminelen worden vernietigd, wat de kwaliteit van de radio's eromheen zal verwoesten.",
       "desc2": "Met drie verschillende in-game modeltypen tilt Sonoran Radio de onderdompeling naar een hoger niveau!",
       "title": "Vernietigbare torens"
+    },
+    "Discord": {
+      "desc": "Discord-integratie synchroniseert Discord-rollen met radiorechten, waardoor gebruikersbeheer eenvoudig wordt.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI is onze krachtigste integratie ooit. Praat via de radio met een live AI-dispatcher om meldingen aan te maken, kentekencontroles uit te voeren, je status bij te werken en nog veel meer!",
+      "title": "Dispatch AI"
     },
     "Dispatch_Panel": {
       "desc1": "Visualiseer eenvoudig, beheer gebruikers, speel tonen af, en meer!",
@@ -287,11 +316,53 @@
       "desc": "Doe noodoproepen naar de meldkamer, allemaal vanuit de game!",
       "title": "In-game noodoproepen"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio biedt alles wat nodig is om te starten in de gratis versie. Voor grotere communities vereisen sommige geavanceerde functies (zoals scanners, AI-dispatch, aangepaste SFX-uploads en bepaalde integraties) betaalde abonnementsniveaus zoals Plus of Pro.",
+        "question": "Is Sonoran Radio gratis?"
+      },
+      "guestAccess": {
+        "answer": "Ja! FiveM-gemeenschappen kunnen gasttoegang inschakelen met ACE-rechten, zodat gebruikers kunnen deelnemen zonder een Sonoran-account te koppelen.",
+        "question": "Kunnen gebruikers verbinden zonder accounts aan te maken?"
+      },
+      "installTime": {
+        "answer": "Een community opzetten duurt maar een paar seconden! FiveM-community’s kunnen de vooraf geconfigureerde resource binnen enkele minuten installeren, of de RocketNode-installatie met één klik gebruiken.",
+        "question": "Hoe lang duurt het om Sonoran Radio te installeren?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio ondersteunt integraties met:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-inventarissen\n-Telefoonscripts\n-Voertuigdisplays\n-Big Daddy radio-animaties",
+        "question": "Welke andere integraties worden ondersteund?"
+      },
+      "outsideFiveM": {
+        "answer": "Ja! Sonoran Radio bevat zelfstandige web-, desktop- en mobiele applicaties waarmee gebruikers en dispatchers kunnen verbinden voor elk spel!",
+        "question": "Werkt Sonoran Radio buiten FiveM?"
+      },
+      "title": "Veelgestelde vragen"
+    },
+    "fivem": {
+      "description": "Verbind Sonoran Radio direct met GTA FiveM met de FiveM-integratie. Bekijk alle speciale functies die binnen FiveM toegankelijk zijn via de integratie.",
+      "eyebrow": "Directe integratie",
+      "heading": "Integratie"
+    },
+    "hero": {
+      "subtitle": "Chat in realistische radiokanalen, pas je voice-effecten aan en verbind moeiteloos met in-game functies voor een echt meeslepende ervaring.",
+      "title": "Betere radiocommunicatie begint hier"
+    },
+    "imageAlt": "Afbeelding {title}",
     "inGameToneBoard": {
       "desc": "Sonoran Radio's dispatch-UI stelt je in staat om specifieke kanalen en groepen op te geven, tonen te herhalen, en meer! Je kunt zelfs tonen afspelen op in-game luidsprekers!",
       "title": "Tone Board naar In-Game Luidsprekers"
     },
     "intro": "Breng je gamingcommunicatie naar een hoger niveau met Sonoran  Radio. Chat in       realistische radiokanalen, pas je voice-effecten aan en verbind moeiteloos met in-game functies voor een echt  meeslepende ervaring.",
+    "meta": {
+      "audienceType": "Gamers en communitymanagers",
+      "description": "Realistische radiocommunicatiesoftware voor FiveM, ER:LC, Arma 3 en roleplaygemeenschappen.",
+      "keywords": "Sonoran Radio, gamingradio, FiveM-radio, ER:LC-radio, Arma 3-radio, roleplaycommunicatie, dispatchsoftware, desktop radio-overlay, gratis FiveM-radio, gratis ER:LC-radio",
+      "ogTitle": "Sonoran Radio - Gaming-radiocommunicatie",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Gaming-radiocommunicatie",
+      "titleSuffix": "Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Sonorans mobiele commandocentrum stelt je in staat om op ongekende wijze het commando te voeren. Dit unieke utility-voertuig biedt eindeloze mogelijkheden!",
       "title": "Mobiel commandocentrum"
@@ -309,9 +380,17 @@
       "desc": "Aangehouden bij een verkeerscontrole? Je hoort de echte radioverkeer wanneer een agent een actieve radio in de buurt heeft!",
       "title": "Hoor nabijgelegen radiogepraat"
     },
+    "scannersAndJammers": {
+      "desc": "Scanners in de game laten jou en anderen in de buurt meeluisteren met radioverkeer! Of stel aangepaste in-game items in om radiosignalen in de buurt te blokkeren!",
+      "title": "Scanners en Jammers"
+    },
     "Scanners": {
       "desc": "Scanners in de game laten jou en anderen in de buurt meeluisteren met radioverkeer!",
       "title": "Scanners"
+    },
+    "sections": {
+      "dispatchAdmin": "Dispatch- en Adminpaneel",
+      "integrations": "Integraties"
     },
     "Sonoran_CAD": {
       "desc": "Met deze plugin kunnen Sonoran Radio-klanten de radio verbinden met Sonoran CAD. Bekijk je eenheidsstatus, dispatchoproepinformatie, schakel een paniek in en meer!",
@@ -321,9 +400,14 @@
       "desc": "Automatiseer Sonoran Radio-rechten met Sonoran CMS!",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Beheer je radiokanalen, push-to-talk, volume en meer direct vanaf je Stream Deck.",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "Upload en pas dispatchtonen aan voor je community!",
       "desc2": "Sonoran Radio's dispatch-UI stelt je in staat om specifieke kanalen en groepen op te geven, tonen te herhalen, en meer! Je kunt zelfs tonen afspelen op in-game luidsprekers!",
+      "panelTitle": "Toonpaneel",
       "title": "Toonpaneel"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "Je moet eigenaar zijn van je domeinnaam!",
       "placeholder": "radio.example.com",
+      "removeButton": "Aangepast Domein Verwijderen",
       "requiresPro": "Je moet een Pro-abonnement hebben om een aangepast domein in te stellen",
       "tryItOut": "Probeer het uit",
       "vanityCopied": "Vanity-URL naar klembord gekopieerd!",
@@ -446,6 +531,7 @@
       "customDomain": "Aangepast Domein",
       "defaultSettings": "Standaardinstellingen",
       "desktopFrames": "Bureaubladframes",
+      "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM-integratie",
       "info": "Info",
       "patrolChannels": "Patrouillekanalen",
@@ -460,17 +546,89 @@
     "deleteMsg": "Weet je zeker dat je deze configuratie wilt verwijderen? Dit zal resulteren in onomkeerbaar gegevensverlies.",
     "deleteServer": "Community Verwijderen",
     "deleteSuccess": "Je server is succesvol verwijderd",
+    "dispatchAi": {
+      "addServer": "Server toevoegen",
+      "addServerSubtitle": "Geef de naam van de radioserver waarmee gebruikers verbinding maken voor deze Dispatch AI-configuratie.",
+      "autoAddingServer": "Een standaardserver aanmaken voor deze community...",
+      "betaNotice": "Dispatch AI is in publieke bèta. Services kunnen onderbroken zijn terwijl deze functie verder wordt verbeterd.",
+      "cadApiKeyHint": "Gevonden in CAD Admin > Geavanceerd > In-game-integratie > Web-API.",
+      "cadApiKeyRequired": "CAD API-sleutel is vereist wanneer Dispatch AI is ingeschakeld",
+      "cadCommunityIdRequired": "CAD-community-ID is vereist wanneer Dispatch AI is ingeschakeld",
+      "cadServerIdHint": "Te vinden in CAD Admin > Aanpassing > Servers. De standaard CAD-server-ID is 1.",
+      "cadServerIdRequired": "CAD-server-ID is vereist wanneer Dispatch AI is ingeschakeld",
+      "defaultServerName": "Standaardserver",
+      "disabledButton": "Dispatch AI uitgeschakeld",
+      "dispatchAiEnabled": "Dispatch AI inschakelen",
+      "enabledButton": "Dispatch AI ingeschakeld",
+      "fieldRequired": "Dit veld is verplicht",
+      "linkCadSubtitle": "Voer de Sonoran CAD-API-informatie in voor de CAD-community die deze radioserver moet aansturen.",
+      "linkCadTitle": "Sonoran CAD koppelen",
+      "miscServer": "Server {id}",
+      "pauseDisabledButton": "AI actief houden met menselijke centralisten",
+      "pauseEnabledButton": "AI uitschakelen wanneer menselijke centralisten actief zijn",
+      "pauseWhenDispatcherActive": "Uitschakelen wanneer een menselijke centralist actief is",
+      "radioServerName": "Radio servernaam",
+      "removeServer": "Server verwijderen",
+      "requirements": {
+        "cadApi": "CAD-community-ID, API-sleutel en CAD-server-ID",
+        "radioServer": "Een radioserver om te koppelen aan CAD, automatisch aangemaakt als deze community er geen heeft",
+        "title": "Voordat je begint"
+      },
+      "roomNotFound": "Server niet gevonden",
+      "serverSelect": "Radio server",
+      "steps": {
+        "cad": {
+          "body": "Kopieer de Sonoran CAD-community-ID en API-sleutel van CAD Admin > Advanced > In-Game Integration > Web API. Kopieer de CAD-server-ID van CAD Admin > Customization > Servers.",
+          "title": "Kopieer Sonoran CAD API-informatie"
+        },
+        "link": {
+          "body": "Selecteer de radio-server hieronder en voer de Sonoran CAD-informatie in.",
+          "title": "Sonoran CAD koppelen aan radio"
+        },
+        "prompts": {
+          "body": "Voeg korte voorbeeldzinnen toe voor de manier waarop jouw community over de radio praat zodat Dispatch AI lokale bewoordingen kan koppelen aan de juiste CAD-actie.",
+          "title": "Promptzinnen aanpassen"
+        }
+      },
+      "subtitle": "Verbind Sonoran CAD, schakel Dispatch AI in en leer het de radio-taal van je community.",
+      "title": "Dispatch AI",
+      "troubleshooting": {
+        "body": "Elke gebruiker kan hun recente Dispatch AI-verzendingen bekijken en woordoverschrijvingen toevoegen voor uitdrukkingen die de AI verkeerd hoort.",
+        "path": "Open het Dispatch-paneel, selecteer het tandwielpictogram en open vervolgens het AI-tabblad.",
+        "title": "Problemen?"
+      },
+      "usage": {
+        "monthlyUsage": "Maandelijks gebruik",
+        "resetNotice": "Dispatch AI-gebruikslimieten worden aan het begin van elke maand gereset.",
+        "title": "Communitygebruik",
+        "upgrade": "Limieten upgraden"
+      }
+    },
     "dispatchTab": "Dispatch",
     "emergency911": {
+      "backspace": "Verwijder laatste cijfer",
       "callBtn": "Bel 911",
+      "callingNumber": "Bellen naar {number}",
       "connected": "Verbonden — je oproep wordt uitgezonden naar meldkamers.",
       "connecting": "Verbinden...",
+      "dialerLabel": "Noodkiezer",
       "disconnectsDispatchHint": "Het starten van een oproep verbreekt elke actieve dispatchsessie in een ander tabblad.",
+      "dispatchers": "Dispatchers",
       "dispatchersTitle": "Dispatchers op dit gesprek",
+      "emergencyNumber": "Alarmnummer",
       "endBtn": "Oproep beëindigen",
+      "enterEmergencyNumber": "Voer {number} in om dit gesprek te starten",
+      "keypad": "Toetsenblok",
+      "liveCall": "Live noodoproep",
+      "microphoneInput": "Microfoon input",
+      "microphoneLive": "Microfoon live",
+      "mute": "Dempen",
+      "readyToCall": "Klaar om te bellen",
       "selectRoom": "Server",
       "subtitle": "Bel 911 om centralisten in deze gemeenschap te alarmeren.",
       "title": "Noodoproep",
+      "unmute": "Dempen opheffen",
+      "useEmergencyNumber": "Gebruik {number}",
       "waitingDispatcher": "Wachten tot een centralist antwoordt..."
     },
     "emergency911Tab": "Bel 911",
@@ -548,19 +706,26 @@
       "ban": "Verbannen",
       "banBtn": "Verbannen",
       "cannotModifyPermsOfMyself": "Kan mijn eigen machtigingen niet wijzigen",
+      "copyPermissionGeneratorId": "Permissie-ID kopiëren",
       "displayName": "Weergavenaam",
       "editMemberPerms": "Lidmachtigingen bewerken",
       "errAddInvalidAccount": "De opgegeven gebruikersnaam bestaat niet",
       "errAddUnknown": "Er is een onbekende fout opgetreden bij het toevoegen van de beheerder",
       "errRemoveUnknown": "Er is een onbekende fout opgetreden bij het verwijderen van de beheerder",
       "explainDisabled": "Alleen servereigenaren kunnen managers toevoegen of wijzigen",
+      "filterActive": "Actief",
       "filterAll": "Alles",
+      "filterBanned": "Verbannen",
       "filterPending": "In Afwachting",
       "kickBtn": "Verwijderen",
       "owner": "Eigenaar",
       "ownerHasAllPerms": "De eigenaar van de community heeft alle rechten",
       "paysSubscription": "Betaalt Abonnement",
       "pending": "In Afwachting",
+      "permissionGeneratorBtn": "Permissie-generator",
+      "permissionGeneratorId": "Permissie-ID",
+      "permissionGeneratorSubtitle": "Genereer een gebruikersmachtigings-ID voor extern gebruik.",
+      "permissionGeneratorTitle": "Permissie-generator",
       "permissionsBtn": "Permissies",
       "privateChannels": "Privé Kanalen",
       "remove": "Verwijderen",
@@ -585,6 +750,7 @@
       "keyUpSfx": "Key Up SFX",
       "overrideSuccessSfx": "Talkover override-succes-sfx",
       "panicSfx": "Paniekknop-sfx",
+      "phoneDialSfx": "Geluidseffecten van de telefoonbelknop",
       "sfxGameBoatEngine": "Boatmotorgeluidseffecten in de game",
       "sfxGameHelicopterRotors": "Helikopterrotorgeluidseffecten in het spel",
       "sfxGamePistol": "In-Game Pistool SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "Klik om naam te bewerken",
       "columns": {
         "actions": "Acties",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "Uitgeschakeld",
       "dispatchAiPause": "Uitschakelen wanneer Human Dispatch in CAD is",
       "enabled": "Ingeschakeld",
+      "locality": {
+        "emergencyNumber": "Alarmnummer",
+        "emergencyNumberHint": "Het openbare alarmnummer dat in de locatie van uw gemeenschap wordt gebruikt.",
+        "emergencyNumberInvalid": "Voer een noodnummer in met 1 tot 10 cijfers.",
+        "subtitle": "Pas locatiegebonden terminologie en gedrag voor deze community aan.",
+        "title": "Locatie"
+      },
       "openAiApiKey": "OpenAI-API-sleutel",
       "openAiApiKeyHint": "Geef een eigen OpenAI-API-sleutel op om Dispatch AI-functies in te schakelen."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "Verhoog het radio-volume van een gebruiker met dit percentage wanneer de sirene van het voertuig actief is.",
       "subtitle": "Configureer de standaardinstellingen voor je community. Gebruikers kunnen hun eigen voorkeuren personaliseren, maar deze dienen als de standaardinstellingen.",
       "title": "Standaardinstellingen",
+      "toneVoiceEffects": "Toonbord Stem Effecten",
+      "toneVoiceEffectsDesc": "Pas de geselecteerde keten van radio-stemeffecten toe wanneer tonen van het toonbord worden afgespeeld.",
       "tts": "Kanaal-tekst-naar-spraak",
       "ttsDesc": "Speel een tekst-naar-spraakstem van de kanaalnaam af wanneer je van kanaal verandert.",
       "volChange": "Volume Wijzigen",
@@ -989,17 +1165,33 @@
     "selectServer": "Server Selecteren",
     "setHotkeyFor": "Sneltoets instellen voor {0}",
     "settingsDialog": {
+      "addPhraseOverride": "Zinoverriding toevoegen",
       "advanced": "Geavanceerd",
       "agentGain": "AI Volume",
       "aiRepliesOnlyMe": "Hoor alleen AI-reacties op mij",
+      "aiRepliesOnlyMeTooltip": "Speel alleen Dispatch AI-antwoorden af die specifiek aan jou zijn gericht.",
+      "aiTab": "AI",
       "aiWakeWordKeyword": "AI-activeringswoord",
       "aiWakeWordKeywordSelect": "Wake-woordzin",
       "audioTab": "Audio",
+      "automatic": "Auto",
       "automaticGainControlDisabled": "Automatische volumeregeling uitgeschakeld",
       "automaticGainControlEnabled": "Automatische volumeregeling ingeschakeld",
       "changingOutputsUnsupported": "Uw apparaat ondersteunt het wijzigen van audio-uitvoer niet",
       "channelTts": "Kanaal TTS",
+      "closeSettings": "Instellingen sluiten",
+      "communityPhrases": "Community AI-zinnen",
+      "communityPhrasesDesc": "Gebruik deze specifieke zinnen om de AI te vertellen wat hij moet doen. Andere zinnen die hier niet vermeld staan, werken niet.",
+      "communityPhrasesEmpty": "Er zijn geen community-zinnen geconfigureerd voor deze ruimte.",
+      "communityPhrasesTooltip": "Deze zinnen zijn geconfigureerd door je communitybeheerder en kunnen alleen worden gewijzigd in community-aanpassing.",
+      "defaultAudioDevice": "Standaard",
       "defaultOutputWarning": "Standaarduitvoer kan ervoor zorgen dat Windows de volumes van andere apps verlaagt. Probeer een specifiek apparaat te selecteren.",
+      "disabled": "Uitgeschakeld",
+      "dispatchAiLanguage": "Dispatch AI — Taal",
+      "dispatchAiLanguageLoadError": "Kan het geselecteerde Dispatch AI-taalmodel niet laden.",
+      "dispatchAiStatus": "Dispatch AI-status",
+      "dispatchAiStatusDesc": "Dispatch AI is ingeschakeld door je communitybeheerders in het configuratiemenu.",
+      "enabled": "Ingeschakeld",
       "enableTransmissionRecordings": "Zendingsopnamen inschakelen",
       "escapeMode": "Escape-modus",
       "escapeModeHide": "Verberg radio",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "De radio sluit met ESC, maar is zichtbaar bij zenden",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Hoor alle AI-reacties",
+      "hearAllAiRepliesTooltip": "Speel alle Dispatch AI-reacties af die je op de radio kunt horen, niet alleen reacties die aan jou gericht zijn.",
       "hearScannedWhileXmit": "Scan horen tijdens uitzenden",
       "hotkeysTab": "Sneltoetsen",
+      "improveTranscript": "Transcriptwoorden verbeteren in de sectie met overschrijvingen.",
       "keydownSfx": "Keydown SFX",
       "keyupSfx": "Keyup SFX",
       "macosPermWarning": "Uw apparaat heeft mogelijk extra machtigingen nodig: {link}",
       "macosPermWarningLink": "Leer hoe je machtigingen verleent",
+      "monthlyUsage": "Maandelijks gebruik",
       "moveResize": "Verplaatsen/formaat wijzigen",
       "myPttSfx": "Mijn PTT SFX",
       "othersPttSfx": "Ander's PTT SFX",
+      "phraseOverrides": "Zinoverschrijvingen",
+      "phraseOverridesDesc": "Vervang vaak verkeerd gehoorde woorden of korte zinnen voordat je transcript naar Dispatch AI wordt verzonden. Deze worden opgeslagen in je account.",
+      "phraseOverridesEmpty": "Nog geen zinoverschrijvingen toegevoegd.",
+      "phraseOverridesFind": "Gehoorde frase",
+      "phraseOverridesReplace": "Vervangen door",
       "privacyTab": "Privacy",
       "pttOffDelay": "PTT-uitvertraging",
+      "recentAiTranscriptLabel": "Transcript {number}",
+      "recentAiTranscripts": "Recente transcripties",
+      "recentAiTranscriptsDesc": "De laatste paar verzoeken die Dispatch AI van u heeft ontvangen. Gebruik deze om de timing van het activeringswoord en dicteren te verbeteren.",
+      "recentAiTranscriptsEmpty": "Nog geen recente Dispatch AI-transcripties.",
       "recordWakeWord": "Wake-word opnemen",
       "recordWakeWordListening": "Luisteren...",
       "resetPeerVolumes": "Peer-volumes resetten",
       "resetSettings": "Instellingen opnieuw instellen",
+      "savingPhraseOverrides": "Opslaan...",
       "selectRadioFrame": "Radioframe",
       "sfxTab": "SFX",
       "sfxVolume": "SFX Volume",
       "title": "Instellingen",
       "toggleBackgroundAudio": "Achtergrond Audio",
+      "toneVoiceEffects": "Toonbord stemeffecten",
       "troubleHearingInGame": "Problemen met horen in de game?:",
       "unlink": "Ontkoppelen",
+      "upgradeCommunity": "Upgrade community",
       "voiceFxCommunity": "Community FX",
       "voiceFxEmpty": "Maak een lokaal stemeffect aan of importeer er een om lokaal luisteren in te schakelen.",
       "voiceFxLocal": "Lokale FX",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "Volume Wijzigen met Sirenes",
       "volumeHotkeyChange": "Volume Sneltoets Wijzigen",
       "wakeWord": "Wake-word (AI)",
+      "wakeWordDesc": "Wakewoord gebruikt om Dispatch AI te activeren.",
       "wakeWordListenSeconds": "Luisterseconden voor wekwoord",
+      "wakeWordListenSecondsTooltip": "Maximale tijd dat de AI naar het wakeword luistert bij het starten van een uitzending. Dit verlagen kan onbedoelde AI-activeringen verminderen.",
       "wakeWordRecordNoSpeech": "Geen spraak gedetecteerd. Controleer je microfoon en probeer het opnieuw.",
       "webHotkeyWarning": "Sneltoetsen werken alleen wanneer het browservenster is gefocust.\n{link} voor globale sneltoetsen",
       "webHotkeyWarningLink": "Download de desktop-app"
@@ -1057,6 +1266,7 @@
       "count": "Aantal",
       "deleteStack": "Verwijder stapel",
       "generate": "Genereer",
+      "infiniteRepeats": "Oneindige herhalingen",
       "inGameSpeaker": "In-Game Luidspreker",
       "inGameSpeakerGroup": "In-Game Luidsprekergroep",
       "loadStack": "Stack laden (enkele klik)",
@@ -1068,6 +1278,8 @@
       "recording": "Opname",
       "recordMic": "Neem microfoon op",
       "repeat": "Herhalen",
+      "repeatByDefault": "Standaard herhalen",
+      "repeatCountLabel": "Standaard herhalingsaantal",
       "savedTab": "Opgeslagen stapels",
       "saveStackDesc": "Geef je toonstack een naam",
       "saveStackTitle": "Stapel opslaan",
@@ -1079,6 +1291,8 @@
       "title": "Toonpaneel",
       "toneLabel": "Toonlabel",
       "tonesTab": "Tonen",
+      "toneWillRepeat": "Deze toon wordt {count} keer herhaald wanneer geselecteerd",
+      "toneWillRepeatInfinite": "Deze toon wordt oneindig herhaald wanneer geselecteerd",
       "voices": "Stemmen"
     },
     "xmitFreq": "XMIT {0} MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "Annuleren",
     "communityImage": "Communityafbeelding",
+    "communityImageDrop": "Klik of sleep een afbeelding hierheen om te uploaden",
     "linkSonoranCAD": "Sonoran CAD koppelen",
     "linkSonoranCADDispatchAI": "Sonoran CAD koppelen (Dispatch AI)",
     "serverID": "Server-ID",

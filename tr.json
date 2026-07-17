@@ -81,6 +81,7 @@
     "add": "Ekle",
     "billing": "Faturalandırma",
     "cancel": "İptal",
+    "clickToCopy": "Kopyalamak için tıklayın",
     "clipboard": "Panoya kopyalandı!",
     "communityIdField": "Topluluk Kimliği",
     "confirm": "Onayla",
@@ -117,6 +118,7 @@
     "select": "Seç",
     "signup": "Kayıt Ol",
     "startToday": "Bugün başlayın",
+    "unknownError": "Bilinmeyen hata oluştu",
     "unlink": "Bağlantıyı kaldır",
     "upload": "Yükle",
     "username": "Kullanıcı Adı"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "Giriş yapmak için tarayıcınızda {link} adresine gidin",
     "guestLogin": "Misafir Girişi",
     "guestLoginInstruction": "Misafir olarak giriş yap",
+    "loginWithAccount": "Hesap Girişi",
     "loginWithCode": "Kodla Giriş Yap",
+    "openLinkButton": "Bağlantı",
     "refresh": "Yenile",
     "unlink": "Bağlantıyı kaldır"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "Metin Rengi"
   },
+  "iframeAuth": {
+    "description": "Oauth girişleri gömülü bir çerçeve dışında tamamlanmalıdır.",
+    "stepOneDescription": "Giriş bağlantısını açmak için telefonunuzu veya tarayıcınızı kullanın.",
+    "stepOneTitle": "QR kodunu tarayın",
+    "stepTwoDescription": "Sonoran Radio'ya giriş yapın, ardından bu 4 haneli kodu girin.",
+    "stepTwoTitle": "Kodu girin",
+    "title": "Bağlantı Girişi",
+    "waiting": "Giriş onayı bekleniyor..."
+  },
   "importExport": {
     "download": "İndir",
     "export": "Dışa aktar",
@@ -253,6 +266,10 @@
     "tooltip": "JSON dosyası içe aktar"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "v2 API ile kullanılan resmi Sonoran SDK kitaplıkları için kurulum bağlantıları.",
+      "title": "API Kitaplıkları"
+    },
     "BackgroundAudio": {
       "desc": "Bir çağrıya mı yanıt veriyorsunuz? Sonoran Radio, en üst düzey sürükleyicilik için gerçek zamanlı sirenleri, silah seslerini ve daha fazlasını doğrudan mikrofon akışınıza enjekte eder.",
       "title": "Arka Plan Sesi"
@@ -273,10 +290,22 @@
       "desc": "Topluluğunuz için dijital ve analog tarzı ses efektlerini özelleştirin!",
       "title": "Özel Ses Efektleri"
     },
+    "Desktop_Overlay": {
+      "desc": "Masaüstü kaplaması, sürükleyici bir deneyim için radyonuzu Windows ve OSX'te herhangi bir oyunun üstünde görüntülemenizi sağlar.",
+      "title": "Masaüstü Kaplama"
+    },
     "Destructible_towers": {
       "desc1": "Oyundaki fiziksel kuleler, suçlular tarafından yok edilebilir; bu da çevresindeki radyoların kalitesini mahveder.",
       "desc2": "Üç farklı oyun içi model türüyle Sonoran Radio, sürükleyiciliği bir üst seviyeye taşıyor!",
       "title": "Yıkılabilir Kuleler"
+    },
+    "Discord": {
+      "desc": "Discord entegrasyonu Discord rollerini radyo izinleriyle eşitler, kullanıcı yönetimini kolaylaştırır.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI şimdiye kadar geliştirdiğimiz en güçlü entegrasyonumuzdur. Çağrılar oluşturmak, plaka sorgulamaları yapmak, durumunuzu güncellemek ve çok daha fazlası için radyo üzerinden canlı bir yapay zekâ dispeçeriyle konuşun!",
+      "title": "Çağrı Yapay Zeka"
     },
     "Dispatch_Panel": {
       "desc1": "Kullanıcıları kolayca görselleştirin, yönetin, tonlar çalın ve daha fazlası!",
@@ -287,11 +316,53 @@
       "desc": "Acil durum çağrıları yapın, hepsi oyun içinden!",
       "title": "Oyun İçi Acil Çağrılar"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio, ücretsiz sürümde başlamak için gereken her şeyi sunar. Daha büyük topluluklar için, bazı gelişmiş özellikler (örneğin tarayıcılar, AI dispatch, özel SFX yüklemeleri ve belirli entegrasyonlar) Plus veya Pro gibi ücretli abonelik katmanları gerektirir.",
+        "question": "Sonoran Radio ücretsiz mi?"
+      },
+      "guestAccess": {
+        "answer": "Evet! FiveM toplulukları, kullanıcıların Sonoran hesabı bağlamadan katılmasına izin vermek için ACE izinlerini kullanarak misafir erişimini etkinleştirebilir.",
+        "question": "Kullanıcılar hesap oluşturmadan bağlanabilir mi?"
+      },
+      "installTime": {
+        "answer": "Bir topluluk oluşturmak sadece birkaç saniye sürer! FiveM toplulukları önceden yapılandırılmış kaynağı dakikalar içinde kurabilir veya RocketNode tek tıkla kurulum seçeneğini kullanabilir.",
+        "question": "Sonoran Radio'yu kurmak ne kadar sürer?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio şunlarla entegrasyonları destekler:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM envanterleri\n-Telefon scriptleri\n-Araç ekranları\n-Big Daddy radyo animasyonları",
+        "question": "Başka hangi entegrasyonlar destekleniyor?"
+      },
+      "outsideFiveM": {
+        "answer": "Evet! Sonoran Radio, kullanıcıların ve sevk görevlilerinin herhangi bir oyun için bağlanmasını sağlayan bağımsız web, masaüstü ve mobil uygulamaları içerir!",
+        "question": "Sonoran Radio FiveM dışında çalışır mı?"
+      },
+      "title": "Sıkça Sorulan Sorular"
+    },
+    "fivem": {
+      "description": "Sonoran Radio'yu FiveM Entegrasyonu ile doğrudan GTA FiveM'e bağlayın. Entegrasyon aracılığıyla FiveM içinde erişilebilen tüm özel özellikleri görün.",
+      "eyebrow": "Doğrudan Entegrasyon",
+      "heading": "Entegrasyon"
+    },
+    "hero": {
+      "subtitle": "Gerçekçi radyo kanallarında sohbet edin, ses efektlerinizi özelleştirin ve gerçekten sürükleyici bir deneyim için oyun içi özelliklerle zahmetsizce bağlantı kurun.",
+      "title": "Daha iyi radyo iletişimi burada başlar"
+    },
+    "imageAlt": "{title} Görseli",
     "inGameToneBoard": {
       "desc": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanallar ve gruplar belirlemenizi, tonları tekrarlamanızı ve daha fazlasını sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",
       "title": "Tone Board'dan Oyun İçi Hoparlörlere"
     },
     "intro": "Sonoran Radio ile oyun içi iletişiminizi bir üst seviyeye taşıyın. Gerçekçi radyo kanallarında sohbet edin, ses efektlerinizi özelleştirin ve gerçekten  sürükleyici bir deneyim için oyun içi özelliklerle zahmetsizce bağlantı kurun.",
+    "meta": {
+      "audienceType": "Oyuncular ve Topluluk Yöneticileri",
+      "description": "FiveM, ER:LC, Arma 3 ve rol yapma toplulukları için gerçekçi radyo iletişim yazılımı.",
+      "keywords": "Sonoran Radio, oyun radyosu, FiveM radyosu, ER:LC radyosu, Arma 3 radyosu, roleplay iletişimi, dispatch yazılımı, masaüstü radyo kaplaması, ücretsiz FiveM radyosu, ücretsiz ER:LC radyosu",
+      "ogTitle": "Sonoran Radio - Oyun Radyo İletişimi",
+      "productName": "Sonoran Radyo",
+      "title": "Sonoran Radio - Oyun Radyo İletişimi",
+      "titleSuffix": "Sonoran Yazılım Sistemleri"
+    },
     "mobileCommandCenter": {
       "desc": "Sonorans mobil komuta merkezi, daha önce hiç olmadığı gibi komutayı elinize almanızı sağlar. Bu eşsiz hizmet aracı sonsuz olanaklar sunar!",
       "title": "Mobil Komuta Merkezi"
@@ -309,9 +380,17 @@
       "desc": "Trafik kontrolünde durduruldunuz mu? Bir memurun yakınında aktif bir telsiz olduğunda gerçek telsiz konuşmalarını duyacaksınız!",
       "title": "Yakındaki Radyo Konuşmalarını Duyun"
     },
+    "scannersAndJammers": {
+      "desc": "Oyun içi tarayıcılar, senin ve yakındaki diğerlerinin radyo trafiğini dinlemesini sağlar! Ya da yakındaki radyo sinyallerini bozmak için özel oyun içi öğeler yapılandır!",
+      "title": "Tarayıcılar ve Karıştırıcılar"
+    },
     "Scanners": {
       "desc": "Oyun içi tarayıcılar, senin ve yakındaki diğerlerinin radyo trafiğini dinlemesini sağlar!",
       "title": "Tarayıcılar"
+    },
+    "sections": {
+      "dispatchAdmin": "Çağrı Merkezi ve Yönetim Paneli",
+      "integrations": "Entegrasyonlar"
     },
     "Sonoran_CAD": {
       "desc": "Bu eklenti, Sonoran Radio müşterilerinin radyoyu Sonoran CAD ile bağlamasına olanak tanır. Birim durumunuzu, sevk çağrısı bilgilerini görüntüleyin, panik durumunu açıp kapatın ve daha fazlasını yapın!",
@@ -321,9 +400,14 @@
       "desc": "Sonoran CMS ile Sonoran Radio izinlerini otomatikleştirin!",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Radyo kanallarınızı, bas-konuşu, sesi ve daha fazlasını doğrudan Stream Deck'inizden kontrol edin.",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "Topluluğunuz için çağrı tonlarını yükleyin ve özelleştirin!",
       "desc2": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanallar ve gruplar belirlemenizi, tonları tekrarlamanızı ve daha fazlasını sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",
+      "panelTitle": "Ton Tahtası",
       "title": "Ton Tahtası"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "Alan adınıza sahip olmalısınız!",
       "placeholder": "radio.example.com",
+      "removeButton": "Özel Alan Adını Kaldır",
       "requiresPro": "Özel Bir Etki Alanı ayarlamak için Pro aboneliğiniz olmalı",
       "tryItOut": "Deneyin",
       "vanityCopied": "Özel URL panoya kopyalandı!",
@@ -446,6 +531,7 @@
       "customDomain": "Özel Alan Adı",
       "defaultSettings": "Varsayılan Ayarlar",
       "desktopFrames": "Masaüstü Çerçeveleri",
+      "dispatchAi": "Çağrı Yapay Zeka",
       "fivemIntegration": "FiveM Entegrasyonu",
       "info": "Bilgi",
       "patrolChannels": "Devriye Kanalları",
@@ -460,17 +546,89 @@
     "deleteMsg": "Bu yapılandırmayı silmek istediğinizden emin misiniz? Bu, geri döndürülemez veri kaybına neden olacaktır.",
     "deleteServer": "Topluluğu Sil",
     "deleteSuccess": "Sunucunuz başarıyla silindi",
+    "dispatchAi": {
+      "addServer": "Sunucu Ekle",
+      "addServerSubtitle": "Bu Dispatch AI yapılandırması için kullanıcıların bağlanacağı radyo sunucusuna bir ad verin.",
+      "autoAddingServer": "Bu topluluk için varsayılan bir sunucu oluşturuluyor...",
+      "betaNotice": "Dispatch AI herkese açık beta aşamasındadır. Bu özellik gelişmeye devam ederken hizmetler kesintili olabilir.",
+      "cadApiKeyHint": "CAD Yönetimi > Gelişmiş > Oyun İçi Entegrasyon > Web API'de bulunur.",
+      "cadApiKeyRequired": "Dispatch AI etkinleştirildiğinde CAD API anahtarı gereklidir",
+      "cadCommunityIdRequired": "Dispatch AI etkinleştirildiğinde CAD topluluk kimliği gereklidir",
+      "cadServerIdHint": "CAD Yönetimi > Özelleştirme > Sunucular bölümünde bulunur. Varsayılan CAD sunucu kimliği 1'dir.",
+      "cadServerIdRequired": "Dispatch AI etkinleştirildiğinde CAD sunucu kimliği gereklidir",
+      "defaultServerName": "Varsayılan Sunucu",
+      "disabledButton": "Çağrı Yapay Zeka Devre Dışı",
+      "dispatchAiEnabled": "Çağrı Yapay Zeka'yı Etkinleştir",
+      "enabledButton": "Çağrı Yapay Zeka Etkin",
+      "fieldRequired": "Bu alan zorunludur",
+      "linkCadSubtitle": "Bu radyo sunucusunun kontrol etmesi gereken CAD topluluğu için Sonoran CAD API bilgilerini girin.",
+      "linkCadTitle": "Sonoran CAD'yi Bağla",
+      "miscServer": "Sunucu {id}",
+      "pauseDisabledButton": "İnsan yönlendiricilerle yapay zekayı aktif tut",
+      "pauseEnabledButton": "İnsan yönlendiriciler aktifken yapay zekayı devre dışı bırak",
+      "pauseWhenDispatcherActive": "İnsan sevkiyat görevlisi aktifken devre dışı bırak",
+      "radioServerName": "Radyo Sunucu Adı",
+      "removeServer": "Sunucuyu Kaldır",
+      "requirements": {
+        "cadApi": "CAD topluluk kimliği, API anahtarı ve CAD sunucu kimliği",
+        "radioServer": "CAD ile bağlanacak bir radyo sunucusu, bu topluluğun bir tane olmaması durumunda otomatik olarak oluşturulur",
+        "title": "Başlamadan Önce"
+      },
+      "roomNotFound": "Sunucu bulunamadı",
+      "serverSelect": "Radyo Sunucu",
+      "steps": {
+        "cad": {
+          "body": "Sonoran CAD topluluk kimliğini ve API anahtarını CAD Admin > Advanced > In-Game Integration > Web API'den kopyalayın. CAD sunucu kimliğini CAD Admin > Customization > Servers'dan kopyalayın.",
+          "title": "Sonoran CAD API bilgilerini kopyala"
+        },
+        "link": {
+          "body": "Aşağıdaki radyo sunucusunu seçin ve Sonoran CAD bilgilerini girin.",
+          "title": "Sonoran CAD'yi radyoya bağla"
+        },
+        "prompts": {
+          "body": "Dispatch AI'nin yerel ifadeleri doğru CAD eylemine eşleştirebilmesi için topluluğunuzun telsizde konuşma tarzına uygun kısa örnek ifadeler ekleyin.",
+          "title": "İstem ifadelerini özelleştir"
+        }
+      },
+      "subtitle": "Sonoran CAD'yi bağla, Dispatch AI'yi etkinleştir ve topluluğunun radyo dilini ona öğret.",
+      "title": "Çağrı Yapay Zeka",
+      "troubleshooting": {
+        "body": "Her kullanıcı yakın tarihli Dispatch AI gönderimlerini inceleyebilir ve yapay zekanın yanlış duyduğu ifadeler için kelime geçersiz kılmaları ekleyebilir.",
+        "path": "Dispatch panelini açın, dişli simgesini seçin, ardından AI sekmesini açın.",
+        "title": "Sorun mu Yaşıyorsunuz?"
+      },
+      "usage": {
+        "monthlyUsage": "Aylık kullanım",
+        "resetNotice": "Dispatch AI kullanım limitleri her ayın başında sıfırlanır.",
+        "title": "Topluluk Kullanımı",
+        "upgrade": "Limitleri Yükselt"
+      }
+    },
     "dispatchTab": "Çağırma",
     "emergency911": {
+      "backspace": "Son rakamı sil",
       "callBtn": "911'i Ara",
+      "callingNumber": "{number} aranıyor",
       "connected": "Bağlandı — aramanız görevli merkezlere iletiliyor.",
       "connecting": "Bağlanıyor...",
+      "dialerLabel": "Acil Arama",
       "disconnectsDispatchHint": "Bir arama başlatmak başka bir sekmedeki etkin sevkiyat oturumunu bağlantısını keser.",
+      "dispatchers": "Çağırma Görevlileri",
       "dispatchersTitle": "Bu çağrıda görevli operatörler",
+      "emergencyNumber": "Acil numara",
       "endBtn": "Aramayı Sonlandır",
+      "enterEmergencyNumber": "Bu aramayı yapmak için {number} girin",
+      "keypad": "Tuş takımı",
+      "liveCall": "Canlı acil çağrı",
+      "microphoneInput": "Mikrofon girişi",
+      "microphoneLive": "Mikrofon açık",
+      "mute": "Sessize al",
+      "readyToCall": "Aramaya hazır",
       "selectRoom": "Sunucu",
       "subtitle": "Bu topluluktaki görevlilere 911 araması yapın.",
       "title": "Acil Çağrı",
+      "unmute": "Sesi aç",
+      "useEmergencyNumber": "{number} kullan",
       "waitingDispatcher": "Bir sevk görevlisinin yanıt vermesi bekleniyor..."
     },
     "emergency911Tab": "911 Çağrısı",
@@ -548,19 +706,26 @@
       "ban": "Yasakla",
       "banBtn": "Yasakla",
       "cannotModifyPermsOfMyself": "Kendi izinlerimi değiştiremem",
+      "copyPermissionGeneratorId": "İzin Kimliğini Kopyala",
       "displayName": "Ekran Adı",
       "editMemberPerms": "Üye İzinlerini Düzenle",
       "errAddInvalidAccount": "Sağlanan kullanıcı adı mevcut değil",
       "errAddUnknown": "Yönetici eklenirken bilinmeyen bir hata oluştu",
       "errRemoveUnknown": "Yönetici kaldırılırken bilinmeyen bir hata oluştu",
       "explainDisabled": "Yalnızca sunucu sahipleri yönetici ekleyebilir veya değiştirebilir",
+      "filterActive": "Aktif",
       "filterAll": "Tümü",
+      "filterBanned": "Yasaklandı",
       "filterPending": "Beklemede",
       "kickBtn": "At",
       "owner": "Sahip",
       "ownerHasAllPerms": "Topluluk sahibi tüm izinlere sahiptir",
       "paysSubscription": "Aboneliği Ödeyen",
       "pending": "Beklemede",
+      "permissionGeneratorBtn": "İzin Oluşturucu",
+      "permissionGeneratorId": "İzin Kimliği",
+      "permissionGeneratorSubtitle": "Harici kullanım için bir kullanıcı izin kimliği oluşturun.",
+      "permissionGeneratorTitle": "İzin Oluşturucu",
       "permissionsBtn": "İzinler",
       "privateChannels": "Özel Kanallar",
       "remove": "Kaldır",
@@ -585,6 +750,7 @@
       "keyUpSfx": "Tuş Yükseltme SFX",
       "overrideSuccessSfx": "Üst Konuşma Geçersiz Kılma Başarı SFX",
       "panicSfx": "Panik Butonu SFX",
+      "phoneDialSfx": "Telefon Arama Düğmesi Ses Efekti",
       "sfxGameBoatEngine": "Oyun İçi Tekne Motoru Ses Efekti",
       "sfxGameHelicopterRotors": "Oyun İçi Helikopter Rotorları SFX",
       "sfxGamePistol": "Oyun İçi Tabanca SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "Adı düzenlemek için tıklayın",
       "columns": {
         "actions": "Eylemler",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "Devre Dışı",
       "dispatchAiPause": "İnsan Sevkiyatı CAD'deyken devre dışı bırakın",
       "enabled": "Etkin",
+      "locality": {
+        "emergencyNumber": "Acil Numara",
+        "emergencyNumberHint": "Topluluğunuzun bulunduğu yerde kullanılan genel acil durum numarası.",
+        "emergencyNumberInvalid": "1 ila 10 basamaklı bir acil durum numarası girin.",
+        "subtitle": "Bu topluluk için konuma özgü terminolojiyi ve davranışı özelleştirin.",
+        "title": "Yerellik"
+      },
       "openAiApiKey": "Open AI API Anahtarı",
       "openAiApiKeyHint": "Dispatch AI özelliklerini etkinleştirmek için kendi OpenAI API anahtarınızı sağlayın."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "Bir kullanıcının aracının sireni aktifken radyo sesini bu yüzde kadar artırın.",
       "subtitle": "Topluluğunuz için varsayılan ayarları yapılandırın. Kullanıcılar kendi tercihlerini kişiselleştirebilir, ancak bunlar başlangıç varsayılanları olarak hizmet edecektir.",
       "title": "Varsayılan Ayarlar",
+      "toneVoiceEffects": "Ton Panosu Ses Efektleri",
+      "toneVoiceEffectsDesc": "Ton panosu tonları çalındığında seçilen radyo ses efekti zincirini uygula.",
       "tts": "Kanal Metin-Konuşma",
       "ttsDesc": "Kanalları değiştirirken kanal adının metin okuma sesini çal.",
       "volChange": "Ses Değişimi",
@@ -989,17 +1165,33 @@
     "selectServer": "Sunucu Seç",
     "setHotkeyFor": "{0} için kısayol tuşu ayarla",
     "settingsDialog": {
+      "addPhraseOverride": "İfade geçersiz kılma ekle",
       "advanced": "Gelişmiş",
       "agentGain": "AI Ses",
       "aiRepliesOnlyMe": "Yalnızca Bana Gelen Yapay Zeka Yanıtlarını Dinle",
+      "aiRepliesOnlyMeTooltip": "Yalnızca özellikle size yöneltilen Dispatch AI yanıtlarını oynatın.",
+      "aiTab": "Yapay Zeka",
       "aiWakeWordKeyword": "AI Uyanma Kelimesi",
       "aiWakeWordKeywordSelect": "Uyandırma Sözcüğü İfadesi",
       "audioTab": "Ses",
+      "automatic": "Otomatik",
       "automaticGainControlDisabled": "Otomatik kazanç kontrolü devre dışı",
       "automaticGainControlEnabled": "Otomatik kazanç kontrolü etkin",
       "changingOutputsUnsupported": "Cihazınız ses çıkışlarını değiştirmeyi desteklemiyor",
       "channelTts": "Kanal TTS",
+      "closeSettings": "Ayarları kapat",
+      "communityPhrases": "Topluluk Yapay Zekâ İfadeleri",
+      "communityPhrasesDesc": "AI’ya ne yapacağını söylemek için bu belirli ifadeleri kullanın. Burada listelenmeyen diğer ifadeler çalışmayacaktır.",
+      "communityPhrasesEmpty": "Bu oda için topluluk ifadeleri yapılandırılmamış.",
+      "communityPhrasesTooltip": "Bu ifadeler topluluk yöneticiniz tarafından yapılandırılır ve yalnızca topluluk özelleştirmesinde değiştirilebilir.",
+      "defaultAudioDevice": "Varsayılan",
       "defaultOutputWarning": "Varsayılan çıkış, Windows'un diğer uygulamaların sesini azaltmasına neden olabilir. Belirli bir aygıt seçmeyi deneyin.",
+      "disabled": "Devre Dışı",
+      "dispatchAiLanguage": "Çağrı Yapay Zeka — Dil",
+      "dispatchAiLanguageLoadError": "Seçilen Dispatch AI dil modeli yüklenemedi.",
+      "dispatchAiStatus": "Çağrı Yapay Zeka Durumu",
+      "dispatchAiStatusDesc": "Dispatch AI, topluluk yöneticileriniz tarafından yapılandırma menüsünde etkinleştirilir.",
+      "enabled": "Etkin",
       "enableTransmissionRecordings": "İletim kayıtlarını etkinleştir",
       "escapeMode": "Kaçış Modu",
       "escapeModeHide": "Radyoyu Gizle",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "Telsiz ESC ile kapanır, ancak iletim sırasında görünür",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Tüm Yapay Zeka Yanıtlarını Dinle",
+      "hearAllAiRepliesTooltip": "Radyoda duyabildiğin tüm Dispatch AI yanıtlarını, yalnızca sana yöneltilen yanıtları değil, oynat.",
       "hearScannedWhileXmit": "Gönderirken Taramaları Duy",
       "hotkeysTab": "Kısayollar",
+      "improveTranscript": "Geçersiz kurgulama bölümünde transkripti iyileştir.",
       "keydownSfx": "Tuş Alçaltma SFX",
       "keyupSfx": "Tuş Yükseltme SFX",
       "macosPermWarning": "Cihazınız ek izinler gerektirebilir: {link}",
       "macosPermWarningLink": "İzinlerin nasıl verileceğini öğrenin",
+      "monthlyUsage": "Aylık kullanım",
       "moveResize": "Taşı/Yeniden Boyutlandır",
       "myPttSfx": "Benim PTT Ses Efektim",
       "othersPttSfx": "Diğer Kişilerin PTT Ses Efekti",
+      "phraseOverrides": "İfade Geçersiz Kılmaları",
+      "phraseOverridesDesc": "Genellikle yanlış duyulan kelimeleri veya kısa ifadeleri transkriptiniz Dispatch AI'ye gönderilmeden önce değiştirin. Bunlar hesabınıza kaydedilir.",
+      "phraseOverridesEmpty": "Henüz ifade geçersiz kılma eklenmedi.",
+      "phraseOverridesFind": "Duyulan ifade",
+      "phraseOverridesReplace": "Şununla değiştir",
       "privacyTab": "Gizlilik",
       "pttOffDelay": "PTT Kapatma Gecikmesi",
+      "recentAiTranscriptLabel": "Transkript {number}",
+      "recentAiTranscripts": "Son Transkriptler",
+      "recentAiTranscriptsDesc": "Dispatch AI'nin sizden aldığı son birkaç istek. Bunları, uyandırma sözcüğü zamanlamasını ve dikteyi iyileştirmek için kullanın.",
+      "recentAiTranscriptsEmpty": "Henüz son Dispatch AI transkripti yok.",
       "recordWakeWord": "Uyanma Kelimesini Kaydet",
       "recordWakeWordListening": "Dinleniyor...",
       "resetPeerVolumes": "Eş Ses Seviyelerini Sıfırla",
       "resetSettings": "Ayarları Sıfırla",
+      "savingPhraseOverrides": "Kaydediliyor...",
       "selectRadioFrame": "Radyo Çerçevesi",
       "sfxTab": "Ses Efektleri",
       "sfxVolume": "SFX Ses",
       "title": "Ayarlar",
       "toggleBackgroundAudio": "Arka Plan Sesi",
+      "toneVoiceEffects": "Ton panosu ses efektleri",
       "troubleHearingInGame": "Oyunda duymakta zorlanıyor musunuz?:",
       "unlink": "Bağlantıyı kaldır",
+      "upgradeCommunity": "Topluluğu Yükselt",
       "voiceFxCommunity": "Topluluk FX",
       "voiceFxEmpty": "Yerel dinlemeyi etkinleştirmek için yerel bir ses efekti oluşturun veya içe aktarın.",
       "voiceFxLocal": "Yerel FX",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "Ses Değişimi ve Sirenler",
       "volumeHotkeyChange": "Ses Kısayolu Değişimi",
       "wakeWord": "Uyanma Kelimesi (AI)",
+      "wakeWordDesc": "Dispatch AI'yi etkinleştirmek için kullanılan uyanma sözcüğü.",
       "wakeWordListenSeconds": "Uyanma kelimesi dinleme saniyeleri",
+      "wakeWordListenSecondsTooltip": "İletim başlatılırken yapay zekanın uyanma sözcüğünü dinleyeceği maksimum süre. Bunu düşürmek, yanlışlıkla yapay zeka etkinleşmelerini azaltabilir.",
       "wakeWordRecordNoSpeech": "Konuşma algılanmadı. Mikrofonunuzu kontrol edin ve yeniden deneyin.",
       "webHotkeyWarning": "Kısayollar yalnızca tarayıcı penceresi odaktayken çalışır.\n{link} genel kısayollar için",
       "webHotkeyWarningLink": "Masaüstü uygulamasını indir"
@@ -1057,6 +1266,7 @@
       "count": "Sayım",
       "deleteStack": "Yığını Sil",
       "generate": "Oluştur",
+      "infiniteRepeats": "Sonsuz Tekrarlar",
       "inGameSpeaker": "Oyun İçi Hoparlör",
       "inGameSpeakerGroup": "Oyun İçi Hoparlör Grubu",
       "loadStack": "Yığını Yükle (Tek Tık)",
@@ -1068,6 +1278,8 @@
       "recording": "Kayıt",
       "recordMic": "Mikrofonu Kaydet",
       "repeat": "Tekrarla",
+      "repeatByDefault": "Varsayılan Olarak Tekrarla",
+      "repeatCountLabel": "Varsayılan Tekrar Sayısı",
       "savedTab": "Kaydedilmiş Yığınlar",
       "saveStackDesc": "Ton yığınınıza ad verin",
       "saveStackTitle": "Yığını Kaydet",
@@ -1079,6 +1291,8 @@
       "title": "Ton Tahtası",
       "toneLabel": "Ton Etiketi",
       "tonesTab": "Tonlar",
+      "toneWillRepeat": "Bu ton seçildiğinde {count} kez tekrarlanacak",
+      "toneWillRepeatInfinite": "Bu ton seçildiğinde süresiz olarak tekrarlanacak",
       "voices": "Sesler"
     },
     "xmitFreq": "XMIT {0}MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "İptal",
     "communityImage": "Topluluk Görseli",
+    "communityImageDrop": "Yüklemek için buraya bir resim tıklayın veya sürükleyin",
     "linkSonoranCAD": "Sonoran CAD'yi Bağla",
     "linkSonoranCADDispatchAI": "Sonoran CAD'yi Bağla (Dispatch AI)",
     "serverID": "Sunucu Kimliği",

@@ -81,6 +81,7 @@
     "add": "添加",
     "billing": "账单",
     "cancel": "取消",
+    "clickToCopy": "点击复制",
     "clipboard": "已复制到剪贴板！",
     "communityIdField": "社区 ID",
     "confirm": "确认",
@@ -117,6 +118,7 @@
     "select": "选择",
     "signup": "注册",
     "startToday": "今天开始",
+    "unknownError": "发生未知错误",
     "unlink": "取消链接",
     "upload": "上传",
     "username": "用户名"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "在浏览器中前往 {link} 登录",
     "guestLogin": "访客登录",
     "guestLoginInstruction": "以访客身份登录",
+    "loginWithAccount": "账户登录",
     "loginWithCode": "使用验证码登录",
+    "openLinkButton": "链接",
     "refresh": "刷新",
     "unlink": "取消链接"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "文本颜色"
   },
+  "iframeAuth": {
+    "description": "Oauth 登录必须在嵌入式框架外完成。",
+    "stepOneDescription": "使用手机或浏览器打开登录链接",
+    "stepOneTitle": "扫描二维码",
+    "stepTwoDescription": "登录 Sonoran Radio，然后输入此 4 位代码。",
+    "stepTwoTitle": "输入代码",
+    "title": "链接登录",
+    "waiting": "等待登录审批..."
+  },
   "importExport": {
     "download": "下载",
     "export": "导出",
@@ -253,6 +266,10 @@
     "tooltip": "导入 JSON 文件"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "用于 v2 API 的官方 Sonoran SDK 库安装链接。",
+      "title": "API 库"
+    },
     "BackgroundAudio": {
       "desc": "接听电话中？Sonoran Radio 将实时警笛声、枪声等直接注入你的麦克风音频流，带来极致沉浸感。",
       "title": "背景音频"
@@ -273,10 +290,22 @@
       "desc": "为您的社区自定义数字和模拟风格的语音效果！",
       "title": "自定义语音效果"
     },
+    "Desktop_Overlay": {
+      "desc": "桌面覆盖层可让你在 Windows 和 OSX 上的任何游戏之上查看你的收音机，获得沉浸式体验。",
+      "title": "桌面浮层"
+    },
     "Destructible_towers": {
       "desc1": "游戏中的物理塔楼可以被罪犯摧毁，这会严重破坏周围无线电的质量。",
       "desc2": "拥有三种不同的游戏内模型类型，Sonoran Radio 将沉浸感提升到新高度！",
       "title": "可破坏塔楼"
+    },
+    "Discord": {
+      "desc": "Discord 集成将 Discord 角色与电台权限同步，使用户管理更轻松。",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI 是我们有史以来构建的最强大集成。通过无线电与实时 AI 调度员对话，创建呼叫、运行车牌查询、更新您的状态，以及更多功能！",
+      "title": "调度 AI"
     },
     "Dispatch_Panel": {
       "desc1": "轻松可视化、管理用户、播放提示音等更多功能！",
@@ -287,11 +316,53 @@
       "desc": "在游戏内即可拨打紧急电话联系调度！",
       "title": "游戏内紧急呼叫"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio 免费版提供开始所需的一切。对于更大的社区，一些高级功能（例如扫描器、AI 调度、自定义 SFX 上传和某些集成）需要 Plus 或 Pro 等付费订阅等级。",
+        "question": "Sonoran Radio 是免费的吗？"
+      },
+      "guestAccess": {
+        "answer": "是！FiveM 社区可以使用 ACE 权限启用访客访问，让用户无需关联 Sonoran 账户即可加入。",
+        "question": "用户可以不创建账户直接连接吗？"
+      },
+      "installTime": {
+        "answer": "创建社区只需几秒钟！FiveM 社区可以在几分钟内安装预配置资源，或者使用 RocketNode 一键安装选项。",
+        "question": "安装 Sonoran Radio 需要多长时间？"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio 支持以下集成：\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM 库存\n-电话脚本\n-车辆显示\n-Big Daddy 电台动画",
+        "question": "还支持哪些其他集成？"
+      },
+      "outsideFiveM": {
+        "answer": "是的！Sonoran Radio 包含独立的网页、桌面和移动应用程序，允许用户和调度员连接到任何游戏！",
+        "question": "Sonoran Radio 在 FiveM 外也能用吗？"
+      },
+      "title": "常见问题"
+    },
+    "fivem": {
+      "description": "通过 FiveM 集成将 Sonoran Radio 直接连接到 GTA FiveM。查看通过该集成在 FiveM 中可用的所有特殊功能。",
+      "eyebrow": "直接集成",
+      "heading": "集成"
+    },
+    "hero": {
+      "subtitle": "在逼真的电台频道中聊天，自定义您的语音效果，并与游戏内功能无缝连接，获得真正沉浸式的体验。",
+      "title": "更好的无线电通信从这里开始"
+    },
+    "imageAlt": "{title} 图片",
     "inGameToneBoard": {
       "desc": "Sonoran Radios 调度用户界面允许您指定特定频道和小组，重复音调等！您甚至可以在游戏扬声器上播放音调！",
       "title": "音色板到游戏内扬声器"
     },
     "intro": "使用 Sonoran Radio 将您的游戏沟通提升到新水平。在逼真的电台频道中聊天，自定义您的语音效果，并与游戏内功能无缝连接，获得真正沉浸式的体验。",
+    "meta": {
+      "audienceType": "玩家和社区管理者",
+      "description": "适用于 FiveM、ER:LC、Arma 3 及各类角色扮演社区的逼真无线电通信软件。",
+      "keywords": "索诺兰电台，游戏电台，FiveM 电台，ER:LC 电台，Arma 3 电台，角色扮演通讯，调度软件，桌面电台覆盖层，免费 FiveM 电台，免费 ER:LC 电台",
+      "ogTitle": "索诺兰电台 - 游戏无线电通信",
+      "productName": "索诺兰广播",
+      "title": "索诺兰电台 - 游戏无线电通信",
+      "titleSuffix": "索诺兰软件系统"
+    },
     "mobileCommandCenter": {
       "desc": "Sonorans 移动指挥中心让您以前所未有的方式掌控全局。这款独一无二的多功能车辆带来无限可能！",
       "title": "移动指挥中心"
@@ -309,9 +380,17 @@
       "desc": "被交通拦停了？当警官附近有正在使用的对讲机时，你会听到真实的电台通话！",
       "title": "聆听附近的无线电闲谈"
     },
+    "scannersAndJammers": {
+      "desc": "游戏内扫描器让你和附近的其他人可以监听无线电通信！或者配置自定义游戏内物品来干扰附近的无线电信号！",
+      "title": "扫描器和干扰器"
+    },
     "Scanners": {
       "desc": "游戏内扫描器让你和附近的其他人可以监听无线电通信！",
       "title": "扫描器"
+    },
+    "sections": {
+      "dispatchAdmin": "调度和管理面板",
+      "integrations": "集成"
     },
     "Sonoran_CAD": {
       "desc": "此插件允许 Sonoran Radio 客户将无线电与 Sonoran CAD 连接。查看你的单位状态、调度呼叫信息、切换 panic，以及更多功能！",
@@ -321,9 +400,14 @@
       "desc": "使用 Sonoran CMS 自动化 Sonoran Radio 权限！",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "直接从你的 Stream Deck 控制无线电频道、按键通话、音量等功能。",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "上传并为您的社区定制广播音调！",
       "desc2": "Sonoran Radios 调度用户界面允许您指定特定频道和小组，重复音调等！您甚至可以在游戏扬声器上播放音调！",
+      "panelTitle": "音调板",
       "title": "音调板"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "您必须拥有您的域名！",
       "placeholder": "radio.example.com",
+      "removeButton": "移除自定义域",
       "requiresPro": "您必须拥有 Pro 订阅才能设置自定义域名",
       "tryItOut": "试试看",
       "vanityCopied": "已将虚拟网址复制到剪贴板！",
@@ -446,6 +531,7 @@
       "customDomain": "自定义域",
       "defaultSettings": "默认设置",
       "desktopFrames": "桌面边框",
+      "dispatchAi": "调度 AI",
       "fivemIntegration": "FiveM 集成",
       "info": "信息",
       "patrolChannels": "巡逻频道",
@@ -460,17 +546,89 @@
     "deleteMsg": "您确定要删除此配置吗？这将导致不可逆的数据丢失。",
     "deleteServer": "删除社区",
     "deleteSuccess": "服务器已成功删除",
+    "dispatchAi": {
+      "addServer": "添加服务器",
+      "addServerSubtitle": "为此 Dispatch AI 配置命名用户将连接的广播服务器。",
+      "autoAddingServer": "正在为此社区创建默认服务器...",
+      "betaNotice": "Dispatch AI 处于公测阶段。随着此功能持续改进，服务可能会间歇性中断。",
+      "cadApiKeyHint": "在 CAD Admin > Advanced > In-Game Integration > Web API 中找到。",
+      "cadApiKeyRequired": "启用 Dispatch AI 时需要 CAD API 密钥",
+      "cadCommunityIdRequired": "启用 Dispatch AI 时需要 CAD 社区 ID",
+      "cadServerIdHint": "在 CAD 管理 > 自定义 > 服务器 中找到。默认 CAD 服务器 ID 为 1。",
+      "cadServerIdRequired": "启用 Dispatch AI 时需要 CAD 服务器 ID",
+      "defaultServerName": "默认服务器",
+      "disabledButton": "调度 AI 已禁用",
+      "dispatchAiEnabled": "启用 Dispatch AI",
+      "enabledButton": "调度 AI 已启用",
+      "fieldRequired": "此字段为必填项",
+      "linkCadSubtitle": "输入该 radio 服务器应控制的 CAD 社区的 Sonoran CAD API 信息。",
+      "linkCadTitle": "连接 Sonoran CAD",
+      "miscServer": "服务器 {id}",
+      "pauseDisabledButton": "人工调度员在线时保持 AI 启用",
+      "pauseEnabledButton": "人工调度员在线时禁用 AI",
+      "pauseWhenDispatcherActive": "人工调度员在线时禁用",
+      "radioServerName": "电台服务器名称",
+      "removeServer": "移除服务器",
+      "requirements": {
+        "cadApi": "CAD 社区 ID、API 密钥和 CAD 服务器 ID",
+        "radioServer": "一个用于与 CAD 连接的广播服务器，如果此社区没有，则会自动创建",
+        "title": "开始前"
+      },
+      "roomNotFound": "未找到服务器",
+      "serverSelect": "电台服务器",
+      "steps": {
+        "cad": {
+          "body": "从 CAD Admin > Advanced > In-Game Integration > Web API 复制 Sonoran CAD 社区 ID 和 API key。从 CAD Admin > Customization > Servers 复制 CAD server ID。",
+          "title": "复制 Sonoran CAD API 信息"
+        },
+        "link": {
+          "body": "选择下面的 radio 服务器并输入 Sonoran CAD 信息。",
+          "title": "将 Sonoran CAD 连接到 radio"
+        },
+        "prompts": {
+          "body": "添加简短示例短语，展示你的社区在无线电中的说话方式，以便 Dispatch AI 将本地用语映射到正确的 CAD 操作。",
+          "title": "自定义提示短语"
+        }
+      },
+      "subtitle": "连接 Sonoran CAD，启用 Dispatch AI，并教会它你社区的无线电术语。",
+      "title": "调度 AI",
+      "troubleshooting": {
+        "body": "每位用户都可以查看其最近的 Dispatch AI 传输，并为 AI 听错的短语添加词语覆盖。",
+        "path": "打开 调度 面板，选择 齿轮 图标，然后 打开 AI 选项卡。",
+        "title": "有问题吗？"
+      },
+      "usage": {
+        "monthlyUsage": "每月用量",
+        "resetNotice": "Dispatch AI 使用限制每月初重置。",
+        "title": "社区用量",
+        "upgrade": "升级限制"
+      }
+    },
     "dispatchTab": "调度",
     "emergency911": {
+      "backspace": "删除最后一位数字",
       "callBtn": "拨打 911",
+      "callingNumber": "正在呼叫 {number}",
       "connected": "已连接—您的通话正在转接至调度员。",
       "connecting": "正在连接...",
+      "dialerLabel": "紧急拨号器",
       "disconnectsDispatchHint": "开始通话将断开其他标签页中的任何活动调度会话。",
+      "dispatchers": "调度员",
       "dispatchersTitle": "本通电话的调度员",
+      "emergencyNumber": "紧急号码",
       "endBtn": "结束通话",
+      "enterEmergencyNumber": "输入 {number} 以拨打此电话",
+      "keypad": "键盘",
+      "liveCall": "紧急呼叫直播",
+      "microphoneInput": "麦克风 输入",
+      "microphoneLive": "麦克风 实时",
+      "mute": "静音",
+      "readyToCall": "准备拨打",
       "selectRoom": "服务器",
       "subtitle": "向这个社区的调度员拨打 911 电话。",
       "title": "紧急呼叫",
+      "unmute": "取消静音",
+      "useEmergencyNumber": "使用 {number}",
       "waitingDispatcher": "等待调度员接听..."
     },
     "emergency911Tab": "911 呼叫",
@@ -548,19 +706,26 @@
       "ban": "封禁",
       "banBtn": "封禁",
       "cannotModifyPermsOfMyself": "无法修改我自己的权限",
+      "copyPermissionGeneratorId": "复制权限 ID",
       "displayName": "显示名称",
       "editMemberPerms": "编辑成员权限",
       "errAddInvalidAccount": "提供的用户名不存在",
       "errAddUnknown": "添加管理员时发生未知错误",
       "errRemoveUnknown": "移除管理员时发生未知错误",
       "explainDisabled": "只有服务器所有者可以添加或修改管理员",
+      "filterActive": "活跃",
       "filterAll": "全部",
+      "filterBanned": "已封禁",
       "filterPending": "待处理",
       "kickBtn": "踢出",
       "owner": "所有者",
       "ownerHasAllPerms": "社区所有者拥有所有权限",
       "paysSubscription": "支付订阅",
       "pending": "待处理",
+      "permissionGeneratorBtn": "权限生成器",
+      "permissionGeneratorId": "权限 ID",
+      "permissionGeneratorSubtitle": "生成用于外部使用的用户权限 ID。",
+      "permissionGeneratorTitle": "权限生成器",
       "permissionsBtn": "权限",
       "privateChannels": "私人频道",
       "remove": "移除",
@@ -585,6 +750,7 @@
       "keyUpSfx": "上键 SFX",
       "overrideSuccessSfx": "话筒覆盖成功音效",
       "panicSfx": "紧急按钮音效",
+      "phoneDialSfx": "电话拨号按钮音效",
       "sfxGameBoatEngine": "游戏内船引擎音效",
       "sfxGameHelicopterRotors": "游戏内直升机旋翼音效",
       "sfxGamePistol": "游戏内手枪 SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "点击以编辑名称",
       "columns": {
         "actions": "操作",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "已禁用",
       "dispatchAiPause": "当人工派发处于 CAD 时禁用",
       "enabled": "已启用",
+      "locality": {
+        "emergencyNumber": "紧急号码",
+        "emergencyNumberHint": "您所在社区所在地使用的公共紧急电话号码。",
+        "emergencyNumberInvalid": "输入 1 到 10 位数字的紧急号码。",
+        "subtitle": "为这个社区自定义地点相关术语和行为。",
+        "title": "本地性"
+      },
       "openAiApiKey": "Open AI API 密钥",
       "openAiApiKeyHint": "提供自带的 OpenAI API 密钥以启用 Dispatch AI 功能。"
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "当车辆警报器处于激活状态时，按此百分比提高用户的对讲机音量。",
       "subtitle": "配置你社区的默认设置。用户可以自定义自己的偏好，但这些将作为起始默认值。",
       "title": "默认设置",
+      "toneVoiceEffects": "音色板语音效果",
+      "toneVoiceEffectsDesc": "在播放音调板音调时应用所选的无线电语音效果链。",
       "tts": "频道文本到语音",
       "ttsDesc": "切换频道时播放频道名称的文本转语音语音。",
       "volChange": "音量更改",
@@ -989,17 +1165,33 @@
     "selectServer": "选择服务器",
     "setHotkeyFor": "为 {0} 设置快捷键",
     "settingsDialog": {
+      "addPhraseOverride": "添加短语覆盖",
       "advanced": "高级",
       "agentGain": "AI 音量",
       "aiRepliesOnlyMe": "仅听我收到的 AI 回复",
+      "aiRepliesOnlyMeTooltip": "仅播放专门发给你的 Dispatch AI 回复。",
+      "aiTab": "AI",
       "aiWakeWordKeyword": "AI 唤醒词",
       "aiWakeWordKeywordSelect": "唤醒词短语",
       "audioTab": "音频",
+      "automatic": "自动",
       "automaticGainControlDisabled": "自动增益控制已禁用",
       "automaticGainControlEnabled": "自动增益控制已启用",
       "changingOutputsUnsupported": "你的设备不支持更改音频输出",
       "channelTts": "频道 TTS",
+      "closeSettings": "关闭设置",
+      "communityPhrases": "社区 AI 短语",
+      "communityPhrasesDesc": "使用这些特定短语告诉 AI 要做什么。这里未列出的其他短语将不起作用。",
+      "communityPhrasesEmpty": "此房间未配置社区短语。",
+      "communityPhrasesTooltip": "这些短语由你的社区管理员配置，只能在社区自定义中更改。",
+      "defaultAudioDevice": "默认",
       "defaultOutputWarning": "默认输出可能会导致 Windows 降低其他应用的音量。请尝试选择特定设备。",
+      "disabled": "已禁用",
+      "dispatchAiLanguage": "调度 AI — 语言",
+      "dispatchAiLanguageLoadError": "无法加载所选的 Dispatch AI 语言模型。",
+      "dispatchAiStatus": "调度 AI 状态",
+      "dispatchAiStatusDesc": "调度 AI 由你的社区管理员在配置菜单中启用。",
+      "enabled": "已启用",
       "enableTransmissionRecordings": "启用传输录音",
       "escapeMode": "退出模式",
       "escapeModeHide": "隐藏收音机",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "无线电在 ESC 时关闭，但在发射时可见",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "听取所有 AI 回复",
+      "hearAllAiRepliesTooltip": "播放你在电台上能听到的所有 Dispatch AI 回复，而不只是发给你的回复。",
       "hearScannedWhileXmit": "在发射时听扫描频道",
       "hotkeysTab": "快捷键",
+      "improveTranscript": "在覆盖部分中改进转录词语。",
       "keydownSfx": "按键 SFX",
       "keyupSfx": "上键 SFX",
       "macosPermWarning": "您的设备可能需要额外的权限：{link}",
       "macosPermWarningLink": "了解如何授予权限",
+      "monthlyUsage": "每月用量",
       "moveResize": "移动/调整大小",
       "myPttSfx": "我的 PTT SFX",
       "othersPttSfx": "其他人的 PTT SFX",
+      "phraseOverrides": "短语覆盖",
+      "phraseOverridesDesc": "在您的转录发送至 Dispatch AI 之前，替换常被误听的词语或短语。这些内容会保存到您的账户。",
+      "phraseOverridesEmpty": "尚未添加短语覆盖。",
+      "phraseOverridesFind": "听到的短语",
+      "phraseOverridesReplace": "替换为",
       "privacyTab": "隐私",
       "pttOffDelay": "PTT关闭延迟",
+      "recentAiTranscriptLabel": "转录稿 {number}",
+      "recentAiTranscripts": "最近的转录",
+      "recentAiTranscriptsDesc": "Dispatch AI 从您收到的最近几次请求。使用这些来改进唤醒词时机和听写。",
+      "recentAiTranscriptsEmpty": "暂无最近的 Dispatch AI 转录。",
       "recordWakeWord": "录制唤醒词",
       "recordWakeWordListening": "正在聆听...",
       "resetPeerVolumes": "重置对等音量",
       "resetSettings": "重置设置",
+      "savingPhraseOverrides": "正在保存...",
       "selectRadioFrame": "电台框架",
       "sfxTab": "音效",
       "sfxVolume": "SFX 音量",
       "title": "设置",
       "toggleBackgroundAudio": "背景音频",
+      "toneVoiceEffects": "音色板语音效果",
       "troubleHearingInGame": "在游戏中听不清吗？：",
       "unlink": "取消链接",
+      "upgradeCommunity": "升级社区",
       "voiceFxCommunity": "社区 FX",
       "voiceFxEmpty": "创建或导入本地语音效果以启用本地收听。",
       "voiceFxLocal": "本地 FX",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "音量更改带警报",
       "volumeHotkeyChange": "音量热键更改",
       "wakeWord": "唤醒词（AI）",
+      "wakeWordDesc": "用于激活 Dispatch AI 的唤醒词。",
       "wakeWordListenSeconds": "唤醒词监听秒数",
+      "wakeWordListenSecondsTooltip": "开始传输时 AI 监听唤醒词的最长时间。降低此值可减少 AI 的误触发。",
       "wakeWordRecordNoSpeech": "未检测到语音。请检查你的麦克风并重试。",
       "webHotkeyWarning": "快捷键仅在浏览器窗口获得焦点时生效。\n{link} 用于全局快捷键",
       "webHotkeyWarningLink": "下载桌面应用"
@@ -1057,6 +1266,7 @@
       "count": "计数",
       "deleteStack": "删除堆栈",
       "generate": "生成",
+      "infiniteRepeats": "无限重复",
       "inGameSpeaker": "游戏内扬声器",
       "inGameSpeakerGroup": "游戏内扬声器组",
       "loadStack": "加载堆栈（单击）",
@@ -1068,6 +1278,8 @@
       "recording": "录音",
       "recordMic": "录制 麦克风",
       "repeat": "重复",
+      "repeatByDefault": "默认重复",
+      "repeatCountLabel": "默认重复次数",
       "savedTab": "已保存的堆叠",
       "saveStackDesc": "为你的音色堆栈命名",
       "saveStackTitle": "保存叠层",
@@ -1079,6 +1291,8 @@
       "title": "音调板",
       "toneLabel": "音调标签",
       "tonesTab": "铃声",
+      "toneWillRepeat": "此音调在选中时将重复 {count} 次",
+      "toneWillRepeatInfinite": "此音调在选中时将无限重复",
       "voices": "声音"
     },
     "xmitFreq": "XMIT {0} MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "取消",
     "communityImage": "社区图片",
+    "communityImageDrop": "点击或拖拽图片到此处上传",
     "linkSonoranCAD": "连接 Sonoran CAD",
     "linkSonoranCADDispatchAI": "连接 Sonoran CAD（Dispatch AI）",
     "serverID": "服务器 ID",

@@ -81,6 +81,7 @@
     "add": "Lisää",
     "billing": "Laskutus",
     "cancel": "Peruuta",
+    "clickToCopy": "Klikkaa kopioidaksesi",
     "clipboard": "Kopioitu leikepöydälle!",
     "communityIdField": "Yhteisön tunnus",
     "confirm": "Vahvista",
@@ -117,6 +118,7 @@
     "select": "Valitse",
     "signup": "Rekisteröityminen",
     "startToday": "Aloita tänään",
+    "unknownError": "Tuntematon virhe tapahtui",
     "unlink": "Poista linkitys",
     "upload": "Lähetä",
     "username": "Käyttäjänimi"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "Siirry selaimessasi osoitteeseen {link} kirjautuaksesi",
     "guestLogin": "Vieras­kirjautuminen",
     "guestLoginInstruction": "Kirjaudu vieraana",
+    "loginWithAccount": "Tilille kirjautuminen",
     "loginWithCode": "Kirjaudu koodilla",
+    "openLinkButton": "Linkki",
     "refresh": "Päivitä",
     "unlink": "Poista linkitys"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "Tekstin väri"
   },
+  "iframeAuth": {
+    "description": "Oauth-kirjautumiset on suoritettava upotetun kehyksen ulkopuolella.",
+    "stepOneDescription": "Käytä puhelintasi tai selaintasi avataksesi kirjautumislinkin.",
+    "stepOneTitle": "Skannaa QR-koodi",
+    "stepTwoDescription": "Kirjaudu Sonoran Radioon, sitten syötä tämä 4-numeroinen koodi.",
+    "stepTwoTitle": "Anna koodi",
+    "title": "Linkin kirjautuminen",
+    "waiting": "Odotetaan kirjautumisen hyväksyntää..."
+  },
   "importExport": {
     "download": "Lataa",
     "export": "Vie",
@@ -253,6 +266,10 @@
     "tooltip": "Tuo JSON-tiedosto"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "Asennuslinkit virallisille Sonoran SDK -kirjastoille, joita käytetään v2 API:n kanssa.",
+      "title": "API-kirjastot"
+    },
     "BackgroundAudio": {
       "desc": "Vastaatko puheluun? Sonoran Radio tuo reaaliaikaiset sireenit, laukaukset ja многое suoraan mikrofoniisi äärimmäistä uppoutumista varten.",
       "title": "Taustaääni"
@@ -273,10 +290,22 @@
       "desc": "Mukauta digitaalisen ja analogisen tyylin äänitehosteet yhteisöllesi!",
       "title": "Mukautetut äänitehosteet"
     },
+    "Desktop_Overlay": {
+      "desc": "Työpöytäpeite mahdollistaa radion katselun minkä tahansa pelin päällä Windowsissa ja OSX:ssä elämyksellistä käyttökokemusta varten.",
+      "title": "Työpöytäkysely"
+    },
     "Destructible_towers": {
       "desc1": "Pelissä olevat fyysiset tornit voidaan tuhota rikollisten toimesta, mikä tuhoaa niitä ympäröivien radioiden laadun.",
       "desc2": "Kolmella erilaisella pelin sisäisellä mallityypillä Sonoran Radio vie eläytymisen uudelle tasolle!",
       "title": "Tuhoutuvat tornit"
+    },
+    "Discord": {
+      "desc": "Discord-integraatio synkronoi Discord-roolit radio-oikeuksien kanssa, mikä tekee käyttäjien hallinnasta helppoa.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI on kaikkien aikojen tehokkain integraatiomme. Keskustele reaaliaikaisen AI-dispatcherin kanssa radion välityksellä luodaksesi hälytyksiä, tehdäksesi rekisterikilpitietojen hakuja, päivittääksesi tilasi ja paljon muuta!",
+      "title": "Lähetys-AI"
     },
     "Dispatch_Panel": {
       "desc1": "Näe helposti, hallitse käyttäjiä, toista sävyjä ja paljon muuta!",
@@ -287,11 +316,53 @@
       "desc": "Soita hätäpuhelut hälytyskeskukseen, kaikki pelin sisällä!",
       "title": "Pelinsisäiset hätäpuhelut"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio tarjoaa kaiken tarvittavan aloittamiseen ilmaisversiossa. Suuremmille yhteisöille jotkin edistyneet ominaisuudet (kuten skannerit, AI-dispatch, mukautetut SFX-lataukset ja tietyt integraatiot) edellyttävät maksullisia tilaustasoja, kuten Plus tai Pro.",
+        "question": "Onko Sonoran Radio ilmainen?"
+      },
+      "guestAccess": {
+        "answer": "Kyllä! FiveM-yhteisöt voivat ottaa vieras­käytön käyttöön ACE-oikeuksilla, jolloin käyttäjät voivat liittyä ilman Sonoran-tilin yhdistämistä.",
+        "question": "Voivatko käyttäjät yhdistää ilman tilien luomista?"
+      },
+      "installTime": {
+        "answer": "Yhteisön luominen vie vain muutaman sekunnin! FiveM-yhteisöt voivat asentaa valmiiksi määritetyn resurssin muutamassa minuutissa tai käyttää RocketNode-yhden napsautuksen asennusvaihtoehtoa.",
+        "question": "Kuinka kauan Sonoran Radio asentaminen kestää?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio tukee integraatioita seuraaviin:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-inventaariot\n-Puhelinskriptit\n-Ajoneuvon näytöt\n-Big Daddy -radiot animaatiot",
+        "question": "Mitä muita integraatioita tuetaan?"
+      },
+      "outsideFiveM": {
+        "answer": "Kyllä! Sonoran Radio sisältää erilliset web-, työpöytä- ja mobiilisovellukset, joiden avulla käyttäjät ja päivystäjät voivat yhdistää minkä tahansa pelin kanssa!",
+        "question": "Toimiiko Sonoran Radio FiveM:n ulkopuolella?"
+      },
+      "title": "Usein kysytyt kysymykset"
+    },
+    "fivem": {
+      "description": "Yhdistä Sonoran Radio suoraan GTA FiveM:ään FiveM-integraatiolla. Katso kaikki erityisominaisuudet, joihin pääsee käsiksi FiveM:ssä integraation kautta.",
+      "eyebrow": "Suora integraatio",
+      "heading": "Integraatio"
+    },
+    "hero": {
+      "subtitle": "Keskustele realistisissa radiokanavissa, muokkaa ääniefektejäsi ja yhdistä vaivattomasti pelin sisäisiin ominaisuuksiin aidosti mukaansatempaavaa kokemusta varten.",
+      "title": "Parempi radioviestintä alkaa tästä"
+    },
+    "imageAlt": "{title} Kuva",
     "inGameToneBoard": {
       "desc": "Sonoran Radion lähetyksen UI antaa sinun määritellä tietyt kanavat ja ryhmät, toistaa sävelmiä ja paljon muuta! Voit jopa soittaa sävelmiä pelin sisäisillä kaiuttimilla!",
       "title": "Äänitaulu pelin sisäisiin kaiuttimiin"
     },
     "intro": "Vie peliviestintäsi uudelle tasolle Sonoran Radio -palvelulla. Keskustele realistisissa radiokanavissa, muokkaa ääniefektejäsi ja yhdistä vaivattomasti pelin sisäisiin ominaisuuksiin aidosti mukaansatempaavaa kokemusta varten.",
+    "meta": {
+      "audienceType": "Pelaajat ja yhteisömanagerit",
+      "description": "Realistinen radioviestintäohjelmisto FiveM:lle, ER:LC:lle, Arma 3:lle ja roolipelayhteisöille.",
+      "keywords": "Sonoran Radio, peliradio, FiveM-radio, ER:LC-radio, Arma 3 -radio, roolipeliviestintä, hälytysohjelmisto, työpöydän radiooverlay, ilmainen FiveM-radio, ilmainen ER:LC-radio",
+      "ogTitle": "Sonoran Radio - Pelaamisen radioviestintä",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Pelaamisen radioviestintä",
+      "titleSuffix": "Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Sonoranin mobiili komentokeskus antaa sinulle mahdollisuuden ottaa komento haltuun kuin koskaan ennen. Tämä ainutlaatuinen hyötyajoneuvo tuo loputtomia mahdollisuuksia!",
       "title": "Mobiili komentokeskus"
@@ -309,9 +380,17 @@
       "desc": "Pysäytetty liikennevalvonnassa? Kuulet oikean radioliikenteen, kun poliisilla on aktiivinen radio lähellä!",
       "title": "Kuule lähellä oleva radiokeskustelu"
     },
+    "scannersAndJammers": {
+      "desc": "Pelinsisäiset skannerit antavat sinun ja muiden lähellä olevien kuunnella radioliikennettä! Tai määritä mukautettuja pelinsisäisiä esineitä häiritsemään lähellä olevia radiosignaaleja!",
+      "title": "Skannerit ja häirintälaitteet"
+    },
     "Scanners": {
       "desc": "Pelinsisäiset skannerit antavat sinun ja muiden lähellä olevien kuunnella radioliikennettä!",
       "title": "Skannerit"
+    },
+    "sections": {
+      "dispatchAdmin": "Lähetys- ja hallintapaneeli",
+      "integrations": "Integraatiot"
     },
     "Sonoran_CAD": {
       "desc": "Tämä lisäosa mahdollistaa Sonoran Radio -asiakkaiden yhdistää radion Sonoran CADiin. Näytä yksikkösi tila, hälytyksen kutsutiedot, vaihda hälytys päälle tai pois, ja paljon muuta!",
@@ -321,9 +400,14 @@
       "desc": "Automatisoi Sonoran Radio -oikeudet Sonoran CMS:llä!",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Hallitse radiokanaviasi, push-to-talkia, äänenvoimakkuutta ja muuta suoraan Stream Deckistäsi.",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "Lataa ja mukauta yhteisösi lähetyssävelet!",
       "desc2": "Sonoran Radion lähetyksen UI antaa sinun määritellä tietyt kanavat ja ryhmät, toistaa sävelmiä ja paljon muuta! Voit jopa soittaa sävelmiä pelin sisäisillä kaiuttimilla!",
+      "panelTitle": "Säveltaulu",
       "title": "Säveltaulu"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "Sinun on omistettava verkkotunnuksesi!",
       "placeholder": "radio.example.com",
+      "removeButton": "Poista mukautettu verkkotunnus",
       "requiresPro": "Sinulla on oltava Pro-tilaus, jotta voit määrittää mukautetun verkkotunnuksen",
       "tryItOut": "Kokeile sitä",
       "vanityCopied": "Vanity-URL kopioitu leikepöydälle!",
@@ -446,6 +531,7 @@
       "customDomain": "Mukautettu verkkotunnus",
       "defaultSettings": "Oletusasetukset",
       "desktopFrames": "Työpöydän kehykset",
+      "dispatchAi": "Lähetys-AI",
       "fivemIntegration": "FiveM-integraatio",
       "info": "Tiedot",
       "patrolChannels": "Partiokanavat",
@@ -460,17 +546,89 @@
     "deleteMsg": "Haluatko varmasti poistaa tämän määrityksen? Tämä johtaa peruuttamattomaan tietojen menetykseen.",
     "deleteServer": "Poista Yhteisö",
     "deleteSuccess": "Palvelimesi poistettiin onnistuneesti",
+    "dispatchAi": {
+      "addServer": "Lisää Palvelin",
+      "addServerSubtitle": "Nimeä radioserveri, johon käyttäjät yhdistävät tätä Dispatch AI -määritystä varten.",
+      "autoAddingServer": "Luodaan oletuspalvelinta tälle yhteisölle...",
+      "betaNotice": "Dispatch AI on julkisessa betassa. Palvelut voivat olla ajoittain poikki, kun tätä ominaisuutta kehitetään edelleen.",
+      "cadApiKeyHint": "Löytyy kohdasta CAD Admin > Advanced > In-Game Integration > Web API.",
+      "cadApiKeyRequired": "CAD API -avain vaaditaan, kun Dispatch AI on käytössä",
+      "cadCommunityIdRequired": "CAD-yhteisön tunnus vaaditaan, kun Dispatch AI on käytössä",
+      "cadServerIdHint": "Löytyy CAD Admin > Customization > Servers. CAD-palvelimen oletustunnus on 1.",
+      "cadServerIdRequired": "CAD-palvelimen tunnus vaaditaan, kun Dispatch AI on käytössä",
+      "defaultServerName": "Oletuspalvelin",
+      "disabledButton": "Lähetys-AI poissa käytöstä",
+      "dispatchAiEnabled": "Ota Lähetys-AI käyttöön",
+      "enabledButton": "Lähetys-AI käytössä",
+      "fieldRequired": "Tämä kenttä on pakollinen",
+      "linkCadSubtitle": "Syötä Sonoran CAD -API-tiedot CAD-yhteisölle, jota tämän radio-palvelimen pitäisi hallita.",
+      "linkCadTitle": "Yhdistä Sonoran CAD",
+      "miscServer": "Palvelin {id}",
+      "pauseDisabledButton": "Pidä AI aktiivisena ihmispäivystäjien kanssa",
+      "pauseEnabledButton": "Poista AI käytöstä, kun ihmispäivystäjät ovat aktiivisia",
+      "pauseWhenDispatcherActive": "Poista käytöstä, kun ihmispäivystäjä on aktiivinen",
+      "radioServerName": "Radion palvelimen nimi",
+      "removeServer": "Poista palvelin",
+      "requirements": {
+        "cadApi": "CAD-yhteisötunnus, API-avain ja CAD-palvelintunnus",
+        "radioServer": "Radiopalvelin CADin yhdistämiseen, luodaan automaattisesti, jos tällä yhteisöllä ei ole sellaista",
+        "title": "Ennen kuin aloitat"
+      },
+      "roomNotFound": "Palvelinta ei löydy",
+      "serverSelect": "Radio palvelin",
+      "steps": {
+        "cad": {
+          "body": "Kopioi Sonoran CAD -yhteisötunnus ja API-avain kohdasta CAD Admin > Advanced > In-Game Integration > Web API. Kopioi CAD-palvelintunnus kohdasta CAD Admin > Customization > Servers.",
+          "title": "Kopioi Sonoran CAD -API-tiedot"
+        },
+        "link": {
+          "body": "Valitse alta radio-palvelin ja syötä Sonoran CAD -tiedot.",
+          "title": "Yhdistä Sonoran CAD radioon"
+        },
+        "prompts": {
+          "body": "Lisää lyhyitä esimerkkilauseita siitä, miten yhteisösi puhuu radiolla, jotta Dispatch AI voi yhdistää paikallisen sanamuodon oikeaan CAD-toimintoon.",
+          "title": "Mukauta kehotuslauseita"
+        }
+      },
+      "subtitle": "Yhdistä Sonoran CAD, ota käyttöön Dispatch AI ja opeta sille yhteisösi radiokieli.",
+      "title": "Lähetys-AI",
+      "troubleshooting": {
+        "body": "Jokainen käyttäjä voi tarkastella viimeisimpiä Dispatch AI -lähetyksiään ja lisätä sanakorvauksia ilmauksille, jotka AI kuulee väärin.",
+        "path": "Avaa Dispatch-paneeli, valitse hammasrataskuvake ja avaa sitten AI-välilehti.",
+        "title": "Onko ongelmia?"
+      },
+      "usage": {
+        "monthlyUsage": "Kuukausikäyttö",
+        "resetNotice": "Dispatch AI:n käyttörajoitukset nollataan joka kuukauden alussa.",
+        "title": "Yhteisön käyttö",
+        "upgrade": "Päivitä rajat"
+      }
+    },
     "dispatchTab": "Lähetys",
     "emergency911": {
+      "backspace": "Poista viimeinen numero",
       "callBtn": "Soita 112",
+      "callingNumber": "Soitetaan {number}",
       "connected": "Yhdistetty — puheluasi lähetetään hälytyskeskukseen.",
       "connecting": "Yhdistetään...",
+      "dialerLabel": "Hätävalitsin",
       "disconnectsDispatchHint": "Puhelun aloittaminen katkaisee kaikki aktiiviset dispatch-istunnot toisessa välilehdessä.",
+      "dispatchers": "Lähettäjät",
       "dispatchersTitle": "Tämän puhelun päivystäjät",
+      "emergencyNumber": "Hätänumero",
       "endBtn": "Lopeta puhelu",
+      "enterEmergencyNumber": "Anna {number} soittaaksesi tähän puheluun",
+      "keypad": "Näppäimistö",
+      "liveCall": "Hätäpuhelu reaaliajassa",
+      "microphoneInput": "Mikrofonitulo",
+      "microphoneLive": "Mikrofoni käytössä",
+      "mute": "Mykistä",
+      "readyToCall": "Valmis soittamaan",
       "selectRoom": "Palvelin",
       "subtitle": "Soita 911-hätäpuhelu tämän yhteisön päivystäjille.",
       "title": "Hätäpuhelu",
+      "unmute": "Poista mykistys",
+      "useEmergencyNumber": "Käytä {number}",
       "waitingDispatcher": "Odotetaan, että päivystäjä vastaa..."
     },
     "emergency911Tab": "Hätänumeroon 112 soittaminen",
@@ -548,19 +706,26 @@
       "ban": "Estä",
       "banBtn": "Estä",
       "cannotModifyPermsOfMyself": "En voi muuttaa omia käyttöoikeuksiani",
+      "copyPermissionGeneratorId": "Kopioi oikeuden tunnus",
       "displayName": "Näyttönimi",
       "editMemberPerms": "Muokkaa jäsenen oikeuksia",
       "errAddInvalidAccount": "Annettua käyttäjänimeä ei ole olemassa",
       "errAddUnknown": "Tuntematon virhe lisättäessä hallinnoitsijaa",
       "errRemoveUnknown": "Tuntematon virhe poistettaessa hallinnoitsijaa",
       "explainDisabled": "Vain palvelimen omistajat voivat lisätä tai muokata ylläpitäjiä",
+      "filterActive": "Aktiivinen",
       "filterAll": "Kaikki",
+      "filterBanned": "Estetty",
       "filterPending": "Odottaa",
       "kickBtn": "Poista",
       "owner": "Omistaja",
       "ownerHasAllPerms": "Yhteisön omistajalla on kaikki käyttöoikeudet",
       "paysSubscription": "Maksaa tilauksen",
       "pending": "Odottaa",
+      "permissionGeneratorBtn": "Oikeusgeneraattori",
+      "permissionGeneratorId": "Oikeuden tunnus",
+      "permissionGeneratorSubtitle": "Luo käyttäjän käyttöoikeustunnus ulkoiseen käyttöön.",
+      "permissionGeneratorTitle": "Oikeusgeneraattori",
       "permissionsBtn": "Oikeudet",
       "privateChannels": "Yksityiset kanavat",
       "remove": "Poista",
@@ -585,6 +750,7 @@
       "keyUpSfx": "Näppäin ylös SFX",
       "overrideSuccessSfx": "Talkoverin ohituksen onnistumisääni",
       "panicSfx": "Paniikkipainikkeen äänitehoste",
+      "phoneDialSfx": "Puhelinsoittopainikkeen SFX",
       "sfxGameBoatEngine": "Pelin veneen moottorin SFX",
       "sfxGameHelicopterRotors": "Pelin sisäiset helikopterin roottorien äänitehosteet",
       "sfxGamePistol": "Pelin Sisäinen Pistooli SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "Napsauta muokataksesi nimeä",
       "columns": {
         "actions": "Toiminnot",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "Poissa käytöstä",
       "dispatchAiPause": "Poista käytöstä, kun ihmisen lähetys on CAD-tilassa",
       "enabled": "Käytössä",
+      "locality": {
+        "emergencyNumber": "Hätänumero",
+        "emergencyNumberHint": "Yleisessä hätätilanteessa käytettävä numero yhteisösi sijainnissa.",
+        "emergencyNumberInvalid": "Anna hätäpuhelinnumero, jossa on 1–10 numeroa.",
+        "subtitle": "Mukauta sijaintikohtaista terminologiaa ja toimintaa tälle yhteisölle.",
+        "title": "Sijainti"
+      },
       "openAiApiKey": "Open AI API-avain",
       "openAiApiKeyHint": "Anna oma OpenAI API-avain, jotta Dispatch AI -ominaisuudet voidaan ottaa käyttöön."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "Nosta käyttäjän radion äänenvoimakkuutta tällä prosentilla, kun ajoneuvon sireeni on aktiivinen.",
       "subtitle": "Määritä yhteisösi oletusasetukset. Käyttäjät voivat muokata omia asetuksiaan, mutta nämä toimivat lähtökohtaisina oletuksina.",
       "title": "Oletusasetukset",
+      "toneVoiceEffects": "Äänitaulun äänitehosteet",
+      "toneVoiceEffectsDesc": "Ota valittu radioäänen efektiketju käyttöön, kun sävylaudan sävelet toistetaan.",
       "tts": "Kanavan Tekstistä Puheeksi",
       "ttsDesc": "Toista tekstistä puheeksi -ääni kanavan nimestä, kun vaihdat kanavaa.",
       "volChange": "Äänenvoimakkuuden muutos",
@@ -989,17 +1165,33 @@
     "selectServer": "Valitse Palvelin",
     "setHotkeyFor": "Aseta pikanäppäin kohteelle {0}",
     "settingsDialog": {
+      "addPhraseOverride": "Lisää fraasiohitus",
       "advanced": "Kehittynyt",
       "agentGain": "AI-Äänenvoimakkuus",
       "aiRepliesOnlyMe": "Kuule AI-vastaukset vain minulle",
+      "aiRepliesOnlyMeTooltip": "Toista vain Dispatch AI:n vastaukset, jotka on osoitettu juuri sinulle.",
+      "aiTab": "Tekoäly",
       "aiWakeWordKeyword": "AI-herätesana",
       "aiWakeWordKeywordSelect": "Herätyssanafraasi",
       "audioTab": "Ääni",
+      "automatic": "Automaattinen",
       "automaticGainControlDisabled": "Automaattinen voitonhallinta ei ole käytössä",
       "automaticGainControlEnabled": "Automaattinen voitonhallinta on käytössä",
       "changingOutputsUnsupported": "Laitteesi ei tue äänen ulostulon vaihtamista",
       "channelTts": "Kanava-TTS",
+      "closeSettings": "Sulje asetukset",
+      "communityPhrases": "Yhteisön tekoälylauseet",
+      "communityPhrasesDesc": "Käytä näitä tiettyjä ilmauksia kertoaksesi tekoälylle, mitä tehdä. Muut tässä luetellut ilmaukset eivät toimi.",
+      "communityPhrasesEmpty": "Tälle huoneelle ei ole määritetty yhteisölauseita.",
+      "communityPhrasesTooltip": "Nämä fraasit on määrittänyt yhteisösi ylläpitäjä, ja niitä voi muuttaa vain yhteisön mukautuksissa.",
+      "defaultAudioDevice": "Oletus",
       "defaultOutputWarning": "Oletuslähtö voi saada Windowsin alentamaan muiden sovellusten äänenvoimakkuutta. Yritä valita tietty laite.",
+      "disabled": "Poissa käytöstä",
+      "dispatchAiLanguage": "Lähetys-AI — kieli",
+      "dispatchAiLanguageLoadError": "Valittua Dispatch AI -kielimallia ei voida ladata.",
+      "dispatchAiStatus": "Lähetys-AI:n tila",
+      "dispatchAiStatusDesc": "Dispatch AI on yhteisösi ylläpitäjien käytössä asetusten valikossa.",
+      "enabled": "Käytössä",
       "enableTransmissionRecordings": "Ota lähetyksen tallennus käyttöön",
       "escapeMode": "Pakotustila",
       "escapeModeHide": "Piilota radio",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "Radio sulkeutuu ESC-näppäimellä, mutta näkyy lähetettäessä",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Kuule kaikki AI-vastaukset",
+      "hearAllAiRepliesTooltip": "Toista kaikki Dispatchin AI-vastaukset, jotka kuulet radiossa, ei vain sinulle osoitetut vastaukset.",
       "hearScannedWhileXmit": "Kuuntele skannattuja lähetettäessä",
       "hotkeysTab": "Pikanäppäimet",
+      "improveTranscript": "Paranna transkriptin sanoja ohitusten osiossa.",
       "keydownSfx": "Näppäimen alas SFX",
       "keyupSfx": "Näppäin ylös SFX",
       "macosPermWarning": "Laitteesi saattaa vaatia lisäoikeuksia: {link}",
       "macosPermWarningLink": "Opi myöntämään käyttöoikeudet",
+      "monthlyUsage": "Kuukausikäyttö",
       "moveResize": "Siirrä/muuta kokoa",
       "myPttSfx": "Oma PTT-äänitehoste",
       "othersPttSfx": "Toisten PTT-äänitehoste",
+      "phraseOverrides": "Fraasien ohitukset",
+      "phraseOverridesDesc": "Korvaa usein väärin kuullut sanat tai lyhyet fraasit ennen kuin transkriptisi lähetetään Dispatch AI:lle. Nämä tallennetaan tilillesi.",
+      "phraseOverridesEmpty": "Fraasien ohituksia ei ole vielä lisätty.",
+      "phraseOverridesFind": "Kuultu fraasi",
+      "phraseOverridesReplace": "Korvaa tällä",
       "privacyTab": "Tietosuoja",
       "pttOffDelay": "PTT-poiston viive",
+      "recentAiTranscriptLabel": "Litterointi {number}",
+      "recentAiTranscripts": "Viimeisimmät litteroinnit",
+      "recentAiTranscriptsDesc": "Viimeisimmät pyynnöt, jotka Dispatch AI sai sinulta. Käytä näitä herätyssanan ajoituksen ja sanelun parantamiseen.",
+      "recentAiTranscriptsEmpty": "Ei vielä viimeisimpiä Dispatch AI -litterointeja.",
       "recordWakeWord": "Tallenna herätesana",
       "recordWakeWordListening": "Kuunnellaan...",
       "resetPeerVolumes": "Nollaa vertaisäänenvoimakkuudet",
       "resetSettings": "Palauta asetukset",
+      "savingPhraseOverrides": "Tallennetaan...",
       "selectRadioFrame": "Radiokehys",
       "sfxTab": "Äänitehosteet",
       "sfxVolume": "SFX-Äänenvoimakkuus",
       "title": "Asetukset",
       "toggleBackgroundAudio": "Taustaääni",
+      "toneVoiceEffects": "Äänitaulun äänitehosteet",
       "troubleHearingInGame": "Onko pelissä kuulemisessa ongelmia?:",
       "unlink": "Poista linkitys",
+      "upgradeCommunity": "Päivitä yhteisö",
       "voiceFxCommunity": "Yhteisön FX",
       "voiceFxEmpty": "Luo tai tuo paikallinen äänitehoste, jotta paikallinen kuuntelu voidaan ottaa käyttöön.",
       "voiceFxLocal": "Paikalliset tehosteet",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "Äänenvoimakkuuden muutos sireenien kanssa",
       "volumeHotkeyChange": "Äänenvoimakkuuden pikanäppäimen muutos",
       "wakeWord": "Herätesana (AI)",
+      "wakeWordDesc": "Herätesana, jota käytetään Dispatch AI:n aktivoimiseen.",
       "wakeWordListenSeconds": "Herätyssanan kuuntelun sekunnit",
+      "wakeWordListenSecondsTooltip": "Enimmäisaika, jonka tekoäly kuuntelee herätesanaa lähetyksen aloittamisen yhteydessä. Tämän pienentäminen voi vähentää tahattomia tekoälyn aktivointeja.",
       "wakeWordRecordNoSpeech": "Puhetta ei havaittu. Tarkista mikrofoni ja yritä uudelleen.",
       "webHotkeyWarning": "Pikanäppäimet toimivat vain, kun selainikkuna on aktiivinen.\n{link} globaaleille pikanäppäimille",
       "webHotkeyWarningLink": "Lataa työpöytäsovellus"
@@ -1057,6 +1266,7 @@
       "count": "Määrä",
       "deleteStack": "Poista pino",
       "generate": "Luo",
+      "infiniteRepeats": "Rajattomat toistot",
       "inGameSpeaker": "Pelin sisäinen kaiutin",
       "inGameSpeakerGroup": "Pelin sisäinen kaiutinryhmä",
       "loadStack": "Lataa pino (yksi napsautus)",
@@ -1068,6 +1278,8 @@
       "recording": "Tallennus",
       "recordMic": "Tallenna mikrofoni",
       "repeat": "Toista",
+      "repeatByDefault": "Toista oletusarvoisesti",
+      "repeatCountLabel": "Oletustoistojen määrä",
       "savedTab": "Tallennetut pinot",
       "saveStackDesc": "Nimeä sävykasasi",
       "saveStackTitle": "Tallenna pino",
@@ -1079,6 +1291,8 @@
       "title": "Säveltaulu",
       "toneLabel": "Sävelen etiketti",
       "tonesTab": "Sävyt",
+      "toneWillRepeat": "Tämä sävy toistuu {count} kertaa, kun se valitaan",
+      "toneWillRepeatInfinite": "Tämä sävy toistuu loputtomasti, kun se valitaan",
       "voices": "Äänet"
     },
     "xmitFreq": "XMIT {0}MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "Peruuta",
     "communityImage": "Yhteisön kuva",
+    "communityImageDrop": "Napsauta tai vedä kuva tähän ladataksesi",
     "linkSonoranCAD": "Yhdistä Sonoran CAD",
     "linkSonoranCADDispatchAI": "Yhdistä Sonoran CAD (Dispatch AI)",
     "serverID": "Palvelintunnus",

@@ -81,6 +81,7 @@
     "add": "إضافة",
     "billing": "الفوترة",
     "cancel": "إلغاء",
+    "clickToCopy": "انقر للنسخ",
     "clipboard": "تم النسخ إلى الحافظة!",
     "communityIdField": "معرّف المجتمع",
     "confirm": "تأكيد",
@@ -117,6 +118,7 @@
     "select": "اختر",
     "signup": "التسجيل",
     "startToday": "ابدأ اليوم",
+    "unknownError": "حدث خطأ غير معروف",
     "unlink": "فصل",
     "upload": "رفع",
     "username": "اسم المستخدم"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "اذهب إلى {link} في متصفحك لتسجيل الدخول",
     "guestLogin": "تسجيل دخول الضيف",
     "guestLoginInstruction": "تسجيل الدخول كضيف",
+    "loginWithAccount": "تسجيل الدخول إلى الحساب",
     "loginWithCode": "تسجيل الدخول بالرمز",
+    "openLinkButton": "ربط",
     "refresh": "تحديث",
     "unlink": "فصل"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "لون النص"
   },
+  "iframeAuth": {
+    "description": "يجب إكمال عمليات تسجيل الدخول عبر OAuth خارج إطار مضمن.",
+    "stepOneDescription": "استخدم هاتفك أو متصفحك لفتح رابط تسجيل الدخول",
+    "stepOneTitle": "امسح رمز QR",
+    "stepTwoDescription": "سجّل الدخول إلى Sonoran Radio، ثم أدخل هذا الرمز المكوّن من 4 أرقام.",
+    "stepTwoTitle": "أدخل الرمز",
+    "title": "ربط تسجيل الدخول",
+    "waiting": "بانتظار الموافقة على تسجيل الدخول..."
+  },
   "importExport": {
     "download": "تنزيل",
     "export": "تصدير",
@@ -253,6 +266,10 @@
     "tooltip": "استيراد ملف JSON"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "روابط التثبيت لمكتبات Sonoran SDK الرسمية المستخدمة مع واجهة برمجة التطبيقات v2.",
+      "title": "مكتبات API"
+    },
     "BackgroundAudio": {
       "desc": "هل ترد على مكالمة؟ يُدخل Sonoran Radio صفارات الإنذار وطلقات النار والمزيد في الوقت الفعلي مباشرةً إلى تغذية الميكروفون لديك لأقصى درجات الانغماس.",
       "title": "الصوت الخلفي"
@@ -273,10 +290,22 @@
       "desc": "خصص مؤثرات صوتية رقمية وتناظرية لمجتمعك!",
       "title": "تأثيرات صوتية مخصصة"
     },
+    "Desktop_Overlay": {
+      "desc": "تتيح لك طبقة سطح المكتب عرض الراديو الخاص بك فوق أي لعبة على Windows وOSX لتجربة غامرة.",
+      "title": "التراكب المكتبي"
+    },
     "Destructible_towers": {
       "desc1": "يمكن تدمير الأبراج المادية داخل اللعبة بواسطة المجرمين، مما سيؤدي إلى تدهور جودة أجهزة الراديو المحيطة بها.",
       "desc2": "مع ثلاثة أنواع مختلفة من النماذج داخل اللعبة، يأخذ Sonoran Radio الانغماس إلى المستوى التالي!",
       "title": "أبراج قابلة للتدمير"
+    },
+    "Discord": {
+      "desc": "تزامن تكامل Discord أدوار Discord مع أذونات الراديو، مما يجعل إدارة المستخدم سهلة.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI هو أقوى تكامل بنيناه على الإطلاق. تحدث مع موزع ذكي مباشر عبر الراديو لإنشاء البلاغات، وإجراء عمليات البحث عن لوحات المركبات، وتحديث حالتك، وغير ذلك الكثير!",
+      "title": "الإرسال بالذكاء الاصطناعي"
     },
     "Dispatch_Panel": {
       "desc1": "اعرض بسهولة، وأدر المستخدمين، وشغّل النغمات، والمزيد!",
@@ -287,11 +316,53 @@
       "desc": "أجرِ مكالمات الطوارئ إلى مركز الإرسال، كل ذلك من داخل اللعبة!",
       "title": "مكالمات الطوارئ داخل اللعبة"
     },
+    "faq": {
+      "free": {
+        "answer": "يقدّم Sonoran Radio كل ما يلزم للبدء في الإصدار المجاني. بالنسبة إلى المجتمعات الأكبر، تتطلب بعض الميزات المتقدمة (مثل الماسحات الضوئية، وإرسال الذكاء الاصطناعي، ورفع مؤثرات صوتية مخصصة، وبعض عمليات التكامل) خطط اشتراك مدفوعة مثل Plus أو Pro.",
+        "question": "هل Sonoran Radio مجاني؟"
+      },
+      "guestAccess": {
+        "answer": "نعم! يمكن لمجتمعات FiveM تفعيل وصول الضيوف باستخدام أذونات ACE، مما يسمح للمستخدمين بالانضمام دون ربط حساب Sonoran.",
+        "question": "هل يمكن للمستخدمين الاتصال دون إنشاء حسابات؟"
+      },
+      "installTime": {
+        "answer": "إنشاء مجتمع لا يستغرق سوى بضع ثوانٍ! يمكن لمجتمعات FiveM تثبيت المورد المُهيأ مسبقًا خلال دقائق، أو استخدام خيار التثبيت بنقرة واحدة من RocketNode.",
+        "question": "كم من الوقت يستغرق تثبيت Sonoran Radio؟"
+      },
+      "integrations": {
+        "answer": "يدعم Sonoran Radio التكامل مع:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM inventories\n-Phone scripts\n-Vehicle displays\n-Big Daddy radio animations",
+        "question": "ما عمليات التكامل الأخرى المدعومة؟"
+      },
+      "outsideFiveM": {
+        "answer": "نعم! تتضمن Sonoran Radio تطبيقات ويب وسطح مكتب وموبايل مستقلة تتيح للمستخدمين وموظفي الإرسال الاتصال لأي لعبة!",
+        "question": "هل يعمل Sonoran Radio خارج FiveM؟"
+      },
+      "title": "الأسئلة الشائعة"
+    },
+    "fivem": {
+      "description": "اربط Sonoran Radio مباشرةً بـ GTA FiveM عبر تكامل FiveM. شاهد كل الميزات الخاصة المتاحة داخل FiveM من خلال التكامل.",
+      "eyebrow": "تكامل مباشر",
+      "heading": "تكامل"
+    },
+    "hero": {
+      "subtitle": "تحدّث في قنوات راديو واقعية، خصّص تأثيرات صوتك، وتواصل بسلاسة مع ميزات داخل اللعبة لتجربة غامرة حقًا.",
+      "title": "تبدأ اتصالات الراديو الأفضل هنا"
+    },
+    "imageAlt": "صورة {title}",
     "inGameToneBoard": {
       "desc": "واجهة Sonoran Radios للإرسال تسمح لك بتحديد قنوات ومجموعات محددة وتكرار النغمات والمزيد! يمكنك حتى تشغيل النغمات على مكبرات الصوت في اللعبة!",
       "title": "لوحة النغمات إلى مكبرات الصوت في اللعبة"
     },
     "intro": "ارتقِ بتواصل الألعاب الخاص بك إلى المستوى التالي مع Sonoran Radio. تحدّث في قنوات راديو واقعية، خصّص تأثيرات صوتك، وتواصل بسلاسة مع ميزات داخل اللعبة لتجربة غامرة حقًا.",
+    "meta": {
+      "audienceType": "اللاعبون ومديرو المجتمع",
+      "description": "برنامج اتصال لاسلكي واقعي لـ FiveM وER:LC وArma 3 ومجتمعات لعب الأدوار على حد سواء.",
+      "keywords": "راديو سونوران، راديو الألعاب، راديو FiveM، راديو ER:LC، راديو Arma 3، اتصالات لعب الأدوار، برنامج الإرسال، تراكب راديو سطح المكتب، راديو FiveM مجاني، راديو ER:LC مجاني",
+      "ogTitle": "سونوران راديو - اتصالات راديو الألعاب",
+      "productName": "Sonoran Radio",
+      "title": "سونوران راديو - اتصالات راديو الألعاب",
+      "titleSuffix": "أنظمة برمجيات سونوران"
+    },
     "mobileCommandCenter": {
       "desc": "يمنحك مركز القيادة المحمول من Sonorans القدرة على تولي القيادة كما لم يحدث من قبل. هذه المركبة الخدمية الفريدة من نوعها تفتح إمكانيات لا نهاية لها!",
       "title": "مركز القيادة المحمول"
@@ -309,9 +380,17 @@
       "desc": "تم توقيفك في نقطة تفتيش مرورية؟ ستسمع حديث اللاسلكي الحقيقي عندما يكون لدى أحد الضباط جهاز لاسلكي نشط قريب!",
       "title": "استمع إلى دردشة الراديو القريبة"
     },
+    "scannersAndJammers": {
+      "desc": "تتيح لك الماسحات داخل اللعبة وللآخرين القريبين الاستماع إلى حركة الراديو! أو اضبط عناصر مخصصة داخل اللعبة للتشويش على إشارات الراديو القريبة!",
+      "title": "الماسحات وأجهزة التشويش"
+    },
     "Scanners": {
       "desc": "تتيح لك الماسحات داخل اللعبة وللآخرين القريبين الاستماع إلى حركة الراديو!",
       "title": "الماسحات الضوئية"
+    },
+    "sections": {
+      "dispatchAdmin": "لوحة الإرسال والإدارة",
+      "integrations": "تكاملات"
     },
     "Sonoran_CAD": {
       "desc": "تتيح هذه الإضافة لعملاء Sonoran Radio ربط الراديو مع Sonoran CAD. اعرض حالة وحدتك، ومعلومات مكالمات الإرسال، وفعّل حالة الذعر، والمزيد!",
@@ -321,9 +400,14 @@
       "desc": "أتمتة أذونات Sonoran Radio باستخدام Sonoran CMS!",
       "title": "سونوران CMS"
     },
+    "Streamdeck": {
+      "desc": "تحكم في قنوات الراديو، والضغط للتحدث، ومستوى الصوت، والمزيد مباشرةً من Stream Deck.",
+      "title": "ستريم ديك"
+    },
     "ToneBoard": {
       "desc1": "تحميل وتخصيص نغمات الإرسال لمجتمعك!",
       "desc2": "واجهة Sonoran Radios للإرسال تسمح لك بتحديد قنوات ومجموعات محددة وتكرار النغمات والمزيد! يمكنك حتى تشغيل النغمات على مكبرات الصوت في اللعبة!",
+      "panelTitle": "لوحة النغمات",
       "title": "لوحة النغمات"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "يجب أن تكون مالك اسم النطاق الخاص بك!",
       "placeholder": "radio.example.com",
+      "removeButton": "إزالة النطاق المخصص",
       "requiresPro": "يجب أن يكون لديك اشتراك Pro لإعداد نطاق مخصص",
       "tryItOut": "جرّبه",
       "vanityCopied": "تم نسخ رابط النطاق المخصص إلى الحافظة!",
@@ -446,6 +531,7 @@
       "customDomain": "نطاق مخصص",
       "defaultSettings": "الإعدادات الافتراضية",
       "desktopFrames": "إطارات سطح المكتب",
+      "dispatchAi": "الإرسال بالذكاء الاصطناعي",
       "fivemIntegration": "تكامل FiveM",
       "info": "معلومات",
       "patrolChannels": "قنوات الدورية",
@@ -460,17 +546,89 @@
     "deleteMsg": "هل أنت متأكد أنك تريد حذف هذا التكوين؟ سيؤدي هذا إلى فقدان غير قابل للعكس للبيانات.",
     "deleteServer": "حذف المجتمع",
     "deleteSuccess": "تم حذف الخادم بنجاح",
+    "dispatchAi": {
+      "addServer": "إضافة خادم",
+      "addServerSubtitle": "سمِّ خادم الراديو الذي سيتصل به المستخدمون لهذا التكوين الخاص بـ Dispatch AI.",
+      "autoAddingServer": "جارٍ إنشاء خادم افتراضي لهذا المجتمع...",
+      "betaNotice": "Dispatch AI في مرحلة بيتا عامة. قد تكون الخدمات متقطعة بينما يستمر تحسين هذه الميزة.",
+      "cadApiKeyHint": "موجود في CAD Admin > Advanced > In-Game Integration > Web API.",
+      "cadApiKeyRequired": "مفتاح واجهة برمجة تطبيقات CAD مطلوب عند تمكين Dispatch AI",
+      "cadCommunityIdRequired": "معرّف مجتمع CAD مطلوب عند تمكين Dispatch AI",
+      "cadServerIdHint": "يوجد في CAD Admin > Customization > Servers. معرّف خادم CAD الافتراضي هو 1.",
+      "cadServerIdRequired": "معرّف خادم CAD مطلوب عند تمكين Dispatch AI",
+      "defaultServerName": "الخادم الافتراضي",
+      "disabledButton": "الإرسال بالذكاء الاصطناعي معطّل",
+      "dispatchAiEnabled": "تفعيل الإرسال بالذكاء الاصطناعي",
+      "enabledButton": "الإرسال بالذكاء الاصطناعي مفعّل",
+      "fieldRequired": "هذه الخانة مطلوبة",
+      "linkCadSubtitle": "أدخل معلومات واجهة برمجة التطبيقات Sonoran CAD لمجتمع CAD الذي يجب أن يتحكم فيه خادم الراديو هذا.",
+      "linkCadTitle": "ربط Sonoran CAD",
+      "miscServer": "الخادم {id}",
+      "pauseDisabledButton": "إبقاء الذكاء الاصطناعي نشطًا مع المرسلين البشريين",
+      "pauseEnabledButton": "تعطيل الذكاء الاصطناعي عندما يكون المرسلون البشريون نشطين",
+      "pauseWhenDispatcherActive": "عطّل عندما يكون المرسل البشري نشطًا",
+      "radioServerName": "اسم خادم الراديو",
+      "removeServer": "إزالة الخادم",
+      "requirements": {
+        "cadApi": "معرّف مجتمع CAD ومفتاح API ومعرّف خادم CAD",
+        "radioServer": "خادم راديو للربط مع CAD، يُنشأ تلقائيًا إذا لم يكن لدى هذا المجتمع واحد",
+        "title": "قبل أن تبدأ"
+      },
+      "roomNotFound": "الخادم غير موجود",
+      "serverSelect": "خادم الراديو",
+      "steps": {
+        "cad": {
+          "body": "انسخ معرّف مجتمع Sonoran CAD ومفتاح API من CAD Admin > Advanced > In-Game Integration > Web API. انسخ معرّف خادم CAD من CAD Admin > Customization > Servers.",
+          "title": "انسخ معلومات واجهة برمجة تطبيقات Sonoran CAD"
+        },
+        "link": {
+          "body": "اختر خادم الراديو أدناه وأدخل معلومات Sonoran CAD.",
+          "title": "ربط Sonoran CAD بالراديو"
+        },
+        "prompts": {
+          "body": "أضف عبارات مثال قصيرة لطريقة حديث مجتمعك على الهواء حتى يتمكن Dispatch AI من ربط الصياغة المحلية بإجراء CAD الصحيح.",
+          "title": "تخصيص عبارات المطالبة"
+        }
+      },
+      "subtitle": "اربط Sonoran CAD، فعّل Dispatch AI، وعلّمه لغة الراديو الخاصة بمجتمعك.",
+      "title": "الإرسال بالذكاء الاصطناعي",
+      "troubleshooting": {
+        "body": "يمكن لكل مستخدم مراجعة عمليات إرسال Dispatch AI الأخيرة وإضافة استبدالات كلمات للعبارات التي يسيء الذكاء الاصطناعي سماعها.",
+        "path": "افتح لوحة الإرسال، ثم اختر أيقونة الترس، ثم افتح علامة التبويب الذكاء الاصطناعي.",
+        "title": "هل تواجه مشكلة؟"
+      },
+      "usage": {
+        "monthlyUsage": "الاستخدام الشهري",
+        "resetNotice": "تُعاد حدود استخدام Dispatch AI في بداية كل شهر.",
+        "title": "استخدام المجتمع",
+        "upgrade": "ترقية الحدود"
+      }
+    },
     "dispatchTab": "الإرسال",
     "emergency911": {
+      "backspace": "احذف الرقم الأخير",
       "callBtn": "اتصل بـ911",
+      "callingNumber": "جارٍ الاتصال بـ {number}",
       "connected": "متصل — يتم بث مكالمتك إلى المرسلين.",
       "connecting": "جارٍ الاتصال...",
+      "dialerLabel": "طالب الطوارئ",
       "disconnectsDispatchHint": "سيؤدي بدء مكالمة إلى قطع أي جلسة إرسال نشطة في علامة تبويب أخرى.",
+      "dispatchers": "المُرسِلون",
       "dispatchersTitle": "المُرسِلون في هذه المكالمة",
+      "emergencyNumber": "رقم الطوارئ",
       "endBtn": "إنهاء المكالمة",
+      "enterEmergencyNumber": "أدخل {number} لإجراء هذه المكالمة",
+      "keypad": "لوحة المفاتيح",
+      "liveCall": "مكالمة طوارئ مباشرة",
+      "microphoneInput": "إدخال الميكروفون",
+      "microphoneLive": "الميكروفون مباشر",
+      "mute": "كتم",
+      "readyToCall": "جاهز للاتصال",
       "selectRoom": "الخادم",
       "subtitle": "اتصل بالرقم 911 لطلب إرسال المرسلين إلى هذا المجتمع.",
       "title": "مكالمة طوارئ",
+      "unmute": "إلغاء كتم الصوت",
+      "useEmergencyNumber": "استخدم {number}",
       "waitingDispatcher": "في انتظار إجابة المُرسِل..."
     },
     "emergency911Tab": "اتصال 911",
@@ -548,19 +706,26 @@
       "ban": "حظر",
       "banBtn": "حظر",
       "cannotModifyPermsOfMyself": "لا يمكنني تعديل أذوناتي الخاصة",
+      "copyPermissionGeneratorId": "نسخ معرّف الإذن",
       "displayName": "اسم العرض",
       "editMemberPerms": "تعديل أذونات العضو",
       "errAddInvalidAccount": "اسم المستخدم المقدم غير موجود",
       "errAddUnknown": "حدث خطأ غير معروف أثناء إضافة المدير",
       "errRemoveUnknown": "حدث خطأ غير معروف أثناء إزالة المدير",
       "explainDisabled": "يمكن لمالكي الخادم فقط إضافة المديرين أو تعديلهم",
+      "filterActive": "نشط",
       "filterAll": "الكل",
+      "filterBanned": "محظور",
       "filterPending": "معلق",
       "kickBtn": "طرد",
       "owner": "المالك",
       "ownerHasAllPerms": "مالك المجتمع لديه جميع الأذونات",
       "paysSubscription": "يدفع الاشتراك",
       "pending": "معلق",
+      "permissionGeneratorBtn": "مولّد الأذونات",
+      "permissionGeneratorId": "معرّف الإذن",
+      "permissionGeneratorSubtitle": "أنشئ معرّف إذن مستخدم للاستخدام الخارجي.",
+      "permissionGeneratorTitle": "مولّد الأذونات",
       "permissionsBtn": "الأذونات",
       "privateChannels": "القنوات الخاصة",
       "remove": "إزالة",
@@ -585,6 +750,7 @@
       "keyUpSfx": "تأثيرات صوتية للرفع",
       "overrideSuccessSfx": "مؤثرات صوتية لنجاح تجاوز التداخل",
       "panicSfx": "مؤثرات زر الذعر",
+      "phoneDialSfx": "مؤثرات زر الاتصال الهاتفي",
       "sfxGameBoatEngine": "مؤثرات صوتية لمحرك القارب داخل اللعبة",
       "sfxGameHelicopterRotors": "مؤثرات صوتية لدوران مروحية داخل اللعبة",
       "sfxGamePistol": "تأثيرات صوتية مسدس في اللعبة",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "انقر لتحرير الاسم",
       "columns": {
         "actions": "إجراءات",
         "id": "المعرّف",
@@ -809,6 +976,13 @@
       "disabled": "معطّل",
       "dispatchAiPause": "عطّل عندما يكون التوجيه البشري في CAD",
       "enabled": "مفعّل",
+      "locality": {
+        "emergencyNumber": "رقم الطوارئ",
+        "emergencyNumberHint": "رقم الطوارئ العام المستخدم في موقع مجتمعك.",
+        "emergencyNumberInvalid": "أدخل رقم طوارئ باستخدام 1 إلى 10 أرقام.",
+        "subtitle": "خصّص المصطلحات والسلوك الخاص بالموقع لهذا المجتمع.",
+        "title": "الموقع"
+      },
       "openAiApiKey": "مفتاح واجهة برمجة تطبيقات Open AI",
       "openAiApiKeyHint": "قدّم مفتاح API الخاص بـ OpenAI لتفعيل ميزات Dispatch AI."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "زيادة مستوى صوت راديو المستخدم بهذه النسبة المئوية عندما يكون صفارة مركبته نشطة.",
       "subtitle": "قم بتكوين الإعدادات الافتراضية لمجتمعك. يمكن للمستخدمين تخصيص تفضيلاتهم الخاصة، ولكن هذه ستكون الإعدادات الافتراضية الأولية.",
       "title": "الإعدادات الافتراضية",
+      "toneVoiceEffects": "تأثيرات صوت لوحة النبرة",
+      "toneVoiceEffectsDesc": "تطبيق سلسلة تأثيرات الصوت المختارة للصوت الإذاعي عند تشغيل نغمات لوحة النبرة.",
       "tts": "تحويل النص في القناة إلى كلام",
       "ttsDesc": "تشغيل صوت تحويل النص إلى كلام لاسم القناة عند تغيير القنوات.",
       "volChange": "تغيير مستوى الصوت",
@@ -989,17 +1165,33 @@
     "selectServer": "اختر الخادم",
     "setHotkeyFor": "عيّن اختصارًا لـ {0}",
     "settingsDialog": {
+      "addPhraseOverride": "إضافة تجاوز العبارة",
       "advanced": "متقدم",
       "agentGain": "مستوى صوت الذكاء الاصطناعي",
       "aiRepliesOnlyMe": "استمع إلى ردود الذكاء الاصطناعي إليّ فقط",
+      "aiRepliesOnlyMeTooltip": "شغّل فقط ردود Dispatch AI الموجّهة إليك تحديدًا.",
+      "aiTab": "الذكاء الاصطناعي",
       "aiWakeWordKeyword": "عبارة التنبيه بالذكاء الاصطناعي",
       "aiWakeWordKeywordSelect": "عبارة كلمة التنبيه",
       "audioTab": "الصوت",
+      "automatic": "تلقائي",
       "automaticGainControlDisabled": "التحكم التلقائي في الكسب معطل",
       "automaticGainControlEnabled": "التحكم التلقائي في الكسب مفعّل",
       "changingOutputsUnsupported": "جهازك لا يدعم تغيير مخارج الصوت",
       "channelTts": "تحويل النص إلى كلام للقناة",
+      "closeSettings": "إغلاق الإعدادات",
+      "communityPhrases": "عبارات المجتمع بالذكاء الاصطناعي",
+      "communityPhrasesDesc": "استخدم هذه العبارات المحددة لإخبار الذكاء الاصطناعي بما يجب فعله. العبارات الأخرى غير المدرجة هنا لن تعمل.",
+      "communityPhrasesEmpty": "لا توجد عبارات مجتمعية مُهيأة لهذه الغرفة.",
+      "communityPhrasesTooltip": "تم تكوين هذه العبارات بواسطة مسؤول المجتمع ولا يمكن تغييرها إلا في تخصيص المجتمع.",
+      "defaultAudioDevice": "افتراضي",
       "defaultOutputWarning": "قد يتسبب الإخراج الافتراضي في خفض مستويات صوت التطبيقات الأخرى في Windows. جرّب تحديد جهاز محدد.",
+      "disabled": "معطّل",
+      "dispatchAiLanguage": "الإرسال بالذكاء الاصطناعي — اللغة",
+      "dispatchAiLanguageLoadError": "تعذر تحميل نموذج اللغة المحدد لـ Dispatch AI.",
+      "dispatchAiStatus": "حالة الإرسال بالذكاء الاصطناعي",
+      "dispatchAiStatusDesc": "تم تمكين Dispatch AI بواسطة مسؤولي مجتمعك في قائمة الإعدادات.",
+      "enabled": "مفعّل",
       "enableTransmissionRecordings": "تفعيل تسجيلات الإرسال",
       "escapeMode": "وضع الهروب",
       "escapeModeHide": "إخفاء الراديو",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "يغلق الراديو عند ESC، لكنه يكون مرئيًا عند الإرسال",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "استمع إلى جميع ردود الذكاء الاصطناعي",
+      "hearAllAiRepliesTooltip": "شغّل جميع ردود Dispatch AI التي يمكنك سماعها على الراديو، وليس فقط الردود الموجّهة إليك.",
       "hearScannedWhileXmit": "سماع الممسوحة ضوئيًا أثناء الإرسال",
       "hotkeysTab": "اختصارات لوحة المفاتيح",
+      "improveTranscript": "تحسين كلمات النص في قسم التجاوزات.",
       "keydownSfx": "تأثيرات صوتية للضغط",
       "keyupSfx": "تأثيرات صوتية للتشغيل",
       "macosPermWarning": "قد يتطلب جهازك أذونات إضافية: {link}",
       "macosPermWarningLink": "تعرف على كيفية منح الأذونات",
+      "monthlyUsage": "الاستخدام الشهري",
       "moveResize": "نقل/تغيير الحجم",
       "myPttSfx": "مؤثرات صوتية لـ PTT الخاصة بي",
       "othersPttSfx": "مؤثرات صوتية لـ PTT الآخرين",
+      "phraseOverrides": "تجاوزات العبارات",
+      "phraseOverridesDesc": "استبدل الكلمات أو العبارات القصيرة التي يُساء سماعها عادةً قبل إرسال نصك إلى Dispatch AI. يتم حفظها في حسابك.",
+      "phraseOverridesEmpty": "لم تتم إضافة أي تجاوزات للعبارات بعد.",
+      "phraseOverridesFind": "العبارة المسموعة",
+      "phraseOverridesReplace": "استبدال بـ",
       "privacyTab": "الخصوصية",
       "pttOffDelay": "تأخير إيقاف PTT",
+      "recentAiTranscriptLabel": "النص {number}",
+      "recentAiTranscripts": "النصوص الأخيرة",
+      "recentAiTranscriptsDesc": "آخر الطلبات القليلة التي تلقّتها Dispatch AI منك. استخدمها لتحسين توقيت كلمة التنبيه والإملاء.",
+      "recentAiTranscriptsEmpty": "لا توجد نصوص Dispatch AI حديثة بعد.",
       "recordWakeWord": "تسجيل عبارة التنبيه",
       "recordWakeWordListening": "جارٍ الاستماع...",
       "resetPeerVolumes": "إعادة تعيين أحجام الأقران",
       "resetSettings": "إعادة تعيين الإعدادات",
+      "savingPhraseOverrides": "جارٍ الحفظ...",
       "selectRadioFrame": "إطار الراديو",
       "sfxTab": "المؤثرات الصوتية",
       "sfxVolume": "مستوى صوت التأثيرات الصوتية",
       "title": "الإعدادات",
       "toggleBackgroundAudio": "الصوت الخلفي",
+      "toneVoiceEffects": "تأثيرات صوت لوحة النبرة",
       "troubleHearingInGame": "هل تواجه مشكلة في السماع داخل اللعبة؟:",
       "unlink": "فصل",
+      "upgradeCommunity": "ترقية المجتمع",
       "voiceFxCommunity": "تأثيرات المجتمع",
       "voiceFxEmpty": "أنشئ أو استورد تأثير صوتي محليًا لتمكين الاستماع المحلي.",
       "voiceFxLocal": "التأثيرات المحلية",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "تغيير مستوى الصوت مع صفارات الإنذار",
       "volumeHotkeyChange": "تغيير مفتاح اختصار مستوى الصوت",
       "wakeWord": "عبارة التنبيه (الذكاء الاصطناعي)",
+      "wakeWordDesc": "كلمة التنبيه المستخدمة لتفعيل Dispatch AI.",
       "wakeWordListenSeconds": "ثواني الاستماع لكلمة التنبيه",
+      "wakeWordListenSecondsTooltip": "الحد الأقصى للوقت الذي سيستمع فيه الذكاء الاصطناعي إلى كلمة التنبيه عند بدء الإرسال. يمكن أن يؤدي تقليل هذا إلى تقليل التنشيطات العرضية للذكاء الاصطناعي.",
       "wakeWordRecordNoSpeech": "لم يتم اكتشاف أي كلام. تحقق من الميكروفون الخاص بك وحاول مرة أخرى.",
       "webHotkeyWarning": "تعمل اختصارات لوحة المفاتيح فقط عندما تكون نافذة المتصفح في التركيز.\n{link} للاختصارات العامة",
       "webHotkeyWarningLink": "نزّل تطبيق سطح المكتب"
@@ -1057,6 +1266,7 @@
       "count": "العدد",
       "deleteStack": "حذف المكدس",
       "generate": "إنشاء",
+      "infiniteRepeats": "تكرارات لا نهائية",
       "inGameSpeaker": "مكبر الصوت في اللعبة",
       "inGameSpeakerGroup": "مجموعة مكبر الصوت في اللعبة",
       "loadStack": "تحميل المكدس (نقرة واحدة)",
@@ -1068,6 +1278,8 @@
       "recording": "تسجيل",
       "recordMic": "تسجيل الميكروفون",
       "repeat": "تكرار",
+      "repeatByDefault": "تكرار بشكل افتراضي",
+      "repeatCountLabel": "عدد التكرار الافتراضي",
       "savedTab": "الحزم المحفوظة",
       "saveStackDesc": "سمِّ مجموعة النغمات الخاصة بك",
       "saveStackTitle": "حفظ التكديس",
@@ -1079,6 +1291,8 @@
       "title": "لوحة النغمات",
       "toneLabel": "تسمية النغمة",
       "tonesTab": "النغمات",
+      "toneWillRepeat": "سيُكرَّر هذا النغمة {count} مرات عند تحديده",
+      "toneWillRepeatInfinite": "سيُكرَّر هذا النغمة إلى ما لا نهاية عند تحديده",
       "voices": "الأصوات"
     },
     "xmitFreq": "XMIT {0}MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "إلغاء",
     "communityImage": "صورة المجتمع",
+    "communityImageDrop": "انقر أو اسحب صورة هنا للرفع",
     "linkSonoranCAD": "ربط Sonoran CAD",
     "linkSonoranCADDispatchAI": "ربط Sonoran CAD (Dispatch AI)",
     "serverID": "معرّف الخادم",

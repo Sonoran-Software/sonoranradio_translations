@@ -81,6 +81,7 @@
     "add": "Lägg till",
     "billing": "Fakturering",
     "cancel": "Avbryt",
+    "clickToCopy": "Klicka för att kopiera",
     "clipboard": "Kopierad till urklipp!",
     "communityIdField": "Community-ID",
     "confirm": "Bekräfta",
@@ -117,6 +118,7 @@
     "select": "Välj",
     "signup": "Registrering",
     "startToday": "Börja idag",
+    "unknownError": "Okänt fel inträffade",
     "unlink": "Avlänka",
     "upload": "Ladda upp",
     "username": "Användarnamn"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "Gå till {link} i din webbläsare för att logga in",
     "guestLogin": "Gästinloggning",
     "guestLoginInstruction": "Logga in som gäst",
+    "loginWithAccount": "Kontoinloggning",
     "loginWithCode": "Logga in med kod",
+    "openLinkButton": "Länk",
     "refresh": "Uppdatera",
     "unlink": "Avlänka"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "Textfärg"
   },
+  "iframeAuth": {
+    "description": "Oauth-inloggningar måste slutföras utanför en inbäddad ram.",
+    "stepOneDescription": "Använd din telefon eller webbläsare för att öppna inloggningslänken",
+    "stepOneTitle": "Skanna QR-koden",
+    "stepTwoDescription": "Logga in på Sonoran Radio och ange sedan denna 4-siffriga kod.",
+    "stepTwoTitle": "Ange koden",
+    "title": "Länklogga in",
+    "waiting": "Väntar på inloggningsgodkännande..."
+  },
   "importExport": {
     "download": "Ladda ner",
     "export": "Exportera",
@@ -253,6 +266,10 @@
     "tooltip": "Importera JSON-fil"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "Installationslänkar för de officiella Sonoran SDK-biblioteken som används med v2-API:t.",
+      "title": "API-bibliotek"
+    },
     "BackgroundAudio": {
       "desc": "Svara på ett samtal? Sonoran Radio injicerar sirener, skottlossning och mer i realtid direkt i ditt mikrofonflöde för maximal inlevelse.",
       "title": "Bakgrundsljud"
@@ -273,10 +290,22 @@
       "desc": "Anpassa digitala och analoga rösteffekter för din gemenskap!",
       "title": "Anpassade rösteffekter"
     },
+    "Desktop_Overlay": {
+      "desc": "Skrivbordsöverlägget låter dig visa din radio ovanpå vilket spel som helst på Windows och OSX för en uppslukande upplevelse.",
+      "title": "Överlägg för skrivbordet"
+    },
     "Destructible_towers": {
       "desc1": "De fysiska torn som finns i spelet kan förstöras av kriminella, vilket kommer att förstöra kvaliteten på radioapparater runt omkring det.",
       "desc2": "Med tre olika modelltyper i spelet tar Sonoran Radio inlevelsen till nästa nivå!",
       "title": "Förstörbara torn"
+    },
+    "Discord": {
+      "desc": "Discord-integration synkroniserar Discord-roller med radiobehörigheter, vilket gör användarhantering enkel.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI är vår mest kraftfulla integration någonsin. Prata med en live AI-dispatcher över radion för att skapa ärenden, göra registreringsskyltssökningar, uppdatera din status och mycket mer!",
+      "title": "Dispatch AI"
     },
     "Dispatch_Panel": {
       "desc1": "Visualisera enkelt, hantera användare, spela toner och mer!",
@@ -287,11 +316,53 @@
       "desc": "Ring nödsamtal till larmcentralen, direkt i spelet!",
       "title": "Nödsamtal i spelet"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio erbjuder allt som behövs för att börja med gratisversionen. För större communities kräver vissa avancerade funktioner (som skannrar, AI-dispatch, anpassade SFX-uppladdningar och vissa integrationer) betalda prenumerationsnivåer som Plus eller Pro.",
+        "question": "Är Sonoran Radio gratis?"
+      },
+      "guestAccess": {
+        "answer": "Ja! FiveM-communityn kan aktivera gäståtkomst med ACE-behörigheter, vilket gör att användare kan gå med utan att länka ett Sonoran-konto.",
+        "question": "Kan användare ansluta utan att skapa konton?"
+      },
+      "installTime": {
+        "answer": "Att skapa en community tar bara några sekunder! FiveM-communityn kan installera den förkonfigurerade resursen inom några minuter, eller använda RocketNodes installationsalternativ med ett klick.",
+        "question": "Hur lång tid tar det att installera Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio stöder integrationer med:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-inventarier\n-Telefonskript\n-Fordonsskärmar\n-Big Daddy-radioanimationer",
+        "question": "Vilka andra integrationer stöds?"
+      },
+      "outsideFiveM": {
+        "answer": "Ja! Sonoran Radio inkluderar fristående webb-, dator- och mobilapplikationer som låter användare och ledningscentraler ansluta för vilket spel som helst!",
+        "question": "Fungerar Sonoran Radio utanför FiveM?"
+      },
+      "title": "Vanliga frågor"
+    },
+    "fivem": {
+      "description": "Anslut Sonoran Radio direkt till GTA FiveM med FiveM-integrationen. Se alla specialfunktioner som är tillgängliga i FiveM genom integrationen.",
+      "eyebrow": "Direkt integration",
+      "heading": "Integration"
+    },
+    "hero": {
+      "subtitle": "Chatta i realistiska radiokanaler, anpassa dina ljudeffekter och anslut enkelt till funktioner i spelet för en verkligt uppslukande upplevelse.",
+      "title": "Bättre radiokommunikation börjar här"
+    },
+    "imageAlt": "{title} Bild",
     "inGameToneBoard": {
       "desc": "Sonoran Radios dispatch-UI låter dig specificera specifika kanaler och grupper, upprepa toner och mer! Du kan till och med spela toner på högtalare i spelet!",
       "title": "Tone Board till In-Game Högtalare"
     },
     "intro": "Ta din spelkommunikation till nästa nivå med Sonoran Radio. Chatta i realistiska radiokanaler, anpassa dina ljudeffekter och anslut enkelt till funktioner i spelet för en verkligt uppslukande upplevelse.",
+    "meta": {
+      "audienceType": "Spelare och communityansvariga",
+      "description": "Realistisk radiokommunikationsprogramvara för FiveM, ER:LC, Arma 3 och rollspelsgemenskaper.",
+      "keywords": "Sonoran Radio, spellradio, FiveM-radio, ER:LC-radio, Arma 3-radio, rollspelskommunikation, dispatchprogramvara, skrivbordsradioöverlägg, gratis FiveM-radio, gratis ER:LC-radio",
+      "ogTitle": "Sonoran Radio - Spelradiosamband",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Spelradiosamband",
+      "titleSuffix": "Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Sonorans mobila ledningscentral ger dig möjlighet att ta kommandot som aldrig förr. Detta unika nyttofordon öppnar upp oändliga möjligheter!",
       "title": "Mobilt kommandocenter"
@@ -309,9 +380,17 @@
       "desc": "Stoppad i en trafikkontroll? Du hör den riktiga radiotrafiken när en polis har en aktiv radio i närheten!",
       "title": "Hör radiosnack i närheten"
     },
+    "scannersAndJammers": {
+      "desc": "Skanners i spelet låter dig och andra i närheten lyssna på radiotrafik! Eller konfigurera anpassade föremål i spelet för att störa närliggande radiosignaler!",
+      "title": "Skannerar och störsändare"
+    },
     "Scanners": {
       "desc": "Skanners i spelet låter dig och andra i närheten lyssna på radiotrafik!",
       "title": "Skannrar"
+    },
+    "sections": {
+      "dispatchAdmin": "Dispatch- och adminpanel",
+      "integrations": "Integrationer"
     },
     "Sonoran_CAD": {
       "desc": "Det här tillägget låter Sonoran Radio-kunder ansluta radion till Sonoran CAD. Visa status för din enhet, dispatchsamtalsinformation, aktivera panik och mer!",
@@ -321,9 +400,14 @@
       "desc": "Automatisera Sonoran Radio-behörigheter med Sonoran CMS!",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Styr dina radiokanaler, push-to-talk, volym och mer direkt från din Stream Deck.",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "Ladda upp och anpassa dispatch-toner för din gemenskap!",
       "desc2": "Sonoran Radios dispatch-UI låter dig specificera specifika kanaler och grupper, upprepa toner och mer! Du kan till och med spela toner på högtalare i spelet!",
+      "panelTitle": "Tonal bräda",
       "title": "Tonal bräda"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "Du måste äga ditt domännamn!",
       "placeholder": "radio.example.com",
+      "removeButton": "Ta bort egen domän",
       "requiresPro": "Du måste ha en Pro-prenumeration för att ställa in en anpassad domän",
       "tryItOut": "Testa det",
       "vanityCopied": "Kopierade Vanity-URL till urklipp!",
@@ -446,6 +531,7 @@
       "customDomain": "Egen domän",
       "defaultSettings": "Standardinställningar",
       "desktopFrames": "Skrivbordsramar",
+      "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM-integration",
       "info": "Info",
       "patrolChannels": "Patrullkanaler",
@@ -460,17 +546,89 @@
     "deleteMsg": "Är du säker på att du vill ta bort denna konfiguration? Detta kommer att leda till irreversibel dataförlust.",
     "deleteServer": "Radera community",
     "deleteSuccess": "Din server har tagits bort framgångsrikt",
+    "dispatchAi": {
+      "addServer": "Lägg till server",
+      "addServerSubtitle": "Namnge radiotjänarservern som användare ska ansluta till för den här Dispatch AI-konfigurationen.",
+      "autoAddingServer": "Skapar en standardserver för det här communityt...",
+      "betaNotice": "Dispatch AI är i offentlig beta. Tjänster kan vara intermittenta medan den här funktionen fortsätter att förbättras.",
+      "cadApiKeyHint": "Finns i CAD Admin > Avancerat > In-Game Integration > Web API.",
+      "cadApiKeyRequired": "CAD API-nyckel krävs när Dispatch AI är aktiverat",
+      "cadCommunityIdRequired": "CAD-community-ID krävs när Dispatch AI är aktiverat",
+      "cadServerIdHint": "Finns i CAD Admin > Anpassning > Servrar. Standard-CAD-server-ID är 1.",
+      "cadServerIdRequired": "CAD-server-ID krävs när Dispatch AI är aktiverat",
+      "defaultServerName": "Standardserver",
+      "disabledButton": "Dispatch AI inaktiverad",
+      "dispatchAiEnabled": "Aktivera Dispatch AI",
+      "enabledButton": "Dispatch AI aktiverad",
+      "fieldRequired": "Detta fält är obligatoriskt",
+      "linkCadSubtitle": "Ange Sonoran CAD-API-informationen för den CAD-community som denna radiobas ska styra.",
+      "linkCadTitle": "Länka Sonoran CAD",
+      "miscServer": "Server {id}",
+      "pauseDisabledButton": "Behåll AI aktiv med mänskliga ledare",
+      "pauseEnabledButton": "Inaktivera AI när mänskliga ledare är aktiva",
+      "pauseWhenDispatcherActive": "Inaktivera när en mänsklig ledare är aktiv",
+      "radioServerName": "Radioservernamn",
+      "removeServer": "Ta bort server",
+      "requirements": {
+        "cadApi": "CAD-community-ID, API-nyckel och CAD-server-ID",
+        "radioServer": "En radioserver att länka med CAD, skapas automatiskt om den här communityn inte har en",
+        "title": "Innan du börjar"
+      },
+      "roomNotFound": "Server hittades inte",
+      "serverSelect": "Radioserver",
+      "steps": {
+        "cad": {
+          "body": "Kopiera Sonoran CAD-community-ID:n och API-nyckeln från CAD Admin > Advanced > In-Game Integration > Web API. Kopiera CAD-server-ID:t från CAD Admin > Customization > Servers.",
+          "title": "Kopiera Sonoran CAD-API-information"
+        },
+        "link": {
+          "body": "Välj radiobasen nedan och ange Sonoran CAD-informationen.",
+          "title": "Länka Sonoran CAD till radio"
+        },
+        "prompts": {
+          "body": "Lägg till korta exempelmeningar för hur din community pratar i etern så att Dispatch AI kan koppla lokala uttryck till rätt CAD-åtgärd.",
+          "title": "Anpassa promptfraser"
+        }
+      },
+      "subtitle": "Anslut Sonoran CAD, aktivera Dispatch AI och lär det ditt communitys radiospråk.",
+      "title": "Dispatch AI",
+      "troubleshooting": {
+        "body": "Varje användare kan granska sina senaste Dispatch AI-överföringar och lägga till ordöverskridningar för fraser som AI:n hör fel.",
+        "path": "Öppna Dispatch-panelen, välj kugghjulsikonen och öppna sedan fliken AI.",
+        "title": "Har du problem?"
+      },
+      "usage": {
+        "monthlyUsage": "Månatlig användning",
+        "resetNotice": "Gränserna för Dispatch AI-användning återställs i början av varje månad.",
+        "title": "Community-användning",
+        "upgrade": "Uppgradera gränser"
+      }
+    },
     "dispatchTab": "Dispatch",
     "emergency911": {
+      "backspace": "Radera sista siffran",
       "callBtn": "Ring 112",
+      "callingNumber": "Ringer {number}",
       "connected": "Ansluten — ditt samtal sänds till larmcentralen.",
       "connecting": "Ansluter...",
+      "dialerLabel": "Nödsamtal",
       "disconnectsDispatchHint": "Att starta ett samtal kommer att koppla från en aktiv dispatch-session i en annan flik.",
+      "dispatchers": "Larmoperatörer",
       "dispatchersTitle": "Operatörer på det här samtalet",
+      "emergencyNumber": "Nödnummer",
       "endBtn": "Avsluta samtal",
+      "enterEmergencyNumber": "Ange {number} för att ringa det här samtalet",
+      "keypad": "Knappsats",
+      "liveCall": "Pågående nödsamtal",
+      "microphoneInput": "Mikrofoningång",
+      "microphoneLive": "Mikrofon live",
+      "mute": "Tysta",
+      "readyToCall": "Redo att ringa",
       "selectRoom": "Server",
       "subtitle": "Ring 911 till larmcentralen i det här samhället.",
       "title": "Nödsamtal",
+      "unmute": "Slå på ljudet",
+      "useEmergencyNumber": "Använd {number}",
       "waitingDispatcher": "Väntar på att en larmoperatör ska svara..."
     },
     "emergency911Tab": "112-samtal",
@@ -548,19 +706,26 @@
       "ban": "Blockera",
       "banBtn": "Blockera",
       "cannotModifyPermsOfMyself": "Kan inte ändra mina egna behörigheter",
+      "copyPermissionGeneratorId": "Kopiera behörighets-ID",
       "displayName": "Visningsnamn",
       "editMemberPerms": "Redigera medlembehörigheter",
       "errAddInvalidAccount": "Det angivna användarnamnet finns inte",
       "errAddUnknown": "Ett okänt fel inträffade vid tillägg av chefen",
       "errRemoveUnknown": "Ett okänt fel inträffade vid borttagningen av chefen",
       "explainDisabled": "Endast serverägare kan lägga till eller ändra administratörer",
+      "filterActive": "Aktiv",
       "filterAll": "Alla",
+      "filterBanned": "Avstängd",
       "filterPending": "Väntande",
       "kickBtn": "Sparka",
       "owner": "Ägare",
       "ownerHasAllPerms": "Community-ägaren har alla behörigheter",
       "paysSubscription": "Betalar abonnemang",
       "pending": "Väntande",
+      "permissionGeneratorBtn": "Behörighetsgenerator",
+      "permissionGeneratorId": "Behörighets-ID",
+      "permissionGeneratorSubtitle": "Generera ett användarbehörighets-ID för extern användning.",
+      "permissionGeneratorTitle": "Behörighetsgenerator",
       "permissionsBtn": "Behörigheter",
       "privateChannels": "Privata kanaler",
       "remove": "Ta bort",
@@ -585,6 +750,7 @@
       "keyUpSfx": "Ned-tangent SFX",
       "overrideSuccessSfx": "Talkover-överskridningsljud för framgång",
       "panicSfx": "Panikknappsljud",
+      "phoneDialSfx": "Knapp-ljud för telefonuppringning",
       "sfxGameBoatEngine": "Spellätskulle motoreffektljud",
       "sfxGameHelicopterRotors": "Helikopterrotorers ljudeffekter i spelet",
       "sfxGamePistol": "In-game Pistol SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "Klicka för att redigera namnet",
       "columns": {
         "actions": "Åtgärder",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "Inaktiverad",
       "dispatchAiPause": "Inaktivera när Human Dispatch är i CAD",
       "enabled": "Aktiverad",
+      "locality": {
+        "emergencyNumber": "Nödnummer",
+        "emergencyNumberHint": "Det offentliga nödnumret som används på din orts plats.",
+        "emergencyNumberInvalid": "Ange ett nödnummer med 1 till 10 siffror.",
+        "subtitle": "Anpassa platsbaserad terminologi och beteende för det här communityt.",
+        "title": "Lokalitet"
+      },
       "openAiApiKey": "Open AI API-nyckel",
       "openAiApiKeyHint": "Ange en egen OpenAI API-nyckel för att aktivera Dispatch AI-funktioner."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "Öka en användares radio volym med denna procent när fordonets siren är aktiv.",
       "subtitle": "Konfigurera standardinställningarna för din community. Användare kan anpassa sina egna inställningar, men dessa kommer att fungera som utgångslägets standardvärden.",
       "title": "Standardinställningar",
+      "toneVoiceEffects": "Rösteffekter för tonpanel",
+      "toneVoiceEffectsDesc": "Tillämpa den valda kedjan av röst-effekter för radio när tonkortets toner spelas upp.",
       "tts": "Kanals text-till-tal",
       "ttsDesc": "Spela upp en text-till-tal-röst med kanalnamnet när du byter kanal.",
       "volChange": "Volymändring",
@@ -989,17 +1165,33 @@
     "selectServer": "Välj server",
     "setHotkeyFor": "Ställ in snabbtangent för {0}",
     "settingsDialog": {
+      "addPhraseOverride": "Lägg till frasersättning",
       "advanced": "Avancerat",
       "agentGain": "AI Volym",
       "aiRepliesOnlyMe": "Hör AI-svar bara till mig",
+      "aiRepliesOnlyMeTooltip": "Spela bara upp Dispatch AI-svar som är riktade specifikt till dig.",
+      "aiTab": "AI",
       "aiWakeWordKeyword": "AI-väckord",
       "aiWakeWordKeywordSelect": "Aktiveringsfras",
       "audioTab": "Ljud",
+      "automatic": "Auto",
       "automaticGainControlDisabled": "Automatisk förstärkningskontroll inaktiverad",
       "automaticGainControlEnabled": "Automatisk förstärkningskontroll aktiverad",
       "changingOutputsUnsupported": "Din enhet stöder inte att byta ljudutgångar",
       "channelTts": "Kanal-TTS",
+      "closeSettings": "Stäng inställningar",
+      "communityPhrases": "AI-fraser för communityn",
+      "communityPhrasesDesc": "Använd dessa specifika fraser för att tala om för AI:n vad den ska göra. Andra fraser som inte listas här kommer inte att fungera.",
+      "communityPhrasesEmpty": "Inga communityfraser är konfigurerade för det här rummet.",
+      "communityPhrasesTooltip": "Dessa fraser är konfigurerade av din communityadministratör och kan endast ändras i communityanpassning.",
+      "defaultAudioDevice": "Standard",
       "defaultOutputWarning": "Standardutgång kan göra att Windows sänker volymen i andra appar. Prova att välja en specifik enhet.",
+      "disabled": "Inaktiverad",
+      "dispatchAiLanguage": "Dispatch AI — Språk",
+      "dispatchAiLanguageLoadError": "Det gick inte att läsa in den valda Dispatch AI-språkmodellen.",
+      "dispatchAiStatus": "Dispatch AI-status",
+      "dispatchAiStatusDesc": "Dispatch AI är aktiverat av dina community-administratörer i konfigurationsmenyn.",
+      "enabled": "Aktiverad",
       "enableTransmissionRecordings": "Aktivera inspelningar av sändningar",
       "escapeMode": "Flyktläge",
       "escapeModeHide": "Dölj radio",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "Radion stängs med ESC, men är synlig vid sändning",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Hör alla AI-svar",
+      "hearAllAiRepliesTooltip": "Spela upp alla Dispatch AI-svar du kan höra på radion, inte bara svar som riktas till dig.",
       "hearScannedWhileXmit": "Hör skannade medan du sänder",
       "hotkeysTab": "Snabbtangenter",
+      "improveTranscript": "Förbättra transkriptets ord i avsnittet med åsidosättningar.",
       "keydownSfx": "Ned-tangent SFX",
       "keyupSfx": "Keyup SFX",
       "macosPermWarning": "Din enhet kan kräva ytterligare behörigheter: {link}",
       "macosPermWarningLink": "Läs om hur du ger behörigheter",
+      "monthlyUsage": "Månatlig användning",
       "moveResize": "Flytta/ändra storlek",
       "myPttSfx": "Min PTT-effekt",
       "othersPttSfx": "Andras PTT-effekt",
+      "phraseOverrides": "Frasersättningar",
+      "phraseOverridesDesc": "Ersätt vanligt felhörda ord eller korta fraser innan din transkription skickas till Dispatch AI. Dessa sparas på ditt konto.",
+      "phraseOverridesEmpty": "Inga frasersättningar har lagts till än.",
+      "phraseOverridesFind": "Hörd fras",
+      "phraseOverridesReplace": "Ersätt med",
       "privacyTab": "Sekretess",
       "pttOffDelay": "Fördröjning för PTT-av",
+      "recentAiTranscriptLabel": "Transkript {number}",
+      "recentAiTranscripts": "Nya transkriptioner",
+      "recentAiTranscriptsDesc": "De senaste förfrågningarna som Dispatch AI tog emot från dig. Använd dessa för att förbättra aktiveringens timing och diktering.",
+      "recentAiTranscriptsEmpty": "Inga nya Dispatch AI-transkriptioner än.",
       "recordWakeWord": "Spela in väckord",
       "recordWakeWordListening": "Lyssnar...",
       "resetPeerVolumes": "Återställ jämnvolymer",
       "resetSettings": "Återställ inställningar",
+      "savingPhraseOverrides": "Sparar...",
       "selectRadioFrame": "Radiaram",
       "sfxTab": "Ljudeffekter",
       "sfxVolume": "SFX Volym",
       "title": "Inställningar",
       "toggleBackgroundAudio": "Bakgrundsljud",
+      "toneVoiceEffects": "Rösteffekter för tonpanel",
       "troubleHearingInGame": "Har du svårt att höra i spelet?:",
       "unlink": "Avlänka",
+      "upgradeCommunity": "Uppgradera gemenskap",
       "voiceFxCommunity": "Community FX",
       "voiceFxEmpty": "Skapa eller importera en lokal rösteffekt för att aktivera lokal lyssning.",
       "voiceFxLocal": "Lokala effekter",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "Volymändring m/ sirener",
       "volumeHotkeyChange": "Volymändring av snabbknapp",
       "wakeWord": "Väckord (AI)",
+      "wakeWordDesc": "Väckord som används för att aktivera Dispatch AI.",
       "wakeWordListenSeconds": "Väckordslyssningssekunder",
+      "wakeWordListenSecondsTooltip": "Maximal tid som AI:n lyssnar efter väckordet när en sändning startas. Om detta sänks kan oavsiktliga AI-aktiveringar minska.",
       "wakeWordRecordNoSpeech": "Ingen tal upptäcktes. Kontrollera din mikrofon och försök igen.",
       "webHotkeyWarning": "Kortkommandon fungerar bara när webbläsarfönstret är i fokus.\n{link} för globala kortkommandon",
       "webHotkeyWarningLink": "Ladda ner skrivbordsappen"
@@ -1057,6 +1266,7 @@
       "count": "Antal",
       "deleteStack": "Radera stack",
       "generate": "Generera",
+      "infiniteRepeats": "Oändliga upprepningar",
       "inGameSpeaker": "In-Game Högtalare",
       "inGameSpeakerGroup": "In-Game Högtalargrupp",
       "loadStack": "Ladda stack (ett klick)",
@@ -1068,6 +1278,8 @@
       "recording": "Inspelning",
       "recordMic": "Spela in mikrofon",
       "repeat": "Upprepa",
+      "repeatByDefault": "Upprepa som standard",
+      "repeatCountLabel": "Standardupprepningsantal",
       "savedTab": "Sparade stackar",
       "saveStackDesc": "Namnge din tonstack",
       "saveStackTitle": "Spara stack",
@@ -1079,6 +1291,8 @@
       "title": "Tonal bräda",
       "toneLabel": "Tonetikett",
       "tonesTab": "Toner",
+      "toneWillRepeat": "Den här tonen kommer att upprepas {count} gånger när den väljs",
+      "toneWillRepeatInfinite": "Den här tonen kommer att upprepas tills vidare när den väljs",
       "voices": "Röster"
     },
     "xmitFreq": "XMIT {0}MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "Avbryt",
     "communityImage": "Community-bild",
+    "communityImageDrop": "Klicka eller dra en bild hit för att ladda upp",
     "linkSonoranCAD": "Länka Sonoran CAD",
     "linkSonoranCADDispatchAI": "Länka Sonoran CAD (Dispatch AI)",
     "serverID": "Server-ID",

@@ -81,6 +81,7 @@
     "add": "Aggiungi",
     "billing": "Fatturazione",
     "cancel": "Annulla",
+    "clickToCopy": "Clicca per copiare",
     "clipboard": "Copiato negli appunti!",
     "communityIdField": "ID comunità",
     "confirm": "Conferma",
@@ -117,6 +118,7 @@
     "select": "Seleziona",
     "signup": "Registrazione",
     "startToday": "Inizia oggi",
+    "unknownError": "Si è verificato un errore sconosciuto",
     "unlink": "Scollega",
     "upload": "Carica",
     "username": "Nome utente"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "Vai a {link} nel tuo browser per effettuare l'accesso",
     "guestLogin": "Accesso ospite",
     "guestLoginInstruction": "Accedi come ospite",
+    "loginWithAccount": "Accesso all'account",
     "loginWithCode": "Accedi con codice",
+    "openLinkButton": "Collegamento",
     "refresh": "Aggiorna",
     "unlink": "Scollega"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "Colore del testo"
   },
+  "iframeAuth": {
+    "description": "Gli accessi OAuth devono essere completati al di fuori di un frame incorporato.",
+    "stepOneDescription": "Usa il tuo telefono o browser per aprire il link di accesso.",
+    "stepOneTitle": "Scansiona il codice QR",
+    "stepTwoDescription": "Accedi a Sonoran Radio, poi inserisci questo codice a 4 cifre.",
+    "stepTwoTitle": "Inserisci il codice",
+    "title": "Accesso collegamento",
+    "waiting": "In attesa dell'approvazione dell'accesso..."
+  },
   "importExport": {
     "download": "Scarica",
     "export": "Esporta",
@@ -253,6 +266,10 @@
     "tooltip": "Importa file JSON"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "Link di installazione per le librerie ufficiali Sonoran SDK utilizzate con l'API v2.",
+      "title": "Librerie API"
+    },
     "BackgroundAudio": {
       "desc": "Stai rispondendo a una chiamata? Sonoran Radio inietta sirene in tempo reale, colpi di arma da fuoco e altro direttamente nel feed del microfono per la massima immersione.",
       "title": "Audio di Sfondo"
@@ -273,10 +290,22 @@
       "desc": "Personalizza gli effetti vocali in stile digitale e analogico per la tua community!",
       "title": "Effetti Vocali Personalizzati"
     },
+    "Desktop_Overlay": {
+      "desc": "L'overlay desktop ti consente di visualizzare la tua radio sopra qualsiasi gioco su Windows e OSX per un'esperienza immersiva.",
+      "title": "Sovrapposizione desktop"
+    },
     "Destructible_towers": {
       "desc1": "Le torri fisiche nel gioco possono essere distrutte dai criminali, il che devasterà la qualità delle radio intorno ad esse.",
       "desc2": "Con tre diversi tipi di modelli di gioco, Sonoran Radio porta l'immersione al livello successivo!",
       "title": "Torri Distruttibili"
+    },
+    "Discord": {
+      "desc": "L'integrazione Discord sincronizza i ruoli Discord con le autorizzazioni radio, rendendo semplice la gestione degli utenti.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI è la nostra integrazione più potente mai realizzata. Parla con un dispatcher AI in tempo reale via radio per creare chiamate, eseguire ricerche targhe, aggiornare il tuo stato e molto altro ancora!",
+      "title": "Dispatch AI"
     },
     "Dispatch_Panel": {
       "desc1": "Visualizza facilmente, gestisci gli utenti, riproduci suoni e altro ancora!",
@@ -287,11 +316,53 @@
       "desc": "Effettua chiamate di emergenza alla centrale, tutto dal gioco!",
       "title": "Chiamate di emergenza nel gioco"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio offre tutto il necessario per iniziare con la versione gratuita. Per comunità più grandi, alcune funzionalità avanzate (come scanner, dispatch AI, caricamenti SFX personalizzati e alcune integrazioni) richiedono livelli di abbonamento a pagamento come Plus o Pro.",
+        "question": "Sonoran Radio è gratuito?"
+      },
+      "guestAccess": {
+        "answer": "Sì! Le community FiveM possono abilitare l'accesso ospite usando le autorizzazioni ACE, consentendo agli utenti di entrare senza collegare un account Sonoran.",
+        "question": "Gli utenti possono connettersi senza creare account?"
+      },
+      "installTime": {
+        "answer": "Creare una community richiede solo pochi secondi! Le community FiveM possono installare la risorsa preconfigurata in pochi minuti, oppure usare l'opzione di installazione one-click di RocketNode.",
+        "question": "Quanto tempo ci vuole per installare Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio supporta integrazioni con:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-Inventari FiveM\n-Script telefonici\n-Display veicoli\n-Animazioni radio Big Daddy",
+        "question": "Quali altre integrazioni sono supportate?"
+      },
+      "outsideFiveM": {
+        "answer": "Sì! Sonoran Radio include applicazioni web, desktop e mobili autonome che consentono a utenti e dispatcher di connettersi per qualsiasi gioco!",
+        "question": "Sonoran Radio funziona al di fuori di FiveM?"
+      },
+      "title": "Domande frequenti"
+    },
+    "fivem": {
+      "description": "Collega Sonoran Radio direttamente a GTA FiveM con l'integrazione FiveM. Scopri tutte le funzionalità speciali accessibili all'interno di FiveM tramite l'integrazione.",
+      "eyebrow": "Integrazione diretta",
+      "heading": "Integrazione"
+    },
+    "hero": {
+      "subtitle": "Chatta in canali radio realistici, personalizza i tuoi effetti vocali e connettiti senza sforzo alle funzionalità di gioco per un'esperienza davvero coinvolgente.",
+      "title": "Comunicazioni radio migliori iniziano qui"
+    },
+    "imageAlt": "Immagine {title}",
     "inGameToneBoard": {
       "desc": "L'interfaccia di dispatcio di Sonoran Radios ti permette di specificare canali e gruppi specifici, ripetere toni e altro! Puoi persino riprodurre toni sugli altoparlanti di gioco!",
       "title": "Scheda tono per altoparlanti di gioco"
     },
     "intro": "Porta la tua comunicazione di gioco a un livello superiore con Sonoran Radio. Chatta in       canali radio realistici, personalizza i tuoi effetti vocali e connettiti senza sforzo alle funzionalità di gioco per un'esperienza davvero  coinvolgente.",
+    "meta": {
+      "audienceType": "Giocatori e Community Manager",
+      "description": "Software realistico per comunicazioni radio per FiveM, ER:LC, Arma 3 e comunità di roleplay.",
+      "keywords": "Sonoran Radio, radio per gaming, radio per FiveM, radio per ER:LC, radio per Arma 3, comunicazioni roleplay, software di dispatch, overlay radio desktop, radio gratuita per FiveM, radio gratuita per ER:LC",
+      "ogTitle": "Sonoran Radio - Comunicazioni radio per il gaming",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Comunicazioni radio per il gaming",
+      "titleSuffix": "Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Il centro di comando mobile Sonorans ti consente di prendere il comando come mai prima d'ora. Questo veicolo utilitario unico nel suo genere offre possibilità infinite!",
       "title": "Centro di comando mobile"
@@ -309,9 +380,17 @@
       "desc": "Fermato in un controllo stradale? Ascolterai il vero traffico radio quando un agente ha una radio attiva nelle vicinanze!",
       "title": "Ascolta i rumori radio nelle vicinanze"
     },
+    "scannersAndJammers": {
+      "desc": "Gli scanner di gioco consentono a te e agli altri nelle vicinanze di ascoltare il traffico radio! Oppure configura oggetti di gioco personalizzati per disturbare i segnali radio nelle vicinanze!",
+      "title": "Scanner e Jammer"
+    },
     "Scanners": {
       "desc": "Gli scanner di gioco consentono a te e agli altri nelle vicinanze di ascoltare il traffico radio!",
       "title": "Scanner"
+    },
+    "sections": {
+      "dispatchAdmin": "Pannello Dispatch e Admin",
+      "integrations": "Integrazioni"
     },
     "Sonoran_CAD": {
       "desc": "Questo plugin consente ai clienti Sonoran Radio di collegare la radio con Sonoran CAD. Visualizza lo stato della tua unità, le informazioni sulle chiamate di dispatch, attiva un panico e altro ancora!",
@@ -321,9 +400,14 @@
       "desc": "Automatizza i permessi di Sonoran Radio con Sonoran CMS!",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Controlla i tuoi canali radio, il push-to-talk, il volume e altro direttamente dal tuo Stream Deck.",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "Carica e personalizza i toni di dispatch per la tua comunità!",
       "desc2": "L'interfaccia di dispatcio di Sonoran Radios ti permette di specificare canali e gruppi specifici, ripetere toni e altro! Puoi persino riprodurre toni sugli altoparlanti di gioco!",
+      "panelTitle": "Tone Board",
       "title": "Toneboard"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "Devi possedere il tuo nome di dominio!",
       "placeholder": "radio.example.com",
+      "removeButton": "Rimuovi dominio personalizzato",
       "requiresPro": "Devi avere un abbonamento Pro per impostare un dominio personalizzato",
       "tryItOut": "Provalo",
       "vanityCopied": "URL vanity copiata negli appunti!",
@@ -446,6 +531,7 @@
       "customDomain": "Dominio personalizzato",
       "defaultSettings": "Impostazioni Predefinite",
       "desktopFrames": "Cornici del desktop",
+      "dispatchAi": "Dispatch AI",
       "fivemIntegration": "Integrazione FiveM",
       "info": "Info",
       "patrolChannels": "Canali di pattuglia",
@@ -460,17 +546,89 @@
     "deleteMsg": "Sei sicuro di voler eliminare questa configurazione? Ciò comporterà una perdita di dati irreversibile.",
     "deleteServer": "Elimina Comunità",
     "deleteSuccess": "Il tuo server è stato eliminato con successo",
+    "dispatchAi": {
+      "addServer": "Aggiungi Server",
+      "addServerSubtitle": "Assegna un nome al server radio a cui gli utenti si connetteranno per questa configurazione di Dispatch AI.",
+      "autoAddingServer": "Creazione di un server predefinito per questa community...",
+      "betaNotice": "Dispatch AI è in beta pubblica. I servizi potrebbero essere intermittenti mentre questa funzionalità continua a migliorare.",
+      "cadApiKeyHint": "Trovato in CAD Admin > Avanzate > Integrazione in gioco > Web API.",
+      "cadApiKeyRequired": "La chiave API CAD è richiesta quando Dispatch AI è abilitato",
+      "cadCommunityIdRequired": "L'ID della community CAD è richiesto quando Dispatch AI è abilitato",
+      "cadServerIdHint": "Trovato in CAD Admin > Personalizzazione > Server. L'ID predefinito del server CAD è 1.",
+      "cadServerIdRequired": "L'ID del server CAD è richiesto quando Dispatch AI è abilitato",
+      "defaultServerName": "Server predefinito",
+      "disabledButton": "Dispatch AI Disabilitato",
+      "dispatchAiEnabled": "Abilita Dispatch AI",
+      "enabledButton": "Dispatch AI Abilitato",
+      "fieldRequired": "Questo campo è obbligatorio",
+      "linkCadSubtitle": "Inserisci le informazioni API di Sonoran CAD per la community CAD che questo server radio dovrebbe controllare.",
+      "linkCadTitle": "Collega Sonoran CAD",
+      "miscServer": "Server {id}",
+      "pauseDisabledButton": "Mantieni l'IA attiva con i dispatcher umani",
+      "pauseEnabledButton": "Disattiva l'IA quando i dispatcher umani sono attivi",
+      "pauseWhenDispatcherActive": "Disattiva quando un dispatcher umano è attivo",
+      "radioServerName": "Nome Server Radio",
+      "removeServer": "Rimuovi server",
+      "requirements": {
+        "cadApi": "ID community CAD, chiave API e ID server CAD",
+        "radioServer": "Un server radio da collegare a CAD, creato automaticamente se questa community non ne ha uno",
+        "title": "Prima di iniziare"
+      },
+      "roomNotFound": "Server non trovato",
+      "serverSelect": "Server Radio",
+      "steps": {
+        "cad": {
+          "body": "Copia l'ID della community Sonoran CAD e la chiave API da CAD Admin > Advanced > In-Game Integration > Web API. Copia l'ID del server CAD da CAD Admin > Customization > Servers.",
+          "title": "Copia le informazioni API di Sonoran CAD"
+        },
+        "link": {
+          "body": "Seleziona il server radio qui sotto e inserisci le informazioni di Sonoran CAD.",
+          "title": "Collega Sonoran CAD alla radio"
+        },
+        "prompts": {
+          "body": "Aggiungi brevi frasi di esempio per il modo in cui la tua community parla via radio così Dispatch AI può associare le espressioni locali all'azione CAD corretta.",
+          "title": "Personalizza le frasi del prompt"
+        }
+      },
+      "subtitle": "Connetti Sonoran CAD, abilita Dispatch AI e insegnagli il linguaggio radio della tua community.",
+      "title": "Dispatch AI",
+      "troubleshooting": {
+        "body": "Ogni utente può rivedere le proprie trasmissioni recenti di Dispatch AI e aggiungere sostituzioni di parole per le frasi che l'IA interpreta male.",
+        "path": "Apri il pannello Dispatch, seleziona l'icona a ingranaggio, poi apri la scheda AI.",
+        "title": "Hai difficoltà?"
+      },
+      "usage": {
+        "monthlyUsage": "Utilizzo mensile",
+        "resetNotice": "I limiti di utilizzo di Dispatch AI si azzerano all'inizio di ogni mese.",
+        "title": "Utilizzo comunità",
+        "upgrade": "Passa ai limiti superiori"
+      }
+    },
     "dispatchTab": "Dispatch",
     "emergency911": {
+      "backspace": "Elimina l'ultima cifra",
       "callBtn": "Chiama il 911",
+      "callingNumber": "Chiamata {number}",
       "connected": "Connesso — la tua chiamata viene trasmessa ai centralinisti.",
       "connecting": "Connessione...",
+      "dialerLabel": "Combinatore di emergenza",
       "disconnectsDispatchHint": "Avviare una chiamata disconnetterà qualsiasi sessione di dispatch attiva in un'altra scheda.",
+      "dispatchers": "Dispatcher",
       "dispatchersTitle": "Operatori in questa chiamata",
+      "emergencyNumber": "Numero di emergenza",
       "endBtn": "Termina chiamata",
+      "enterEmergencyNumber": "Inserisci {number} per effettuare questa chiamata",
+      "keypad": "Tastierino",
+      "liveCall": "Chiamata di emergenza in diretta",
+      "microphoneInput": "Ingresso microfono",
+      "microphoneLive": "Microfono attivo",
+      "mute": "Disattiva audio",
+      "readyToCall": "Pronto a chiamare",
       "selectRoom": "Server",
       "subtitle": "Effettua una chiamata al 911 ai centralinisti di questa comunità.",
       "title": "Chiamata di emergenza",
+      "unmute": "Riattiva audio",
+      "useEmergencyNumber": "Usa {number}",
       "waitingDispatcher": "In attesa che un operatore risponda..."
     },
     "emergency911Tab": "Chiamata al 911",
@@ -548,19 +706,26 @@
       "ban": "Blocca",
       "banBtn": "Blocca",
       "cannotModifyPermsOfMyself": "Impossibile modificare i miei permessi",
+      "copyPermissionGeneratorId": "Copia ID permesso",
       "displayName": "Nome visualizzato",
       "editMemberPerms": "Modifica permessi membro",
       "errAddInvalidAccount": "Il nome utente fornito non esiste",
       "errAddUnknown": "Si è verificato un errore sconosciuto mentre si aggiungeva il gestore",
       "errRemoveUnknown": "Si è verificato un errore sconosciuto mentre si rimuoveva il gestore",
       "explainDisabled": "Solo i proprietari del server possono aggiungere o modificare i manager",
+      "filterActive": "Attivo",
       "filterAll": "Tutti",
+      "filterBanned": "Bannato",
       "filterPending": "In attesa",
       "kickBtn": "Espelli",
       "owner": "Proprietario",
       "ownerHasAllPerms": "Il proprietario della community ha tutti i permessi",
       "paysSubscription": "Paga abbonamento",
       "pending": "In attesa",
+      "permissionGeneratorBtn": "Generatore di permessi",
+      "permissionGeneratorId": "ID Permesso",
+      "permissionGeneratorSubtitle": "Genera un ID di autorizzazione utente per uso esterno.",
+      "permissionGeneratorTitle": "Generatore di permessi",
       "permissionsBtn": "Permessi",
       "privateChannels": "Canali privati",
       "remove": "Rimuovi",
@@ -585,6 +750,7 @@
       "keyUpSfx": "SFX rilascio tasto",
       "overrideSuccessSfx": "SFX di successo dell'override del sovrapporsi",
       "panicSfx": "Effetto sonoro pulsante panico",
+      "phoneDialSfx": "Effetto sonoro pulsante tastierino telefono",
       "sfxGameBoatEngine": "SFX motore barca nel gioco",
       "sfxGameHelicopterRotors": "SFX rotori elicottero nel gioco",
       "sfxGamePistol": "SFX Pistola In-Game",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "Fai clic per modificare il nome",
       "columns": {
         "actions": "Azioni",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "Disabilitato",
       "dispatchAiPause": "Disattiva quando l'assegnazione manuale è in CAD",
       "enabled": "Abilitato",
+      "locality": {
+        "emergencyNumber": "Numero di emergenza",
+        "emergencyNumberHint": "Il numero di emergenza pubblico usato nella località della tua comunità.",
+        "emergencyNumberInvalid": "Inserisci un numero di emergenza usando da 1 a 10 cifre.",
+        "subtitle": "Personalizza la terminologia e il comportamento specifici della località per questa community.",
+        "title": "Località"
+      },
       "openAiApiKey": "Chiave API OpenAI",
       "openAiApiKeyHint": "Fornisci una chiave API OpenAI personale per abilitare le funzionalità AI di Dispatch."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "Aumenta del presente percentuale il volume della radio di un utente quando la sirena del suo veicolo è attiva.",
       "subtitle": "Configura le impostazioni predefinite per la tua community. Gli utenti possono personalizzare le proprie preferenze, ma queste serviranno come valori predefiniti iniziali.",
       "title": "Impostazioni Predefinite",
+      "toneVoiceEffects": "Effetti vocali Tone Board",
+      "toneVoiceEffectsDesc": "Applica la catena di effetti vocale radio selezionata quando vengono riprodotti i toni della scheda tono.",
       "tts": "Canale testo-a-voce",
       "ttsDesc": "Riproduci una voce text-to-speech del nome del canale quando cambi canale.",
       "volChange": "Cambio Volume",
@@ -989,17 +1165,33 @@
     "selectServer": "Seleziona Server",
     "setHotkeyFor": "Imposta tasto di scelta rapida per {0}",
     "settingsDialog": {
+      "addPhraseOverride": "Aggiungi sostituzione frase",
       "advanced": "Avanzato",
       "agentGain": "Volume IA",
       "aiRepliesOnlyMe": "Ascolta le risposte AI solo per me",
+      "aiRepliesOnlyMeTooltip": "Riproduci solo le risposte di Dispatch AI indirizzate specificamente a te.",
+      "aiTab": "IA",
       "aiWakeWordKeyword": "Parola di attivazione AI",
       "aiWakeWordKeywordSelect": "Frase di attivazione",
       "audioTab": "Audio",
+      "automatic": "Auto",
       "automaticGainControlDisabled": "Controllo automatico del guadagno disabilitato",
       "automaticGainControlEnabled": "Controllo automatico del guadagno abilitato",
       "changingOutputsUnsupported": "Il tuo dispositivo non supporta la modifica delle uscite audio",
       "channelTts": "Canale TTS",
+      "closeSettings": "Chiudi impostazioni",
+      "communityPhrases": "Frasi IA della community",
+      "communityPhrasesDesc": "Usa queste frasi specifiche per dire all'IA cosa fare. Altre frasi non elencate qui non funzioneranno.",
+      "communityPhrasesEmpty": "Nessuna frase della community è configurata per questa stanza.",
+      "communityPhrasesTooltip": "Queste frasi sono configurate dall'amministratore della tua comunità e possono essere modificate solo nella personalizzazione della comunità.",
+      "defaultAudioDevice": "Predefinito",
       "defaultOutputWarning": "L'uscita predefinita può far abbassare a Windows il volume di altre app. Prova a selezionare un dispositivo specifico.",
+      "disabled": "Disabilitato",
+      "dispatchAiLanguage": "Dispatch AI — Lingua",
+      "dispatchAiLanguageLoadError": "Impossibile caricare il modello linguistico Dispatch AI selezionato.",
+      "dispatchAiStatus": "Stato di Dispatch AI",
+      "dispatchAiStatusDesc": "Dispatch AI è abilitato dagli amministratori della tua community nel menu di configurazione.",
+      "enabled": "Abilitato",
       "enableTransmissionRecordings": "Abilita le registrazioni della trasmissione",
       "escapeMode": "Modalità escape",
       "escapeModeHide": "Nascondi Radio",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "La radio si chiude con ESC, ma è visibile durante la trasmissione",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Ascolta tutte le risposte AI",
+      "hearAllAiRepliesTooltip": "Riproduci tutte le risposte AI di Dispatch che puoi sentire sulla radio, non solo le risposte indirizzate a te.",
       "hearScannedWhileXmit": "Ascolta scansioni mentre trasmetti",
       "hotkeysTab": "Scorciatoie da tastiera",
+      "improveTranscript": "Migliora le parole della trascrizione nella sezione delle sostituzioni.",
       "keydownSfx": "SFX pressione tasto",
       "keyupSfx": "SFX rilascio tasto",
       "macosPermWarning": "Il tuo dispositivo potrebbe richiedere autorizzazioni aggiuntive: {link}",
       "macosPermWarningLink": "Scopri come concedere le autorizzazioni",
+      "monthlyUsage": "Utilizzo mensile",
       "moveResize": "Sposta/Ridimensiona",
       "myPttSfx": "Il mio PTT SFX",
       "othersPttSfx": "SFX PTT degli Altri",
+      "phraseOverrides": "Sostituzioni delle frasi",
+      "phraseOverridesDesc": "Sostituisci parole o brevi frasi comunemente fraintese prima che la tua trascrizione venga inviata a Dispatch AI. Queste vengono salvate nel tuo account.",
+      "phraseOverridesEmpty": "Nessuna sostituzione delle frasi aggiunta ancora.",
+      "phraseOverridesFind": "Frase ascoltata",
+      "phraseOverridesReplace": "Sostituisci con",
       "privacyTab": "Privacy",
       "pttOffDelay": "Ritardo spegnimento PTT",
+      "recentAiTranscriptLabel": "Trascrizione {number}",
+      "recentAiTranscripts": "Trascrizioni recenti",
+      "recentAiTranscriptsDesc": "Le ultime richieste che Dispatch AI ha ricevuto da te. Usale per migliorare il timing della parola di attivazione e la dettatura.",
+      "recentAiTranscriptsEmpty": "Nessuna trascrizione Dispatch AI recente ancora.",
       "recordWakeWord": "Registra parola di attivazione",
       "recordWakeWordListening": "In ascolto...",
       "resetPeerVolumes": "Reimposta volumi dei pari",
       "resetSettings": "Reimposta impostazioni",
+      "savingPhraseOverrides": "Salvataggio...",
       "selectRadioFrame": "Cornice radio",
       "sfxTab": "Effetti sonori",
       "sfxVolume": "Volume SFX",
       "title": "Impostazioni",
       "toggleBackgroundAudio": "Audio di Sfondo",
+      "toneVoiceEffects": "Effetti vocali Tone board",
       "troubleHearingInGame": "Hai difficoltà a sentire nel gioco?:",
       "unlink": "Scollega",
+      "upgradeCommunity": "Aggiorna community",
       "voiceFxCommunity": "FX comunità",
       "voiceFxEmpty": "Crea o importa un effetto vocale locale per abilitare l'ascolto locale.",
       "voiceFxLocal": "FX locali",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "Cambio Volume con Sirene",
       "volumeHotkeyChange": "Cambio Volume Tasto Rapido",
       "wakeWord": "Parola di attivazione (AI)",
+      "wakeWordDesc": "Parola di attivazione usata per attivare Dispatch AI.",
       "wakeWordListenSeconds": "Secondi di ascolto della parola di attivazione",
+      "wakeWordListenSecondsTooltip": "Tempo massimo per cui l'IA ascolterà la parola di attivazione all'inizio di una trasmissione. Ridurlo può diminuire le attivazioni accidentali dell'IA.",
       "wakeWordRecordNoSpeech": "Nessun parlato rilevato. Controlla il microfono e riprova.",
       "webHotkeyWarning": "Le scorciatoie funzionano solo quando la finestra del browser è attiva.\n{link} per le scorciatoie globali",
       "webHotkeyWarningLink": "Scarica l'app desktop"
@@ -1057,6 +1266,7 @@
       "count": "Conteggio",
       "deleteStack": "Elimina stack",
       "generate": "Genera",
+      "infiniteRepeats": "Ripetizioni infinite",
       "inGameSpeaker": "Altoparlante di gioco",
       "inGameSpeakerGroup": "Gruppo altoparlante di gioco",
       "loadStack": "Carica stack (clic singolo)",
@@ -1068,6 +1278,8 @@
       "recording": "Registrazione",
       "recordMic": "Registra microfono",
       "repeat": "Ripeti",
+      "repeatByDefault": "Ripeti per impostazione predefinita",
+      "repeatCountLabel": "Numero di ripetizioni predefinito",
       "savedTab": "Stack salvati",
       "saveStackDesc": "Assegna un nome alla tua pila di toni",
       "saveStackTitle": "Salva Stack",
@@ -1079,6 +1291,8 @@
       "title": "Tone Board",
       "toneLabel": "Etichetta tono",
       "tonesTab": "Toni",
+      "toneWillRepeat": "Questo tono si ripeterà {count} volte quando selezionato",
+      "toneWillRepeatInfinite": "Questo tono si ripeterà indefinitamente quando selezionato",
       "voices": "Voci"
     },
     "xmitFreq": "XMIT {0}MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "Annulla",
     "communityImage": "Immagine comunità",
+    "communityImageDrop": "Fai clic o trascina un'immagine qui per caricarla",
     "linkSonoranCAD": "Collega Sonoran CAD",
     "linkSonoranCADDispatchAI": "Collega Sonoran CAD (Dispatch AI)",
     "serverID": "ID server",

@@ -81,6 +81,7 @@
     "add": "Tilføj",
     "billing": "Fakturering",
     "cancel": "Annuller",
+    "clickToCopy": "Klik for at kopiere",
     "clipboard": "Kopieret til udklipsholder!",
     "communityIdField": "Community ID",
     "confirm": "Bekræft",
@@ -117,6 +118,7 @@
     "select": "Vælg",
     "signup": "Tilmelding",
     "startToday": "Start i dag",
+    "unknownError": "Der opstod en ukendt fejl",
     "unlink": "Frakobl",
     "upload": "Upload",
     "username": "Brugernavn"
@@ -215,7 +217,9 @@
     "browserLoginInstruction": "Gå til {link} i din browser for at logge ind",
     "guestLogin": "Gæstelogin",
     "guestLoginInstruction": "Log ind som gæst",
+    "loginWithAccount": "Konto-login",
     "loginWithCode": "Log ind med kode",
+    "openLinkButton": "Link",
     "refresh": "Opdater",
     "unlink": "Frakobl"
   },
@@ -244,6 +248,15 @@
     },
     "textColorLabel": "Tekstfarve"
   },
+  "iframeAuth": {
+    "description": "Oauth-logins skal gennemføres uden for en indlejret ramme.",
+    "stepOneDescription": "Brug din telefon eller browser til at åbne loginlinket.",
+    "stepOneTitle": "Scan QR-koden",
+    "stepTwoDescription": "Log ind på Sonoran Radio, og indtast derefter denne 4-cifrede kode.",
+    "stepTwoTitle": "Indtast koden",
+    "title": "Link Login",
+    "waiting": "Venter på login-godkendelse..."
+  },
   "importExport": {
     "download": "Download",
     "export": "Eksportér",
@@ -253,6 +266,10 @@
     "tooltip": "Importér JSON-fil"
   },
   "landingPage": {
+    "API_Libraries": {
+      "desc": "Installationslinks til de officielle Sonoran SDK-biblioteker, der bruges med v2 API'et.",
+      "title": "API-biblioteker"
+    },
     "BackgroundAudio": {
       "desc": "Svarer du på et opkald? Sonoran Radio injicerer sirener, skud og mere i realtid direkte ind i dit mikrofonfeed for den ultimative indlevelse.",
       "title": "Baggrundslyd"
@@ -273,10 +290,22 @@
       "desc": "Tilpas digitale og analoge stemmeeffekter til din community!",
       "title": "Brugerdefinerede stemmeeffekter"
     },
+    "Desktop_Overlay": {
+      "desc": "Desktop-overlayet giver dig mulighed for at se din radio oven på ethvert spil på Windows og OSX for en mere fordybende oplevelse.",
+      "title": "Skrivebords-overlay"
+    },
     "Destructible_towers": {
       "desc1": "De fysiske tårne i spillet kan ødelægges af kriminelle, hvilket vil ødelægge kvaliteten af radioerne omkring dem.",
       "desc2": "Med tre forskellige in-game modeltyper tager Sonoran Radio fordybelsen til næste niveau!",
       "title": "Ødelæggelige tårne"
+    },
+    "Discord": {
+      "desc": "Discord-integration synkroniserer Discord-roller med radiotilladelser, hvilket gør brugerstyring nemt.",
+      "title": "Discord"
+    },
+    "Dispatch_AI": {
+      "desc": "Dispatch AI er vores mest kraftfulde integration nogensinde. Tal med en levende AI-dispatcher over radioen for at oprette opkald, køre nummerpladeopslag, opdatere din status og meget mere!",
+      "title": "Dispatch AI"
     },
     "Dispatch_Panel": {
       "desc1": "Visualiser nemt, administrer brugere, afspil toner og mere!",
@@ -287,11 +316,53 @@
       "desc": "Foretag nødopkald til alarmcentralen, alt sammen fra spillet!",
       "title": "Nødopkald i spillet"
     },
+    "faq": {
+      "free": {
+        "answer": "Sonoran Radio tilbyder alt, hvad der er nødvendigt for at komme i gang i gratisversionen. For større fællesskaber kræver nogle avancerede funktioner (såsom scannere, AI-dispatch, brugerdefinerede SFX-uploads og visse integrationer) betalte abonnementsniveauer som Plus eller Pro.",
+        "question": "Er Sonoran Radio gratis?"
+      },
+      "guestAccess": {
+        "answer": "Ja! FiveM-fællesskaber kan aktivere gæsteadgang ved hjælp af ACE-tilladelser, så brugere kan deltage uden at linke en Sonoran-konto.",
+        "question": "Kan brugere oprette forbindelse uden at oprette konti?"
+      },
+      "installTime": {
+        "answer": "Det tager kun få sekunder at oprette et fællesskab! FiveM-fællesskaber kan installere den forudkonfigurerede ressource på få minutter eller bruge RocketNode-installationsmuligheden med ét klik.",
+        "question": "Hvor lang tid tager det at installere Sonoran Radio?"
+      },
+      "integrations": {
+        "answer": "Sonoran Radio understøtter integrationer med:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-inventarer\n-Telefonscripts\n-Køretøjsdisplays\n-Big Daddy radioanimationer",
+        "question": "Hvilke andre integrationer understøttes?"
+      },
+      "outsideFiveM": {
+        "answer": "Ja! Sonoran Radio inkluderer selvstændige web-, desktop- og mobilapps, der gør det muligt for brugere og dispatchere at forbinde til ethvert spil!",
+        "question": "Fungerer Sonoran Radio uden for FiveM?"
+      },
+      "title": "Ofte stillede spørgsmål"
+    },
+    "fivem": {
+      "description": "Forbind Sonoran Radio direkte til GTA FiveM med FiveM-integrationen. Se alle de særlige funktioner, der er tilgængelige i FiveM via integrationen.",
+      "eyebrow": "Direkte integration",
+      "heading": "integration"
+    },
+    "hero": {
+      "subtitle": "Chat i realistiske radiokanaler, tilpas dine stemmeeffekter, og forbind dig ubesværet med funktioner i spillet for en virkelig medrivende oplevelse.",
+      "title": "Bedre radiokommunikation starter her"
+    },
+    "imageAlt": "{title} Billede",
     "inGameToneBoard": {
       "desc": "Sonoran Radios dispatch UI giver dig mulighed for at specificere specifikke kanaler og grupper, gentage toner og mere! Du kan endda afspille toner på in-game højttalere!",
       "title": "Tone Board til In-Game Højttalere"
     },
     "intro": "Tag din gamingkommunikation til næste niveau med Sonoran Radio. Chat i realistiske radiokanaler, tilpas dine stemmeeffekter, og forbind dig ubesværet med funktioner i spillet for en virkelig medrivende oplevelse.",
+    "meta": {
+      "audienceType": "Gamere og community managers",
+      "description": "Realistisk radiosoftware til kommunikation for FiveM, ER:LC, Arma 3 og rollespilssamfund.",
+      "keywords": "Sonoran Radio, gaming radio, FiveM-radio, ER:LC-radio, Arma 3-radio, rollespilskommunikation, dispatch-software, skrivebordsradiooverlay, gratis FiveM-radio, gratis ER:LC-radio",
+      "ogTitle": "Sonoran Radio - Gaming Radiokommunikation",
+      "productName": "Sonoran Radio",
+      "title": "Sonoran Radio - Gaming Radiokommunikation",
+      "titleSuffix": "Sonoran Software Systems"
+    },
     "mobileCommandCenter": {
       "desc": "Sonorans mobile kommandocenter giver dig mulighed for at tage kommandoen som aldrig før. Dette enestående specialkøretøj giver uendelige muligheder!",
       "title": "Mobilt kommandocenter"
@@ -309,9 +380,17 @@
       "desc": "Stoppet i en færdselskontrol? Du vil høre den ægte radiotrafik, når en betjent har en aktiv radio i nærheden!",
       "title": "Hør radiotrafik i nærheden"
     },
+    "scannersAndJammers": {
+      "desc": "Scannere i spillet giver dig og andre i nærheden mulighed for at lytte med på radiotrafik! Eller konfigurér brugerdefinerede genstande i spillet til at jamme nærliggende radiosignaler!",
+      "title": "Scannere og jammere"
+    },
     "Scanners": {
       "desc": "Scannere i spillet giver dig og andre i nærheden mulighed for at lytte med på radiotrafik!",
       "title": "Scannere"
+    },
+    "sections": {
+      "dispatchAdmin": "Dispatch- og adminpanel",
+      "integrations": "integrationer"
     },
     "Sonoran_CAD": {
       "desc": "Denne plugin giver Sonoran Radio-kunder mulighed for at forbinde radioen med Sonoran CAD. Se din enhedsstatus, afsend opkaldsoplysninger, slå panik til og mere!",
@@ -321,9 +400,14 @@
       "desc": "Automatisér Sonoran Radio-tilladelser med Sonoran CMS!",
       "title": "Sonoran CMS"
     },
+    "Streamdeck": {
+      "desc": "Styr dine radiokanaler, push-to-talk, lydstyrke og mere direkte fra din Stream Deck.",
+      "title": "Stream Deck"
+    },
     "ToneBoard": {
       "desc1": "Upload og tilpas dispatch toner til din community!",
       "desc2": "Sonoran Radios dispatch UI giver dig mulighed for at specificere specifikke kanaler og grupper, gentage toner og mere! Du kan endda spille toner på in-game højttalere!",
+      "panelTitle": "Tone Board",
       "title": "Toneboard"
     },
     "Transmission_Logs": {
@@ -402,6 +486,7 @@
       },
       "ownershipHint": "Du skal eje dit domænenavn!",
       "placeholder": "radio.example.com",
+      "removeButton": "Fjern brugerdefineret domæne",
       "requiresPro": "Du skal have et Pro-abonnement for at konfigurere et brugerdefineret domæne",
       "tryItOut": "Prøv det",
       "vanityCopied": "Kopieret Vanity-URL til udklipsholder!",
@@ -446,6 +531,7 @@
       "customDomain": "Brugerdefineret domæne",
       "defaultSettings": "Standard Indstillinger",
       "desktopFrames": "Skrivebordsrammer",
+      "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM-integration",
       "info": "Info",
       "patrolChannels": "Patruljekanaler",
@@ -460,17 +546,89 @@
     "deleteMsg": "Er du sikker på, at du vil slette denne konfiguration? Dette vil resultere i irreversibelt datatab.",
     "deleteServer": "Slet Community",
     "deleteSuccess": "Din server blev succesfuldt slettet",
+    "dispatchAi": {
+      "addServer": "Tilføj Server",
+      "addServerSubtitle": "Navngiv radioserveren, som brugerne vil oprette forbindelse til for denne Dispatch AI-konfiguration.",
+      "autoAddingServer": "Opretter en standardserver for dette community...",
+      "betaNotice": "Dispatch AI er i offentlig beta. Tjenester kan være ustabile, mens denne funktion fortsætter med at blive forbedret.",
+      "cadApiKeyHint": "Findes i CAD Admin > Avanceret > In-Game Integration > Web API.",
+      "cadApiKeyRequired": "CAD API-nøgle er påkrævet, når Dispatch AI er aktiveret",
+      "cadCommunityIdRequired": "CAD community-ID er påkrævet, når Dispatch AI er aktiveret",
+      "cadServerIdHint": "Findes i CAD Admin > Tilpasning > Servere. Standard CAD-server-id er 1.",
+      "cadServerIdRequired": "CAD-server-ID er påkrævet, når Dispatch AI er aktiveret",
+      "defaultServerName": "Standardserver",
+      "disabledButton": "Dispatch AI deaktiveret",
+      "dispatchAiEnabled": "Aktivér Dispatch AI",
+      "enabledButton": "Dispatch AI aktiveret",
+      "fieldRequired": "Dette felt er påkrævet",
+      "linkCadSubtitle": "Indtast Sonoran CAD API-oplysningerne for det CAD-fællesskab, som denne radio-server skal styre.",
+      "linkCadTitle": "Knyt Sonoran CAD",
+      "miscServer": "Server {id}",
+      "pauseDisabledButton": "Behold AI aktiv med menneskelige disponenter",
+      "pauseEnabledButton": "Deaktiver AI, når menneskelige disponenter er aktive",
+      "pauseWhenDispatcherActive": "Deaktiver, når en menneskelig disponent er aktiv",
+      "radioServerName": "Radiostationsnavn",
+      "removeServer": "Fjern server",
+      "requirements": {
+        "cadApi": "CAD-fællesskabs-ID, API-nøgle og CAD-server-ID",
+        "radioServer": "En radioserver til at linke med CAD, oprettet automatisk hvis dette community ikke har en",
+        "title": "Før du starter"
+      },
+      "roomNotFound": "Server ikke fundet",
+      "serverSelect": "Radiostation",
+      "steps": {
+        "cad": {
+          "body": "Kopiér Sonoran CAD-fællesskabs-ID'et og API-nøglen fra CAD Admin > Advanced > In-Game Integration > Web API. Kopiér CAD-server-ID'et fra CAD Admin > Customization > Servers.",
+          "title": "Kopiér Sonoran CAD API-oplysninger"
+        },
+        "link": {
+          "body": "Vælg radio-serveren nedenfor, og indtast Sonoran CAD-oplysningerne.",
+          "title": "Knyt Sonoran CAD til radio"
+        },
+        "prompts": {
+          "body": "Tilføj korte eksempelsætninger for den måde, dit community taler over luften, så Dispatch AI kan mappe det lokale ordvalg til den rigtige CAD-handling.",
+          "title": "Tilpas promptfraser"
+        }
+      },
+      "subtitle": "Forbind Sonoran CAD, aktivér Dispatch AI, og lær det dit fællesskabs radiosprog.",
+      "title": "Dispatch AI",
+      "troubleshooting": {
+        "body": "Hver bruger kan gennemgå deres seneste Dispatch AI-overførsler og tilføje ordtilsidesættelser for fraser, som AI'en hører forkert.",
+        "path": "Åbn Dispatch-panelet, vælg tandhjulsikonet, og åbn derefter AI-fanen.",
+        "title": "Har du problemer?"
+      },
+      "usage": {
+        "monthlyUsage": "Månedligt forbrug",
+        "resetNotice": "Dispatch AI-brugsgrænser nulstilles ved begyndelsen af hver måned.",
+        "title": "Community-forbrug",
+        "upgrade": "Opgrader grænser"
+      }
+    },
     "dispatchTab": "Dispatch",
     "emergency911": {
+      "backspace": "Slet sidste ciffer",
       "callBtn": "Ring 112",
+      "callingNumber": "Ringer til {number}",
       "connected": "Forbundet — dit opkald sendes til alarmcentralen.",
       "connecting": "Opretter forbindelse...",
+      "dialerLabel": "Nødopkald",
       "disconnectsDispatchHint": "At starte et opkald vil afbryde enhver aktiv dispatch-session i en anden fane.",
+      "dispatchers": "Dispatchere",
       "dispatchersTitle": "Operatører på dette opkald",
+      "emergencyNumber": "Nødnummer",
       "endBtn": "Afslut opkald",
+      "enterEmergencyNumber": "Indtast {number} for at foretage dette opkald",
+      "keypad": "Tastatur",
+      "liveCall": "Live nødopkald",
+      "microphoneInput": "Mikrofonindgang",
+      "microphoneLive": "Mikrofon live",
+      "mute": "Slå fra",
+      "readyToCall": "Klar til at ringe",
       "selectRoom": "Server",
       "subtitle": "Foretag et 911-opkald til alarmcentralen i dette lokalsamfund.",
       "title": "Nødopkald",
+      "unmute": "Slå lyden til",
+      "useEmergencyNumber": "Brug {number}",
       "waitingDispatcher": "Venter på, at en dispatcher svarer..."
     },
     "emergency911Tab": "Ring 112",
@@ -548,19 +706,26 @@
       "ban": "Udeluk",
       "banBtn": "Udeluk",
       "cannotModifyPermsOfMyself": "Kan ikke ændre mine egne tilladelser",
+      "copyPermissionGeneratorId": "Kopiér tilladelses-ID",
       "displayName": "Vis Navn",
       "editMemberPerms": "Rediger medlemsrettigheder",
       "errAddInvalidAccount": "Det angivne brugernavn findes ikke",
       "errAddUnknown": "Der opstod en ukendt fejl ved tilføjelse af lederen",
       "errRemoveUnknown": "Der opstod en ukendt fejl ved fjernelse af lederen",
       "explainDisabled": "Kun serverejere kan tilføje eller ændre administratorer",
+      "filterActive": "Aktiv",
       "filterAll": "Alle",
+      "filterBanned": "Udelukket",
       "filterPending": "Afventer",
       "kickBtn": "Fjern",
       "owner": "Ejer",
       "ownerHasAllPerms": "Fællesskabets ejer har alle tilladelser",
       "paysSubscription": "Betaler Abonnement",
       "pending": "Afventer",
+      "permissionGeneratorBtn": "Tilladelsesgenerator",
+      "permissionGeneratorId": "Tilladelses-ID",
+      "permissionGeneratorSubtitle": "Generér et bruger-tilladelses-ID til ekstern brug.",
+      "permissionGeneratorTitle": "Tilladelsesgenerator",
       "permissionsBtn": "Tilladelser",
       "privateChannels": "Private Kanaler",
       "remove": "Fjern",
@@ -585,6 +750,7 @@
       "keyUpSfx": "Key Up SFX",
       "overrideSuccessSfx": "Talkover-overskrivningslyd ved succes",
       "panicSfx": "Panikknap SFX",
+      "phoneDialSfx": "Telefonvælgerknap SFX",
       "sfxGameBoatEngine": "Boatmotor-SFX i spillet",
       "sfxGameHelicopterRotors": "Spil-helikopterrotorers SFX",
       "sfxGamePistol": "In-Game Pistol SFX",
@@ -796,6 +962,7 @@
           }
         }
       },
+      "clickToEditName": "Klik for at redigere navn",
       "columns": {
         "actions": "Handlinger",
         "id": "ID",
@@ -809,6 +976,13 @@
       "disabled": "Deaktiveret",
       "dispatchAiPause": "Deaktiver, når Human Dispatch er i CAD",
       "enabled": "Aktiveret",
+      "locality": {
+        "emergencyNumber": "Nødnummer",
+        "emergencyNumberHint": "Det offentlige alarmnummer, der bruges på dit lokalsamfunds sted.",
+        "emergencyNumberInvalid": "Indtast et nødnummer med 1 til 10 cifre.",
+        "subtitle": "Tilpas stedsspecifik terminologi og adfærd for dette fællesskab.",
+        "title": "Placering"
+      },
       "openAiApiKey": "Open AI API-nøgle",
       "openAiApiKeyHint": "Angiv din egen OpenAI API-nøgle for at aktivere Dispatch AI-funktioner."
     },
@@ -831,6 +1005,8 @@
       "sirenVolumeDesc": "Øg en brugers radiovolumen med denne procentdel, når deres køretøjs sirene er aktiv.",
       "subtitle": "Konfigurer standardindstillingerne for dit fællesskab. Brugere kan tilpasse deres egne præferencer, men disse vil fungere som de indledende standarder.",
       "title": "Standard Indstillinger",
+      "toneVoiceEffects": "Tone board-stemmeeffekter",
+      "toneVoiceEffectsDesc": "Anvend den valgte radio-voice-effektkæde, når toneboard-toner afspilles.",
       "tts": "Kanal tekst-til-tale",
       "ttsDesc": "Afspil en tekst-til-tale-stemme af kanalnavnet, når du skifter kanaler.",
       "volChange": "Lydstyrkeskift",
@@ -989,17 +1165,33 @@
     "selectServer": "Vælg Server",
     "setHotkeyFor": "Indstil genvejstast til {0}",
     "settingsDialog": {
+      "addPhraseOverride": "Tilføj fraseoverskrivning",
       "advanced": "Avanceret",
       "agentGain": "AI Lydstyrke",
       "aiRepliesOnlyMe": "Hør kun AI-svar til mig",
+      "aiRepliesOnlyMeTooltip": "Afspil kun Dispatch AI-svar, der er rettet specifikt til dig.",
+      "aiTab": "AI",
       "aiWakeWordKeyword": "AI-vågeord",
       "aiWakeWordKeywordSelect": "Vækkeordsfrase",
       "audioTab": "Lyd",
+      "automatic": "Auto",
       "automaticGainControlDisabled": "Automatisk forstærkningskontrol deaktiveret",
       "automaticGainControlEnabled": "Automatisk forstærkningskontrol aktiveret",
       "changingOutputsUnsupported": "Din enhed understøtter ikke ændring af lydudgange",
       "channelTts": "Kanal TTS",
+      "closeSettings": "Luk indstillinger",
+      "communityPhrases": "Fællesskabets AI-sætninger",
+      "communityPhrasesDesc": "Brug disse specifikke sætninger til at fortælle AI'en, hvad den skal gøre. Andre sætninger, der ikke er angivet her, vil ikke virke.",
+      "communityPhrasesEmpty": "Ingen fællesfraser er konfigureret for dette rum.",
+      "communityPhrasesTooltip": "Disse sætninger er konfigureret af din fællesskabsadministrator og kan kun ændres i tilpasning af fællesskabet.",
+      "defaultAudioDevice": "Standard",
       "defaultOutputWarning": "Standardoutput kan få Windows til at sænke lydstyrken for andre apps. Prøv at vælge en specifik enhed.",
+      "disabled": "Deaktiveret",
+      "dispatchAiLanguage": "Dispatch AI — Sprog",
+      "dispatchAiLanguageLoadError": "Kunne ikke indlæse den valgte Dispatch AI-sprogmodel.",
+      "dispatchAiStatus": "Dispatch AI-status",
+      "dispatchAiStatusDesc": "Dispatch AI er aktiveret af dine fællesskabsadministratorer i konfigurationsmenuen.",
+      "enabled": "Aktiveret",
       "enableTransmissionRecordings": "Aktivér transmissionsoptagelser",
       "escapeMode": "Flugt-tilstand",
       "escapeModeHide": "Skjul radio",
@@ -1010,28 +1202,43 @@
       "escapeModeXmitTooltip": "Radioen lukkes med ESC, men er synlig under transmission",
       "fivemTab": "FiveM",
       "hearAllAiReplies": "Hør alle AI-svar",
+      "hearAllAiRepliesTooltip": "Afspil alle Dispatch AI-svar, du kan høre i radioen, ikke kun svar rettet til dig.",
       "hearScannedWhileXmit": "Hør scannede mens der sendes",
       "hotkeysTab": "Genvejstaster",
+      "improveTranscript": "Forbedr transskriptordene i tilsidesættelsesafsnittet.",
       "keydownSfx": "Keydown SFX",
       "keyupSfx": "Keyup SFX",
       "macosPermWarning": "Din enhed kan kræve yderligere tilladelser: {link}",
       "macosPermWarningLink": "Lær, hvordan du giver tilladelser",
+      "monthlyUsage": "Månedligt forbrug",
       "moveResize": "Flyt/ændr størrelse",
       "myPttSfx": "Min PTT SFX",
       "othersPttSfx": "Andres PTT SFX",
+      "phraseOverrides": "Fraseoverskrivninger",
+      "phraseOverridesDesc": "Erstat almindeligt fejlhørte ord eller korte sætninger, før din transskription sendes til Dispatch AI. Disse gemmes på din konto.",
+      "phraseOverridesEmpty": "Ingen fraseoverskrivninger tilføjet endnu.",
+      "phraseOverridesFind": "Hørt frase",
+      "phraseOverridesReplace": "Erstat med",
       "privacyTab": "Privatliv",
       "pttOffDelay": "PTT-slukforsinkelse",
+      "recentAiTranscriptLabel": "Udskrift {number}",
+      "recentAiTranscripts": "Seneste transskriptioner",
+      "recentAiTranscriptsDesc": "De sidste par anmodninger, Dispatch AI modtog fra dig. Brug disse til at forbedre timingen for aktiveringsord og diktering.",
+      "recentAiTranscriptsEmpty": "Ingen seneste Dispatch AI-transskriptioner endnu.",
       "recordWakeWord": "Optag vågeord",
       "recordWakeWordListening": "Lytter...",
       "resetPeerVolumes": "Nulstil peer-volumener",
       "resetSettings": "Nulstil indstillinger",
+      "savingPhraseOverrides": "Gemmer...",
       "selectRadioFrame": "Radio ramme",
       "sfxTab": "Lydeffekter",
       "sfxVolume": "SFX Lydstyrke",
       "title": "Indstillinger",
       "toggleBackgroundAudio": "Baggrundslyd",
+      "toneVoiceEffects": "Tone board-stemmeeffekter",
       "troubleHearingInGame": "Har du problemer med at høre i spillet?:",
       "unlink": "Frakobl",
+      "upgradeCommunity": "Opgrader fællesskab",
       "voiceFxCommunity": "Community FX",
       "voiceFxEmpty": "Opret eller importér en lokal stemmeeffekt for at aktivere lokal lytning.",
       "voiceFxLocal": "Lokale effekter",
@@ -1041,7 +1248,9 @@
       "volumeChangeSirens": "Lydstyrkeskift med sirener",
       "volumeHotkeyChange": "Lydstyrke Genvejsskift",
       "wakeWord": "Vågeord (AI)",
+      "wakeWordDesc": "Vækkeord, der bruges til at aktivere Dispatch AI.",
       "wakeWordListenSeconds": "Lyt i sekunder for vækkeord",
+      "wakeWordListenSecondsTooltip": "Maksimal tid AI'en vil lytte efter wake-ordet ved start af en transmission. Hvis dette sænkes, kan det reducere utilsigtede AI-aktiveringer.",
       "wakeWordRecordNoSpeech": "Ingen tale registreret. Tjek din mikrofon, og prøv igen.",
       "webHotkeyWarning": "Genvejstaster virker kun, når browservinduet er i fokus.\n{link} for globale genvejstaster",
       "webHotkeyWarningLink": "Download desktop-appen"
@@ -1057,6 +1266,7 @@
       "count": "Antal",
       "deleteStack": "Slet stack",
       "generate": "Generer",
+      "infiniteRepeats": "Uendelige gentagelser",
       "inGameSpeaker": "In-Game Højttaler",
       "inGameSpeakerGroup": "In-Game Højttalergruppe",
       "loadStack": "Indlæs stak (enkelt klik)",
@@ -1068,6 +1278,8 @@
       "recording": "Optagelse",
       "recordMic": "Optag mikrofon",
       "repeat": "Gentag",
+      "repeatByDefault": "Gentag som standard",
+      "repeatCountLabel": "Standard gentagelsesantal",
       "savedTab": "Gemte stakke",
       "saveStackDesc": "Navngiv din tone-stack",
       "saveStackTitle": "Gem stak",
@@ -1079,6 +1291,8 @@
       "title": "Tone Board",
       "toneLabel": "Toneetiket",
       "tonesTab": "Toner",
+      "toneWillRepeat": "Denne tone vil gentage sig {count} gange, når den er valgt",
+      "toneWillRepeatInfinite": "Denne tone vil gentage sig uendeligt, når den er valgt",
       "voices": "Stemmer"
     },
     "xmitFreq": "XMIT {0}MHz"
@@ -1115,6 +1329,7 @@
   "serverInfoForm": {
     "cancel": "Annuller",
     "communityImage": "Community-billede",
+    "communityImageDrop": "Klik eller træk et billede hertil for at uploade",
     "linkSonoranCAD": "Knyt Sonoran CAD",
     "linkSonoranCADDispatchAI": "Knyt Sonoran CAD (Dispatch AI)",
     "serverID": "Server-ID",
