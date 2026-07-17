@@ -123,9 +123,6 @@
     "upload": "Upload",
     "username": "Username"
   },
-  "config": {
-    "displayName": "English (US)"
-  },
   "customizePanel": {
     "createCustomRadioOverlaysForDesktopGames": "Create custom radio overlays for desktop games."
   },
