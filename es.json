@@ -1,1 +1,9 @@
-{}
+{
+  "radio": {
+    "settingsDialog": {
+      "dispatchAiLanguageTtsUnavailable": "No disponible para este idioma. Ponte en contacto con nuestro equipo de soporte.",
+      "recentAiResponseLabel": "respuesta de IA",
+      "sameAsPanelLanguage": "Igual que el idioma del panel"
+    }
+  }
+}
