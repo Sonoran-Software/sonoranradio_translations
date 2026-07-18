@@ -1,4 +1,14 @@
 {
+  "manageServer": {
+    "members": {
+      "copyDiscordId": "Copiar ID de Discord",
+      "copyRobloxId": "Copiar ID de Roblox",
+      "discordIdCopied": "ID de Discord copiado al portapapeles.",
+      "noDiscordAccountLinked": "Este usuario no tiene ninguna cuenta de Discord vinculada.",
+      "noRobloxAccountLinked": "Este usuario no tiene ninguna cuenta de Roblox vinculada.",
+      "robloxIdCopied": "ID de Roblox copiado al portapapeles."
+    }
+  },
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "No disponible para este idioma. Ponte en contacto con nuestro equipo de soporte.",

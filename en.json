@@ -1,4 +1,14 @@
 {
+  "manageServer": {
+    "members": {
+      "copyDiscordId": "Copy Discord ID",
+      "copyRobloxId": "Copy Roblox ID",
+      "discordIdCopied": "Discord ID copied to clipboard.",
+      "noDiscordAccountLinked": "This user has no Discord account linked.",
+      "noRobloxAccountLinked": "This user has no Roblox account linked.",
+      "robloxIdCopied": "Roblox ID copied to clipboard."
+    }
+  },
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Not available for this language. Please contact our support team.",

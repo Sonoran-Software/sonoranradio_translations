@@ -1,4 +1,14 @@
 {
+  "manageServer": {
+    "members": {
+      "copyDiscordId": "Скопіювати ID Discord",
+      "copyRobloxId": "Скопіювати Roblox ID",
+      "discordIdCopied": "Discord ID скопійовано в буфер обміну.",
+      "noDiscordAccountLinked": "У цього користувача не прив’язано обліковий запис Discord.",
+      "noRobloxAccountLinked": "У цього користувача не прив’язано обліковий запис Roblox.",
+      "robloxIdCopied": "Roblox ID скопійовано в буфер обміну."
+    }
+  },
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Недоступно для цієї мови. Будь ласка, зверніться до нашої служби підтримки.",

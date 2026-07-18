@@ -1,4 +1,14 @@
 {
+  "manageServer": {
+    "members": {
+      "copyDiscordId": "Discord-ID kopiëren",
+      "copyRobloxId": "Roblox-ID kopiëren",
+      "discordIdCopied": "Discord-ID gekopieerd naar klembord.",
+      "noDiscordAccountLinked": "Deze gebruiker heeft geen Discord-account gekoppeld.",
+      "noRobloxAccountLinked": "Deze gebruiker heeft geen Roblox-account gekoppeld.",
+      "robloxIdCopied": "Roblox-ID gekopieerd naar klembord."
+    }
+  },
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Niet beschikbaar voor deze taal. Neem contact op met ons supportteam.",
