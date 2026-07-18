@@ -1,1 +1,9 @@
-{}
+{
+  "radio": {
+    "settingsDialog": {
+      "dispatchAiLanguageTtsUnavailable": "이 언어에서는 사용할 수 없습니다. 지원 팀에 문의해 주세요.",
+      "recentAiResponseLabel": "AI 응답",
+      "sameAsPanelLanguage": "패널 언어와 동일"
+    }
+  }
+}

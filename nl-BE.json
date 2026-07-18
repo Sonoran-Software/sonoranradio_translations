@@ -1,1 +1,9 @@
-{}
+{
+  "radio": {
+    "settingsDialog": {
+      "dispatchAiLanguageTtsUnavailable": "Niet beschikbaar voor deze taal. Neem contact op met ons supportteam.",
+      "recentAiResponseLabel": "AI-respons",
+      "sameAsPanelLanguage": "Zelfde als paneeltaal"
+    }
+  }
+}

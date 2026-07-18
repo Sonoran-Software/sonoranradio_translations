@@ -1,1 +1,9 @@
-{}
+{
+  "radio": {
+    "settingsDialog": {
+      "dispatchAiLanguageTtsUnavailable": "Недоступно для цієї мови. Будь ласка, зверніться до нашої служби підтримки.",
+      "recentAiResponseLabel": "Відповідь ШІ",
+      "sameAsPanelLanguage": "Як у мові панелі"
+    }
+  }
+}
