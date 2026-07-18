@@ -1,4 +1,14 @@
 {
+  "manageServer": {
+    "members": {
+      "copyDiscordId": "複製 Discord ID",
+      "copyRobloxId": "複製 Roblox ID",
+      "discordIdCopied": "Discord ID 已複製到剪貼簿。",
+      "noDiscordAccountLinked": "此使用者未連結 Discord 帳號。",
+      "noRobloxAccountLinked": "此使用者未連結 Roblox 帳號。",
+      "robloxIdCopied": "Roblox ID 已複製到剪貼簿。"
+    }
+  },
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "此語言不可用。請聯絡我們的支援團隊。",

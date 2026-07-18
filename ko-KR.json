@@ -1,4 +1,14 @@
 {
+  "manageServer": {
+    "members": {
+      "copyDiscordId": "Discord ID 복사",
+      "copyRobloxId": "Roblox ID 복사",
+      "discordIdCopied": "Discord ID가 클립보드에 복사되었습니다.",
+      "noDiscordAccountLinked": "이 사용자에게 연결된 Discord 계정이 없습니다.",
+      "noRobloxAccountLinked": "이 사용자에게 연결된 Roblox 계정이 없습니다.",
+      "robloxIdCopied": "Roblox ID가 클립보드에 복사되었습니다."
+    }
+  },
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "이 언어에서는 사용할 수 없습니다. 지원 팀에 문의해 주세요.",
