@@ -348,18 +348,6 @@
       "subtitle": "Chat in realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly immersive experience.",
       "title": "Better radio comms start here"
     },
-    "studio": {
-      "cta": "Explore Sonoran Studio",
-      "description": "Turn live radio activity into stream overlays, reactive smart lighting, and hands-free automations.",
-      "eyebrow": "Sonoran Radio + Sonoran Studio",
-      "features": {
-        "automation": "Automations",
-        "lighting": "Smart lighting",
-        "overlays": "Stream overlays"
-      },
-      "flowAria": "Sonoran Radio connects to Sonoran Studio for stream overlays, smart lighting, and automations",
-      "title": "Take every transmission beyond the radio"
-    },
     "imageAlt": "{title} Image",
     "inGameToneBoard": {
       "desc": "Sonoran Radios dispatch UI allows you to specify specific channels and groups, repeat tones, and more! You can even play tones on in-game speakers!",
@@ -415,6 +403,18 @@
     "Streamdeck": {
       "desc": "Control your radio channels, push-to-talk, volume, and more right from your Stream Deck.",
       "title": "Stream Deck"
+    },
+    "studio": {
+      "cta": "Explore Sonoran Studio",
+      "description": "Turn live radio activity into stream overlays, reactive smart lighting, and hands-free automations.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automations",
+        "lighting": "Smart lighting",
+        "overlays": "Stream overlays"
+      },
+      "flowAria": "Sonoran Radio connects to Sonoran Studio for stream overlays, smart lighting, and automations",
+      "title": "Take every transmission beyond the radio"
     },
     "ToneBoard": {
       "desc1": "Upload and customize dispatch tones for your community!",
