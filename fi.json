@@ -404,6 +404,18 @@
       "desc": "Hallitse radiokanaviasi, push-to-talkia, äänenvoimakkuutta ja muuta suoraan Stream Deckistäsi.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Tutustu Sonoran Studioon",
+      "description": "Muunna reaaliaikainen radiotoiminta suoratoiston päällekkäisnäkymiksi, reaktiiviseksi älyvalaistukseksi ja kädet vapaiksi automaatioiksi.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automaatio",
+        "lighting": "Älykäs valaistus",
+        "overlays": "Suoratoiston päällekkäiset elementit"
+      },
+      "flowAria": "Sonoran Radio yhdistyy Sonoran Studioon suoratoiston päällekkäisnäkymiin, älyvalaistukseen ja automaatioihin",
+      "title": "Vie jokainen lähetys radion tuolle puolen"
+    },
     "ToneBoard": {
       "desc1": "Lataa ja mukauta yhteisösi lähetyssävelet!",
       "desc2": "Sonoran Radion lähetyksen UI antaa sinun määritellä tietyt kanavat ja ryhmät, toistaa sävelmiä ja paljon muuta! Voit jopa soittaa sävelmiä pelin sisäisillä kaiuttimilla!",

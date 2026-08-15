@@ -404,6 +404,18 @@
       "desc": "Steuere deine Funkkanäle, Push-to-Talk, Lautstärke und mehr direkt über dein Stream Deck.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Sonoran Studio entdecken",
+      "description": "Verwandle Live-Radioaktivität in Stream-Overlays, reaktive intelligente Beleuchtung und freihändige Automatisierungen.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automatisierungen",
+        "lighting": "Intelligente Beleuchtung",
+        "overlays": "Stream-Overlays"
+      },
+      "flowAria": "Sonoran Radio verbindet sich mit Sonoran Studio für Stream-Overlays, intelligente Beleuchtung und Automatisierungen",
+      "title": "Bring jede Übertragung über das Funkgerät hinaus"
+    },
     "ToneBoard": {
       "desc1": "Laden Sie Dispatch-Töne für Ihre Community hoch und passen Sie sie an!",
       "desc2": "Sonoran Radios Dispatch-UI ermöglicht es Ihnen, spezifische Kanäle und Gruppen zu spezifizieren, Töne zu wiederholen und mehr! Sie können sogar Töne auf In-Game-Lautsprechern abspielen!",

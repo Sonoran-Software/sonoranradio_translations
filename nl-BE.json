@@ -1,4 +1,18 @@
 {
+  "landingPage": {
+    "studio": {
+      "cta": "Ontdek Sonoran Studio",
+      "description": "Zet live radio-activiteit om in stream-overlays, reactieve slimme verlichting en handsfree automatiseringen.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automatiseringen",
+        "lighting": "Slimme verlichting",
+        "overlays": "Stream overlays"
+      },
+      "flowAria": "Sonoran Radio verbindt met Sonoran Studio voor stream-overlays, slimme verlichting en automatiseringen",
+      "title": "Breng elke transmissie verder dan de radio"
+    }
+  },
   "manageServer": {
     "members": {
       "copyDiscordId": "Discord-ID kopiëren",

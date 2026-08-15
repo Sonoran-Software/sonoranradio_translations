@@ -1,4 +1,18 @@
 {
+  "landingPage": {
+    "studio": {
+      "cta": "探索 Sonoran Studio",
+      "description": "将实时电台活动转化为直播覆盖层、响应式智能照明和免提自动化。",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "自动化",
+        "lighting": "智能照明",
+        "overlays": "直播叠加层"
+      },
+      "flowAria": "Sonoran Radio 连接到 Sonoran Studio，用于直播覆盖层、智能照明和自动化",
+      "title": "将每次传输都带到无线电之外"
+    }
+  },
   "manageServer": {
     "members": {
       "copyDiscordId": "复制 Discord ID",

@@ -404,6 +404,18 @@
       "desc": "Stream Deck에서 라디오 채널, PTT, 볼륨 등을 바로 제어하세요.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Sonoran Studio 둘러보기",
+      "description": "실시간 라디오 활동을 스트림 오버레이, 반응형 스마트 조명, 핸즈프리 자동화로 바꾸세요.",
+      "eyebrow": "소노란 라디오 + Sonoran Studio",
+      "features": {
+        "automation": "자동화",
+        "lighting": "스마트 조명",
+        "overlays": "스트림 오버레이"
+      },
+      "flowAria": "Sonoran Radio 는 Sonoran Studio 에 연결되어 스트림 오버레이, 스마트 조명, 자동화를 제공합니다",
+      "title": "모든 전송을 라디오 너머로"
+    },
     "ToneBoard": {
       "desc1": "커뮤니티를 위한 디스패치 톤을 업로드하고 커스터마이징!",
       "desc2": "Sonoran Radios의 디스패치 UI는 특정 채널 및 그룹을 지정하고, 톤을 반복 재생하며, 더 많은 것을 할 수 있습니다! 심지어 게임 내 스피커에서 톤을 재생할 수도 있습니다!",

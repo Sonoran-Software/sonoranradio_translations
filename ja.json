@@ -404,6 +404,18 @@
       "desc": "Stream Deck からラジオチャンネル、プッシュ・トゥ・トーク、音量などを操作できます。",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Sonoran Studio を探索",
+      "description": "ライブの ラジオ アクティビティを配信オーバーレイ、反応型スマート照明、ハンズフリーのオートメーションに変えます。",
+      "eyebrow": "ソノラン ラジオ + Sonoran Studio",
+      "features": {
+        "automation": "オートメーション",
+        "lighting": "スマート照明",
+        "overlays": "配信オーバーレイ"
+      },
+      "flowAria": "Sonoran Radio は Sonoran Studio に接続して、配信オーバーレイ、スマート照明、オートメーションを利用します",
+      "title": "すべての送信を ラジオ の向こうへ"
+    },
     "ToneBoard": {
       "desc1": "コミュニティ用のディスパッチトーンをアップロードしてカスタマイズ",
       "desc2": "Sonoran Radios のディスパッチ UI では、特定のチャンネルやグループを指定し、トーンを繰り返すことなどが可能。ゲーム内のスピーカーでトーンを再生することも可能！",

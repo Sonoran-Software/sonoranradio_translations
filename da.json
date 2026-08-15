@@ -404,6 +404,18 @@
       "desc": "Styr dine radiokanaler, push-to-talk, lydstyrke og mere direkte fra din Stream Deck.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Udforsk Sonoran Studio",
+      "description": "Gør live radioaktivitet til stream-overlays, reaktiv smart belysning og håndfri automatiseringer.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automatiseringer",
+        "lighting": "Smart belysning",
+        "overlays": "Stream-overlays"
+      },
+      "flowAria": "Sonoran Radio forbinder til Sonoran Studio til stream-overlays, smart belysning og automatiseringer",
+      "title": "Tag hver transmission ud over radioen"
+    },
     "ToneBoard": {
       "desc1": "Upload og tilpas dispatch toner til din community!",
       "desc2": "Sonoran Radios dispatch UI giver dig mulighed for at specificere specifikke kanaler og grupper, gentage toner og mere! Du kan endda spille toner på in-game højttalere!",

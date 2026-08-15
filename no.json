@@ -404,6 +404,18 @@
       "desc": "Kontroller radiokanalene dine, push-to-talk, volum og mer direkte fra Stream Deck.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Utforsk Sonoran Studio",
+      "description": "Gjør direktesendt radioaktivitet om til strømoverlegg, responsiv smart belysning og håndfrie automatiseringer.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automatiseringer",
+        "lighting": "Smart belysning",
+        "overlays": "Strømoverlegg"
+      },
+      "flowAria": "Sonoran Radio kobler til Sonoran Studio for strømoverlegg, smart belysning og automatiseringer",
+      "title": "Ta hver overføring utover radioen"
+    },
     "ToneBoard": {
       "desc1": "Last opp og tilpass dispatchtoner for fellesskapet ditt!",
       "desc2": "Sonoran Radios dispatch UI lar deg spesifisere spesifikke kanaler og grupper, gjenta toner, og mer! Du kan til og med spille toner på innebygde høyttalere i spillet!",

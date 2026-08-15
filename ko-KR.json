@@ -1,4 +1,18 @@
 {
+  "landingPage": {
+    "studio": {
+      "cta": "Sonoran Studio 둘러보기",
+      "description": "실시간 라디오 활동을 스트림 오버레이, 반응형 스마트 조명, 핸즈프리 자동화로 전환하세요.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "자동화",
+        "lighting": "스마트 조명",
+        "overlays": "스트림 오버레이"
+      },
+      "flowAria": "Sonoran Radio는 스트림 오버레이, 스마트 조명, 자동화를 위해 Sonoran Studio에 연결됩니다",
+      "title": "모든 송신을 무전기 너머로"
+    }
+  },
   "manageServer": {
     "members": {
       "copyDiscordId": "Discord ID 복사",
