@@ -404,6 +404,18 @@
       "desc": "Radyo kanallarınızı, bas-konuşu, sesi ve daha fazlasını doğrudan Stream Deck'inizden kontrol edin.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Sonoran Studio’yu keşfet",
+      "description": "Canlı radyo etkinliğini yayın kaplamalarına, tepkisel akıllı aydınlatmaya ve eller serbest otomasyonlara dönüştürün.",
+      "eyebrow": "Sonoran Radyo + Sonoran Studio",
+      "features": {
+        "automation": "Otomasyonlar",
+        "lighting": "Akıllı aydınlatma",
+        "overlays": "Yayın katmanları"
+      },
+      "flowAria": "Sonoran Radio, yayın kaplamaları, akıllı aydınlatma ve otomasyonlar için Sonoran Studio'ya bağlanır",
+      "title": "Her iletimi radyonun ötesine taşı"
+    },
     "ToneBoard": {
       "desc1": "Topluluğunuz için çağrı tonlarını yükleyin ve özelleştirin!",
       "desc2": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanallar ve gruplar belirlemenizi, tonları tekrarlamanızı ve daha fazlasını sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",

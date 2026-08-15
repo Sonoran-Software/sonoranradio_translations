@@ -404,6 +404,18 @@
       "desc": "Beheer je radiokanalen, push-to-talk, volume en meer direct vanaf je Stream Deck.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Ontdek Sonoran Studio",
+      "description": "Zet live radio-activiteit om in streamoverlays, reactieve slimme verlichting en handsfree automatiseringen.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automatiseringen",
+        "lighting": "Slimme verlichting",
+        "overlays": "Stream-overlays"
+      },
+      "flowAria": "Sonoran Radio verbindt met Sonoran Studio voor streamoverlays, slimme verlichting en automatiseringen",
+      "title": "Breng elke transmissie verder dan de radio"
+    },
     "ToneBoard": {
       "desc1": "Upload en pas dispatchtonen aan voor je community!",
       "desc2": "Sonoran Radio's dispatch-UI stelt je in staat om specifieke kanalen en groepen op te geven, tonen te herhalen, en meer! Je kunt zelfs tonen afspelen op in-game luidsprekers!",

@@ -404,6 +404,18 @@
       "desc": "Ovládejte své rádiové kanály, push-to-talk, hlasitost a další přímo ze svého Stream Decku.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Prozkoumat Sonoran Studio",
+      "description": "Proměňte živou rádiovou aktivitu v streamové překryvy, reaktivní chytré osvětlení a automatizace bez použití rukou.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automatizace",
+        "lighting": "Chytré osvětlení",
+        "overlays": "Překryvy streamu"
+      },
+      "flowAria": "Sonoran Radio se připojuje k Sonoran Studio pro streamové překryvy, chytré osvětlení a automatizace",
+      "title": "Posuňte každý přenos za rádio"
+    },
     "ToneBoard": {
       "desc1": "Nahrajte a přizpůsobte tóny dispečinku pro vaši komunitu!",
       "desc2": "Dispečerské UI Sonoran Radios umožňuje specifikovat konkrétní kanály a skupiny, opakovat tóny a další! Tóny můžete hrát dokonce na herních reproduktorech!",

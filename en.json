@@ -1,4 +1,18 @@
 {
+  "landingPage": {
+    "studio": {
+      "cta": "Explore Sonoran Studio",
+      "description": "Turn live radio activity into stream overlays, reactive smart lighting, and hands-free automations.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automations",
+        "lighting": "Smart lighting",
+        "overlays": "Stream overlays"
+      },
+      "flowAria": "Sonoran Radio connects to Sonoran Studio for stream overlays, smart lighting, and automations",
+      "title": "Take every transmission beyond the radio"
+    }
+  },
   "manageServer": {
     "members": {
       "copyDiscordId": "Copy Discord ID",

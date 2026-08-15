@@ -1,4 +1,18 @@
 {
+  "landingPage": {
+    "studio": {
+      "cta": "探索 Sonoran Studio",
+      "description": "將即時無線電活動轉換為串流疊加、反應式智慧照明和免持自動化。",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "自動化",
+        "lighting": "智慧照明",
+        "overlays": "串流疊加"
+      },
+      "flowAria": "Sonoran Radio 連接到 Sonoran Studio，以用於串流疊加、智慧照明和自動化",
+      "title": "將每次傳輸帶到超越無線電"
+    }
+  },
   "manageServer": {
     "members": {
       "copyDiscordId": "複製 Discord ID",

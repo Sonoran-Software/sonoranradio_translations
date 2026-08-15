@@ -404,6 +404,18 @@
       "desc": "直接从你的 Stream Deck 控制无线电频道、按键通话、音量等功能。",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "探索 Sonoran Studio",
+      "description": "将实时电台活动转换为直播覆盖层、响应式智能照明和免提自动化。",
+      "eyebrow": "索诺兰广播 + 索诺兰 Studio",
+      "features": {
+        "automation": "自动化",
+        "lighting": "智能照明",
+        "overlays": "直播叠加层"
+      },
+      "flowAria": "Sonoran Radio 连接到 Sonoran Studio，用于直播覆盖层、智能照明和自动化",
+      "title": "让每次传输超越无线电"
+    },
     "ToneBoard": {
       "desc1": "上传并为您的社区定制广播音调！",
       "desc2": "Sonoran Radios 调度用户界面允许您指定特定频道和小组，重复音调等！您甚至可以在游戏扬声器上播放音调！",

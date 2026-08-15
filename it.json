@@ -404,6 +404,18 @@
       "desc": "Controlla i tuoi canali radio, il push-to-talk, il volume e altro direttamente dal tuo Stream Deck.",
       "title": "Stream Deck"
     },
+    "studio": {
+      "cta": "Esplora Sonoran Studio",
+      "description": "Trasforma l'attività radio in tempo reale in sovrapposizioni di streaming, illuminazione intelligente reattiva e automazioni a mani libere.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automazioni",
+        "lighting": "Illuminazione intelligente",
+        "overlays": "Sovrimpressioni in streaming"
+      },
+      "flowAria": "Sonoran Radio si connette a Sonoran Studio per sovrapposizioni di streaming, illuminazione intelligente e automazioni",
+      "title": "Porta ogni trasmissione oltre la radio"
+    },
     "ToneBoard": {
       "desc1": "Carica e personalizza i toni di dispatch per la tua comunità!",
       "desc2": "L'interfaccia di dispatcio di Sonoran Radios ti permette di specificare canali e gruppi specifici, ripetere toni e altro! Puoi persino riprodurre toni sugli altoparlanti di gioco!",

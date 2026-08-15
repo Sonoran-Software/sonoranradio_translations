@@ -1,4 +1,18 @@
 {
+  "landingPage": {
+    "studio": {
+      "cta": "Досліджуйте Sonoran Studio",
+      "description": "Перетворюйте живу радіоактивність на накладки стріму, реактивне розумне освітлення та автоматизації без рук.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Автоматизації",
+        "lighting": "Розумне освітлення",
+        "overlays": "Накладки для стрімів"
+      },
+      "flowAria": "Sonoran Radio підключається до Sonoran Studio для накладок стріму, розумного освітлення та автоматизацій",
+      "title": "Виводьте кожну передачу за межі радіо"
+    }
+  },
   "manageServer": {
     "members": {
       "copyDiscordId": "Скопіювати ID Discord",

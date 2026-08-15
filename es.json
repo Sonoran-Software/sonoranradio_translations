@@ -1,4 +1,18 @@
 {
+  "landingPage": {
+    "studio": {
+      "cta": "Explora Sonoran Studio",
+      "description": "Convierte la actividad de radio en directo en superposiciones de stream, iluminación inteligente reactiva y automatizaciones manos libres.",
+      "eyebrow": "Sonoran Radio + Sonoran Studio",
+      "features": {
+        "automation": "Automatizaciones",
+        "lighting": "Iluminación inteligente",
+        "overlays": "Superposiciones de transmisión"
+      },
+      "flowAria": "Sonoran Radio se conecta a Sonoran Studio para superposiciones de stream, iluminación inteligente y automatizaciones",
+      "title": "Lleva cada transmisión más allá de la radio"
+    }
+  },
   "manageServer": {
     "members": {
       "copyDiscordId": "Copiar ID de Discord",
