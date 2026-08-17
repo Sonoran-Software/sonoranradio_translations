@@ -299,10 +299,6 @@
       "desc2": "With three different in-game model types, Sonoran Radio takes immersion to the next level!",
       "title": "Destructible Towers"
     },
-    "Discord": {
-      "desc": "Discord integration syncs Discord roles with radio permissions, making user management easy.",
-      "title": "Discord"
-    },
     "developers": {
       "button": "Explore Developer Tools",
       "description": "Build custom integrations for any game with free APIs, open-source libraries, and AI plugins.",
@@ -310,6 +306,10 @@
       "titleAria": "We love developers.",
       "titlePrefix": "We",
       "titleSuffix": "Developers."
+    },
+    "Discord": {
+      "desc": "Discord integration syncs Discord roles with radio permissions, making user management easy.",
+      "title": "Discord"
     },
     "Dispatch_AI": {
       "desc": "Dispatch AI is our most powerful integration ever built. Talk to a live AI dispatcher over the radio to create calls, run license plate lookups, update your status, and so much more!",
@@ -355,18 +355,6 @@
     "hero": {
       "subtitle": "Chat in realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly immersive experience.",
       "title": "Better radio comms start here"
-    },
-    "studio": {
-      "cta": "Explore Sonoran Studio",
-      "description": "Turn live radio activity into stream overlays, reactive smart lighting, and hands-free automations.",
-      "eyebrow": "Sonoran Radio + Sonoran Studio",
-      "features": {
-        "automation": "Automations",
-        "lighting": "Smart lighting",
-        "overlays": "Stream overlays"
-      },
-      "flowAria": "Sonoran Radio connects to Sonoran Studio for stream overlays, smart lighting, and automations",
-      "title": "Your roleplay. Live on air."
     },
     "imageAlt": "{title} Image",
     "inGameToneBoard": {
