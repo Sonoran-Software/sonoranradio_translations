@@ -299,6 +299,14 @@
       "desc2": "Kolmella erilaisella pelin sisäisellä mallityypillä Sonoran Radio vie eläytymisen uudelle tasolle!",
       "title": "Tuhoutuvat tornit"
     },
+    "developers": {
+      "button": "Tutustu kehittäjätyökaluihin",
+      "description": "Rakenna mukautettuja integraatioita mihin tahansa peliin ilmaisilla API-rajapinnoilla, avoimen lähdekoodin kirjastoilla ja tekoälyliitännäisillä.",
+      "eyebrow": "Kehittäjätyökalut",
+      "titleAria": "Rakastamme kehittäjiä.",
+      "titlePrefix": "Me",
+      "titleSuffix": "Kehittäjät."
+    },
     "Discord": {
       "desc": "Discord-integraatio synkronoi Discord-roolit radio-oikeuksien kanssa, mikä tekee käyttäjien hallinnasta helppoa.",
       "title": "Discord"

@@ -299,6 +299,14 @@
       "desc2": "Con tre diversi tipi di modelli di gioco, Sonoran Radio porta l'immersione al livello successivo!",
       "title": "Torri Distruttibili"
     },
+    "developers": {
+      "button": "Esplora gli Strumenti per Sviluppatori",
+      "description": "Crea integrazioni personalizzate per qualsiasi gioco con API gratuite, librerie open source e plugin IA.",
+      "eyebrow": "Strumenti per Sviluppatori",
+      "titleAria": "Amiamo gli sviluppatori.",
+      "titlePrefix": "Noi",
+      "titleSuffix": "Sviluppatori."
+    },
     "Discord": {
       "desc": "L'integrazione Discord sincronizza i ruoli Discord con le autorizzazioni radio, rendendo semplice la gestione degli utenti.",
       "title": "Discord"

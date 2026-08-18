@@ -1,5 +1,13 @@
 {
   "landingPage": {
+    "developers": {
+      "button": "探索开发者工具",
+      "description": "使用免费 API、开源库和 AI 插件为任何游戏构建自定义集成。",
+      "eyebrow": "开发者工具",
+      "titleAria": "我们热爱开发者。",
+      "titlePrefix": "我们",
+      "titleSuffix": "开发者。"
+    },
     "studio": {
       "cta": "探索 Sonoran Studio",
       "description": "将实时电台活动转化为直播覆盖层、响应式智能照明和免提自动化。",

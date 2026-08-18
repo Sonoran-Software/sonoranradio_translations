@@ -1,5 +1,13 @@
 {
   "landingPage": {
+    "developers": {
+      "button": "Explore Developer Tools",
+      "description": "Build custom integrations for any game with free APIs, open-source libraries, and AI plugins.",
+      "eyebrow": "Developer Tools",
+      "titleAria": "We love developers.",
+      "titlePrefix": "We",
+      "titleSuffix": "Developers."
+    },
     "studio": {
       "cta": "Explore Sonoran Studio",
       "description": "Turn live radio activity into stream overlays, reactive smart lighting, and hands-free automations.",

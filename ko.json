@@ -299,6 +299,14 @@
       "desc2": "3가지 서로 다른 게임 내 모델 유형으로, Sonoran Radio는 몰입감을 한 단계 더 끌어올립니다!",
       "title": "파괴 가능한 타워"
     },
+    "developers": {
+      "button": "개발자 도구 둘러보기",
+      "description": "무료 API, 오픈 소스 라이브러리, AI 플러그인으로 어떤 게임이든 맞춤 통합을 구축하세요.",
+      "eyebrow": "개발자 도구",
+      "titleAria": "우리는 개발자를 사랑합니다.",
+      "titlePrefix": "우리",
+      "titleSuffix": "개발자."
+    },
     "Discord": {
       "desc": "Discord 연동은 Discord 역할을 라디오 권한과 동기화하여 사용자 관리를 쉽게 합니다.",
       "title": "Discord"

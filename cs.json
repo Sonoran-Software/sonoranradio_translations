@@ -299,6 +299,14 @@
       "desc2": "Se třemi různými typy herních modelů posouvá Sonoran Radio ponoření na vyšší úroveň!",
       "title": "Zničitelné věže"
     },
+    "developers": {
+      "button": "Prozkoumat vývojářské nástroje",
+      "description": "Vytvářejte vlastní integrace pro jakoukoli hru pomocí bezplatných API, open-source knihoven a AI pluginů.",
+      "eyebrow": "Vývojářské nástroje",
+      "titleAria": "Milujeme vývojáře.",
+      "titlePrefix": "My",
+      "titleSuffix": "Vývojáři."
+    },
     "Discord": {
       "desc": "Integrace Discordu synchronizuje role Discordu s oprávněními rádia, což usnadňuje správu uživatelů.",
       "title": "Discord"

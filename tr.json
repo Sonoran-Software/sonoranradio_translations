@@ -299,6 +299,14 @@
       "desc2": "Üç farklı oyun içi model türüyle Sonoran Radio, sürükleyiciliği bir üst seviyeye taşıyor!",
       "title": "Yıkılabilir Kuleler"
     },
+    "developers": {
+      "button": "Geliştirici Araçlarını Keşfedin",
+      "description": "Ücretsiz API'ler, açık kaynaklı kitaplıklar ve yapay zeka eklentileriyle herhangi bir oyun için özel entegrasyonlar oluşturun.",
+      "eyebrow": "Geliştirici Araçları",
+      "titleAria": "Geliştiricileri seviyoruz.",
+      "titlePrefix": "Biz",
+      "titleSuffix": "Geliştiriciler."
+    },
     "Discord": {
       "desc": "Discord entegrasyonu Discord rollerini radyo izinleriyle eşitler, kullanıcı yönetimini kolaylaştırır.",
       "title": "Discord"

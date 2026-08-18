@@ -299,6 +299,14 @@
       "desc2": "Mit drei verschiedenen In-Game-Modelltypen hebt Sonoran Radio die Immersion auf die nächste Stufe!",
       "title": "Zerstörbare Türme"
     },
+    "developers": {
+      "button": "Entwicklertools erkunden",
+      "description": "Erstelle benutzerdefinierte Integrationen für jedes Spiel mit kostenlosen APIs, Open-Source-Bibliotheken und KI-Plugins.",
+      "eyebrow": "Entwicklertools",
+      "titleAria": "Wir lieben Entwickler.",
+      "titlePrefix": "Wir",
+      "titleSuffix": "Entwickler."
+    },
     "Discord": {
       "desc": "Die Discord-Integration synchronisiert Discord-Rollen mit Radio-Berechtigungen und erleichtert so die Benutzerverwaltung.",
       "title": "Discord"

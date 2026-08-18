@@ -299,6 +299,14 @@
       "desc2": "Med tre forskjellige spillmodelltyper tar Sonoran Radio innlevelsen til neste nivå!",
       "title": "Ødeleggbare tårn"
     },
+    "developers": {
+      "button": "Utforsk utviklerverktøy",
+      "description": "Bygg egendefinerte integrasjoner for ethvert spill med gratis API-er, åpen kildekode-biblioteker og AI-tillegg.",
+      "eyebrow": "Utviklerverktøy",
+      "titleAria": "Vi elsker utviklere.",
+      "titlePrefix": "Vi",
+      "titleSuffix": "Utviklere."
+    },
     "Discord": {
       "desc": "Discord-integrasjon synkroniserer Discord-roller med radiotillatelser, noe som gjør brukerstyring enkel.",
       "title": "Discord"

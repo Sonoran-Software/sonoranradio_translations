@@ -299,6 +299,14 @@
       "desc2": "3種類のゲーム内モデルタイプで、Sonoran Radio は没入感を次のレベルへ！",
       "title": "破壊可能なタワー"
     },
+    "developers": {
+      "button": "開発者向けツールを探す",
+      "description": "無料の API、オープンソースライブラリ、AI プラグインで、あらゆるゲーム向けのカスタム統合を構築",
+      "eyebrow": "開発者向けツール",
+      "titleAria": "開発者が大好きです。",
+      "titlePrefix": "私たちは",
+      "titleSuffix": "開発者。"
+    },
     "Discord": {
       "desc": "Discord連携はDiscordのロールとradio権限を同期し、ユーザー管理を簡単にします。",
       "title": "Discord"
