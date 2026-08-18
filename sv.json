@@ -299,6 +299,14 @@
       "desc2": "Med tre olika modelltyper i spelet tar Sonoran Radio inlevelsen till nästa nivå!",
       "title": "Förstörbara torn"
     },
+    "developers": {
+      "button": "Utforska utvecklarverktyg",
+      "description": "Bygg anpassade integrationer för vilket spel som helst med gratis API:er, öppen källkod-bibliotek och AI-pluginer.",
+      "eyebrow": "Utvecklarverktyg",
+      "titleAria": "Vi älskar utvecklare.",
+      "titlePrefix": "Vi",
+      "titleSuffix": "Utvecklare."
+    },
     "Discord": {
       "desc": "Discord-integration synkroniserar Discord-roller med radiobehörigheter, vilket gör användarhantering enkel.",
       "title": "Discord"

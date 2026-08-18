@@ -299,6 +299,14 @@
       "desc2": "拥有三种不同的游戏内模型类型，Sonoran Radio 将沉浸感提升到新高度！",
       "title": "可破坏塔楼"
     },
+    "developers": {
+      "button": "探索开发者工具",
+      "description": "使用免费 API、开源库和 AI 插件为任何游戏构建自定义集成。",
+      "eyebrow": "开发者工具",
+      "titleAria": "我们喜欢开发者。",
+      "titlePrefix": "我们",
+      "titleSuffix": "开发者。"
+    },
     "Discord": {
       "desc": "Discord 集成将 Discord 角色与电台权限同步，使用户管理更轻松。",
       "title": "Discord"

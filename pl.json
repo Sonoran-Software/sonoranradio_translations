@@ -299,6 +299,14 @@
       "desc2": "Dzięki trzem różnym typom modeli w grze Sonoran Radio przenosi immersję na wyższy poziom!",
       "title": "Zniszczalne wieże"
     },
+    "developers": {
+      "button": "Poznaj narzędzia dla deweloperów",
+      "description": "Twórz własne integracje dla dowolnej gry dzięki darmowym API, bibliotekom open source i wtyczkom AI.",
+      "eyebrow": "Narzędzia dla deweloperów",
+      "titleAria": "Uwielbiamy programistów.",
+      "titlePrefix": "My",
+      "titleSuffix": "Deweloperzy."
+    },
     "Discord": {
       "desc": "Integracja Discord synchronizuje role Discord z uprawnieniami do radia, ułatwiając zarządzanie użytkownikami.",
       "title": "Discord"

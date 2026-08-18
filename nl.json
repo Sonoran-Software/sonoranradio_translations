@@ -299,6 +299,14 @@
       "desc2": "Met drie verschillende in-game modeltypen tilt Sonoran Radio de onderdompeling naar een hoger niveau!",
       "title": "Vernietigbare torens"
     },
+    "developers": {
+      "button": "Ontdek ontwikkelaarstools",
+      "description": "Bouw aangepaste integraties voor elk spel met gratis API's, open-source bibliotheken en AI-plugins.",
+      "eyebrow": "Ontwikkelaarstools",
+      "titleAria": "We houden van ontwikkelaars.",
+      "titlePrefix": "Wij",
+      "titleSuffix": "Ontwikkelaars."
+    },
     "Discord": {
       "desc": "Discord-integratie synchroniseert Discord-rollen met radiorechten, waardoor gebruikersbeheer eenvoudig wordt.",
       "title": "Discord"

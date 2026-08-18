@@ -1,5 +1,13 @@
 {
   "landingPage": {
+    "developers": {
+      "button": "探索 開發者 工具",
+      "description": "使用免費 API、開源程式庫和 AI 外掛程式為任何遊戲建立自訂整合。",
+      "eyebrow": "開發者 工具",
+      "titleAria": "我們喜愛開發者。",
+      "titlePrefix": "我們",
+      "titleSuffix": "開發者。"
+    },
     "studio": {
       "cta": "探索 Sonoran Studio",
       "description": "將即時無線電活動轉換為串流疊加、反應式智慧照明和免持自動化。",

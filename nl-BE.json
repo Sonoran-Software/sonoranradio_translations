@@ -1,5 +1,13 @@
 {
   "landingPage": {
+    "developers": {
+      "button": "Ontdek ontwikkelaarstools",
+      "description": "Bouw aangepaste integraties voor elk spel met gratis API's, open-sourcebibliotheken en AI-plugins.",
+      "eyebrow": "Ontwikkelaarstools",
+      "titleAria": "We houden van ontwikkelaars.",
+      "titlePrefix": "Wij",
+      "titleSuffix": "Ontwikkelaars."
+    },
     "studio": {
       "cta": "Ontdek Sonoran Studio",
       "description": "Zet live radio-activiteit om in stream-overlays, reactieve slimme verlichting en handsfree automatiseringen.",

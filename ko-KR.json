@@ -1,5 +1,13 @@
 {
   "landingPage": {
+    "developers": {
+      "button": "개발자 도구 둘러보기",
+      "description": "무료 API, 오픈 소스 라이브러리, AI 플러그인으로 어떤 게임이든 맞춤형 통합을 구축하세요.",
+      "eyebrow": "개발자 도구",
+      "titleAria": "우리는 개발자를 사랑합니다.",
+      "titlePrefix": "우리",
+      "titleSuffix": "개발자."
+    },
     "studio": {
       "cta": "Sonoran Studio 둘러보기",
       "description": "실시간 라디오 활동을 스트림 오버레이, 반응형 스마트 조명, 핸즈프리 자동화로 전환하세요.",

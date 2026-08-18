@@ -1,5 +1,13 @@
 {
   "landingPage": {
+    "developers": {
+      "button": "Explorar herramientas para desarrolladores",
+      "description": "Crea integraciones personalizadas para cualquier juego con APIs gratuitas, bibliotecas de código abierto y complementos de IA.",
+      "eyebrow": "Herramientas para desarrolladores",
+      "titleAria": "Amamos a los desarrolladores.",
+      "titlePrefix": "Nosotros",
+      "titleSuffix": "Desarrolladores."
+    },
     "studio": {
       "cta": "Explora Sonoran Studio",
       "description": "Convierte la actividad de radio en directo en superposiciones de stream, iluminación inteligente reactiva y automatizaciones manos libres.",

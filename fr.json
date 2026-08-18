@@ -299,6 +299,14 @@
       "desc2": "Avec trois types de modèles en jeu différents, Sonoran Radio porte l'immersion à un niveau supérieur !",
       "title": "Tours destructibles"
     },
+    "developers": {
+      "button": "Explorer les outils développeur",
+      "description": "Créez des intégrations personnalisées pour n'importe quel jeu avec des API gratuites, des bibliothèques open source et des plugins IA.",
+      "eyebrow": "Outils développeur",
+      "titleAria": "Nous aimons les développeurs.",
+      "titlePrefix": "Nous",
+      "titleSuffix": "Développeurs."
+    },
     "Discord": {
       "desc": "L'intégration Discord synchronise les rôles Discord avec les permissions radio, ce qui facilite la gestion des utilisateurs.",
       "title": "Discord"
