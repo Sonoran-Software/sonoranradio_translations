@@ -534,6 +534,12 @@
       "noneFound": "No desktop frames found for this server.",
       "saved": "Desktop frames saved.",
       "screenPlaceholder": "This is the screen",
+      "screenTheme": "Screen Theme",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Modern",
+        "text": "Text"
+      },
       "selectFrame": "Select Frame",
       "tooltip": {
         "dragBody": "to move components",
@@ -543,7 +549,8 @@
         "resizeBody": "to resize components",
         "resizeTitle": "CTRL+Drag"
       },
-      "upload": "Upload"
+      "upload": "Upload",
+      "useMobiFrame": "Use Mobi Frame"
     },
     "customizeMenu": {
       "ai": "AI",
