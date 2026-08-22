@@ -534,6 +534,12 @@
       "noneFound": "Pro tento server nebyly nalezeny žádné desktopové rámy.",
       "saved": "Rámečky plochy uloženy.",
       "screenPlaceholder": "Toto je obrazovka",
+      "screenTheme": "Motiv obrazovky",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Moderní",
+        "text": "Text"
+      },
       "selectFrame": "Vybrat rámec",
       "tooltip": {
         "dragBody": "pro přesun komponent",
@@ -543,7 +549,8 @@
         "resizeBody": "pro změnu velikosti komponent",
         "resizeTitle": "CTRL+Táhni"
       },
-      "upload": "Nahrát"
+      "upload": "Nahrát",
+      "useMobiFrame": "Použít Mobi Frame"
     },
     "customizeMenu": {
       "ai": "AI",

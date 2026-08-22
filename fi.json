@@ -534,6 +534,12 @@
       "noneFound": "Tälle palvelimelle ei löytynyt työpöytäkehikoita.",
       "saved": "Työpöydän kehykset tallennettu.",
       "screenPlaceholder": "Tämä on näyttö",
+      "screenTheme": "Näytön teema",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Moderni",
+        "text": "Teksti"
+      },
       "selectFrame": "Valitse kehys",
       "tooltip": {
         "dragBody": "komponenttien siirtämiseen",
@@ -543,7 +549,8 @@
         "resizeBody": "komponenttien koon muuttamiseen",
         "resizeTitle": "CTRL+Vedä"
       },
-      "upload": "Lähetä"
+      "upload": "Lähetä",
+      "useMobiFrame": "Käytä Mobi Framea"
     },
     "customizeMenu": {
       "ai": "Tekoäly",

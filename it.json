@@ -534,6 +534,12 @@
       "noneFound": "Nessun frame desktop trovato per questo server.",
       "saved": "Cornici del desktop salvate.",
       "screenPlaceholder": "Questa è la schermata",
+      "screenTheme": "Tema schermata",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Moderno",
+        "text": "Testo"
+      },
       "selectFrame": "Seleziona cornice",
       "tooltip": {
         "dragBody": "per spostare i componenti",
@@ -543,7 +549,8 @@
         "resizeBody": "per ridimensionare i componenti",
         "resizeTitle": "CTRL+Trascina"
       },
-      "upload": "Carica"
+      "upload": "Carica",
+      "useMobiFrame": "Usa Mobi Frame"
     },
     "customizeMenu": {
       "ai": "IA",

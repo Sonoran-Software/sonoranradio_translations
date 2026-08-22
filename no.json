@@ -534,6 +534,12 @@
       "noneFound": "Ingen skrivebordsrammer ble funnet for denne serveren.",
       "saved": "Skrivebordsrammer lagret.",
       "screenPlaceholder": "Dette er skjermen",
+      "screenTheme": "Skjermtema",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Moderne",
+        "text": "Tekst"
+      },
       "selectFrame": "Velg ramme",
       "tooltip": {
         "dragBody": "for å flytte komponenter",
@@ -543,7 +549,8 @@
         "resizeBody": "for å endre størrelsen på komponenter",
         "resizeTitle": "CTRL+dra"
       },
-      "upload": "Last opp"
+      "upload": "Last opp",
+      "useMobiFrame": "Bruk Mobi Frame"
     },
     "customizeMenu": {
       "ai": "KI",

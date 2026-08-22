@@ -534,6 +534,12 @@
       "noneFound": "Aucun cadre de bureau trouvé pour ce serveur.",
       "saved": "Cadres de bureau enregistrés.",
       "screenPlaceholder": "Voici l’écran",
+      "screenTheme": "Thème de l’écran",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Moderne",
+        "text": "Texte"
+      },
       "selectFrame": "Sélectionner le cadre",
       "tooltip": {
         "dragBody": "pour déplacer des composants",
@@ -543,7 +549,8 @@
         "resizeBody": "pour redimensionner des composants",
         "resizeTitle": "CTRL+glisser"
       },
-      "upload": "Téléverser"
+      "upload": "Téléverser",
+      "useMobiFrame": "Utiliser Mobi Frame"
     },
     "customizeMenu": {
       "ai": "IA",

@@ -22,6 +22,15 @@
     }
   },
   "manageServer": {
+    "customizeDesktopFrames": {
+      "screenTheme": "화면 테마",
+      "screenThemes": {
+        "mobi": "모비",
+        "modern": "모던",
+        "text": "텍스트"
+      },
+      "useMobiFrame": "Mobi Frame 사용"
+    },
     "members": {
       "copyDiscordId": "Discord ID 복사",
       "copyRobloxId": "Roblox ID 복사",

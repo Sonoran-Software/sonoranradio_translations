@@ -22,6 +22,15 @@
     }
   },
   "manageServer": {
+    "customizeDesktopFrames": {
+      "screenTheme": "屏幕主题",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "现代",
+        "text": "文本"
+      },
+      "useMobiFrame": "使用 Mobi Frame"
+    },
     "members": {
       "copyDiscordId": "复制 Discord ID",
       "copyRobloxId": "复制 Roblox ID",

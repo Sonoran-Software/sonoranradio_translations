@@ -534,6 +534,12 @@
       "noneFound": "No se han encontrado marcos de escritorio para este servidor.",
       "saved": "Marcos de escritorio guardados.",
       "screenPlaceholder": "Esta es la pantalla",
+      "screenTheme": "Tema de pantalla",
+      "screenThemes": {
+        "mobi": "Móvil",
+        "modern": "Moderno",
+        "text": "Texto"
+      },
       "selectFrame": "Seleccionar marco",
       "tooltip": {
         "dragBody": "para mover componentes",
@@ -543,7 +549,8 @@
         "resizeBody": "para redimensionar componentes",
         "resizeTitle": "CTRL+Arrastrar"
       },
-      "upload": "Subir"
+      "upload": "Subir",
+      "useMobiFrame": "Usar Mobi Frame"
     },
     "customizeMenu": {
       "ai": "IA",

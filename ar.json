@@ -534,6 +534,12 @@
       "noneFound": "لم يتم العثور على إطارات سطح مكتب لهذا الخادم.",
       "saved": "تم حفظ إطارات سطح المكتب.",
       "screenPlaceholder": "هذه هي الشاشة",
+      "screenTheme": "سمة الشاشة",
+      "screenThemes": {
+        "mobi": "موبى",
+        "modern": "حديث",
+        "text": "نص"
+      },
       "selectFrame": "اختر الإطار",
       "tooltip": {
         "dragBody": "لنقل المكوّنات",
@@ -543,7 +549,8 @@
         "resizeBody": "لتغيير حجم المكوّنات",
         "resizeTitle": "CTRL+اسحب"
       },
-      "upload": "رفع"
+      "upload": "رفع",
+      "useMobiFrame": "استخدم إطار موبا"
     },
     "customizeMenu": {
       "ai": "الذكاء الاصطناعي",
