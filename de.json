@@ -534,6 +534,12 @@
       "noneFound": "Keine Desktop-Frames für diesen Server gefunden.",
       "saved": "Desktop-Rahmen gespeichert.",
       "screenPlaceholder": "Dies ist der Bildschirm",
+      "screenTheme": "Bildschirmdesign",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Modern",
+        "text": "Text"
+      },
       "selectFrame": "Frame auswählen",
       "tooltip": {
         "dragBody": "um Komponenten zu verschieben",
@@ -543,7 +549,8 @@
         "resizeBody": "um Komponenten zu skalieren",
         "resizeTitle": "STRG+Ziehen"
       },
-      "upload": "Hochladen"
+      "upload": "Hochladen",
+      "useMobiFrame": "Mobi-Frame verwenden"
     },
     "customizeMenu": {
       "ai": "KI",

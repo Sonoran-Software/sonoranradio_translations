@@ -534,6 +534,12 @@
       "noneFound": "이 서버에 대해 찾은 데스크톱 프레임이 없습니다.",
       "saved": "데스크톱 프레임 저장됨.",
       "screenPlaceholder": "이것은 화면입니다",
+      "screenTheme": "화면 테마",
+      "screenThemes": {
+        "mobi": "모비",
+        "modern": "모던",
+        "text": "텍스트"
+      },
       "selectFrame": "프레임 선택",
       "tooltip": {
         "dragBody": "구성 요소를 이동하려면",
@@ -543,7 +549,8 @@
         "resizeBody": "구성 요소의 크기를 조정하려면",
         "resizeTitle": "CTRL+드래그"
       },
-      "upload": "업로드"
+      "upload": "업로드",
+      "useMobiFrame": "Mobi 프레임 사용"
     },
     "customizeMenu": {
       "ai": "AI",

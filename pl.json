@@ -534,6 +534,12 @@
       "noneFound": "Nie znaleziono ramek pulpitu dla tego serwera.",
       "saved": "Ramki pulpitu zapisane.",
       "screenPlaceholder": "To jest ekran",
+      "screenTheme": "Motyw ekranu",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Nowoczesny",
+        "text": "Tekst"
+      },
       "selectFrame": "Wybierz ramkę",
       "tooltip": {
         "dragBody": "aby przesuwać komponenty",
@@ -543,7 +549,8 @@
         "resizeBody": "aby zmieniać rozmiar komponentów",
         "resizeTitle": "CTRL+Przeciągnij"
       },
-      "upload": "Prześlij"
+      "upload": "Prześlij",
+      "useMobiFrame": "Użyj Mobi Frame"
     },
     "customizeMenu": {
       "ai": "SI",
