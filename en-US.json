@@ -549,7 +549,8 @@
         "resizeBody": "to resize components",
         "resizeTitle": "CTRL+Drag"
       },
-      "upload": "Upload"
+      "upload": "Upload",
+      "useMobiFrame": "Use Mobi Frame"
     },
     "customizeMenu": {
       "ai": "AI",
