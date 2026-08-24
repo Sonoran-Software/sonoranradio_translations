@@ -534,6 +534,12 @@
       "noneFound": "Geen bureaubladframes gevonden voor deze server.",
       "saved": "Bureaubladframes opgeslagen.",
       "screenPlaceholder": "Dit is het scherm",
+      "screenTheme": "Schermthema",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Modern",
+        "text": "Tekst"
+      },
       "selectFrame": "Frame selecteren",
       "tooltip": {
         "dragBody": "om componenten te verplaatsen",
@@ -543,7 +549,8 @@
         "resizeBody": "om componenten te vergroten of te verkleinen",
         "resizeTitle": "CTRL+Sleep"
       },
-      "upload": "Uploaden"
+      "upload": "Uploaden",
+      "useMobiFrame": "Gebruik Mobi Frame"
     },
     "customizeMenu": {
       "ai": "AI",

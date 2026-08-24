@@ -534,6 +534,12 @@
       "noneFound": "Nenhum frame de desktop encontrado para este servidor.",
       "saved": "Molduras da área de trabalho salvas.",
       "screenPlaceholder": "Esta é a tela",
+      "screenTheme": "Tema da tela",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Moderno",
+        "text": "Texto"
+      },
       "selectFrame": "Selecionar moldura",
       "tooltip": {
         "dragBody": "para mover componentes",
@@ -543,7 +549,8 @@
         "resizeBody": "para redimensionar componentes",
         "resizeTitle": "CTRL+Arrastar"
       },
-      "upload": "Carregar"
+      "upload": "Carregar",
+      "useMobiFrame": "Usar Moldura Mobi"
     },
     "customizeMenu": {
       "ai": "IA",

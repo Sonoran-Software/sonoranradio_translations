@@ -534,6 +534,12 @@
       "noneFound": "このサーバーにはデスクトップフレームが見つかりませんでした。",
       "saved": "デスクトップ フレームを保存しました。",
       "screenPlaceholder": "これは画面です",
+      "screenTheme": "画面テーマ",
+      "screenThemes": {
+        "mobi": "モビ",
+        "modern": "モダン",
+        "text": "テキスト"
+      },
       "selectFrame": "フレームを選択",
       "tooltip": {
         "dragBody": "コンポーネントを移動するには",
@@ -543,7 +549,8 @@
         "resizeBody": "コンポーネントのサイズを変更するには",
         "resizeTitle": "CTRL+ドラッグ"
       },
-      "upload": "アップロード"
+      "upload": "アップロード",
+      "useMobiFrame": "Mobi Frameを使う"
     },
     "customizeMenu": {
       "ai": "AI",

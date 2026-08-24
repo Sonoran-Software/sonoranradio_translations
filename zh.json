@@ -534,6 +534,12 @@
       "noneFound": "未找到此服务器的桌面框架。",
       "saved": "桌面边框已保存。",
       "screenPlaceholder": "这是屏幕",
+      "screenTheme": "屏幕主题",
+      "screenThemes": {
+        "mobi": "流动",
+        "modern": "现代",
+        "text": "文本"
+      },
       "selectFrame": "选择框架",
       "tooltip": {
         "dragBody": "移动组件",
@@ -543,7 +549,8 @@
         "resizeBody": "调整组件大小",
         "resizeTitle": "CTRL+拖动"
       },
-      "upload": "上传"
+      "upload": "上传",
+      "useMobiFrame": "使用 Mobi Frame"
     },
     "customizeMenu": {
       "ai": "AI",

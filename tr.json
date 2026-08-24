@@ -534,6 +534,12 @@
       "noneFound": "Bu sunucu için masaüstü çerçevesi bulunamadı.",
       "saved": "Masaüstü çerçeveleri kaydedildi.",
       "screenPlaceholder": "Bu ekrandır",
+      "screenTheme": "Ekran Teması",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Modern",
+        "text": "Metin"
+      },
       "selectFrame": "Çerçeve Seç",
       "tooltip": {
         "dragBody": "bileşenleri taşımak için",
@@ -543,7 +549,8 @@
         "resizeBody": "bileşenleri yeniden boyutlandırmak için",
         "resizeTitle": "CTRL+Sürükle"
       },
-      "upload": "Yükle"
+      "upload": "Yükle",
+      "useMobiFrame": "Mobi Çerçevesini Kullan"
     },
     "customizeMenu": {
       "ai": "Yapay Zeka",

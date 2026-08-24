@@ -22,6 +22,15 @@
     }
   },
   "manageServer": {
+    "customizeDesktopFrames": {
+      "screenTheme": "Schermthema",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Modern",
+        "text": "Tekst"
+      },
+      "useMobiFrame": "Gebruik Mobi Frame"
+    },
     "members": {
       "copyDiscordId": "Discord-ID kopiëren",
       "copyRobloxId": "Roblox-ID kopiëren",

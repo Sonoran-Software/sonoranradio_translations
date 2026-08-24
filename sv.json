@@ -534,6 +534,12 @@
       "noneFound": "Inga skrivbordsramar hittades för den här servern.",
       "saved": "Skrivbordsramar sparade.",
       "screenPlaceholder": "Detta är skärmen",
+      "screenTheme": "Skärmtema",
+      "screenThemes": {
+        "mobi": "Mobi",
+        "modern": "Modern",
+        "text": "Text"
+      },
       "selectFrame": "Välj ram",
       "tooltip": {
         "dragBody": "att flytta komponenter",
@@ -543,7 +549,8 @@
         "resizeBody": "att ändra storlek på komponenter",
         "resizeTitle": "CTRL+dra"
       },
-      "upload": "Ladda upp"
+      "upload": "Ladda upp",
+      "useMobiFrame": "Använd Mobi Frame"
     },
     "customizeMenu": {
       "ai": "AI",
