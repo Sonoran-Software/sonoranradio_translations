@@ -1,4 +1,18 @@
 {
+  "billing": {
+    "newSubDialog": {
+      "billedQuarterly": "Aangerekend als {price} per kwartaal",
+      "billingCycle": "Factureringscyclus",
+      "monthly": "Maandelijks",
+      "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio en FiveM-hosting in één bundel.",
+      "quarterly": "Per kwartaal",
+      "studio": "Sonoran Studio Communitylicentie",
+      "studioDescription": "Slimme verlichting en streamwidgets voor je community. Inbegrepen bij Sonoran One.",
+      "studioPrice": "€7,99/maand",
+      "studioQuarterlyBilled": "€18,00",
+      "studioQuarterlyPrice": "$6,00/mnd"
+    }
+  },
   "landingPage": {
     "developers": {
       "button": "Ontdek ontwikkelaarstools",

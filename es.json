@@ -5,7 +5,10 @@
       "billingCycle": "Ciclo de facturación",
       "monthly": "Mensual",
       "oneDescription": "CAD Pro, CMS, Radio, Sonoran Studio y alojamiento de FiveM en un solo paquete.",
+      "quarterly": "Trimestral",
       "studio": "Licencia comunitaria de Sonoran Studio",
+      "studioDescription": "Iluminación inteligente y widgets de stream para tu comunidad. Incluido con Sonoran One.",
+      "studioPrice": "7,99 $/mes",
       "studioQuarterlyBilled": "18,00 US$",
       "studioQuarterlyPrice": "$6.00/mes"
     }

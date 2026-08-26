@@ -1,4 +1,18 @@
 {
+  "billing": {
+    "newSubDialog": {
+      "billedQuarterly": "Оплата {price} щоквартально",
+      "billingCycle": "Платіжний цикл",
+      "monthly": "Щомісяця",
+      "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio та FiveM-хостинг в одному пакеті.",
+      "quarterly": "Щоквартально",
+      "studio": "Ліцензія спільноти Sonoran Studio",
+      "studioDescription": "Розумне освітлення та стрім-віджети для вашої спільноти. Входить до Sonoran One.",
+      "studioPrice": "$7.99/міс",
+      "studioQuarterlyBilled": "$18.00",
+      "studioQuarterlyPrice": "$6.00/міс"
+    }
+  },
   "landingPage": {
     "developers": {
       "button": "Ознайомитися з інструментами для розробників",

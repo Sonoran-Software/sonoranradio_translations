@@ -1,4 +1,18 @@
 {
+  "billing": {
+    "newSubDialog": {
+      "billedQuarterly": "按季收費 {price}",
+      "billingCycle": "帳單週期",
+      "monthly": "每月",
+      "oneDescription": "Pro CAD、CMS、Radio、Sonoran Studio 和 FiveM 主機託管整合於一個套裝。",
+      "quarterly": "每季",
+      "studio": "Sonoran Studio 社群授權",
+      "studioDescription": "智慧燈光和串流小工具，適用於您的社群。包含於 Sonoran One。",
+      "studioPrice": "$7.99/月",
+      "studioQuarterlyBilled": "$18.00",
+      "studioQuarterlyPrice": "US$6.00/月"
+    }
+  },
   "landingPage": {
     "developers": {
       "button": "探索 開發者 工具",
