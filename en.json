@@ -1,4 +1,18 @@
 {
+  "billing": {
+    "newSubDialog": {
+      "billedQuarterly": "Billed as {price} quarterly",
+      "billingCycle": "Billing cycle",
+      "monthly": "Monthly",
+      "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio, and FiveM hosting in one bundle.",
+      "quarterly": "Quarterly",
+      "studio": "Sonoran Studio Community License",
+      "studioDescription": "Smart lighting and stream widgets for your community. Included with Sonoran One.",
+      "studioPrice": "$7.99/mo",
+      "studioQuarterlyBilled": "$18.00",
+      "studioQuarterlyPrice": "$6.00/mo"
+    }
+  },
   "landingPage": {
     "developers": {
       "button": "Explore Developer Tools",

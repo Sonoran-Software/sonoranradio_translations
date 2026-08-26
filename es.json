@@ -1,4 +1,15 @@
 {
+  "billing": {
+    "newSubDialog": {
+      "billedQuarterly": "Facturado como {price} trimestralmente",
+      "billingCycle": "Ciclo de facturación",
+      "monthly": "Mensual",
+      "oneDescription": "CAD Pro, CMS, Radio, Sonoran Studio y alojamiento de FiveM en un solo paquete.",
+      "studio": "Licencia comunitaria de Sonoran Studio",
+      "studioQuarterlyBilled": "18,00 US$",
+      "studioQuarterlyPrice": "$6.00/mes"
+    }
+  },
   "landingPage": {
     "developers": {
       "button": "Explorar herramientas para desarrolladores",
