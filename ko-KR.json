@@ -1,4 +1,18 @@
 {
+  "billing": {
+    "newSubDialog": {
+      "billedQuarterly": "{price} 분기별로 청구됨",
+      "billingCycle": "결제 주기",
+      "monthly": "월간",
+      "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio, FiveM 호스팅을 하나의 번들로.",
+      "quarterly": "분기별",
+      "studio": "소노란 스튜디오 커뮤니티 라이선스",
+      "studioDescription": "커뮤니티를 위한 스마트 조명과 스트림 위젯. Sonoran One에 포함됩니다.",
+      "studioPrice": "$7.99/월",
+      "studioQuarterlyBilled": "$18.00",
+      "studioQuarterlyPrice": "$6.00/월"
+    }
+  },
   "landingPage": {
     "developers": {
       "button": "개발자 도구 둘러보기",
