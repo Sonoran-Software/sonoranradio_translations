@@ -63,6 +63,16 @@
       },
       "useMobiFrame": "Usar Mobi Frame"
     },
+    "dispatchAi": {
+      "timers": {
+        "enabled": "Habilitar temporizadores de despacho",
+        "maximumMinutes": "Duración máxima del temporizador (minutos)",
+        "maximumMinutesHint": "Los usuarios pueden iniciar un temporizador cada uno, hasta 30 minutos.",
+        "maximumMinutesInvalid": "Introduce un número entero del 1 al 30",
+        "subtitle": "Permitir que los usuarios pidan a Dispatch AI temporizadores de persecución, PIT y otros operativos.",
+        "title": "Temporizadores de despacho"
+      }
+    },
     "members": {
       "copyDiscordId": "Copiar ID de Discord",
       "copyRobloxId": "Copiar ID de Roblox",
@@ -70,6 +80,22 @@
       "noDiscordAccountLinked": "Este usuario no tiene ninguna cuenta de Discord vinculada.",
       "noRobloxAccountLinked": "Este usuario no tiene ninguna cuenta de Roblox vinculada.",
       "robloxIdCopied": "ID de Roblox copiado al portapapeles."
+    },
+    "serverInfo": {
+      "cadPrompts": {
+        "tools": {
+          "cancelTimer": {
+            "hint": "Ejemplos: \"cancela mi temporizador\", \"detén mi temporizador PIT\"",
+            "label": "Cancela un temporizador",
+            "placeholder": "Cancela mi temporizador"
+          },
+          "startTimer": {
+            "hint": "Ejemplos: \"iniciar un temporizador PIT de cinco minutos\", \"configurar un temporizador de persecución para dos minutos\"",
+            "label": "Iniciar un temporizador",
+            "placeholder": "Iniciar un temporizador PIT de cinco minutos"
+          }
+        }
+      }
     }
   },
   "radio": {

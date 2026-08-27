@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Yhdistä Sonoran CAD, ota käyttöön Dispatch AI ja opeta sille yhteisösi radiokieli.",
+      "timers": {
+        "enabled": "Ota lähetyksen ajastimet käyttöön",
+        "maximumMinutes": "Ajastimen enimmäiskesto (minuuttia)",
+        "maximumMinutesHint": "Käyttäjät voivat käynnistää yhden ajastimen kukin, enintään 30 minuuttia.",
+        "maximumMinutesInvalid": "Anna kokonaisluku väliltä 1–30",
+        "subtitle": "Salli käyttäjien pyytää Dispatch AI:lta takaa-ajo-, PIT- ja muita operatiivisia ajastimia.",
+        "title": "Lähetyksen ajastimet"
+      },
       "title": "Lähetys-AI",
       "troubleshooting": {
         "body": "Jokainen käyttäjä voi tarkastella viimeisimpiä Dispatch AI -lähetyksiään ja lisätä sanakorvauksia ilmauksille, jotka AI kuulee väärin.",
@@ -966,6 +974,11 @@
             "label": "Liitä puheluun",
             "placeholder": "Liitä minut puheluun..."
           },
+          "cancelTimer": {
+            "hint": "Esimerkkejä: \"peru ajastimeni\", \"pysäytä PIT-ajastimeni\"",
+            "label": "Peru ajastin",
+            "placeholder": "Peru ajastimeni"
+          },
           "closeCall": {
             "hint": "Esimerkkejä: \"lopeta puheluni\"",
             "label": "Lopeta puhelu",
@@ -1005,6 +1018,11 @@
             "hint": "Esimerkkejä: \"vie minut postiin 1234\", \"aseta GPS postinumeroon 90210\"",
             "label": "Reititä postiin",
             "placeholder": "Vie minut postiin 1234"
+          },
+          "startTimer": {
+            "hint": "Esimerkkejä: \"käynnistä viiden minuutin PIT-ajastin\", \"aseta takaa-ajon ajastimeksi kaksi minuuttia\"",
+            "label": "Käynnistä ajastin",
+            "placeholder": "Käynnistä viiden minuutin PIT-ajastin"
           },
           "status": {
             "hint": "Esimerkkejä: \"aseta tilakseni käytettävissä\", \"näytä minulle ei käytettävissä\"",

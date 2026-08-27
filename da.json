@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Forbind Sonoran CAD, aktivér Dispatch AI, og lær det dit fællesskabs radiosprog.",
+      "timers": {
+        "enabled": "Aktivér dispatch-timere",
+        "maximumMinutes": "Maksimal timerlængde (minutter)",
+        "maximumMinutesHint": "Brugere kan starte én timer hver, op til 30 minutter.",
+        "maximumMinutesInvalid": "Indtast et helt tal fra 1 til 30",
+        "subtitle": "Giv brugere mulighed for at bede Dispatch AI om forfølgelses-, PIT- og andre operationelle timere.",
+        "title": "Dispatch-timere"
+      },
       "title": "Dispatch AI",
       "troubleshooting": {
         "body": "Hver bruger kan gennemgå deres seneste Dispatch AI-overførsler og tilføje ordtilsidesættelser for fraser, som AI'en hører forkert.",
@@ -966,6 +974,11 @@
             "label": "Tilknyt til et opkald",
             "placeholder": "Tilknyt mig til opkald..."
           },
+          "cancelTimer": {
+            "hint": "Eksempler: \"annullér min timer\", \"stop min PIT-timer\"",
+            "label": "Annuller en timer",
+            "placeholder": "Annuller min timer"
+          },
           "closeCall": {
             "hint": "Eksempler: \"afslut mit opkald\"",
             "label": "Afslut et opkald",
@@ -1005,6 +1018,11 @@
             "hint": "Eksempler: \"rute mig til postnummer 1234\", \"sæt GPS til postnummer 90210\"",
             "label": "Rute til post",
             "placeholder": "rute mig til postnummer 1234"
+          },
+          "startTimer": {
+            "hint": "Eksempler: \"start en fem minutters PIT-timer\", \"sæt en forfølgelsestimer til to minutter\"",
+            "label": "Start en timer",
+            "placeholder": "Start en fem minutters PIT-timer"
           },
           "status": {
             "hint": "Eksempler: \"sæt min status til tilgængelig\", \"vis mig utilgængelig\"",

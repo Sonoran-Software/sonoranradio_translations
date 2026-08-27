@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "连接 Sonoran CAD，启用 Dispatch AI，并教会它你社区的无线电术语。",
+      "timers": {
+        "enabled": "启用调度计时器",
+        "maximumMinutes": "最大计时器时长（分钟）",
+        "maximumMinutesHint": "每位用户可启动一个计时器，最长30分钟。",
+        "maximumMinutesInvalid": "请输入1到30之间的整数",
+        "subtitle": "允许用户向 Dispatch AI 请求追捕、PIT 和其他行动计时器。",
+        "title": "调度计时器"
+      },
       "title": "调度 AI",
       "troubleshooting": {
         "body": "每位用户都可以查看其最近的 Dispatch AI 传输，并为 AI 听错的短语添加词语覆盖。",
@@ -966,6 +974,11 @@
             "label": "附加到通话",
             "placeholder": "附加我到通话..."
           },
+          "cancelTimer": {
+            "hint": "示例：\"取消我的计时器\"，\"停止我的 PIT 计时器\"",
+            "label": "取消计时器",
+            "placeholder": "取消我的计时器"
+          },
           "closeCall": {
             "hint": "示例：\"结束我的通话\"",
             "label": "结束通话",
@@ -1005,6 +1018,11 @@
             "hint": "示例：“将我路由到邮政1234”，“将GPS设置为邮政90210”",
             "label": "路由到邮政",
             "placeholder": "将我路由到邮政1234"
+          },
+          "startTimer": {
+            "hint": "示例：\"开始一个五分钟 PIT 计时器\"，\"设置一个两分钟的追逐计时器\"",
+            "label": "开始计时器",
+            "placeholder": "开始一个五分钟 PIT 计时器"
           },
           "status": {
             "hint": "示例：\"将我的状态设为可用\"，\"显示我不可用\"",

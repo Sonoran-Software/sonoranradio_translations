@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Sonoran CAD'yi bağla, Dispatch AI'yi etkinleştir ve topluluğunun radyo dilini ona öğret.",
+      "timers": {
+        "enabled": "Çağrı zamanlayıcılarını etkinleştir",
+        "maximumMinutes": "Maksimum zamanlayıcı süresi (dakika)",
+        "maximumMinutesHint": "Kullanıcılar kişi başı bir zamanlayıcı başlatabilir, en fazla 30 dakika.",
+        "maximumMinutesInvalid": "1 ile 30 arasında tam sayı girin",
+        "subtitle": "Kullanıcıların kovalamaca, PIT ve diğer operasyonel zamanlayıcılar için Dispatch AI'a sormasına izin verin.",
+        "title": "Çağrı zamanlayıcıları"
+      },
       "title": "Çağrı Yapay Zeka",
       "troubleshooting": {
         "body": "Her kullanıcı yakın tarihli Dispatch AI gönderimlerini inceleyebilir ve yapay zekanın yanlış duyduğu ifadeler için kelime geçersiz kılmaları ekleyebilir.",
@@ -966,6 +974,11 @@
             "label": "Aramaya bağla",
             "placeholder": "Beni aramaya bağla..."
           },
+          "cancelTimer": {
+            "hint": "Örnekler: \"zamanlayıcımı iptal et\", \"PIT zamanlayıcımı durdur\"",
+            "label": "Zamanlayıcıyı iptal et",
+            "placeholder": "Zamanlayıcımı iptal et"
+          },
           "closeCall": {
             "hint": "Örnekler: \"aramamı kapat\"",
             "label": "Bir aramayı kapat",
@@ -1005,6 +1018,11 @@
             "hint": "Örnekler: \"beni 1234 posta koduna yönlendir\", \"GPS'i 90210 posta koduna ayarla\"",
             "label": "Postaya yönlendir",
             "placeholder": "beni 1234 posta koduna yönlendir"
+          },
+          "startTimer": {
+            "hint": "Örnekler: \"beş dakikalık PIT zamanlayıcısını başlat\", \"iki dakika için bir kovalamaca zamanlayıcısı ayarla\"",
+            "label": "Zamanlayıcıyı başlat",
+            "placeholder": "Beş dakikalık PIT zamanlayıcısını başlat"
           },
           "status": {
             "hint": "Örnekler: \"durumumu uygun olarak ayarla\", \"bana müsait olmayanı göster\"",

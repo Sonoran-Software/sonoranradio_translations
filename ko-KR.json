@@ -63,6 +63,16 @@
       },
       "useMobiFrame": "Mobi Frame 사용"
     },
+    "dispatchAi": {
+      "timers": {
+        "enabled": "디스패치 타이머 사용",
+        "maximumMinutes": "최대 타이머 지속 시간 (분)",
+        "maximumMinutesHint": "사용자는 각자 1개의 타이머를 시작할 수 있으며, 최대 30분까지 가능합니다.",
+        "maximumMinutesInvalid": "1에서 30까지의 정수를 입력하세요",
+        "subtitle": "사용자가 추격, PIT 및 기타 작전 타이머를 위해 Dispatch AI에게 요청할 수 있도록 허용",
+        "title": "디스패치 타이머"
+      }
+    },
     "members": {
       "copyDiscordId": "Discord ID 복사",
       "copyRobloxId": "Roblox ID 복사",
@@ -70,6 +80,22 @@
       "noDiscordAccountLinked": "이 사용자에게 연결된 Discord 계정이 없습니다.",
       "noRobloxAccountLinked": "이 사용자에게 연결된 Roblox 계정이 없습니다.",
       "robloxIdCopied": "Roblox ID가 클립보드에 복사되었습니다."
+    },
+    "serverInfo": {
+      "cadPrompts": {
+        "tools": {
+          "cancelTimer": {
+            "hint": "예: \"내 타이머 취소해\", \"내 PIT 타이머 멈춰\"",
+            "label": "타이머 취소",
+            "placeholder": "내 타이머 취소"
+          },
+          "startTimer": {
+            "hint": "예: \"5분 PIT 타이머 시작\", \"추격 타이머를 2분으로 설정\"",
+            "label": "타이머 시작",
+            "placeholder": "5분 PIT 타이머 시작"
+          }
+        }
+      }
     }
   },
   "radio": {

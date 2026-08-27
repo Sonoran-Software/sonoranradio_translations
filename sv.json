@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Anslut Sonoran CAD, aktivera Dispatch AI och lär det ditt communitys radiospråk.",
+      "timers": {
+        "enabled": "Aktivera dispatch-timer",
+        "maximumMinutes": "Maximal timerlängd (minuter)",
+        "maximumMinutesHint": "Användare kan starta en timer var, upp till 30 minuter.",
+        "maximumMinutesInvalid": "Ange ett heltal från 1 till 30",
+        "subtitle": "Låt användare be Dispatch AI om förföljelse-, PIT- och andra operativa timers.",
+        "title": "Dispatch-timers"
+      },
       "title": "Dispatch AI",
       "troubleshooting": {
         "body": "Varje användare kan granska sina senaste Dispatch AI-överföringar och lägga till ordöverskridningar för fraser som AI:n hör fel.",
@@ -966,6 +974,11 @@
             "label": "Koppla till ett samtal",
             "placeholder": "Koppla mig till samtalet..."
           },
+          "cancelTimer": {
+            "hint": "Exempel: \"avbryt min timer\", \"stoppa min PIT-timer\"",
+            "label": "Avbryt en timer",
+            "placeholder": "Avbryt min timer"
+          },
           "closeCall": {
             "hint": "Exempel: \"avsluta mitt samtal\"",
             "label": "Avsluta ett samtal",
@@ -1005,6 +1018,11 @@
             "hint": "Exempel: \"route me to postal 1234\", \"ställ GPS till postal 90210\"",
             "label": "Rutt till post",
             "placeholder": "Rutta mig till postnummer 1234"
+          },
+          "startTimer": {
+            "hint": "Exempel: \"starta en fem minuters PIT-timer\", \"ställ in en förföljelsetimer på två minuter\"",
+            "label": "Starta en timer",
+            "placeholder": "Starta en fem minuters PIT-timer"
           },
           "status": {
             "hint": "Exempel: \"sätt min status till tillgänglig\", \"visa mig otillgänglig\"",
