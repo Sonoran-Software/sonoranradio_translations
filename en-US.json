@@ -646,7 +646,6 @@
         }
       },
       "subtitle": "Connect Sonoran CAD, enable Dispatch AI, and teach it your community's radio language.",
-      "title": "Dispatch AI",
       "timers": {
         "enabled": "Enable dispatch timers",
         "maximumMinutes": "Maximum timer duration (minutes)",
@@ -655,6 +654,7 @@
         "subtitle": "Allow users to ask Dispatch AI for pursuit, PIT, and other operational timers.",
         "title": "Dispatch Timers"
       },
+      "title": "Dispatch AI",
       "troubleshooting": {
         "body": "Each user can review their recent Dispatch AI transmissions and add word overrides for phrases the AI mishears.",
         "path": "Open the Dispatch panel, select the gear icon, then open the AI tab.",
@@ -1019,15 +1019,15 @@
             "label": "Route to postal",
             "placeholder": "Route me to postal 1234"
           },
-          "status": {
-            "hint": "Examples: \"set my status to available\", \"show me unavailable\"",
-            "label": "Status updates",
-            "placeholder": "Set my status to available"
-          },
           "startTimer": {
             "hint": "Examples: \"start a five minute PIT timer\", \"set a pursuit timer for two minutes\"",
             "label": "Start a timer",
             "placeholder": "Start a five minute PIT timer"
+          },
+          "status": {
+            "hint": "Examples: \"set my status to available\", \"show me unavailable\"",
+            "label": "Status updates",
+            "placeholder": "Set my status to available"
           },
           "togglePanic": {
             "hint": "Examples: \"activate my panic\", \"clear my panic\"",
