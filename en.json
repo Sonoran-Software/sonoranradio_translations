@@ -33,6 +33,24 @@
       },
       "flowAria": "Sonoran Radio connects to Sonoran Studio for stream overlays, smart lighting, and automations",
       "title": "Take every transmission beyond the radio"
+    },
+    "support": {
+      "contactButton": "Contact Support",
+      "description": "Live chat support is available 7 days a week from real people who understand roleplay communities — with teams in the USA and UK.",
+      "features": {
+        "humans": "Human support",
+        "liveChat": "Live chat daily",
+        "locations": "USA + UK team"
+      },
+      "flags": {
+        "uk": "United Kingdom",
+        "us": "United States"
+      },
+      "googleBadge": "Google Reviews",
+      "reviewsButton": "Read Google Reviews",
+      "titleHighlight": "5-Star Support.",
+      "titleLead": "Your community deserves",
+      "widgetTitle": "Sonoran Support response times"
     }
   },
   "manageServer": {

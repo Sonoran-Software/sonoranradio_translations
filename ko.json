@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio 는 Sonoran Studio 에 연결되어 스트림 오버레이, 스마트 조명, 자동화를 제공합니다",
       "title": "모든 전송을 라디오 너머로"
     },
+    "support": {
+      "contactButton": "지원팀에 문의",
+      "description": "라이브 채팅 지원은 롤플레이 커뮤니티를 이해하는 실제 사람들로부터 주 7일 이용할 수 있습니다 — USA와 UK의 팀이 함께합니다.",
+      "features": {
+        "humans": "사람 지원",
+        "liveChat": "일일 라이브 채팅",
+        "locations": "USA + UK 팀"
+      },
+      "flags": {
+        "uk": "영국",
+        "us": "미국"
+      },
+      "googleBadge": "Google 리뷰",
+      "reviewsButton": "Google 리뷰 읽기",
+      "titleHighlight": "5성급 지원.",
+      "titleLead": "당신의 커뮤니티는 누릴 자격이 있습니다",
+      "widgetTitle": "Sonoran Support 응답 시간"
+    },
     "ToneBoard": {
       "desc1": "커뮤니티를 위한 디스패치 톤을 업로드하고 커스터마이징!",
       "desc2": "Sonoran Radios의 디스패치 UI는 특정 채널 및 그룹을 지정하고, 톤을 반복 재생하며, 더 많은 것을 할 수 있습니다! 심지어 게임 내 스피커에서 톤을 재생할 수도 있습니다!",

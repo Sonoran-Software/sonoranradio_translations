@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio yhdistyy Sonoran Studioon suoratoiston päällekkäisnäkymiin, älyvalaistukseen ja automaatioihin",
       "title": "Vie jokainen lähetys radion tuolle puolen"
     },
+    "support": {
+      "contactButton": "Ota yhteyttä tukeen",
+      "description": "Live-chat-tuki on saatavilla 7 päivää viikossa oikeilta ihmisiltä, jotka ymmärtävät roolipeliyhteisöjä — tiimeillä USA:ssa ja Isossa-Britanniassa.",
+      "features": {
+        "humans": "Ihmistuki",
+        "liveChat": "Live-chat päivittäin",
+        "locations": "USA + UK tiimi"
+      },
+      "flags": {
+        "uk": "Iso-Britannia",
+        "us": "Yhdysvallat"
+      },
+      "googleBadge": "Google-arvostelut",
+      "reviewsButton": "Lue Google-arvostelut",
+      "titleHighlight": "5 tähden tuki.",
+      "titleLead": "Yhteisösi ansaitsee",
+      "widgetTitle": "Sonoran-tuen vastausajat"
+    },
     "ToneBoard": {
       "desc1": "Lataa ja mukauta yhteisösi lähetyssävelet!",
       "desc2": "Sonoran Radion lähetyksen UI antaa sinun määritellä tietyt kanavat ja ryhmät, toistaa sävelmiä ja paljon muuta! Voit jopa soittaa sävelmiä pelin sisäisillä kaiuttimilla!",

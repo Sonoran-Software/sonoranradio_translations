@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio 连接到 Sonoran Studio，用于直播覆盖层、智能照明和自动化",
       "title": "让每次传输超越无线电"
     },
+    "support": {
+      "contactButton": "联系支持",
+      "description": "提供实时聊天支持，每周7天都有真正了解角色扮演社区的人提供服务——团队位于美国和英国。",
+      "features": {
+        "humans": "人工支持",
+        "liveChat": "每日在线聊天",
+        "locations": "美国 + 英国团队"
+      },
+      "flags": {
+        "uk": "英国",
+        "us": "美国"
+      },
+      "googleBadge": "Google 评价",
+      "reviewsButton": "阅读 Google 评价",
+      "titleHighlight": "五星支持。",
+      "titleLead": "你的社区值得",
+      "widgetTitle": "Sonoran 支持响应时间"
+    },
     "ToneBoard": {
       "desc1": "上传并为您的社区定制广播音调！",
       "desc2": "Sonoran Radios 调度用户界面允许您指定特定频道和小组，重复音调等！您甚至可以在游戏扬声器上播放音调！",

@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio verbindt met Sonoran Studio voor streamoverlays, slimme verlichting en automatiseringen",
       "title": "Breng elke transmissie verder dan de radio"
     },
+    "support": {
+      "contactButton": "Contact opnemen met ondersteuning",
+      "description": "Live chatondersteuning is 7 dagen per week beschikbaar van echte mensen die rollenspelgemeenschappen begrijpen — met teams in de VS en het VK.",
+      "features": {
+        "humans": "Menselijke ondersteuning",
+        "liveChat": "Live chat dagelijks",
+        "locations": "VS + VK team"
+      },
+      "flags": {
+        "uk": "Verenigd Koninkrijk",
+        "us": "Verenigde Staten"
+      },
+      "googleBadge": "Google-recensies",
+      "reviewsButton": "Lees Google-recensies",
+      "titleHighlight": "5-sterrenondersteuning.",
+      "titleLead": "Jouw community verdient",
+      "widgetTitle": "Sonoran Support reactietijden"
+    },
     "ToneBoard": {
       "desc1": "Upload en pas dispatchtonen aan voor je community!",
       "desc2": "Sonoran Radio's dispatch-UI stelt je in staat om specifieke kanalen en groepen op te geven, tonen te herhalen, en meer! Je kunt zelfs tonen afspelen op in-game luidsprekers!",

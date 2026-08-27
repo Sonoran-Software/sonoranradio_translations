@@ -33,6 +33,24 @@
       },
       "flowAria": "Sonoran Radio 连接到 Sonoran Studio，用于直播覆盖层、智能照明和自动化",
       "title": "将每次传输都带到无线电之外"
+    },
+    "support": {
+      "contactButton": "联系支持",
+      "description": "由真正了解角色扮演社区的客服人员提供全天候 7 天在线聊天支持——团队位于美国和英国。",
+      "features": {
+        "humans": "人工支持",
+        "liveChat": "每日在线聊天",
+        "locations": "美国 + 英国 团队"
+      },
+      "flags": {
+        "uk": "英国",
+        "us": "美国"
+      },
+      "googleBadge": "Google 评价",
+      "reviewsButton": "阅读 Google 评价",
+      "titleHighlight": "五星支持。",
+      "titleLead": "你的社区值得",
+      "widgetTitle": "Sonoran 支持响应时间"
     }
   },
   "manageServer": {

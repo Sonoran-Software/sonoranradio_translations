@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio se connecte à Sonoran Studio pour les superpositions de stream, l'éclairage intelligent et les automatisations",
       "title": "Emportez chaque transmission au-delà de la radio"
     },
+    "support": {
+      "contactButton": "Contacter le support",
+      "description": "Le support par chat en direct est disponible 7 jours sur 7 par de vraies personnes qui comprennent les communautés de jeu de rôle — avec des équipes aux États-Unis et au Royaume-Uni.",
+      "features": {
+        "humans": "Assistance humaine",
+        "liveChat": "Chat en direct tous les jours",
+        "locations": "équipe USA + UK"
+      },
+      "flags": {
+        "uk": "Royaume-Uni",
+        "us": "États-Unis"
+      },
+      "googleBadge": "Avis Google",
+      "reviewsButton": "Lire les avis Google",
+      "titleHighlight": "Assistance 5 étoiles.",
+      "titleLead": "Votre communauté mérite",
+      "widgetTitle": "Délais de réponse du support Sonoran"
+    },
     "ToneBoard": {
       "desc1": "Téléchargez et personnalisez les tonalités de répartition pour votre communauté !",
       "desc2": "L'interface de répartition de Sonoran Radios vous permet de spécifier des canaux et groupes spécifiques, de répéter les tonalités et plus ! Vous pouvez même faire jouer les tonalités sur les haut-parleurs en jeu !",

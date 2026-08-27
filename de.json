@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio verbindet sich mit Sonoran Studio für Stream-Overlays, intelligente Beleuchtung und Automatisierungen",
       "title": "Bring jede Übertragung über das Funkgerät hinaus"
     },
+    "support": {
+      "contactButton": "Support kontaktieren",
+      "description": "Live-Chat-Support ist 7 Tage die Woche von echten Menschen verfügbar, die Rollenspiel-Communities verstehen — mit Teams in den USA und Großbritannien.",
+      "features": {
+        "humans": "Menschlicher Support",
+        "liveChat": "Live-Chat täglich",
+        "locations": "USA + UK Team"
+      },
+      "flags": {
+        "uk": "Vereinigtes Königreich",
+        "us": "Vereinigte Staaten"
+      },
+      "googleBadge": "Google-Bewertungen",
+      "reviewsButton": "Google-Bewertungen lesen",
+      "titleHighlight": "5-Sterne-Support.",
+      "titleLead": "Deine Community verdient",
+      "widgetTitle": "Sonoran-Support-Reaktionszeiten"
+    },
     "ToneBoard": {
       "desc1": "Laden Sie Dispatch-Töne für Ihre Community hoch und passen Sie sie an!",
       "desc2": "Sonoran Radios Dispatch-UI ermöglicht es Ihnen, spezifische Kanäle und Gruppen zu spezifizieren, Töne zu wiederholen und mehr! Sie können sogar Töne auf In-Game-Lautsprechern abspielen!",

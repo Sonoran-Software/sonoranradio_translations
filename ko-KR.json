@@ -33,6 +33,24 @@
       },
       "flowAria": "Sonoran Radio는 스트림 오버레이, 스마트 조명, 자동화를 위해 Sonoran Studio에 연결됩니다",
       "title": "모든 송신을 무전기 너머로"
+    },
+    "support": {
+      "contactButton": "고객 지원 문의",
+      "description": "실시간 채팅 지원은 롤플레이 커뮤니티를 이해하는 실제 사람들로부터 연중무휴 7일 이용할 수 있습니다 — 미국과 영국에 팀이 있습니다.",
+      "features": {
+        "humans": "사람 지원",
+        "liveChat": "매일 실시간 채팅",
+        "locations": "미국 + 영국 팀"
+      },
+      "flags": {
+        "uk": "영국",
+        "us": "미국"
+      },
+      "googleBadge": "Google 리뷰",
+      "reviewsButton": "Google 리뷰 읽기",
+      "titleHighlight": "5성급 지원.",
+      "titleLead": "귀하의 커뮤니티는 누려야 합니다",
+      "widgetTitle": "Sonoran Support 응답 시간"
     }
   },
   "manageServer": {

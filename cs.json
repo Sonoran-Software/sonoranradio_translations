@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio se připojuje k Sonoran Studio pro streamové překryvy, chytré osvětlení a automatizace",
       "title": "Posuňte každý přenos za rádio"
     },
+    "support": {
+      "contactButton": "Kontaktovat podporu",
+      "description": "Podpora živého chatu je k dispozici 7 dní v týdnu od skutečných lidí, kteří rozumějí komunitám roleplay — s týmy v USA a UK.",
+      "features": {
+        "humans": "Lidská podpora",
+        "liveChat": "Živý chat denně",
+        "locations": "tým USA + UK"
+      },
+      "flags": {
+        "uk": "Spojené království",
+        "us": "Spojené státy"
+      },
+      "googleBadge": "Recenze Google",
+      "reviewsButton": "Přečíst recenze Google",
+      "titleHighlight": "Podpora s 5 hvězdičkami.",
+      "titleLead": "Vaše komunita si zaslouží",
+      "widgetTitle": "Doby odezvy podpory Sonoran"
+    },
     "ToneBoard": {
       "desc1": "Nahrajte a přizpůsobte tóny dispečinku pro vaši komunitu!",
       "desc2": "Dispečerské UI Sonoran Radios umožňuje specifikovat konkrétní kanály a skupiny, opakovat tóny a další! Tóny můžete hrát dokonce na herních reproduktorech!",
