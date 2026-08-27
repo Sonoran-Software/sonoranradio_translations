@@ -989,6 +989,16 @@
             "label": "Create a call",
             "placeholder": "Create a call for a 10-50 on Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Examples: \"what channel am I on\", \"report my current channels\"",
+            "label": "Report current channels",
+            "placeholder": "Report my current channels"
+          },
+          "getMyCall": {
+            "hint": "Examples: \"repeat my current call\", \"repeat the call details\"",
+            "label": "Repeat current call",
+            "placeholder": "Repeat my current call details"
+          },
           "getRecentCadEvents": {
             "hint": "Examples: \"what's the latest call\", \"recent panic\", \"that call\"",
             "label": "Recent Events",
@@ -1019,6 +1029,11 @@
             "label": "Route to postal",
             "placeholder": "Route me to postal 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Examples: \"switch me to TAC 1\", \"move unit A-12 to Dispatch\"",
+            "label": "Switch radio channel",
+            "placeholder": "Switch me to TAC 1"
+          },
           "startTimer": {
             "hint": "Examples: \"start a five minute PIT timer\", \"set a pursuit timer for two minutes\"",
             "label": "Start a timer",
@@ -1033,6 +1048,11 @@
             "hint": "Examples: \"activate my panic\", \"clear my panic\"",
             "label": "Toggle panic",
             "placeholder": "Activate my panic"
+          },
+          "updateScanChannels": {
+            "hint": "Examples: \"add TAC 1 to my scanned channels\", \"stop scanning Dispatch\"",
+            "label": "Update scanned channels",
+            "placeholder": "Add TAC 1 to my scanned channels"
           },
           "unattachFromCall": {
             "hint": "Examples: \"detach me from the call\"",
