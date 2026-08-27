@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio, yayın kaplamaları, akıllı aydınlatma ve otomasyonlar için Sonoran Studio'ya bağlanır",
       "title": "Her iletimi radyonun ötesine taşı"
     },
+    "support": {
+      "contactButton": "Destekle İletişime Geç",
+      "description": "Canlı sohbet desteği, rol yapma topluluklarını anlayan gerçek kişilerden haftanın 7 günü kullanılabilir — ABD ve Birleşik Krallık'taki ekiplerle.",
+      "features": {
+        "humans": "İnsan desteği",
+        "liveChat": "Günlük canlı sohbet",
+        "locations": "ABD + İngiltere ekibi"
+      },
+      "flags": {
+        "uk": "Birleşik Krallık",
+        "us": "Amerika Birleşik Devletleri"
+      },
+      "googleBadge": "Google Yorumları",
+      "reviewsButton": "Google Yorumlarını Oku",
+      "titleHighlight": "5 Yıldızlı Destek.",
+      "titleLead": "Topluluğunuz hak ediyor",
+      "widgetTitle": "Sonoran Destek yanıt süreleri"
+    },
     "ToneBoard": {
       "desc1": "Topluluğunuz için çağrı tonlarını yükleyin ve özelleştirin!",
       "desc2": "Sonoran Radios çağrı merkezi kullanıcı arayüzü, belirli kanallar ve gruplar belirlemenizi, tonları tekrarlamanızı ve daha fazlasını sağlar! Tonları oyun içi hoparlörlerde bile çalabilirsiniz!",

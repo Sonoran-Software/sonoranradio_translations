@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio kobler til Sonoran Studio for strømoverlegg, smart belysning og automatiseringer",
       "title": "Ta hver overføring utover radioen"
     },
+    "support": {
+      "contactButton": "Kontakt kundestøtte",
+      "description": "Live chat-support er tilgjengelig 7 dager i uken fra ekte mennesker som forstår rollespillfellesskap — med team i USA og Storbritannia.",
+      "features": {
+        "humans": "Menneskelig støtte",
+        "liveChat": "Live chat hver dag",
+        "locations": "USA + UK-team"
+      },
+      "flags": {
+        "uk": "Storbritannia",
+        "us": "USA"
+      },
+      "googleBadge": "Google-anmeldelser",
+      "reviewsButton": "Les Google-anmeldelser",
+      "titleHighlight": "5-stjerners støtte.",
+      "titleLead": "Din community fortjener",
+      "widgetTitle": "Sonoran Support responstider"
+    },
     "ToneBoard": {
       "desc1": "Last opp og tilpass dispatchtoner for fellesskapet ditt!",
       "desc2": "Sonoran Radios dispatch UI lar deg spesifisere spesifikke kanaler og grupper, gjenta toner, og mer! Du kan til og med spille toner på innebygde høyttalere i spillet!",

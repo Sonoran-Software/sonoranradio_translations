@@ -33,6 +33,24 @@
       },
       "flowAria": "Sonoran Radio 連接到 Sonoran Studio，以用於串流疊加、智慧照明和自動化",
       "title": "將每次傳輸帶到超越無線電"
+    },
+    "support": {
+      "contactButton": "聯絡支援",
+      "description": "即時聊天支援每週 7 天皆可由真正了解角色扮演社群的人員提供——團隊位於美國和英國。",
+      "features": {
+        "humans": "真人支援",
+        "liveChat": "每日即時聊天",
+        "locations": "美國 + 英國 團隊"
+      },
+      "flags": {
+        "uk": "英國",
+        "us": "美國"
+      },
+      "googleBadge": "Google 評論",
+      "reviewsButton": "閱讀 Google 評論",
+      "titleHighlight": "5 星級支援。",
+      "titleLead": "您的社群值得",
+      "widgetTitle": "Sonoran 支援回應時間"
     }
   },
   "manageServer": {

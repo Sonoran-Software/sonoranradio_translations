@@ -33,6 +33,24 @@
       },
       "flowAria": "Sonoran Radio verbindt met Sonoran Studio voor stream-overlays, slimme verlichting en automatiseringen",
       "title": "Breng elke transmissie verder dan de radio"
+    },
+    "support": {
+      "contactButton": "Neem contact op met ondersteuning",
+      "description": "Live chat-ondersteuning is 7 dagen per week beschikbaar van echte mensen die rollenspelgemeenschappen begrijpen — met teams in de VS en het VK.",
+      "features": {
+        "humans": "Menselijke ondersteuning",
+        "liveChat": "Live chat dagelijks",
+        "locations": "VS + VK-team"
+      },
+      "flags": {
+        "uk": "Verenigd Koninkrijk",
+        "us": "Verenigde Staten"
+      },
+      "googleBadge": "Google reviews",
+      "reviewsButton": "Google reviews lezen",
+      "titleHighlight": "5-sterrenondersteuning.",
+      "titleLead": "Jouw community verdient",
+      "widgetTitle": "Sonoran Support responstijden"
     }
   },
   "manageServer": {

@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio は Sonoran Studio に接続して、配信オーバーレイ、スマート照明、オートメーションを利用します",
       "title": "すべての送信を ラジオ の向こうへ"
     },
+    "support": {
+      "contactButton": "サポートに問い合わせる",
+      "description": "ライブチャットサポートは、ロールプレイコミュニティを理解している実在のスタッフが 7 日間対応しています — USA と UK のチームで。",
+      "features": {
+        "humans": "人によるサポート",
+        "liveChat": "毎日 ライブチャット",
+        "locations": "USA + UKチーム"
+      },
+      "flags": {
+        "uk": "イギリス",
+        "us": "アメリカ合衆国"
+      },
+      "googleBadge": "Google レビュー",
+      "reviewsButton": "Google レビューを読む",
+      "titleHighlight": "5つ星サポート。",
+      "titleLead": "あなたのコミュニティは\nふさわしい",
+      "widgetTitle": "Sonoran Support の応答時間"
+    },
     "ToneBoard": {
       "desc1": "コミュニティ用のディスパッチトーンをアップロードしてカスタマイズ",
       "desc2": "Sonoran Radios のディスパッチ UI では、特定のチャンネルやグループを指定し、トーンを繰り返すことなどが可能。ゲーム内のスピーカーでトーンを再生することも可能！",

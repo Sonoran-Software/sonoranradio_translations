@@ -434,6 +434,24 @@
       "flowAria": "Sonoran Radio si connette a Sonoran Studio per sovrapposizioni di streaming, illuminazione intelligente e automazioni",
       "title": "Porta ogni trasmissione oltre la radio"
     },
+    "support": {
+      "contactButton": "Contatta il supporto",
+      "description": "L'assistenza via chat live è disponibile 7 giorni su 7 da persone reali che capiscono le comunità di roleplay — con team negli USA e nel Regno Unito.",
+      "features": {
+        "humans": "Supporto umano",
+        "liveChat": "Chat dal vivo quotidiano",
+        "locations": "team USA + UK"
+      },
+      "flags": {
+        "uk": "Regno Unito",
+        "us": "Stati Uniti"
+      },
+      "googleBadge": "Recensioni Google",
+      "reviewsButton": "Leggi le recensioni Google",
+      "titleHighlight": "Supporto a 5 stelle.",
+      "titleLead": "La tua community merita",
+      "widgetTitle": "Tempi di risposta del supporto Sonoran"
+    },
     "ToneBoard": {
       "desc1": "Carica e personalizza i toni di dispatch per la tua comunità!",
       "desc2": "L'interfaccia di dispatcio di Sonoran Radios ti permette di specificare canali e gruppi specifici, ripetere toni e altro! Puoi persino riprodurre toni sugli altoparlanti di gioco!",
