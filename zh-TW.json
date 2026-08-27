@@ -63,6 +63,16 @@
       },
       "useMobiFrame": "使用 Mobi 框架"
     },
+    "dispatchAi": {
+      "timers": {
+        "enabled": "啟用派遣計時器",
+        "maximumMinutes": "最長計時器持續時間（分鐘）",
+        "maximumMinutesHint": "每位使用者可啟動一個計時器，最長 30 分鐘。",
+        "maximumMinutesInvalid": "請輸入 1 到 30 的整數",
+        "subtitle": "允許使用者向 Dispatch AI 詢問追捕、PIT 和其他行動計時器。",
+        "title": "派遣計時器"
+      }
+    },
     "members": {
       "copyDiscordId": "複製 Discord ID",
       "copyRobloxId": "複製 Roblox ID",
@@ -70,6 +80,22 @@
       "noDiscordAccountLinked": "此使用者未連結 Discord 帳號。",
       "noRobloxAccountLinked": "此使用者未連結 Roblox 帳號。",
       "robloxIdCopied": "Roblox ID 已複製到剪貼簿。"
+    },
+    "serverInfo": {
+      "cadPrompts": {
+        "tools": {
+          "cancelTimer": {
+            "hint": "例如：「取消我的計時器」、「停止我的 PIT 計時器」",
+            "label": "取消計時器",
+            "placeholder": "取消我的計時器"
+          },
+          "startTimer": {
+            "hint": "例如：「開始五分鐘 PIT 計時器」、「設定兩分鐘追捕計時器」",
+            "label": "開始計時器",
+            "placeholder": "開始五分鐘 PIT 計時器"
+          }
+        }
+      }
     }
   },
   "radio": {

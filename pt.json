@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Conecte o Sonoran CAD, ative o Dispatch AI e ensine a ele a linguagem de rádio da sua comunidade.",
+      "timers": {
+        "enabled": "Ativar temporizadores de despacho",
+        "maximumMinutes": "Duração máxima do temporizador (minutos)",
+        "maximumMinutesHint": "Os usuários podem iniciar um cronômetro cada, de até 30 minutos.",
+        "maximumMinutesInvalid": "Digite um número inteiro de 1 a 30",
+        "subtitle": "Permitir que os usuários peçam ao Dispatch AI cronômetros de perseguição, PIT e outros operacionais.",
+        "title": "Temporizadores de Despacho"
+      },
       "title": "Despacho AI",
       "troubleshooting": {
         "body": "Cada usuário pode revisar suas transmissões recentes do Dispatch AI e adicionar substituições de palavras para frases que a IA entende incorretamente.",
@@ -966,6 +974,11 @@
             "label": "Conectar-se à chamada",
             "placeholder": "Me conecta à chamada..."
           },
+          "cancelTimer": {
+            "hint": "Exemplos: \"cancelar meu temporizador\", \"parar meu temporizador PIT\"",
+            "label": "Cancelar um cronômetro",
+            "placeholder": "Cancelar meu cronômetro"
+          },
           "closeCall": {
             "hint": "Exemplos: \"encerre minha chamada\"",
             "label": "Encerrar uma chamada",
@@ -1005,6 +1018,11 @@
             "hint": "Exemplos: \"encaminhe-me para o código postal 1234\", \"defina o GPS para o código postal 90210\"",
             "label": "Rota para correio",
             "placeholder": "Encaminhe-me para o código postal 1234"
+          },
+          "startTimer": {
+            "hint": "Exemplos: \"iniciar um cronômetro PIT de cinco minutos\", \"definir um cronômetro de perseguição para dois minutos\"",
+            "label": "Iniciar um cronômetro",
+            "placeholder": "Iniciar um cronômetro PIT de cinco minutos"
           },
           "status": {
             "hint": "Exemplos: \"defina meu status como disponível\", \"mostre-me indisponível\"",

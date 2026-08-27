@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Propojte Sonoran CAD, aktivujte Dispatch AI a naučte ho rádiový jazyk své komunity.",
+      "timers": {
+        "enabled": "Povolit časovače dispečinku",
+        "maximumMinutes": "Maximální délka časovače (minuty)",
+        "maximumMinutesHint": "Uživatelé mohou spustit jeden časovač každý, až na 30 minut.",
+        "maximumMinutesInvalid": "Zadejte celé číslo od 1 do 30",
+        "subtitle": "Umožněte uživatelům požádat Dispatch AI o časy pronásledování, PIT a další provozní časovače.",
+        "title": "Časovače dispečinku"
+      },
       "title": "Dispečink AI",
       "troubleshooting": {
         "body": "Každý uživatel může zkontrolovat své nedávné přenosy Dispatch AI a přidat přepisy slov pro fráze, které AI špatně slyší.",
@@ -966,6 +974,11 @@
             "label": "Připojit k hovoru",
             "placeholder": "Připoj mě k hovoru..."
           },
+          "cancelTimer": {
+            "hint": "Příklady: \"zruš můj časovač\", \"zastav můj PIT časovač\"",
+            "label": "Zrušit časovač",
+            "placeholder": "Zrušit můj časovač"
+          },
           "closeCall": {
             "hint": "Příklady: \"ukončit můj hovor\"",
             "label": "Ukončit hovor",
@@ -1005,6 +1018,11 @@
             "hint": "Příklady: \"naviguj mě na PSČ 1234\", \"nastav GPS na PSČ 90210\"",
             "label": "Trasa na poštu",
             "placeholder": "Naviguj mě na PSČ 1234"
+          },
+          "startTimer": {
+            "hint": "Příklady: \"spustit pětiminutový PIT časovač\", \"nastavit časovač pronásledování na dvě minuty\"",
+            "label": "Spustit časovač",
+            "placeholder": "Spustit pětiminutový PIT časovač"
           },
           "status": {
             "hint": "Příklady: \"nastav můj stav na dostupný\", \"ukaž mi nedostupný\"",

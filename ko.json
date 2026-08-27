@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Sonoran CAD를 연결하고 Dispatch AI를 활성화한 다음 커뮤니티의 라디오 언어를 학습시키세요.",
+      "timers": {
+        "enabled": "디스패치 타이머 활성화",
+        "maximumMinutes": "최대 타이머 기간(분)",
+        "maximumMinutesHint": "사용자는 각자 하나씩 최대 30분까지 타이머를 시작할 수 있습니다.",
+        "maximumMinutesInvalid": "1부터 30까지의 정수를 입력하세요",
+        "subtitle": "사용자가 추격, PIT 및 기타 작전 타이머를 Dispatch AI에 요청할 수 있도록 허용합니다.",
+        "title": "디스패치 타이머"
+      },
       "title": "디스패치 AI",
       "troubleshooting": {
         "body": "각 사용자는 최근 Dispatch AI 전송을 검토하고 AI가 잘못 들은 구문에 대해 단어 재정의를 추가할 수 있습니다.",
@@ -966,6 +974,11 @@
             "label": "통화에 연결",
             "placeholder": "통화에 연결해 줘..."
           },
+          "cancelTimer": {
+            "hint": "예: \"내 타이머 취소해\", \"내 PIT 타이머 멈춰\"",
+            "label": "타이머 취소",
+            "placeholder": "내 타이머 취소"
+          },
           "closeCall": {
             "hint": "예시: \"내 통화 닫기\"",
             "label": "통화 닫기",
@@ -1005,6 +1018,11 @@
             "hint": "예: \"우편 1234로 안내해 줘\", \"GPS를 우편 90210으로 설정해 줘\"",
             "label": "우편으로 라우팅",
             "placeholder": "우편 1234로 안내해 줘"
+          },
+          "startTimer": {
+            "hint": "예시: \"5분 PIT 타이머 시작\", \"2분 추격 타이머 설정\"",
+            "label": "타이머 시작",
+            "placeholder": "5분 PIT 타이머 시작"
           },
           "status": {
             "hint": "예: \"내 상태를 사용 가능으로 설정\", \"사용 불가를 보여 줘\"",

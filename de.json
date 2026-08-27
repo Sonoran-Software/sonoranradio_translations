@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Verbinde Sonoran CAD, aktiviere Dispatch AI und bringe ihm die Funksprache deiner Community bei.",
+      "timers": {
+        "enabled": "Dispatch-Timer aktivieren",
+        "maximumMinutes": "Maximale Timerdauer (Minuten)",
+        "maximumMinutesHint": "Benutzer können jeweils einen Timer starten, bis zu 30 Minuten.",
+        "maximumMinutesInvalid": "Gib eine ganze Zahl von 1 bis 30 ein",
+        "subtitle": "Benutzern erlauben, Dispatch AI nach Verfolgungs-, PIT- und anderen Einsatz-Timern zu fragen.",
+        "title": "Dispatch-Timer"
+      },
       "title": "Dispatch AI",
       "troubleshooting": {
         "body": "Jeder Benutzer kann seine letzten Dispatch AI-Übertragungen überprüfen und Wortüberschreibungen für Phrasen hinzufügen, die die KI falsch versteht.",
@@ -966,6 +974,11 @@
             "label": "Zum Anruf verbinden",
             "placeholder": "Mich zum Anruf verbinden..."
           },
+          "cancelTimer": {
+            "hint": "Beispiele: \"meinen Timer abbrechen\", \"meinen PIT-Timer stoppen\"",
+            "label": "Einen Timer abbrechen",
+            "placeholder": "Meinen Timer abbrechen"
+          },
           "closeCall": {
             "hint": "Beispiele: \"Mein Gespräch beenden\"",
             "label": "Gespräch beenden",
@@ -1005,6 +1018,11 @@
             "hint": "Beispiele: \"route me to postal 1234\", \"set GPS to postal 90210\"",
             "label": "Zur Post leiten",
             "placeholder": "Leite mich zu Postleitzahl 1234"
+          },
+          "startTimer": {
+            "hint": "Beispiele: \"Einen fünfminütigen PIT-Timer starten\", \"Einen Verfolgungstimer für zwei Minuten einstellen\"",
+            "label": "Timer starten",
+            "placeholder": "Einen fünfminütigen PIT-Timer starten"
           },
           "status": {
             "hint": "Beispiele: \"setze meinen Status auf verfügbar\", \"zeige mir nicht verfügbar\"",

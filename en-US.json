@@ -1049,15 +1049,15 @@
             "label": "Toggle panic",
             "placeholder": "Activate my panic"
           },
-          "updateScanChannels": {
-            "hint": "Examples: \"add TAC 1 to my scanned channels\", \"stop scanning Dispatch\"",
-            "label": "Update scanned channels",
-            "placeholder": "Add TAC 1 to my scanned channels"
-          },
           "unattachFromCall": {
             "hint": "Examples: \"detach me from the call\"",
             "label": "Unattach from a call",
             "placeholder": "Detach me from the call"
+          },
+          "updateScanChannels": {
+            "hint": "Examples: \"add TAC 1 to my scanned channels\", \"stop scanning Dispatch\"",
+            "label": "Update scanned channels",
+            "placeholder": "Add TAC 1 to my scanned channels"
           }
         }
       },

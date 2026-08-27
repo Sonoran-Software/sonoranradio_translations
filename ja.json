@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Sonoran CAD を接続し、Dispatch AI を有効にして、コミュニティの無線用語を学習させます。",
+      "timers": {
+        "enabled": "Dispatch タイマーを有効にする",
+        "maximumMinutes": "最大タイマー時間（分）",
+        "maximumMinutesHint": "ユーザーはそれぞれ1つずつ、最大30分のタイマーを開始できます。",
+        "maximumMinutesInvalid": "1から30までの整数を入力してください",
+        "subtitle": "ユーザーがDispatch AIに追跡、PIT、その他の運用タイマーを依頼できるようにする。",
+        "title": "Dispatch タイマー"
+      },
       "title": "ディスパッチ AI",
       "troubleshooting": {
         "body": "各ユーザーは、最近の Dispatch AI 送信を確認し、AI が聞き間違えたフレーズに対して単語の置換を追加できます。",
@@ -966,6 +974,11 @@
             "label": "通話に参加させる",
             "placeholder": "通話に参加させて..."
           },
+          "cancelTimer": {
+            "hint": "例: 「私のタイマーをキャンセル」「私の PIT タイマーを停止」",
+            "label": "タイマーをキャンセル",
+            "placeholder": "私のタイマーをキャンセル"
+          },
           "closeCall": {
             "hint": "例: \"通話を終了\"",
             "label": "通話を終了",
@@ -1005,6 +1018,11 @@
             "hint": "例: \"postal 1234へルートを設定して\", \"GPSをpostal 90210に設定して\"",
             "label": "郵便宛てに転送",
             "placeholder": "postal 1234へルートを設定して"
+          },
+          "startTimer": {
+            "hint": "例:「5分のPITタイマーを開始」「2分の追跡タイマーを設定」",
+            "label": "タイマーを開始",
+            "placeholder": "5分のPITタイマーを開始"
           },
           "status": {
             "hint": "例: \"自分のステータスをavailableに設定\", \"unavailableを表示\"",

@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Połącz Sonoran CAD, włącz Dispatch AI i naucz go radiowego języka swojej społeczności.",
+      "timers": {
+        "enabled": "Włącz timery dyspozytora",
+        "maximumMinutes": "Maksymalny czas trwania timera (minuty)",
+        "maximumMinutesHint": "Użytkownicy mogą uruchomić po jednym timerze, maksymalnie na 30 minut.",
+        "maximumMinutesInvalid": "Wpisz liczbę całkowitą od 1 do 30",
+        "subtitle": "Umożliw użytkownikom proszenie Dispatch AI o liczniki pościgu, PIT i inne operacyjne timery.",
+        "title": "Timery dyspozytora"
+      },
       "title": "Dyspozytor AI",
       "troubleshooting": {
         "body": "Każdy użytkownik może przejrzeć swoje ostatnie transmisje Dispatch AI i dodać zamienniki słów dla fraz, które AI błędnie rozpoznaje.",
@@ -966,6 +974,11 @@
             "label": "Przypnij do połączenia",
             "placeholder": "Przypnij mnie do połączenia..."
           },
+          "cancelTimer": {
+            "hint": "Przykłady: „anuluj mój timer”, „zatrzymaj mój timer PIT”",
+            "label": "Anuluj timer",
+            "placeholder": "Anuluj mój timer"
+          },
           "closeCall": {
             "hint": "Przykłady: \"zakończ moją rozmowę\"",
             "label": "Zakończ rozmowę",
@@ -1005,6 +1018,11 @@
             "hint": "Przykłady: \"wyznacz mi trasę do kodu pocztowego 1234\", \"ustaw GPS na kod pocztowy 90210\"",
             "label": "Trasa do poczty",
             "placeholder": "Wyznacz mi trasę do kodu pocztowego 1234"
+          },
+          "startTimer": {
+            "hint": "Przykłady: \"uruchom pięciominutowy timer PIT\", \"ustaw timer pościgu na dwie minuty\"",
+            "label": "Uruchom timer",
+            "placeholder": "Uruchom pięciominutowy timer PIT"
           },
           "status": {
             "hint": "Przykłady: \"ustaw mój status na dostępny\", \"pokaż mi niedostępny\"",

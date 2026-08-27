@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Connetti Sonoran CAD, abilita Dispatch AI e insegnagli il linguaggio radio della tua community.",
+      "timers": {
+        "enabled": "Abilita timer Dispatch",
+        "maximumMinutes": "Durata massima timer (minuti)",
+        "maximumMinutesHint": "Gli utenti possono avviare un timer ciascuno, fino a 30 minuti.",
+        "maximumMinutesInvalid": "Inserisci un numero intero da 1 a 30",
+        "subtitle": "Consenti agli utenti di chiedere a Dispatch AI timer per inseguimento, PIT e altre operazioni.",
+        "title": "Timer Dispatch"
+      },
       "title": "Dispatch AI",
       "troubleshooting": {
         "body": "Ogni utente può rivedere le proprie trasmissioni recenti di Dispatch AI e aggiungere sostituzioni di parole per le frasi che l'IA interpreta male.",
@@ -966,6 +974,11 @@
             "label": "Collega a una chiamata",
             "placeholder": "Collegami alla chiamata..."
           },
+          "cancelTimer": {
+            "hint": "Esempi: \"annulla il mio timer\", \"ferma il mio timer PIT\"",
+            "label": "Annulla un timer",
+            "placeholder": "Annulla il mio timer"
+          },
           "closeCall": {
             "hint": "Esempi: \"chiudi la mia chiamata\"",
             "label": "Chiudi una chiamata",
@@ -1005,6 +1018,11 @@
             "hint": "Esempi: \"portami al CAP 1234\", \"imposta il GPS sul CAP 90210\"",
             "label": "Instrada verso il postale",
             "placeholder": "Portami al CAP 1234"
+          },
+          "startTimer": {
+            "hint": "Esempi: \"avvia un timer PIT di cinque minuti\", \"imposta un timer inseguimento per due minuti\"",
+            "label": "Avvia un timer",
+            "placeholder": "Avvia un timer PIT di cinque minuti"
           },
           "status": {
             "hint": "Esempi: \"imposta il mio stato su disponibile\", \"mostrami non disponibile\"",

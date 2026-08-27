@@ -63,6 +63,16 @@
       },
       "useMobiFrame": "Use Mobi Frame"
     },
+    "dispatchAi": {
+      "timers": {
+        "enabled": "Enable dispatch timers",
+        "maximumMinutes": "Maximum timer duration (minutes)",
+        "maximumMinutesHint": "Users can start one timer each, up to 30 minutes.",
+        "maximumMinutesInvalid": "Enter a whole number from 1 to 30",
+        "subtitle": "Allow users to ask Dispatch AI for pursuit, PIT, and other operational timers.",
+        "title": "Dispatch Timers"
+      }
+    },
     "members": {
       "copyDiscordId": "Copy Discord ID",
       "copyRobloxId": "Copy Roblox ID",
@@ -70,6 +80,22 @@
       "noDiscordAccountLinked": "This user has no Discord account linked.",
       "noRobloxAccountLinked": "This user has no Roblox account linked.",
       "robloxIdCopied": "Roblox ID copied to clipboard."
+    },
+    "serverInfo": {
+      "cadPrompts": {
+        "tools": {
+          "cancelTimer": {
+            "hint": "Examples: \"cancel my timer\", \"stop my PIT timer\"",
+            "label": "Cancel a timer",
+            "placeholder": "Cancel my timer"
+          },
+          "startTimer": {
+            "hint": "Examples: \"start a five minute PIT timer\", \"set a pursuit timer for two minutes\"",
+            "label": "Start a timer",
+            "placeholder": "Start a five minute PIT timer"
+          }
+        }
+      }
     }
   },
   "radio": {

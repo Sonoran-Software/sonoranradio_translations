@@ -63,6 +63,16 @@
       },
       "useMobiFrame": "Gebruik Mobi Frame"
     },
+    "dispatchAi": {
+      "timers": {
+        "enabled": "Dispatch-timers inschakelen",
+        "maximumMinutes": "Maximale timerduur (minuten)",
+        "maximumMinutesHint": "Gebruikers kunnen elk één timer starten, tot 30 minuten.",
+        "maximumMinutesInvalid": "Voer een geheel getal in van 1 tot 30",
+        "subtitle": "Sta gebruikers toe om Dispatch AI te vragen om achtervolgings-, PIT- en andere operationele timers.",
+        "title": "Dispatch-timers"
+      }
+    },
     "members": {
       "copyDiscordId": "Discord-ID kopiëren",
       "copyRobloxId": "Roblox-ID kopiëren",
@@ -70,6 +80,22 @@
       "noDiscordAccountLinked": "Deze gebruiker heeft geen Discord-account gekoppeld.",
       "noRobloxAccountLinked": "Deze gebruiker heeft geen Roblox-account gekoppeld.",
       "robloxIdCopied": "Roblox-ID gekopieerd naar klembord."
+    },
+    "serverInfo": {
+      "cadPrompts": {
+        "tools": {
+          "cancelTimer": {
+            "hint": "Voorbeelden: \"annuleer mijn timer\", \"stop mijn PIT-timer\"",
+            "label": "Annuleer een timer",
+            "placeholder": "Annuleer mijn timer"
+          },
+          "startTimer": {
+            "hint": "Voorbeelden: \"start een PIT-timer van vijf minuten\", \"zet een achtervolgingstimer op twee minuten\"",
+            "label": "Start een timer",
+            "placeholder": "Start een PIT-timer van vijf minuten"
+          }
+        }
+      }
     }
   },
   "radio": {

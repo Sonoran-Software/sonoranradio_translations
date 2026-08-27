@@ -63,6 +63,16 @@
       },
       "useMobiFrame": "使用 Mobi Frame"
     },
+    "dispatchAi": {
+      "timers": {
+        "enabled": "启用调度计时器",
+        "maximumMinutes": "最长计时器时长（分钟）",
+        "maximumMinutesHint": "用户每人可启动一个计时器，最长 30 分钟。",
+        "maximumMinutesInvalid": "请输入 1 到 30 之间的整数",
+        "subtitle": "允许用户向 Dispatch AI 请求追捕、PIT 和其他行动计时器。",
+        "title": "调度计时器"
+      }
+    },
     "members": {
       "copyDiscordId": "复制 Discord ID",
       "copyRobloxId": "复制 Roblox ID",
@@ -70,6 +80,22 @@
       "noDiscordAccountLinked": "此用户未关联 Discord 账号。",
       "noRobloxAccountLinked": "此用户未关联 Roblox 账号。",
       "robloxIdCopied": "Roblox ID 已复制到剪贴板。"
+    },
+    "serverInfo": {
+      "cadPrompts": {
+        "tools": {
+          "cancelTimer": {
+            "hint": "示例：\"取消我的计时器\"，\"停止我的 PIT 计时器\"",
+            "label": "取消计时器",
+            "placeholder": "取消我的计时器"
+          },
+          "startTimer": {
+            "hint": "示例：\"开始一个五分钟 PIT 计时器\"，\"设置一个两分钟的追捕计时器\"",
+            "label": "启动计时器",
+            "placeholder": "开始一个五分钟 PIT 计时器"
+          }
+        }
+      }
     }
   },
   "radio": {

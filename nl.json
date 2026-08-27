@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Verbind Sonoran CAD, schakel Dispatch AI in en leer het de radio-taal van je community.",
+      "timers": {
+        "enabled": "Dispatch-timers inschakelen",
+        "maximumMinutes": "Maximale timerduur (minuten)",
+        "maximumMinutesHint": "Gebruikers kunnen elk één timer starten, tot 30 minuten.",
+        "maximumMinutesInvalid": "Voer een geheel getal in van 1 tot 30",
+        "subtitle": "Sta gebruikers toe Dispatch AI te vragen om achtervolgings-, PIT- en andere operationele timers.",
+        "title": "Dispatch-timers"
+      },
       "title": "Dispatch AI",
       "troubleshooting": {
         "body": "Elke gebruiker kan hun recente Dispatch AI-verzendingen bekijken en woordoverschrijvingen toevoegen voor uitdrukkingen die de AI verkeerd hoort.",
@@ -966,6 +974,11 @@
             "label": "Koppel aan een gesprek",
             "placeholder": "Koppel me aan het gesprek..."
           },
+          "cancelTimer": {
+            "hint": "Voorbeelden: \"annuleer mijn timer\", \"stop mijn PIT-timer\"",
+            "label": "Annuleer een timer",
+            "placeholder": "Annuleer mijn timer"
+          },
           "closeCall": {
             "hint": "Voorbeelden: \"sluit mijn gesprek af\"",
             "label": "Sluit een gesprek af",
@@ -1005,6 +1018,11 @@
             "hint": "Voorbeelden: \"leid me naar postcode 1234\", \"stel GPS in op postcode 90210\"",
             "label": "Route naar post",
             "placeholder": "leid me naar postcode 1234"
+          },
+          "startTimer": {
+            "hint": "Voorbeelden: \"start een PIT-timer van vijf minuten\", \"stel een achtervolgingstimer in voor twee minuten\"",
+            "label": "Start een timer",
+            "placeholder": "Start een PIT-timer van vijf minuten"
           },
           "status": {
             "hint": "Voorbeelden: \"zet mijn status op beschikbaar\", \"toon me onbeschikbaar\"",

@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Connectez Sonoran CAD, activez Dispatch AI et apprenez-lui le langage radio de votre communauté.",
+      "timers": {
+        "enabled": "Activer les minuteries de répartition",
+        "maximumMinutes": "Durée maximale du minuteur (minutes)",
+        "maximumMinutesHint": "Les utilisateurs peuvent démarrer un minuteur chacun, jusqu'à 30 minutes.",
+        "maximumMinutesInvalid": "Entrez un nombre entier de 1 à 30",
+        "subtitle": "Autoriser les utilisateurs à demander à Dispatch AI des minutages de poursuite, de PIT et d'autres opérations.",
+        "title": "Minuteries de répartition"
+      },
       "title": "Répartition IA",
       "troubleshooting": {
         "body": "Chaque utilisateur peut examiner ses transmissions récentes de Dispatch AI et ajouter des remplacements de mots pour les expressions que l'IA entend mal.",
@@ -966,6 +974,11 @@
             "label": "Attacher à un appel",
             "placeholder": "Attache-moi à l'appel..."
           },
+          "cancelTimer": {
+            "hint": "Exemples : \"annule mon minuteur\", \"arrête mon minuteur PIT\"",
+            "label": "Annuler un minuteur",
+            "placeholder": "Annuler mon minuteur"
+          },
           "closeCall": {
             "hint": "Exemples : \"Terminer mon appel\"",
             "label": "Terminer un appel",
@@ -1005,6 +1018,11 @@
             "hint": "Exemples : \"route-moi vers le code postal 1234\", \"règle le GPS sur le code postal 90210\"",
             "label": "Acheminer vers le postal",
             "placeholder": "Achemine-moi vers le code postal 1234"
+          },
+          "startTimer": {
+            "hint": "Exemples : \"démarrer un minuteur PIT de cinq minutes\", \"régler un minuteur de poursuite sur deux minutes\"",
+            "label": "Démarrer un minuteur",
+            "placeholder": "Démarrer un minuteur PIT de cinq minutes"
           },
           "status": {
             "hint": "Exemples : \"définis mon statut sur disponible\", \"montre-moi indisponible\"",

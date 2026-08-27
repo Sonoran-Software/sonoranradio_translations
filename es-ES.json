@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Conecta Sonoran CAD, activa Dispatch AI y enséñale el lenguaje de radio de tu comunidad.",
+      "timers": {
+        "enabled": "Activar temporizadores de despacho",
+        "maximumMinutes": "Duración máxima del temporizador (minutos)",
+        "maximumMinutesHint": "Los usuarios pueden iniciar un temporizador cada uno, de hasta 30 minutos.",
+        "maximumMinutesInvalid": "Introduce un número entero del 1 al 30",
+        "subtitle": "Permite a los usuarios pedir a Dispatch AI temporizadores de persecución, PIT y otros operativos.",
+        "title": "Temporizadores de despacho"
+      },
       "title": "Despacho IA",
       "troubleshooting": {
         "body": "Cada usuario puede revisar sus transmisiones recientes de Dispatch AI y añadir sustituciones de palabras para las frases que la IA oye mal.",
@@ -966,6 +974,11 @@
             "label": "Adjuntarse a una llamada",
             "placeholder": "Adjúntame a la llamada..."
           },
+          "cancelTimer": {
+            "hint": "Ejemplos: \"cancela mi temporizador\", \"detén mi temporizador PIT\"",
+            "label": "Cancelar un temporizador",
+            "placeholder": "Cancelar mi temporizador"
+          },
           "closeCall": {
             "hint": "Ejemplos: \"cerrar mi llamada\"",
             "label": "Cerrar una llamada",
@@ -1005,6 +1018,11 @@
             "hint": "Ejemplos: \"llévame al código postal 1234\", \"pon el GPS en el código postal 90210\"",
             "label": "Enrutar a postal",
             "placeholder": "Llévame al código postal 1234"
+          },
+          "startTimer": {
+            "hint": "Ejemplos: \"inicia un temporizador PIT de cinco minutos\", \"configura un temporizador de persecución de dos minutos\"",
+            "label": "Iniciar un temporizador",
+            "placeholder": "Iniciar un temporizador PIT de cinco minutos"
           },
           "status": {
             "hint": "Ejemplos: \"pon mi estado en disponible\", \"muéstrame no disponible\"",
