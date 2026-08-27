@@ -646,6 +646,14 @@
         }
       },
       "subtitle": "Connect Sonoran CAD, enable Dispatch AI, and teach it your community's radio language.",
+      "timers": {
+        "enabled": "Enable dispatch timers",
+        "maximumMinutes": "Maximum timer duration (minutes)",
+        "maximumMinutesHint": "Users can start one timer each, up to 30 minutes.",
+        "maximumMinutesInvalid": "Enter a whole number from 1 to 30",
+        "subtitle": "Allow users to ask Dispatch AI for pursuit, PIT, and other operational timers.",
+        "title": "Dispatch Timers"
+      },
       "title": "Dispatch AI",
       "troubleshooting": {
         "body": "Each user can review their recent Dispatch AI transmissions and add word overrides for phrases the AI mishears.",
@@ -966,6 +974,11 @@
             "label": "Attach to a call",
             "placeholder": "Attach me to call..."
           },
+          "cancelTimer": {
+            "hint": "Examples: \"cancel my timer\", \"stop my PIT timer\"",
+            "label": "Cancel a timer",
+            "placeholder": "Cancel my timer"
+          },
           "closeCall": {
             "hint": "Examples: \"close my call\"",
             "label": "Close a call",
@@ -1005,6 +1018,11 @@
             "hint": "Examples: \"route me to postal 1234\", \"set GPS to postal 90210\"",
             "label": "Route to postal",
             "placeholder": "Route me to postal 1234"
+          },
+          "startTimer": {
+            "hint": "Examples: \"start a five minute PIT timer\", \"set a pursuit timer for two minutes\"",
+            "label": "Start a timer",
+            "placeholder": "Start a five minute PIT timer"
           },
           "status": {
             "hint": "Examples: \"set my status to available\", \"show me unavailable\"",
