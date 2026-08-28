@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Add Button",
+      "armaBlufor": "BLUFOR Example",
+      "armaExamples": "ARMA 3 Examples",
+      "armaItemClassNames": "ARMA Item Class Names",
+      "armaItemClassNamesHint": "Enter one or more CfgWeapons class names, pressing Enter after each. Equipping a mapped radio switches the desktop overlay to this frame.",
+      "armaOpfor": "OPFOR Example",
       "bodyImage": "Body Image",
       "cancel": "Cancel",
       "chooseSkin": "Choose skin.json",
