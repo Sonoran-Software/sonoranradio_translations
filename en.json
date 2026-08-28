@@ -55,11 +55,6 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
-      "armaBlufor": "BLUFOR Example",
-      "armaExamples": "ARMA 3 Examples",
-      "armaItemClassNames": "ARMA Item Class Names",
-      "armaItemClassNamesHint": "Enter one or more CfgWeapons class names, pressing Enter after each. Equipping a mapped radio switches the desktop overlay to this frame.",
-      "armaOpfor": "OPFOR Example",
       "screenTheme": "Screen Theme",
       "screenThemes": {
         "mobi": "Mobi",
@@ -126,6 +121,10 @@
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Not available for this language. Please contact our support team.",
+      "dispatchAiSpeechRecognition": "English speech recognition",
+      "dispatchAiSpeechRecognitionAi": "AI enhanced (more accurate)",
+      "dispatchAiSpeechRecognitionHint": "AI enhanced uploads your Dispatch AI command audio and adds its estimated transcription cost to your community's monthly usage.",
+      "dispatchAiSpeechRecognitionLocal": "Local (faster, no transcription usage)",
       "recentAiResponseLabel": "AI response",
       "sameAsPanelLanguage": "Same as panel language"
     }

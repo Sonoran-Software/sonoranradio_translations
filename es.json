@@ -121,6 +121,10 @@
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "No disponible para este idioma. Ponte en contacto con nuestro equipo de soporte.",
+      "dispatchAiSpeechRecognition": "Reconocimiento de voz en inglés",
+      "dispatchAiSpeechRecognitionAi": "mejorado con IA (más preciso)",
+      "dispatchAiSpeechRecognitionHint": "La carga mejorada con IA sube tu audio de comando de Dispatch AI y añade su costo estimado de transcripción al uso mensual de tu comunidad.",
+      "dispatchAiSpeechRecognitionLocal": "Local (más rápido, sin uso de transcripción)",
       "recentAiResponseLabel": "respuesta de IA",
       "sameAsPanelLanguage": "Igual que el idioma del panel"
     }

@@ -121,6 +121,10 @@
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Niet beschikbaar voor deze taal. Neem contact op met ons supportteam.",
+      "dispatchAiSpeechRecognition": "Engelse spraakherkenning",
+      "dispatchAiSpeechRecognitionAi": "AI-verbeterd (nauwkeuriger)",
+      "dispatchAiSpeechRecognitionHint": "AI-verbeterde uploads uploaden je Dispatch AI-opdrachtsaudio en voegen de geschatte transcriptiekost toe aan het maandelijkse verbruik van je community.",
+      "dispatchAiSpeechRecognitionLocal": "Lokaal (sneller, geen transcriptiegebruik)",
       "recentAiResponseLabel": "AI-respons",
       "sameAsPanelLanguage": "Zelfde als paneeltaal"
     }

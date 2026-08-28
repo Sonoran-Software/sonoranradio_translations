@@ -121,6 +121,10 @@
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "此语言不可用。请联系我们的支持团队。",
+      "dispatchAiSpeechRecognition": "英语语音识别",
+      "dispatchAiSpeechRecognitionAi": "AI 增强（更准确）",
+      "dispatchAiSpeechRecognitionHint": "AI 增强型上传你的 Dispatch AI 命令音频，并将其预估转录成本计入你社区的每月用量。",
+      "dispatchAiSpeechRecognitionLocal": "本地（更快，不占用转写用量）",
       "recentAiResponseLabel": "AI 响应",
       "sameAsPanelLanguage": "与面板语言相同"
     }
