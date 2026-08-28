@@ -989,6 +989,16 @@
             "label": "Créer un appel",
             "placeholder": "Créer un appel pour un 10-50 sur Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Exemples : \"sur quel canal suis-je\", \"indiquer mes canaux actuels\"",
+            "label": "Indiquer les canaux actuels",
+            "placeholder": "Indiquer mes canaux actuels"
+          },
+          "getMyCall": {
+            "hint": "Exemples : \"répéter mon appel en cours\", \"répéter les détails de l'appel\"",
+            "label": "Répéter l'appel en cours",
+            "placeholder": "Répéter les détails de mon appel en cours"
+          },
           "getRecentCadEvents": {
             "hint": "Exemples : \"quelle est la dernière appel\", \"panique récente\", \"cet appel\"",
             "label": "Événements récents",
@@ -1019,6 +1029,11 @@
             "label": "Acheminer vers le postal",
             "placeholder": "Achemine-moi vers le code postal 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Exemples : \"bascule-moi sur TAC 1\", \"déplace l'unité A-12 vers Dispatch\"",
+            "label": "Changer de canal radio",
+            "placeholder": "Passe-moi sur TAC 1"
+          },
           "startTimer": {
             "hint": "Exemples : \"démarrer un minuteur PIT de cinq minutes\", \"régler un minuteur de poursuite sur deux minutes\"",
             "label": "Démarrer un minuteur",
@@ -1038,6 +1053,11 @@
             "hint": "Exemples: \"détache-moi de l'appel\"",
             "label": "Détacher d'un appel",
             "placeholder": "Détachez-moi de l'appel"
+          },
+          "updateScanChannels": {
+            "hint": "Exemples : \"ajoute TAC 1 à mes canaux scannés\", \"arrête de scanner Dispatch\"",
+            "label": "Mettre à jour les canaux scannés",
+            "placeholder": "Ajoute TAC 1 à mes canaux scannés"
           }
         }
       },

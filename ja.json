@@ -989,6 +989,16 @@
             "label": "通話を作成",
             "placeholder": "Main St で 10-50 の通話を作成"
           },
+          "getCurrentChannels": {
+            "hint": "例: 「今どのチャンネルにいますか」「現在のチャンネルを報告してください」",
+            "label": "現在のチャンネルを報告",
+            "placeholder": "現在のチャンネルを報告してください"
+          },
+          "getMyCall": {
+            "hint": "例: 「現在の通話を繰り返す」「通話の詳細を繰り返す」",
+            "label": "現在の通話を繰り返す",
+            "placeholder": "現在の通話の詳細を繰り返す"
+          },
           "getRecentCadEvents": {
             "hint": "例: \"最新の通話\", \"最近のパニック\", \"その通話\"",
             "label": "最近のイベント",
@@ -1019,6 +1029,11 @@
             "label": "郵便宛てに転送",
             "placeholder": "postal 1234へルートを設定して"
           },
+          "setPrimaryChannel": {
+            "hint": "例: 「私を TAC 1 に切り替えて」「ユニット A-12 を Dispatch に移動して」",
+            "label": "メイン チャンネルに切り替える",
+            "placeholder": "TAC 1に切り替えて"
+          },
           "startTimer": {
             "hint": "例:「5分のPITタイマーを開始」「2分の追跡タイマーを設定」",
             "label": "タイマーを開始",
@@ -1038,6 +1053,11 @@
             "hint": "例: 「通話から外してください」",
             "label": "通話から解除",
             "placeholder": "通話から外してください"
+          },
+          "updateScanChannels": {
+            "hint": "例:「スキャン中のチャンネルに TAC 1 を追加」「Dispatch のスキャンを停止」",
+            "label": "スキャン済みチャンネルを更新",
+            "placeholder": "スキャン中のチャンネルに TAC 1 を追加"
           }
         }
       },

@@ -89,10 +89,30 @@
             "label": "取消計時器",
             "placeholder": "取消我的計時器"
           },
+          "getCurrentChannels": {
+            "hint": "範例：\"我在哪個頻道\"、\"回報我目前的頻道\"",
+            "label": "回報目前的頻道",
+            "placeholder": "回報我目前的頻道"
+          },
+          "getMyCall": {
+            "hint": "範例：\"重複我目前通話\"，\"重複通話詳細資訊\"",
+            "label": "重複目前通話",
+            "placeholder": "重複我目前通話詳細資訊"
+          },
+          "setPrimaryChannel": {
+            "hint": "範例：\"將我切換到 TAC 1\"、\"將 A-12 單位移至調度\"",
+            "label": "切換無線電頻道",
+            "placeholder": "將我切換到 TAC 1"
+          },
           "startTimer": {
             "hint": "例如：「開始五分鐘 PIT 計時器」、「設定兩分鐘追捕計時器」",
             "label": "開始計時器",
             "placeholder": "開始五分鐘 PIT 計時器"
+          },
+          "updateScanChannels": {
+            "hint": "例如：「將 TAC 1 新增到我的掃描頻道」，「停止掃描 Dispatch」",
+            "label": "更新掃描的頻道",
+            "placeholder": "將 TAC 1 新增到我的掃描頻道"
           }
         }
       }

@@ -989,6 +989,16 @@
             "label": "Crear una llamada",
             "placeholder": "Crear una llamada para un 10-50 en Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Ejemplos: \"en qué canal estoy\", \"informa de mis canales actuales\"",
+            "label": "Informa de los canales actuales",
+            "placeholder": "Informa de mis canales actuales"
+          },
+          "getMyCall": {
+            "hint": "Ejemplos: \"repite mi llamada actual\", \"repite los detalles de la llamada\"",
+            "label": "Repetir llamada actual",
+            "placeholder": "Repetir los detalles de mi llamada actual"
+          },
           "getRecentCadEvents": {
             "hint": "Ejemplos: \"cuál es la última llamada\", \"pánico reciente\", \"esa llamada\"",
             "label": "Eventos recientes",
@@ -1019,6 +1029,11 @@
             "label": "Enrutar a postal",
             "placeholder": "Llévame al código postal 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Ejemplos: \"cámbiame a TAC 1\", \"mueve la unidad A-12 a Despacho\"",
+            "label": "Cambiar canal de radio",
+            "placeholder": "Cámbiame a TAC 1"
+          },
           "startTimer": {
             "hint": "Ejemplos: \"inicia un temporizador PIT de cinco minutos\", \"configura un temporizador de persecución de dos minutos\"",
             "label": "Iniciar un temporizador",
@@ -1038,6 +1053,11 @@
             "hint": "Ejemplos: \"desvincúlalme de la llamada\"",
             "label": "Desvincular de una llamada",
             "placeholder": "Desvincúlalme de la llamada"
+          },
+          "updateScanChannels": {
+            "hint": "Ejemplos: \"añade TAC 1 a mis canales escaneados\", \"deja de escanear Dispatch\"",
+            "label": "Actualizar canales escaneados",
+            "placeholder": "Añade TAC 1 a mis canales escaneados"
           }
         }
       },

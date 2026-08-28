@@ -989,6 +989,16 @@
             "label": "Vytvořit hovor",
             "placeholder": "Vytvořit hovor pro 10-50 na Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Příklady: \"na kterém kanálu jsem\", \"nahlásit mé aktuální kanály\"",
+            "label": "Nahlásit aktuální kanály",
+            "placeholder": "Nahlásit mé aktuální kanály"
+          },
+          "getMyCall": {
+            "hint": "Příklady: \"opakovat můj aktuální hovor\", \"opakovat podrobnosti hovoru\"",
+            "label": "Opakovat aktuální hovor",
+            "placeholder": "Opakovat podrobnosti mého aktuálního hovoru"
+          },
           "getRecentCadEvents": {
             "hint": "Příklady: \"jaký je nejnovější hovor\", \"nedávná panika\", \"ten hovor\"",
             "label": "Nedávné události",
@@ -1019,6 +1029,11 @@
             "label": "Trasa na poštu",
             "placeholder": "Naviguj mě na PSČ 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Příklady: \"přepni mě na TAC 1\", \"přesuň jednotku A-12 na Dispečink\"",
+            "label": "Přepnout rádiový kanál",
+            "placeholder": "Přepni mě na TAC 1"
+          },
           "startTimer": {
             "hint": "Příklady: \"spustit pětiminutový PIT časovač\", \"nastavit časovač pronásledování na dvě minuty\"",
             "label": "Spustit časovač",
@@ -1038,6 +1053,11 @@
             "hint": "Příklady: \"odpojte mě od hovoru\"",
             "label": "Odpojit od hovoru",
             "placeholder": "Odpojit mě od hovoru"
+          },
+          "updateScanChannels": {
+            "hint": "Příklady: \"přidej TAC 1 do mých skenovaných kanálů\", \"zastav skenování Dispatch\"",
+            "label": "Aktualizovat naskenované kanály",
+            "placeholder": "Přidej TAC 1 do mých skenovaných kanálů"
           }
         }
       },

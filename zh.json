@@ -989,6 +989,16 @@
             "label": "创建通话",
             "placeholder": "为 Main St 创建一个 10-50 的通话"
           },
+          "getCurrentChannels": {
+            "hint": "示例：\"我在哪个频道上\", \"报告我当前的频道\"",
+            "label": "报告当前频道",
+            "placeholder": "报告我当前的频道"
+          },
+          "getMyCall": {
+            "hint": "示例：“重复我的当前通话”，“重复通话详情”",
+            "label": "重复当前通话",
+            "placeholder": "重复我的当前通话详情"
+          },
           "getRecentCadEvents": {
             "hint": "示例：\"最新通话是什么\"，\"最近惊慌\"，\"那个通话\"",
             "label": "最近事件",
@@ -1019,6 +1029,11 @@
             "label": "路由到邮政",
             "placeholder": "将我路由到邮政1234"
           },
+          "setPrimaryChannel": {
+            "hint": "示例：\"把我切换到 TAC 1\"，\"将 A-12 单位移到 Dispatch\"",
+            "label": "切换无线电频道",
+            "placeholder": "把我切换到 TAC 1"
+          },
           "startTimer": {
             "hint": "示例：\"开始一个五分钟 PIT 计时器\"，\"设置一个两分钟的追逐计时器\"",
             "label": "开始计时器",
@@ -1038,6 +1053,11 @@
             "hint": "示例：\"detach me from the call\"",
             "label": "取消与通话的关联",
             "placeholder": "将我从通话中移除"
+          },
+          "updateScanChannels": {
+            "hint": "示例：\"将 TAC 1 添加到我的扫描频道\", \"停止扫描 Dispatch\"",
+            "label": "更新扫描到的频道",
+            "placeholder": "将 TAC 1 添加到我的扫描频道"
           }
         }
       },

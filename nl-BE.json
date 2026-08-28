@@ -89,10 +89,30 @@
             "label": "Annuleer een timer",
             "placeholder": "Annuleer mijn timer"
           },
+          "getCurrentChannels": {
+            "hint": "Voorbeelden: \"op welk kanaal zit ik\", \"meld mijn huidige kanalen\"",
+            "label": "Meld huidige kanalen",
+            "placeholder": "Meld mijn huidige kanalen"
+          },
+          "getMyCall": {
+            "hint": "Voorbeelden: \"herhaal mijn huidige gesprek\", \"herhaal de gespreksgegevens\"",
+            "label": "Huidige oproep herhalen",
+            "placeholder": "Herhaal mijn huidige gespreksgegevens"
+          },
+          "setPrimaryChannel": {
+            "hint": "Voorbeelden: \"zet mij op TAC 1\", \"verplaats eenheid A-12 naar Dispatch\"",
+            "label": "Wissel radiokanaal",
+            "placeholder": "Zet mij op TAC 1"
+          },
           "startTimer": {
             "hint": "Voorbeelden: \"start een PIT-timer van vijf minuten\", \"zet een achtervolgingstimer op twee minuten\"",
             "label": "Start een timer",
             "placeholder": "Start een PIT-timer van vijf minuten"
+          },
+          "updateScanChannels": {
+            "hint": "Voorbeelden: \"voeg TAC 1 toe aan mijn gescande kanalen\", \"stop met scannen van Dispatch\"",
+            "label": "Gescande kanalen bijwerken",
+            "placeholder": "voeg TAC 1 toe aan mijn gescande kanalen"
           }
         }
       }

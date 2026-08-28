@@ -989,6 +989,16 @@
             "label": "Luo puhelu",
             "placeholder": "Luo puhelu 10-50:lle Main St:lle"
           },
+          "getCurrentChannels": {
+            "hint": "Esimerkkejä: \"millä kanavalla olen\", \"ilmoita nykyiset kanavani\"",
+            "label": "Ilmoita nykyiset kanavat",
+            "placeholder": "Ilmoita nykyiset kanavani"
+          },
+          "getMyCall": {
+            "hint": "Esimerkkejä: \"toista nykyinen puheluni\", \"toista puhelun tiedot\"",
+            "label": "Toista nykyinen puhelu",
+            "placeholder": "Toista nykyisen puheluni tiedot"
+          },
           "getRecentCadEvents": {
             "hint": "Esimerkkejä: \"mikä on uusin puhelu\", \"viimeaikainen paniikki\", \"se puhelu\"",
             "label": "Viimeisimmät tapahtumat",
@@ -1019,6 +1029,11 @@
             "label": "Reititä postiin",
             "placeholder": "Vie minut postiin 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Esimerkkejä: \"vaihda minut TAC 1:een\", \"siirrä yksikkö A-12 Dispatchiin\"",
+            "label": "Vaihda radiokanava",
+            "placeholder": "Vaihda minut TAC 1:een"
+          },
           "startTimer": {
             "hint": "Esimerkkejä: \"käynnistä viiden minuutin PIT-ajastin\", \"aseta takaa-ajon ajastimeksi kaksi minuuttia\"",
             "label": "Käynnistä ajastin",
@@ -1038,6 +1053,11 @@
             "hint": "Esimerkkejä: \"irrota minut puhelusta\"",
             "label": "Irrota puhelusta",
             "placeholder": "Irrota minut puhelusta"
+          },
+          "updateScanChannels": {
+            "hint": "Esimerkkejä: \"lisää TAC 1 skannattuihin kanaviini\", \"lopeta Dispatchin skannaus\"",
+            "label": "Päivitä skannatut kanavat",
+            "placeholder": "Lisää TAC 1 skannattuihin kanaviini"
           }
         }
       },

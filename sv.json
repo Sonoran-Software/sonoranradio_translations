@@ -989,6 +989,16 @@
             "label": "Skapa ett samtal",
             "placeholder": "Skapa ett samtal för en 10-50 på Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Exempel: \"vilken kanal är jag på\", \"rapportera mina aktuella kanaler\"",
+            "label": "Rapportera aktuella kanaler",
+            "placeholder": "Rapportera mina aktuella kanaler"
+          },
+          "getMyCall": {
+            "hint": "Exempel: \"upprepa mitt aktuella anrop\", \"upprepa anropsdetaljerna\"",
+            "label": "Upprepa aktuellt anrop",
+            "placeholder": "Upprepa mina aktuella anropsdetaljer"
+          },
           "getRecentCadEvents": {
             "hint": "Exempel: \"vad är det senaste samtalet\", \"nylig panik\", \"det samtalet\"",
             "label": "Senaste händelser",
@@ -1019,6 +1029,11 @@
             "label": "Rutt till post",
             "placeholder": "Rutta mig till postnummer 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Exempel: \"byt mig till TAC 1\", \"flytta enhet A-12 till Dispatch\"",
+            "label": "Byt radiokanal",
+            "placeholder": "Byt mig till TAC 1"
+          },
           "startTimer": {
             "hint": "Exempel: \"starta en fem minuters PIT-timer\", \"ställ in en förföljelsetimer på två minuter\"",
             "label": "Starta en timer",
@@ -1038,6 +1053,11 @@
             "hint": "Exempel: \"koppla bort mig från samtalet\"",
             "label": "Koppla loss från ett samtal",
             "placeholder": "Koppla bort mig från samtalet"
+          },
+          "updateScanChannels": {
+            "hint": "Exempel: \"lägg till TAC 1 i mina skannade kanaler\", \"sluta skanna Dispatch\"",
+            "label": "Uppdatera skannade kanaler",
+            "placeholder": "Lägg till TAC 1 i mina skannade kanaler"
           }
         }
       },

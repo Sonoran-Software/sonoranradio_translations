@@ -989,6 +989,16 @@
             "label": "Anruf erstellen",
             "placeholder": "Einen Anruf für eine 10-50 in der Main St erstellen"
           },
+          "getCurrentChannels": {
+            "hint": "Beispiele: \"auf welchem Kanal bin ich\", \"melde meine aktuellen Kanäle\"",
+            "label": "Aktuelle Kanäle melden",
+            "placeholder": "Melde meine aktuellen Kanäle"
+          },
+          "getMyCall": {
+            "hint": "Beispiele: \"meinen aktuellen Anruf wiederholen\", \"die Anrufdetails wiederholen\"",
+            "label": "Aktuellen Anruf wiederholen",
+            "placeholder": "Meine aktuellen Anrufdetails wiederholen"
+          },
           "getRecentCadEvents": {
             "hint": "Beispiele: \"was ist der letzte Anruf\", \"letzte Panik\", \"dieser Anruf\"",
             "label": "Aktuelle Ereignisse",
@@ -1019,6 +1029,11 @@
             "label": "Zur Post leiten",
             "placeholder": "Leite mich zu Postleitzahl 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Beispiele: \"schalte mich auf TAC 1\", \"verschiebe Einheit A-12 zu Dispatch\"",
+            "label": "Funkkanal wechseln",
+            "placeholder": "Schalte mich auf TAC 1 um"
+          },
           "startTimer": {
             "hint": "Beispiele: \"Einen fünfminütigen PIT-Timer starten\", \"Einen Verfolgungstimer für zwei Minuten einstellen\"",
             "label": "Timer starten",
@@ -1038,6 +1053,11 @@
             "hint": "Beispiele: \"Mich vom Anruf lösen\"",
             "label": "Von einem Anruf lösen",
             "placeholder": "Mich vom Anruf lösen"
+          },
+          "updateScanChannels": {
+            "hint": "Beispiele: \"füge TAC 1 zu meinen gescannten Kanälen hinzu\", \"stoppe das Scannen von Dispatch\"",
+            "label": "Gespeicherte Kanäle aktualisieren",
+            "placeholder": "füge TAC 1 zu meinen gescannten Kanälen hinzu"
           }
         }
       },
