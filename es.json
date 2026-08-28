@@ -89,10 +89,30 @@
             "label": "Cancela un temporizador",
             "placeholder": "Cancela mi temporizador"
           },
+          "getCurrentChannels": {
+            "hint": "Ejemplos: \"¿en qué canal estoy?\", \"informa de mis canales actuales\"",
+            "label": "Informa de los canales actuales",
+            "placeholder": "Informa de mis canales actuales"
+          },
+          "getMyCall": {
+            "hint": "Ejemplos: \"repetir mi llamada actual\", \"repetir los detalles de la llamada\"",
+            "label": "Repetir llamada actual",
+            "placeholder": "Repetir detalles de mi llamada actual"
+          },
+          "setPrimaryChannel": {
+            "hint": "Ejemplos: \"cámbiame a TAC 1\", \"mueve la unidad A-12 a Despacho\"",
+            "label": "Cambiar canal de radio",
+            "placeholder": "Pásame a TAC 1"
+          },
           "startTimer": {
             "hint": "Ejemplos: \"iniciar un temporizador PIT de cinco minutos\", \"configurar un temporizador de persecución para dos minutos\"",
             "label": "Iniciar un temporizador",
             "placeholder": "Iniciar un temporizador PIT de cinco minutos"
+          },
+          "updateScanChannels": {
+            "hint": "Ejemplos: \"añade TAC 1 a mis canales escaneados\", \"deja de escanear Dispatch\"",
+            "label": "Actualizar canales escaneados",
+            "placeholder": "Añade TAC 1 a mis canales escaneados"
           }
         }
       }

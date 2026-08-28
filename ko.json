@@ -989,6 +989,16 @@
             "label": "통화 만들기",
             "placeholder": "Main St에서 10-50에 대한 통화를 생성"
           },
+          "getCurrentChannels": {
+            "hint": "예: \"내가 지금 어떤 채널에 있지\", \"내 현재 채널 보고\"",
+            "label": "현재 채널 보고",
+            "placeholder": "내 현재 채널 보고"
+          },
+          "getMyCall": {
+            "hint": "예: \"현재 통화 반복\", \"통화 세부 정보 반복\"",
+            "label": "현재 통화 반복",
+            "placeholder": "현재 통화 세부 정보 반복"
+          },
           "getRecentCadEvents": {
             "hint": "예시: \"최근 통화는 무엇인가요\", \"최근 패닉\", \"그 통화\"",
             "label": "최근 이벤트",
@@ -1019,6 +1029,11 @@
             "label": "우편으로 라우팅",
             "placeholder": "우편 1234로 안내해 줘"
           },
+          "setPrimaryChannel": {
+            "hint": "예: \"나를 TAC 1로 바꿔줘\", \"유닛 A-12를 디스패치로 이동해줘\"",
+            "label": "라디오 채널 전환",
+            "placeholder": "나를 TAC 1 로 전환해줘"
+          },
           "startTimer": {
             "hint": "예시: \"5분 PIT 타이머 시작\", \"2분 추격 타이머 설정\"",
             "label": "타이머 시작",
@@ -1038,6 +1053,11 @@
             "hint": "예: \"통화에서 분리해 줘\"",
             "label": "통화에서 분리",
             "placeholder": "통화에서 분리해 주세요"
+          },
+          "updateScanChannels": {
+            "hint": "예: \"내 스캔 채널에 TAC 1 추가\", \"Dispatch 스캔 중지\"",
+            "label": "스캔한 채널 업데이트",
+            "placeholder": "내 스캔 채널에 TAC 1 추가"
           }
         }
       },

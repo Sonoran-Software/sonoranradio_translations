@@ -989,6 +989,16 @@
             "label": "Een oproep maken",
             "placeholder": "Maak een oproep voor een 10-50 op Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Voorbeelden: \"op welk kanaal zit ik\", \"meld mijn huidige kanalen\"",
+            "label": "Meld huidige kanalen",
+            "placeholder": "Meld mijn huidige kanalen"
+          },
+          "getMyCall": {
+            "hint": "Voorbeelden: \"herhaal mijn huidige oproep\", \"herhaal de gespreksdetails\"",
+            "label": "Huidig gesprek herhalen",
+            "placeholder": "Mijn huidige gespreksdetails herhalen"
+          },
           "getRecentCadEvents": {
             "hint": "Voorbeelden: \"wat is het laatste gesprek\", \"recente paniek\", \"dat gesprek\"",
             "label": "Recente gebeurtenissen",
@@ -1019,6 +1029,11 @@
             "label": "Route naar post",
             "placeholder": "leid me naar postcode 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Voorbeelden: \"zet mij op TAC 1\", \"verplaats eenheid A-12 naar Dispatch\"",
+            "label": "Wissel radiokanaal",
+            "placeholder": "Zet me op TAC 1"
+          },
           "startTimer": {
             "hint": "Voorbeelden: \"start een PIT-timer van vijf minuten\", \"stel een achtervolgingstimer in voor twee minuten\"",
             "label": "Start een timer",
@@ -1038,6 +1053,11 @@
             "hint": "Voorbeelden: \"verwijder mij uit het gesprek\"",
             "label": "Ontkoppelen van een oproep",
             "placeholder": "Verwijder mij uit het gesprek"
+          },
+          "updateScanChannels": {
+            "hint": "Voorbeelden: \"voeg TAC 1 toe aan mijn gescande kanalen\", \"stop met scannen van Dispatch\"",
+            "label": "Gescandekanalen bijwerken",
+            "placeholder": "Voeg TAC 1 toe aan mijn gescande kanalen"
           }
         }
       },

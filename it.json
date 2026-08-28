@@ -989,6 +989,16 @@
             "label": "Crea una chiamata",
             "placeholder": "Crea una chiamata per una 10-50 in Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Esempi: \"su quale canale sono\", \"riporta i miei canali attuali\"",
+            "label": "Riporta i canali attuali",
+            "placeholder": "Riporta i miei canali attuali"
+          },
+          "getMyCall": {
+            "hint": "Esempi: \"ripeti la mia chiamata attuale\", \"ripeti i dettagli della chiamata\"",
+            "label": "Ripeti chiamata attuale",
+            "placeholder": "Ripeti i dettagli della mia chiamata attuale"
+          },
           "getRecentCadEvents": {
             "hint": "Esempi: \"qual è l'ultima chiamata\", \"panico recente\", \"quella chiamata\"",
             "label": "Eventi recenti",
@@ -1019,6 +1029,11 @@
             "label": "Instrada verso il postale",
             "placeholder": "Portami al CAP 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Esempi: \"spostami su TAC 1\", \"sposta l'unità A-12 su Dispatch\"",
+            "label": "Cambia canale radio",
+            "placeholder": "Passami su TAC 1"
+          },
           "startTimer": {
             "hint": "Esempi: \"avvia un timer PIT di cinque minuti\", \"imposta un timer inseguimento per due minuti\"",
             "label": "Avvia un timer",
@@ -1038,6 +1053,11 @@
             "hint": "Esempi: \"staccami dalla chiamata\"",
             "label": "Scollega da una chiamata",
             "placeholder": "Staccami dalla chiamata"
+          },
+          "updateScanChannels": {
+            "hint": "Esempi: \"aggiungi TAC 1 ai miei canali scansionati\", \"smetti di scansionare Dispatch\"",
+            "label": "Aggiorna i canali scansionati",
+            "placeholder": "Aggiungi TAC 1 ai miei canali scansionati"
           }
         }
       },

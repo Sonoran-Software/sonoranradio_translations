@@ -989,6 +989,16 @@
             "label": "Opprett en samtale",
             "placeholder": "Opprett et anrop for en 10-50 på Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Eksempler: \"hvilken kanal er jeg på\", \"rapporter mine nåværende kanaler\"",
+            "label": "Rapporter nåværende kanaler",
+            "placeholder": "Rapporter mine nåværende kanaler"
+          },
+          "getMyCall": {
+            "hint": "Eksempler: \"gjenta mitt nåværende anrop\", \"gjenta anropsdetaljene\"",
+            "label": "Gjenta nåværende anrop",
+            "placeholder": "Gjenta detaljene i mitt nåværende anrop"
+          },
           "getRecentCadEvents": {
             "hint": "Eksempler: \"hva er det siste anropet\", \"nylig panikk\", \"det anropet\"",
             "label": "Nylige hendelser",
@@ -1019,6 +1029,11 @@
             "label": "Rute til post",
             "placeholder": "Rute meg til postnummer 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Eksempler: \"bytt meg til TAC 1\", \"flytt enhet A-12 til Dispatch\"",
+            "label": "Bytt radiokanal",
+            "placeholder": "Sett meg til TAC 1"
+          },
           "startTimer": {
             "hint": "Eksempler: \"start en fem minutters PIT-timer\", \"sett en forfølgelsestimer til to minutter\"",
             "label": "Start en timer",
@@ -1038,6 +1053,11 @@
             "hint": "Eksempler: \"koble meg fra samtalen\"",
             "label": "Koble fra en samtale",
             "placeholder": "Koble meg fra samtalen"
+          },
+          "updateScanChannels": {
+            "hint": "Eksempler: \"legg til TAC 1 i de skannede kanalene mine\", \"slutt å skanne Dispatch\"",
+            "label": "Oppdater skannede kanaler",
+            "placeholder": "Legg til TAC 1 i de skannede kanalene mine"
           }
         }
       },

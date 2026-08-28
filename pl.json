@@ -989,6 +989,16 @@
             "label": "Utwórz połączenie",
             "placeholder": "Utwórz wezwanie dla 10-50 przy Main St"
           },
+          "getCurrentChannels": {
+            "hint": "Przykłady: \"na jakim kanale jestem\", \"zgłoś moje bieżące kanały\"",
+            "label": "Zgłoś bieżące kanały",
+            "placeholder": "Zgłoś moje bieżące kanały"
+          },
+          "getMyCall": {
+            "hint": "Przykłady: \"powtórz moje bieżące połączenie\", \"powtórz szczegóły połączenia\"",
+            "label": "Powtórz bieżące połączenie",
+            "placeholder": "Powtórz szczegóły mojego bieżącego połączenia"
+          },
           "getRecentCadEvents": {
             "hint": "Przykłady: \"jaka jest ostatnia rozmowa\", \"niedawny panik\", \"ta rozmowa\"",
             "label": "Najnowsze zdarzenia",
@@ -1019,6 +1029,11 @@
             "label": "Trasa do poczty",
             "placeholder": "Wyznacz mi trasę do kodu pocztowego 1234"
           },
+          "setPrimaryChannel": {
+            "hint": "Przykłady: \"przełącz mnie na TAC 1\", \"przenieś jednostkę A-12 do Dyspozytorni\"",
+            "label": "Przełącz kanał radiowy",
+            "placeholder": "Przełącz mnie na TAC 1"
+          },
           "startTimer": {
             "hint": "Przykłady: \"uruchom pięciominutowy timer PIT\", \"ustaw timer pościgu na dwie minuty\"",
             "label": "Uruchom timer",
@@ -1038,6 +1053,11 @@
             "hint": "Przykłady: \"odłącz mnie od rozmowy\"",
             "label": "Odłącz od połączenia",
             "placeholder": "Odłącz mnie od rozmowy"
+          },
+          "updateScanChannels": {
+            "hint": "Przykłady: „dodaj TAC 1 do moich skanowanych kanałów”, „przestań skanować Dispatch\"",
+            "label": "Aktualizuj zeskanowane kanały",
+            "placeholder": "Dodaj TAC 1 do moich skanowanych kanałów"
           }
         }
       },

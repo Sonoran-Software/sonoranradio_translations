@@ -89,10 +89,30 @@
             "label": "타이머 취소",
             "placeholder": "내 타이머 취소"
           },
+          "getCurrentChannels": {
+            "hint": "예: \"지금 몇 번 채널이야\", \"내 현재 채널을 보고해\"",
+            "label": "현재 채널을 보고해",
+            "placeholder": "내 현재 채널을 보고해"
+          },
+          "getMyCall": {
+            "hint": "예: \"내 현재 호출 반복\", \"호출 세부 정보 반복\"",
+            "label": "현재 호출 반복",
+            "placeholder": "내 현재 호출 세부 정보 반복"
+          },
+          "setPrimaryChannel": {
+            "hint": "예: \"나를 TAC 1로 전환\", \"유닛 A-12를 Dispatch로 이동\"",
+            "label": "라디오 채널 전환",
+            "placeholder": "나를 TAC 1로 전환"
+          },
           "startTimer": {
             "hint": "예: \"5분 PIT 타이머 시작\", \"추격 타이머를 2분으로 설정\"",
             "label": "타이머 시작",
             "placeholder": "5분 PIT 타이머 시작"
+          },
+          "updateScanChannels": {
+            "hint": "예: \"내 스캔 채널에 TAC 1 추가\", \"Dispatch 스캔 중지\"",
+            "label": "스캔한 채널 업데이트",
+            "placeholder": "내 스캔 채널에 TAC 1 추가"
           }
         }
       }

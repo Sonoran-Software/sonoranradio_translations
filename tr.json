@@ -989,6 +989,16 @@
             "label": "Bir çağrı oluştur",
             "placeholder": "Main St'de 10-50 için bir çağrı oluşturun"
           },
+          "getCurrentChannels": {
+            "hint": "Örnekler: \"hangi kanaldayım\", \"mevcut kanallarımı bildir\"",
+            "label": "Mevcut kanalları bildir",
+            "placeholder": "Mevcut kanallarımı bildir"
+          },
+          "getMyCall": {
+            "hint": "Örnekler: \"mevcut çağrımı tekrar et\", \"çağrı ayrıntılarını tekrar et\"",
+            "label": "Mevcut çağrıyı tekrar et",
+            "placeholder": "Mevcut çağrımın ayrıntılarını tekrar et"
+          },
           "getRecentCadEvents": {
             "hint": "Örnekler: \"son arama ne\", \"son panik\", \"o arama\"",
             "label": "Son Olaylar",
@@ -1019,6 +1029,11 @@
             "label": "Postaya yönlendir",
             "placeholder": "beni 1234 posta koduna yönlendir"
           },
+          "setPrimaryChannel": {
+            "hint": "Örnekler: \"beni TAC 1'e geçir\", \"A-12 birimini Dispatch'e taşı\"",
+            "label": "Radyo kanalını değiştir",
+            "placeholder": "Beni TAC 1'e geçir"
+          },
           "startTimer": {
             "hint": "Örnekler: \"beş dakikalık PIT zamanlayıcısını başlat\", \"iki dakika için bir kovalamaca zamanlayıcısı ayarla\"",
             "label": "Zamanlayıcıyı başlat",
@@ -1038,6 +1053,11 @@
             "hint": "Örnekler: \"beni aramadan ayır\"",
             "label": "Bir çağrıdan ayır",
             "placeholder": "Beni aramadan ayır"
+          },
+          "updateScanChannels": {
+            "hint": "Örnekler: \"taradığım kanallara TAC 1 ekle\", \"Dispatch taramayı durdur\"",
+            "label": "Taranan kanalları güncelle",
+            "placeholder": "TAC 1'i taradığım kanallara ekle"
           }
         }
       },
