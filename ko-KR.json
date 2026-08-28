@@ -121,6 +121,10 @@
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "이 언어에서는 사용할 수 없습니다. 지원 팀에 문의해 주세요.",
+      "dispatchAiSpeechRecognition": "영어 음성 인식",
+      "dispatchAiSpeechRecognitionAi": "AI 향상됨 (더 정확함)",
+      "dispatchAiSpeechRecognitionHint": "AI 향상 기능은 당신의 Dispatch AI 명령 오디오를 업로드하고 추정 전사 비용을 커뮤니티의 월간 사용량에 추가합니다.",
+      "dispatchAiSpeechRecognitionLocal": "로컬(더 빠름, 전사 사용량 없음)",
       "recentAiResponseLabel": "AI 응답",
       "sameAsPanelLanguage": "패널 언어와 동일"
     }

@@ -121,6 +121,10 @@
   "radio": {
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Недоступно для цієї мови. Будь ласка, зверніться до нашої служби підтримки.",
+      "dispatchAiSpeechRecognition": "Розпізнавання англійської мови",
+      "dispatchAiSpeechRecognitionAi": "Покращене ШІ (точніше)",
+      "dispatchAiSpeechRecognitionHint": "Покращене ШІ завантаження надсилає аудіо вашої команди Dispatch AI та додає його орієнтовну вартість транскрипції до щомісячного використання вашої спільноти.",
+      "dispatchAiSpeechRecognitionLocal": "Локально (швидше, без використання транскрипції)",
       "recentAiResponseLabel": "Відповідь ШІ",
       "sameAsPanelLanguage": "Як у мові панелі"
     }
