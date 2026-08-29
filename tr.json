@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Düğme Ekle",
+      "armaBlufor": "BLUFOR Örneği",
+      "armaExamples": "ARMA 3 Örnekleri",
+      "armaItemClassNames": "ARMA Öğe Sınıf Adları",
+      "armaItemClassNamesHint": "Bir veya daha fazla CfgWeapons sınıf adı girin, her birinden sonra Enter'a basın. Eşlenmiş bir radyoyu kuşanmak, masaüstü kaplamasını bu çerçeveye geçirir.",
+      "armaOpfor": "OPFOR Örneği",
       "bodyImage": "Gövde Görseli",
       "cancel": "İptal",
       "chooseSkin": "Dış görünümü seçin.json",

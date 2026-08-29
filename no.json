@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Legg til knapp",
+      "armaBlufor": "BLUFOR-eksempel",
+      "armaExamples": "ARMA 3-eksempler",
+      "armaItemClassNames": "ARMA-varenavn for klasser",
+      "armaItemClassNamesHint": "Skriv inn ett eller flere CfgWeapons-klassenavn, og trykk Enter etter hvert. Når du utstyrer en tilordnet radio, bytter skrivebordsoverslaget til denne rammen.",
+      "armaOpfor": "OPFOR-eksempel",
       "bodyImage": "Kroppsbilde",
       "cancel": "Avbryt",
       "chooseSkin": "Velg skin.json",

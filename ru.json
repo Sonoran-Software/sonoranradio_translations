@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Добавить кнопку",
+      "armaBlufor": "Пример BLUFOR",
+      "armaExamples": "Примеры ARMA 3",
+      "armaItemClassNames": "Имена классов предметов ARMA",
+      "armaItemClassNamesHint": "Введите одно или несколько имен классов CfgWeapons, нажимая Enter после каждого. При экипировке сопоставленной рации настольный оверлей переключается на этот кадр.",
+      "armaOpfor": "Пример OPFOR",
       "bodyImage": "Изображение тела",
       "cancel": "Отмена",
       "chooseSkin": "Выберите skin.json",

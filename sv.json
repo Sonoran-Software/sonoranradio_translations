@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Lägg till knapp",
+      "armaBlufor": "BLUFOR-exempel",
+      "armaExamples": "ARMA 3-exempel",
+      "armaItemClassNames": "ARMA-objektklassnamn",
+      "armaItemClassNamesHint": "Ange ett eller flera CfgWeapons-klassnamn och tryck på Enter efter varje. Att utrusta en mappad radio växlar skrivbordsöverlägget till denna ram.",
+      "armaOpfor": "OPFOR-exempel",
       "bodyImage": "Kroppsbild",
       "cancel": "Avbryt",
       "chooseSkin": "Välj skal.json",

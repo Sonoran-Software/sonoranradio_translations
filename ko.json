@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "버튼 추가",
+      "armaBlufor": "BLUFOR 예시",
+      "armaExamples": "ARMA 3 예시",
+      "armaItemClassNames": "ARMA 아이템 클래스 이름",
+      "armaItemClassNamesHint": "하나 이상의 CfgWeapons 클래스 이름을 입력하고 각 이름 뒤에 Enter를 누르세요. 매핑된 라디오를 장착하면 데스크톱 오버레이가 이 프레임으로 전환됩니다.",
+      "armaOpfor": "OPFOR 예시",
       "bodyImage": "바디 이미지",
       "cancel": "취소",
       "chooseSkin": "스킨 선택",

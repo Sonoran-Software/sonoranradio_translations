@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Schaltfläche hinzufügen",
+      "armaBlufor": "BLUFOR-Beispiel",
+      "armaExamples": "ARMA 3 Beispiele",
+      "armaItemClassNames": "ARMA-Artikelklassennamen",
+      "armaItemClassNamesHint": "Geben Sie einen oder mehrere CfgWeapons-Klassennamen ein und drücken Sie nach jedem die Eingabetaste. Das Ausrüsten eines zugeordneten Radios schaltet das Desktop-Overlay auf diesen Rahmen um.",
+      "armaOpfor": "OPFOR-Beispiel",
       "bodyImage": "Körperbild",
       "cancel": "Abbrechen",
       "chooseSkin": "Skin auswählen",

@@ -55,6 +55,11 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "armaBlufor": "BLUFOR 範例",
+      "armaExamples": "ARMA 3 範例",
+      "armaItemClassNames": "ARMA 物品類別名稱",
+      "armaItemClassNamesHint": "輸入一個或多個 CfgWeapons 類別名稱，每輸入一個後按 Enter。裝備已對應的無線電會將桌面覆蓋層切換到此框架。",
+      "armaOpfor": "OPFOR 範例",
       "screenTheme": "螢幕主題",
       "screenThemes": {
         "mobi": "行動裝置",

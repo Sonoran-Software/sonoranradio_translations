@@ -55,6 +55,11 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "armaBlufor": "BLUFOR-voorbeeld",
+      "armaExamples": "ARMA 3-voorbeelden",
+      "armaItemClassNames": "ARMA item classnamen",
+      "armaItemClassNamesHint": "Voer één of meer CfgWeapons-klassenamen in, en druk na elk op Enter. Door een toegewezen radio uit te rusten, schakelt de desktop-overlay naar dit frame.",
+      "armaOpfor": "OPFOR-voorbeeld",
       "screenTheme": "Schermthema",
       "screenThemes": {
         "mobi": "Mobi",

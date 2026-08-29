@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "ボタンを追加",
+      "armaBlufor": "BLUFOR 例",
+      "armaExamples": "ARMA 3 例",
+      "armaItemClassNames": "ARMA アイテム クラス名",
+      "armaItemClassNamesHint": "1 つ以上の CfgWeapons クラス名を入力し、各入力後に Enter を押してください。マッピングされた radio を装備すると、desktop overlay がこの frame に切り替わります。",
+      "armaOpfor": "OPFOR 例",
       "bodyImage": "ボディ画像",
       "cancel": "キャンセル",
       "chooseSkin": "スキンを選択",

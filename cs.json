@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Přidat tlačítko",
+      "armaBlufor": "Ukázka BLUFOR",
+      "armaExamples": "Příklady ARMA 3",
+      "armaItemClassNames": "Názvy tříd položek ARMA",
+      "armaItemClassNamesHint": "Zadejte jeden nebo více názvů tříd CfgWeapons a po každém stiskněte Enter. Nasazení namapovaného rádia přepne překryv plochy na tento rám.",
+      "armaOpfor": "Ukázka OPFOR",
       "bodyImage": "Obrázek těla",
       "cancel": "Zrušit",
       "chooseSkin": "Vyberte skin.json",

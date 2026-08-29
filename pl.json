@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Dodaj przycisk",
+      "armaBlufor": "Przykład BLUFOR",
+      "armaExamples": "Przykłady ARMA 3",
+      "armaItemClassNames": "Nazwy klas przedmiotów ARMA",
+      "armaItemClassNamesHint": "Wpisz jedną lub więcej nazw klas CfgWeapons, naciskając Enter po każdej. Założenie przypisanej radiostacji przełącza nakładkę pulpitu na tę ramkę.",
+      "armaOpfor": "Przykład OPFOR",
       "bodyImage": "Obraz ciała",
       "cancel": "Anuluj",
       "chooseSkin": "Wybierz skórkę",
