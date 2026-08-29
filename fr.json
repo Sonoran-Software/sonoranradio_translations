@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Ajouter un bouton",
+      "armaBlufor": "Exemple BLUFOR",
+      "armaExamples": "Exemples ARMA 3",
+      "armaItemClassNames": "Noms de classe des objets ARMA",
+      "armaItemClassNamesHint": "Entrez un ou plusieurs noms de classe CfgWeapons, en appuyant sur Entrée après chacun. Équiper une radio associée bascule la superposition du bureau vers ce cadre.",
+      "armaOpfor": "Exemple OPFOR",
       "bodyImage": "Image du corps",
       "cancel": "Annuler",
       "chooseSkin": "Choisir skin.json",

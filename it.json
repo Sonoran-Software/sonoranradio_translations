@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Aggiungi pulsante",
+      "armaBlufor": "Esempio BLUFOR",
+      "armaExamples": "Esempi ARMA 3",
+      "armaItemClassNames": "Nomi delle classi degli oggetti ARMA",
+      "armaItemClassNamesHint": "Inserisci uno o più nomi di classe CfgWeapons, premendo Invio dopo ciascuno. Equipaggiare una radio mappata passa l'overlay desktop a questa cornice.",
+      "armaOpfor": "Esempio OPFOR",
       "bodyImage": "Immagine del corpo",
       "cancel": "Annulla",
       "chooseSkin": "Scegli skin.json",

@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Tilføj knap",
+      "armaBlufor": "BLUFOR-eksempel",
+      "armaExamples": "ARMA 3-eksempler",
+      "armaItemClassNames": "ARMA genstandsklassenavne",
+      "armaItemClassNamesHint": "Indtast ét eller flere CfgWeapons-klassenavne, og tryk Enter efter hver. Når du udstyrer en tilknyttet radio, skifter skrivebords-overlayeret til denne ramme.",
+      "armaOpfor": "OPFOR-eksempel",
       "bodyImage": "Kropsbillede",
       "cancel": "Annuller",
       "chooseSkin": "Vælg skin.json",

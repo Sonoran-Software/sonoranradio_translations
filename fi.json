@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Lisää painike",
+      "armaBlufor": "BLUFOR-esimerkki",
+      "armaExamples": "ARMA 3 -esimerkit",
+      "armaItemClassNames": "ARMA-tuotteiden luokkanimet",
+      "armaItemClassNamesHint": "Anna yksi tai useampi CfgWeapons-luokan nimi ja paina Enteriä jokaisen jälkeen. Kytketyn radion varustaminen vaihtaa työpöydän peitteen tähän kehykseen.",
+      "armaOpfor": "OPFOR-esimerkki",
       "bodyImage": "Kehokuvake",
       "cancel": "Peruuta",
       "chooseSkin": "Valitse kuori.json",

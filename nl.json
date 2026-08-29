@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Knop toevoegen",
+      "armaBlufor": "BLUFOR-voorbeeld",
+      "armaExamples": "ARMA 3-voorbeelden",
+      "armaItemClassNames": "ARMA itemklassennamen",
+      "armaItemClassNamesHint": "Voer een of meer CfgWeapons-klassenamen in, druk na elke op Enter. Het uitrusten van een gekoppelde radio schakelt de desktopoverlay over naar dit frame.",
+      "armaOpfor": "OPFOR-voorbeeld",
       "bodyImage": "Achtergrondafbeelding",
       "cancel": "Annuleren",
       "chooseSkin": "Kies skin",

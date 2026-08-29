@@ -55,6 +55,11 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "armaBlufor": "Ejemplo BLUFOR",
+      "armaExamples": "Ejemplos de ARMA 3",
+      "armaItemClassNames": "Nombres de clase de objetos ARMA",
+      "armaItemClassNamesHint": "Introduce uno o más nombres de clase CfgWeapons, pulsando Intro después de cada uno. Equipar una radio asignada cambia la superposición de escritorio a este marco.",
+      "armaOpfor": "Ejemplo OPFOR",
       "screenTheme": "Tema de pantalla",
       "screenThemes": {
         "mobi": "Mobi",

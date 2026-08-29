@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Adicionar botão",
+      "armaBlufor": "Exemplo BLUFOR",
+      "armaExamples": "Exemplos de ARMA 3",
+      "armaItemClassNames": "Nomes de Classe de Itens ARMA",
+      "armaItemClassNamesHint": "Insira um ou mais nomes de classes CfgWeapons, pressionando Enter após cada um. Equipar um rádio mapeado alterna a sobreposição da área de trabalho para este quadro.",
+      "armaOpfor": "Exemplo OPFOR",
       "bodyImage": "Imagem do corpo",
       "cancel": "Cancelar",
       "chooseSkin": "Escolher skin.json",

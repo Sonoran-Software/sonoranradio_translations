@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "添加按钮",
+      "armaBlufor": "BLUFOR示例",
+      "armaExamples": "ARMA 3 示例",
+      "armaItemClassNames": "ARMA 物品类名",
+      "armaItemClassNamesHint": "输入一个或多个 CfgWeapons 类名，每输入一个后按 Enter。装备已映射的无线电会将桌面叠加层切换到此框架。",
+      "armaOpfor": "OPFOR示例",
       "bodyImage": "身体图像",
       "cancel": "取消",
       "chooseSkin": "选择皮肤.json",

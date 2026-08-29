@@ -546,6 +546,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "إضافة زر",
+      "armaBlufor": "مثال BLUFOR",
+      "armaExamples": "أمثلة ARMA 3",
+      "armaItemClassNames": "أسماء فئات عناصر ARMA",
+      "armaItemClassNamesHint": "أدخل اسمًا واحدًا أو أكثر من أسماء أصناف CfgWeapons، مع الضغط على Enter بعد كل واحد. تجهيز راديو مُعيّن يبدّل تراكب سطح المكتب إلى هذا الإطار.",
+      "armaOpfor": "مثال OPFOR",
       "bodyImage": "صورة الجسم",
       "cancel": "إلغاء",
       "chooseSkin": "اختر skin.json",

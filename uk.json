@@ -55,6 +55,11 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "armaBlufor": "Приклад BLUFOR",
+      "armaExamples": "Приклади ARMA 3",
+      "armaItemClassNames": "Назви класів предметів ARMA",
+      "armaItemClassNamesHint": "Введіть одну або кілька назв класів CfgWeapons, натискаючи Enter після кожної. Оснащення прив’язаною рацією перемикає накладку робочого столу на цю рамку.",
+      "armaOpfor": "Приклад OPFOR",
       "screenTheme": "Тема екрана",
       "screenThemes": {
         "mobi": "Мобі",

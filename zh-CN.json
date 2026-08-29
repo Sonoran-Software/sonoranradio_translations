@@ -55,6 +55,11 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "armaBlufor": "BLUFOR 示例",
+      "armaExamples": "ARMA 3 示例",
+      "armaItemClassNames": "ARMA 物品类名",
+      "armaItemClassNamesHint": "输入一个或多个 CfgWeapons 类名，每输入一个后按 Enter。装备已映射的电台会将桌面覆盖层切换到此框架。",
+      "armaOpfor": "OPFOR 示例",
       "screenTheme": "屏幕主题",
       "screenThemes": {
         "mobi": "Mobi",
