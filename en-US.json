@@ -462,6 +462,10 @@
       "title": "Tone Board to In-Game Speakers"
     },
     "intro": "Take your gaming communication to the next level with Sonoran  Radio. Chat in       realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly  immersive experience.",
+    "Jammers": {
+      "desc": "Configure custom in-game items to jam nearby radio signals!",
+      "title": "Jammers"
+    },
     "meta": {
       "audienceType": "Gamers and Community Managers",
       "description": "Realistic radio communication software for FiveM, ER:LC, Arma 3, and roleplay communities alike.",
@@ -488,13 +492,13 @@
       "desc": "Pulled over in a traffic stop? You will hear the real radio chatter when an officer has an active radio nearby!",
       "title": "Hear Nearby Radio Chatter"
     },
+    "scannersAndJammers": {
+      "desc": "In-game scanners allow you and others nearby to listen in on radio traffic! Or configure custom in-game items to jam nearby radio signals!",
+      "title": "Scanners and Jammers"
+    },
     "Scanners": {
       "desc": "In-game scanners allow you and others nearby to listen in on radio traffic!",
       "title": "Scanners"
-    },
-    "Jammers": {
-      "desc": "Configure custom in-game items to jam nearby radio signals!",
-      "title": "Jammers"
     },
     "sections": {
       "dispatchAdmin": "Dispatch and Admin Panel",
