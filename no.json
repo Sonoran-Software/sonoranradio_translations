@@ -133,6 +133,23 @@
     "upload": "Last opp",
     "username": "Brukernavn"
   },
+  "communitySetup": {
+    "aiHearingHelp": "Gjelder for alle i fellesskapet som bruker den oppdaterte modden og overleggen. AI i nærheten kan oppdage spillere mens de sender. Aktivert som standard; et oppdrag/en server kan fortsatt deaktivere AI-lytting. Endringer når åpne overlegg innen 30 sekunder.",
+    "armaInstallCaption": "Fire steg for serveren din og spillerne dine",
+    "browserNote": "Et separat skrivebords-overlegg kan ikke pålitelig vises over eksklusiv fullskjerm. Brukere i nettleser må gå inn i oppdraget for å la modden starte broen og tillate tilgang til локalt nettverk hvis du blir spurt.",
+    "communityDetails": "Fellesskapsdetaljer",
+    "desktopOnlyLabel": "Overlay er tilgjengelig i Sonoran Radio-skrivebordsappen.",
+    "fivemInstallCaption": "Last ned og konfigurer Sonoran Radio-ressursen",
+    "fivemZones": "FiveM-soner",
+    "joinMission": "Bli med på serveren din, velg en rolle, og gå inn i oppdraget. Utstyr en Sonoran Radio-gjenstand. Oppdragsmakere bør plassere Sonoran signaltårn/repeatere for dekning.",
+    "manualServer": "For en manuelt hostet server, kopier begge mod-mappene til serveren, kopier deres {extension}-filer fra nøkkel-mappene deres inn i serverens {directory}-mappe, og legg til dette oppstartsargumentet (juster mappenavn):",
+    "openDesktop": "Åpne Sonoran Radio-skrivebordsappen, bli med i dette fellesskapet, koble til en kanal og klikk Åpne overlegg. Den installerte Workshop-broen starter automatisk.",
+    "openOverlay": "Åpne radiooverlegg",
+    "overlay": "overlegg",
+    "radioWorkshop": "2. Sonoran Radio",
+    "resizeCorner": "Juster skjermens {corner}-hjørne",
+    "unlinkTitle": "Koble fra ER:LC-server?"
+  },
   "config": {
     "displayName": "Engelsk (US)"
   },
