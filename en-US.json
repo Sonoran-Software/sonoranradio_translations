@@ -1,5 +1,7 @@
 {
   "communitySetup": {
+    "armaBridge": "Enable ARMA 3 bridge",
+    "armaBridgeHelp": "Enable the local ARMA 3 connection for this community. The desktop app automatically starts the installed bridge. Disabling this stops Radio from using the bridge, including signal integration and AI hearing.",
     "controls": {
       "power": "Power",
       "previous": "Previous",
