@@ -137,6 +137,8 @@
     "aiHearing": "L'IA peut entendre les transmissions radio",
     "aiHearingHelp": "S'applique à tous les membres de la communauté utilisant le mod et l'overlay mis à jour. Les IA à proximité peuvent détecter les joueurs pendant qu'ils transmettent. Activé par défaut; une mission/un serveur peut toujours désactiver l'audition de l'IA. Les changements atteignent les overlays ouverts en 30 secondes.",
     "armaAutomatic": "Activé automatiquement parce que votre communauté utilise ARMA 3.",
+    "armaBridge": "Activer le pont ARMA 3",
+    "armaBridgeHelp": "Activer la connexion locale ARMA 3 pour cette communauté. L'application de bureau démarre automatiquement le pont installé. Le désactiver empêche Radio d'utiliser le pont, y compris l'intégration des signaux et l'audition de l'IA.",
     "armaConnected": "ARMA 3 connecté",
     "armaConnecting": "Connexion à ARMA 3",
     "armaDisabled": "ARMA 3 désactivé",

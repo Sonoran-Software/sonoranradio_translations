@@ -137,6 +137,8 @@
     "aiHearing": "AIは無線通信を聞き取れます",
     "aiHearingHelp": "更新された mod と overlay を使用しているすべての community member に適用されます。近くの AI は、プレイヤーが送信中に検出できます。デフォルトで有効です。mission/server は引き続き AI hearing を無効にできます。変更は 30 seconds 以内に開いている overlay に反映されます。",
     "armaAutomatic": "コミュニティがARMA 3を使用しているため、自動的に有効化されます。",
+    "armaBridge": "ARMA 3 ブリッジを有効にする",
+    "armaBridgeHelp": "このコミュニティのローカル ARMA 3 接続を有効にします。デスクトップアプリは、インストール済みのブリッジを自動的に起動します。これを無効にすると、Radio はシグナル統合と AI リスニングを含め、ブリッジを使用しなくなります。",
     "armaConnected": "ARMA 3 に接続済み",
     "armaConnecting": "ARMA 3 に接続中",
     "armaDisabled": "ARMA 3無効",

@@ -137,6 +137,8 @@
     "aiHearing": "AI는 라디오 전송을 들을 수 있습니다",
     "aiHearingHelp": "업데이트된 mod와 overlay를 사용하는 모든 커뮤니티 멤버에게 적용됩니다. 근처의 AI는 플레이어가 송신 중일 때 감지할 수 있습니다. 기본으로 활성화되어 있으며; mission/server에서 AI 청취를 비활성화할 수 있습니다. 변경 사항은 30초 이내에 열린 overlay에 반영됩니다.",
     "armaAutomatic": "커뮤니티가 ARMA 3를 사용하므로 자동으로 활성화됨",
+    "armaBridge": "ARMA 3 브리지 사용",
+    "armaBridgeHelp": "이 커뮤니티에 대해 로컬 ARMA 3 연결을 활성화하세요. 데스크톱 앱이 설치된 브리지를 자동으로 시작합니다. 이를 비활성화하면 Radio가 신호 통합과 AI 청취를 포함해 브리지를 사용하지 않습니다.",
     "armaConnected": "ARMA 3에 연결됨",
     "armaConnecting": "ARMA 3에 연결 중",
     "armaDisabled": "ARMA 3 비활성화됨",

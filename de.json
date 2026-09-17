@@ -137,6 +137,8 @@
     "aiHearing": "KI kann Funkübertragungen hören",
     "aiHearingHelp": "Gilt für alle Community-Mitglieder, die den aktualisierten Mod und das Overlay verwenden. Benachbarte KI kann Spieler erkennen, während sie senden. Standardmäßig aktiviert; eine Mission/ein Server kann KI-Hören dennoch deaktivieren. Änderungen erreichen offene Overlays innerhalb von 30 Sekunden.",
     "armaAutomatic": "Automatisch aktiviert, weil deine Community ARMA 3 nutzt.",
+    "armaBridge": "ARMA 3-Brücke aktivieren",
+    "armaBridgeHelp": "Aktiviere die lokale ARMA 3-Verbindung für diese Community. Die Desktop-App startet die installierte Bridge automatisch. Wenn du dies deaktivierst, verwendet Radio die Bridge nicht mehr, einschließlich Signalintegration und KI-Hören.",
     "armaConnected": "ARMA 3 verbunden",
     "armaConnecting": "Verbindung zu ARMA 3 wird hergestellt",
     "armaDisabled": "ARMA 3 deaktiviert",

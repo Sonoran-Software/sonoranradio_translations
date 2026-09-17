@@ -137,6 +137,8 @@
     "aiHearing": "AI může slyšet rádiové přenosy",
     "aiHearingHelp": "Platí pro všechny členy komunity používající aktualizovaný mod a overlay. Nedaleká AI může detekovat hráče, když vysílají. Ve výchozím nastavení zapnuto; mise/server může stále vypnout sluch AI. Změny se projeví v otevřených overlayích do 30 sekund.",
     "armaAutomatic": "Automaticky povoleno, protože vaše komunita používá ARMA 3.",
+    "armaBridge": "Povolit most ARMA 3",
+    "armaBridgeHelp": "Povolte místní připojení ARMA 3 pro tuto komunitu. Desktopová aplikace automaticky spouští nainstalovaný bridge. Jeho vypnutím zabráníte Radiu používat bridge, včetně integrace signálu a sluchu AI.",
     "armaConnected": "ARMA 3 připojeno",
     "armaConnecting": "Připojování k ARMA 3",
     "armaDisabled": "ARMA 3 zakázáno",

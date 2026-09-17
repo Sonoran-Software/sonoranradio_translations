@@ -137,6 +137,8 @@
     "aiHearing": "AI kan radio-uitzendingen horen",
     "aiHearingHelp": "Van toepassing op alle communityleden die de bijgewerkte mod en overlay gebruiken. AI in de buurt kan spelers detecteren terwijl ze uitzenden. Standaard ingeschakeld; een missie/server kan AI-gehoor nog steeds uitschakelen. Wijzigingen worden binnen 30 seconden doorgevoerd in open overlays.",
     "armaAutomatic": "Automatisch ingeschakeld omdat je community ARMA 3 gebruikt.",
+    "armaBridge": "ARMA 3-verbinding inschakelen",
+    "armaBridgeHelp": "Schakel de lokale ARMA 3-verbinding voor deze community in. De desktop-app start automatisch de geïnstalleerde bridge. Door dit uit te schakelen, kan Radio de bridge niet gebruiken, inclusief signaalintegratie en AI-horen.",
     "armaConnected": "ARMA 3 verbonden",
     "armaConnecting": "Verbinden met ARMA 3",
     "armaDisabled": "ARMA 3 uitgeschakeld",
