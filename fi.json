@@ -137,6 +137,8 @@
     "aiHearing": "Tekoäly voi kuulla radiolähetykset",
     "aiHearingHelp": "Koskee kaikkia yhteisön jäseniä, jotka käyttävät päivitettyä modiä ja overlayta. Läheiset tekoälyt voivat havaita pelaajat heidän lähettäessään. Käytössä oletuksena; tehtävä/palvelin voi silti poistaa tekoälyn kuulemisen käytöstä. Muutokset tulevat avoimiin overlayihin 30 sekunnin kuluessa.",
     "armaAutomatic": "Otetaan käyttöön automaattisesti, koska yhteisösi käyttää ARMA 3:a.",
+    "armaBridge": "Ota ARMA 3 -silta käyttöön",
+    "armaBridgeHelp": "Ota paikallinen ARMA 3 -yhteys käyttöön tälle yhteisölle. Työpöytäsovellus käynnistää asennetun sillan automaattisesti. Tämän poistaminen käytöstä estää Radiota käyttämästä siltaa, mukaan lukien signaalien integroinnin ja tekoälyn kuulemisen.",
     "armaConnected": "ARMA 3 yhdistetty",
     "armaConnecting": "Yhdistetään ARMA 3:een",
     "armaDisabled": "ARMA 3 poissa käytöstä",

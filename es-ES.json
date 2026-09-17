@@ -137,6 +137,8 @@
     "aiHearing": "La IA puede oír transmisiones de radio",
     "aiHearingHelp": "Se aplica a todos los miembros de la comunidad que usan el mod y la superposición actualizados. La IA cercana puede detectar a los jugadores mientras transmiten. Activado de forma predeterminada; una misión/servidor aún puede desactivar la escucha de la IA. Los cambios llegan a las superposiciones abiertas en 30 segundos.",
     "armaAutomatic": "Habilitado automáticamente porque tu comunidad usa ARMA 3.",
+    "armaBridge": "Activar puente con ARMA 3",
+    "armaBridgeHelp": "Habilita la conexión local de ARMA 3 para esta comunidad. La aplicación de escritorio inicia automáticamente el puente instalado. Deshabilitar esto impide que Radio use el puente, incluida la integración de señal y la audición de IA.",
     "armaConnected": "ARMA 3 conectado",
     "armaConnecting": "Conectando a ARMA 3",
     "armaDisabled": "ARMA 3 desactivado",

@@ -17,6 +17,8 @@
     "aiHearing": "AI can hear radio transmissions",
     "aiHearingHelp": "Applies to all community members using the updated mod and overlay. Nearby AI can detect players while they transmit. Enabled by default; a mission/server can still disable AI hearing. Changes reach open overlays within 30 seconds.",
     "armaAutomatic": "Automatically enabled because your community uses ARMA 3.",
+    "armaBridge": "Enable ARMA 3 bridge",
+    "armaBridgeHelp": "Enable the local ARMA 3 connection for this community. The desktop app automatically starts the installed bridge. Disabling this stops Radio from using the bridge, including signal integration and AI hearing.",
     "armaConnected": "ARMA 3 connected",
     "armaConnecting": "Connecting to ARMA 3",
     "armaDisabled": "ARMA 3 disabled",

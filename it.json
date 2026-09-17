@@ -137,6 +137,8 @@
     "aiHearing": "L'IA può sentire le trasmissioni radio",
     "aiHearingHelp": "Si applica a tutti i membri della community che usano la mod e l'overlay aggiornati. L'IA vicina può rilevare i giocatori mentre trasmettono. Abilitato per impostazione predefinita; una missione/server può comunque disabilitare l'udito dell'IA. Le modifiche raggiungono gli overlay aperti entro 30 secondi.",
     "armaAutomatic": "Abilitato automaticamente perché la tua community usa ARMA 3.",
+    "armaBridge": "Abilita bridge ARMA 3",
+    "armaBridgeHelp": "Abilita la connessione locale di ARMA 3 per questa community. L'app desktop avvia automaticamente il bridge installato. Disabilitare questa opzione impedisce a Radio di usare il bridge, inclusi l'integrazione del segnale e l'ascolto dell'IA.",
     "armaConnected": "ARMA 3 connesso",
     "armaConnecting": "Connessione ad ARMA 3",
     "armaDisabled": "ARMA 3 disabilitato",
