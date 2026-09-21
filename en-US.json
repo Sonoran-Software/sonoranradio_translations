@@ -681,7 +681,18 @@
         "resizeTitle": "CTRL+Drag"
       },
       "upload": "Upload",
-      "useMobiFrame": "Use Mobi Frame"
+      "useMobiFrame": "Use Mobi Frame",
+      "resetDefaults": "Reset to game defaults",
+      "defaultsDraft": "Defaults restored. Not saved.",
+      "saveChanges": "Save changes",
+      "selectGameToReset": "Select a game in Game Integration to reset to its defaults.",
+      "defaultsUnavailable": "Game defaults are not available yet. Reload to try again.",
+      "frameName": "Frame name",
+      "deleteFrame": "Delete frame",
+      "editHint": "Drag to move · Ctrl + drag to resize · Right-click a button to remove",
+      "changeImage": "Change image",
+      "uploadImage": "Upload image",
+      "confirmResetDefaults": "Replace all frames with the defaults for your selected game? Your changes stay in this editor until you click Save changes."
     },
     "customizeMenu": {
       "ai": "AI",
