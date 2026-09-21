@@ -227,7 +227,11 @@
     "displayName": "English (US)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Create custom radio overlays for desktop games."
+    "createCustomRadioOverlaysForDesktopGames": "Create custom radio overlays for desktop games.",
+    "openGameIntegration": "Game Integration",
+    "overlayDesktopDescription": "Customize the radio overlay for desktop users.",
+    "overlayFiveMDescription": "Customize your FiveM in-game radio and desktop overlay. FiveM changes sync within five minutes with a compatible resource version.",
+    "overlaySelectGame": "Check your community’s game in Game Integration to use the matching overlay features."
   },
   "desktopPanel": {
     "channelHotkey": "Channel Hotkey"
@@ -655,11 +659,11 @@
       "frameWidth": "Frame Width",
       "importDefaultFrameType": "frame",
       "importFromSkin": "Import from FiveM (skin.json)",
-      "importNoFramesFound": "No desktop frames with body.width and screen found.",
+      "importNoFramesFound": "No frames with body.width and screen found.",
       "label": "Label",
       "newFrame": "New Frame",
-      "noneFound": "No desktop frames found for this server.",
-      "saved": "Desktop frames saved.",
+      "noneFound": "No overlay frames found for this community.",
+      "saved": "Overlay frames saved.",
       "screenPlaceholder": "This is the screen",
       "screenTheme": "Screen Theme",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM Integration",
       "info": "Info",
+      "overlay": "Overlay",
       "patrolChannels": "Patrol Channels",
       "permissions": "Permissions",
       "profiles": "Profiles",
