@@ -227,7 +227,11 @@
     "displayName": "Englisch (USA)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Benutzerdefinierte Radio-Overlays für Desktop-Spiele erstellen."
+    "createCustomRadioOverlaysForDesktopGames": "Benutzerdefinierte Radio-Overlays für Desktop-Spiele erstellen.",
+    "openGameIntegration": "Spielintegration",
+    "overlayDesktopDescription": "Das Radio-Overlay für Desktop-Benutzer anpassen.",
+    "overlayFiveMDescription": "Passe dein FiveM-Ingame-Radio und Desktop-Overlay an. FiveM-Änderungen werden mit einer kompatiblen Resource-Version innerhalb von fünf Minuten synchronisiert.",
+    "overlaySelectGame": "Überprüfe das Spiel deiner Community in der Spielintegration, um die passenden Overlay-Funktionen zu nutzen."
   },
   "desktopPanel": {
     "channelHotkey": "Kanal-Hotkey"
@@ -655,11 +659,11 @@
       "frameWidth": "Rahmenbreite",
       "importDefaultFrameType": "Rahmentyp der Standardvorlage importieren",
       "importFromSkin": "Aus FiveM importieren (skin.json)",
-      "importNoFramesFound": "Keine Desktop-Frames mit body.width und screen gefunden.",
+      "importNoFramesFound": "Keine Rahmen mit body.width und screen gefunden.",
       "label": "Bezeichnung",
       "newFrame": "Neuer Rahmen",
-      "noneFound": "Keine Desktop-Frames für diesen Server gefunden.",
-      "saved": "Desktop-Rahmen gespeichert.",
+      "noneFound": "Keine Overlay-Rahmen für diese Community gefunden.",
+      "saved": "Overlay-Rahmen gespeichert.",
       "screenPlaceholder": "Dies ist der Bildschirm",
       "screenTheme": "Bildschirmdesign",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM-Integration",
       "info": "Info",
+      "overlay": "Overlay",
       "patrolChannels": "Patrouillenkanäle",
       "permissions": "Berechtigungen",
       "profiles": "Profile",

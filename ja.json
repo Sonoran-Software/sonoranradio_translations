@@ -227,7 +227,11 @@
     "displayName": "英語 (米国)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "デスクトップ ゲーム用のカスタム ラジオ オーバーレイを作成します。"
+    "createCustomRadioOverlaysForDesktopGames": "デスクトップ ゲーム用のカスタム ラジオ オーバーレイを作成します。",
+    "openGameIntegration": "ゲーム統合",
+    "overlayDesktopDescription": "デスクトップ ユーザー向けに ラジオ オーバーレイをカスタマイズします。",
+    "overlayFiveMDescription": "FiveM のゲーム内ラジオとデスクトップオーバーレイをカスタマイズします。FiveM の変更は、互換性のあるリソースバージョンで5分以内に同期されます。",
+    "overlaySelectGame": "Game Integration でコミュニティのゲームを確認して、対応するオーバーレイ機能を使ってください。"
   },
   "desktopPanel": {
     "channelHotkey": "チャンネル ホットキー"
@@ -655,11 +659,11 @@
       "frameWidth": "フレーム幅",
       "importDefaultFrameType": "デフォルトフレームタイプをインポート",
       "importFromSkin": "FiveM からインポート (skin.json)",
-      "importNoFramesFound": "body.width と screen を持つデスクトップフレームが見つかりません。",
+      "importNoFramesFound": "body.width と screen を持つフレームは見つかりませんでした。",
       "label": "ラベル",
       "newFrame": "新しいフレーム",
-      "noneFound": "このサーバーにはデスクトップフレームが見つかりませんでした。",
-      "saved": "デスクトップ フレームを保存しました。",
+      "noneFound": "このコミュニティ用のオーバーレイフレームは見つかりませんでした。",
+      "saved": "オーバーレイフレームを保存しました。",
       "screenPlaceholder": "これは画面です",
       "screenTheme": "画面テーマ",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "ディスパッチ AI",
       "fivemIntegration": "FiveM 統合",
       "info": "情報",
+      "overlay": "オーバーレイ",
       "patrolChannels": "パトロールチャンネル",
       "permissions": "権限",
       "profiles": "プロファイル",

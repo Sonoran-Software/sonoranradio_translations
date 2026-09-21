@@ -103,6 +103,12 @@
     "verifySignal": "Transmit with the desktop app’s push-to-talk. Check that signal bars respond as you move away from a tower. The bridge health page on each player’s PC should show {health}.",
     "zoneSaveError": "Unable to save ER:LC zones. Your last change was reverted."
   },
+  "customizePanel": {
+    "openGameIntegration": "Game Integration",
+    "overlayDesktopDescription": "Customize the radio overlay for desktop users.",
+    "overlayFiveMDescription": "Customize your FiveM in-game radio and desktop overlay. FiveM changes sync within five minutes with a compatible resource version.",
+    "overlaySelectGame": "Check your community’s game in Game Integration to use the matching overlay features."
+  },
   "landingPage": {
     "developers": {
       "button": "Explore Developer Tools",
@@ -157,6 +163,9 @@
       "armaItemClassNames": "ARMA Item Class Names",
       "armaItemClassNamesHint": "Enter one or more CfgWeapons class names, pressing Enter after each. Equipping a mapped radio switches the desktop overlay to this frame.",
       "armaOpfor": "OPFOR Example",
+      "importNoFramesFound": "No frames with body.width and screen found.",
+      "noneFound": "No overlay frames found for this community.",
+      "saved": "Overlay frames saved.",
       "screenTheme": "Screen Theme",
       "screenThemes": {
         "mobi": "Mobi",
@@ -164,6 +173,9 @@
         "text": "Text"
       },
       "useMobiFrame": "Use Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "Overlay"
     },
     "dispatchAi": {
       "timers": {

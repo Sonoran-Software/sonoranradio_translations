@@ -103,6 +103,12 @@
     "verifySignal": "Transmite con el push-to-talk de la app de escritorio. Comprueba que las barras de señal respondan al alejarte de una torre. La página de salud del puente en el PC de cada jugador debería mostrar {health}.",
     "zoneSaveError": "No se pudieron guardar las zonas de ER:LC. Tu último cambio se revirtió."
   },
+  "customizePanel": {
+    "openGameIntegration": "Integración de juegos",
+    "overlayDesktopDescription": "Personaliza la superposición de radio para usuarios de escritorio.",
+    "overlayFiveMDescription": "Personaliza tu radio del juego y la superposición de escritorio de FiveM. Los cambios de FiveM se sincronizan en cinco minutos con una versión de recurso compatible.",
+    "overlaySelectGame": "Comprueba el juego de tu comunidad en Integración de juegos para usar las funciones de superposición correspondientes."
+  },
   "landingPage": {
     "developers": {
       "button": "Explorar herramientas para desarrolladores",
@@ -157,6 +163,9 @@
       "armaItemClassNames": "Nombres de clase de objetos ARMA",
       "armaItemClassNamesHint": "Introduce uno o más nombres de clase CfgWeapons, pulsando Intro después de cada uno. Equipar una radio asignada cambia la superposición de escritorio a este marco.",
       "armaOpfor": "Ejemplo OPFOR",
+      "importNoFramesFound": "No se encontraron marcos con body.width y screen.",
+      "noneFound": "No se encontraron marcos superpuestos para esta comunidad.",
+      "saved": "Marcos superpuestos guardados.",
       "screenTheme": "Tema de pantalla",
       "screenThemes": {
         "mobi": "Mobi",
@@ -164,6 +173,9 @@
         "text": "Texto"
       },
       "useMobiFrame": "Usar Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "Superposición"
     },
     "dispatchAi": {
       "timers": {

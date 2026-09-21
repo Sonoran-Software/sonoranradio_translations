@@ -227,7 +227,11 @@
     "displayName": "İngilizce (ABD)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Masaüstü oyunlar için özel radyo kaplamaları oluşturun."
+    "createCustomRadioOverlaysForDesktopGames": "Masaüstü oyunlar için özel radyo kaplamaları oluşturun.",
+    "openGameIntegration": "Oyun Entegrasyonu",
+    "overlayDesktopDescription": "Masaüstü kullanıcılar için radyo kaplamasını özelleştirin.",
+    "overlayFiveMDescription": "FiveM oyun içi radyonuzu ve masaüstü kaplamanızı özelleştirin. FiveM değişiklikleri uyumlu bir kaynak sürümüyle beş dakika içinde eşitlenir.",
+    "overlaySelectGame": "Eşleşen kaplama özelliklerini kullanmak için Topluluk oyununuzu Game Integration'da kontrol edin."
   },
   "desktopPanel": {
     "channelHotkey": "Kanal Kısayolu"
@@ -655,11 +659,11 @@
       "frameWidth": "Çerçeve Genişliği",
       "importDefaultFrameType": "Varsayılan Çerçeve Türünü İçe Aktar",
       "importFromSkin": "FiveM'den içe aktar (skin.json)",
-      "importNoFramesFound": "body.width ve screen ile masaüstü çerçevesi bulunamadı.",
+      "importNoFramesFound": "body.width ve screen içeren çerçeve bulunamadı.",
       "label": "Etiket",
       "newFrame": "Yeni Çerçeve",
-      "noneFound": "Bu sunucu için masaüstü çerçevesi bulunamadı.",
-      "saved": "Masaüstü çerçeveleri kaydedildi.",
+      "noneFound": "Bu topluluk için kaplama çerçevesi bulunamadı.",
+      "saved": "Katman çerçeveleri kaydedildi.",
       "screenPlaceholder": "Bu ekrandır",
       "screenTheme": "Ekran Teması",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Çağrı Yapay Zeka",
       "fivemIntegration": "FiveM Entegrasyonu",
       "info": "Bilgi",
+      "overlay": "Katman",
       "patrolChannels": "Devriye Kanalları",
       "permissions": "İzinler",
       "profiles": "Profiller",

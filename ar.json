@@ -227,7 +227,11 @@
     "displayName": "الإنجليزية (الولايات المتحدة)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "إنشاء تراكبات راديو مخصصة لألعاب سطح المكتب."
+    "createCustomRadioOverlaysForDesktopGames": "إنشاء تراكبات راديو مخصصة لألعاب سطح المكتب.",
+    "openGameIntegration": "تكامل اللعبة",
+    "overlayDesktopDescription": "تخصيص تراكب الراديو لمستخدمي سطح المكتب.",
+    "overlayFiveMDescription": "خصّص راديو FiveM داخل اللعبة والتراكب على سطح المكتب. تتم مزامنة تغييرات FiveM خلال خمس دقائق مع إصدار مورد متوافق.",
+    "overlaySelectGame": "تحقق من لعبة مجتمعك في تكامل اللعبة لاستخدام ميزات التراكب المطابقة."
   },
   "desktopPanel": {
     "channelHotkey": "اختصار القناة"
@@ -655,11 +659,11 @@
       "frameWidth": "عرض الإطار",
       "importDefaultFrameType": "نوع الإطار الافتراضي",
       "importFromSkin": "استيراد من FiveM (skin.json)",
-      "importNoFramesFound": "لم يتم العثور على إطارات سطح مكتب ذات body.width وscreen.",
+      "importNoFramesFound": "لم يتم العثور على إطارات تحتوي على body.width و screen.",
       "label": "تسمية",
       "newFrame": "إطار جديد",
-      "noneFound": "لم يتم العثور على إطارات سطح مكتب لهذا الخادم.",
-      "saved": "تم حفظ إطارات سطح المكتب.",
+      "noneFound": "لم يتم العثور على إطارات تراكب لهذه المجموعة.",
+      "saved": "تم حفظ إطارات التراكب.",
       "screenPlaceholder": "هذه هي الشاشة",
       "screenTheme": "سمة الشاشة",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "الإرسال بالذكاء الاصطناعي",
       "fivemIntegration": "تكامل FiveM",
       "info": "معلومات",
+      "overlay": "الطبقة",
       "patrolChannels": "قنوات الدورية",
       "permissions": "الأذونات",
       "profiles": "الملفات الشخصية",

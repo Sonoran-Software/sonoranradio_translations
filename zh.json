@@ -227,7 +227,11 @@
     "displayName": "英语（美国）"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "为桌面游戏创建自定义电台覆盖层。"
+    "createCustomRadioOverlaysForDesktopGames": "为桌面游戏创建自定义电台覆盖层。",
+    "openGameIntegration": "游戏集成",
+    "overlayDesktopDescription": "为桌面用户自定义电台覆盖层。",
+    "overlayFiveMDescription": "自定义你的 FiveM 游戏内电台和桌面覆盖层。FiveM 更改会在五分钟内与兼容的资源版本同步。",
+    "overlaySelectGame": "在 游戏 集成 中 检查 你 的 社区 游戏 以 使用 匹配 的 覆盖 功能。"
   },
   "desktopPanel": {
     "channelHotkey": "频道快捷键"
@@ -655,11 +659,11 @@
       "frameWidth": "框宽度",
       "importDefaultFrameType": "导入默认框类型",
       "importFromSkin": "从 FiveM 导入（skin.json）",
-      "importNoFramesFound": "未找到包含 body.width 和 screen 的桌面框架。",
+      "importNoFramesFound": "未找到具有 body.width 和 screen 的框架。",
       "label": "标签",
       "newFrame": "新框",
-      "noneFound": "未找到此服务器的桌面框架。",
-      "saved": "桌面边框已保存。",
+      "noneFound": "未找到此社区的覆盖框架。",
+      "saved": "叠加框架已保存。",
       "screenPlaceholder": "这是屏幕",
       "screenTheme": "屏幕主题",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "调度 AI",
       "fivemIntegration": "FiveM 集成",
       "info": "信息",
+      "overlay": "覆盖层",
       "patrolChannels": "巡逻频道",
       "permissions": "权限",
       "profiles": "个人资料",

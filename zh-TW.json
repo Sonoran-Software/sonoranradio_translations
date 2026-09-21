@@ -103,6 +103,12 @@
     "verifySignal": "使用桌面應用程式的按住說話傳輸。檢查你遠離塔台時訊號條是否有反應。每位玩家 PC 上的橋梁健康頁面應顯示 {health}。",
     "zoneSaveError": "無法儲存 ER:LC 區域。您上次的變更已還原。"
   },
+  "customizePanel": {
+    "openGameIntegration": "遊戲 整合",
+    "overlayDesktopDescription": "為桌面使用者自訂收音機覆蓋層。",
+    "overlayFiveMDescription": "自訂你的 FiveM 遊戲內無線電和桌面覆蓋層。FiveM 變更會在五分鐘內與相容的資源版本同步。",
+    "overlaySelectGame": "在遊戲整合中檢查你的社群遊戲，以使用相符的覆蓋功能。"
+  },
   "landingPage": {
     "developers": {
       "button": "探索 開發者 工具",
@@ -157,6 +163,9 @@
       "armaItemClassNames": "ARMA 物品類別名稱",
       "armaItemClassNamesHint": "輸入一個或多個 CfgWeapons 類別名稱，每輸入一個後按 Enter。裝備已對應的無線電會將桌面覆蓋層切換到此框架。",
       "armaOpfor": "OPFOR 範例",
+      "importNoFramesFound": "找不到具有 body.width 和 screen 的框架。",
+      "noneFound": "此社群未找到任何疊加框架。",
+      "saved": "覆蓋框架已儲存。",
       "screenTheme": "螢幕主題",
       "screenThemes": {
         "mobi": "行動裝置",
@@ -164,6 +173,9 @@
         "text": "文字"
       },
       "useMobiFrame": "使用 Mobi 框架"
+    },
+    "customizeMenu": {
+      "overlay": "覆蓋層"
     },
     "dispatchAi": {
       "timers": {

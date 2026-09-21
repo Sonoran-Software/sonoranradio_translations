@@ -227,7 +227,11 @@
     "displayName": "Angličtina (USA)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Vytvořte vlastní rádio překryvy pro desktopové hry."
+    "createCustomRadioOverlaysForDesktopGames": "Vytvořte vlastní rádio překryvy pro desktopové hry.",
+    "openGameIntegration": "Integrace hry",
+    "overlayDesktopDescription": "Přizpůsobte rádio překryv pro uživatele desktopu.",
+    "overlayFiveMDescription": "Přizpůsobte si herní rádio FiveM a desktopovou překryvnou vrstvu. Změny FiveM se synchronizují do pěti minut s kompatibilní verzí prostředku.",
+    "overlaySelectGame": "Zkontrolujte hru vaší komunity v Game Integration, abyste mohli používat odpovídající funkce překrytí."
   },
   "desktopPanel": {
     "channelHotkey": "Klávesová zkratka kanálu"
@@ -655,11 +659,11 @@
       "frameWidth": "Šířka rámu",
       "importDefaultFrameType": "Výchozí typ rámce",
       "importFromSkin": "Importovat z FiveM (skin.json)",
-      "importNoFramesFound": "Nebyly nalezeny žádné desktopové rámy s body.width a screen.",
+      "importNoFramesFound": "Nebyly nalezeny žádné rámečky s body.width a screen.",
       "label": "Popisek",
       "newFrame": "Nový rámec",
-      "noneFound": "Pro tento server nebyly nalezeny žádné desktopové rámy.",
-      "saved": "Rámečky plochy uloženy.",
+      "noneFound": "Pro tuto komunitu nebyly nalezeny žádné překryvné rámečky.",
+      "saved": "Překryvné rámy uloženy.",
       "screenPlaceholder": "Toto je obrazovka",
       "screenTheme": "Motiv obrazovky",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Dispečink AI",
       "fivemIntegration": "Integrace FiveM",
       "info": "Info",
+      "overlay": "Překrytí",
       "patrolChannels": "Patrolovací Kanály",
       "permissions": "Oprávnění",
       "profiles": "Profily",

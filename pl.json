@@ -227,7 +227,11 @@
     "displayName": "Angielski (Stany Zjednoczone)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Twórz niestandardowe nakładki radiowe do gier na komputer."
+    "createCustomRadioOverlaysForDesktopGames": "Twórz niestandardowe nakładki radiowe do gier na komputer.",
+    "openGameIntegration": "Integracja gry",
+    "overlayDesktopDescription": "Dostosuj nakładkę radiową dla użytkowników komputerów stacjonarnych.",
+    "overlayFiveMDescription": "Dostosuj swoją radiostację w grze FiveM i nakładkę na pulpit. Zmiany FiveM synchronizują się w ciągu pięciu minut z kompatybilną wersją zasobu.",
+    "overlaySelectGame": "Sprawdź grę swojej społeczności w Integracji gier, aby używać pasujących funkcji nakładki."
   },
   "desktopPanel": {
     "channelHotkey": "Skrót kanału"
@@ -655,11 +659,11 @@
       "frameWidth": "Szerokość ramki",
       "importDefaultFrameType": "typ ramki",
       "importFromSkin": "Importuj z FiveM (skin.json)",
-      "importNoFramesFound": "Nie znaleziono ramek pulpitu z body.width i screen.",
+      "importNoFramesFound": "Nie znaleziono ramek z body.width i screen.",
       "label": "Etykieta",
       "newFrame": "Nowa ramka",
-      "noneFound": "Nie znaleziono ramek pulpitu dla tego serwera.",
-      "saved": "Ramki pulpitu zapisane.",
+      "noneFound": "Nie znaleziono żadnych ramek nakładek dla tej społeczności.",
+      "saved": "Nakładki ramki zapisane.",
       "screenPlaceholder": "To jest ekran",
       "screenTheme": "Motyw ekranu",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Dyspozytor AI",
       "fivemIntegration": "Integracja FiveM",
       "info": "Informacje",
+      "overlay": "Nakładka",
       "patrolChannels": "Kanały patrolowe",
       "permissions": "Uprawnienia",
       "profiles": "Profile",

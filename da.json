@@ -227,7 +227,11 @@
     "displayName": "Engelsk (USA)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Opret brugerdefinerede radio-overlays til computerspil."
+    "createCustomRadioOverlaysForDesktopGames": "Opret brugerdefinerede radio-overlays til computerspil.",
+    "openGameIntegration": "Spilintegration",
+    "overlayDesktopDescription": "Tilpas radio-overlayet til desktopbrugere.",
+    "overlayFiveMDescription": "Tilpas din FiveM-spilradio og desktop-overlay. FiveM-ændringer synkroniseres inden for fem minutter med en kompatibel ressourceversion.",
+    "overlaySelectGame": "Tjek dit fællesskabs spil i Game Integration for at bruge de matchende overlay-funktioner."
   },
   "desktopPanel": {
     "channelHotkey": "Genvejstast til kanal"
@@ -655,11 +659,11 @@
       "frameWidth": "Rammebredde",
       "importDefaultFrameType": "standardramme",
       "importFromSkin": "Importér fra FiveM (skin.json)",
-      "importNoFramesFound": "Ingen skrivebordsrammer med body.width og screen fundet.",
+      "importNoFramesFound": "Ingen frames med body.width og screen fundet.",
       "label": "Etiket",
       "newFrame": "Ny ramme",
-      "noneFound": "Ingen skrivebordsrammer fundet for denne server.",
-      "saved": "Skrivebordsrammer gemt.",
+      "noneFound": "Ingen overlay-rammer fundet for dette fællesskab.",
+      "saved": "Overlay-rammer gemt.",
       "screenPlaceholder": "Dette er skærmen",
       "screenTheme": "Skærmtema",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM-integration",
       "info": "Info",
+      "overlay": "Overlejring",
       "patrolChannels": "Patruljekanaler",
       "permissions": "Tilladelser",
       "profiles": "Profiler",

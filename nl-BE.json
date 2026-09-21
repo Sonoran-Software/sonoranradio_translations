@@ -103,6 +103,12 @@
     "verifySignal": "Zend uit met de push-to-talk van de desktopapp. Controleer of de signaalbalken reageren als je verder van een toren weggaat. De bridge-gezondheidspagina op elke pc van de speler moet {health} tonen.",
     "zoneSaveError": "Kan ER:LC-zones niet opslaan. Je laatste wijziging is ongedaan gemaakt."
   },
+  "customizePanel": {
+    "openGameIntegration": "Spelintegratie",
+    "overlayDesktopDescription": "Pas de radio-overlay aan voor desktopgebruikers.",
+    "overlayFiveMDescription": "Pas je FiveM in-game radio en desktopoverlay aan. FiveM-wijzigingen synchroniseren binnen vijf minuten met een compatibele resourceversie.",
+    "overlaySelectGame": "Controleer je community’s game in Game Integration om de overeenkomstige overlayfuncties te gebruiken."
+  },
   "landingPage": {
     "developers": {
       "button": "Ontdek ontwikkelaarstools",
@@ -157,6 +163,9 @@
       "armaItemClassNames": "ARMA item classnamen",
       "armaItemClassNamesHint": "Voer één of meer CfgWeapons-klassenamen in, en druk na elk op Enter. Door een toegewezen radio uit te rusten, schakelt de desktop-overlay naar dit frame.",
       "armaOpfor": "OPFOR-voorbeeld",
+      "importNoFramesFound": "Geen frames met body.width en screen gevonden.",
+      "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "saved": "Overlayframes opgeslagen.",
       "screenTheme": "Schermthema",
       "screenThemes": {
         "mobi": "Mobi",
@@ -164,6 +173,9 @@
         "text": "Tekst"
       },
       "useMobiFrame": "Gebruik Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "Overlay"
     },
     "dispatchAi": {
       "timers": {

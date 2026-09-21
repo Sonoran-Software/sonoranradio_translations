@@ -227,7 +227,11 @@
     "displayName": "영어(미국)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "데스크톱 게임용 사용자 지정 라디오 오버레이 만들기."
+    "createCustomRadioOverlaysForDesktopGames": "데스크톱 게임용 사용자 지정 라디오 오버레이 만들기.",
+    "openGameIntegration": "게임 통합",
+    "overlayDesktopDescription": "데스크톱 사용자를 위한 라디오 오버레이를 사용자 지정하세요.",
+    "overlayFiveMDescription": "FiveM 게임 내 라디오와 데스크톱 오버레이를 사용자 지정하세요. FiveM 변경 사항은 호환되는 리소스 버전에서 5분 이내에 동기화됩니다.",
+    "overlaySelectGame": "Game Integration에서 커뮤니티의 게임을 확인하여 맞는 오버레이 기능을 사용하세요."
   },
   "desktopPanel": {
     "channelHotkey": "채널 단축키"
@@ -655,11 +659,11 @@
       "frameWidth": "프레임 너비",
       "importDefaultFrameType": "기본 프레임 유형 가져오기",
       "importFromSkin": "FiveM (skin.json)에서 가져오기",
-      "importNoFramesFound": "body.width와 screen이 있는 데스크톱 프레임이 없습니다.",
+      "importNoFramesFound": "body.width와 screen이 있는 프레임이 없습니다.",
       "label": "레이블",
       "newFrame": "새 프레임",
-      "noneFound": "이 서버에 대해 찾은 데스크톱 프레임이 없습니다.",
-      "saved": "데스크톱 프레임 저장됨.",
+      "noneFound": "이 커뮤니티에 대한 오버레이 프레임을 찾을 수 없음.",
+      "saved": "오버레이 프레임이 저장되었습니다.",
       "screenPlaceholder": "이것은 화면입니다",
       "screenTheme": "화면 테마",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "디스패치 AI",
       "fivemIntegration": "FiveM 통합",
       "info": "정보",
+      "overlay": "오버레이",
       "patrolChannels": "순찰 채널",
       "permissions": "권한",
       "profiles": "프로필",
