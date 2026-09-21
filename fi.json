@@ -227,7 +227,11 @@
     "displayName": "Englanti (Yhdysvallat)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Luo mukautettuja radiopeittoja työpöytäpeleihin."
+    "createCustomRadioOverlaysForDesktopGames": "Luo mukautettuja radiopeittoja työpöytäpeleihin.",
+    "openGameIntegration": "Peli-integraatio",
+    "overlayDesktopDescription": "Mukauta radiopeittokuva työpöytäkäyttäjille.",
+    "overlayFiveMDescription": "Mukauta FiveM-pelin sisäistä radiota ja työpöytäpeittokuvaa. FiveM-muutokset synkronoituvat viiden minuutin kuluessa yhteensopivan resurssiversion kanssa.",
+    "overlaySelectGame": "Tarkista yhteisösi peli Game Integrationissa käyttääksesi vastaavia overlay-ominaisuuksia."
   },
   "desktopPanel": {
     "channelHotkey": "Kanavan pikanäppäin"
@@ -655,11 +659,11 @@
       "frameWidth": "Kehyksen leveys",
       "importDefaultFrameType": "Oletusarvoinen kehystyyppi",
       "importFromSkin": "Tuo FiveM:stä (skin.json)",
-      "importNoFramesFound": "Ei työpöytäkehyksiä, joissa on body.width ja screen, löytynyt.",
+      "importNoFramesFound": "Ei kehyksiä, joissa olisi body.width ja screen, löytynyt.",
       "label": "Nimi",
       "newFrame": "Uusi kehys",
-      "noneFound": "Tälle palvelimelle ei löytynyt työpöytäkehikoita.",
-      "saved": "Työpöydän kehykset tallennettu.",
+      "noneFound": "Tälle yhteisölle ei löytynyt päällekkäiskehyksiä.",
+      "saved": "Peittokehykset tallennettu.",
       "screenPlaceholder": "Tämä on näyttö",
       "screenTheme": "Näytön teema",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Lähetys-AI",
       "fivemIntegration": "FiveM-integraatio",
       "info": "Tiedot",
+      "overlay": "päällekkäisikkuna",
       "patrolChannels": "Partiokanavat",
       "permissions": "Oikeudet",
       "profiles": "Profiilit",

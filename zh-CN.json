@@ -103,6 +103,12 @@
     "verifySignal": "使用桌面应用的按键通话发射。检查当你远离信号塔时信号条是否会响应。每位玩家电脑上的桥梁健康页面应显示 {health}。",
     "zoneSaveError": "无法保存 ER:LC 区域。您的上一次更改已恢复。"
   },
+  "customizePanel": {
+    "openGameIntegration": "游戏集成",
+    "overlayDesktopDescription": "为桌面用户自定义无线电覆盖层。",
+    "overlayFiveMDescription": "自定义你的 FiveM 游戏内电台和桌面覆盖层。兼容的资源版本下，FiveM 更改会在五分钟内同步。",
+    "overlaySelectGame": "在 Game Integration 中检查你的社区游戏，以使用匹配的叠加层功能。"
+  },
   "landingPage": {
     "developers": {
       "button": "探索开发者工具",
@@ -157,6 +163,9 @@
       "armaItemClassNames": "ARMA 物品类名",
       "armaItemClassNamesHint": "输入一个或多个 CfgWeapons 类名，每输入一个后按 Enter。装备已映射的电台会将桌面覆盖层切换到此框架。",
       "armaOpfor": "OPFOR 示例",
+      "importNoFramesFound": "未找到带有 body.width 和 screen 的框架。",
+      "noneFound": "未找到此社区的叠加边框。",
+      "saved": "叠加边框已保存。",
       "screenTheme": "屏幕主题",
       "screenThemes": {
         "mobi": "Mobi",
@@ -164,6 +173,9 @@
         "text": "文本"
       },
       "useMobiFrame": "使用 Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "覆盖层"
     },
     "dispatchAi": {
       "timers": {

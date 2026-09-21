@@ -227,7 +227,11 @@
     "displayName": "Inglês (EUA)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Criar sobreposições de rádio personalizadas para jogos de desktop."
+    "createCustomRadioOverlaysForDesktopGames": "Criar sobreposições de rádio personalizadas para jogos de desktop.",
+    "openGameIntegration": "Integração de Jogo",
+    "overlayDesktopDescription": "Personalizar a sobreposição de rádio para usuários de desktop.",
+    "overlayFiveMDescription": "Personalize seu rádio no jogo e a sobreposição para desktop do FiveM. As mudanças do FiveM sincronizam em até cinco minutos com uma versão de recurso compatível.",
+    "overlaySelectGame": "Verifique o jogo da sua comunidade em Integração de Jogos para usar os recursos de sobreposição correspondentes."
   },
   "desktopPanel": {
     "channelHotkey": "Atalho do Canal"
@@ -655,11 +659,11 @@
       "frameWidth": "Largura da moldura",
       "importDefaultFrameType": "moldura",
       "importFromSkin": "Importar do FiveM (skin.json)",
-      "importNoFramesFound": "Nenhuma moldura de desktop com body.width e screen encontrada.",
+      "importNoFramesFound": "Nenhum frame com body.width e screen encontrado.",
       "label": "Rótulo",
       "newFrame": "Nova moldura",
-      "noneFound": "Nenhum frame de desktop encontrado para este servidor.",
-      "saved": "Molduras da área de trabalho salvas.",
+      "noneFound": "Nenhum quadro de sobreposição encontrado para esta comunidade.",
+      "saved": "Quadros sobrepostos salvos.",
       "screenPlaceholder": "Esta é a tela",
       "screenTheme": "Tema da tela",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Despacho AI",
       "fivemIntegration": "Integração FiveM",
       "info": "Info",
+      "overlay": "Sobreposição",
       "patrolChannels": "Canais de patrulha",
       "permissions": "Permissões",
       "profiles": "Perfis",

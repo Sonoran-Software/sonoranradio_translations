@@ -227,7 +227,11 @@
     "displayName": "Engels (VS)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Maak aangepaste radio-overlays voor desktopgames."
+    "createCustomRadioOverlaysForDesktopGames": "Maak aangepaste radio-overlays voor desktopgames.",
+    "openGameIntegration": "Spelintegratie",
+    "overlayDesktopDescription": "Pas de radio-overlay aan voor desktopgebruikers.",
+    "overlayFiveMDescription": "Pas je FiveM in-game radio en desktop overlay aan. FiveM-wijzigingen synchroniseren binnen vijf minuten met een compatibele resourceversie.",
+    "overlaySelectGame": "Controleer het spel van je community in Game Integration om de bijpassende overlayfuncties te gebruiken."
   },
   "desktopPanel": {
     "channelHotkey": "Kanaalsneltoets"
@@ -655,11 +659,11 @@
       "frameWidth": "Framebreedte",
       "importDefaultFrameType": "frametype",
       "importFromSkin": "Importeren vanuit FiveM (skin.json)",
-      "importNoFramesFound": "Geen bureaubladframes met body.width en screen gevonden.",
+      "importNoFramesFound": "Geen frames met body.width en scherm gevonden.",
       "label": "Label",
       "newFrame": "Nieuw frame",
-      "noneFound": "Geen bureaubladframes gevonden voor deze server.",
-      "saved": "Bureaubladframes opgeslagen.",
+      "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "saved": "Overlayframes opgeslagen.",
       "screenPlaceholder": "Dit is het scherm",
       "screenTheme": "Schermthema",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Dispatch AI",
       "fivemIntegration": "FiveM-integratie",
       "info": "Info",
+      "overlay": "Overlay",
       "patrolChannels": "Patrouillekanalen",
       "permissions": "Permissies",
       "profiles": "Profielen",

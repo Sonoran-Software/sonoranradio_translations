@@ -227,7 +227,11 @@
     "displayName": "Anglais (États-Unis)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Créer des superpositions radio personnalisées pour les jeux de bureau."
+    "createCustomRadioOverlaysForDesktopGames": "Créer des superpositions radio personnalisées pour les jeux de bureau.",
+    "openGameIntegration": "Intégration du jeu",
+    "overlayDesktopDescription": "Personnalisez la superposition radio pour les utilisateurs de bureau.",
+    "overlayFiveMDescription": "Personnalisez votre radio FiveM en jeu et votre superposition sur le bureau. Les modifications FiveM se synchronisent en cinq minutes avec une version de ressource compatible.",
+    "overlaySelectGame": "Vérifiez le jeu de votre communauté dans l’intégration de jeu pour utiliser les fonctionnalités de superposition correspondantes."
   },
   "desktopPanel": {
     "channelHotkey": "Raccourci du canal"
@@ -655,11 +659,11 @@
       "frameWidth": "Largeur du cadre",
       "importDefaultFrameType": "Type de cadre par défaut à importer",
       "importFromSkin": "Importer depuis FiveM (skin.json)",
-      "importNoFramesFound": "Aucun cadre de bureau avec body.width et screen trouvé.",
+      "importNoFramesFound": "Aucun cadre avec body.width et screen trouvé.",
       "label": "Libellé",
       "newFrame": "Nouveau cadre",
-      "noneFound": "Aucun cadre de bureau trouvé pour ce serveur.",
-      "saved": "Cadres de bureau enregistrés.",
+      "noneFound": "Aucun cadre de superposition trouvé pour cette communauté.",
+      "saved": "Cadres de superposition enregistrés.",
       "screenPlaceholder": "Voici l’écran",
       "screenTheme": "Thème de l’écran",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Répartition IA",
       "fivemIntegration": "Intégration FiveM",
       "info": "Infos",
+      "overlay": "superposition",
       "patrolChannels": "Canaux de patrouille",
       "permissions": "Autorisations",
       "profiles": "Profils",

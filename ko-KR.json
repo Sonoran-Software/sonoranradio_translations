@@ -103,6 +103,12 @@
     "verifySignal": "데스크톱 앱의 푸시 투 토크로 송신합니다. 타워에서 멀어질 때 신호 막대가 반응하는지 확인하세요. 각 플레이어의 PC에 있는 브리지 상태 페이지에는 {health}이 표시되어야 합니다.",
     "zoneSaveError": "ER:LC 구역을 저장할 수 없습니다. 마지막 변경 사항이 되돌려졌습니다."
   },
+  "customizePanel": {
+    "openGameIntegration": "게임 통합",
+    "overlayDesktopDescription": "데스크톱 사용자를 위한 라디오 오버레이를 사용자 지정합니다.",
+    "overlayFiveMDescription": "FiveM 게임 내 라디오와 데스크톱 오버레이를 사용자 지정하세요. FiveM 변경 사항은 호환 가능한 리소스 버전에서 5분 이내에 동기화됩니다.",
+    "overlaySelectGame": "Game Integration에서 커뮤니티의 게임을 확인하여 일치하는 오버레이 기능을 사용하세요."
+  },
   "landingPage": {
     "developers": {
       "button": "개발자 도구 둘러보기",
@@ -157,6 +163,9 @@
       "armaItemClassNames": "ARMA 아이템 클래스 이름",
       "armaItemClassNamesHint": "CfgWeapons 클래스 이름을 하나 이상 입력하고 각 항목 뒤에 Enter를 누르세요. 매핑된 라디오를 장착하면 데스크톱 오버레이가 이 프레임으로 전환됩니다.",
       "armaOpfor": "OPFOR 예시",
+      "importNoFramesFound": "body.width와 screen이 있는 프레임을 찾을 수 없음.",
+      "noneFound": "이 커뮤니티에 대해 찾은 오버레이 프레임이 없습니다.",
+      "saved": "오버레이 프레임이 저장되었습니다.",
       "screenTheme": "화면 테마",
       "screenThemes": {
         "mobi": "모비",
@@ -164,6 +173,9 @@
         "text": "텍스트"
       },
       "useMobiFrame": "Mobi Frame 사용"
+    },
+    "customizeMenu": {
+      "overlay": "오버레이"
     },
     "dispatchAi": {
       "timers": {

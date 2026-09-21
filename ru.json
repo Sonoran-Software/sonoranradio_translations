@@ -227,7 +227,11 @@
     "displayName": "Английский (США)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Создавать собственные радионаклады для игр на ПК."
+    "createCustomRadioOverlaysForDesktopGames": "Создавать собственные радионаклады для игр на ПК.",
+    "openGameIntegration": "Интеграция игры",
+    "overlayDesktopDescription": "Настроить радионакладку для пользователей ПК.",
+    "overlayFiveMDescription": "Настройте внутриигровое радио и десктопный оверлей FiveM. Изменения FiveM синхронизируются в течение пяти минут с совместимой версией ресурса.",
+    "overlaySelectGame": "Проверьте игру вашего сообщества в Game Integration, чтобы использовать соответствующие функции оверлея."
   },
   "desktopPanel": {
     "channelHotkey": "Горячая клавиша канала"
@@ -655,11 +659,11 @@
       "frameWidth": "Ширина рамки",
       "importDefaultFrameType": "тип рамки по умолчанию",
       "importFromSkin": "Импорт из FiveM (skin.json)",
-      "importNoFramesFound": "Не найдено рабочих областей с body.width и screen.",
+      "importNoFramesFound": "Кадры с body.width и screen не найдены.",
       "label": "Метка",
       "newFrame": "Новая рамка",
-      "noneFound": "Для этого сервера не найдено оконных рамок рабочего стола.",
-      "saved": "Рамки рабочего стола сохранены.",
+      "noneFound": "Для этого сообщества не найдено рамок наложения.",
+      "saved": "Наложения рамок сохранены.",
       "screenPlaceholder": "Это экран",
       "screenTheme": "Тема экрана",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Диспетчеризация ИИ",
       "fivemIntegration": "Интеграция FiveM",
       "info": "Инфо",
+      "overlay": "Оверлей",
       "patrolChannels": "Каналы патруля",
       "permissions": "Разрешения",
       "profiles": "Профили",

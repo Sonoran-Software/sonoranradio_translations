@@ -227,7 +227,11 @@
     "displayName": "Inglés (Estados Unidos)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Crear superposiciones de radio personalizadas para juegos de escritorio."
+    "createCustomRadioOverlaysForDesktopGames": "Crear superposiciones de radio personalizadas para juegos de escritorio.",
+    "openGameIntegration": "Integración de juego",
+    "overlayDesktopDescription": "Personaliza la superposición de radio para usuarios de escritorio.",
+    "overlayFiveMDescription": "Personaliza tu radio dentro del juego y la superposición de escritorio de FiveM. Los cambios de FiveM se sincronizan en cinco minutos con una versión de recurso compatible.",
+    "overlaySelectGame": "Comprueba el juego de tu comunidad en Integración de juegos para usar las funciones de superposición correspondientes."
   },
   "desktopPanel": {
     "channelHotkey": "Atajo de canal"
@@ -655,11 +659,11 @@
       "frameWidth": "Ancho del marco",
       "importDefaultFrameType": "marco",
       "importFromSkin": "Importar desde FiveM (skin.json)",
-      "importNoFramesFound": "No se encontraron marcos de escritorio con body.width y screen.",
+      "importNoFramesFound": "No se han encontrado marcos con body.width y screen.",
       "label": "Etiqueta",
       "newFrame": "Nuevo marco",
-      "noneFound": "No se han encontrado marcos de escritorio para este servidor.",
-      "saved": "Marcos de escritorio guardados.",
+      "noneFound": "No se han encontrado marcos superpuestos para esta comunidad.",
+      "saved": "Marcos superpuestos guardados.",
       "screenPlaceholder": "Esta es la pantalla",
       "screenTheme": "Tema de pantalla",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Despacho IA",
       "fivemIntegration": "Integración de FiveM",
       "info": "Info",
+      "overlay": "superposición",
       "patrolChannels": "Canales de Patrulla",
       "permissions": "Permisos",
       "profiles": "Perfiles",

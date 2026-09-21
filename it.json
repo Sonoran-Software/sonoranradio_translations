@@ -227,7 +227,11 @@
     "displayName": "Inglese (Stati Uniti)"
   },
   "customizePanel": {
-    "createCustomRadioOverlaysForDesktopGames": "Crea sovrapposizioni radio personalizzate per giochi desktop."
+    "createCustomRadioOverlaysForDesktopGames": "Crea sovrapposizioni radio personalizzate per giochi desktop.",
+    "openGameIntegration": "Integrazione di gioco",
+    "overlayDesktopDescription": "Personalizza la sovrapposizione radio per gli utenti desktop.",
+    "overlayFiveMDescription": "Personalizza la tua radio in-game e la sovrapposizione desktop di FiveM. Le modifiche di FiveM si sincronizzano entro cinque minuti con una versione della risorsa compatibile.",
+    "overlaySelectGame": "Controlla il gioco della tua community in Integrazione gioco per usare le funzionalità overlay corrispondenti."
   },
   "desktopPanel": {
     "channelHotkey": "Tasto di scelta rapida del canale"
@@ -655,11 +659,11 @@
       "frameWidth": "Larghezza del riquadro",
       "importDefaultFrameType": "cornice",
       "importFromSkin": "Importa da FiveM (skin.json)",
-      "importNoFramesFound": "Nessuna cornice desktop con body.width e screen trovata.",
+      "importNoFramesFound": "Nessun frame con body.width e screen trovato.",
       "label": "Etichetta",
       "newFrame": "Nuova cornice",
-      "noneFound": "Nessun frame desktop trovato per questo server.",
-      "saved": "Cornici del desktop salvate.",
+      "noneFound": "Nessuna cornice sovrapposta trovata per questa community.",
+      "saved": "Frame overlay salvati.",
       "screenPlaceholder": "Questa è la schermata",
       "screenTheme": "Tema schermata",
       "screenThemes": {
@@ -688,6 +692,7 @@
       "dispatchAi": "Dispatch AI",
       "fivemIntegration": "Integrazione FiveM",
       "info": "Info",
+      "overlay": "overlay",
       "patrolChannels": "Canali di pattuglia",
       "permissions": "Permessi",
       "profiles": "Profili",
