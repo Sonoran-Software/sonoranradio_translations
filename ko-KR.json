@@ -163,8 +163,17 @@
       "armaItemClassNames": "ARMA 아이템 클래스 이름",
       "armaItemClassNamesHint": "CfgWeapons 클래스 이름을 하나 이상 입력하고 각 항목 뒤에 Enter를 누르세요. 매핑된 라디오를 장착하면 데스크톱 오버레이가 이 프레임으로 전환됩니다.",
       "armaOpfor": "OPFOR 예시",
+      "changeImage": "이미지 변경",
+      "confirmResetDefaults": "선택한 게임의 기본값으로 모든 프레임을 바꾸시겠습니까? 변경 사항은 저장 변경 사항을 클릭할 때까지 이 편집기에서 유지됩니다.",
+      "defaultsDraft": "기본값이 복원되었습니다. 저장되지 않음.",
+      "defaultsUnavailable": "게임 기본값은 아직 사용할 수 없습니다. 다시 시도하려면 다시 불러오세요.",
+      "deleteFrame": "프레임 삭제",
+      "editHint": "드래그하여 이동 · Ctrl + 드래그하여 크기 조정 · 버튼을 마우스 오른쪽 버튼으로 클릭하여 제거",
+      "frameName": "프레임 이름",
       "importNoFramesFound": "body.width와 screen이 있는 프레임을 찾을 수 없음.",
       "noneFound": "이 커뮤니티에 대해 찾은 오버레이 프레임이 없습니다.",
+      "resetDefaults": "게임 기본값으로 초기화",
+      "saveChanges": "변경 사항 저장",
       "saved": "오버레이 프레임이 저장되었습니다.",
       "screenTheme": "화면 테마",
       "screenThemes": {
@@ -172,6 +181,8 @@
         "modern": "모던",
         "text": "텍스트"
       },
+      "selectGameToReset": "Game Integration에서 기본값으로 재설정할 게임을 선택하세요.",
+      "uploadImage": "이미지 업로드",
       "useMobiFrame": "Mobi Frame 사용"
     },
     "customizeMenu": {

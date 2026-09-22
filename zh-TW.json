@@ -163,8 +163,17 @@
       "armaItemClassNames": "ARMA 物品類別名稱",
       "armaItemClassNamesHint": "輸入一個或多個 CfgWeapons 類別名稱，每輸入一個後按 Enter。裝備已對應的無線電會將桌面覆蓋層切換到此框架。",
       "armaOpfor": "OPFOR 範例",
+      "changeImage": "變更圖片",
+      "confirmResetDefaults": "將所有框架替換為您所選遊戲的預設值？您的變更會保留在此編輯器中，直到您點擊儲存變更。",
+      "defaultsDraft": "已還原為預設值。未儲存。",
+      "defaultsUnavailable": "遊戲預設值尚不可用。重新載入以重試。",
+      "deleteFrame": "刪除框架",
+      "editHint": "拖曳以移動 · Ctrl + 拖曳以調整大小 · 右鍵點擊按鈕以移除",
+      "frameName": "框架名稱",
       "importNoFramesFound": "找不到具有 body.width 和 screen 的框架。",
       "noneFound": "此社群未找到任何疊加框架。",
+      "resetDefaults": "重設為遊戲預設值",
+      "saveChanges": "儲存變更",
       "saved": "覆蓋框架已儲存。",
       "screenTheme": "螢幕主題",
       "screenThemes": {
@@ -172,6 +181,8 @@
         "modern": "現代",
         "text": "文字"
       },
+      "selectGameToReset": "在 Game Integration 中選擇一個遊戲以重設為預設值。",
+      "uploadImage": "上傳圖片",
       "useMobiFrame": "使用 Mobi 框架"
     },
     "customizeMenu": {

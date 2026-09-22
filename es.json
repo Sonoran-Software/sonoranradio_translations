@@ -163,8 +163,17 @@
       "armaItemClassNames": "Nombres de clase de objetos ARMA",
       "armaItemClassNamesHint": "Introduce uno o más nombres de clase CfgWeapons, pulsando Intro después de cada uno. Equipar una radio asignada cambia la superposición de escritorio a este marco.",
       "armaOpfor": "Ejemplo OPFOR",
+      "changeImage": "Cambiar imagen",
+      "confirmResetDefaults": "¿Reemplazar todos los marcos por los predeterminados de tu juego seleccionado? Tus cambios permanecerán en este editor hasta que hagas clic en Guardar cambios.",
+      "defaultsDraft": "Valores predeterminados restaurados. No guardado.",
+      "defaultsUnavailable": "Los valores predeterminados del juego aún no están disponibles. Recarga para intentarlo de nuevo.",
+      "deleteFrame": "Eliminar marco",
+      "editHint": "Arrastra para mover · Ctrl + arrastra para cambiar el tamaño · Clic derecho en un botón para quitar",
+      "frameName": "Nombre del marco",
       "importNoFramesFound": "No se encontraron marcos con body.width y screen.",
       "noneFound": "No se encontraron marcos superpuestos para esta comunidad.",
+      "resetDefaults": "Restablecer valores predeterminados del juego",
+      "saveChanges": "Guardar cambios",
       "saved": "Marcos superpuestos guardados.",
       "screenTheme": "Tema de pantalla",
       "screenThemes": {
@@ -172,6 +181,8 @@
         "modern": "Moderno",
         "text": "Texto"
       },
+      "selectGameToReset": "Selecciona un juego en Integración de juegos para restablecer sus valores predeterminados.",
+      "uploadImage": "Subir imagen",
       "useMobiFrame": "Usar Mobi Frame"
     },
     "customizeMenu": {

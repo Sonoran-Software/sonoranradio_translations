@@ -651,11 +651,18 @@
       "armaOpfor": "Przykład OPFOR",
       "bodyImage": "Obraz ciała",
       "cancel": "Anuluj",
+      "changeImage": "Zmień obraz",
       "chooseSkin": "Wybierz skórkę",
       "confirmRemove": "Czy na pewno chcesz usunąć tę ramkę?",
+      "confirmResetDefaults": "Zastąpić wszystkie ramki domyślnymi dla wybranej gry? Twoje zmiany pozostaną w tym edytorze, dopóki nie klikniesz Zapisz zmiany.",
       "create": "Utwórz",
+      "defaultsDraft": "Przywrócono wartości domyślne. Nie zapisano.",
+      "defaultsUnavailable": "Domyślne ustawienia gry są jeszcze niedostępne. Przeładuj, aby spróbować ponownie.",
+      "deleteFrame": "Usuń ramkę",
+      "editHint": "Przeciągnij, aby przesunąć · Ctrl + przeciągnij, aby zmienić rozmiar · Kliknij prawym przyciskiem myszy przycisk, aby usunąć",
       "frameBodyImage": "Obraz ciała ramki",
       "frameLabel": "Etykieta ramki",
+      "frameName": "Nazwa ramki",
       "frameWidth": "Szerokość ramki",
       "importDefaultFrameType": "typ ramki",
       "importFromSkin": "Importuj z FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Etykieta",
       "newFrame": "Nowa ramka",
       "noneFound": "Nie znaleziono żadnych ramek nakładek dla tej społeczności.",
+      "resetDefaults": "Przywróć domyślne ustawienia gry",
+      "saveChanges": "Zapisz zmiany",
       "saved": "Nakładki ramki zapisane.",
       "screenPlaceholder": "To jest ekran",
       "screenTheme": "Motyw ekranu",
@@ -672,6 +681,7 @@
         "text": "Tekst"
       },
       "selectFrame": "Wybierz ramkę",
+      "selectGameToReset": "Wybierz grę w Integracji gier, aby przywrócić jej domyślne ustawienia.",
       "tooltip": {
         "dragBody": "aby przesuwać komponenty",
         "dragTitle": "Przeciągnij",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Przeciągnij"
       },
       "upload": "Prześlij",
+      "uploadImage": "Prześlij obraz",
       "useMobiFrame": "Użyj Mobi Frame"
     },
     "customizeMenu": {

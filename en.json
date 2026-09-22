@@ -163,8 +163,17 @@
       "armaItemClassNames": "ARMA Item Class Names",
       "armaItemClassNamesHint": "Enter one or more CfgWeapons class names, pressing Enter after each. Equipping a mapped radio switches the desktop overlay to this frame.",
       "armaOpfor": "OPFOR Example",
+      "changeImage": "Change image",
+      "confirmResetDefaults": "Replace all frames with the defaults for your selected game? Your changes stay in this editor until you click Save changes.",
+      "defaultsDraft": "Defaults restored. Not saved.",
+      "defaultsUnavailable": "Game defaults are not available yet. Reload to try again.",
+      "deleteFrame": "Delete frame",
+      "editHint": "Drag to move · Ctrl + drag to resize · Right-click a button to remove",
+      "frameName": "Frame name",
       "importNoFramesFound": "No frames with body.width and screen found.",
       "noneFound": "No overlay frames found for this community.",
+      "resetDefaults": "Reset to game defaults",
+      "saveChanges": "Save changes",
       "saved": "Overlay frames saved.",
       "screenTheme": "Screen Theme",
       "screenThemes": {
@@ -172,6 +181,8 @@
         "modern": "Modern",
         "text": "Text"
       },
+      "selectGameToReset": "Select a game in Game Integration to reset to its defaults.",
+      "uploadImage": "Upload image",
       "useMobiFrame": "Use Mobi Frame"
     },
     "customizeMenu": {

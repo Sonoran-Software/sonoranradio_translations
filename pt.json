@@ -651,11 +651,18 @@
       "armaOpfor": "Exemplo OPFOR",
       "bodyImage": "Imagem do corpo",
       "cancel": "Cancelar",
+      "changeImage": "Alterar imagem",
       "chooseSkin": "Escolher skin.json",
       "confirmRemove": "Tem certeza que deseja remover este quadro?",
+      "confirmResetDefaults": "Substituir todos os quadros pelos padrões do jogo selecionado? As suas alterações permanecem neste editor até clicar em Salvar alterações.",
       "create": "Criar",
+      "defaultsDraft": "Padrões restaurados. Não salvo.",
+      "defaultsUnavailable": "Os padrões do jogo ainda não estão disponíveis. Recarregue para tentar novamente.",
+      "deleteFrame": "Excluir quadro",
+      "editHint": "Arraste para mover · Ctrl + arraste para redimensionar · Clique com o botão direito em um botão para remover",
       "frameBodyImage": "Imagem do corpo da moldura",
       "frameLabel": "Rótulo da Moldura",
+      "frameName": "Nome da moldura",
       "frameWidth": "Largura da moldura",
       "importDefaultFrameType": "moldura",
       "importFromSkin": "Importar do FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Rótulo",
       "newFrame": "Nova moldura",
       "noneFound": "Nenhum quadro de sobreposição encontrado para esta comunidade.",
+      "resetDefaults": "Restaurar para os padrões do jogo",
+      "saveChanges": "Salvar alterações",
       "saved": "Quadros sobrepostos salvos.",
       "screenPlaceholder": "Esta é a tela",
       "screenTheme": "Tema da tela",
@@ -672,6 +681,7 @@
         "text": "Texto"
       },
       "selectFrame": "Selecionar moldura",
+      "selectGameToReset": "Selecione um jogo em Integração de Jogos para redefinir para os padrões.",
       "tooltip": {
         "dragBody": "para mover componentes",
         "dragTitle": "Arrastar",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Arrastar"
       },
       "upload": "Carregar",
+      "uploadImage": "Carregar imagem",
       "useMobiFrame": "Usar Moldura Mobi"
     },
     "customizeMenu": {

@@ -651,11 +651,18 @@
       "armaOpfor": "مثال OPFOR",
       "bodyImage": "صورة الجسم",
       "cancel": "إلغاء",
+      "changeImage": "تغيير الصورة",
       "chooseSkin": "اختر skin.json",
       "confirmRemove": "هل أنت متأكد أنك تريد إزالة هذا الإطار؟",
+      "confirmResetDefaults": "استبدال جميع الإطارات بالإعدادات الافتراضية للعبة المحددة؟ ستبقى تغييراتك في هذا المحرر حتى تنقر حفظ التغييرات.",
       "create": "إنشاء",
+      "defaultsDraft": "تمت استعادة الإعدادات الافتراضية. لم يتم الحفظ.",
+      "defaultsUnavailable": "إعدادات اللعبة الافتراضية غير متاحة بعد. أعد التحميل للمحاولة مرة أخرى.",
+      "deleteFrame": "حذف الإطار",
+      "editHint": "اسحب للتحريك · Ctrl + اسحب لتغيير الحجم · انقر بزر الفأرة الأيمن على زر للإزالة",
       "frameBodyImage": "صورة جسم الإطار",
       "frameLabel": "تسمية الإطار",
+      "frameName": "اسم الإطار",
       "frameWidth": "عرض الإطار",
       "importDefaultFrameType": "نوع الإطار الافتراضي",
       "importFromSkin": "استيراد من FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "تسمية",
       "newFrame": "إطار جديد",
       "noneFound": "لم يتم العثور على إطارات تراكب لهذه المجموعة.",
+      "resetDefaults": "إعادة الضبط إلى الإعدادات الافتراضية للعبة",
+      "saveChanges": "حفظ التغييرات",
       "saved": "تم حفظ إطارات التراكب.",
       "screenPlaceholder": "هذه هي الشاشة",
       "screenTheme": "سمة الشاشة",
@@ -672,6 +681,7 @@
         "text": "نص"
       },
       "selectFrame": "اختر الإطار",
+      "selectGameToReset": "اختر لعبة في تكامل الألعاب لإعادتها إلى إعداداتها الافتراضية.",
       "tooltip": {
         "dragBody": "لنقل المكوّنات",
         "dragTitle": "اسحب",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+اسحب"
       },
       "upload": "رفع",
+      "uploadImage": "رفع صورة",
       "useMobiFrame": "استخدم إطار موبا"
     },
     "customizeMenu": {

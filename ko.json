@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR 예시",
       "bodyImage": "바디 이미지",
       "cancel": "취소",
+      "changeImage": "이미지 변경",
       "chooseSkin": "스킨 선택",
       "confirmRemove": "이 프레임을 제거하시겠습니까?",
+      "confirmResetDefaults": "선택한 게임의 기본값으로 모든 프레임을 바꾸시겠습니까? 변경 사항은 변경 사항 저장을 클릭할 때까지 이 편집기 안에 유지됩니다.",
       "create": "만들기",
+      "defaultsDraft": "기본값이 복원되었습니다. 저장되지 않았습니다.",
+      "defaultsUnavailable": "게임 기본값은 아직 사용할 수 없습니다. 다시 시도하려면 다시 로드하세요.",
+      "deleteFrame": "프레임 삭제",
+      "editHint": "드래그하여 이동 · Ctrl + 드래그하여 크기 조절 · 버튼을 마우스 오른쪽 버튼으로 클릭하여 제거",
       "frameBodyImage": "프레임 바디 이미지",
       "frameLabel": "프레임 레이블",
+      "frameName": "프레임 이름",
       "frameWidth": "프레임 너비",
       "importDefaultFrameType": "기본 프레임 유형 가져오기",
       "importFromSkin": "FiveM (skin.json)에서 가져오기",
@@ -663,6 +670,8 @@
       "label": "레이블",
       "newFrame": "새 프레임",
       "noneFound": "이 커뮤니티에 대한 오버레이 프레임을 찾을 수 없음.",
+      "resetDefaults": "게임 기본값으로 재설정",
+      "saveChanges": "변경 사항 저장",
       "saved": "오버레이 프레임이 저장되었습니다.",
       "screenPlaceholder": "이것은 화면입니다",
       "screenTheme": "화면 테마",
@@ -672,6 +681,7 @@
         "text": "텍스트"
       },
       "selectFrame": "프레임 선택",
+      "selectGameToReset": "Game Integration에서 기본값으로 초기화할 게임을 선택하세요.",
       "tooltip": {
         "dragBody": "구성 요소를 이동하려면",
         "dragTitle": "드래그",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+드래그"
       },
       "upload": "업로드",
+      "uploadImage": "이미지 업로드",
       "useMobiFrame": "Mobi 프레임 사용"
     },
     "customizeMenu": {

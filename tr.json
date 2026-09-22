@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR Örneği",
       "bodyImage": "Gövde Görseli",
       "cancel": "İptal",
+      "changeImage": "Resmi değiştir",
       "chooseSkin": "Dış görünümü seçin.json",
       "confirmRemove": "Bu çerçeveyi kaldırmak istediğinizden emin misiniz?",
+      "confirmResetDefaults": "Tüm çerçeveleri seçtiğiniz oyun için varsayılanlarla değiştirilsin mi? Değişiklikleriniz, Değişiklikleri kaydet düğmesine tıklayana kadar bu düzenleyicide kalır.",
       "create": "Oluştur",
+      "defaultsDraft": "Varsayılanlar geri yüklendi. Kaydedilmedi.",
+      "defaultsUnavailable": "Oyun varsayılanları henüz kullanılamıyor. Yeniden yükleyip tekrar deneyin.",
+      "deleteFrame": "Çerçeveyi sil",
+      "editHint": "Taşımak için sürükle · Yeniden boyutlandırmak için Ctrl + sürükle · Kaldırmak için bir düğmeye sağ tıkla",
       "frameBodyImage": "Çerçeve Gövde Görseli",
       "frameLabel": "Çerçeve Etiketi",
+      "frameName": "Çerçeve adı",
       "frameWidth": "Çerçeve Genişliği",
       "importDefaultFrameType": "Varsayılan Çerçeve Türünü İçe Aktar",
       "importFromSkin": "FiveM'den içe aktar (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Etiket",
       "newFrame": "Yeni Çerçeve",
       "noneFound": "Bu topluluk için kaplama çerçevesi bulunamadı.",
+      "resetDefaults": "Oyun varsayılanlarına sıfırla",
+      "saveChanges": "Değişiklikleri kaydet",
       "saved": "Katman çerçeveleri kaydedildi.",
       "screenPlaceholder": "Bu ekrandır",
       "screenTheme": "Ekran Teması",
@@ -672,6 +681,7 @@
         "text": "Metin"
       },
       "selectFrame": "Çerçeve Seç",
+      "selectGameToReset": "Varsayılanlarına sıfırlamak için Oyun Entegrasyonu'nda bir oyun seçin.",
       "tooltip": {
         "dragBody": "bileşenleri taşımak için",
         "dragTitle": "Sürükle",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Sürükle"
       },
       "upload": "Yükle",
+      "uploadImage": "Görsel yükle",
       "useMobiFrame": "Mobi Çerçevesini Kullan"
     },
     "customizeMenu": {

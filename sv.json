@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR-exempel",
       "bodyImage": "Kroppsbild",
       "cancel": "Avbryt",
+      "changeImage": "Ändra bild",
       "chooseSkin": "Välj skal.json",
       "confirmRemove": "Är du säker på att du vill ta bort denna ram?",
+      "confirmResetDefaults": "Byt ut alla ramar mot standardinställningarna för ditt valda spel? Dina ändringar finns kvar i den här redigeraren tills du klickar på Spara ändringar.",
       "create": "Skapa",
+      "defaultsDraft": "Standardvärden återställda. Inte sparat.",
+      "defaultsUnavailable": "Spelstandarder är inte tillgängliga ännu. Ladda om för att försöka igen.",
+      "deleteFrame": "Radera ram",
+      "editHint": "Dra för att flytta · Ctrl + dra för att ändra storlek · Högerklicka på en knapp för att ta bort",
       "frameBodyImage": "Rambild",
       "frameLabel": "Rametikett",
+      "frameName": "Ramnamn",
       "frameWidth": "Ram bredd",
       "importDefaultFrameType": "Standardramtyp",
       "importFromSkin": "Importera från FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Etikett",
       "newFrame": "Ny ram",
       "noneFound": "Inga överläggsramar hittades för det här communityt.",
+      "resetDefaults": "Återställ till spelstandard",
+      "saveChanges": "Spara ändringar",
       "saved": "Överläggsramar sparade.",
       "screenPlaceholder": "Detta är skärmen",
       "screenTheme": "Skärmtema",
@@ -672,6 +681,7 @@
         "text": "Text"
       },
       "selectFrame": "Välj ram",
+      "selectGameToReset": "Välj ett spel i Game Integration för att återställa till dess standardinställningar.",
       "tooltip": {
         "dragBody": "att flytta komponenter",
         "dragTitle": "Dra",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+dra"
       },
       "upload": "Ladda upp",
+      "uploadImage": "Ladda upp bild",
       "useMobiFrame": "Använd Mobi Frame"
     },
     "customizeMenu": {

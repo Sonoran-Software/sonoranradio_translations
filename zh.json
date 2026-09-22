@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR示例",
       "bodyImage": "身体图像",
       "cancel": "取消",
+      "changeImage": "更换图片",
       "chooseSkin": "选择皮肤.json",
       "confirmRemove": "您确定要移除这个框架吗？",
+      "confirmResetDefaults": "将所有框架替换为你所选游戏的默认值？你的更改会保留在此编辑器中，直到你点击保存更改。",
       "create": "创建",
+      "defaultsDraft": "已恢复默认值。未保存。",
+      "defaultsUnavailable": "游戏默认设置尚不可用。重新加载以重试。",
+      "deleteFrame": "删除框架",
+      "editHint": "拖动以移动 · Ctrl + 拖动以调整大小 · 右键单击按钮以移除",
       "frameBodyImage": "框体图像",
       "frameLabel": "框标签",
+      "frameName": "框名称",
       "frameWidth": "框宽度",
       "importDefaultFrameType": "导入默认框类型",
       "importFromSkin": "从 FiveM 导入（skin.json）",
@@ -663,6 +670,8 @@
       "label": "标签",
       "newFrame": "新框",
       "noneFound": "未找到此社区的覆盖框架。",
+      "resetDefaults": "重置为游戏默认值",
+      "saveChanges": "保存更改",
       "saved": "叠加框架已保存。",
       "screenPlaceholder": "这是屏幕",
       "screenTheme": "屏幕主题",
@@ -672,6 +681,7 @@
         "text": "文本"
       },
       "selectFrame": "选择框架",
+      "selectGameToReset": "在 游戏 集成 中 选择 一个 游戏 以 重置 为 默认设置。",
       "tooltip": {
         "dragBody": "移动组件",
         "dragTitle": "拖动",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+拖动"
       },
       "upload": "上传",
+      "uploadImage": "上传图片",
       "useMobiFrame": "使用 Mobi Frame"
     },
     "customizeMenu": {

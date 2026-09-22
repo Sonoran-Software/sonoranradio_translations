@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR-eksempel",
       "bodyImage": "Kropsbillede",
       "cancel": "Annuller",
+      "changeImage": "Skift billede",
       "chooseSkin": "Vælg skin.json",
       "confirmRemove": "Er du sikker på, at du vil fjerne denne ramme?",
+      "confirmResetDefaults": "Erstat alle rammer med standardindstillingerne for dit valgte spil? Dine ændringer forbliver i denne editor, indtil du klikker på Gem ændringer.",
       "create": "Opret",
+      "defaultsDraft": "Standardindstillinger gendannet. Ikke gemt.",
+      "defaultsUnavailable": "Spilstandarder er endnu ikke tilgængelige. Genindlæs for at prøve igen.",
+      "deleteFrame": "Slet ramme",
+      "editHint": "Træk for at flytte · Ctrl + træk for at ændre størrelse · Højreklik på en knap for at fjerne",
       "frameBodyImage": "Rammekropsbillede",
       "frameLabel": "Rammelabel",
+      "frameName": "Rammenavn",
       "frameWidth": "Rammebredde",
       "importDefaultFrameType": "standardramme",
       "importFromSkin": "Importér fra FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Etiket",
       "newFrame": "Ny ramme",
       "noneFound": "Ingen overlay-rammer fundet for dette fællesskab.",
+      "resetDefaults": "Nulstil til spillets standardindstillinger",
+      "saveChanges": "Gem ændringer",
       "saved": "Overlay-rammer gemt.",
       "screenPlaceholder": "Dette er skærmen",
       "screenTheme": "Skærmtema",
@@ -672,6 +681,7 @@
         "text": "Tekst"
       },
       "selectFrame": "Vælg ramme",
+      "selectGameToReset": "Vælg et spil i Spilintegration for at nulstille til dets standardindstillinger.",
       "tooltip": {
         "dragBody": "for at flytte komponenter",
         "dragTitle": "Træk",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Træk"
       },
       "upload": "Upload",
+      "uploadImage": "Upload billede",
       "useMobiFrame": "Brug Mobi Frame"
     },
     "customizeMenu": {
