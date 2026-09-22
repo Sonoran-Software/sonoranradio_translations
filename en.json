@@ -13,6 +13,102 @@
       "studioQuarterlyPrice": "$6.00/mo"
     }
   },
+  "communitySetup": {
+    "aiHearing": "AI can hear radio transmissions",
+    "aiHearingHelp": "Applies to all community members using the updated mod and overlay. Nearby AI can detect players while they transmit. Enabled by default; a mission/server can still disable AI hearing. Changes reach open overlays within 30 seconds.",
+    "armaAutomatic": "Automatically enabled because your community uses ARMA 3.",
+    "armaBridge": "Enable ARMA 3 bridge",
+    "armaBridgeHelp": "Enable the local ARMA 3 connection for this community. The desktop app automatically starts the installed bridge. Disabling this stops Radio from using the bridge, including signal integration and AI hearing.",
+    "armaConnected": "ARMA 3 connected",
+    "armaConnecting": "Connecting to ARMA 3",
+    "armaDisabled": "ARMA 3 disabled",
+    "armaInstall": "ARMA 3 Installation",
+    "armaInstallCaption": "Four steps for your server and players",
+    "armaSignal": "ARMA 3 signal integration",
+    "armaSignalHelp": "Use radio tower signal quality from the Sonoran Radio ARMA 3 mod running on this computer. Your browser may ask for permission to access the local bridge.",
+    "armaUnavailable": "ARMA 3 bridge unavailable",
+    "back": "Back",
+    "browserNote": "A separate desktop overlay cannot reliably appear over exclusive fullscreen. Browser users must enter the mission to let the mod start the bridge and allow local-network access if prompted.",
+    "cbaWorkshop": "1. CBA_A3",
+    "channel": "Channel {id}",
+    "checkBridge": "Check local bridge",
+    "chooseGame": "Choose your game",
+    "clientMods": "In the ARMA Launcher’s Mods tab, enable CBA_A3 first, then Sonoran Radio. Disable older local copies. ACRE and TFAR are not required.",
+    "communityDetails": "Community details",
+    "controls": {
+      "hide": "Hide",
+      "home": "Home",
+      "panic": "Panic",
+      "power": "Power",
+      "previous": "Previous"
+    },
+    "corners": {
+      "ne": "top-right",
+      "nw": "top-left",
+      "se": "bottom-right",
+      "sw": "bottom-left"
+    },
+    "createCommunity": "Create community",
+    "deleting": "Deleting community… Please wait.",
+    "desktopOnlyHint": "The overlay requires the Sonoran Radio desktop app. It is not available on the website.",
+    "desktopOnlyLabel": "Overlay is available in the Sonoran Radio desktop app.",
+    "enableServer": "Enable them on your server",
+    "erlcKey": "ER:LC API Key",
+    "erlcLinked": "ER:LC server linked.",
+    "erlcServer": "ER:LC Private Server",
+    "erlcUnlinked": "ER:LC server unlinked.",
+    "fivemInstall": "FiveM Installation",
+    "fivemInstallCaption": "Download and configure the Sonoran Radio resource",
+    "fivemZones": "FiveM Zones",
+    "fivemZonesHelp": "Configure emergency, geo-channel, and signal degradation zones.",
+    "fullscreenWindow": "Fullscreen Window",
+    "gameHelp": "We’ll start you with matching radio frames and screen styling. You can change your game later.",
+    "gameLabel": "Community game",
+    "games": {
+      "ARMA3": "ARMA 3",
+      "ERLC": "ER:LC",
+      "FIVEM": "FiveM",
+      "OTHER": "Other",
+      "STAR_CITIZEN": "Star Citizen"
+    },
+    "installMods": "Install the two mods",
+    "installRequirements": "Every player needs ARMA 3 for Windows (2.12+) and both Workshop mods. Subscribe and wait for Steam to finish downloading.",
+    "integrationDescription": "Choose the game connected to this Radio community.",
+    "integrationTitle": "Game Integration",
+    "joinCode": "Join code: {code}",
+    "joinMission": "Join your server, select a role, and enter the mission. Equip a Sonoran Radio item. Mission makers should place Sonoran signal towers/repeaters for coverage.",
+    "joinTest": "Join and test",
+    "linkServer": "Link Server",
+    "manualServer": "For a manually hosted server, copy both mod folders to the server, copy their {extension} files from their keys folders into the server’s {directory} folder, and add this startup argument (adjust folder names):",
+    "next": "Next",
+    "noPausePath": "Parameters → All Parameters → No Pause",
+    "openDesktop": "Open the Sonoran Radio desktop app, join this community, connect to a channel, and click Open Overlay. The installed Workshop bridge starts automatically.",
+    "openOverlay": "Open radio overlay",
+    "overlay": "Overlay",
+    "overlayDisplay": "In ARMA, choose {displayMode} (borderless) instead of exclusive Fullscreen. In the ARMA Launcher, enable {launcherOption}, then restart the game. This keeps the game running when you click the overlay. The equivalent launch parameter is {parameter}.",
+    "radioWorkshop": "2. Sonoran Radio",
+    "resizeCorner": "Resize screen {corner} corner",
+    "resizeDirections": "Up enlarges · Down shrinks",
+    "resizeInstructions": "Ctrl + drag the body, or drag a corner.",
+    "resizeOverlayLabel": "Drag vertically to resize the radio overlay",
+    "resizeRadio": "Resize radio",
+    "resizeScreen": "Drag to resize screen",
+    "restartServer": "Restart the server and include both mods in the launcher preset shared with players. Keep signatures and BattlEye enabled; investigate the exact kick message if a client is rejected.",
+    "serverMods": "Install the same two Workshop mods through your server host’s mod manager. Load both as regular mods, not server-only mods, with CBA_A3 first.",
+    "setupOverlay": "Set up the overlay",
+    "towerSaveError": "Unable to save ER:LC signal towers. Your last change was reverted.",
+    "unlink": "Unlink",
+    "unlinkHelp": "Live player positions and signal updates will stop until a server is linked again.",
+    "unlinkTitle": "Unlink ER:LC server?",
+    "verifySignal": "Transmit with the desktop app’s push-to-talk. Check that signal bars respond as you move away from a tower. The bridge health page on each player’s PC should show {health}.",
+    "zoneSaveError": "Unable to save ER:LC zones. Your last change was reverted."
+  },
+  "customizePanel": {
+    "openGameIntegration": "Game Integration",
+    "overlayDesktopDescription": "Customize the radio overlay for desktop users.",
+    "overlayFiveMDescription": "Customize your FiveM in-game radio and desktop overlay. FiveM changes sync within five minutes with a compatible resource version.",
+    "overlaySelectGame": "Check your community’s game in Game Integration to use the matching overlay features."
+  },
   "landingPage": {
     "developers": {
       "button": "Explore Developer Tools",
@@ -21,6 +117,13 @@
       "titleAria": "We love developers.",
       "titlePrefix": "We",
       "titleSuffix": "Developers."
+    },
+    "Jammers": {
+      "desc": "Configure custom in-game items to jam nearby radio signals!",
+      "title": "Jammers"
+    },
+    "Scanners": {
+      "desc": "In-game scanners allow you and others nearby to listen in on radio traffic!"
     },
     "studio": {
       "cta": "Explore Sonoran Studio",
@@ -60,13 +163,30 @@
       "armaItemClassNames": "ARMA Item Class Names",
       "armaItemClassNamesHint": "Enter one or more CfgWeapons class names, pressing Enter after each. Equipping a mapped radio switches the desktop overlay to this frame.",
       "armaOpfor": "OPFOR Example",
+      "changeImage": "Change image",
+      "confirmResetDefaults": "Replace all frames with the defaults for your selected game? Your changes stay in this editor until you click Save changes.",
+      "defaultsDraft": "Defaults restored. Not saved.",
+      "defaultsUnavailable": "Game defaults are not available yet. Reload to try again.",
+      "deleteFrame": "Delete frame",
+      "editHint": "Drag to move · Ctrl + drag to resize · Right-click a button to remove",
+      "frameName": "Frame name",
+      "importNoFramesFound": "No frames with body.width and screen found.",
+      "noneFound": "No overlay frames found for this community.",
+      "resetDefaults": "Reset to game defaults",
+      "saveChanges": "Save changes",
+      "saved": "Overlay frames saved.",
       "screenTheme": "Screen Theme",
       "screenThemes": {
         "mobi": "Mobi",
         "modern": "Modern",
         "text": "Text"
       },
+      "selectGameToReset": "Select a game in Game Integration to reset to its defaults.",
+      "uploadImage": "Upload image",
       "useMobiFrame": "Use Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "Overlay"
     },
     "dispatchAi": {
       "timers": {

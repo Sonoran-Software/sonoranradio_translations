@@ -13,6 +13,102 @@
       "studioQuarterlyPrice": "$6,00/mnd"
     }
   },
+  "communitySetup": {
+    "aiHearing": "AI kan radiotransmissies horen",
+    "aiHearingHelp": "Van toepassing op alle communityleden die de bijgewerkte mod en overlay gebruiken. Nabije AI kan spelers detecteren terwijl ze uitzenden. Standaard ingeschakeld; een missie/server kan AI-gehoor nog steeds uitschakelen. Wijzigingen zijn binnen 30 seconden zichtbaar in open overlays.",
+    "armaAutomatic": "Automatisch ingeschakeld omdat je community ARMA 3 gebruikt.",
+    "armaBridge": "ARMA 3-brug inschakelen",
+    "armaBridgeHelp": "Schakel de lokale ARMA 3-verbinding voor deze community in. De desktop-app start automatisch de geïnstalleerde bridge. Als je dit uitschakelt, stopt Radio met het gebruiken van de bridge, inclusief signaalintegratie en AI-gehoor.",
+    "armaConnected": "ARMA 3 verbonden",
+    "armaConnecting": "Verbinden met ARMA 3",
+    "armaDisabled": "ARMA 3 uitgeschakeld",
+    "armaInstall": "ARMA 3-installatie",
+    "armaInstallCaption": "Vier stappen voor je server en spelers",
+    "armaSignal": "ARMA 3-signaalintegratie",
+    "armaSignalHelp": "Gebruik de signaalkwaliteit van de radiotoren van de Sonoran Radio ARMA 3-mod die op deze computer draait. Uw browser kan om toestemming vragen om toegang te krijgen tot de lokale bridge.",
+    "armaUnavailable": "ARMA 3-brug niet beschikbaar",
+    "back": "Terug",
+    "browserNote": "Een afzonderlijke desktopoverlay kan niet betrouwbaar verschijnen boven exclusieve volledig schermmodus. Browsergebruikers moeten de missie binnenkomen zodat de mod de bridge kan starten en lokale netwerktoegang kan toestaan indien daarom wordt gevraagd.",
+    "cbaWorkshop": "1. CBA_A3",
+    "channel": "Kanaal {id}",
+    "checkBridge": "Controleer lokale bridge",
+    "chooseGame": "Kies je spel",
+    "clientMods": "In het tabblad Mods van de ARMA Launcher, schakel eerst CBA_A3 in, daarna Sonoran Radio. Schakel oudere lokale kopieën uit. ACRE en TFAR zijn niet vereist.",
+    "communityDetails": "Communitydetails",
+    "controls": {
+      "hide": "Verbergen",
+      "home": "Home",
+      "panic": "Paniek",
+      "power": "Vermogen",
+      "previous": "Vorige"
+    },
+    "corners": {
+      "ne": "rechtsboven",
+      "nw": "linksboven",
+      "se": "rechtsonder",
+      "sw": "linksonder"
+    },
+    "createCommunity": "Community maken",
+    "deleting": "Community verwijderen… Even geduld.",
+    "desktopOnlyHint": "De overlay vereist de Sonoran Radio-desktopapp. Die is niet beschikbaar op de website.",
+    "desktopOnlyLabel": "Overlay is beschikbaar in de Sonoran Radio-desktopapp.",
+    "enableServer": "Activeer ze op je server",
+    "erlcKey": "ER:LC API-sleutel",
+    "erlcLinked": "ER:LC-server gekoppeld.",
+    "erlcServer": "ER:LC Privéserver",
+    "erlcUnlinked": "ER:LC-server ontkoppeld.",
+    "fivemInstall": "FiveM-installatie",
+    "fivemInstallCaption": "Download en configureer de Sonoran Radio-resource",
+    "fivemZones": "FiveM-zones",
+    "fivemZonesHelp": "Configureer nood-, geo-kanaal- en signaaldegradatiezones.",
+    "fullscreenWindow": "Volledig schermvenster",
+    "gameHelp": "We starten je met bijpassende radioframes en schermstijl. Je kunt je spel later wijzigen.",
+    "gameLabel": "Communityspel",
+    "games": {
+      "ARMA3": "ARMA 3",
+      "ERLC": "ER:LC",
+      "FIVEM": "FiveM",
+      "OTHER": "Andere",
+      "STAR_CITIZEN": "Star Citizen"
+    },
+    "installMods": "Installeer de twee mods",
+    "installRequirements": "Elke speler heeft ARMA 3 voor Windows (2.12+) en beide Workshop-mods nodig. Abonneer je en wacht tot Steam klaar is met downloaden.",
+    "integrationDescription": "Kies het spel dat is verbonden met deze radio-community.",
+    "integrationTitle": "Spelintegratie",
+    "joinCode": "Toetredingscode: {code}",
+    "joinMission": "Sluit je aan bij je server, selecteer een rol en betreed de missie. Voorzie een Sonoran Radio-item. Missiemakers moeten Sonoran-signaaltorens/repeaters plaatsen voor dekking.",
+    "joinTest": "Deelnemen en testen",
+    "linkServer": "Server koppelen",
+    "manualServer": "Voor een handmatig gehoste server, kopieer beide modmappen naar de server, kopieer hun {extension}-bestanden uit hun sleutelmappen naar de {directory}-map van de server, en voeg dit opstartargument toe (pas mapnamen aan):",
+    "next": "Volgende",
+    "noPausePath": "Parameters → Alle parameters → Geen pauze",
+    "openDesktop": "Open de Sonoran Radio-desktopapp, sluit je aan bij deze community, maak verbinding met een kanaal en klik op Overlay openen. De geïnstalleerde Workshop-bridge start automatisch.",
+    "openOverlay": "Open radio-overlay",
+    "overlay": "Overlay",
+    "overlayDisplay": "Kies in ARMA {displayMode} (randloos) in plaats van exclusief volledig scherm. Schakel in de ARMA Launcher {launcherOption} in en start het spel daarna opnieuw op. Zo blijft het spel actief wanneer je op de overlay klikt. De equivalente opstartparameter is {parameter}.",
+    "radioWorkshop": "2. Sonoran Radio",
+    "resizeCorner": "Scherm {corner} hoek aanpassen",
+    "resizeDirections": "Omhoog vergroot · Omlaag verkleint",
+    "resizeInstructions": "Ctrl + sleep het lichaam, of sleep een hoek.",
+    "resizeOverlayLabel": "Sleep verticaal om de radio-overlay van grootte te wijzigen",
+    "resizeRadio": "Radiogrootte aanpassen",
+    "resizeScreen": "Sleep om het scherm te vergroten of verkleinen",
+    "restartServer": "Herstart de server en neem beide mods op in de launcherpreset die met spelers wordt gedeeld. Houd signatures en BattlEye ingeschakeld; onderzoek het exacte kickbericht als een client wordt geweigerd.",
+    "serverMods": "Installeer dezelfde twee Workshop-mods via de modbeheerder van je serverhost. Laad beide als gewone mods, niet als alleen-server-mods, met CBA_A3 eerst.",
+    "setupOverlay": "Stel de overlay in",
+    "towerSaveError": "Kan ER:LC-signaaltorens niet opslaan. Je laatste wijziging is ongedaan gemaakt.",
+    "unlink": "Ontkoppelen",
+    "unlinkHelp": "Live spelerposities en signaalupdates stoppen totdat er opnieuw een server is gekoppeld.",
+    "unlinkTitle": "ER:LC-server ontkoppelen?",
+    "verifySignal": "Zend uit met de push-to-talk van de desktopapp. Controleer of de signaalbalken reageren als je verder van een toren weggaat. De bridge-gezondheidspagina op elke pc van de speler moet {health} tonen.",
+    "zoneSaveError": "Kan ER:LC-zones niet opslaan. Je laatste wijziging is ongedaan gemaakt."
+  },
+  "customizePanel": {
+    "openGameIntegration": "Spelintegratie",
+    "overlayDesktopDescription": "Pas de radio-overlay aan voor desktopgebruikers.",
+    "overlayFiveMDescription": "Pas je FiveM in-game radio en desktopoverlay aan. FiveM-wijzigingen synchroniseren binnen vijf minuten met een compatibele resourceversie.",
+    "overlaySelectGame": "Controleer je community’s game in Game Integration om de overeenkomstige overlayfuncties te gebruiken."
+  },
   "landingPage": {
     "developers": {
       "button": "Ontdek ontwikkelaarstools",
@@ -21,6 +117,13 @@
       "titleAria": "We houden van ontwikkelaars.",
       "titlePrefix": "Wij",
       "titleSuffix": "Ontwikkelaars."
+    },
+    "Jammers": {
+      "desc": "Configureer aangepaste in-game items om nabijgelegen radiosignalen te storen!",
+      "title": "Jammers"
+    },
+    "Scanners": {
+      "desc": "In-game scanners laten jou en anderen in de buurt meeluisteren naar radiocommunicatie!"
     },
     "studio": {
       "cta": "Ontdek Sonoran Studio",
@@ -60,13 +163,30 @@
       "armaItemClassNames": "ARMA item classnamen",
       "armaItemClassNamesHint": "Voer één of meer CfgWeapons-klassenamen in, en druk na elk op Enter. Door een toegewezen radio uit te rusten, schakelt de desktop-overlay naar dit frame.",
       "armaOpfor": "OPFOR-voorbeeld",
+      "changeImage": "Afbeelding wijzigen",
+      "confirmResetDefaults": "Alle kaders vervangen door de standaardinstellingen voor je geselecteerde game? Je wijzigingen blijven in deze editor tot je op Wijzigingen opslaan klikt.",
+      "defaultsDraft": "Standaardwaarden hersteld. Niet opgeslagen.",
+      "defaultsUnavailable": "Spelstandaarden zijn nog niet beschikbaar. Herlaad om opnieuw te proberen.",
+      "deleteFrame": "Frame verwijderen",
+      "editHint": "Sleep om te verplaatsen · Ctrl + slepen om het formaat te wijzigen · Klik met de rechtermuisknop op een knop om te verwijderen",
+      "frameName": "Framenaam",
+      "importNoFramesFound": "Geen frames met body.width en screen gevonden.",
+      "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "resetDefaults": "Reset naar spelstandaarden",
+      "saveChanges": "Wijzigingen opslaan",
+      "saved": "Overlayframes opgeslagen.",
       "screenTheme": "Schermthema",
       "screenThemes": {
         "mobi": "Mobi",
         "modern": "Modern",
         "text": "Tekst"
       },
+      "selectGameToReset": "Selecteer een spel in Game Integration om terug te zetten naar de standaardwaarden.",
+      "uploadImage": "Afbeelding uploaden",
       "useMobiFrame": "Gebruik Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "Overlay"
     },
     "dispatchAi": {
       "timers": {

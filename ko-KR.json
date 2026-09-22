@@ -13,6 +13,102 @@
       "studioQuarterlyPrice": "$6.00/월"
     }
   },
+  "communitySetup": {
+    "aiHearing": "AI가 무전 송신을 들을 수 있습니다",
+    "aiHearingHelp": "업데이트된 모드와 오버레이를 사용하는 모든 커뮤니티 멤버에게 적용됩니다. 근처 AI는 플레이어가 송신하는 동안 감지할 수 있습니다. 기본적으로 활성화되어 있으며, 미션/서버에서 AI 청취를 비활성화할 수 있습니다. 변경 사항은 30초 내에 열려 있는 오버레이에 반영됩니다.",
+    "armaAutomatic": "커뮤니티가 ARMA 3를 사용하므로 자동으로 활성화됨.",
+    "armaBridge": "ARMA 3 브리지 사용",
+    "armaBridgeHelp": "이 커뮤니티에 대해 로컬 ARMA 3 연결을 활성화하세요. 데스크톱 앱은 설치된 브리지 를 자동으로 시작합니다. 이 기능을 끄면 Radio 가 신호 연동과 AI 청취를 포함해 브리지 를 사용하지 않습니다.",
+    "armaConnected": "ARMA 3에 연결됨",
+    "armaConnecting": "ARMA 3에 연결 중",
+    "armaDisabled": "ARMA 3 비활성화됨",
+    "armaInstall": "ARMA 3 설치",
+    "armaInstallCaption": "서버와 플레이어를 위한 4단계",
+    "armaSignal": "ARMA 3 신호 통합",
+    "armaSignalHelp": "이 컴퓨터에서 실행 중인 Sonoran Radio ARMA 3 모드의 무전탑 신호 품질을 사용합니다. 브라우저가 로컬 브리지에 접근할 권한을 요청할 수 있습니다.",
+    "armaUnavailable": "ARMA 3 브리지 사용 불가",
+    "back": "뒤로",
+    "browserNote": "독립적인 데스크톱 오버레이는 독점 전체 화면 위에 안정적으로 표시될 수 없습니다. 브라우저 사용자는 모드가 브리지를 시작하고, 프롬프트가 표시되면 로컬 네트워크 액세스를 허용할 수 있도록 미션에 들어가야 합니다.",
+    "cbaWorkshop": "1. CBA_A3",
+    "channel": "채널 {id}",
+    "checkBridge": "로컬 브리지 확인",
+    "chooseGame": "게임을 선택하세요",
+    "clientMods": "ARMA Launcher의 Mods 탭에서 먼저 CBA_A3를 활성화한 다음 Sonoran Radio를 활성화하세요. 오래된 로컬 복사본은 비활성화하세요. ACRE와 TFAR는 필요하지 않습니다.",
+    "communityDetails": "커뮤니티 세부 정보",
+    "controls": {
+      "hide": "숨기기",
+      "home": "홈",
+      "panic": "패닉",
+      "power": "전원",
+      "previous": "이전"
+    },
+    "corners": {
+      "ne": "오른쪽 상단",
+      "nw": "왼쪽 위",
+      "se": "오른쪽 아래",
+      "sw": "왼쪽 아래"
+    },
+    "createCommunity": "커뮤니티 만들기",
+    "deleting": "커뮤니티를 삭제하는 중… 잠시만 기다려 주세요.",
+    "desktopOnlyHint": "오버레이는 Sonoran Radio 데스크톱 앱이 필요합니다. 웹사이트에서는 사용할 수 없습니다.",
+    "desktopOnlyLabel": "오버레이는 Sonoran Radio 데스크톱 앱에서 사용할 수 있습니다.",
+    "enableServer": "서버에서 활성화하세요",
+    "erlcKey": "ER:LC API 키",
+    "erlcLinked": "ER:LC 서버 연결됨.",
+    "erlcServer": "ER:LC 개인 서버",
+    "erlcUnlinked": "ER:LC 서버 연결 해제됨.",
+    "fivemInstall": "FiveM 설치",
+    "fivemInstallCaption": "Sonoran Radio 리소스를 다운로드하고 구성하세요",
+    "fivemZones": "FiveM 존",
+    "fivemZonesHelp": "긴급, 지오 채널, 신호 저하 구역을 구성합니다.",
+    "fullscreenWindow": "전체 화면 창",
+    "gameHelp": "일치하는 무전기 프레임과 화면 스타일로 시작합니다. 나중에 게임은 변경할 수 있습니다.",
+    "gameLabel": "커뮤니티 게임",
+    "games": {
+      "ARMA3": "ARMA 3",
+      "ERLC": "ER:LC",
+      "FIVEM": "FiveM",
+      "OTHER": "기타",
+      "STAR_CITIZEN": "스타 시티즌"
+    },
+    "installMods": "두 개의 모드 설치",
+    "installRequirements": "모든 플레이어는 Windows용 ARMA 3(2.12+)와 두 개의 Workshop 모드가 필요합니다. 구독하고 Steam이 다운로드를 완료할 때까지 기다리세요.",
+    "integrationDescription": "이 라디오 커뮤니티에 연결된 게임을 선택하세요.",
+    "integrationTitle": "게임 통합",
+    "joinCode": "참가 코드: {code}",
+    "joinMission": "서버에 참가하고 역할을 선택한 다음 미션에 들어가세요. Sonoran Radio 아이템을 장착하세요. 미션 제작자는 커버리지를 위해 Sonoran 신호 타워/중계기를 배치해야 합니다.",
+    "joinTest": "참여 및 테스트",
+    "linkServer": "서버 연결",
+    "manualServer": "수동으로 호스팅된 서버의 경우 두 모드 폴더를 모두 서버에 복사하고, 각 키 폴더의 {extension} 파일을 서버의 {directory} 폴더로 복사한 다음, 이 시작 인수(폴더 이름 조정):를 추가하세요",
+    "next": "다음",
+    "noPausePath": "매개변수 → 모든 매개변수 → 일시 중지 없음",
+    "openDesktop": "Sonoran Radio 데스크톱 앱을 열고 이 커뮤니티에 가입한 다음 채널에 연결하고 Open Overlay를 클릭하세요. 설치된 Workshop 브리지는 자동으로 시작됩니다.",
+    "openOverlay": "라디오 오버레이 열기",
+    "overlay": "오버레이",
+    "overlayDisplay": "ARMA에서 독점 전체 화면 대신 {displayMode} (테두리 없음)를 선택하세요. ARMA Launcher에서 {launcherOption}를 활성화한 다음 게임을 다시 시작하세요. 이렇게 하면 오버레이를 클릭해도 게임이 계속 실행됩니다. 이에 해당하는 실행 매개변수는 {parameter}입니다.",
+    "radioWorkshop": "2. Sonoran Radio",
+    "resizeCorner": "화면 {corner} 모서리 크기 조정",
+    "resizeDirections": "위로 올리면 커짐 · 아래로 내리면 작아짐",
+    "resizeInstructions": "Ctrl + 본체를 드래그하거나 모서리를 드래그하세요.",
+    "resizeOverlayLabel": "라디오 오버레이 크기를 조정하려면 세로로 드래그하세요",
+    "resizeRadio": "라디오 크기 조정",
+    "resizeScreen": "화면 크기 조절하려면 드래그",
+    "restartServer": "서버를 다시 시작하고 플레이어와 공유된 런처 프리셋에 두 모드를 모두 포함하세요. 서명과 BattlEye를 활성화한 상태로 유지하고, 클라이언트가 거부되면 정확한 킥 메시지를 확인하세요.",
+    "serverMods": "서버 호스트의 모드 관리자에서 동일한 두 개의 Workshop 모드를 설치하세요. 두 모드를 모두 서버 전용 모드가 아니라 일반 모드로 불러오고, CBA_A3 를 먼저 두세요.",
+    "setupOverlay": "오버레이 설정",
+    "towerSaveError": "ER:LC 신호 타워를 저장할 수 없습니다. 마지막 변경 사항이 되돌려졌습니다.",
+    "unlink": "연결 해제",
+    "unlinkHelp": "라이브 플레이어 위치와 신호 업데이트는 서버가 다시 연결될 때까지 중지됩니다.",
+    "unlinkTitle": "ER:LC 서버 연결 해제?",
+    "verifySignal": "데스크톱 앱의 푸시 투 토크로 송신합니다. 타워에서 멀어질 때 신호 막대가 반응하는지 확인하세요. 각 플레이어의 PC에 있는 브리지 상태 페이지에는 {health}이 표시되어야 합니다.",
+    "zoneSaveError": "ER:LC 구역을 저장할 수 없습니다. 마지막 변경 사항이 되돌려졌습니다."
+  },
+  "customizePanel": {
+    "openGameIntegration": "게임 통합",
+    "overlayDesktopDescription": "데스크톱 사용자를 위한 라디오 오버레이를 사용자 지정합니다.",
+    "overlayFiveMDescription": "FiveM 게임 내 라디오와 데스크톱 오버레이를 사용자 지정하세요. FiveM 변경 사항은 호환 가능한 리소스 버전에서 5분 이내에 동기화됩니다.",
+    "overlaySelectGame": "Game Integration에서 커뮤니티의 게임을 확인하여 일치하는 오버레이 기능을 사용하세요."
+  },
   "landingPage": {
     "developers": {
       "button": "개발자 도구 둘러보기",
@@ -21,6 +117,13 @@
       "titleAria": "우리는 개발자를 사랑합니다.",
       "titlePrefix": "우리",
       "titleSuffix": "개발자."
+    },
+    "Jammers": {
+      "desc": "근처의 라디오 신호를 방해하도록 게임 내 사용자 지정 아이템을 설정하세요!",
+      "title": "재머"
+    },
+    "Scanners": {
+      "desc": "게임 내 스캐너를 사용하면 당신과 주변의 다른 사람들이 라디오 통신을 들을 수 있습니다!"
     },
     "studio": {
       "cta": "Sonoran Studio 둘러보기",
@@ -60,13 +163,30 @@
       "armaItemClassNames": "ARMA 아이템 클래스 이름",
       "armaItemClassNamesHint": "CfgWeapons 클래스 이름을 하나 이상 입력하고 각 항목 뒤에 Enter를 누르세요. 매핑된 라디오를 장착하면 데스크톱 오버레이가 이 프레임으로 전환됩니다.",
       "armaOpfor": "OPFOR 예시",
+      "changeImage": "이미지 변경",
+      "confirmResetDefaults": "선택한 게임의 기본값으로 모든 프레임을 바꾸시겠습니까? 변경 사항은 저장 변경 사항을 클릭할 때까지 이 편집기에서 유지됩니다.",
+      "defaultsDraft": "기본값이 복원되었습니다. 저장되지 않음.",
+      "defaultsUnavailable": "게임 기본값은 아직 사용할 수 없습니다. 다시 시도하려면 다시 불러오세요.",
+      "deleteFrame": "프레임 삭제",
+      "editHint": "드래그하여 이동 · Ctrl + 드래그하여 크기 조정 · 버튼을 마우스 오른쪽 버튼으로 클릭하여 제거",
+      "frameName": "프레임 이름",
+      "importNoFramesFound": "body.width와 screen이 있는 프레임을 찾을 수 없음.",
+      "noneFound": "이 커뮤니티에 대해 찾은 오버레이 프레임이 없습니다.",
+      "resetDefaults": "게임 기본값으로 초기화",
+      "saveChanges": "변경 사항 저장",
+      "saved": "오버레이 프레임이 저장되었습니다.",
       "screenTheme": "화면 테마",
       "screenThemes": {
         "mobi": "모비",
         "modern": "모던",
         "text": "텍스트"
       },
+      "selectGameToReset": "Game Integration에서 기본값으로 재설정할 게임을 선택하세요.",
+      "uploadImage": "이미지 업로드",
       "useMobiFrame": "Mobi Frame 사용"
+    },
+    "customizeMenu": {
+      "overlay": "오버레이"
     },
     "dispatchAi": {
       "timers": {

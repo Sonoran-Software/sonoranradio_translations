@@ -13,6 +13,102 @@
       "studioQuarterlyPrice": "$6.00/月"
     }
   },
+  "communitySetup": {
+    "aiHearing": "AI 可以听到无线电传输",
+    "aiHearingHelp": "适用于所有使用更新版 mod 和 overlay 的社区成员。附近的 AI 可在玩家传输时检测到他们。默认启用；任务/服务器仍可禁用 AI 听觉。更改会在 30 秒内应用到已打开的 overlay。",
+    "armaAutomatic": "由于你的社区使用 ARMA 3，已自动启用。",
+    "armaBridge": "启用 ARMA 3 桥接",
+    "armaBridgeHelp": "为此社区启用本地 ARMA 3 连接。桌面应用会自动启动已安装的桥接。禁用此项将停止 Radio 使用该桥接，包括信号集成和 AI 听觉。",
+    "armaConnected": "ARMA 3 已连接",
+    "armaConnecting": "正在连接到 ARMA 3",
+    "armaDisabled": "ARMA 3 已禁用",
+    "armaInstall": "ARMA 3 安装",
+    "armaInstallCaption": "为你的服务器和玩家准备的四个步骤",
+    "armaSignal": "ARMA 3 信号集成",
+    "armaSignalHelp": "使用此电脑上运行的 Sonoran Radio ARMA 3 模组中的无线电塔信号质量。您的浏览器可能会请求访问本地桥接的权限。",
+    "armaUnavailable": "ARMA 3 桥接不可用",
+    "back": "返回",
+    "browserNote": "独立桌面覆盖层无法可靠地显示在独占全屏之上。浏览器用户必须进入任务，以便让模组启动桥接，并在提示时允许本地网络访问。",
+    "cbaWorkshop": "1. CBA_A3",
+    "channel": "频道 {id}",
+    "checkBridge": "检查本地桥接",
+    "chooseGame": "选择你的游戏",
+    "clientMods": "在 ARMA 启动器的 Mods 选项卡中，先启用 CBA_A3，然后启用 Sonoran Radio。禁用旧的本地副本。无需 ACRE 和 TFAR。",
+    "communityDetails": "社区详情",
+    "controls": {
+      "hide": "隐藏",
+      "home": "主页",
+      "panic": "紧急求助",
+      "power": "电源",
+      "previous": "上一个"
+    },
+    "corners": {
+      "ne": "右上角",
+      "nw": "左上角",
+      "se": "右下角",
+      "sw": "左下角"
+    },
+    "createCommunity": "创建社区",
+    "deleting": "正在删除社区…请稍候。",
+    "desktopOnlyHint": "覆盖层需要 Sonoran Radio 桌面应用。它在网站上不可用。",
+    "desktopOnlyLabel": "覆盖层可在 Sonoran Radio 桌面应用中使用。",
+    "enableServer": "在您的服务器上启用它们",
+    "erlcKey": "ER:LC API 密钥",
+    "erlcLinked": "ER:LC 服务器已关联。",
+    "erlcServer": "ER:LC 私有服务器",
+    "erlcUnlinked": "ER:LC 服务器已取消关联。",
+    "fivemInstall": "FiveM 安装",
+    "fivemInstallCaption": "下载并配置 Sonoran Radio 资源",
+    "fivemZones": "FiveM 区域",
+    "fivemZonesHelp": "配置紧急、地理频道和信号衰减区域。",
+    "fullscreenWindow": "全屏窗口",
+    "gameHelp": "我们将先为你提供匹配的电台边框和屏幕样式。你之后可以更改你的游戏。",
+    "gameLabel": "社区游戏",
+    "games": {
+      "ARMA3": "武装突袭 3",
+      "ERLC": "ER:LC",
+      "FIVEM": "FiveM",
+      "OTHER": "其他",
+      "STAR_CITIZEN": "星际公民"
+    },
+    "installMods": "安装这两个模组",
+    "installRequirements": "每位玩家都需要 Windows 版 ARMA 3（2.12+）以及这两个 Workshop 模组。请订阅并等待 Steam 完成下载。",
+    "integrationDescription": "选择连接到此无线电社区的游戏。",
+    "integrationTitle": "游戏集成",
+    "joinCode": "加入码：{code}",
+    "joinMission": "加入你的服务器，选择一个角色，并进入任务。装备 Sonoran Radio 物品。任务制作者应放置 Sonoran 信号塔/中继器以获得覆盖。",
+    "joinTest": "加入并测试",
+    "linkServer": "关联服务器",
+    "manualServer": "对于手动托管的服务器，将两个模组文件夹都复制到服务器，将它们 keys 文件夹中的 {extension} 文件复制到服务器的 {directory} 文件夹，并添加此启动参数（调整文件夹名称）：",
+    "next": "下一步",
+    "noPausePath": "参数 → 所有参数 → 无暂停",
+    "openDesktop": "打开 Sonoran Radio 桌面应用，加入此社区，连接到一个频道，然后点击 打开叠加层。已安装的 Workshop 桥接会自动启动。",
+    "openOverlay": "打开无线电覆盖层",
+    "overlay": "覆盖层",
+    "overlayDisplay": "在 ARMA 中，选择 {displayMode}（无边框）而不是独占全屏。在 ARMA 启动器中，启用 {launcherOption}，然后重新启动游戏。这样在你点击覆盖层时，游戏会继续运行。等效的启动参数是 {parameter}。",
+    "radioWorkshop": "2. Sonoran Radio",
+    "resizeCorner": "调整屏幕 {corner} 角",
+    "resizeDirections": "上放大 · 下缩小",
+    "resizeInstructions": "按住 Ctrl + 拖动主体，或拖动角点。",
+    "resizeOverlayLabel": "垂直拖动以调整电台覆盖层大小",
+    "resizeRadio": "调整电台大小",
+    "resizeScreen": "拖动以调整屏幕大小",
+    "restartServer": "重启服务器，并在与玩家共享的启动器预设中包含这两个模组。保持签名和 BattlEye 启用；如果客户端被拒绝，调查具体的踢出消息。",
+    "serverMods": "通过你的服务器主机的模组管理器安装同样的两个 Workshop 模组。将两者都作为常规模组加载，不要作为仅服务器模组加载，并且把 CBA_A3 放在前面。",
+    "setupOverlay": "设置覆盖层",
+    "towerSaveError": "无法保存 ER:LC 信号塔。您的上一次更改已恢复。",
+    "unlink": "取消关联",
+    "unlinkHelp": "实时玩家位置和信号更新将停止，直到再次链接服务器。",
+    "unlinkTitle": "取消关联 ER:LC 服务器？",
+    "verifySignal": "使用桌面应用的按键通话发射。检查当你远离信号塔时信号条是否会响应。每位玩家电脑上的桥梁健康页面应显示 {health}。",
+    "zoneSaveError": "无法保存 ER:LC 区域。您的上一次更改已恢复。"
+  },
+  "customizePanel": {
+    "openGameIntegration": "游戏集成",
+    "overlayDesktopDescription": "为桌面用户自定义无线电覆盖层。",
+    "overlayFiveMDescription": "自定义你的 FiveM 游戏内电台和桌面覆盖层。兼容的资源版本下，FiveM 更改会在五分钟内同步。",
+    "overlaySelectGame": "在 Game Integration 中检查你的社区游戏，以使用匹配的叠加层功能。"
+  },
   "landingPage": {
     "developers": {
       "button": "探索开发者工具",
@@ -21,6 +117,13 @@
       "titleAria": "我们热爱开发者。",
       "titlePrefix": "我们",
       "titleSuffix": "开发者。"
+    },
+    "Jammers": {
+      "desc": "配置自定义游戏内物品来干扰附近的无线电信号！",
+      "title": "干扰器"
+    },
+    "Scanners": {
+      "desc": "游戏内扫描器可让你和附近的其他人收听无线电通信！"
     },
     "studio": {
       "cta": "探索 Sonoran Studio",
@@ -60,13 +163,30 @@
       "armaItemClassNames": "ARMA 物品类名",
       "armaItemClassNamesHint": "输入一个或多个 CfgWeapons 类名，每输入一个后按 Enter。装备已映射的电台会将桌面覆盖层切换到此框架。",
       "armaOpfor": "OPFOR 示例",
+      "changeImage": "更改图片",
+      "confirmResetDefaults": "将所有边框替换为所选游戏的默认值？您的更改会保留在此编辑器中，直到您点击保存更改。",
+      "defaultsDraft": "已恢复默认值。未保存。",
+      "defaultsUnavailable": "游戏默认值尚不可用。重新加载后重试。",
+      "deleteFrame": "删除框架",
+      "editHint": "拖动以移动 · Ctrl + 拖动以调整大小 · 右键单击按钮可移除",
+      "frameName": "框架名称",
+      "importNoFramesFound": "未找到带有 body.width 和 screen 的框架。",
+      "noneFound": "未找到此社区的叠加边框。",
+      "resetDefaults": "重置为游戏默认设置",
+      "saveChanges": "保存更改",
+      "saved": "叠加边框已保存。",
       "screenTheme": "屏幕主题",
       "screenThemes": {
         "mobi": "Mobi",
         "modern": "现代",
         "text": "文本"
       },
+      "selectGameToReset": "在 Game Integration 中选择一个游戏以重置为其默认设置。",
+      "uploadImage": "上传图片",
       "useMobiFrame": "使用 Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "覆盖层"
     },
     "dispatchAi": {
       "timers": {

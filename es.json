@@ -13,6 +13,102 @@
       "studioQuarterlyPrice": "$6.00/mes"
     }
   },
+  "communitySetup": {
+    "aiHearing": "La IA puede oír transmisiones de radio",
+    "aiHearingHelp": "Se aplica a todos los miembros de la comunidad que usan el mod y el overlay actualizados. La IA cercana puede detectar a los jugadores mientras transmiten. Activado de forma predeterminada; una misión/servidor aún puede desactivar la audición de la IA. Los cambios llegan a los overlays abiertos en 30 segundos.",
+    "armaAutomatic": "Activado automáticamente porque tu comunidad usa ARMA 3.",
+    "armaBridge": "Activar puente de ARMA 3",
+    "armaBridgeHelp": "Habilita la conexión local de ARMA 3 para esta comunidad. La app de escritorio inicia automáticamente el puente instalado. Deshabilitar esto impide que Radio use el puente, incluida la integración de señal y la audición de la IA.",
+    "armaConnected": "ARMA 3 conectado",
+    "armaConnecting": "Conectando a ARMA 3",
+    "armaDisabled": "ARMA 3 deshabilitado",
+    "armaInstall": "Instalación de ARMA 3",
+    "armaInstallCaption": "Cuatro pasos para tu servidor y jugadores",
+    "armaSignal": "Integración de señal de ARMA 3",
+    "armaSignalHelp": "Usa la calidad de señal de la torre de radio del mod Sonoran Radio ARMA 3 que se está ejecutando en este ordenador. Tu navegador puede pedir permiso para acceder al puente local.",
+    "armaUnavailable": "Puente de ARMA 3 no disponible",
+    "back": "Atrás",
+    "browserNote": "Una superposición de escritorio separada no puede aparecer de forma fiable sobre pantalla completa exclusiva. Los usuarios del navegador deben entrar en la misión para permitir que el mod inicie el puente y conceder acceso a la red local si se solicita.",
+    "cbaWorkshop": "1. CBA_A3",
+    "channel": "Canal {id}",
+    "checkBridge": "Comprobar puente local",
+    "chooseGame": "Elige tu juego",
+    "clientMods": "En la pestaña Mods del ARMA Launcher, activa primero CBA_A3, luego Sonoran Radio. Desactiva las copias locales antiguas. ACRE y TFAR no son necesarios.",
+    "communityDetails": "Detalles de la comunidad",
+    "controls": {
+      "hide": "Ocultar",
+      "home": "Inicio",
+      "panic": "Pánico",
+      "power": "Encendido",
+      "previous": "Anterior"
+    },
+    "corners": {
+      "ne": "arriba a la derecha",
+      "nw": "esquina superior izquierda",
+      "se": "inferior derecha",
+      "sw": "inferior izquierda"
+    },
+    "createCommunity": "Crear comunidad",
+    "deleting": "Eliminando comunidad… Por favor espera.",
+    "desktopOnlyHint": "La superposición requiere la aplicación de escritorio de Sonoran Radio. No está disponible en el sitio web.",
+    "desktopOnlyLabel": "La superposición está disponible en la aplicación de escritorio de Sonoran Radio.",
+    "enableServer": "Habilítalos en tu servidor",
+    "erlcKey": "Clave de API de ER:LC",
+    "erlcLinked": "Servidor ER:LC vinculado.",
+    "erlcServer": "Servidor privado de ER:LC",
+    "erlcUnlinked": "Servidor ER:LC desvinculado.",
+    "fivemInstall": "Instalación de FiveM",
+    "fivemInstallCaption": "Descargar y configurar el recurso de Sonoran Radio",
+    "fivemZones": "Zonas FiveM",
+    "fivemZonesHelp": "Configura zonas de emergencia, geo-canal y degradación de señal.",
+    "fullscreenWindow": "Ventana en pantalla completa",
+    "gameHelp": "Te empezaremos con marcos de radio y estilo de pantalla a juego. Puedes cambiar tu juego más tarde.",
+    "gameLabel": "Juego comunitario",
+    "games": {
+      "ARMA3": "ARMA 3",
+      "ERLC": "ER:LC",
+      "FIVEM": "FiveM",
+      "OTHER": "Otro",
+      "STAR_CITIZEN": "Star Citizen"
+    },
+    "installMods": "Instala los dos mods",
+    "installRequirements": "Cada jugador necesita ARMA 3 para Windows (2.12+) y ambos mods de Workshop. Suscríbete y espera a que Steam termine de descargar.",
+    "integrationDescription": "Elige el juego conectado a esta comunidad de Radio.",
+    "integrationTitle": "Integración de juegos",
+    "joinCode": "Código de acceso: {code}",
+    "joinMission": "Únete a tu servidor, selecciona un rol y entra en la misión. Equipa un objeto Radio Sonoran. Los creadores de misiones deben colocar torres repetidoras/señalizadores Sonoran para la cobertura.",
+    "joinTest": "Unirse y probar",
+    "linkServer": "Vincular servidor",
+    "manualServer": "Para un servidor alojado manualmente, copia ambas carpetas de mods al servidor, copia sus archivos {extension} desde sus carpetas keys a la carpeta {directory} del servidor, y añade este argumento de inicio (ajusta los nombres de las carpetas):",
+    "next": "Siguiente",
+    "noPausePath": "Parámetros → Todos los parámetros → Sin pausa",
+    "openDesktop": "Abre la app de escritorio de Sonoran Radio, únete a esta comunidad, conéctate a un canal y haz clic en Abrir superposición. El puente de Workshop instalado se inicia automáticamente.",
+    "openOverlay": "Abrir superposición de radio",
+    "overlay": "Superposición",
+    "overlayDisplay": "En ARMA, elige {displayMode} (sin bordes) en lugar de Pantalla completa exclusiva. En el ARMA Launcher, habilita {launcherOption}, luego reinicia el juego. Esto mantiene el juego en ejecución cuando haces clic en la superposición. El parámetro de inicio equivalente es {parameter}.",
+    "radioWorkshop": "2. Sonoran Radio",
+    "resizeCorner": "Redimensionar esquina {corner} de la pantalla",
+    "resizeDirections": "Arriba agranda · Abajo reduce",
+    "resizeInstructions": "Ctrl + arrastra el cuerpo, o arrastra una esquina.",
+    "resizeOverlayLabel": "Arrastra verticalmente para cambiar el tamaño de la superposición de radio",
+    "resizeRadio": "Cambiar tamaño de la radio",
+    "resizeScreen": "Arrastra para cambiar el tamaño de la pantalla",
+    "restartServer": "Reinicia el servidor e incluye ambos mods en el ajuste preestablecido del lanzador compartido con los jugadores. Mantén las firmas y BattlEye activados; investiga el mensaje exacto de expulsión si se rechaza a un cliente.",
+    "serverMods": "Instala los mismos dos mods de Workshop a través del administrador de mods de tu host del servidor. Carga ambos como mods normales, no como mods solo para servidor, con CBA_A3 primero.",
+    "setupOverlay": "Configura la superposición",
+    "towerSaveError": "No se pudieron guardar las torres de señal de ER:LC. Tu último cambio se revirtió.",
+    "unlink": "Desvincular",
+    "unlinkHelp": "Las posiciones en vivo de los jugadores y las actualizaciones de señal se detendrán hasta que se vincule otro servidor.",
+    "unlinkTitle": "¿Desvincular servidor ER:LC?",
+    "verifySignal": "Transmite con el push-to-talk de la app de escritorio. Comprueba que las barras de señal respondan al alejarte de una torre. La página de salud del puente en el PC de cada jugador debería mostrar {health}.",
+    "zoneSaveError": "No se pudieron guardar las zonas de ER:LC. Tu último cambio se revirtió."
+  },
+  "customizePanel": {
+    "openGameIntegration": "Integración de juegos",
+    "overlayDesktopDescription": "Personaliza la superposición de radio para usuarios de escritorio.",
+    "overlayFiveMDescription": "Personaliza tu radio del juego y la superposición de escritorio de FiveM. Los cambios de FiveM se sincronizan en cinco minutos con una versión de recurso compatible.",
+    "overlaySelectGame": "Comprueba el juego de tu comunidad en Integración de juegos para usar las funciones de superposición correspondientes."
+  },
   "landingPage": {
     "developers": {
       "button": "Explorar herramientas para desarrolladores",
@@ -21,6 +117,13 @@
       "titleAria": "Amamos a los desarrolladores.",
       "titlePrefix": "Nosotros",
       "titleSuffix": "Desarrolladores."
+    },
+    "Jammers": {
+      "desc": "Configura objetos personalizados del juego para interferir señales de radio cercanas!",
+      "title": "Interferidores"
+    },
+    "Scanners": {
+      "desc": "¡Los escáneres del juego te permiten a ti y a otros cercanos escuchar el tráfico de radio!"
     },
     "studio": {
       "cta": "Explora Sonoran Studio",
@@ -60,13 +163,30 @@
       "armaItemClassNames": "Nombres de clase de objetos ARMA",
       "armaItemClassNamesHint": "Introduce uno o más nombres de clase CfgWeapons, pulsando Intro después de cada uno. Equipar una radio asignada cambia la superposición de escritorio a este marco.",
       "armaOpfor": "Ejemplo OPFOR",
+      "changeImage": "Cambiar imagen",
+      "confirmResetDefaults": "¿Reemplazar todos los marcos por los predeterminados de tu juego seleccionado? Tus cambios permanecerán en este editor hasta que hagas clic en Guardar cambios.",
+      "defaultsDraft": "Valores predeterminados restaurados. No guardado.",
+      "defaultsUnavailable": "Los valores predeterminados del juego aún no están disponibles. Recarga para intentarlo de nuevo.",
+      "deleteFrame": "Eliminar marco",
+      "editHint": "Arrastra para mover · Ctrl + arrastra para cambiar el tamaño · Clic derecho en un botón para quitar",
+      "frameName": "Nombre del marco",
+      "importNoFramesFound": "No se encontraron marcos con body.width y screen.",
+      "noneFound": "No se encontraron marcos superpuestos para esta comunidad.",
+      "resetDefaults": "Restablecer valores predeterminados del juego",
+      "saveChanges": "Guardar cambios",
+      "saved": "Marcos superpuestos guardados.",
       "screenTheme": "Tema de pantalla",
       "screenThemes": {
         "mobi": "Mobi",
         "modern": "Moderno",
         "text": "Texto"
       },
+      "selectGameToReset": "Selecciona un juego en Integración de juegos para restablecer sus valores predeterminados.",
+      "uploadImage": "Subir imagen",
       "useMobiFrame": "Usar Mobi Frame"
+    },
+    "customizeMenu": {
+      "overlay": "Superposición"
     },
     "dispatchAi": {
       "timers": {
