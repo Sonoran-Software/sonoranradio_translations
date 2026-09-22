@@ -672,9 +672,9 @@
       "label": "Label",
       "newFrame": "New Frame",
       "noneFound": "No overlay frames found for this community.",
+      "removeVariant": "Remove this variant",
       "resetDefaults": "Reset to game defaults",
       "resetScreen": "Reset screen position",
-      "removeVariant": "Remove this variant",
       "saveChanges": "Save changes",
       "saved": "Overlay frames saved.",
       "screenPlaceholder": "This is the screen",
@@ -696,6 +696,7 @@
       },
       "upload": "Upload",
       "uploadImage": "Upload image",
+      "useMobiFrame": "Use Mobi Frame",
       "variantMissing": "This frame does not have a layout for this mode yet.",
       "variantMode": "Frame mode",
       "variantModes": {
