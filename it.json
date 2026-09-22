@@ -651,11 +651,18 @@
       "armaOpfor": "Esempio OPFOR",
       "bodyImage": "Immagine del corpo",
       "cancel": "Annulla",
+      "changeImage": "Cambia immagine",
       "chooseSkin": "Scegli skin.json",
       "confirmRemove": "Sei sicuro di voler rimuovere questo frame?",
+      "confirmResetDefaults": "Sostituire tutti i frame con quelli predefiniti per il gioco selezionato? Le tue modifiche restano in questo editor finché non fai clic su Salva modifiche.",
       "create": "Crea",
+      "defaultsDraft": "Predefiniti ripristinati. Non salvato.",
+      "defaultsUnavailable": "Le impostazioni predefinite del gioco non sono ancora disponibili. Ricarica per riprovare.",
+      "deleteFrame": "Elimina cornice",
+      "editHint": "Trascina per spostare · Ctrl + trascina per ridimensionare · Fai clic destro su un pulsante per rimuovere",
       "frameBodyImage": "Immagine del corpo della cornice",
       "frameLabel": "Etichetta cornice",
+      "frameName": "Nome cornice",
       "frameWidth": "Larghezza del riquadro",
       "importDefaultFrameType": "cornice",
       "importFromSkin": "Importa da FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Etichetta",
       "newFrame": "Nuova cornice",
       "noneFound": "Nessuna cornice sovrapposta trovata per questa community.",
+      "resetDefaults": "Ripristina ai valori predefiniti del gioco",
+      "saveChanges": "Salva modifiche",
       "saved": "Frame overlay salvati.",
       "screenPlaceholder": "Questa è la schermata",
       "screenTheme": "Tema schermata",
@@ -672,6 +681,7 @@
         "text": "Testo"
       },
       "selectFrame": "Seleziona cornice",
+      "selectGameToReset": "Seleziona un gioco in Integrazione gioco da reimpostare ai valori predefiniti.",
       "tooltip": {
         "dragBody": "per spostare i componenti",
         "dragTitle": "Trascina",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Trascina"
       },
       "upload": "Carica",
+      "uploadImage": "Carica immagine",
       "useMobiFrame": "Usa Mobi Frame"
     },
     "customizeMenu": {

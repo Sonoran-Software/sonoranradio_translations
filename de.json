@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR-Beispiel",
       "bodyImage": "Körperbild",
       "cancel": "Abbrechen",
+      "changeImage": "Bild ändern",
       "chooseSkin": "Skin auswählen",
       "confirmRemove": "Sind Sie sicher, dass Sie diesen Rahmen entfernen möchten?",
+      "confirmResetDefaults": "Alle Rahmen durch die Standardwerte für dein ausgewähltes Spiel ersetzen? Deine Änderungen bleiben in diesem Editor, bis du auf Änderungen speichern klickst.",
       "create": "Erstellen",
+      "defaultsDraft": "Standardwerte wiederhergestellt. Nicht gespeichert.",
+      "defaultsUnavailable": "Spiel-Standardwerte sind noch nicht verfügbar. Neu laden, um es erneut zu versuchen.",
+      "deleteFrame": "Frame löschen",
+      "editHint": "Zum Verschieben ziehen · Mit Strg + Ziehen zum Ändern der Größe · Rechtsklick auf eine Schaltfläche zum Entfernen",
       "frameBodyImage": "Rahmenkörperbild",
       "frameLabel": "Rahmenbezeichnung",
+      "frameName": "Rahmenname",
       "frameWidth": "Rahmenbreite",
       "importDefaultFrameType": "Rahmentyp der Standardvorlage importieren",
       "importFromSkin": "Aus FiveM importieren (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Bezeichnung",
       "newFrame": "Neuer Rahmen",
       "noneFound": "Keine Overlay-Rahmen für diese Community gefunden.",
+      "resetDefaults": "Auf Spielstandards zurücksetzen",
+      "saveChanges": "Änderungen speichern",
       "saved": "Overlay-Rahmen gespeichert.",
       "screenPlaceholder": "Dies ist der Bildschirm",
       "screenTheme": "Bildschirmdesign",
@@ -672,6 +681,7 @@
         "text": "Text"
       },
       "selectFrame": "Frame auswählen",
+      "selectGameToReset": "Wähle ein Spiel in der Spielintegration aus, um es auf seine Standardwerte zurückzusetzen.",
       "tooltip": {
         "dragBody": "um Komponenten zu verschieben",
         "dragTitle": "Ziehen",
@@ -681,6 +691,7 @@
         "resizeTitle": "STRG+Ziehen"
       },
       "upload": "Hochladen",
+      "uploadImage": "Bild hochladen",
       "useMobiFrame": "Mobi-Frame verwenden"
     },
     "customizeMenu": {

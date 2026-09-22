@@ -651,11 +651,18 @@
       "armaOpfor": "Exemple OPFOR",
       "bodyImage": "Image du corps",
       "cancel": "Annuler",
+      "changeImage": "Modifier l'image",
       "chooseSkin": "Choisir skin.json",
       "confirmRemove": "Êtes-vous sûr de vouloir supprimer ce cadre ?",
+      "confirmResetDefaults": "Remplacer tous les cadres par les valeurs par défaut de votre jeu sélectionné ? Vos modifications restent dans cet éditeur jusqu'à ce que vous cliquiez sur Enregistrer les modifications.",
       "create": "Créer",
+      "defaultsDraft": "Valeurs par défaut restaurées. Non enregistrées.",
+      "defaultsUnavailable": "Les paramètres par défaut du jeu ne sont pas encore disponibles. Rechargez pour réessayer.",
+      "deleteFrame": "Supprimer le cadre",
+      "editHint": "Glisser pour déplacer · Ctrl + glisser pour redimensionner · Clic droit sur un bouton pour supprimer",
       "frameBodyImage": "Corps de l'image du cadre",
       "frameLabel": "Libellé du cadre",
+      "frameName": "Nom du cadre",
       "frameWidth": "Largeur du cadre",
       "importDefaultFrameType": "Type de cadre par défaut à importer",
       "importFromSkin": "Importer depuis FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Libellé",
       "newFrame": "Nouveau cadre",
       "noneFound": "Aucun cadre de superposition trouvé pour cette communauté.",
+      "resetDefaults": "Réinitialiser aux valeurs par défaut du jeu",
+      "saveChanges": "Enregistrer les modifications",
       "saved": "Cadres de superposition enregistrés.",
       "screenPlaceholder": "Voici l’écran",
       "screenTheme": "Thème de l’écran",
@@ -672,6 +681,7 @@
         "text": "Texte"
       },
       "selectFrame": "Sélectionner le cadre",
+      "selectGameToReset": "Sélectionnez un jeu dans l’intégration de jeu pour le réinitialiser à ses paramètres par défaut.",
       "tooltip": {
         "dragBody": "pour déplacer des composants",
         "dragTitle": "glisser",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+glisser"
       },
       "upload": "Téléverser",
+      "uploadImage": "Téléverser l'image",
       "useMobiFrame": "Utiliser Mobi Frame"
     },
     "customizeMenu": {

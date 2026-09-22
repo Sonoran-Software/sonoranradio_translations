@@ -651,11 +651,18 @@
       "armaOpfor": "Ukázka OPFOR",
       "bodyImage": "Obrázek těla",
       "cancel": "Zrušit",
+      "changeImage": "Změnit obrázek",
       "chooseSkin": "Vyberte skin.json",
       "confirmRemove": "Jste si jisti, že chcete odebrat tento rámeček?",
+      "confirmResetDefaults": "Nahradit všechny rámečky výchozími pro vybranou hru? Vaše změny zůstanou v tomto editoru, dokud nekliknete na Uložit změny.",
       "create": "Vytvořit",
+      "defaultsDraft": "Obnoveno na výchozí. Neuloženo.",
+      "defaultsUnavailable": "Výchozí hodnoty hry zatím nejsou k dispozici. Znovu načtěte a zkuste to znovu.",
+      "deleteFrame": "Smazat rámec",
+      "editHint": "Přetáhněte pro přesun · Ctrl + přetažením změňte velikost · Kliknutím pravým tlačítkem na tlačítko jej odeberete",
       "frameBodyImage": "Obrázek těla rámu",
       "frameLabel": "Popisek rámce",
+      "frameName": "Název rámce",
       "frameWidth": "Šířka rámu",
       "importDefaultFrameType": "Výchozí typ rámce",
       "importFromSkin": "Importovat z FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Popisek",
       "newFrame": "Nový rámec",
       "noneFound": "Pro tuto komunitu nebyly nalezeny žádné překryvné rámečky.",
+      "resetDefaults": "Obnovit výchozí nastavení hry",
+      "saveChanges": "Uložit změny",
       "saved": "Překryvné rámy uloženy.",
       "screenPlaceholder": "Toto je obrazovka",
       "screenTheme": "Motiv obrazovky",
@@ -672,6 +681,7 @@
         "text": "Text"
       },
       "selectFrame": "Vybrat rámec",
+      "selectGameToReset": "Vyberte hru v Integraci her, kterou chcete obnovit na výchozí nastavení.",
       "tooltip": {
         "dragBody": "pro přesun komponent",
         "dragTitle": "Táhni",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Táhni"
       },
       "upload": "Nahrát",
+      "uploadImage": "Nahrát obrázek",
       "useMobiFrame": "Použít Mobi Frame"
     },
     "customizeMenu": {

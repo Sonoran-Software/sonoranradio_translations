@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR-voorbeeld",
       "bodyImage": "Achtergrondafbeelding",
       "cancel": "Annuleren",
+      "changeImage": "Afbeelding wijzigen",
       "chooseSkin": "Kies skin",
       "confirmRemove": "Weet je zeker dat je dit frame wilt verwijderen?",
+      "confirmResetDefaults": "Alle frames vervangen door de standaardinstellingen voor je geselecteerde spel? Je wijzigingen blijven in deze editor totdat je op Wijzigingen opslaan klikt.",
       "create": "Maken",
+      "defaultsDraft": "Standaardwaarden hersteld. Niet opgeslagen.",
+      "defaultsUnavailable": "Spelstandaarden zijn nog niet beschikbaar. Herlaad om het opnieuw te proberen.",
+      "deleteFrame": "Venster verwijderen",
+      "editHint": "Sleep om te verplaatsen · Ctrl + slepen om te vergroten of verkleinen · Rechtsklik op een knop om te verwijderen",
       "frameBodyImage": "Kaderachtergrondafbeelding",
       "frameLabel": "Framelabel",
+      "frameName": "Framenaam",
       "frameWidth": "Framebreedte",
       "importDefaultFrameType": "frametype",
       "importFromSkin": "Importeren vanuit FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Label",
       "newFrame": "Nieuw frame",
       "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "resetDefaults": "Terugzetten naar standaardinstellingen van het spel",
+      "saveChanges": "Wijzigingen opslaan",
       "saved": "Overlayframes opgeslagen.",
       "screenPlaceholder": "Dit is het scherm",
       "screenTheme": "Schermthema",
@@ -672,6 +681,7 @@
         "text": "Tekst"
       },
       "selectFrame": "Frame selecteren",
+      "selectGameToReset": "Selecteer een game in Game-integratie om terug te zetten naar de standaardinstellingen.",
       "tooltip": {
         "dragBody": "om componenten te verplaatsen",
         "dragTitle": "Sleep",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Sleep"
       },
       "upload": "Uploaden",
+      "uploadImage": "Afbeelding uploaden",
       "useMobiFrame": "Gebruik Mobi Frame"
     },
     "customizeMenu": {

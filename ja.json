@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR 例",
       "bodyImage": "ボディ画像",
       "cancel": "キャンセル",
+      "changeImage": "画像を変更",
       "chooseSkin": "スキンを選択",
       "confirmRemove": "このフレームを削除してもよろしいですか？",
+      "confirmResetDefaults": "選択したゲームのデフォルトにすべてのフレームを置き換えますか？変更は、保存するまでこのエディタに残ります。",
       "create": "作成",
+      "defaultsDraft": "デフォルトに戻しました。未保存です。",
+      "defaultsUnavailable": "ゲームのデフォルトはまだ利用できません。再読み込みしてもう一度お試しください。",
+      "deleteFrame": "フレームを削除",
+      "editHint": "ドラッグして移動 · Ctrl + ドラッグしてサイズ変更 · ボタンを右クリックして削除",
       "frameBodyImage": "フレーム ボディ画像",
       "frameLabel": "フレーム ラベル",
+      "frameName": "フレーム名",
       "frameWidth": "フレーム幅",
       "importDefaultFrameType": "デフォルトフレームタイプをインポート",
       "importFromSkin": "FiveM からインポート (skin.json)",
@@ -663,6 +670,8 @@
       "label": "ラベル",
       "newFrame": "新しいフレーム",
       "noneFound": "このコミュニティ用のオーバーレイフレームは見つかりませんでした。",
+      "resetDefaults": "ゲームのデフォルトにリセット",
+      "saveChanges": "変更を保存",
       "saved": "オーバーレイフレームを保存しました。",
       "screenPlaceholder": "これは画面です",
       "screenTheme": "画面テーマ",
@@ -672,6 +681,7 @@
         "text": "テキスト"
       },
       "selectFrame": "フレームを選択",
+      "selectGameToReset": "Game Integrationでリセットするゲームを選択してください。",
       "tooltip": {
         "dragBody": "コンポーネントを移動するには",
         "dragTitle": "ドラッグ",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+ドラッグ"
       },
       "upload": "アップロード",
+      "uploadImage": "画像をアップロード",
       "useMobiFrame": "Mobi Frameを使う"
     },
     "customizeMenu": {

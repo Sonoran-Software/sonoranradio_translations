@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR-esimerkki",
       "bodyImage": "Kehokuvake",
       "cancel": "Peruuta",
+      "changeImage": "Vaihda kuva",
       "chooseSkin": "Valitse kuori.json",
       "confirmRemove": "Oletko varma, että haluat poistaa tämän kehyksen?",
+      "confirmResetDefaults": "Korvataanko kaikki kehykset valitun pelin oletusasetuksilla? Muutoksesi pysyvät tässä editorissa, kunnes napsautat Tallenna muutokset.",
       "create": "Luo",
+      "defaultsDraft": "Oletusasetukset palautettu. Ei tallennettu.",
+      "defaultsUnavailable": "Pelin oletuksia ei ole vielä saatavilla. Yritä uudelleen lataamalla.",
+      "deleteFrame": "Poista kehys",
+      "editHint": "Vedä siirtääksesi · Ctrl + vedä muuttaaksesi kokoa · Napsauta painiketta hiiren kakkospainikkeella poistaaksesi",
       "frameBodyImage": "Kehyksen kehokuva",
       "frameLabel": "Kehyksen nimi",
+      "frameName": "Kehyksen nimi",
       "frameWidth": "Kehyksen leveys",
       "importDefaultFrameType": "Oletusarvoinen kehystyyppi",
       "importFromSkin": "Tuo FiveM:stä (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Nimi",
       "newFrame": "Uusi kehys",
       "noneFound": "Tälle yhteisölle ei löytynyt päällekkäiskehyksiä.",
+      "resetDefaults": "Palauta pelin oletusarvot",
+      "saveChanges": "Tallenna muutokset",
       "saved": "Peittokehykset tallennettu.",
       "screenPlaceholder": "Tämä on näyttö",
       "screenTheme": "Näytön teema",
@@ -672,6 +681,7 @@
         "text": "Teksti"
       },
       "selectFrame": "Valitse kehys",
+      "selectGameToReset": "Valitse Game Integrationista peli, jonka asetukset palautetaan oletusasetuksiin.",
       "tooltip": {
         "dragBody": "komponenttien siirtämiseen",
         "dragTitle": "Vedä",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+Vedä"
       },
       "upload": "Lähetä",
+      "uploadImage": "Lähetä kuva",
       "useMobiFrame": "Käytä Mobi Framea"
     },
     "customizeMenu": {

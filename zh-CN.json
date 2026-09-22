@@ -163,8 +163,17 @@
       "armaItemClassNames": "ARMA 物品类名",
       "armaItemClassNamesHint": "输入一个或多个 CfgWeapons 类名，每输入一个后按 Enter。装备已映射的电台会将桌面覆盖层切换到此框架。",
       "armaOpfor": "OPFOR 示例",
+      "changeImage": "更改图片",
+      "confirmResetDefaults": "将所有边框替换为所选游戏的默认值？您的更改会保留在此编辑器中，直到您点击保存更改。",
+      "defaultsDraft": "已恢复默认值。未保存。",
+      "defaultsUnavailable": "游戏默认值尚不可用。重新加载后重试。",
+      "deleteFrame": "删除框架",
+      "editHint": "拖动以移动 · Ctrl + 拖动以调整大小 · 右键单击按钮可移除",
+      "frameName": "框架名称",
       "importNoFramesFound": "未找到带有 body.width 和 screen 的框架。",
       "noneFound": "未找到此社区的叠加边框。",
+      "resetDefaults": "重置为游戏默认设置",
+      "saveChanges": "保存更改",
       "saved": "叠加边框已保存。",
       "screenTheme": "屏幕主题",
       "screenThemes": {
@@ -172,6 +181,8 @@
         "modern": "现代",
         "text": "文本"
       },
+      "selectGameToReset": "在 Game Integration 中选择一个游戏以重置为其默认设置。",
+      "uploadImage": "上传图片",
       "useMobiFrame": "使用 Mobi Frame"
     },
     "customizeMenu": {

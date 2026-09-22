@@ -163,8 +163,17 @@
       "armaItemClassNames": "ARMA item classnamen",
       "armaItemClassNamesHint": "Voer één of meer CfgWeapons-klassenamen in, en druk na elk op Enter. Door een toegewezen radio uit te rusten, schakelt de desktop-overlay naar dit frame.",
       "armaOpfor": "OPFOR-voorbeeld",
+      "changeImage": "Afbeelding wijzigen",
+      "confirmResetDefaults": "Alle kaders vervangen door de standaardinstellingen voor je geselecteerde game? Je wijzigingen blijven in deze editor tot je op Wijzigingen opslaan klikt.",
+      "defaultsDraft": "Standaardwaarden hersteld. Niet opgeslagen.",
+      "defaultsUnavailable": "Spelstandaarden zijn nog niet beschikbaar. Herlaad om opnieuw te proberen.",
+      "deleteFrame": "Frame verwijderen",
+      "editHint": "Sleep om te verplaatsen · Ctrl + slepen om het formaat te wijzigen · Klik met de rechtermuisknop op een knop om te verwijderen",
+      "frameName": "Framenaam",
       "importNoFramesFound": "Geen frames met body.width en screen gevonden.",
       "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "resetDefaults": "Reset naar spelstandaarden",
+      "saveChanges": "Wijzigingen opslaan",
       "saved": "Overlayframes opgeslagen.",
       "screenTheme": "Schermthema",
       "screenThemes": {
@@ -172,6 +181,8 @@
         "modern": "Modern",
         "text": "Tekst"
       },
+      "selectGameToReset": "Selecteer een spel in Game Integration om terug te zetten naar de standaardwaarden.",
+      "uploadImage": "Afbeelding uploaden",
       "useMobiFrame": "Gebruik Mobi Frame"
     },
     "customizeMenu": {

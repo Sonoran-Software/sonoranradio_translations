@@ -651,11 +651,18 @@
       "armaOpfor": "OPFOR-eksempel",
       "bodyImage": "Kroppsbilde",
       "cancel": "Avbryt",
+      "changeImage": "Endre bilde",
       "chooseSkin": "Velg skin.json",
       "confirmRemove": "Er du sikker på at du vil fjerne denne rammen?",
+      "confirmResetDefaults": "Erstatt alle rammer med standardinnstillingene for det valgte spillet? Endringene dine blir værende i denne redigereren til du klikker Lagre endringer.",
       "create": "Opprett",
+      "defaultsDraft": "Standardverdier gjenopprettet. Ikke lagret.",
+      "defaultsUnavailable": "Spillstandarder er ikke tilgjengelige ennå. Last inn på nytt for å prøve igjen.",
+      "deleteFrame": "Slett ramme",
+      "editHint": "Dra for å flytte · Ctrl + dra for å endre størrelse · Høyreklikk en knapp for å fjerne",
       "frameBodyImage": "Rammekroppsbilde",
       "frameLabel": "Rammeetikett",
+      "frameName": "Rammenavn",
       "frameWidth": "Rammebredde",
       "importDefaultFrameType": "Standardrammetype",
       "importFromSkin": "Importer fra FiveM (skin.json)",
@@ -663,6 +670,8 @@
       "label": "Etikett",
       "newFrame": "Ny ramme",
       "noneFound": "Ingen overleggrammer funnet for dette fellesskapet.",
+      "resetDefaults": "Tilbakestill til spillstandarder",
+      "saveChanges": "Lagre endringer",
       "saved": "Overleggsrammer lagret.",
       "screenPlaceholder": "Dette er skjermen",
       "screenTheme": "Skjermtema",
@@ -672,6 +681,7 @@
         "text": "Tekst"
       },
       "selectFrame": "Velg ramme",
+      "selectGameToReset": "Velg et spill i Spillintegrasjon for å tilbakestille til standardinnstillingene.",
       "tooltip": {
         "dragBody": "for å flytte komponenter",
         "dragTitle": "dra",
@@ -681,6 +691,7 @@
         "resizeTitle": "CTRL+dra"
       },
       "upload": "Last opp",
+      "uploadImage": "Last opp bilde",
       "useMobiFrame": "Bruk Mobi Frame"
     },
     "customizeMenu": {
