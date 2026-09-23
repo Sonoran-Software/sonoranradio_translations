@@ -454,7 +454,7 @@
     "fivem": {
       "description": "اربط Sonoran Radio مباشرةً بـ GTA FiveM عبر تكامل FiveM. شاهد كل الميزات الخاصة المتاحة داخل FiveM من خلال التكامل.",
       "eyebrow": "تكامل مباشر",
-      "heading": "تكامل"
+      "heading": "تكاملات"
     },
     "hero": {
       "subtitle": "تحدّث في قنوات راديو واقعية، خصّص تأثيرات صوتك، وتواصل بسلاسة مع ميزات داخل اللعبة لتجربة غامرة حقًا.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "إضافة زر",
+      "addScreen": "إضافة شاشة",
+      "addVariant": "أضف هذا البديل",
       "armaBlufor": "مثال BLUFOR",
       "armaExamples": "أمثلة ARMA 3",
       "armaItemClassNames": "أسماء فئات عناصر ARMA",
@@ -670,7 +672,9 @@
       "label": "تسمية",
       "newFrame": "إطار جديد",
       "noneFound": "لم يتم العثور على إطارات تراكب لهذه المجموعة.",
+      "removeVariant": "احذف هذا البديل",
       "resetDefaults": "إعادة الضبط إلى الإعدادات الافتراضية للعبة",
+      "resetScreen": "إعادة تعيين موضع الشاشة",
       "saveChanges": "حفظ التغييرات",
       "saved": "تم حفظ إطارات التراكب.",
       "screenPlaceholder": "هذه هي الشاشة",
@@ -692,7 +696,14 @@
       },
       "upload": "رفع",
       "uploadImage": "رفع صورة",
-      "useMobiFrame": "استخدم إطار موبا"
+      "useMobiFrame": "استخدم إطار موبا",
+      "variantMissing": "هذا الإطار لا يحتوي على تخطيط لهذا الوضع بعد.",
+      "variantMode": "وضع الإطار",
+      "variantModes": {
+        "aircraft": "طائرات",
+        "onFoot": "على الأقدام",
+        "vehicle": "مركبة"
+      }
     },
     "customizeMenu": {
       "ai": "الذكاء الاصطناعي",

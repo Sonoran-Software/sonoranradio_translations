@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Forbind Sonoran Radio direkte til GTA FiveM med FiveM-integrationen. Se alle de særlige funktioner, der er tilgængelige i FiveM via integrationen.",
       "eyebrow": "Direkte integration",
-      "heading": "integration"
+      "heading": "integrationer"
     },
     "hero": {
       "subtitle": "Chat i realistiske radiokanaler, tilpas dine stemmeeffekter, og forbind dig ubesværet med funktioner i spillet for en virkelig medrivende oplevelse.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Tilføj knap",
+      "addScreen": "Tilføj skærm",
+      "addVariant": "Tilføj denne variant",
       "armaBlufor": "BLUFOR-eksempel",
       "armaExamples": "ARMA 3-eksempler",
       "armaItemClassNames": "ARMA genstandsklassenavne",
@@ -670,7 +672,9 @@
       "label": "Etiket",
       "newFrame": "Ny ramme",
       "noneFound": "Ingen overlay-rammer fundet for dette fællesskab.",
+      "removeVariant": "Fjern denne variant",
       "resetDefaults": "Nulstil til spillets standardindstillinger",
+      "resetScreen": "Nulstil skærmposition",
       "saveChanges": "Gem ændringer",
       "saved": "Overlay-rammer gemt.",
       "screenPlaceholder": "Dette er skærmen",
@@ -692,7 +696,14 @@
       },
       "upload": "Upload",
       "uploadImage": "Upload billede",
-      "useMobiFrame": "Brug Mobi Frame"
+      "useMobiFrame": "Brug Mobi Frame",
+      "variantMissing": "Denne ramme har endnu ikke et layout til denne tilstand.",
+      "variantMode": "Rammemodus",
+      "variantModes": {
+        "aircraft": "Fly",
+        "onFoot": "Til fods",
+        "vehicle": "Køretøj"
+      }
     },
     "customizeMenu": {
       "ai": "AI",

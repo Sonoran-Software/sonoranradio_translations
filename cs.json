@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Přidat tlačítko",
+      "addScreen": "Přidat obrazovku",
+      "addVariant": "Přidat tuto variantu",
       "armaBlufor": "Ukázka BLUFOR",
       "armaExamples": "Příklady ARMA 3",
       "armaItemClassNames": "Názvy tříd položek ARMA",
@@ -670,7 +672,9 @@
       "label": "Popisek",
       "newFrame": "Nový rámec",
       "noneFound": "Pro tuto komunitu nebyly nalezeny žádné překryvné rámečky.",
+      "removeVariant": "Odstranit tuto variantu",
       "resetDefaults": "Obnovit výchozí nastavení hry",
+      "resetScreen": "Resetovat pozici obrazovky",
       "saveChanges": "Uložit změny",
       "saved": "Překryvné rámy uloženy.",
       "screenPlaceholder": "Toto je obrazovka",
@@ -692,7 +696,14 @@
       },
       "upload": "Nahrát",
       "uploadImage": "Nahrát obrázek",
-      "useMobiFrame": "Použít Mobi Frame"
+      "useMobiFrame": "Použít Mobi Frame",
+      "variantMissing": "Tento rámeček ještě nemá rozvržení pro tento režim.",
+      "variantMode": "Režim rámce",
+      "variantModes": {
+        "aircraft": "Letadla",
+        "onFoot": "Pěšky",
+        "vehicle": "Vozidlo"
+      }
     },
     "customizeMenu": {
       "ai": "AI",

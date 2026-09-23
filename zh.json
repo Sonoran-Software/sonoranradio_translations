@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "添加按钮",
+      "addScreen": "添加屏幕",
+      "addVariant": "添加此变体",
       "armaBlufor": "BLUFOR示例",
       "armaExamples": "ARMA 3 示例",
       "armaItemClassNames": "ARMA 物品类名",
@@ -670,7 +672,9 @@
       "label": "标签",
       "newFrame": "新框",
       "noneFound": "未找到此社区的覆盖框架。",
+      "removeVariant": "移除此变体",
       "resetDefaults": "重置为游戏默认值",
+      "resetScreen": "重置屏幕位置",
       "saveChanges": "保存更改",
       "saved": "叠加框架已保存。",
       "screenPlaceholder": "这是屏幕",
@@ -692,7 +696,14 @@
       },
       "upload": "上传",
       "uploadImage": "上传图片",
-      "useMobiFrame": "使用 Mobi Frame"
+      "useMobiFrame": "使用 Mobi Frame",
+      "variantMissing": "此框架尚未有此模式的布局。",
+      "variantMode": "框模式",
+      "variantModes": {
+        "aircraft": "飞机",
+        "onFoot": "徒步",
+        "vehicle": "车辆"
+      }
     },
     "customizeMenu": {
       "ai": "AI",

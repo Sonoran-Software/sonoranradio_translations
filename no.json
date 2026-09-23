@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Koble Sonoran Radio direkte til GTA FiveM med FiveM-integrasjonen. Se alle de spesielle funksjonene som er tilgjengelige i FiveM gjennom integrasjonen.",
       "eyebrow": "Direkte integrasjon",
-      "heading": "Integrasjon"
+      "heading": "Integrasjoner"
     },
     "hero": {
       "subtitle": "Chat i realistiske radiokanaler, tilpass stemmeeffektene dine og koble sømløst til funksjoner i spillet for en virkelig oppslukende opplevelse.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Legg til knapp",
+      "addScreen": "Legg til skjerm",
+      "addVariant": "Legg til denne varianten",
       "armaBlufor": "BLUFOR-eksempel",
       "armaExamples": "ARMA 3-eksempler",
       "armaItemClassNames": "ARMA-varenavn for klasser",
@@ -670,7 +672,9 @@
       "label": "Etikett",
       "newFrame": "Ny ramme",
       "noneFound": "Ingen overleggrammer funnet for dette fellesskapet.",
+      "removeVariant": "Fjern denne varianten",
       "resetDefaults": "Tilbakestill til spillstandarder",
+      "resetScreen": "Tilbakestill skjermposisjon",
       "saveChanges": "Lagre endringer",
       "saved": "Overleggsrammer lagret.",
       "screenPlaceholder": "Dette er skjermen",
@@ -692,7 +696,14 @@
       },
       "upload": "Last opp",
       "uploadImage": "Last opp bilde",
-      "useMobiFrame": "Bruk Mobi Frame"
+      "useMobiFrame": "Bruk Mobi Frame",
+      "variantMissing": "Denne rammen har ennå ikke et oppsett for denne modusen.",
+      "variantMode": "Rammemodus",
+      "variantModes": {
+        "aircraft": "Fly",
+        "onFoot": "Til fots",
+        "vehicle": "Kjøretøy"
+      }
     },
     "customizeMenu": {
       "ai": "KI",

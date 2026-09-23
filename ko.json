@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "버튼 추가",
+      "addScreen": "화면 추가",
+      "addVariant": "이 변형 추가",
       "armaBlufor": "BLUFOR 예시",
       "armaExamples": "ARMA 3 예시",
       "armaItemClassNames": "ARMA 아이템 클래스 이름",
@@ -670,7 +672,9 @@
       "label": "레이블",
       "newFrame": "새 프레임",
       "noneFound": "이 커뮤니티에 대한 오버레이 프레임을 찾을 수 없음.",
+      "removeVariant": "이 변형 제거",
       "resetDefaults": "게임 기본값으로 재설정",
+      "resetScreen": "화면 위치 초기화",
       "saveChanges": "변경 사항 저장",
       "saved": "오버레이 프레임이 저장되었습니다.",
       "screenPlaceholder": "이것은 화면입니다",
@@ -692,7 +696,14 @@
       },
       "upload": "업로드",
       "uploadImage": "이미지 업로드",
-      "useMobiFrame": "Mobi 프레임 사용"
+      "useMobiFrame": "Mobi 프레임 사용",
+      "variantMissing": "이 프레임은 아직 이 모드에 대한 레이아웃이 없습니다.",
+      "variantMode": "프레임 모드",
+      "variantModes": {
+        "aircraft": "항공기",
+        "onFoot": "도보",
+        "vehicle": "차량"
+      }
     },
     "customizeMenu": {
       "ai": "AI",

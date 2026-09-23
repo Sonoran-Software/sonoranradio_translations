@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Verbind Sonoran Radio direct met GTA FiveM met de FiveM-integratie. Bekijk alle speciale functies die binnen FiveM toegankelijk zijn via de integratie.",
       "eyebrow": "Directe integratie",
-      "heading": "Integratie"
+      "heading": "Integraties"
     },
     "hero": {
       "subtitle": "Chat in realistische radiokanalen, pas je voice-effecten aan en verbind moeiteloos met in-game functies voor een echt meeslepende ervaring.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Knop toevoegen",
+      "addScreen": "Scherm toevoegen",
+      "addVariant": "Voeg deze variant toe",
       "armaBlufor": "BLUFOR-voorbeeld",
       "armaExamples": "ARMA 3-voorbeelden",
       "armaItemClassNames": "ARMA itemklassennamen",
@@ -670,7 +672,9 @@
       "label": "Label",
       "newFrame": "Nieuw frame",
       "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "removeVariant": "Verwijder deze variant",
       "resetDefaults": "Terugzetten naar standaardinstellingen van het spel",
+      "resetScreen": "Schermpositie resetten",
       "saveChanges": "Wijzigingen opslaan",
       "saved": "Overlayframes opgeslagen.",
       "screenPlaceholder": "Dit is het scherm",
@@ -692,7 +696,14 @@
       },
       "upload": "Uploaden",
       "uploadImage": "Afbeelding uploaden",
-      "useMobiFrame": "Gebruik Mobi Frame"
+      "useMobiFrame": "Gebruik Mobi Frame",
+      "variantMissing": "Dit frame heeft nog geen lay-out voor deze modus.",
+      "variantMode": "Frame-modus",
+      "variantModes": {
+        "aircraft": "Vliegtuig",
+        "onFoot": "Te voet",
+        "vehicle": "Voertuig"
+      }
     },
     "customizeMenu": {
       "ai": "AI",

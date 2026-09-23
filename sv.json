@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Anslut Sonoran Radio direkt till GTA FiveM med FiveM-integrationen. Se alla specialfunktioner som är tillgängliga i FiveM genom integrationen.",
       "eyebrow": "Direkt integration",
-      "heading": "Integration"
+      "heading": "Integrationer"
     },
     "hero": {
       "subtitle": "Chatta i realistiska radiokanaler, anpassa dina ljudeffekter och anslut enkelt till funktioner i spelet för en verkligt uppslukande upplevelse.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Lägg till knapp",
+      "addScreen": "Lägg till skärm",
+      "addVariant": "Lägg till denna variant",
       "armaBlufor": "BLUFOR-exempel",
       "armaExamples": "ARMA 3-exempel",
       "armaItemClassNames": "ARMA-objektklassnamn",
@@ -670,7 +672,9 @@
       "label": "Etikett",
       "newFrame": "Ny ram",
       "noneFound": "Inga överläggsramar hittades för det här communityt.",
+      "removeVariant": "Ta bort denna variant",
       "resetDefaults": "Återställ till spelstandard",
+      "resetScreen": "Återställ skärmposition",
       "saveChanges": "Spara ändringar",
       "saved": "Överläggsramar sparade.",
       "screenPlaceholder": "Detta är skärmen",
@@ -692,7 +696,14 @@
       },
       "upload": "Ladda upp",
       "uploadImage": "Ladda upp bild",
-      "useMobiFrame": "Använd Mobi Frame"
+      "useMobiFrame": "Använd Mobi Frame",
+      "variantMissing": "Den här ramen har ännu ingen layout för det här läget.",
+      "variantMode": "Ramläge",
+      "variantModes": {
+        "aircraft": "Flygplan",
+        "onFoot": "Till fots",
+        "vehicle": "Fordon"
+      }
     },
     "customizeMenu": {
       "ai": "AI",

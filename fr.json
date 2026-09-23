@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Connectez Sonoran Radio directement à GTA FiveM avec l'intégration FiveM. Découvrez toutes les fonctionnalités spéciales accessibles dans FiveM grâce à l'intégration.",
       "eyebrow": "Intégration directe",
-      "heading": "Intégration"
+      "heading": "Intégrations"
     },
     "hero": {
       "subtitle": "Discutez dans des canaux radio réalistes, personnalisez vos effets vocaux et connectez-vous facilement aux fonctionnalités du jeu pour une expérience vraiment immersive.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Ajouter un bouton",
+      "addScreen": "Ajouter un écran",
+      "addVariant": "Ajouter cette variante",
       "armaBlufor": "Exemple BLUFOR",
       "armaExamples": "Exemples ARMA 3",
       "armaItemClassNames": "Noms de classe des objets ARMA",
@@ -670,7 +672,9 @@
       "label": "Libellé",
       "newFrame": "Nouveau cadre",
       "noneFound": "Aucun cadre de superposition trouvé pour cette communauté.",
+      "removeVariant": "Supprimer cette variante",
       "resetDefaults": "Réinitialiser aux valeurs par défaut du jeu",
+      "resetScreen": "Réinitialiser la position de l’écran",
       "saveChanges": "Enregistrer les modifications",
       "saved": "Cadres de superposition enregistrés.",
       "screenPlaceholder": "Voici l’écran",
@@ -692,7 +696,14 @@
       },
       "upload": "Téléverser",
       "uploadImage": "Téléverser l'image",
-      "useMobiFrame": "Utiliser Mobi Frame"
+      "useMobiFrame": "Utiliser Mobi Frame",
+      "variantMissing": "Ce cadre n'a pas encore de disposition pour ce mode.",
+      "variantMode": "Mode de cadre",
+      "variantModes": {
+        "aircraft": "Aéronef",
+        "onFoot": "À pied",
+        "vehicle": "Véhicule"
+      }
     },
     "customizeMenu": {
       "ai": "IA",

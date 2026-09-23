@@ -118,6 +118,9 @@
       "titlePrefix": "我们",
       "titleSuffix": "开发者。"
     },
+    "fivem": {
+      "heading": "集成"
+    },
     "Jammers": {
       "desc": "配置自定义游戏内物品来干扰附近的无线电信号！",
       "title": "干扰器"
@@ -158,6 +161,8 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "addScreen": "添加屏幕",
+      "addVariant": "添加此变体",
       "armaBlufor": "BLUFOR 示例",
       "armaExamples": "ARMA 3 示例",
       "armaItemClassNames": "ARMA 物品类名",
@@ -172,7 +177,9 @@
       "frameName": "框架名称",
       "importNoFramesFound": "未找到带有 body.width 和 screen 的框架。",
       "noneFound": "未找到此社区的叠加边框。",
+      "removeVariant": "移除此变体",
       "resetDefaults": "重置为游戏默认设置",
+      "resetScreen": "重置屏幕位置",
       "saveChanges": "保存更改",
       "saved": "叠加边框已保存。",
       "screenTheme": "屏幕主题",
@@ -183,7 +190,14 @@
       },
       "selectGameToReset": "在 Game Integration 中选择一个游戏以重置为其默认设置。",
       "uploadImage": "上传图片",
-      "useMobiFrame": "使用 Mobi Frame"
+      "useMobiFrame": "使用 Mobi Frame",
+      "variantMissing": "此框架尚未有此模式的布局。",
+      "variantMode": "框架模式",
+      "variantModes": {
+        "aircraft": "飞机",
+        "onFoot": "步行",
+        "vehicle": "载具"
+      }
     },
     "customizeMenu": {
       "overlay": "覆盖层"

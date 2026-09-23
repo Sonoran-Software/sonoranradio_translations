@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "ボタンを追加",
+      "addScreen": "画面を追加",
+      "addVariant": "このバリアントを追加",
       "armaBlufor": "BLUFOR 例",
       "armaExamples": "ARMA 3 例",
       "armaItemClassNames": "ARMA アイテム クラス名",
@@ -670,7 +672,9 @@
       "label": "ラベル",
       "newFrame": "新しいフレーム",
       "noneFound": "このコミュニティ用のオーバーレイフレームは見つかりませんでした。",
+      "removeVariant": "このバリアントを削除",
       "resetDefaults": "ゲームのデフォルトにリセット",
+      "resetScreen": "画面位置をリセット",
       "saveChanges": "変更を保存",
       "saved": "オーバーレイフレームを保存しました。",
       "screenPlaceholder": "これは画面です",
@@ -692,7 +696,14 @@
       },
       "upload": "アップロード",
       "uploadImage": "画像をアップロード",
-      "useMobiFrame": "Mobi Frameを使う"
+      "useMobiFrame": "Mobi Frameを使う",
+      "variantMissing": "このフレームにはまだこのモード用のレイアウトがありません。",
+      "variantMode": "フレームモード",
+      "variantModes": {
+        "aircraft": "航空機",
+        "onFoot": "徒歩",
+        "vehicle": "車両"
+      }
     },
     "customizeMenu": {
       "ai": "AI",
