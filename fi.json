@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Yhdistä Sonoran Radio suoraan GTA FiveM:ään FiveM-integraatiolla. Katso kaikki erityisominaisuudet, joihin pääsee käsiksi FiveM:ssä integraation kautta.",
       "eyebrow": "Suora integraatio",
-      "heading": "Integraatio"
+      "heading": "Integraatiot"
     },
     "hero": {
       "subtitle": "Keskustele realistisissa radiokanavissa, muokkaa ääniefektejäsi ja yhdistä vaivattomasti pelin sisäisiin ominaisuuksiin aidosti mukaansatempaavaa kokemusta varten.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Lisää painike",
+      "addScreen": "Lisää näyttö",
+      "addVariant": "Lisää tämä muunnelma",
       "armaBlufor": "BLUFOR-esimerkki",
       "armaExamples": "ARMA 3 -esimerkit",
       "armaItemClassNames": "ARMA-tuotteiden luokkanimet",
@@ -670,7 +672,9 @@
       "label": "Nimi",
       "newFrame": "Uusi kehys",
       "noneFound": "Tälle yhteisölle ei löytynyt päällekkäiskehyksiä.",
+      "removeVariant": "Poista tämä muunnelma",
       "resetDefaults": "Palauta pelin oletusarvot",
+      "resetScreen": "Nollaa näytön sijainti",
       "saveChanges": "Tallenna muutokset",
       "saved": "Peittokehykset tallennettu.",
       "screenPlaceholder": "Tämä on näyttö",
@@ -692,7 +696,14 @@
       },
       "upload": "Lähetä",
       "uploadImage": "Lähetä kuva",
-      "useMobiFrame": "Käytä Mobi Framea"
+      "useMobiFrame": "Käytä Mobi Framea",
+      "variantMissing": "Tällä kehyksellä ei ole vielä asettelua tälle tilalle.",
+      "variantMode": "Kehystila",
+      "variantModes": {
+        "aircraft": "Ilma-alus",
+        "onFoot": "Jalankulkutila",
+        "vehicle": "Ajoneuvo"
+      }
     },
     "customizeMenu": {
       "ai": "Tekoäly",

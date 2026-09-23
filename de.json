@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Verbinde Sonoran Radio direkt mit GTA FiveM über die FiveM-Integration. Sieh dir alle speziellen Funktionen an, die in FiveM über die Integration verfügbar sind.",
       "eyebrow": "Direkte Integration",
-      "heading": "Integration"
+      "heading": "Integrationen"
     },
     "hero": {
       "subtitle": "Chatte in realistischen Funkkanälen, passe deine Stimmeffekte an und verbinde dich mühelos mit In-Game-Funktionen für ein wirklich immersives Erlebnis.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Schaltfläche hinzufügen",
+      "addScreen": "Bildschirm hinzufügen",
+      "addVariant": "Diese Variante hinzufügen",
       "armaBlufor": "BLUFOR-Beispiel",
       "armaExamples": "ARMA 3 Beispiele",
       "armaItemClassNames": "ARMA-Artikelklassennamen",
@@ -670,7 +672,9 @@
       "label": "Bezeichnung",
       "newFrame": "Neuer Rahmen",
       "noneFound": "Keine Overlay-Rahmen für diese Community gefunden.",
+      "removeVariant": "Diese Variante entfernen",
       "resetDefaults": "Auf Spielstandards zurücksetzen",
+      "resetScreen": "Bildschirmposition zurücksetzen",
       "saveChanges": "Änderungen speichern",
       "saved": "Overlay-Rahmen gespeichert.",
       "screenPlaceholder": "Dies ist der Bildschirm",
@@ -692,7 +696,14 @@
       },
       "upload": "Hochladen",
       "uploadImage": "Bild hochladen",
-      "useMobiFrame": "Mobi-Frame verwenden"
+      "useMobiFrame": "Mobi-Frame verwenden",
+      "variantMissing": "Dieser Rahmen hat für diesen Modus noch kein Layout.",
+      "variantMode": "Rahmenmodus",
+      "variantModes": {
+        "aircraft": "Flugzeug",
+        "onFoot": "Zu Fuß",
+        "vehicle": "Fahrzeug"
+      }
     },
     "customizeMenu": {
       "ai": "KI",

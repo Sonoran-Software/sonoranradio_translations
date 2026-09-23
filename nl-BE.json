@@ -118,6 +118,9 @@
       "titlePrefix": "Wij",
       "titleSuffix": "Ontwikkelaars."
     },
+    "fivem": {
+      "heading": "Integraties"
+    },
     "Jammers": {
       "desc": "Configureer aangepaste in-game items om nabijgelegen radiosignalen te storen!",
       "title": "Jammers"
@@ -158,6 +161,8 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "addScreen": "Scherm toevoegen",
+      "addVariant": "Voeg deze variant toe",
       "armaBlufor": "BLUFOR-voorbeeld",
       "armaExamples": "ARMA 3-voorbeelden",
       "armaItemClassNames": "ARMA item classnamen",
@@ -172,7 +177,9 @@
       "frameName": "Framenaam",
       "importNoFramesFound": "Geen frames met body.width en screen gevonden.",
       "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "removeVariant": "Verwijder deze variant",
       "resetDefaults": "Reset naar spelstandaarden",
+      "resetScreen": "Schermpositie resetten",
       "saveChanges": "Wijzigingen opslaan",
       "saved": "Overlayframes opgeslagen.",
       "screenTheme": "Schermthema",
@@ -183,7 +190,14 @@
       },
       "selectGameToReset": "Selecteer een spel in Game Integration om terug te zetten naar de standaardwaarden.",
       "uploadImage": "Afbeelding uploaden",
-      "useMobiFrame": "Gebruik Mobi Frame"
+      "useMobiFrame": "Gebruik Mobi Frame",
+      "variantMissing": "Dit frame heeft nog geen indeling voor deze modus.",
+      "variantMode": "Framemodus",
+      "variantModes": {
+        "aircraft": "Vliegtuigen",
+        "onFoot": "Te voet",
+        "vehicle": "Voertuig"
+      }
     },
     "customizeMenu": {
       "overlay": "Overlay"

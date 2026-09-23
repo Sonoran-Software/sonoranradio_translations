@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Sonoran Radio'yu FiveM Entegrasyonu ile doğrudan GTA FiveM'e bağlayın. Entegrasyon aracılığıyla FiveM içinde erişilebilen tüm özel özellikleri görün.",
       "eyebrow": "Doğrudan Entegrasyon",
-      "heading": "Entegrasyon"
+      "heading": "Entegrasyonlar"
     },
     "hero": {
       "subtitle": "Gerçekçi radyo kanallarında sohbet edin, ses efektlerinizi özelleştirin ve gerçekten sürükleyici bir deneyim için oyun içi özelliklerle zahmetsizce bağlantı kurun.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Düğme Ekle",
+      "addScreen": "Ekran ekle",
+      "addVariant": "Bu varyantı ekle",
       "armaBlufor": "BLUFOR Örneği",
       "armaExamples": "ARMA 3 Örnekleri",
       "armaItemClassNames": "ARMA Öğe Sınıf Adları",
@@ -670,7 +672,9 @@
       "label": "Etiket",
       "newFrame": "Yeni Çerçeve",
       "noneFound": "Bu topluluk için kaplama çerçevesi bulunamadı.",
+      "removeVariant": "Bu varyantı kaldır",
       "resetDefaults": "Oyun varsayılanlarına sıfırla",
+      "resetScreen": "Ekran konumunu sıfırla",
       "saveChanges": "Değişiklikleri kaydet",
       "saved": "Katman çerçeveleri kaydedildi.",
       "screenPlaceholder": "Bu ekrandır",
@@ -692,7 +696,14 @@
       },
       "upload": "Yükle",
       "uploadImage": "Görsel yükle",
-      "useMobiFrame": "Mobi Çerçevesini Kullan"
+      "useMobiFrame": "Mobi Çerçevesini Kullan",
+      "variantMissing": "Bu çerçevenin bu mod için henüz bir düzeni yok.",
+      "variantMode": "Çerçeve modu",
+      "variantModes": {
+        "aircraft": "Hava Aracı",
+        "onFoot": "Yaya",
+        "vehicle": "Araç"
+      }
     },
     "customizeMenu": {
       "ai": "Yapay Zeka",

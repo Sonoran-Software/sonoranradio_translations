@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Collega Sonoran Radio direttamente a GTA FiveM con l'integrazione FiveM. Scopri tutte le funzionalità speciali accessibili all'interno di FiveM tramite l'integrazione.",
       "eyebrow": "Integrazione diretta",
-      "heading": "Integrazione"
+      "heading": "Integrazioni"
     },
     "hero": {
       "subtitle": "Chatta in canali radio realistici, personalizza i tuoi effetti vocali e connettiti senza sforzo alle funzionalità di gioco per un'esperienza davvero coinvolgente.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Aggiungi pulsante",
+      "addScreen": "Aggiungi schermata",
+      "addVariant": "Aggiungi questa variante",
       "armaBlufor": "Esempio BLUFOR",
       "armaExamples": "Esempi ARMA 3",
       "armaItemClassNames": "Nomi delle classi degli oggetti ARMA",
@@ -670,7 +672,9 @@
       "label": "Etichetta",
       "newFrame": "Nuova cornice",
       "noneFound": "Nessuna cornice sovrapposta trovata per questa community.",
+      "removeVariant": "Rimuovi questa variante",
       "resetDefaults": "Ripristina ai valori predefiniti del gioco",
+      "resetScreen": "Reimposta posizione schermo",
       "saveChanges": "Salva modifiche",
       "saved": "Frame overlay salvati.",
       "screenPlaceholder": "Questa è la schermata",
@@ -692,7 +696,14 @@
       },
       "upload": "Carica",
       "uploadImage": "Carica immagine",
-      "useMobiFrame": "Usa Mobi Frame"
+      "useMobiFrame": "Usa Mobi Frame",
+      "variantMissing": "Questo riquadro non ha ancora un layout per questa modalità.",
+      "variantMode": "Modalità cornice",
+      "variantModes": {
+        "aircraft": "Aeromobile",
+        "onFoot": "A piedi",
+        "vehicle": "Veicolo"
+      }
     },
     "customizeMenu": {
       "ai": "IA",

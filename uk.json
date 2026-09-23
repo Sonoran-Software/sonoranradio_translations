@@ -118,6 +118,9 @@
       "titlePrefix": "Ми",
       "titleSuffix": "Розробники."
     },
+    "fivem": {
+      "heading": "Інтеграції"
+    },
     "Jammers": {
       "desc": "Налаштуйте власні ігрові предмети, щоб глушити найближчі радіосигнали!",
       "title": "Глушники"
@@ -158,6 +161,8 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "addScreen": "Додати екран",
+      "addVariant": "Додати цей варіант",
       "armaBlufor": "Приклад BLUFOR",
       "armaExamples": "Приклади ARMA 3",
       "armaItemClassNames": "Назви класів предметів ARMA",
@@ -172,7 +177,9 @@
       "frameName": "Назва рамки",
       "importNoFramesFound": "Рамок із body.width і screen не знайдено.",
       "noneFound": "Не знайдено накладних рамок для цього спільноти.",
+      "removeVariant": "Видалити цей варіант",
       "resetDefaults": "Скинути до стандартів гри",
+      "resetScreen": "Скинути положення екрана",
       "saveChanges": "Зберегти зміни",
       "saved": "Накладки збережено.",
       "screenTheme": "Тема екрана",
@@ -183,7 +190,14 @@
       },
       "selectGameToReset": "Виберіть гру в Game Integration, щоб скинути її до стандартних налаштувань.",
       "uploadImage": "Завантажити зображення",
-      "useMobiFrame": "Використовувати Mobi Frame"
+      "useMobiFrame": "Використовувати Mobi Frame",
+      "variantMissing": "Для цієї рамки ще немає макета для цього режиму.",
+      "variantMode": "Режим рамки",
+      "variantModes": {
+        "aircraft": "Літак",
+        "onFoot": "Пішки",
+        "vehicle": "Транспортний засіб"
+      }
     },
     "customizeMenu": {
       "overlay": "Накладка"

@@ -118,6 +118,9 @@
       "titlePrefix": "Nosotros",
       "titleSuffix": "Desarrolladores."
     },
+    "fivem": {
+      "heading": "Integraciones"
+    },
     "Jammers": {
       "desc": "Configura objetos personalizados del juego para interferir señales de radio cercanas!",
       "title": "Interferidores"
@@ -158,6 +161,8 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "addScreen": "Añadir pantalla",
+      "addVariant": "Añadir esta variante",
       "armaBlufor": "Ejemplo BLUFOR",
       "armaExamples": "Ejemplos de ARMA 3",
       "armaItemClassNames": "Nombres de clase de objetos ARMA",
@@ -172,7 +177,9 @@
       "frameName": "Nombre del marco",
       "importNoFramesFound": "No se encontraron marcos con body.width y screen.",
       "noneFound": "No se encontraron marcos superpuestos para esta comunidad.",
+      "removeVariant": "Eliminar esta variante",
       "resetDefaults": "Restablecer valores predeterminados del juego",
+      "resetScreen": "Restablecer posición de la pantalla",
       "saveChanges": "Guardar cambios",
       "saved": "Marcos superpuestos guardados.",
       "screenTheme": "Tema de pantalla",
@@ -183,7 +190,14 @@
       },
       "selectGameToReset": "Selecciona un juego en Integración de juegos para restablecer sus valores predeterminados.",
       "uploadImage": "Subir imagen",
-      "useMobiFrame": "Usar Mobi Frame"
+      "useMobiFrame": "Usar Mobi Frame",
+      "variantMissing": "Este marco todavía no tiene un diseño para este modo.",
+      "variantMode": "Modo de marco",
+      "variantModes": {
+        "aircraft": "Aeronave",
+        "onFoot": "A pie",
+        "vehicle": "Vehículo"
+      }
     },
     "customizeMenu": {
       "overlay": "Superposición"

@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Połącz Sonoran Radio bezpośrednio z GTA FiveM za pomocą integracji FiveM. Zobacz wszystkie specjalne funkcje dostępne w FiveM dzięki integracji.",
       "eyebrow": "Bezpośrednia integracja",
-      "heading": "Integracja"
+      "heading": "Integracje"
     },
     "hero": {
       "subtitle": "Rozmawiaj w realistycznych kanałach radiowych, dostosuj efekty głosu i łącz się bez wysiłku z funkcjami w grze, aby uzyskać naprawdę wciągające doświadczenie.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Dodaj przycisk",
+      "addScreen": "Dodaj ekran",
+      "addVariant": "Dodaj ten wariant",
       "armaBlufor": "Przykład BLUFOR",
       "armaExamples": "Przykłady ARMA 3",
       "armaItemClassNames": "Nazwy klas przedmiotów ARMA",
@@ -670,7 +672,9 @@
       "label": "Etykieta",
       "newFrame": "Nowa ramka",
       "noneFound": "Nie znaleziono żadnych ramek nakładek dla tej społeczności.",
+      "removeVariant": "Usuń ten wariant",
       "resetDefaults": "Przywróć domyślne ustawienia gry",
+      "resetScreen": "Resetuj pozycję ekranu",
       "saveChanges": "Zapisz zmiany",
       "saved": "Nakładki ramki zapisane.",
       "screenPlaceholder": "To jest ekran",
@@ -692,7 +696,14 @@
       },
       "upload": "Prześlij",
       "uploadImage": "Prześlij obraz",
-      "useMobiFrame": "Użyj Mobi Frame"
+      "useMobiFrame": "Użyj Mobi Frame",
+      "variantMissing": "Ta ramka nie ma jeszcze układu dla tego trybu.",
+      "variantMode": "tryb ramki",
+      "variantModes": {
+        "aircraft": "Statki powietrzne",
+        "onFoot": "Pieszo",
+        "vehicle": "Pojazd"
+      }
     },
     "customizeMenu": {
       "ai": "SI",

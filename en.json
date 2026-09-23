@@ -118,6 +118,9 @@
       "titlePrefix": "We",
       "titleSuffix": "Developers."
     },
+    "fivem": {
+      "heading": "Integrations"
+    },
     "Jammers": {
       "desc": "Configure custom in-game items to jam nearby radio signals!",
       "title": "Jammers"
@@ -158,6 +161,8 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "addScreen": "Add screen",
+      "addVariant": "Add this variant",
       "armaBlufor": "BLUFOR Example",
       "armaExamples": "ARMA 3 Examples",
       "armaItemClassNames": "ARMA Item Class Names",
@@ -172,7 +177,9 @@
       "frameName": "Frame name",
       "importNoFramesFound": "No frames with body.width and screen found.",
       "noneFound": "No overlay frames found for this community.",
+      "removeVariant": "Remove this variant",
       "resetDefaults": "Reset to game defaults",
+      "resetScreen": "Reset screen position",
       "saveChanges": "Save changes",
       "saved": "Overlay frames saved.",
       "screenTheme": "Screen Theme",
@@ -183,7 +190,14 @@
       },
       "selectGameToReset": "Select a game in Game Integration to reset to its defaults.",
       "uploadImage": "Upload image",
-      "useMobiFrame": "Use Mobi Frame"
+      "useMobiFrame": "Use Mobi Frame",
+      "variantMissing": "This frame does not have a layout for this mode yet.",
+      "variantMode": "Frame mode",
+      "variantModes": {
+        "aircraft": "Aircraft",
+        "onFoot": "On-foot",
+        "vehicle": "Vehicle"
+      }
     },
     "customizeMenu": {
       "overlay": "Overlay"

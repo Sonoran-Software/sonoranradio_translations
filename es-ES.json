@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Conecta Sonoran Radio directamente a GTA FiveM con la integración de FiveM. Mira todas las funciones especiales accesibles dentro de FiveM a través de la integración.",
       "eyebrow": "Integración directa",
-      "heading": "Integración"
+      "heading": "Integraciones"
     },
     "hero": {
       "subtitle": "Chatea en canales de radio realistas, personaliza tus efectos de voz y conéctate sin esfuerzo con funciones del juego para una experiencia realmente inmersiva.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Añadir botón",
+      "addScreen": "Añadir pantalla",
+      "addVariant": "Añadir esta variante",
       "armaBlufor": "Ejemplo BLUFOR",
       "armaExamples": "Ejemplos de ARMA 3",
       "armaItemClassNames": "Nombres de clase de objeto ARMA",
@@ -670,7 +672,9 @@
       "label": "Etiqueta",
       "newFrame": "Nuevo marco",
       "noneFound": "No se han encontrado marcos superpuestos para esta comunidad.",
+      "removeVariant": "Eliminar esta variante",
       "resetDefaults": "Restablecer a los valores predeterminados del juego",
+      "resetScreen": "Restablecer posición de la pantalla",
       "saveChanges": "Guardar cambios",
       "saved": "Marcos superpuestos guardados.",
       "screenPlaceholder": "Esta es la pantalla",
@@ -692,7 +696,14 @@
       },
       "upload": "Subir",
       "uploadImage": "Subir imagen",
-      "useMobiFrame": "Usar Mobi Frame"
+      "useMobiFrame": "Usar Mobi Frame",
+      "variantMissing": "Este marco todavía no tiene un diseño para este modo.",
+      "variantMode": "Modo de marco",
+      "variantModes": {
+        "aircraft": "Aeronave",
+        "onFoot": "A pie",
+        "vehicle": "Vehículo"
+      }
     },
     "customizeMenu": {
       "ai": "IA",

@@ -454,7 +454,7 @@
     "fivem": {
       "description": "Conecte o Sonoran Radio diretamente ao GTA FiveM com a Integração FiveM. Veja todos os recursos especiais acessíveis dentro do FiveM por meio da integração.",
       "eyebrow": "Integração Direta",
-      "heading": "Integração"
+      "heading": "Integrações"
     },
     "hero": {
       "subtitle": "Converse em canais de rádio realistas, personalize seus efeitos de voz e conecte-se facilmente com recursos do jogo para uma experiência verdadeiramente imersiva.",
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Adicionar botão",
+      "addScreen": "Adicionar tela",
+      "addVariant": "Adicionar esta variante",
       "armaBlufor": "Exemplo BLUFOR",
       "armaExamples": "Exemplos de ARMA 3",
       "armaItemClassNames": "Nomes de Classe de Itens ARMA",
@@ -670,7 +672,9 @@
       "label": "Rótulo",
       "newFrame": "Nova moldura",
       "noneFound": "Nenhum quadro de sobreposição encontrado para esta comunidade.",
+      "removeVariant": "Remover esta variante",
       "resetDefaults": "Restaurar para os padrões do jogo",
+      "resetScreen": "Redefinir posição da tela",
       "saveChanges": "Salvar alterações",
       "saved": "Quadros sobrepostos salvos.",
       "screenPlaceholder": "Esta é a tela",
@@ -692,7 +696,14 @@
       },
       "upload": "Carregar",
       "uploadImage": "Carregar imagem",
-      "useMobiFrame": "Usar Moldura Mobi"
+      "useMobiFrame": "Usar Moldura Mobi",
+      "variantMissing": "Este quadro ainda não tem um layout para este modo.",
+      "variantMode": "Modo de moldura",
+      "variantModes": {
+        "aircraft": "Aeronave",
+        "onFoot": "A pé",
+        "vehicle": "Veículo"
+      }
     },
     "customizeMenu": {
       "ai": "IA",

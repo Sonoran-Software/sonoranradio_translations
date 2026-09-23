@@ -118,6 +118,9 @@
       "titlePrefix": "我們",
       "titleSuffix": "開發者。"
     },
+    "fivem": {
+      "heading": "整合"
+    },
     "Jammers": {
       "desc": "設定自訂遊戲內物品以干擾附近的無線電訊號！",
       "title": "干擾器"
@@ -158,6 +161,8 @@
   },
   "manageServer": {
     "customizeDesktopFrames": {
+      "addScreen": "新增畫面",
+      "addVariant": "新增此變體",
       "armaBlufor": "BLUFOR 範例",
       "armaExamples": "ARMA 3 範例",
       "armaItemClassNames": "ARMA 物品類別名稱",
@@ -172,7 +177,9 @@
       "frameName": "框架名稱",
       "importNoFramesFound": "找不到具有 body.width 和 screen 的框架。",
       "noneFound": "此社群未找到任何疊加框架。",
+      "removeVariant": "移除此變體",
       "resetDefaults": "重設為遊戲預設值",
+      "resetScreen": "重設螢幕位置",
       "saveChanges": "儲存變更",
       "saved": "覆蓋框架已儲存。",
       "screenTheme": "螢幕主題",
@@ -183,7 +190,14 @@
       },
       "selectGameToReset": "在 Game Integration 中選擇一個遊戲以重設為預設值。",
       "uploadImage": "上傳圖片",
-      "useMobiFrame": "使用 Mobi 框架"
+      "useMobiFrame": "使用 Mobi 框架",
+      "variantMissing": "此框架尚未有此模式的版面配置。",
+      "variantMode": "框架模式",
+      "variantModes": {
+        "aircraft": "飛機",
+        "onFoot": "步行模式",
+        "vehicle": "車輛"
+      }
     },
     "customizeMenu": {
       "overlay": "覆蓋層"
