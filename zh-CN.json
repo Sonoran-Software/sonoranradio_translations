@@ -118,6 +118,11 @@
       "titlePrefix": "我们",
       "titleSuffix": "开发者。"
     },
+    "faq": {
+      "free": {
+        "answer": "是。Dispatch AI 在免费方案中完全可用，并包含每月额度。付费方案包含更高的额度上限。"
+      }
+    },
     "fivem": {
       "heading": "集成"
     },
