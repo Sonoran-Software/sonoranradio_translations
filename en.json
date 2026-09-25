@@ -118,6 +118,11 @@
       "titlePrefix": "We",
       "titleSuffix": "Developers."
     },
+    "faq": {
+      "free": {
+        "answer": "Yes. Dispatch AI is fully available on the Free plan with included monthly credits. Paid plans include higher credit limits."
+      }
+    },
     "fivem": {
       "heading": "Integrations"
     },

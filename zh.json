@@ -430,7 +430,7 @@
     },
     "faq": {
       "free": {
-        "answer": "Sonoran Radio 免费版提供开始所需的一切。对于更大的社区，一些高级功能（例如扫描器、AI 调度、自定义 SFX 上传和某些集成）需要 Plus 或 Pro 等付费订阅等级。",
+        "answer": "是。Dispatch AI 在免费方案中完全可用，并包含每月额度。付费方案包含更高的额度上限。",
         "question": "Sonoran Radio 是免费的吗？"
       },
       "guestAccess": {

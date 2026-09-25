@@ -118,6 +118,11 @@
       "titlePrefix": "우리",
       "titleSuffix": "개발자."
     },
+    "faq": {
+      "free": {
+        "answer": "네. Dispatch AI는 무료 플랜에서 포함된 월간 크레딧과 함께 완전히 이용할 수 있습니다. 유료 플랜에는 더 높은 크레딧 한도가 포함됩니다."
+      }
+    },
     "fivem": {
       "heading": "통합"
     },

@@ -118,6 +118,11 @@
       "titlePrefix": "Nosotros",
       "titleSuffix": "Desarrolladores."
     },
+    "faq": {
+      "free": {
+        "answer": "Sí. Dispatch AI está totalmente disponible en el plan Gratis con créditos mensuales incluidos. Los planes de pago incluyen límites de crédito más altos."
+      }
+    },
     "fivem": {
       "heading": "Integraciones"
     },

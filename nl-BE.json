@@ -118,6 +118,11 @@
       "titlePrefix": "Wij",
       "titleSuffix": "Ontwikkelaars."
     },
+    "faq": {
+      "free": {
+        "answer": "Ja. Dispatch AI is volledig beschikbaar op het Gratis abonnement met inbegrepen maandelijkse credits. Betaalde abonnementen omvatten hogere creditlimieten."
+      }
+    },
     "fivem": {
       "heading": "Integraties"
     },

@@ -118,6 +118,11 @@
       "titlePrefix": "我們",
       "titleSuffix": "開發者。"
     },
+    "faq": {
+      "free": {
+        "answer": "是。Dispatch AI 在免費方案中可完整使用，並包含每月點數。付費方案則提供更高的點數上限。"
+      }
+    },
     "fivem": {
       "heading": "整合"
     },
