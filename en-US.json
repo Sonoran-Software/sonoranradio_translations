@@ -321,10 +321,13 @@
     "browserLoginInstruction": "Open the link page in your browser to sign in.",
     "guestLogin": "Guest Login",
     "guestLoginInstruction": "Login as guest",
+    "forceGuestAccessDenied": "Guest radio access is not enabled for your player. Ask a server administrator to grant the sonoranradio.guest ACE permission.",
+    "guestConnectionLost": "Guest radio connection lost.",
     "loginWithAccount": "Account Login",
     "loginWithCode": "Link Your Account",
     "openLinkButton": "Link",
     "refresh": "Refresh",
+    "retryGuestLogin": "Retry guest connection",
     "unlink": "Unlink"
   },
   "geoZoneViewer": {
