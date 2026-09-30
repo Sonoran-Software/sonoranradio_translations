@@ -430,7 +430,7 @@
     },
     "faq": {
       "free": {
-        "answer": "Sonoran Radio 免费版提供开始所需的一切。对于更大的社区，一些高级功能（例如扫描器、AI 调度、自定义 SFX 上传和某些集成）需要 Plus 或 Pro 等付费订阅等级。",
+        "answer": "是。Dispatch AI 在免费方案中完全可用，并包含每月额度。付费方案包含更高的额度上限。",
         "question": "Sonoran Radio 是免费的吗？"
       },
       "guestAccess": {
@@ -644,6 +644,8 @@
     },
     "customizeDesktopFrames": {
       "addButton": "添加按钮",
+      "addScreen": "添加屏幕",
+      "addVariant": "添加此变体",
       "armaBlufor": "BLUFOR示例",
       "armaExamples": "ARMA 3 示例",
       "armaItemClassNames": "ARMA 物品类名",
@@ -670,7 +672,9 @@
       "label": "标签",
       "newFrame": "新框",
       "noneFound": "未找到此社区的覆盖框架。",
+      "removeVariant": "移除此变体",
       "resetDefaults": "重置为游戏默认值",
+      "resetScreen": "重置屏幕位置",
       "saveChanges": "保存更改",
       "saved": "叠加框架已保存。",
       "screenPlaceholder": "这是屏幕",
@@ -692,7 +696,14 @@
       },
       "upload": "上传",
       "uploadImage": "上传图片",
-      "useMobiFrame": "使用 Mobi Frame"
+      "useMobiFrame": "使用 Mobi Frame",
+      "variantMissing": "此框架尚未有此模式的布局。",
+      "variantMode": "框模式",
+      "variantModes": {
+        "aircraft": "飞机",
+        "onFoot": "徒步",
+        "vehicle": "车辆"
+      }
     },
     "customizeMenu": {
       "ai": "AI",
