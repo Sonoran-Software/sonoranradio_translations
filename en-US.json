@@ -715,8 +715,8 @@
       },
       "vehicleName": "ER:LC vehicle name",
       "vehicleNameRequired": "Enter a vehicle name for each override.",
-      "vehicleOverrideHint": "Vehicle names match exactly, ignoring capitalization and spaces at the start or end. Automatic ER:LC vehicle detection is pending a reliable occupancy signal.",
-      "visibilityHint": "Choose the default desktop frames now. Vehicle overrides are saved for automatic selection when ER:LC vehicle detection is available.",
+      "vehicleOverrideHint": "Vehicle names match exactly, ignoring capitalization and spaces at the start or end. In the desktop frame, enable ER:LC vehicle detection to use a vehicle-specific frame when a single vehicle name is available.",
+      "visibilityHint": "Choose default desktop frames for being on foot or when no vehicle name matches. Vehicle overrides select frames automatically when ER:LC vehicle detection finds a matching name.",
       "visibilityTitle": "Frame visibility",
       "visibleFrames": "Visible frames"
     },
@@ -1455,8 +1455,13 @@
         "statusUnknown": "Unable to determine vehicle state",
         "title": "ER:LC vehicle detection",
         "window": "Roblox window",
+        "vehicleAmbiguous": "ER:LC found multiple vehicles owned by your account and cannot identify which one you are in. Default frames stay active.",
+        "vehicleApiUnavailable": "ER:LC vehicle data is unavailable. Default frames stay active.",
         "vehicleMatch": "ER:LC vehicle name candidate: {name}",
-        "vehicleUnavailable": "No single ER:LC vehicle name found. Default frames stay active."
+        "vehicleNone": "ER:LC found no vehicle owned by your account. Default frames stay active.",
+        "vehicleNotConfigured": "Configure the ER:LC API and link your Roblox account to identify vehicle names. Default frames stay active.",
+        "vehicleUnavailable": "No single ER:LC vehicle name found. Default frames stay active.",
+        "vehicleWaiting": "Waiting for ER:LC vehicle data. Default frames stay active."
       },
       "escapeMode": "Escape Mode",
       "escapeModeHide": "Hide Radio",
