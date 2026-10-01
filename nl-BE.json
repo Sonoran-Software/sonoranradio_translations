@@ -109,6 +109,11 @@
     "overlayFiveMDescription": "Pas je FiveM in-game radio en desktopoverlay aan. FiveM-wijzigingen synchroniseren binnen vijf minuten met een compatibele resourceversie.",
     "overlaySelectGame": "Controleer je community’s game in Game Integration om de overeenkomstige overlayfuncties te gebruiken."
   },
+  "hotkeys": {
+    "changeRadioFrame": "Wijzig radiokader",
+    "nextRadioFrame": "Volgend radiokader",
+    "previousRadioFrame": "Vorig radioframe"
+  },
   "landingPage": {
     "developers": {
       "button": "Ontdek ontwikkelaarstools",
@@ -168,21 +173,28 @@
     "customizeDesktopFrames": {
       "addScreen": "Scherm toevoegen",
       "addVariant": "Voeg deze variant toe",
+      "addVehicleOverride": "Voertuigoverschrijving toevoegen",
       "armaBlufor": "BLUFOR-voorbeeld",
       "armaExamples": "ARMA 3-voorbeelden",
       "armaItemClassNames": "ARMA item classnamen",
       "armaItemClassNamesHint": "Voer één of meer CfgWeapons-klassenamen in, en druk na elk op Enter. Door een toegewezen radio uit te rusten, schakelt de desktop-overlay naar dit frame.",
       "armaOpfor": "OPFOR-voorbeeld",
       "changeImage": "Afbeelding wijzigen",
-      "confirmResetDefaults": "Alle kaders vervangen door de standaardinstellingen voor je geselecteerde game? Je wijzigingen blijven in deze editor tot je op Wijzigingen opslaan klikt.",
+      "confirmResetDefaults": "Alle frames en zichtbaarheidsregels vervangen door de standaardinstellingen voor je geselecteerde spel? Je wijzigingen blijven in deze editor totdat je op Wijzigingen opslaan klikt.",
+      "defaultFramesRequired": "Selecteer minstens één standaardframe.",
       "defaultsDraft": "Standaardwaarden hersteld. Niet opgeslagen.",
       "defaultsUnavailable": "Spelstandaarden zijn nog niet beschikbaar. Herlaad om opnieuw te proberen.",
+      "defaultVisibleFrames": "Standaard zichtbare frames",
+      "defaultVisibleFramesHint": "Weergegeven te voet en in voertuigen zonder overeenkomstige overschrijving.",
       "deleteFrame": "Frame verwijderen",
+      "duplicateVehicleName": "Elke voertuignaam kan maar één overschrijving hebben.",
       "editHint": "Sleep om te verplaatsen · Ctrl + slepen om het formaat te wijzigen · Klik met de rechtermuisknop op een knop om te verwijderen",
       "frameName": "Framenaam",
       "importNoFramesFound": "Geen frames met body.width en screen gevonden.",
       "noneFound": "Geen overlayframes gevonden voor deze community.",
+      "overrideFramesRequired": "Selecteer voor elke voertuigoverschrijving minstens één frame.",
       "removeVariant": "Verwijder deze variant",
+      "removeVehicleOverride": "Voertuigoverschrijving verwijderen",
       "resetDefaults": "Reset naar spelstandaarden",
       "resetScreen": "Schermpositie resetten",
       "saveChanges": "Wijzigingen opslaan",
@@ -202,7 +214,13 @@
         "aircraft": "Vliegtuigen",
         "onFoot": "Te voet",
         "vehicle": "Voertuig"
-      }
+      },
+      "vehicleName": "ER:LC-voertuignaam",
+      "vehicleNameRequired": "Voer voor elke overschrijving een voertuignaam in.",
+      "vehicleOverrideHint": "Voertuignamen komen exact overeen, hoofdlettergebruik en spaties aan het begin of einde worden genegeerd. Schakel in het desktopframe ER:LC voertuigdetectie in om een voertuigspecifiek frame te gebruiken wanneer er één voertuignaam beschikbaar is.",
+      "visibilityHint": "Kies standaard desktopframes voor te voet of wanneer geen voertuignaam overeenkomt. Voertuigoverschrijvingen selecteren frames automatisch wanneer ER:LC-voertuigdetectie een overeenkomende naam vindt.",
+      "visibilityTitle": "Zichtbaarheid van kader",
+      "visibleFrames": "Zichtbare frames"
     },
     "customizeMenu": {
       "overlay": "Overlay"
@@ -269,6 +287,38 @@
       "dispatchAiSpeechRecognitionAi": "AI-verbeterd (nauwkeuriger)",
       "dispatchAiSpeechRecognitionHint": "AI-verbeterde uploads uploaden je Dispatch AI-opdrachtsaudio en voegen de geschatte transcriptiekost toe aan het maandelijkse verbruik van je community.",
       "dispatchAiSpeechRecognitionLocal": "Lokaal (sneller, geen transcriptiegebruik)",
+      "erlcHud": {
+        "autoWindow": "Roblox-venster automatisch zoeken",
+        "enable": "Gebruik schermdetectie",
+        "lastReading": "Laatste metercontrole",
+        "noWindows": "Geen Roblox-venster gevonden. Open ER:LC en vernieuw daarna de vensterlijst.",
+        "privacy": "Sonoran Radio controleert de Roblox-snelheidsmeter op dit toestel om voertuigvarianten te wisselen. Als ER:LC exact één voertuig rapporteert dat eigendom is van je account, kan de naam ook een specifiek frame selecteren. Schermafbeeldingen worden niet opgeslagen of geüpload. Op macOS moet je mogelijk Screen & System Audio Recording toestaan voor Sonoran Radio.",
+        "readingGaugeAbsent": "Meter niet gevonden",
+        "readingGaugeFound": "Meter gevonden",
+        "readingUncertain": "Onzekere overeenkomst",
+        "readingUnreadable": "Roblox-venster onleesbaar",
+        "readingWaiting": "Wachten op Roblox-opname",
+        "refreshWindows": "Roblox-vensters vernieuwen",
+        "status": "Detectiestatus",
+        "statusChecking": "Roblox-venster controleren",
+        "statusDisabled": "Uit",
+        "statusError": "Kan het Roblox-venster niet lezen",
+        "statusInVehicle": "In een voertuig",
+        "statusLooking": "Roblox-venster zoeken",
+        "statusOnFoot": "Te voet",
+        "statusPermissionDenied": "Schermopname toestemming geweigerd",
+        "statusUnknown": "Kan voertuigstatus niet bepalen",
+        "title": "ER:LC voertuigdetectie",
+        "vehicleAmbiguous": "ER:LC heeft meerdere eigendomsvoertuignamen gevonden en kan geen naamspecifieke frame-overschrijving selecteren.",
+        "vehicleApiUnavailable": "ER:LC voertuignamen zijn niet beschikbaar. Naamspecifieke frame-overrides zijn inactief.",
+        "vehicleMatch": "ER:LC-voertuignaam kandidaat: {name}",
+        "vehicleNone": "ER:LC vond geen voertuig dat eigendom is van je account. Naamspecifieke frame-overrides zijn inactief.",
+        "vehicleNotConfigured": "Configureer de ER:LC API en koppel je Roblox-account om naamspecifieke frame-overrides te gebruiken.",
+        "vehicleRequestError": "De ER:LC-voertuigopzoeking is mislukt. Controleer je verbinding en probeer opnieuw; naamspecifieke frame-overrides zijn inactief.",
+        "vehicleUnavailable": "Geen enkel ER:LC-voertuignaam gevonden. Naamspecifieke frame-overrides zijn inactief.",
+        "vehicleWaiting": "Wachten op ER:LC-voertuiggegevens. Naamspecifieke frame-overrides zijn inactief.",
+        "window": "Roblox-venster"
+      },
       "recentAiResponseLabel": "AI-respons",
       "sameAsPanelLanguage": "Zelfde als paneeltaal"
     }
