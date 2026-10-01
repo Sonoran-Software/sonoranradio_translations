@@ -109,6 +109,11 @@
     "overlayFiveMDescription": "FiveM 게임 내 라디오와 데스크톱 오버레이를 사용자 지정하세요. FiveM 변경 사항은 호환 가능한 리소스 버전에서 5분 이내에 동기화됩니다.",
     "overlaySelectGame": "Game Integration에서 커뮤니티의 게임을 확인하여 일치하는 오버레이 기능을 사용하세요."
   },
+  "hotkeys": {
+    "changeRadioFrame": "라디오 프레임 변경",
+    "nextRadioFrame": "다음 라디오 프레임",
+    "previousRadioFrame": "이전 Radio 프레임"
+  },
   "landingPage": {
     "developers": {
       "button": "개발자 도구 둘러보기",
@@ -168,21 +173,28 @@
     "customizeDesktopFrames": {
       "addScreen": "화면 추가",
       "addVariant": "이 변형 추가",
+      "addVehicleOverride": "차량 재정의 추가",
       "armaBlufor": "BLUFOR 예시",
       "armaExamples": "ARMA 3 예시",
       "armaItemClassNames": "ARMA 아이템 클래스 이름",
       "armaItemClassNamesHint": "CfgWeapons 클래스 이름을 하나 이상 입력하고 각 항목 뒤에 Enter를 누르세요. 매핑된 라디오를 장착하면 데스크톱 오버레이가 이 프레임으로 전환됩니다.",
       "armaOpfor": "OPFOR 예시",
       "changeImage": "이미지 변경",
-      "confirmResetDefaults": "선택한 게임의 기본값으로 모든 프레임을 바꾸시겠습니까? 변경 사항은 저장 변경 사항을 클릭할 때까지 이 편집기에서 유지됩니다.",
+      "confirmResetDefaults": "모든 프레임과 표시 규칙을 선택한 게임의 기본값으로 바꾸시겠습니까? 변경 내용은 변경 사항 저장을 클릭할 때까지 이 편집기에서 유지됩니다.",
+      "defaultFramesRequired": "기본 프레임을 하나 이상 선택하세요.",
       "defaultsDraft": "기본값이 복원되었습니다. 저장되지 않음.",
       "defaultsUnavailable": "게임 기본값은 아직 사용할 수 없습니다. 다시 시도하려면 다시 불러오세요.",
+      "defaultVisibleFrames": "기본 표시 프레임",
+      "defaultVisibleFramesHint": "도보 및 일치하는 재정의가 없는 차량에서 표시됨.",
       "deleteFrame": "프레임 삭제",
+      "duplicateVehicleName": "각 차량 이름에는 하나의 재정의만 사용할 수 있습니다.",
       "editHint": "드래그하여 이동 · Ctrl + 드래그하여 크기 조정 · 버튼을 마우스 오른쪽 버튼으로 클릭하여 제거",
       "frameName": "프레임 이름",
       "importNoFramesFound": "body.width와 screen이 있는 프레임을 찾을 수 없음.",
       "noneFound": "이 커뮤니티에 대해 찾은 오버레이 프레임이 없습니다.",
+      "overrideFramesRequired": "각 차량 오버라이드마다 프레임을 하나 이상 선택하세요.",
       "removeVariant": "이 변형 제거",
+      "removeVehicleOverride": "차량 재정의 제거",
       "resetDefaults": "게임 기본값으로 초기화",
       "resetScreen": "화면 위치 초기화",
       "saveChanges": "변경 사항 저장",
@@ -202,7 +214,13 @@
         "aircraft": "항공기",
         "onFoot": "도보",
         "vehicle": "차량"
-      }
+      },
+      "vehicleName": "ER:LC 차량 이름",
+      "vehicleNameRequired": "각 재정의에 차량 이름을 입력하세요.",
+      "vehicleOverrideHint": "차량 이름은 대소문자와 앞뒤 공백을 무시하고 정확히 일치합니다. 데스크톱 프레임에서 ER:LC 차량 감지를 활성화하면 단일 차량 이름을 사용할 수 있을 때 차량별 프레임을 사용할 수 있습니다.",
+      "visibilityHint": "도보 중이거나 차량 이름이 일치하지 않을 때 사용할 기본 데스크톱 프레임을 선택하세요. 차량 오버라이드는 ER:LC 차량 감지가 일치하는 이름을 찾으면 자동으로 프레임을 선택합니다.",
+      "visibilityTitle": "프레임 표시",
+      "visibleFrames": "표시 프레임"
     },
     "customizeMenu": {
       "overlay": "오버레이"
@@ -269,6 +287,38 @@
       "dispatchAiSpeechRecognitionAi": "AI 향상됨 (더 정확함)",
       "dispatchAiSpeechRecognitionHint": "AI 향상 기능은 당신의 Dispatch AI 명령 오디오를 업로드하고 추정 전사 비용을 커뮤니티의 월간 사용량에 추가합니다.",
       "dispatchAiSpeechRecognitionLocal": "로컬(더 빠름, 전사 사용량 없음)",
+      "erlcHud": {
+        "autoWindow": "Roblox 창을 자동으로 찾기",
+        "enable": "화면 감지 사용",
+        "lastReading": "마지막 게이지 확인",
+        "noWindows": "Roblox 창을 찾을 수 없습니다. ER:LC를 연 다음 창 목록을 새로고침하세요.",
+        "privacy": "Sonoran Radio는 이 기기의 Roblox 속도계를 확인해 차량 변형을 전환합니다. ER:LC가 계정이 소유한 차량이 정확히 하나라고 보고하면 그 이름으로 특정 프레임도 선택할 수 있습니다. 화면 이미지는 저장되거나 업로드되지 않습니다. macOS에서는 Sonoran Radio에 대해 Screen & System Audio Recording을 허용해야 할 수 있습니다.",
+        "readingGaugeAbsent": "게이지를 찾을 수 없음",
+        "readingGaugeFound": "게이지를 찾음",
+        "readingUncertain": "불확실한 일치",
+        "readingUnreadable": "Roblox 창을 읽을 수 없음",
+        "readingWaiting": "Roblox 캡처를 기다리는 중",
+        "refreshWindows": "Roblox 창 새로고침",
+        "status": "탐지 상태",
+        "statusChecking": "Roblox 창 확인 중",
+        "statusDisabled": "끔",
+        "statusError": "Roblox 창을 읽을 수 없음",
+        "statusInVehicle": "차량 탑승 중",
+        "statusLooking": "Roblox 창 찾는 중",
+        "statusOnFoot": "도보",
+        "statusPermissionDenied": "화면 녹화 권한이 거부됨",
+        "statusUnknown": "차량 상태를 확인할 수 없음",
+        "title": "ER:LC 차량 감지",
+        "vehicleAmbiguous": "ER:LC에서 소유한 차량 이름이 여러 개 발견되어 이름별 프레임 오버라이드를 선택할 수 없습니다.",
+        "vehicleApiUnavailable": "ER:LC 차량 이름을 사용할 수 없습니다. 이름별 프레임 오버라이드는 비활성화되어 있습니다.",
+        "vehicleMatch": "ER:LC 차량 이름 후보: {name}",
+        "vehicleNone": "ER:LC는 귀하의 계정이 소유한 차량을 찾지 못했습니다. 이름별 프레임 오버라이드는 비활성화되어 있습니다.",
+        "vehicleNotConfigured": "ER:LC API를 설정하고 Roblox 계정을 연결하여 이름별 프레임 재정의를 사용하세요.",
+        "vehicleRequestError": "ER:LC 차량 조회에 실패했습니다. 연결을 확인하고 다시 시도하세요; 이름별 프레임 오버라이드는 비활성화되어 있습니다.",
+        "vehicleUnavailable": "단일 ER:LC 차량 이름을 찾지 못했습니다. 이름별 프레임 오버라이드는 비활성화되어 있습니다.",
+        "vehicleWaiting": "ER:LC 차량 데이터를 기다리는 중입니다. 이름별 프레임 오버라이드는 비활성화되어 있습니다.",
+        "window": "Roblox 창"
+      },
       "recentAiResponseLabel": "AI 응답",
       "sameAsPanelLanguage": "패널 언어와 동일"
     }

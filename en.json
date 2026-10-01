@@ -109,6 +109,11 @@
     "overlayFiveMDescription": "Customize your FiveM in-game radio and desktop overlay. FiveM changes sync within five minutes with a compatible resource version.",
     "overlaySelectGame": "Check your community’s game in Game Integration to use the matching overlay features."
   },
+  "hotkeys": {
+    "changeRadioFrame": "Change Radio Frame",
+    "nextRadioFrame": "Next Radio Frame",
+    "previousRadioFrame": "Previous Radio Frame"
+  },
   "landingPage": {
     "developers": {
       "button": "Explore Developer Tools",
@@ -168,21 +173,28 @@
     "customizeDesktopFrames": {
       "addScreen": "Add screen",
       "addVariant": "Add this variant",
+      "addVehicleOverride": "Add vehicle override",
       "armaBlufor": "BLUFOR Example",
       "armaExamples": "ARMA 3 Examples",
       "armaItemClassNames": "ARMA Item Class Names",
       "armaItemClassNamesHint": "Enter one or more CfgWeapons class names, pressing Enter after each. Equipping a mapped radio switches the desktop overlay to this frame.",
       "armaOpfor": "OPFOR Example",
       "changeImage": "Change image",
-      "confirmResetDefaults": "Replace all frames with the defaults for your selected game? Your changes stay in this editor until you click Save changes.",
+      "confirmResetDefaults": "Replace all frames and visibility rules with the defaults for your selected game? Your changes stay in this editor until you click Save changes.",
+      "defaultFramesRequired": "Select at least one default frame.",
       "defaultsDraft": "Defaults restored. Not saved.",
       "defaultsUnavailable": "Game defaults are not available yet. Reload to try again.",
+      "defaultVisibleFrames": "Default visible frames",
+      "defaultVisibleFramesHint": "Shown on foot and in vehicles without a matching override.",
       "deleteFrame": "Delete frame",
+      "duplicateVehicleName": "Each vehicle name can have only one override.",
       "editHint": "Drag to move · Ctrl + drag to resize · Right-click a button to remove",
       "frameName": "Frame name",
       "importNoFramesFound": "No frames with body.width and screen found.",
       "noneFound": "No overlay frames found for this community.",
+      "overrideFramesRequired": "Select at least one frame for each vehicle override.",
       "removeVariant": "Remove this variant",
+      "removeVehicleOverride": "Remove vehicle override",
       "resetDefaults": "Reset to game defaults",
       "resetScreen": "Reset screen position",
       "saveChanges": "Save changes",
@@ -202,7 +214,13 @@
         "aircraft": "Aircraft",
         "onFoot": "On-foot",
         "vehicle": "Vehicle"
-      }
+      },
+      "vehicleName": "ER:LC vehicle name",
+      "vehicleNameRequired": "Enter a vehicle name for each override.",
+      "vehicleOverrideHint": "Vehicle names match exactly, ignoring capitalization and spaces at the start or end. In the desktop frame, enable ER:LC vehicle detection to use a vehicle-specific frame when a single vehicle name is available.",
+      "visibilityHint": "Choose default desktop frames for being on foot or when no vehicle name matches. Vehicle overrides select frames automatically when ER:LC vehicle detection finds a matching name.",
+      "visibilityTitle": "Frame visibility",
+      "visibleFrames": "Visible frames"
     },
     "customizeMenu": {
       "overlay": "Overlay"
@@ -269,6 +287,38 @@
       "dispatchAiSpeechRecognitionAi": "AI enhanced (more accurate)",
       "dispatchAiSpeechRecognitionHint": "AI enhanced uploads your Dispatch AI command audio and adds its estimated transcription cost to your community's monthly usage.",
       "dispatchAiSpeechRecognitionLocal": "Local (faster, no transcription usage)",
+      "erlcHud": {
+        "autoWindow": "Find Roblox window automatically",
+        "enable": "Use screen detection",
+        "lastReading": "Last gauge check",
+        "noWindows": "No Roblox window found. Open ER:LC, then refresh the window list.",
+        "privacy": "Sonoran Radio checks the Roblox speedometer on this device to switch vehicle variants. If ER:LC reports exactly one vehicle owned by your account, its name can also select a specific frame. Screen images are not saved or uploaded. On macOS, you may need to allow Screen & System Audio Recording for Sonoran Radio.",
+        "readingGaugeAbsent": "Gauge not found",
+        "readingGaugeFound": "Gauge found",
+        "readingUncertain": "Uncertain match",
+        "readingUnreadable": "Roblox window unreadable",
+        "readingWaiting": "Waiting for Roblox capture",
+        "refreshWindows": "Refresh Roblox windows",
+        "status": "Detection status",
+        "statusChecking": "Checking Roblox window",
+        "statusDisabled": "Off",
+        "statusError": "Unable to read the Roblox window",
+        "statusInVehicle": "In a vehicle",
+        "statusLooking": "Looking for Roblox window",
+        "statusOnFoot": "On foot",
+        "statusPermissionDenied": "Screen recording permission denied",
+        "statusUnknown": "Unable to determine vehicle state",
+        "title": "ER:LC vehicle detection",
+        "vehicleAmbiguous": "ER:LC found multiple owned vehicle names and cannot select a name-specific frame override.",
+        "vehicleApiUnavailable": "ER:LC vehicle names are unavailable. Name-specific frame overrides are inactive.",
+        "vehicleMatch": "ER:LC vehicle name candidate: {name}",
+        "vehicleNone": "ER:LC found no vehicle owned by your account. Name-specific frame overrides are inactive.",
+        "vehicleNotConfigured": "Configure the ER:LC API and link your Roblox account to use name-specific frame overrides.",
+        "vehicleRequestError": "The ER:LC vehicle lookup failed. Check your connection and try again; name-specific frame overrides are inactive.",
+        "vehicleUnavailable": "No single ER:LC vehicle name found. Name-specific frame overrides are inactive.",
+        "vehicleWaiting": "Waiting for ER:LC vehicle data. Name-specific frame overrides are inactive.",
+        "window": "Roblox window"
+      },
       "recentAiResponseLabel": "AI response",
       "sameAsPanelLanguage": "Same as panel language"
     }

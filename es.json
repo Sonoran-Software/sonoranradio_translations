@@ -109,6 +109,11 @@
     "overlayFiveMDescription": "Personaliza tu radio del juego y la superposición de escritorio de FiveM. Los cambios de FiveM se sincronizan en cinco minutos con una versión de recurso compatible.",
     "overlaySelectGame": "Comprueba el juego de tu comunidad en Integración de juegos para usar las funciones de superposición correspondientes."
   },
+  "hotkeys": {
+    "changeRadioFrame": "Cambiar marco de radio",
+    "nextRadioFrame": "Siguiente marco de radio",
+    "previousRadioFrame": "Marco de radio anterior"
+  },
   "landingPage": {
     "developers": {
       "button": "Explorar herramientas para desarrolladores",
@@ -168,21 +173,28 @@
     "customizeDesktopFrames": {
       "addScreen": "Añadir pantalla",
       "addVariant": "Añadir esta variante",
+      "addVehicleOverride": "Añadir anulación del vehículo",
       "armaBlufor": "Ejemplo BLUFOR",
       "armaExamples": "Ejemplos de ARMA 3",
       "armaItemClassNames": "Nombres de clase de objetos ARMA",
       "armaItemClassNamesHint": "Introduce uno o más nombres de clase CfgWeapons, pulsando Intro después de cada uno. Equipar una radio asignada cambia la superposición de escritorio a este marco.",
       "armaOpfor": "Ejemplo OPFOR",
       "changeImage": "Cambiar imagen",
-      "confirmResetDefaults": "¿Reemplazar todos los marcos por los predeterminados de tu juego seleccionado? Tus cambios permanecerán en este editor hasta que hagas clic en Guardar cambios.",
+      "confirmResetDefaults": "¿Reemplazar todos los marcos y las reglas de visibilidad con los valores predeterminados de tu juego seleccionado? Tus cambios permanecen en este editor hasta que hagas clic en Guardar cambios.",
+      "defaultFramesRequired": "Selecciona al menos un marco predeterminado.",
       "defaultsDraft": "Valores predeterminados restaurados. No guardado.",
       "defaultsUnavailable": "Los valores predeterminados del juego aún no están disponibles. Recarga para intentarlo de nuevo.",
+      "defaultVisibleFrames": "Fotogramas visibles predeterminados",
+      "defaultVisibleFramesHint": "Mostrado a pie y en vehículos sin una anulación coincidente.",
       "deleteFrame": "Eliminar marco",
+      "duplicateVehicleName": "Cada nombre de vehículo solo puede tener un reemplazo.",
       "editHint": "Arrastra para mover · Ctrl + arrastra para cambiar el tamaño · Clic derecho en un botón para quitar",
       "frameName": "Nombre del marco",
       "importNoFramesFound": "No se encontraron marcos con body.width y screen.",
       "noneFound": "No se encontraron marcos superpuestos para esta comunidad.",
+      "overrideFramesRequired": "Selecciona al menos un marco para cada anulación de vehículo.",
       "removeVariant": "Eliminar esta variante",
+      "removeVehicleOverride": "Eliminar anulación del vehículo",
       "resetDefaults": "Restablecer valores predeterminados del juego",
       "resetScreen": "Restablecer posición de la pantalla",
       "saveChanges": "Guardar cambios",
@@ -202,7 +214,13 @@
         "aircraft": "Aeronave",
         "onFoot": "A pie",
         "vehicle": "Vehículo"
-      }
+      },
+      "vehicleName": "Nombre del vehículo de ER:LC",
+      "vehicleNameRequired": "Introduce un nombre de vehículo para cada reemplazo.",
+      "vehicleOverrideHint": "Los nombres de los vehículos coinciden exactamente, ignorando las mayúsculas y los espacios al inicio o al final. En el marco de escritorio, activa la detección de vehículos de ER:LC para usar un marco específico del vehículo cuando haya disponible un solo nombre de vehículo.",
+      "visibilityHint": "Elige marcos de escritorio predeterminados para ir a pie o cuando no coincida ningún nombre de vehículo. Las anulaciones de vehículo seleccionan marcos automáticamente cuando la detección de vehículos de ER:LC encuentra un nombre coincidente.",
+      "visibilityTitle": "Visibilidad del marco",
+      "visibleFrames": "Fotogramas visibles"
     },
     "customizeMenu": {
       "overlay": "Superposición"
@@ -269,6 +287,38 @@
       "dispatchAiSpeechRecognitionAi": "mejorado con IA (más preciso)",
       "dispatchAiSpeechRecognitionHint": "La carga mejorada con IA sube tu audio de comando de Dispatch AI y añade su costo estimado de transcripción al uso mensual de tu comunidad.",
       "dispatchAiSpeechRecognitionLocal": "Local (más rápido, sin uso de transcripción)",
+      "erlcHud": {
+        "autoWindow": "Encontrar ventana de Roblox automáticamente",
+        "enable": "Usar detección de pantalla",
+        "lastReading": "Última comprobación del indicador",
+        "noWindows": "No se encontró ninguna ventana de Roblox. Abre ER:LC, luego actualiza la lista de ventanas.",
+        "privacy": "Sonoran Radio comprueba el velocímetro de Roblox en este dispositivo para cambiar variantes del vehículo. Si ER:LC informa exactamente un vehículo propiedad de tu cuenta, su nombre también puede seleccionar un marco específico. Las imágenes de la pantalla no se guardan ni se suben. En macOS, es posible que debas permitir Grabación de pantalla y audio del sistema para Sonoran Radio.",
+        "readingGaugeAbsent": "Indicador no encontrado",
+        "readingGaugeFound": "Indicador encontrado",
+        "readingUncertain": "Coincidencia incierta",
+        "readingUnreadable": "Ventana de Roblox ilegible",
+        "readingWaiting": "Esperando captura de Roblox",
+        "refreshWindows": "Actualizar ventanas de Roblox",
+        "status": "Estado de detección",
+        "statusChecking": "Comprobando ventana de Roblox",
+        "statusDisabled": "Desactivado",
+        "statusError": "No se puede leer la ventana de Roblox",
+        "statusInVehicle": "En un vehículo",
+        "statusLooking": "Buscando ventana de Roblox",
+        "statusOnFoot": "A pie",
+        "statusPermissionDenied": "Permiso de grabación de pantalla denegado",
+        "statusUnknown": "No se puede determinar el estado del vehículo",
+        "title": "Detección de vehículos ER:LC",
+        "vehicleAmbiguous": "ER:LC encontró varios nombres de vehículos propios y no puede seleccionar una anulación de marco específica del nombre.",
+        "vehicleApiUnavailable": "ER:LC los nombres de vehículo no están disponibles. Los reemplazos de marco específicos por nombre están inactivos.",
+        "vehicleMatch": "Candidato a nombre del vehículo de ER:LC: {name}",
+        "vehicleNone": "ER:LC no encontró ningún vehículo propiedad de tu cuenta. Los reemplazos de marco específicos por nombre están inactivos.",
+        "vehicleNotConfigured": "Configura la API de ER:LC y vincula tu cuenta de Roblox para usar anulaciones de marco específicas por nombre.",
+        "vehicleRequestError": "La búsqueda de vehículo de ER:LC falló. Revisa tu conexión e inténtalo de nuevo; los reemplazos de marco específicos por nombre están inactivos.",
+        "vehicleUnavailable": "No se encontró ningún nombre de vehículo de ER:LC. Los reemplazos de marco específicos por nombre están inactivos.",
+        "vehicleWaiting": "Esperando los datos del vehículo de ER:LC. Los reemplazos de marco específicos por nombre están inactivos.",
+        "window": "Ventana de Roblox"
+      },
       "recentAiResponseLabel": "respuesta de IA",
       "sameAsPanelLanguage": "Igual que el idioma del panel"
     }
