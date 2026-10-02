@@ -851,7 +851,10 @@
       "visible": "Visible",
       "weightBold": "Bold",
       "weightRegular": "Regular",
-      "weightSemiBold": "Semi bold"
+      "weightSemiBold": "Semi bold",
+      "editingControls": "Editing controls",
+      "hideEditingControls": "Hide editing controls",
+      "showEditingControls": "Show editing controls"
     },
     "customScreenAi": {
       "apply": "Apply design",
