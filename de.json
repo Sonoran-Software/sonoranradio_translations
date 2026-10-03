@@ -769,6 +769,7 @@
       "decorationsHint": "Dekorativer Text und Symbole öffnen keine Funksteuerung.",
       "decorationSymbol": "Symbol",
       "decorationText": "Anzeigetext",
+      "editingControls": "Bearbeitungselemente",
       "elements": {
         "activity": "Aktivität",
         "brand": "Marke",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Benutzerdefinierter Rahmen importiert. Klicke auf Änderungen speichern, um ihn zu veröffentlichen.",
       "generatePhoto": "Aus Foto generieren",
+      "hideEditingControls": "Bearbeitungselemente ausblenden",
       "hint": "Klicke auf ein Element, um es zu bearbeiten. Ziehe, um es zu verschieben, oder ziehe an seiner Ecke, um die Größe zu ändern. Änderungen werden mit dieser Rahmenvariante gespeichert.",
       "iconHint": "PNG, JPEG oder WebP · bis zu 2 MB pro Datei. Hochgeladene Icons werden mit deiner Community gespeichert.",
       "iconImages": "Symbolbilder",
@@ -839,6 +841,7 @@
       "removeIcon": "{name}-Symbol entfernen",
       "resizeItem": "{name} skalieren",
       "shareDesign": "Design teilen",
+      "showEditingControls": "Bearbeitungselemente anzeigen",
       "standby": "Bereitschaft",
       "startingLayout": "Startlayout",
       "textSize": "Textgröße · {scale}×",

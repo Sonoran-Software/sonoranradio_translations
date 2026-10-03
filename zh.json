@@ -769,6 +769,7 @@
       "decorationsHint": "装饰性文字和符号不会打开 电台 控制。",
       "decorationSymbol": "符号",
       "decorationText": "显示文本",
+      "editingControls": "编辑控件",
       "elements": {
         "activity": "活动",
         "brand": "品牌",
@@ -808,6 +809,7 @@
       "fontSerif": "衬线",
       "frameImported": "自定义框架已导入。点击保存更改以发布它。",
       "generatePhoto": "从照片生成",
+      "hideEditingControls": "隐藏编辑控件",
       "hint": "点击一个项目以编辑它。拖动以移动，或拖动其角以调整大小。更改会随此帧变体保存。",
       "iconHint": "PNG、JPEG 或 WebP · 每个最多 2 MB。上传的图标会与您的社区一起存储。",
       "iconImages": "图标图片",
@@ -839,6 +841,7 @@
       "removeIcon": "移除 {name} 图标",
       "resizeItem": "调整 {name} 大小",
       "shareDesign": "分享设计",
+      "showEditingControls": "显示编辑控件",
       "standby": "待机",
       "startingLayout": "开始布局",
       "textSize": "文本大小 · {scale}×",

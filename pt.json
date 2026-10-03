@@ -769,6 +769,7 @@
       "decorationsHint": "Texto e símbolos decorativos não abrem os controles do rádio.",
       "decorationSymbol": "Símbolo",
       "decorationText": "Texto de exibição",
+      "editingControls": "Controles de edição",
       "elements": {
         "activity": "Atividade",
         "brand": "Marca",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Moldura personalizada importada. Clique em Salvar alterações para publicá-la.",
       "generatePhoto": "Gerar a partir de uma foto",
+      "hideEditingControls": "Ocultar controles de edição",
       "hint": "Clique em um item para editá-lo. Arraste para mover, ou arraste o canto para redimensionar. As alterações são salvas com esta variante de quadro.",
       "iconHint": "PNG, JPEG ou WebP · até 2 MB cada. Os ícones enviados são armazenados com a sua comunidade.",
       "iconImages": "Imagens de ícones",
@@ -839,6 +841,7 @@
       "removeIcon": "Remover ícone de {name}",
       "resizeItem": "Redimensionar {name}",
       "shareDesign": "Compartilhar design",
+      "showEditingControls": "Mostrar controles de edição",
       "standby": "Em espera",
       "startingLayout": "Layout inicial",
       "textSize": "Tamanho do texto · {scale}×",

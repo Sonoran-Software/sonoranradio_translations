@@ -769,6 +769,7 @@
       "decorationsHint": "装飾用テキストと記号はラジオ操作を開きません。",
       "decorationSymbol": "記号",
       "decorationText": "表示テキスト",
+      "editingControls": "編集コントロール",
       "elements": {
         "activity": "アクティビティ",
         "brand": "ブランド",
@@ -808,6 +809,7 @@
       "fontSerif": "セリフ",
       "frameImported": "カスタムフレームをインポートしました。保存して変更を公開してください。",
       "generatePhoto": "写真から生成",
+      "hideEditingControls": "編集コントロールを非表示",
       "hint": "項目をクリックして編集します。ドラッグして移動し、角をドラッグしてサイズを変更します。変更はこのフレームバリアントに保存されます。",
       "iconHint": "PNG、JPEG、またはWebP ・ 各2 MBまで。アップロードしたアイコンは、あなたのコミュニティに保存されます。",
       "iconImages": "アイコン画像",
@@ -839,6 +841,7 @@
       "removeIcon": "{name} アイコンを削除",
       "resizeItem": "{name} のサイズを変更",
       "shareDesign": "デザインを共有",
+      "showEditingControls": "編集コントロールを表示",
       "standby": "待機",
       "startingLayout": "開始レイアウト",
       "textSize": "テキストサイズ · {scale}×",

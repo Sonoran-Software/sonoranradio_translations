@@ -769,6 +769,7 @@
       "decorationsHint": "Le texte décoratif et les symboles n'ouvrent pas les commandes radio.",
       "decorationSymbol": "Symbole",
       "decorationText": "Texte d'affichage",
+      "editingControls": "Commandes d'édition",
       "elements": {
         "activity": "Activité",
         "brand": "Marque",
@@ -808,6 +809,7 @@
       "fontSerif": "Sérif",
       "frameImported": "Cadre personnalisé importé. Cliquez sur Enregistrer les modifications pour le publier.",
       "generatePhoto": "Générer à partir d'une photo",
+      "hideEditingControls": "Masquer les commandes d'édition",
       "hint": "Cliquez sur un élément pour le modifier. Faites-le glisser pour le déplacer, ou faites glisser son coin pour le redimensionner. Les modifications sont enregistrées avec cette variante de cadre.",
       "iconHint": "PNG, JPEG ou WebP · jusqu'à 2 Mo chacun. Les icônes téléchargées sont stockées avec votre communauté.",
       "iconImages": "Images d'icône",
@@ -839,6 +841,7 @@
       "removeIcon": "Supprimer l’icône {name}",
       "resizeItem": "Redimensionner {name}",
       "shareDesign": "Partager le design",
+      "showEditingControls": "Afficher les commandes d'édition",
       "standby": "Veille",
       "startingLayout": "Disposition initiale",
       "textSize": "Taille du texte · {scale}×",

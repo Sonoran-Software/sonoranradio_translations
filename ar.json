@@ -769,6 +769,7 @@
       "decorationsHint": "النصوص والرموز الزخرفية لا تفتح عناصر تحكم الراديو.",
       "decorationSymbol": "رمز",
       "decorationText": "نص العرض",
+      "editingControls": "عناصر التحكم في التحرير",
       "elements": {
         "activity": "النشاط",
         "brand": "العلامة التجارية",
@@ -808,6 +809,7 @@
       "fontSerif": "بخط serif",
       "frameImported": "تم استيراد الإطار المخصص. انقر حفظ التغييرات لنشره.",
       "generatePhoto": "إنشاء من صورة",
+      "hideEditingControls": "إخفاء عناصر التحكم في التحرير",
       "hint": "انقر على عنصر لتعديله. اسحب لتحريكه، أو اسحب زاويته لتغيير الحجم. تُحفظ التغييرات مع هذا البديل من الإطار.",
       "iconHint": "PNG أو JPEG أو WebP · حتى 2 ميغابايت لكل منها. تُخزَّن الأيقونات التي تم تحميلها مع مجتمعك.",
       "iconImages": "صور الأيقونات",
@@ -839,6 +841,7 @@
       "removeIcon": "إزالة أيقونة {name}",
       "resizeItem": "تغيير حجم {name}",
       "shareDesign": "مشاركة التصميم",
+      "showEditingControls": "إظهار عناصر التحكم في التحرير",
       "standby": "استعداد",
       "startingLayout": "تخطيط البدء",
       "textSize": "حجم النص · {scale}×",

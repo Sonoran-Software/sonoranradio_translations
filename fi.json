@@ -769,6 +769,7 @@
       "decorationsHint": "Koristeellinen teksti ja symbolit eivät avaa radiokontrolleja.",
       "decorationSymbol": "Symboli",
       "decorationText": "Näytä teksti",
+      "editingControls": "Muokkausohjaimet",
       "elements": {
         "activity": "Toiminta",
         "brand": "Brändi",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Mukautettu kehys tuotu. Julkaise se napsauttamalla Tallenna muutokset.",
       "generatePhoto": "Luo valokuvasta",
+      "hideEditingControls": "Piilota muokkausohjaimet",
       "hint": "Napsauta kohdetta muokataksesi sitä. Vedä siirtääksesi tai vedä sen kulmaa muuttaaksesi kokoa. Muutokset tallennetaan tämän kehyksen variantin kanssa.",
       "iconHint": "PNG, JPEG tai WebP · enintään 2 Mt kukin. Ladatut kuvakkeet tallennetaan yhteisösi kanssa.",
       "iconImages": "Kuvakkeiden kuvat",
@@ -839,6 +841,7 @@
       "removeIcon": "Poista {name}-kuvake",
       "resizeItem": "Muuta kokoa {name}",
       "shareDesign": "Jaa ulkoasu",
+      "showEditingControls": "Näytä muokkausohjaimet",
       "standby": "Valmiustila",
       "startingLayout": "Aloitusasettelu",
       "textSize": "Tekstin koko · {scale}×",

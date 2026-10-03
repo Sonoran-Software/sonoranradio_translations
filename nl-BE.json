@@ -254,6 +254,7 @@
       "decorationsHint": "Decoratieve tekst en symbolen openen geen radiobedieningen.",
       "decorationSymbol": "Symbool",
       "decorationText": "Toon tekst",
+      "editingControls": "Bewerkingsknoppen",
       "elements": {
         "activity": "Activiteit",
         "brand": "Merk",
@@ -293,6 +294,7 @@
       "fontSerif": "Serif",
       "frameImported": "Aangepast kader geïmporteerd. Klik op Wijzigingen opslaan om het te publiceren.",
       "generatePhoto": "Genereer vanuit een foto",
+      "hideEditingControls": "Bewerkingsknoppen verbergen",
       "hint": "Klik op een item om het te bewerken. Sleep om te verplaatsen, of sleep de hoek om de grootte aan te passen. Wijzigingen worden opgeslagen met deze framevariant.",
       "iconHint": "PNG, JPEG of WebP · tot 2 MB elk. Geüploade pictogrammen worden opgeslagen met je community.",
       "iconImages": "Pictogramafbeeldingen",
@@ -324,6 +326,7 @@
       "removeIcon": "Verwijder pictogram {name}",
       "resizeItem": "Formaat van {name} wijzigen",
       "shareDesign": "Ontwerp delen",
+      "showEditingControls": "Bewerkingsknoppen tonen",
       "standby": "Wachtstand",
       "startingLayout": "Startindeling",
       "textSize": "Tekstgrootte · {scale}×",

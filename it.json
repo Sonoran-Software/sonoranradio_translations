@@ -769,6 +769,7 @@
       "decorationsHint": "Testo decorativo e simboli non aprono i controlli radio.",
       "decorationSymbol": "Simbolo",
       "decorationText": "Testo visualizzato",
+      "editingControls": "Controlli di modifica",
       "elements": {
         "activity": "Attività",
         "brand": "Marchio",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Frame personalizzato importato. Fai clic su Salva modifiche per pubblicarlo.",
       "generatePhoto": "Genera da una foto",
+      "hideEditingControls": "Nascondi i controlli di modifica",
       "hint": "Fai clic su un elemento per modificarlo. Trascina per spostarlo, oppure trascina il suo angolo per ridimensionarlo. Le modifiche vengono salvate con questa variante del frame.",
       "iconHint": "PNG, JPEG o WebP · fino a 2 MB ciascuno. Le icone caricate vengono archiviate con la tua community.",
       "iconImages": "Immagini icona",
@@ -839,6 +841,7 @@
       "removeIcon": "Rimuovi icona {name}",
       "resizeItem": "Ridimensiona {name}",
       "shareDesign": "Condividi design",
+      "showEditingControls": "Mostra i controlli di modifica",
       "standby": "In attesa",
       "startingLayout": "Layout iniziale",
       "textSize": "Dimensione testo · {scale}×",

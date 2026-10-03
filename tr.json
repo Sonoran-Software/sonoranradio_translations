@@ -769,6 +769,7 @@
       "decorationsHint": "Dekoratif metin ve semboller radyo kontrollerini açmaz.",
       "decorationSymbol": "Simge",
       "decorationText": "Görüntüle metni",
+      "editingControls": "Düzenleme kontrolleri",
       "elements": {
         "activity": "Etkinlik",
         "brand": "Marka",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Özel çerçeve içe aktarıldı. Yayınlamak için Değişiklikleri kaydet'e tıklayın.",
       "generatePhoto": "Bir fotoğraftan oluştur",
+      "hideEditingControls": "Düzenleme kontrollerini gizle",
       "hint": "Bir öğeyi düzenlemek için tıklayın. Taşımak için sürükleyin veya yeniden boyutlandırmak için köşesini sürükleyin. Değişiklikler bu çerçeve varyantıyla kaydedilir.",
       "iconHint": "PNG, JPEG veya WebP · her biri en fazla 2 MB. Yüklenen simgeler topluluğunuzla birlikte saklanır.",
       "iconImages": "Simge resimleri",
@@ -839,6 +841,7 @@
       "removeIcon": "{name} simgesini kaldır",
       "resizeItem": "{name} öğesini yeniden boyutlandır",
       "shareDesign": "Tasarımı paylaş",
+      "showEditingControls": "Düzenleme kontrollerini göster",
       "standby": "Bekleme",
       "startingLayout": "Başlangıç düzeni",
       "textSize": "Metin boyutu · {scale}×",
