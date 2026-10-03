@@ -254,6 +254,7 @@
       "decorationsHint": "Decorative text and symbols do not open radio controls.",
       "decorationSymbol": "Symbol",
       "decorationText": "Display text",
+      "editingControls": "Editing controls",
       "elements": {
         "activity": "Activity",
         "brand": "Brand",
@@ -293,6 +294,7 @@
       "fontSerif": "Serif",
       "frameImported": "Custom frame imported. Click Save changes to publish it.",
       "generatePhoto": "Generate from a photo",
+      "hideEditingControls": "Hide editing controls",
       "hint": "Click an item to edit it. Drag to move, or drag its corner to resize. Changes are saved with this frame variant.",
       "iconHint": "PNG, JPEG, or WebP · up to 2 MB each. Uploaded icons are stored with your community.",
       "iconImages": "Icon images",
@@ -324,6 +326,7 @@
       "removeIcon": "Remove {name} icon",
       "resizeItem": "Resize {name}",
       "shareDesign": "Share design",
+      "showEditingControls": "Show editing controls",
       "standby": "Standby",
       "startingLayout": "Starting layout",
       "textSize": "Text size · {scale}×",

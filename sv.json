@@ -769,6 +769,7 @@
       "decorationsHint": "Dekorativ text och symboler öppnar inte radiokontroller.",
       "decorationSymbol": "Symbol",
       "decorationText": "Visa text",
+      "editingControls": "Redigeringskontroller",
       "elements": {
         "activity": "Aktivitet",
         "brand": "Varumärke",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Anpassad ram importerad. Klicka på Spara ändringar för att publicera den.",
       "generatePhoto": "Generera från ett foto",
+      "hideEditingControls": "Dölj redigeringskontroller",
       "hint": "Klicka på ett objekt för att redigera det. Dra för att flytta, eller dra dess hörn för att ändra storlek. Ändringar sparas med denna ramvariant.",
       "iconHint": "PNG, JPEG eller WebP · upp till 2 MB vardera. Uppladdade ikoner lagras med din community.",
       "iconImages": "Ikonbilder",
@@ -839,6 +841,7 @@
       "removeIcon": "Ta bort ikonen {name}",
       "resizeItem": "Ändra storlek på {name}",
       "shareDesign": "Dela design",
+      "showEditingControls": "Visa redigeringskontroller",
       "standby": "Standby",
       "startingLayout": "Startlayout",
       "textSize": "Textstorlek · {scale}×",

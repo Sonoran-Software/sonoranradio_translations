@@ -769,6 +769,7 @@
       "decorationsHint": "Tekst dekoracyjny i symbole nie otwierają sterowania radiem.",
       "decorationSymbol": "Symbol",
       "decorationText": "Tekst wyświetlany",
+      "editingControls": "Kontrolki edycji",
       "elements": {
         "activity": "Aktywność",
         "brand": "Marka",
@@ -808,6 +809,7 @@
       "fontSerif": "Szeryf",
       "frameImported": "Niestandardowa ramka została zaimportowana. Kliknij Zapisz zmiany, aby ją opublikować.",
       "generatePhoto": "Wygeneruj ze zdjęcia",
+      "hideEditingControls": "Ukryj kontrolki edycji",
       "hint": "Kliknij element, aby go edytować. Przeciągnij, aby przesunąć, lub przeciągnij jego róg, aby zmienić rozmiar. Zmiany są zapisywane razem z tym wariantem ramki.",
       "iconHint": "PNG, JPEG lub WebP · do 2 MB każdy. Przesłane ikony są przechowywane wraz z Twoją społecznością.",
       "iconImages": "Obrazy ikon",
@@ -839,6 +841,7 @@
       "removeIcon": "Usuń ikonę {name}",
       "resizeItem": "Zmień rozmiar {name}",
       "shareDesign": "Udostępnij projekt",
+      "showEditingControls": "Pokaż kontrolki edycji",
       "standby": "Czuwanie",
       "startingLayout": "Układ początkowy",
       "textSize": "Rozmiar tekstu · {scale}×",

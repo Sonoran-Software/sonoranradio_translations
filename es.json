@@ -254,6 +254,7 @@
       "decorationsHint": "El texto decorativo y los símbolos no abren los controles de radio.",
       "decorationSymbol": "Símbolo",
       "decorationText": "Texto de visualización",
+      "editingControls": "Controles de edición",
       "elements": {
         "activity": "Actividad",
         "brand": "Marca",
@@ -293,6 +294,7 @@
       "fontSerif": "Serif",
       "frameImported": "Marco personalizado importado. Haz clic en Guardar cambios para publicarlo.",
       "generatePhoto": "Generar desde una foto",
+      "hideEditingControls": "Ocultar controles de edición",
       "hint": "Haz clic en un elemento para editarlo. Arrástralo para moverlo, o arrastra su esquina para cambiar su tamaño. Los cambios se guardan con esta variante del marco.",
       "iconHint": "PNG, JPEG o WebP · hasta 2 MB cada uno. Los iconos subidos se almacenan con tu comunidad.",
       "iconImages": "Imágenes de iconos",
@@ -324,6 +326,7 @@
       "removeIcon": "Eliminar icono de {name}",
       "resizeItem": "Redimensionar {name}",
       "shareDesign": "Compartir diseño",
+      "showEditingControls": "Mostrar controles de edición",
       "standby": "En espera",
       "startingLayout": "Diseño inicial",
       "textSize": "Tamaño del texto · {scale}×",

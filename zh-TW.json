@@ -254,6 +254,7 @@
       "decorationsHint": "裝飾文字和符號不會開啟電台控制。",
       "decorationSymbol": "符號",
       "decorationText": "顯示文字",
+      "editingControls": "編輯控制項",
       "elements": {
         "activity": "活動",
         "brand": "品牌",
@@ -293,6 +294,7 @@
       "fontSerif": "襯線",
       "frameImported": "自訂框架已匯入。點擊儲存變更以發佈。",
       "generatePhoto": "從照片生成",
+      "hideEditingControls": "隱藏編輯控制項",
       "hint": "點一下項目即可編輯。拖曳以移動，或拖曳其角落以調整大小。變更會隨此畫面變體儲存。",
       "iconHint": "PNG、JPEG 或 WebP · 每個最多 2 MB。上傳的圖示會與你的社群一起儲存。",
       "iconImages": "圖示圖片",
@@ -324,6 +326,7 @@
       "removeIcon": "移除 {name} 圖示",
       "resizeItem": "調整 {name} 大小",
       "shareDesign": "分享設計",
+      "showEditingControls": "顯示編輯控制項",
       "standby": "待機",
       "startingLayout": "開始版面配置",
       "textSize": "文字大小 · {scale}×",

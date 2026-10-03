@@ -769,6 +769,7 @@
       "decorationsHint": "Dekorativ tekst og symboler åpner ikke radiokontroller.",
       "decorationSymbol": "Symbol",
       "decorationText": "Visningstekst",
+      "editingControls": "Redigeringskontroller",
       "elements": {
         "activity": "Aktivitet",
         "brand": "Merke",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Tilpasset ramme importert. Klikk på Lagre endringer for å publisere den.",
       "generatePhoto": "Generer fra et bilde",
+      "hideEditingControls": "Skjul redigeringskontroller",
       "hint": "Klikk på et element for å redigere det. Dra for å flytte, eller dra hjørnet for å endre størrelsen. Endringer lagres med denne rammvarianten.",
       "iconHint": "PNG, JPEG eller WebP · opptil 2 MB hver. Opplastede ikoner lagres med fellesskapet ditt.",
       "iconImages": "Ikonbilder",
@@ -839,6 +841,7 @@
       "removeIcon": "Fjern ikonet {name}",
       "resizeItem": "Endre størrelse på {name}",
       "shareDesign": "Del design",
+      "showEditingControls": "Vis redigeringskontroller",
       "standby": "Vente",
       "startingLayout": "Oppstartslayout",
       "textSize": "Tekststørrelse · {scale}×",

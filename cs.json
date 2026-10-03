@@ -769,6 +769,7 @@
       "decorationsHint": "Dekorativní text a symboly neotevírají rádiové ovládání.",
       "decorationSymbol": "Symbol",
       "decorationText": "Zobrazit text",
+      "editingControls": "Ovládací prvky úprav",
       "elements": {
         "activity": "Aktivita",
         "brand": "Značka",
@@ -808,6 +809,7 @@
       "fontSerif": "Serif",
       "frameImported": "Vlastní rám byl importován. Klikněte na Uložit změny pro jeho publikování.",
       "generatePhoto": "Vygenerovat z fotky",
+      "hideEditingControls": "Skrýt ovládací prvky úprav",
       "hint": "Klikněte na položku pro její úpravu. Přetažením ji přesunete nebo přetažením jejího rohu změníte velikost. Změny se ukládají s touto variantou rámce.",
       "iconHint": "PNG, JPEG nebo WebP · až 2 MB každý. Nahrané ikony jsou uložené s vaší komunitou.",
       "iconImages": "Obrázky ikon",
@@ -839,6 +841,7 @@
       "removeIcon": "Odebrat ikonu {name}",
       "resizeItem": "Změnit velikost {name}",
       "shareDesign": "Sdílet design",
+      "showEditingControls": "Zobrazit ovládací prvky úprav",
       "standby": "Pohotovost",
       "startingLayout": "Počáteční rozvržení",
       "textSize": "Velikost textu · {scale}×",
