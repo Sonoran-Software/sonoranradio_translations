@@ -445,11 +445,11 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Open the link page in your browser to sign in.",
-    "guestLogin": "Guest Login",
-    "guestLoginInstruction": "Login as guest",
     "forceGuestAccessDenied": "You don’t have access to guest radio. Ask a server administrator for access.",
     "guestConnectionLost": "Guest radio connection lost.",
+    "guestLogin": "Guest Login",
     "guestLoginFailed": "Guest radio couldn’t start. Retry or ask a server administrator for help.",
+    "guestLoginInstruction": "Login as guest",
     "loginWithAccount": "Account Login",
     "loginWithCode": "Link Your Account",
     "openLinkButton": "Link",
