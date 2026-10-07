@@ -1,8 +1,43 @@
 {
+  "analyticsConsent": {
+    "title": "Help improve Sonoran Radio",
+    "description": "Allow limited usage analytics to help improve the app. No advertising or cross-app tracking.",
+    "privacyPolicy": "Privacy policy",
+    "notNow": "Not now",
+    "allow": "Allow"
+  },
+  "socials": {
+    "connectWithUs": "Connect With Us",
+    "community": "Community",
+    "joinDiscordTitle": "Join the Sonoran Software Discord",
+    "joinDiscordDescription": "Get announcements, support, community updates, and product discussions in one place.",
+    "joinDiscord": "Join Discord",
+    "followUs": "Follow Us",
+    "instagramDescription": "Product highlights and team updates",
+    "youtubeDescription": "Guides, demos, and releases",
+    "tiktokDescription": "Short updates from the Sonoran team"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "Change your Microphone:",
+    "unknownError": "Unknown Error",
+    "microphoneAccessDenied": "Microphone access denied",
+    "noMicrophoneFound": "No microphone found",
+    "deviceUnavailable": "{device} is unavailable. Choose another microphone.",
+    "selectedUnavailable": "Selected microphone is unavailable. Choose another microphone.",
+    "noInputDetected": "No microphone input detected. Change your microphone if dispatch cannot hear you."
+  },
   "account": {
     "noServers": "No Servers",
     "serversDesc": "Here you can view all Sonoran Radio communities you own or manage",
     "serversTitle": "Your Servers",
+    "usageAnalyticsDescription": "Share limited app usage with Sonoran Software and Google Analytics. This is not used for advertising or cross-app tracking.",
+    "usageAnalyticsTitle": "Usage analytics",
+    "allowUsageAnalytics": "Allow usage analytics",
+    "privacyPolicy": "Privacy policy",
+    "deleteAccountTitle": "Delete Account",
+    "deleteAccountMessage": "Are you sure you want to permanently delete your account?",
+    "deleteAccountSuccess": "Account deleted successfully.",
+    "deleteAccountError": "An error occurred while deleting your account.",
     "tokenCopied": "The secret is copied to your clipboard!",
     "tokenDesc": "Copy this token to use for logging in with the FiveM radio!",
     "tokenDescWarning": "This code is SECRET and should not be shared with anyone!",
@@ -56,6 +91,7 @@
       "chooseSv": "Choose a Server",
       "errCreate": "An unexpected error occurred while creating the subscription",
       "expertInstallation": "Expert Installation",
+      "professionalSetup": "Professional setup assistance for your community.",
       "monthly": "Monthly",
       "mostPop": "Most Popular",
       "noServer": "No Server",
@@ -63,6 +99,8 @@
       "one": "Sonoran One ($49.99/mo)",
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio, and FiveM hosting in one bundle.",
       "oneLearnMore": "Learn more about Sonoran One",
+      "proDescription": "Unlock unlimited scale and advanced Radio features.",
+      "plusDescription": "More capacity and customization for active communities.",
       "plus": "Plus Plan ($14.99/mo)",
       "pro": "Pro Plan ($19.99/mo)",
       "quarterly": "Quarterly",
@@ -74,6 +112,91 @@
       "title": "New Subscription"
     },
     "noServerAssociated": "No Server Associated",
+    "paymentCenter": "Payment Center",
+    "title": "Billing",
+    "description": "Manage subscriptions, assign them to Radio communities, and update billing through Stripe.",
+    "openBillingPortal": "Open Billing Portal",
+    "billingPortalUnavailable": "Billing portal is available after subscriptions load.",
+    "noBillingPortalUrl": "No billing portal URL is available yet.",
+    "speakWithHuman": "Speak with a human",
+    "supportDescription": "Our dedicated live chat support is available 7 days a week during business hours. Have questions? Our team is standing by.",
+    "contactSupport": "Contact Support",
+    "sonoranOne": "Sonoran One",
+    "subscriptionsTitle": "Your Subscriptions",
+    "subscriptionsDescription": "Review active subscriptions, assign Radio communities, and manage inactive subscriptions.",
+    "pricingCompare": {
+      "radioPlans": "Radio Plans",
+      "comparePlans": "Compare Plans",
+      "description": "All paid plans are available monthly or quarterly. Quarterly subscriptions include a 25% discount.",
+      "choosePlan": "Choose {name}",
+      "chooseSonoranOne": "Choose Sonoran One",
+      "saveTwentyFive": "Save 25%",
+      "mostPopular": "Most Popular",
+      "bestValue": "Best Value",
+      "monthlyPrice": "{price}/mo",
+      "unlimited": "Unlimited",
+      "unlimitedCustom": "Unlimited Custom",
+      "oneServer": "1 server",
+      "threeDefault": "3x Default",
+      "proPrompts": "~4,200-10,750",
+      "plusPrompts": "~1,400-3,600",
+      "freePrompts": "~140-360",
+      "planSonoranOne": "Sonoran One",
+      "planPro": "Pro",
+      "planPlus": "Plus",
+      "planFree": "Free",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio, and free FiveM hosting in one subscription.",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radio Pro",
+      "sonoranStudioLicense": "Sonoran Studio Community License",
+      "rocketNodeHosting": "RocketNode FiveM hosting",
+      "proDescription": "Unlock unlimited scale and advanced Radio features.",
+      "plusDescription": "Add customization and more room for active roleplay.",
+      "freeDescription": "Start with the core radio tools for smaller communities.",
+      "connectedUsers": "Connected users",
+      "multiServer": "Multi-server",
+      "desktopOverlayFrames": "Desktop overlay frames",
+      "dispatchAiPrompts": "Dispatch AI monthly prompts",
+      "customVoiceEffects": "Custom voice effects",
+      "communitySoundEffects": "Community-wide sound effects",
+      "customCommunityId": "Custom community ID",
+      "perUserSoundEffects": "Per-user sound effects",
+      "transmissionLogs": "Transmission logs",
+      "customDomain": "Custom domain",
+      "nearbyRadioChatter": "Nearby radio chatter",
+      "scannersAndJammers": "Scanners and signal jammers",
+      "backgroundAudio": "In-game background audio",
+      "bigDaddyAnimations": "Big-Daddy Radio Animations",
+      "freeCopy": "Free copy",
+      "perUserSoundEffects": "Per-user sound effects",
+      "transmissionLogs": "Transmission logs",
+      "customDomain": "Custom domain",
+      "oneServer": "1 server",
+      "threeDefault": "3x Default",
+      "threeCustom": "Unlimited Custom",
+      "oneDefault": "1 server",
+      "tenUsers": "10",
+      "thirtyUsers": "30"
+    },
+    "subscriptionTable": {
+      "active": "Active",
+      "inactiveCancelled": "Inactive / Cancelled",
+      "loading": "Loading subscriptions",
+      "loadingDescription": "Fetching your latest Stripe subscriptions.",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "purchasedNotApplied": "This subscription is purchased but has not been applied to a Radio community yet.",
+      "communityId": "Community ID {id}",
+      "noActive": "No active subscriptions",
+      "noInactive": "No inactive subscriptions",
+      "createDescription": "Create a subscription to unlock more Radio features for a community.",
+      "cancelledDescription": "Cancelled and expired subscriptions will appear here."
+      ,"planSonoranOne": "Sonoran One"
+      ,"planRadioPro": "Radio Pro"
+      ,"planRadioPlus": "Radio Plus"
+      ,"planSonoranRadio": "Sonoran Radio"
+    },
     "setServer": "Set Server",
     "statuses": {
       "active": "Active",
@@ -81,6 +204,7 @@
       "incomplete": "Incomplete",
       "incomplete_expired": "Incomplete Expired",
       "past_due": "Past Due",
+      "trialing": "Trialing",
       "unpaid": "Unpaid"
     },
     "toPortal": "Back to Portal"
@@ -89,10 +213,12 @@
     "account": "Account",
     "actions": "Actions",
     "add": "Add",
+    "back": "Back",
     "billing": "Billing",
     "cancel": "Cancel",
     "clickToCopy": "Click to copy",
     "clipboard": "Copied to Clipboard!",
+    "close": "Close",
     "communityIdField": "Community ID",
     "confirm": "Confirm",
     "copy": "Copy",
@@ -101,6 +227,7 @@
     "edit": "Edit",
     "email": "Email",
     "help": "Help",
+    "id": "ID",
     "language": "Language",
     "learnMore": "Learn More",
     "limited": "Limited",
@@ -196,6 +323,8 @@
     "integrationDescription": "Choose the game connected to this Radio community.",
     "integrationTitle": "Game Integration",
     "joinCode": "Join code: {code}",
+    "linkRoblox": "Link Roblox",
+    "robloxLinkDescription": "Link your Roblox account to your Sonoran account to use location-based radio signal in this community.",
     "joinMission": "Join your server, select a role, and enter the mission. Equip a Sonoran Radio item. Mission makers should place Sonoran signal towers/repeaters for coverage.",
     "joinTest": "Join and test",
     "linkServer": "Link Server",
@@ -229,9 +358,22 @@
   "customizePanel": {
     "createCustomRadioOverlaysForDesktopGames": "Create custom radio overlays for desktop games.",
     "openGameIntegration": "Game Integration",
+    "upgradeRadioPlan": "Upgrade your Radio plan",
+    "upgradeRadioPlanMessage": "Unlock more capacity, customization, and advanced Radio features for this community.",
+    "viewBilling": "View Billing",
     "overlayDesktopDescription": "Customize the radio overlay for desktop users.",
     "overlayFiveMDescription": "Customize your FiveM in-game radio and desktop overlay. FiveM changes sync within five minutes with a compatible resource version.",
-    "overlaySelectGame": "Check your community’s game in Game Integration to use the matching overlay features."
+    "overlaySelectGame": "Check your community’s game in Game Integration to use the matching overlay features.",
+    "overlayPreview": {
+      "localSample": "Local preview · sample data only",
+      "previewGame": "Preview game",
+      "saves": "{count} saves in this preview",
+      "title": "Overlay",
+      "description": "Customize your radio overlay.",
+      "game": "Game",
+      "done": "Done",
+      "noGame": "No game selected"
+    }
   },
   "desktopPanel": {
     "channelHotkey": "Channel Hotkey"
@@ -331,7 +473,424 @@
     "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "Start with a Free Radio for your Gaming Community",
     "learnMore": "Learn more"
+  },
+  "homepage": {
+    "accessibility": {
+      "dispatchAnywhere": "Dispatch Anywhere",
+      "heroRadioAlt": "{game} Sonoran Radio desktop overlay with sample channels",
+      "downloadIos": "Download Sonoran Radio for iOS",
+      "downloadAndroid": "Download Sonoran Radio for Android",
+      "downloadMacos": "Download Sonoran Radio for MacOS",
+      "downloadWindows": "Download Sonoran Radio for Windows",
+      "downloadLinux": "Download Sonoran Radio for Linux",
+      "gameSelection": "Game selection",
+      "sonoranRadioIntegrations": "Sonoran Radio integrations",
+      "viewGameIntegrations": "View {game} integrations",
+      "openIntegration": "Open {title} integration",
+      "compareSonoranRadio": "Compare Sonoran Radio",
+      "competitorLogo": "{competitor} logo",
+      "sonoranRadioVs": "Sonoran Radio vs {competitor}"
+    },
+    "armaCapture": {
+      "photoCaption": "ALTIS · LARGE RADIO TOWER",
+      "title": "SONORAN RADIO TOWER",
+      "repeaterModel": "Repeater model",
+      "largeRadioTower": "Large Radio Tower",
+      "signalRange": "Signal range (m)",
+      "dishCount": "Dish count",
+      "activeDishes": "Active dishes",
+      "powered": "Powered",
+      "indestructible": "Indestructible",
+      "invisibleSignalOnly": "Invisible (signal only)",
+      "cancel": "CANCEL",
+      "ok": "OK",
+      "customizationDesktopFrames": "CUSTOMIZATION / DESKTOP FRAMES",
+      "itemClassNames": "ARMA Item Class Names",
+      "matchRadio": "Match the radio you carry",
+      "inventoryFrame": "Inventory item → desktop frame",
+      "exampleSignalPaths": "EXAMPLE SIGNAL PATHS",
+      "terrainChanges": "Terrain changes reception",
+      "signalPathsAria": "Clear and terrain-blocked signal paths",
+      "relayAlpha": "Relay Alpha",
+      "rangeDishes": "8 km range · 4 / 4 dishes",
+      "clearQuality": "75% quality",
+      "clearPath": "Clear path · 2 km",
+      "blockedQuality": "26% quality",
+      "blockedPath": "Blocked path · 2 km",
+      "signalTitle": "SONORAN RADIO / SIGNAL",
+      "terrainAttenuation": "Terrain attenuation",
+      "blockedTerrainMultiplier": "Blocked terrain multiplier",
+      "hearingRadiusAria": "Illustrative transmission hearing radius",
+      "transmitting": "TRANSMITTING",
+      "alphaOneOne": "Alpha 1-1",
+      "nearbyAi": "Nearby AI",
+      "canDetectSpeaker": "Can detect the speaker",
+      "outsideHearingRange": "Outside hearing range",
+      "illustrativeHearingRadius": "ILLUSTRATIVE HEARING RADIUS",
+      "aiHearingTitle": "SONORAN RADIO · AI HEARING",
+      "aiCanHear": "AI can hear transmissions",
+      "transmissionHearingRange": "Transmission hearing range",
+      "nearbyAiDescription": "Nearby AI can detect you while you use push-to-talk.",
+      "optionalDisabled": "Optional · Disabled by default"
+    },
+    "dispatchAi": {
+      "title": "Dispatch AI",
+      "subtitle": "Your voice. Your dispatcher. Connected to Sonoran CAD.",
+      "examples": "Dispatch AI examples",
+      "previous": "Previous Dispatch AI example",
+      "next": "Next Dispatch AI example",
+      "exampleOf": "Example {current} of {total}: {id}",
+      "radioAlt": "{game} Sonoran Radio desktop overlay",
+      "items": {
+        "plate": {
+          "request": "\"Dispatch, show me out on traffic with a blue sedan, plate ABC123.\"",
+          "response": "Copy, created a traffic stop call with a blue sedan, ABC123.",
+          "result": "Traffic call · Unit assigned"
+        },
+        "robbery": {
+          "request": "\"Dispatch, attach me to the robbery in progress.\"",
+          "response": "Copy, attaching your unit to the robbery in progress.",
+          "result": "Robbery call · Unit assigned"
+        },
+        "runPlate": {
+          "request": "\"Dispatch, run the plate ABC123.\"",
+          "response": "Copy, standby for the return on ABC123.",
+          "result": "Plate search · Results available"
+        },
+        "pit": {
+          "request": "\"Dispatch, set a PIT timer for five minutes.\"",
+          "response": "Copy, five-minute PIT timer started.",
+          "result": "PIT timer started · 05:00"
+        },
+        "tacOne": {
+          "request": "\"Dispatch, switch me to TAC 1.\"",
+          "response": "Copy, switching you to TAC 1.",
+          "result": "Channel switch · TAC 1"
+        },
+        "alpha": {
+          "request": "\"Command, switch me to Alpha Squad.\"",
+          "response": "Copy, switching you to Alpha Squad.",
+          "result": "Squad switch · Alpha Squad"
+        },
+        "platoon": {
+          "request": "\"Command, add 1st Platoon to my scanned channels.\"",
+          "response": "Copy, adding 1st Platoon to your scanned channels.",
+          "result": "Channel added · 1st Platoon"
+        },
+        "miller": {
+          "request": "\"Command, push Sergeant Miller to my frequency.\"",
+          "response": "Copy, pushing Sergeant Miller to your frequency.",
+          "result": "Frequency push · Sergeant Miller"
+        },
+        "breach": {
+          "request": "\"Command, start a breach timer for 60 seconds.\"",
+          "response": "Copy, 60-second breach timer started.",
+          "result": "Breach timer started · 01:00"
+        }
+      }
+    },
+    "featureCapture": {
+      "preview": "Preview",
+      "exportPng": "Export transparent PNG",
+      "exportedPngData": "Exported PNG data",
+      "channelsGroups": "Channels & Groups",
+      "sfxCustomization": "SFX Customization",
+      "transmissionLogs": "Transmission Logs"
+    },
+    "gameIntegration": {
+      "integration": "Integration"
+    },
+    "integrationCard": {
+      "free": "FREE"
+    },
+    "tabPanel": {
+      "defaultTitle": "Sonoran Radio",
+      "defaultDescription": "Experience seamless coordination with placeholder tab content for real-time unit status, frequency monitoring, and channel management.",
+      "imageAlt": "Tab panel image"
+    },
+    "integrationCapture": {
+      "connectedToRadio": "Connected to your radio",
+      "unitStatus": "Unit status",
+      "available": "AVAILABLE",
+      "dispatchCall": "DISPATCH CALL",
+      "trafficCollision": "Traffic collision",
+      "trafficLocation": "Great Ocean Highway · Postal 3025",
+      "callNumber": "Call #1042",
+      "assignedUnits": "Assigned: A-12, A-14",
+      "countyDispatch": "County Dispatch",
+      "dispatchOne": "DISPATCH 1",
+      "xmit": "XMIT",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "availableCall": "Available · Call #1042",
+      "jordanLee": "A-14 · Jordan Lee",
+      "respondingCall": "Responding · Call #1042",
+      "callInformation": "Call information",
+      "panic": "Panic",
+      "communityRoles": "Community roles",
+      "communityAdmin": "Community Admin",
+      "dispatchTeam": "Dispatch Team",
+      "patrol": "Patrol",
+      "adminPermission": "Admin",
+      "approveMembers": "Approve Members",
+      "moveRadioUsers": "Move Radio Users",
+      "playDispatchTones": "Play Dispatch Tones",
+      "exampleRoleMapping": "EXAMPLE ROLE MAPPING",
+      "permissions": "Permissions",
+      "permissionsStayInSync": "Permissions stay in sync",
+      "yourVoiceConnectedToCad": "Your voice. Connected to CAD.",
+      "exampleVoiceRequest": "EXAMPLE VOICE REQUEST",
+      "dispatchAiActions": "Dispatch AI actions",
+      "statusUpdates": "Status updates",
+      "availableUnit": "Available · A-12",
+      "statusAction": "Status updates",
+      "statusActionExample": "Set my status to available",
+      "plateAction": "Person or plate lookup",
+      "plateActionExample": "Run a plate ABC123",
+      "callAction": "Create a call",
+      "callActionExample": "Create a call for a 10-50 on Main St",
+      "channelAction": "Switch radio channel",
+      "channelActionExample": "Switch me to TAC 1",
+      "streamDeckAlt": "Physical Elgato Stream Deck MK.2 with Sonoran Radio controls on its 15 LCD keys",
+      "apiGetGroupsComment": "// Get configured groups and channels",
+      "officialSdkLibraries": "Official v2 SDK libraries"
+    },
+    "interactivePreview": {
+      "openLibrary": "Open {library} on {registry}",
+      "publicSafety": "PUBLIC SAFETY",
+      "countyDispatch": "COUNTY DISPATCH",
+      "fireEms": "FIRE / EMS",
+      "voiceEffectExamples": "Voice effect examples",
+      "microphonePreviewOn": "Microphone preview is on",
+      "playingSample": "Playing sample",
+      "hearDifference": "Hear the difference",
+      "audioLevel": "Audio level",
+      "playSample": "Play sample",
+      "tryMicrophone": "Try my microphone",
+      "cancel": "Cancel",
+      "stopPreview": "Stop preview",
+      "previewVolume": "Preview volume",
+      "startingPreview": "Starting preview",
+      "previewPlaying": "Preview playing",
+      "previewStopped": "Preview stopped",
+      "sampleUnavailable": "Sample unavailable",
+      "vocoderPreviewError": "Vocoder preview could not start. Please try again.",
+      "microphonePreviewError": "Microphone preview could not start. Check browser permission or try the sample.",
+      "samplePlaybackError": "The sample could not play. Please try again.",
+      "toneUnavailable": "Tone unavailable",
+      "tonePlaybackError": "This tone could not play. Please try again.",
+      "original": "Original",
+      "analog": "Analog",
+      "digital": "Digital",
+      "vocoder": "Vocoder · 3200",
+      "fireDispatch": "Fire Dispatch",
+      "emsDispatch": "EMS Dispatch",
+      "priorityTraffic": "Priority Traffic",
+      "allClear": "All Clear"
+    },
+    "mobi": {
+      "header": "RADIO // COMMS",
+      "channelGroup": "CHANNEL GROUP",
+      "selectedChannel": "SELECTED CHANNEL",
+      "receive": "RECEIVE",
+      "transmit": "TRANSMIT",
+      "transmission": "TRANSMISSION",
+      "distress": "DISTRESS",
+      "active": "ACTIVE",
+      "standby": "STANDBY",
+      "priorityAlert": "PRIORITY ALERT",
+      "distressSignalDetected": "DISTRESS SIGNAL DETECTED",
+      "scannedChannel": "SCANNED CHANNEL",
+      "currentSpeaker": "CURRENT SPEAKER",
+      "none": "NONE",
+      "noActiveTransmission": "NO ACTIVE TRANSMISSION",
+      "signal": "SIGNAL",
+      "quickAccess": "QUICK ACCESS",
+      "channels": "CHANNELS",
+      "scan": "SCAN",
+      "scanList": "Scan list",
+      "audio": "AUDIO",
+      "settings": "SETTINGS",
+      "settingsTooltip": "Settings",
+      "multiChannel": "MULTI CHANNEL",
+      "noLink": "NO LINK",
+      "temporaryLink": "TEMPORARY LINK",
+      "unknownChannel": "UNKNOWN CHANNEL",
+      "multiGroup": "MULTI GROUP",
+      "spectrumOffline": "SPECTRUM OFFLINE",
+      "unknownGroup": "UNKNOWN GROUP",
+      "unknownUser": "UNKNOWN USER",
+      "signalFault": "SIGNAL FAULT",
+      "online": "ONLINE"
+    },
+    "erLcMapCapture": {
+      "title": "ER:LC Map Configuration",
+      "description": "Configure signal coverage and emergency zones on the same map.",
+      "towers": "Towers",
+      "emergencyZones": "Emergency Zones",
+      "clickTheMap": "Click the map",
+      "placeTower": "Place Tower",
+      "room": "Room",
+      "addPoints": "Add Points",
+      "drawPolygon": "Draw Polygon",
+      "setCenterEdge": "Set Center & Edge",
+      "drawCircle": "Draw Circle",
+      "points": "points",
+      "finishZone": "Finish Zone",
+      "cancel": "Cancel",
+      "selectCircleEdge": "Select the circle edge",
+      "selectCenter": "Select the center",
+    "mapAlt": "ER:LC map",
+    "editTower": "Edit Tower",
+    "closeTowerMenu": "Close tower menu",
+    "towerName": "Tower name",
+    "range": "Range",
+    "mapUnits": "map units",
+    "mapCoordinates": "Map X {x} · Z {y}",
+    "deleteTower": "Delete Tower",
+    "editEmergencyZone": "Edit Emergency Zone",
+    "closeZoneMenu": "Close zone menu",
+    "zoneName": "Zone name",
+    "transmitChannels": "Transmit channels",
+    "dragZoneHandles": "Drag the blue handles to edit the zone shape.",
+    "deleteZone": "Delete Zone",
+    "noSignalTowers": "No signal towers yet. Signal stays at 100% until you place a tower.",
+    "noEmergencyZones": "No emergency zones for this room yet. Draw a polygon or circle to add one."
+    }
+  },
+  "integrationPages": {
+    "back": "Back",
+    "fivemDescription": "Use Sonoran Radio's free FiveM radio script—the official in-game resource—to bring voice radio into your server. Explore the integrations below, then follow the {setupGuide}.",
+    "setupGuide": "setup guide",
+    "erlcDescription": "Connect Sonoran Radio directly to ER:LC with the ER:LC Integrations.",
+    "armaDescription": "Connect Sonoran Radio directly to Arma 3 with the Arma 3 Integrations.",
+    "apiLibrariesAria": "Sonoran API libraries",
+    "registryLink": "{name} on {registry}",
+    "openDocumentation": "Open documentation for {title}",
+    "learnMore": "Learn more: {title}",
+    "integrationTitleSuffix": "Integration",
+    "meta": {
+      "fivemTitle": "FiveM Integrations | Sonoran Radio",
+      "fivemDescription": "Use Sonoran Radio's free FiveM radio script, the official in-game resource, to bring voice radio into your server.",
+      "erlcTitle": "ER:LC Integrations | Sonoran Radio",
+      "erlcDescription": "Explore Sonoran Radio integrations for ER:LC, including the desktop overlay, virtual towers, and emergency zones.",
+      "armaTitle": "Arma 3 Integrations | Sonoran Radio",
+      "armaDescription": "Explore Sonoran Radio integrations for Arma 3, including in-game towers, inventory radio sync, terrain signal, and AI hearing."
+    },
+    "gameFeatures": {
+      "arma": {
+        "tabsLabel": "Arma 3 integration features",
+        "features": {
+          "towers": {
+            "label": "In-game towers",
+            "description": "Place towers in Eden or Zeus. Range, power, and destruction shape your radio coverage.",
+            "alt": "An Arma signal tower with example Zeus controls for range, capacity, and power."
+          },
+          "itemFrames": {
+            "label": "Inventory radio sync",
+            "description": "Your BLUFOR or OPFOR radio item selects its matching desktop overlay. Map custom items to your community’s frames.",
+            "alt": "BLUFOR and OPFOR item class mappings beside their matching Sonoran Radio desktop overlay frames."
+          },
+          "terrainSignal": {
+            "label": "Terrain & signal",
+            "description": "Distance and terrain weaken tower reception. Watch your overlay’s signal and hear the change through channel effects.",
+            "alt": "Illustrated Arma repeater coverage showing a clear signal path and reduced signal behind terrain."
+          },
+          "aiHearing": {
+            "label": "AI hearing",
+            "description": "Let nearby AI detect transmitting players, with an adjustable hearing range. Available in the Arma integration preview.",
+            "alt": "Illustration of an Arma player transmitting within an AI hearing radius, alongside the mod's hearing settings."
+          }
+        }
+      },
+      "erlc": {
+        "tabsLabel": "ER:LC integration features",
+        "features": {
+          "liveSignal": {
+            "label": "Virtual towers",
+            "description": "Place towers to shape radio coverage across Liberty County. As you drive, your overlay shows live signal strength and radio effects reflect your reception.",
+            "alt": "ER:LC map with virtual tower coverage and linked players beside a Sonoran Radio overlay showing live signal strength."
+          },
+          "emergencyZones": {
+            "label": "Emergency zones",
+            "description": "Draw emergency zones and choose which emergency transmit channels are available in each area.",
+            "alt": "ER:LC map showing a sample emergency zone and its permitted emergency transmit channels."
+          },
+          "desktopOverlay": {
+            "label": "Desktop overlay",
+            "description": "Keep your radio on top of Roblox while you play. Choose a frame, switch channels, and follow live tower signal from the desktop app.",
+            "alt": "Sonoran Radio desktop overlay showing Liberty County dispatch channels over an ER:LC police scene."
+          }
+        }
+      }
+    },
+    "streamDeckFeaturesAria": "Stream Deck features",
+    "streamDeck": {
+      "heading": "Your radio. One touch away.",
+      "description": "Bring your most-used Sonoran Radio controls to a Stream Deck key or dial. Move through channels, transmit, and fine-tune audio without breaking your flow.",
+      "platformWindowsMacos": "Windows + macOS",
+      "platformKeysDials": "Keys + dials",
+      "deviceAlt": "Sonoran Radio handheld device displaying channel controls",
+      "calloutTitle": "Want to learn more?",
+      "calloutDescription": "View the documentation to get more details and plugin installation steps.",
+      "highlights": {
+        "channelShortcuts": {
+          "title": "Channel shortcuts",
+          "description": "Move between channels and groups, or toggle transmit and scan lists with a tap."
+        },
+        "pushToTalk": {
+          "title": "Push-to-talk, on a key",
+          "description": "Keep transmit close at hand and send without switching back to the radio app."
+        },
+        "audio": {
+          "title": "Dial in your audio",
+          "description": "Use supported dials to adjust radio, channel, effects, and AI volume."
+        },
+        "actions": {
+          "title": "More radio actions",
+          "description": "Put AI mode, Tone Board, and desktop overlays on your deck, or use actions with your FiveM in-game radio."
+        }
+      }
+    },
+    "cadFeatures": {
+      "dispatchCalls": {
+        "label": "Dispatch Calls",
+        "description": "Attach yourself to a Sonoran CAD dispatch call and view the call details in the radio.",
+        "alt": "Dispatch Calls Preview"
+      },
+      "panicButton": {
+        "label": "Panic Button",
+        "description": "Toggle your Sonoran CAD panic status with the radio panic button.",
+        "alt": "Panic Button Preview"
+      },
+      "liveMap": {
+        "label": "Live Map",
+        "description": "View the radio towers with the Sonoran CAD live map.",
+        "alt": "Placeholder Live Map preview"
+      }
+    },
+    "comingSoon": "Coming soon."
+  },
+  "mobiPreview": {
+    "themePreview": "Theme preview",
+    "frameTitle": "Mobi Radio Frame",
+    "localPreview": "LOCAL PREVIEW",
+    "signal": "Signal",
+    "note": "Switch states above to preview the live radio indicators. Screen controls require a connected radio session.",
+    "frameName": "Mobi Preview",
+    "groupName": "STANTON SECURITY",
+    "channelName": "OPERATIONS TAC 1",
+    "yourRadio": "YOUR RADIO",
+    "speakerName": "A. MERCER",
+    "citywide": "CITYWIDE",
+    "modes": {
+      "idle": "Idle",
+      "receiving": "Receiving",
+      "transmitting": "Transmitting",
+      "distress": "Distress",
+      "jammed": "Jammed"
+    }
   },
   "hotkeys": {
     "clearHotkey": "Clear Hotkey",
@@ -456,6 +1015,38 @@
       "eyebrow": "Direct Integration",
       "heading": "Integrations"
     },
+    "games": {
+      "fivem": {
+        "name": "FiveM",
+        "title": "Free FiveM Radio Script & Dispatch Panel | Sonoran Radio",
+        "headline": "Free radio for your FiveM community",
+        "description": "Start free with a FiveM radio script, desktop overlay, and dispatch panel. Connect Sonoran Radio to your GTA V roleplay server with the FiveM integration."
+      },
+      "erlc": {
+        "name": "ER:LC",
+        "title": "Free ER:LC Voice Radio & Desktop Overlay | Sonoran Radio",
+        "headline": "Free ER:LC voice radio for your community",
+        "description": "Start free ER:LC voice radio with a desktop overlay for Roblox Emergency Response: Liberty County. Link accounts and add virtual towers with live signal coverage."
+      },
+      "arma3": {
+        "name": "Arma 3",
+        "title": "Free Arma 3 Radio & Desktop Overlay | Sonoran Radio",
+        "headline": "Free radio for your Arma 3 squad",
+        "description": "Start with free radio channels and a desktop overlay for Arma 3. Preview the Arma integration with mission towers, inventory-linked frames, and terrain signal."
+      },
+      "starCitizen": {
+        "name": "Star Citizen",
+        "title": "Free Star Citizen Radio & Overlay | Sonoran Radio",
+        "headline": "Free radio for your Star Citizen crew",
+        "description": "Keep your Star Citizen crew connected with free radio channels, dispatch tools, and a themed desktop overlay. Coordinate comms across the verse."
+      }
+    },
+    "fivemRadioIntegration": "Radio Integration",
+    "gameIntegrations": "Game Integrations",
+    "exploreIntegrations": "Explore Integrations",
+    "softwareIntegrations": "Software Integrations",
+    "erlcIntegrationDescription": "Connect Sonoran Radio directly to ER:LC with the ER:LC Integrations.",
+    "armaIntegrationDescription": "Connect Sonoran Radio directly to Arma 3 with the Arma 3 Integrations.",
     "hero": {
       "subtitle": "Chat in realistic radio channels, customize your voice effects, and connect effortlessly with in-game features for a truly immersive experience.",
       "title": "Better radio comms start here"
@@ -473,6 +1064,7 @@
     "meta": {
       "audienceType": "Gamers and Community Managers",
       "description": "Realistic radio communication software for FiveM, ER:LC, Arma 3, and roleplay communities alike.",
+      "imageAlt": "Sonoran Radio dispatch panel and desktop radio overlay",
       "keywords": "Sonoran Radio, gaming radio, FiveM radio, ER:LC radio, Arma 3 radio, roleplay communications, dispatch software, desktop radio overlay, free FiveM radio, free ER:LC radio",
       "ogTitle": "Sonoran Radio - Gaming Radio Communications",
       "productName": "Sonoran Radio",
@@ -521,6 +1113,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Explore Sonoran Studio",
       "description": "Turn live radio activity into stream overlays, reactive smart lighting, and hands-free automations.",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -591,7 +1184,15 @@
     "serverHosting": "Server Hosting"
   },
   "management": {
-    "forceJoinAsOwner": "Force Join as Owner"
+    "forceJoinAsOwner": "Force Join as Owner",
+    "forceLeave": "Force Leave",
+    "pushEventDiagnostic": "Push Event Diagnostic",
+    "storedRoomPushUrl": "Stored room push URL",
+    "pushUrl": "Push URL",
+    "eventType": "Event type",
+    "timeout": "Timeout (ms)",
+    "payloadJson": "Payload JSON",
+    "sendTestPushEvent": "Send Test Push Event"
   },
   "managementPage": {
     "searchTitle": "Search Community",
@@ -611,6 +1212,8 @@
       "logSearchSubtitle": "View all your community's available logs, filter by type, date, and content.",
       "logSearchTitle": "Search",
       "logType": "Type",
+    "communityLogsLoading": "Loading logs...",
+    "communityLogsEmpty": "No logs found",
       "updateApiKey": "Update API Key"
     },
     "adminTab": "Administration",
@@ -666,6 +1269,19 @@
       "frameLabel": "Frame Label",
       "frameName": "Frame name",
       "frameWidth": "Frame Width",
+    "aircraftLayout": "Aircraft layout",
+    "vehicleLayout": "Vehicle layout",
+    "addLayout": "Add layout",
+    "moveLayoutEarlier": "Move layout earlier",
+    "moveLayoutLater": "Move layout later",
+    "vehicleClasses": "Vehicle classes",
+    "vehicleClassesHint": "Clear the selection to match all vehicle classes. Earlier layouts take priority.",
+    "migratedFramesReset": "Migrated FiveM frames can only be reset with Pro.",
+    "migratedFramesReadOnly": "Migrated FiveM frames remain available on Free. Upgrade to Pro to edit this frame or replace its images.",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "fit": "Fit",
+    "fitRadioToCanvas": "Fit radio to canvas",
       "importDefaultFrameType": "frame",
       "importFromSkin": "Import from FiveM (skin.json)",
       "importNoFramesFound": "No frames with body.width and screen found.",
@@ -891,6 +1507,14 @@
     },
     "members": {
       "actions": "Actions",
+    "communityAccess": "Community Access",
+    "communityAccessDescription": "Approves the member for basic Sonoran Radio access. Grants no administrative permissions or private profile access.",
+    "confirmTitle": "Are you sure?",
+    "kickConfirm": "You are about to kick {count} member(s). They will be able to join back with the community ID.",
+    "banConfirm": "You are about to permanently ban {count} member(s). They will not be able to re-join, but can be unbanned.",
+    "unbanConfirm": "You are about to unban {count} member(s). They will be able to re-join with the community ID.",
+    "displayNameUpdated": "Display Name Updated",
+    "enterDisplayName": "Enter a new display name for {name}",
       "approveBtn": "Approve",
       "ban": "Ban",
       "banBtn": "Ban",
@@ -920,6 +1544,30 @@
       "permissionGeneratorId": "Permission ID",
       "permissionGeneratorSubtitle": "Generate a user permission ID for external use.",
       "permissionGeneratorTitle": "Permission Generator",
+    "permissionAdmin": "Admin",
+    "permissionAdminDescription": "Grants full permissions to manage and access all features of the radio community.",
+    "permissionApproveMembers": "Approve Members",
+    "permissionApproveMembersDescription": "Allows approving or rejecting pending users in the radio community.",
+    "permissionChangeDisplayName": "Change Display Name",
+    "permissionChangeDisplayNameDescription": "Enables user to modify their own display name.",
+    "permissionManageDisplayNames": "Manage Display Names",
+    "permissionManageDisplayNamesDescription": "Allows user to modify the display names of other members.",
+    "permissionKickCommunity": "Kick from Community",
+    "permissionKickCommunityDescription": "Grants permission to remove members from the community.",
+    "permissionBanCommunity": "Ban from Community",
+    "permissionBanCommunityDescription": "Grants permission to permanently ban members from the community.",
+    "permissionKickRadio": "Kick from Radio",
+    "permissionKickRadioDescription": "Grants permission to disconnect members from a radio channel.",
+    "permissionMoveRadioUsers": "Move Radio Users",
+    "permissionMoveRadioUsersDescription": "Allows moving members between radio channels.",
+    "permissionStunRadio": "Stun Radio",
+    "permissionStunRadioDescription": "Allows users to stun (lockout) another radio user for 30s.",
+    "permissionPlayDispatchTones": "Play Dispatch Tones",
+    "permissionPlayDispatchTonesDescription": "Grants permission to play dispatch tones over the radio.",
+    "permissionOverrideTalkover": "Override Talkover Protection",
+    "permissionOverrideTalkoverDescription": "Allows user to override talkover protection by double-clicking their PTT button.",
+    "permissionCallOnly": "Call-Only",
+    "permissionCallOnlyDescription": "Restricts the user to placing 911 calls only. Hides the Dispatch tab. Does not affect Admins.",
       "permissionsBtn": "Permissions",
       "privateChannels": "Private Channels",
       "remove": "Remove",
@@ -1496,6 +2144,8 @@
       "audioRecording": "Audio Recording",
       "broadcastTo": "Broadcast To",
       "count": "Count",
+      "channel": "Channel",
+      "channelGroup": "Channel Group",
       "deleteStack": "Delete Stack",
       "generate": "Generate",
       "infiniteRepeats": "Infinite Repeats",
@@ -1505,6 +2155,7 @@
       "newTone": "New Tone",
       "noSavedStacks": "No saved stacks yet.",
       "noTones": "No Tones",
+      "ok": "OK",
       "playStack": "Play Stack (Double Click)",
       "preview": "Preview",
       "recording": "Recording",
@@ -1516,9 +2167,13 @@
       "saveStackDesc": "Name your tone stack",
       "saveStackTitle": "Save Stack",
       "seconds": "Seconds",
+      "stopPlayback": "Stop playback",
+      "temporaryTtsError": "Failed to prepare temporary TTS tone.",
       "speechToText": "Speech to Text",
       "speed": "Speed",
       "stack": "Stack",
+      "stackNameRequired": "Stack name is required.",
+      "stackNeedsTones": "Add tones to the stack before saving.",
       "subtitle": "Customize dispatch tones for your community",
       "title": "Tone Board",
       "toneLabel": "Tone Label",
