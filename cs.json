@@ -1292,6 +1292,16 @@
       },
       "vehicleClasses": "Třídy vozidel",
       "vehicleClassesHint": "Zrušte výběr, aby odpovídal všem třídám vozidel. Dřívější rozvržení mají přednost.",
+      "vehicleClassNames": {
+        "boats": "Lodě",
+        "commercial": "Komerční",
+        "compacts": "Kompakty",
+        "coupes": "Kupé",
+        "helicopters": "Vrtulníky",
+        "industrial": "Průmyslový",
+        "other": "Jiné",
+        "super": "Super"
+      },
       "vehicleLayout": "Rozložení vozidla",
       "vehicleName": "Název vozidla ER:LC",
       "vehicleNameRequired": "Zadejte název vozidla pro každou náhradu.",
@@ -2221,6 +2231,12 @@
     "channelList": "Seznam Kanálů",
     "configureChannel": "Konfigurovat {0}",
     "connect": "Připojit",
+    "customScreen": {
+      "multiGroup": "Více skupin",
+      "noGroup": "Žádná skupina",
+      "temporaryChannel": "Dočasný kanál",
+      "unknownGroup": "Neznámá skupina"
+    },
     "hiddenChannel": "Skrytý kanál (viditelné pro vás)",
     "listenScan": "Poslouchat {0}",
     "microphonePTT": "Mikrofon PTT",

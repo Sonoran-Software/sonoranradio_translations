@@ -1,5 +1,6 @@
 {
   "account": {
+    "deleteAccountError": "Der opstod en fejl ved sletning af din konto.",
     "deleteAccountMessage": "Er du sikker på, at du vil slette din konto permanent?",
     "deleteAccountTitle": "Slet konto",
     "noServers": "Ingen Servere",
@@ -38,6 +39,7 @@
   },
   "billing": {
     "alreadyActiveSub": "Har allerede et aktivt abonnement",
+    "billingPortalUnavailable": "Faktureringsportalen er tilgængelig, når abonnementerne er indlæst.",
     "changeServer": "Skift server",
     "changeSvDialog": {
       "errSave": "Der opstod en uventet fejl ved ændring af abonnementet",
@@ -99,11 +101,14 @@
       "oneDefault": "1 server",
       "planFree": "Gratis",
       "planPro": "Pro",
+      "proDescription": "Lås op for ubegrænset skala og avancerede Radio-funktioner.",
       "proPrompts": "~4.200-10.750",
       "radioPlans": "Radioplaner",
       "rocketNodeHosting": "RocketNode FiveM-hosting",
+      "sonoranRadioPro": "Sonoran Radio Pro",
       "sonoranStudioLicense": "Sonoran Studio-fællesskabslicens",
       "tenUsers": "10",
+      "unlimited": "Ubegrænset",
       "unlimitedCustom": "Ubegrænset tilpasset"
     },
     "setServer": "Vælg Server",
@@ -286,7 +291,9 @@
     "overlayDesktopDescription": "Tilpas radio-overlayet til desktopbrugere.",
     "overlayFiveMDescription": "Tilpas din FiveM-spilradio og desktop-overlay. FiveM-ændringer synkroniseres inden for fem minutter med en kompatibel ressourceversion.",
     "overlayPreview": {
+      "description": "Tilpas dit radiooverlay.",
       "game": "Spil",
+      "previewGame": "Forhåndsvis spil",
       "saves": "{count} gemmer i denne forhåndsvisning"
     },
     "overlaySelectGame": "Tjek dit fællesskabs spil i Game Integration for at bruge de matchende overlay-funktioner.",
@@ -405,44 +412,57 @@
     "accessibility": {
       "compareSonoranRadio": "Sammenlign Sonoran Radio",
       "downloadAndroid": "Download Sonoran Radio til Android",
+      "downloadLinux": "Download Sonoran Radio til Linux",
       "downloadWindows": "Download Sonoran Radio til Windows",
       "gameSelection": "Spilvalg",
       "openIntegration": "Åbn {title} integration",
       "sonoranRadioIntegrations": "Sonoran Radio-integrationer",
-      "sonoranRadioVs": "Sonoran Radio vs {competitor}"
+      "sonoranRadioVs": "Sonoran Radio vs {competitor}",
+      "viewGameIntegrations": "Se {game} integrationer"
     },
     "armaCapture": {
       "aiHearingTitle": "SONORAN RADIO · AI-HØRELSE",
+      "alphaOneOne": "Alpha 1-1",
       "blockedPath": "Blokeret sti · 2 km",
       "blockedQuality": "26% kvalitet",
       "blockedTerrainMultiplier": "Blokeret terrænmultiplikator",
       "canDetectSpeaker": "Kan registrere højttaleren",
+      "clearPath": "Fri bane · 2 km",
       "customizationDesktopFrames": "TILPASNING / SKRIVEBORDSRAMMER",
       "dishCount": "Parantal",
       "exampleSignalPaths": "EKSEMPEL PÅ SIGNALVEJE",
       "hearingRadiusAria": "Illustrativ transmissionslytteområde",
+      "indestructible": "Uforgængelig",
       "inventoryFrame": "Lagergenstand → desktopramme",
       "itemClassNames": "ARMA genstandsklassenavne",
       "matchRadio": "Match radioen du bærer",
       "nearbyAi": "AI i nærheden",
+      "ok": "OK",
       "outsideHearingRange": "Uden for høreområde",
       "photoCaption": "ALTIS · STORT RADIOTÅRN",
       "powered": "Strømforsynet",
       "rangeDishes": "8 km rækkevidde · 4 / 4 retter",
+      "signalRange": "Signalkvalitet (m)",
       "signalTitle": "SONORAN RADIO / SIGNAL",
+      "terrainChanges": "Terrænændringer modtagelse",
+      "title": "SONORAN RADIO TÅRN",
       "transmissionHearingRange": "Transmissionslytteområde"
     },
     "dispatchAi": {
       "examples": "Dispatch AI-eksempler",
       "items": {
         "alpha": {
-          "response": "Kopi, skifter dig til Alpha Squad."
+          "response": "Kopi, skifter dig til Alpha Squad.",
+          "result": "Skift af hold · Alpha Squad"
         },
         "breach": {
           "result": "Brudtimer startet · 01:00"
         },
         "miller": {
           "result": "Frekvensskub · Sergent Miller"
+        },
+        "pit": {
+          "response": "Kopi, fem minutters PIT-timer startet."
         },
         "plate": {
           "result": "Trafikalarm · Enhed tildelt"
@@ -462,6 +482,7 @@
           "response": "Modtaget, afvent retur på ABC123."
         },
         "tacOne": {
+          "request": "\"Dispatch, skift mig til TAC 1.\"",
           "response": "Kopi, skifter dig til TAC 1."
         }
       },
@@ -472,22 +493,33 @@
       "title": "Dispatch AI"
     },
     "erLcMapCapture": {
+      "addPoints": "Tilføj point",
       "closeTowerMenu": "Luk tårnmenu",
+      "closeZoneMenu": "Luk zonemenu",
       "deleteZone": "Slet zone",
       "description": "Konfigurer signaldækning og nødzoner på det samme kort.",
+      "dragZoneHandles": "Træk de blå håndtag for at redigere zoneformen.",
       "drawCircle": "Tegn cirkel",
+      "mapAlt": "ER:LC-kort",
+      "noEmergencyZones": "Ingen nødzoner for dette rum endnu. Tegn en polygon eller cirkel for at tilføje en.",
       "points": "point",
       "range": "Rækkevidde",
       "selectCircleEdge": "Vælg cirkelkanten",
       "transmitChannels": "Send kanaler",
       "zoneName": "Zonenavn"
     },
+    "featureCapture": {
+      "exportPng": "Eksporter gennemsigtig PNG"
+    },
     "integrationCapture": {
+      "adminPermission": "Administrator",
       "alexMorgan": "A-12 · Alex Morgan",
       "apiGetGroupsComment": "// Hent konfigurerede grupper og kanaler",
       "approveMembers": "Godkend medlemmer",
+      "available": "TILGÆNGELIG",
       "availableCall": "Tilgængelig · Opkald #1042",
       "callAction": "Opret et opkald",
+      "channelAction": "Skift radiokanal",
       "connectedToRadio": "Forbundet til din radio",
       "countyDispatch": "Amt  dispatch",
       "dispatchAiActions": "Dispatch AI-handlinger",
@@ -495,9 +527,14 @@
       "dispatchOne": "DISPATCH 1",
       "jordanLee": "A-14 · Jordan Lee",
       "patrol": "Patrulje",
+      "permissions": "Tilladelser",
       "plateAction": "Person- eller nummerpladeopslag",
+      "plateActionExample": "Kør en plade ABC123",
+      "respondingCall": "Besvarer · Opkald #1042",
       "statusAction": "Statusopdateringer",
+      "statusActionExample": "Sæt min status til tilgængelig",
       "trafficCollision": "Trafikulykke",
+      "xmit": "XMIT",
       "yourVoiceConnectedToCad": "Din stemme. Forbundet til CAD."
     },
     "interactivePreview": {
@@ -524,6 +561,7 @@
       "distress": "NØD",
       "distressSignalDetected": "NØD SIGNAL OPDAGET",
       "header": "RADIO // KOMMUNIKATION",
+      "multiChannel": "MULTI KANAL",
       "noActiveTransmission": "INGEN AKTIV TRANSMISSION",
       "priorityAlert": "PRIORITETSALARM",
       "quickAccess": "HURTIG ADGANG",
@@ -531,6 +569,7 @@
       "scan": "SCAN",
       "scanList": "Scanliste",
       "settings": "INDSTILLINGER",
+      "settingsTooltip": "Indstillinger",
       "signalFault": "SIGNALFEJL",
       "standby": "STANDBY",
       "temporaryLink": "MIDLERLIGT LINK",
@@ -583,6 +622,7 @@
     "tooltip": "Importér JSON-fil"
   },
   "integrationPages": {
+    "armaDescription": "Forbind Sonoran Radio direkte til Arma 3 med Arma 3-integrationerne.",
     "back": "Tilbage",
     "cadFeatures": {
       "dispatchCalls": {
@@ -603,8 +643,12 @@
             "description": "Lad nærliggende AI registrere spillere, der sender, med en justerbar høreafstand. Tilgængelig i Arma-integrationsforhåndsvisningen.",
             "label": "AI-hørelse"
           },
+          "itemFrames": {
+            "alt": "BLUFOR- og OPFOR-klassemappinger for genstande ved siden af deres matchende Sonoran Radio-skrivebords-overlayrammer."
+          },
           "towers": {
-            "alt": "Et Arma-signaltårn med eksempel-Zeus-kontroller til rækkevidde, kapacitet og strøm."
+            "alt": "Et Arma-signaltårn med eksempel-Zeus-kontroller til rækkevidde, kapacitet og strøm.",
+            "description": "Placér tårne i Eden eller Zeus. Rækkevidde, styrke og ødelæggelse former din radiodækning."
           }
         },
         "tabsLabel": "ARMA 3-integrationsfunktioner"
@@ -612,11 +656,15 @@
       "erlc": {
         "features": {
           "desktopOverlay": {
-            "description": "Hold din radio oven på Roblox, mens du spiller. Vælg en ramme, skift kanal, og følg live tårnsignal fra desktopappen."
+            "description": "Hold din radio oven på Roblox, mens du spiller. Vælg en ramme, skift kanal, og følg live tårnsignal fra desktopappen.",
+            "label": "Skrivebords-overlay"
           },
           "emergencyZones": {
             "alt": "ER:LC-kort, der viser en eksempel-nødzon og dens tilladte nødtransmissionskanaler.",
             "description": "Tegn nødzoner, og vælg hvilke nødtransmissionskanaler der er tilgængelige i hvert område."
+          },
+          "liveSignal": {
+            "description": "Placer tårne for at forme radiodækningen i Liberty County. Mens du kører, viser dit overlay live signalstyrke, og radioeffekterne afspejler din modtagelse."
           }
         },
         "tabsLabel": "ER:LC-integrationsfunktioner"
@@ -628,6 +676,7 @@
       "armaDescription": "Udforsk Sonoran Radio-integrationer til Arma 3, inklusive tårne i spillet, synkronisering af inventarradio, terrænsignal og AI-hørelse.",
       "armaTitle": "Arma 3-integrationer | Sonoran Radio",
       "erlcDescription": "Udforsk Sonoran Radio-integrationer til ER:LC, inklusive desktop-overlayet, virtuelle tårne og nødzoner.",
+      "erlcTitle": "ER:LC-integrationer | Sonoran Radio",
       "fivemDescription": "Brug Sonoran Radios gratis FiveM-radioscript, den officielle in-game ressource, til at bringe stemmeradio ind i din server.",
       "fivemTitle": "FiveM-integrationer | Sonoran Radio"
     },
@@ -636,6 +685,7 @@
     "streamDeck": {
       "calloutDescription": "Se dokumentationen for at få flere detaljer og trin til installation af pluginet.",
       "calloutTitle": "Vil du vide mere?",
+      "description": "Bring dine mest brugte Sonoran Radio-kontroller til en Stream Deck-tast eller -drejeknap. Skift mellem kanaler, send, og finjuster lyden uden at bryde din flow.",
       "deviceAlt": "Sonoran Radio håndholdt enhed, der viser kanalstyringer",
       "highlights": {
         "actions": {
@@ -710,6 +760,7 @@
       "title": "Nødopkald i spillet"
     },
     "erlcIntegrationDescription": "Forbind Sonoran Radio direkte til ER:LC med ER:LC-integrationerne.",
+    "exploreIntegrations": "Udforsk integrationer",
     "faq": {
       "free": {
         "answer": "Ja. Dispatch AI er fuldt tilgængelig på Gratis-planen med inkluderede månedlige credits. Betalte planer inkluderer højere creditgrænser.",
@@ -894,6 +945,7 @@
     "serverHosting": "Serverhosting"
   },
   "management": {
+    "eventType": "Begivenhedstype",
     "forceJoinAsOwner": "Tving deltagelse som ejer",
     "forceLeave": "Tvangsforlad"
   },
@@ -908,6 +960,7 @@
       "apiInfoTitle": "API-info",
       "communityApiKeyField": "Fællesskabs-API-nøgle",
       "communityLogs": "Fællesskabslogfiler",
+      "communityLogsEmpty": "Ingen logs fundet",
       "communityLogsLoading": "Indlæser logfiler...",
       "logAccount": "Konto",
       "logContent": "Indhold",
@@ -1022,6 +1075,7 @@
         "onFoot": "Til fods",
         "vehicle": "Køretøj"
       },
+      "vehicleClassesHint": "Ryd markeringen for at matche alle køretøjsklasser. Tidligere layouts har prioritet.",
       "vehicleLayout": "Køretøjslayout",
       "vehicleName": "ER:LC køretøjsnavn",
       "vehicleNameRequired": "Angiv et køretøjsnavn for hver overskrivning.",
@@ -1436,6 +1490,7 @@
       "filterBanned": "Udelukket",
       "filterPending": "Afventer",
       "kickBtn": "Fjern",
+      "kickConfirm": "Du er ved at smide {count} medlem(medlemmer) ud. De vil kunne komme tilbage med fællesskabs-ID'et.",
       "noDiscordAccountLinked": "Denne bruger har ingen Discord-konto tilknyttet.",
       "noRobloxAccountLinked": "Denne bruger har ingen Roblox-konto tilknyttet.",
       "owner": "Ejer",
@@ -1850,7 +1905,9 @@
   "mobiPreview": {
     "citywide": "BYOMFATTENDE",
     "frameName": "Mobi-forhåndsvisning",
+    "frameTitle": "Mobi radio ramme",
     "modes": {
+      "idle": "Inaktiv",
       "jammed": "Jammeret",
       "transmitting": "Sender"
     },
@@ -1974,6 +2031,7 @@
         "lastReading": "Sidste målerkontrol",
         "noWindows": "Intet Roblox-vindue fundet. Åbn ER:LC, og opdater derefter vindueslisten.",
         "openSettings": "Åbn systemindstillinger",
+        "permissionDenied": "Skærmoptagelse er slået fra for Sonoran Radio. Aktivér den, og afslut derefter appen helt og åbn den igen.",
         "privacy": "Sonoran Radio tjekker Roblox-fartmåleren på denne enhed for at skifte køretøjsvarianter. Hvis ER:LC rapporterer præcis ét køretøj ejet af din konto, kan dets navn også vælge en specifik ramme. Skærmbilleder gemmes eller uploades ikke. På macOS kan du være nødt til at tillade Skærm- og systemlydoptagelse for Sonoran Radio.",
         "readingElsFound": "ELS-controller fundet",
         "readingGaugeAbsent": "Måler ikke fundet",
@@ -2171,6 +2229,7 @@
   "socials": {
     "connectWithUs": "Opret forbindelse med os",
     "followUs": "Følg os",
+    "joinDiscord": "Deltag i Discord",
     "tiktokDescription": "Korte opdateringer fra Sonoran-teamet"
   },
   "splash": {
