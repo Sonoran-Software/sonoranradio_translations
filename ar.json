@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "السماح بتحليلات الاستخدام",
+    "deleteAccountError": "حدث خطأ أثناء حذف حسابك.",
+    "deleteAccountMessage": "هل أنت متأكد أنك تريد حذف حسابك نهائيًا؟",
+    "deleteAccountSuccess": "تم حذف الحساب بنجاح.",
+    "deleteAccountTitle": "حذف الحساب",
     "noServers": "لا توجد خوادم",
+    "privacyPolicy": "سياسة الخصوصية",
     "serversDesc": "يمكنك هنا عرض جميع مجتمعات Sonoran Radio التي تملكها أو تديرها",
     "serversTitle": "خوادمك",
     "tokenCopied": "تم نسخ السر إلى الحافظة!",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "هذا الرمز سري ولا ينبغي مشاركته مع أي شخص!",
     "tokenInputLabel": "سر تسجيل الدخول الخاص بك",
     "tokenLoadBtn": "انقر للتحميل",
-    "tokenTitle": "سر تسجيل الدخول اللاسلكي"
+    "tokenTitle": "سر تسجيل الدخول اللاسلكي",
+    "usageAnalyticsDescription": "مشاركة استخدام محدود للتطبيق مع Sonoran Software وGoogle Analytics. لا يُستخدم هذا للإعلانات أو التتبع عبر التطبيقات.",
+    "usageAnalyticsTitle": "تحليلات الاستخدام"
+  },
+  "analyticsConsent": {
+    "allow": "السماح",
+    "description": "السماح بتحليلات استخدام محدودة للمساعدة في تحسين التطبيق. لا إعلانات أو تتبّع عبر التطبيقات.",
+    "notNow": "ليس الآن",
+    "privacyPolicy": "سياسة الخصوصية",
+    "title": "ساعد في تحسين Sonoran Radio"
   },
   "authMember": {
     "errLeave": "حدث خطأ غير متوقع أثناء مغادرة المجتمع.",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "لديه اشتراك نشط بالفعل",
+    "billingPortalUnavailable": "بوابة الفوترة متاحة بعد تحميل الاشتراكات.",
     "changeServer": "تغيير الخادم",
     "changeSvDialog": {
       "errSave": "حدث خطأ غير متوقع أثناء تغيير الاشتراك",
@@ -45,6 +61,8 @@
       "title": "تغيير الاشتراك",
       "transfer": "هل أنت متأكد أنك تريد نقل هذا الاشتراك إلى خادم آخر؟"
     },
+    "contactSupport": "اتصل بالدعم",
+    "description": "أدر الاشتراكات، وعيّنها إلى مجتمعات الراديو، وحدّث الفوترة عبر Stripe.",
     "errCheck": "حدث خطأ غير متوقع أثناء التحقق من اشتراكك",
     "isUnauthorized": "لا يمكن تطبيق الاشتراكات على الخوادم غير المصرح بها",
     "modifySub": "تعديل الاشتراك",
@@ -64,7 +82,10 @@
       "oneDescription": "استضافة Pro CAD وCMS وRadio وSonoran Studio وFiveM في حزمة واحدة.",
       "oneLearnMore": "تعرّف على المزيد حول Sonoran One",
       "plus": "خطة بلس ($14.99/شهر)",
+      "plusDescription": "سعة أكبر وتخصيص أكثر للمجتمعات النشطة.",
       "pro": "خطة برو ($19.99/شهر)",
+      "proDescription": "افتح نطاقًا غير محدود وميزات الراديو المتقدمة.",
+      "professionalSetup": "مساعدة إعداد احترافية لمجتمعك.",
       "quarterly": "ربع سنوي",
       "studio": "ترخيص مجتمع سونوران ستوديو",
       "studioDescription": "إضاءة ذكية وودجات البث لمجتمعك. متضمنة مع Sonoran One.",
@@ -73,26 +94,106 @@
       "studioQuarterlyPrice": "$6.00/شهر",
       "title": "اشتراك جديد"
     },
+    "noBillingPortalUrl": "لا يتوفر عنوان URL لبوابة الفوترة بعد.",
     "noServerAssociated": "لا يوجد خادم مرتبط",
+    "openBillingPortal": "افتح بوابة الفوترة",
+    "paymentCenter": "مركز الدفع",
+    "pricingCompare": {
+      "backgroundAudio": "الصوت الخلفي داخل اللعبة",
+      "bestValue": "أفضل قيمة",
+      "bigDaddyAnimations": "رسوم متحركة لإذاعة بيغ دادي",
+      "bundleDescription": "استضافة Pro CAD وCMS وRadio وSonoran Studio وFiveM المجانية في اشتراك واحد.",
+      "choosePlan": "اختر {name}",
+      "chooseSonoranOne": "اختر سونوران ون",
+      "communitySoundEffects": "مؤثرات صوتية على مستوى المجتمع",
+      "comparePlans": "مقارنة الخطط",
+      "connectedUsers": "المستخدمون المتصلون",
+      "customCommunityId": "معرّف مجتمع مخصص",
+      "customDomain": "نطاق مخصص",
+      "customVoiceEffects": "تأثيرات صوتية مخصصة",
+      "description": "جميع الخطط المدفوعة متاحة شهريًا أو ربع سنويًا. تشمل الاشتراكات ربع السنوية خصمًا بنسبة 25%.",
+      "desktopOverlayFrames": "إطارات التراكب المكتبي",
+      "dispatchAiPrompts": "مطالبات دي스باتش للذكاء الاصطناعي الشهرية",
+      "freeCopy": "نسخة مجانية",
+      "freeDescription": "ابدأ بأدوات الراديو الأساسية للمجتمعات الأصغر.",
+      "freePrompts": "~140-360",
+      "monthlyPrice": "{price}/شهر",
+      "mostPopular": "الأكثر شيوعًا",
+      "multiServer": "متعدد الخوادم",
+      "nearbyRadioChatter": "دردشة الراديو القريبة",
+      "oneDefault": "خادم واحد",
+      "oneServer": "خادم واحد",
+      "perUserSoundEffects": "مؤثرات صوتية لكل مستخدم",
+      "planFree": "مجاني",
+      "planPlus": "بلس",
+      "planPro": "برو",
+      "planSonoranOne": "سونوران ون",
+      "plusDescription": "أضف تخصيصًا ومساحة أكبر لتقمص الأدوار النشط.",
+      "plusPrompts": "حوالي 1,400-3,600",
+      "proDescription": "افتح نطاقًا غير محدود وميزات الراديو المتقدمة.",
+      "proPrompts": "~4,200-10,750",
+      "radioPlans": "خطط الراديو",
+      "rocketNodeHosting": "استضافة RocketNode FiveM",
+      "saveTwentyFive": "وفر 25%",
+      "scannersAndJammers": "الماسحات وأجهزة تشويش الإشارة",
+      "sonoranCadPro": "سونوران CAD برو",
+      "sonoranCmsPro": "سونوران CMS برو",
+      "sonoranRadioPro": "سونوران راديو برو",
+      "sonoranStudioLicense": "ترخيص مجتمع سونوران ستوديو",
+      "tenUsers": "١٠",
+      "thirtyUsers": "30",
+      "threeCustom": "مخصص غير محدود",
+      "threeDefault": "3x افتراضي",
+      "transmissionLogs": "سجلات الإرسال",
+      "unlimited": "غير محدود",
+      "unlimitedCustom": "مخصص غير محدود"
+    },
     "setServer": "تعيين الخادم",
+    "sonoranOne": "سونوران ون",
+    "speakWithHuman": "تحدث مع شخص حقيقي",
     "statuses": {
       "active": "نشط",
       "canceled": "ملغى",
       "incomplete": "غير مكتمل",
       "incomplete_expired": "غير مكتمل منتهي الصلاحية",
       "past_due": "متأخر",
+      "trialing": "قيد التجربة",
       "unpaid": "غير مدفوع"
     },
+    "subscriptionsDescription": "راجع الاشتراكات النشطة، وعيّن مجتمعات الراديو، وأدر الاشتراكات غير النشطة.",
+    "subscriptionsTitle": "اشتراكاتك",
+    "subscriptionTable": {
+      "active": "نشط",
+      "cancelledDescription": "ستظهر الاشتراكات الملغاة والمنتهية هنا.",
+      "communityId": "معرّف المجتمع {id}",
+      "createDescription": "أنشئ اشتراكًا لفتح المزيد من ميزات الراديو لمجتمع.",
+      "endDate": "تاريخ الانتهاء",
+      "inactiveCancelled": "غير نشط / ملغى",
+      "loading": "جارٍ تحميل الاشتراكات",
+      "loadingDescription": "جارٍ جلب أحدث اشتراكات Stripe الخاصة بك.",
+      "noActive": "لا توجد اشتراكات نشطة",
+      "noInactive": "لا توجد اشتراكات غير نشطة",
+      "planRadioPlus": "راديو بلس",
+      "planRadioPro": "راديو برو",
+      "planSonoranOne": "سونوران ون",
+      "planSonoranRadio": "Sonoran Radio",
+      "purchasedNotApplied": "تم شراء هذا الاشتراك ولكن لم يُطبَّق بعد على مجتمع راديو.",
+      "startDate": "تاريخ البدء"
+    },
+    "supportDescription": "يتوفر دعم الدردشة المباشرة المخصص لدينا 7 أيام في الأسبوع خلال ساعات العمل. هل لديك أسئلة؟ فريقنا جاهز للمساعدة.",
+    "title": "الفوترة",
     "toPortal": "العودة إلى البوابة"
   },
   "common": {
     "account": "الحساب",
     "actions": "إجراءات",
     "add": "إضافة",
+    "back": "رجوع",
     "billing": "الفوترة",
     "cancel": "إلغاء",
     "clickToCopy": "انقر للنسخ",
     "clipboard": "تم النسخ إلى الحافظة!",
+    "close": "أغلق",
     "communityIdField": "معرّف المجتمع",
     "confirm": "تأكيد",
     "copy": "نسخ",
@@ -101,6 +202,7 @@
     "edit": "تعديل",
     "email": "البريد الإلكتروني",
     "help": "مساعدة",
+    "id": "المعرّف",
     "language": "اللغة",
     "learnMore": "تعرف على المزيد",
     "limited": "محدود",
@@ -198,6 +300,7 @@
     "joinCode": "رمز الانضمام: {code}",
     "joinMission": "انضم إلى خادمك، واختر دورًا، وادخل المهمة. جهّز عنصر راديو Sonoran. يجب على منشئي المهام وضع أبراج/مكررات إشارة Sonoran للتغطية.",
     "joinTest": "انضم واختبر",
+    "linkRoblox": "ربط Roblox",
     "linkServer": "ربط الخادم",
     "manualServer": "لخادم مستضاف يدويًا، انسخ مجلدي التعديل كليهما إلى الخادم، وانسخ ملفات {extension} الخاصة بهما من مجلدات المفاتيح إلى مجلد {directory} الخاص بالخادم، وأضف وسيط التشغيل هذا (عدّل أسماء المجلدات):",
     "next": "التالي",
@@ -214,6 +317,7 @@
     "resizeRadio": "تغيير حجم الراديو",
     "resizeScreen": "اسحب لتغيير حجم الشاشة",
     "restartServer": "أعد تشغيل الخادم وضمّن كلا التعديلين في الإعداد المسبق للّانشر المشارك مع اللاعبين. أبقِ التوقيعات وBattlEye مفعّلين؛ تحقّق من رسالة الطرد الدقيقة إذا رُفض أحد العملاء.",
+    "robloxLinkDescription": "اربط حساب Roblox الخاص بك بحساب Sonoran الخاص بك لاستخدام إشارة الراديو القائمة على الموقع في هذا المجتمع.",
     "serverMods": "ثبّت نفس تعديلي Workshop عبر مدير التعديلات لدى مستضيف الخادم. حمّل كليهما كتعديلات عادية، وليس كتعديلات خاصة بالخادم فقط، مع CBA_A3 أولًا.",
     "setupOverlay": "إعداد الطبقة",
     "towerSaveError": "تعذر حفظ أبراج إشارة ER:LC. تم التراجع عن آخر تغيير قمت به.",
@@ -231,10 +335,32 @@
     "openGameIntegration": "تكامل اللعبة",
     "overlayDesktopDescription": "تخصيص تراكب الراديو لمستخدمي سطح المكتب.",
     "overlayFiveMDescription": "خصّص راديو FiveM داخل اللعبة والتراكب على سطح المكتب. تتم مزامنة تغييرات FiveM خلال خمس دقائق مع إصدار مورد متوافق.",
-    "overlaySelectGame": "تحقق من لعبة مجتمعك في تكامل اللعبة لاستخدام ميزات التراكب المطابقة."
+    "overlayPreview": {
+      "description": "خصّص تراكب الراديو الخاص بك.",
+      "done": "تم",
+      "game": "اللعبة",
+      "localSample": "معاينة محلية · بيانات تجريبية فقط",
+      "noGame": "لم يتم تحديد لعبة",
+      "previewGame": "معاينة اللعبة",
+      "saves": "{count} حفظات في هذه المعاينة",
+      "title": "الطبقة"
+    },
+    "overlaySelectGame": "تحقق من لعبة مجتمعك في تكامل اللعبة لاستخدام ميزات التراكب المطابقة.",
+    "upgradeRadioPlan": "ترقية خطة الراديو الخاصة بك",
+    "upgradeRadioPlanMessage": "افتح المزيد من السعة والتخصيص وميزات الراديو المتقدمة لهذا المجتمع.",
+    "viewBilling": "عرض الفوترة"
   },
   "desktopPanel": {
     "channelHotkey": "اختصار القناة"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "غيّر الميكروفون الخاص بك:",
+    "deviceUnavailable": "{device} غير متاح. اختر ميكروفونًا آخر.",
+    "microphoneAccessDenied": "تم رفض الوصول إلى الميكروفون",
+    "noInputDetected": "لم يتم اكتشاف أي إدخال من الميكروفون. غيّر ميكروفونك إذا لم يتمكن مركز الإرسال من سماعك.",
+    "noMicrophoneFound": "لم يتم العثور على ميكروفون",
+    "selectedUnavailable": "الميكروفون المحدد غير متاح. اختر ميكروفونًا آخر.",
+    "unknownError": "خطأ غير معروف"
   },
   "error404": {
     "goHome": "العودة إلى الصفحة الرئيسية",
@@ -331,7 +457,291 @@
     "sonoranRadioPolymap": "خريطة سونوران راديو المتعددة"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "ابدأ براديو مجاني لمجتمع الألعاب الخاص بك",
     "learnMore": "تعرّف على المزيد"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "قارن Sonoran Radio",
+      "competitorLogo": "شعار {competitor}",
+      "dispatchAnywhere": "الإرسال من أي مكان",
+      "downloadAndroid": "تحميل Sonoran Radio لـ Android",
+      "downloadIos": "تحميل Sonoran Radio لـ iOS",
+      "downloadLinux": "تحميل Sonoran Radio لـ Linux",
+      "downloadMacos": "تحميل Sonoran Radio لـ MacOS",
+      "downloadWindows": "تحميل Sonoran Radio لـ Windows",
+      "gameSelection": "اختيار اللعبة",
+      "heroRadioAlt": "تراكب سطح المكتب Sonoran Radio لـ {game} مع قنوات نموذجية",
+      "openIntegration": "فتح تكامل {title}",
+      "sonoranRadioIntegrations": "تكاملات Sonoran Radio",
+      "sonoranRadioVs": "Sonoran Radio مقابل {competitor}",
+      "viewGameIntegrations": "عرض تكاملات {game}"
+    },
+    "armaCapture": {
+      "activeDishes": "الأطباق النشطة",
+      "aiCanHear": "يمكن للذكاء الاصطناعي سماع البثوث",
+      "aiHearingTitle": "سونوران راديو · استماع الذكاء الاصطناعي",
+      "alphaOneOne": "ألفا 1-1",
+      "blockedPath": "المسار محظور · 2 كم",
+      "blockedQuality": "جودة 26%",
+      "blockedTerrainMultiplier": "مضاعف التضاريس المحجوبة",
+      "cancel": "إلغاء",
+      "canDetectSpeaker": "يمكنه اكتشاف المتحدث",
+      "clearPath": "مسار خالٍ · 2 كم",
+      "clearQuality": "جودة 75%",
+      "customizationDesktopFrames": "التخصيص / إطارات سطح المكتب",
+      "dishCount": "عدد الأطباق",
+      "exampleSignalPaths": "مسارات الإشارة النموذجية",
+      "hearingRadiusAria": "نطاق سماع البث التوضيحي",
+      "illustrativeHearingRadius": "نطاق السماع التوضيحي",
+      "indestructible": "غير قابل للتدمير",
+      "inventoryFrame": "عنصر الجرد → إطار سطح المكتب",
+      "invisibleSignalOnly": "غير مرئي (الإشارة فقط)",
+      "itemClassNames": "أسماء فئات عناصر ARMA",
+      "largeRadioTower": "برج راديو كبير",
+      "matchRadio": "طابق الراديو الذي تحمله",
+      "nearbyAi": "الذكاء الاصطناعي القريب",
+      "nearbyAiDescription": "يمكن للذكاء الاصطناعي القريب اكتشافك أثناء استخدامك للضغط للتحدث.",
+      "ok": "حسنًا",
+      "optionalDisabled": "اختياري · معطّل افتراضيًا",
+      "outsideHearingRange": "خارج نطاق السمع",
+      "photoCaption": "ألتيس · برج راديو كبير",
+      "powered": "مدعوم",
+      "rangeDishes": "مدى 8 كم · 4 / 4 أطباق",
+      "relayAlpha": "ريلاي ألفا",
+      "repeaterModel": "طراز المُكرِّر",
+      "signalPathsAria": "مسارات الإشارة الواضحة والمحجوبة بالتضاريس",
+      "signalRange": "نطاق الإشارة (م)",
+      "signalTitle": "سونوران راديو / الإشارة",
+      "terrainAttenuation": "توهين التضاريس",
+      "terrainChanges": "تغييرات التضاريس في الاستقبال",
+      "title": "برج سونوران راديو",
+      "transmissionHearingRange": "نطاق سماع البث",
+      "transmitting": "جارٍ الإرسال"
+    },
+    "dispatchAi": {
+      "exampleOf": "مثال {current} من {total}: {id}",
+      "examples": "أمثلة الإرسال بالذكاء الاصطناعي",
+      "items": {
+        "alpha": {
+          "request": "\"يا قيادة، حوّلني إلى فرقة ألفا.\"",
+          "response": "انسخ، سأحوّلك إلى فرقة ألفا.",
+          "result": "التبديل إلى الفرقة · فرقة ألفا"
+        },
+        "breach": {
+          "request": "\"أمر، ابدأ مؤقت الاقتحام لمدة 60 ثانية.\"",
+          "response": "تم النسخ، بدأ مؤقت الاقتحام لمدة 60 ثانية.",
+          "result": "بدأ مؤقت الاختراق · 01:00"
+        },
+        "miller": {
+          "request": "\"أمر، ادفع الرقيب ميلر إلى ترددي.\"",
+          "response": "نسخ، جارٍ دفع الرقيب ميلر إلى التردد الخاص بك.",
+          "result": "ضغط التردد · الرقيب ميلر"
+        },
+        "pit": {
+          "request": "\"التوزيع، اضبط مؤقت PIT لمدة خمس دقائق.\"",
+          "response": "تم، بدأ مؤقت PIT لمدة خمس دقائق.",
+          "result": "بدأ مؤقت الحفرة · 05:00"
+        },
+        "plate": {
+          "request": "\"مركز، أظهر لي على الطريق مع سيارة سيدان زرقاء، اللوحة ABC123.\"",
+          "response": "انسخ، تم إنشاء نداء إيقاف مرور مع سيارة سيدان زرقاء، ABC123.",
+          "result": "نداء مروري · تم تعيين الوحدة"
+        },
+        "platoon": {
+          "request": "\"قيادة، أضف الفصيلة الأولى إلى القنوات التي تم مسحها.\"",
+          "response": "تم النسخ، إضافة الفصيلة الأولى إلى القنوات التي تم مسحها.",
+          "result": "تمت إضافة القناة · الفصيلة الأولى"
+        },
+        "robbery": {
+          "request": "\"المرسِل، اربطني بالسطو الجاري.\"",
+          "response": "تم، جارٍ إرفاق وحدتكم بالسطو الجاري.",
+          "result": "نداء سطو · تم تعيين الوحدة"
+        },
+        "runPlate": {
+          "request": "\"ديسباتش، شغّل الصفيحة ABC123.\"",
+          "response": "انسخ، استعد للعودة على ABC123.",
+          "result": "بحث اللوحة · النتائج متاحة"
+        },
+        "tacOne": {
+          "request": "\"Dispatch، حوّلني إلى TAC 1.\"",
+          "response": "انسخ، سأحوّلك إلى TAC 1.",
+          "result": "تبديل القناة · TAC 1"
+        }
+      },
+      "next": "مثال التالي لـ Dispatch AI",
+      "previous": "مثال سابق لـ Dispatch AI",
+      "radioAlt": "تراكب سطح المكتب Sonoran Radio لـ {game}",
+      "subtitle": "صوتك. المرسل الخاص بك. متصل بـ Sonoran CAD.",
+      "title": "الإرسال بالذكاء الاصطناعي"
+    },
+    "erLcMapCapture": {
+      "addPoints": "إضافة نقاط",
+      "cancel": "إلغاء",
+      "clickTheMap": "انقر على الخريطة",
+      "closeTowerMenu": "إغلاق قائمة البرج",
+      "closeZoneMenu": "إغلاق قائمة المنطقة",
+      "deleteTower": "حذف البرج",
+      "deleteZone": "حذف المنطقة",
+      "description": "قم بتكوين تغطية الإشارة ومناطق الطوارئ على الخريطة نفسها.",
+      "dragZoneHandles": "اسحب المقابض الزرقاء لتعديل شكل المنطقة.",
+      "drawCircle": "ارسم دائرة",
+      "drawPolygon": "ارسم مضلع",
+      "editEmergencyZone": "تحرير منطقة الطوارئ",
+      "editTower": "تعديل البرج",
+      "emergencyZones": "مناطق الطوارئ",
+      "finishZone": "منطقة النهاية",
+      "mapAlt": "خريطة ER:LC",
+      "mapCoordinates": "إحداثيات الخريطة X {x} · Z {y}",
+      "mapUnits": "وحدات الخريطة",
+      "noEmergencyZones": "لا توجد مناطق طوارئ لهذه الغرفة بعد. ارسم مضلعًا أو دائرة لإضافة واحدة.",
+      "noSignalTowers": "لا توجد أبراج إشارة بعد. تبقى الإشارة عند 100% حتى تضع برجًا.",
+      "placeTower": "وضع البرج",
+      "points": "نقاط",
+      "range": "المدى",
+      "room": "غرفة",
+      "selectCenter": "اختر المركز",
+      "selectCircleEdge": "اختر حافة الدائرة",
+      "setCenterEdge": "تعيين المركز والحافة",
+      "title": "إعداد خريطة ER:LC",
+      "towerName": "اسم البرج",
+      "towers": "الأبراج",
+      "transmitChannels": "إرسال القنوات",
+      "zoneName": "اسم المنطقة"
+    },
+    "featureCapture": {
+      "channelsGroups": "القنوات والمجموعات",
+      "exportedPngData": "بيانات PNG المُصدَّرة",
+      "exportPng": "تصدير PNG شفاف",
+      "preview": "معاينة",
+      "sfxCustomization": "تخصيص التأثيرات الصوتية",
+      "transmissionLogs": "سجلات الإرسال"
+    },
+    "gameIntegration": {
+      "integration": "تكامل"
+    },
+    "integrationCapture": {
+      "adminPermission": "مسؤول",
+      "alexMorgan": "A-12 · أليكس مورغان",
+      "apiGetGroupsComment": "// الحصول على المجموعات والقنوات المُهيأة",
+      "approveMembers": "موافقة الأعضاء",
+      "assignedUnits": "المسندة: A-12، A-14",
+      "available": "متاح",
+      "availableCall": "متاح · نداء #1042",
+      "availableUnit": "متاح · A-12",
+      "callAction": "إنشاء مكالمة",
+      "callActionExample": "أنشئ مكالمة لـ 10-50 في Main St",
+      "callInformation": "معلومات المكالمة",
+      "callNumber": "نداء #1042",
+      "channelAction": "تبديل قناة الراديو",
+      "channelActionExample": "حوّلني إلى TAC 1",
+      "communityAdmin": "مسؤول المجتمع",
+      "communityRoles": "أدوار المجتمع",
+      "connectedToRadio": "متصل بجهاز الراديو الخاص بك",
+      "countyDispatch": "إرسال المقاطعة",
+      "dispatchAiActions": "إجراءات الإرسال بالذكاء الاصطناعي",
+      "dispatchCall": "مكالمة الإرسال",
+      "dispatchOne": "الإرسال 1",
+      "dispatchTeam": "الإرسال الجماعي",
+      "exampleRoleMapping": "تعيين الأدوار المثال",
+      "exampleVoiceRequest": "مثال لطلب صوت",
+      "jordanLee": "A-14 · جوردان لي",
+      "moveRadioUsers": "نقل مستخدمي الراديو",
+      "officialSdkLibraries": "مكتبات SDK الرسمية v2",
+      "panic": "ذعر",
+      "patrol": "دورية",
+      "permissions": "الأذونات",
+      "permissionsStayInSync": "تظل الأذونات متزامنة",
+      "plateAction": "بحث عن شخص أو لوحة",
+      "plateActionExample": "شغّل صفيحة ABC123",
+      "playDispatchTones": "تشغيل نغمات الإرسال",
+      "respondingCall": "الرد · المكالمة #1042",
+      "statusAction": "تحديثات الحالة",
+      "statusActionExample": "اضبط حالتي على متاح",
+      "statusUpdates": "تحديثات الحالة",
+      "streamDeckAlt": "جهاز Elgato Stream Deck MK.2 المادي مع عناصر تحكم Sonoran Radio على مفاتيحه LCD الـ15",
+      "trafficCollision": "تصادم مروري",
+      "trafficLocation": "طريق المحيط العظيم · البريد 3025",
+      "unitStatus": "حالة الوحدة",
+      "xmit": "إرسال",
+      "yourVoiceConnectedToCad": "صوتك. متصل بـ CAD."
+    },
+    "integrationCard": {
+      "free": "مجاني"
+    },
+    "interactivePreview": {
+      "allClear": "تم المسح",
+      "analog": "تماثلي",
+      "audioLevel": "مستوى الصوت",
+      "cancel": "إلغاء",
+      "countyDispatch": "إرسال المقاطعة",
+      "digital": "الرقمي",
+      "emsDispatch": "الإرسال الطبي",
+      "fireDispatch": "الإرسال",
+      "fireEms": "الإطفاء / الطوارئ الطبية",
+      "hearDifference": "اسمع الفرق",
+      "microphonePreviewError": "تعذر بدء معاينة الميكروفون. تحقق من إذن المتصفح أو جرّب العينة.",
+      "microphonePreviewOn": "معاينة الميكروفون مفعلة",
+      "openLibrary": "افتح {library} على {registry}",
+      "original": "الأصل",
+      "playingSample": "جاري تشغيل العينة",
+      "playSample": "تشغيل العينة",
+      "previewPlaying": "المعاينة قيد التشغيل",
+      "previewStopped": "توقفت المعاينة",
+      "previewVolume": "معاينة مستوى الصوت",
+      "priorityTraffic": "مكالمات ذات أولوية",
+      "publicSafety": "السلامة العامة",
+      "samplePlaybackError": "تعذر تشغيل العينة. يرجى المحاولة مرة أخرى.",
+      "sampleUnavailable": "العينة غير متاحة",
+      "startingPreview": "بدء المعاينة",
+      "stopPreview": "إيقاف المعاينة",
+      "tonePlaybackError": "تعذر تشغيل هذا النغمة. يرجى المحاولة مرة أخرى.",
+      "toneUnavailable": "النغمة غير متاحة",
+      "tryMicrophone": "جرّب الميكروفون الخاص بي",
+      "vocoder": "فوكدَر · 3200",
+      "vocoderPreviewError": "تعذّر بدء معاينة الفوكودر. يُرجى المحاولة مرة أخرى.",
+      "voiceEffectExamples": "أمثلة على التأثير الصوتي"
+    },
+    "mobi": {
+      "active": "نشط",
+      "audio": "الصوت",
+      "channelGroup": "مجموعة القناة",
+      "channels": "القنوات",
+      "currentSpeaker": "المتحدث الحالي",
+      "distress": "استغاثة",
+      "distressSignalDetected": "تم اكتشاف إشارة استغاثة",
+      "header": "الراديو // الاتصالات",
+      "multiChannel": "قنوات متعددة",
+      "multiGroup": "مجموعة متعددة",
+      "noActiveTransmission": "لا توجد إشارة نشطة",
+      "noLink": "بدون ربط",
+      "none": "لا شيء",
+      "online": "متصل",
+      "priorityAlert": "تنبيه أولوية",
+      "quickAccess": "وصول سريع",
+      "receive": "استقبال",
+      "scan": "المسح",
+      "scanList": "قائمة المسح",
+      "scannedChannel": "القناة الممسوحة",
+      "selectedChannel": "القناة المحددة",
+      "settings": "الإعدادات",
+      "settingsTooltip": "الإعدادات",
+      "signal": "إشارة",
+      "signalFault": "عطل الإشارة",
+      "spectrumOffline": "الطيف غير متصل",
+      "standby": "استعداد",
+      "temporaryLink": "رابط مؤقت",
+      "transmission": "إِرْسال",
+      "transmit": "إرسال",
+      "unknownChannel": "قناة غير معروفة",
+      "unknownGroup": "مجموعة غير معروفة",
+      "unknownUser": "مستخدم غير معروف"
+    },
+    "tabPanel": {
+      "defaultDescription": "اختبر تنسيقًا سلسًا مع محتوى علامة تبويب العنصر النائب لحالة الوحدة في الوقت الفعلي ومراقبة التردد وإدارة القنوات.",
+      "defaultTitle": "Sonoran Radio",
+      "imageAlt": "صورة لوحة التبويب"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "تغيير إطار الراديو",
@@ -372,11 +782,125 @@
     "title": "استيراد/تصدير JSON",
     "tooltip": "استيراد ملف JSON"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "مكتبات Sonoran API",
+    "armaDescription": "اربط Sonoran Radio مباشرةً بـ Arma 3 باستخدام تكاملات Arma 3.",
+    "back": "رجوع",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "معاينة مكالمات الإرسال",
+        "description": "اربط نفسك بمكالمة إرسال Sonoran CAD واعرض تفاصيل المكالمة في الراديو",
+        "label": "مكالمات الإرسال"
+      },
+      "liveMap": {
+        "alt": "معاينة الخريطة الحية النائبة",
+        "description": "اعرض أبراج الراديو باستخدام الخريطة المباشرة لـ Sonoran CAD.",
+        "label": "الخريطة المباشرة"
+      },
+      "panicButton": {
+        "alt": "معاينة زر الذعر",
+        "description": "قم بتبديل حالة الذعر في Sonoran CAD باستخدام زر الذعر في الراديو.",
+        "label": "زر الذعر"
+      }
+    },
+    "comingSoon": "قريبًا.",
+    "erlcDescription": "اربط Sonoran Radio مباشرةً بـ ER:LC باستخدام تكاملات ER:LC.",
+    "fivemDescription": "استخدم سكربت الراديو المجاني لـ Sonoran Radio الخاص بـ FiveM—المورد الرسمي داخل اللعبة—لإدخال الراديو الصوتي إلى خادمك. استكشف عمليات التكامل أدناه، ثم اتبع {setupGuide}.",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "رسم توضيحي للاعب Arma يرسل داخل نطاق سمع الذكاء الاصطناعي، إلى جانب إعدادات السمع الخاصة بالمود.",
+            "description": "اسمح للذكاء الاصطناعي القريب باكتشاف اللاعبين الذين يرسلون، مع نطاق سمع قابل للتعديل. متاح في المعاينة التجريبية لتكامل Arma.",
+            "label": "الاستماع بالذكاء الاصطناعي"
+          },
+          "itemFrames": {
+            "alt": "تعيينات فئات العناصر BLUFOR وOPFOR بجانب إطارات تراكب سطح مكتب Sonoran Radio المطابقة لها.",
+            "description": "يختار عنصر الراديو الخاص بـ BLUFOR أو OPFOR التراكب المكتبي المطابق له. اربط العناصر المخصصة بإطارات مجتمعك.",
+            "label": "مزامنة راديو الجرد"
+          },
+          "terrainSignal": {
+            "alt": "تغطية مكرر Arma المرسومة تُظهر مسار إشارة واضحًا وانخفاض الإشارة خلف التضاريس.",
+            "description": "تضعف المسافة والتضاريس استقبال البرج. راقب إشارة التراكب لديك واسمع التغير عبر تأثيرات القناة.",
+            "label": "التضاريس والإشارة"
+          },
+          "towers": {
+            "alt": "برج إشارة Arma مع عناصر تحكم Zeus نموذجية للمدى والسعة والطاقة.",
+            "description": "ضع الأبراج في Eden أو Zeus. المدى، والقوة، والدمار يشكلون تغطية الراديو الخاصة بك.",
+            "label": "أبراج داخل اللعبة"
+          }
+        },
+        "tabsLabel": "ميزات تكامل Arma 3"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "تراكب سطح مكتب Sonoran Radio يعرض قنوات إرسال Liberty County فوق مشهد شرطة ER:LC.",
+            "description": "أبقِ راديوك في الأعلى فوق Roblox أثناء اللعب. اختر إطارًا، وبدّل القنوات، وتابع إشارة البرج المباشرة من تطبيق سطح المكتب.",
+            "label": "التراكب المكتبي"
+          },
+          "emergencyZones": {
+            "alt": "خريطة ER:LC تُظهر منطقة طوارئ نموذجية وقنوات الإرسال الطارئة المسموح بها.",
+            "description": "ارسم مناطق الطوارئ واختر قنوات الإرسال الطارئة المتاحة في كل منطقة.",
+            "label": "مناطق الطوارئ"
+          },
+          "liveSignal": {
+            "alt": "خريطة ER:LC مع تغطية برج افتراضي ولاعبين مرتبطين بجانب تراكب Sonoran Radio الذي يعرض قوة الإشارة الحية.",
+            "description": "ضع الأبراج لتشكيل تغطية الراديو عبر Liberty County. أثناء قيادتك، تعرض الطبقة فوق الشاشة قوة الإشارة المباشرة وتعكس مؤثرات الراديو جودة الاستقبال لديك.",
+            "label": "أبراج افتراضية"
+          }
+        },
+        "tabsLabel": "ميزات تكامل ER:LC"
+      }
+    },
+    "integrationTitleSuffix": "تكامل",
+    "learnMore": "تعرّف على المزيد: {title}",
+    "meta": {
+      "armaDescription": "استكشف تكاملات Sonoran Radio لـ Arma 3، بما في ذلك الأبراج داخل اللعبة، ومزامنة راديو المخزون، وإشارة التضاريس، وسمع الذكاء الاصطناعي.",
+      "armaTitle": "تكاملات Arma 3 | Sonoran Radio",
+      "erlcDescription": "استكشف تكاملات Sonoran Radio لـ ER:LC، بما في ذلك التراكب المكتبي، والأبراج الافتراضية، ومناطق الطوارئ.",
+      "erlcTitle": "تكاملات ER:LC | Sonoran Radio",
+      "fivemDescription": "استخدم سكربت الراديو المجاني لـ Sonoran Radio الخاص بـ FiveM، المورد الرسمي داخل اللعبة، لإدخال الراديو الصوتي إلى خادمك.",
+      "fivemTitle": "تكاملات FiveM | Sonoran Radio"
+    },
+    "openDocumentation": "افتح التوثيق لـ {title}",
+    "registryLink": "{name} على {registry}",
+    "setupGuide": "دليل الإعداد",
+    "streamDeck": {
+      "calloutDescription": "اطّلع على الوثائق للحصول على مزيد من التفاصيل وخطوات تثبيت الإضافة.",
+      "calloutTitle": "هل تريد معرفة المزيد؟",
+      "description": "أضف أكثر عناصر التحكم استخدامًا في Sonoran Radio إلى مفتاح أو قرص Stream Deck. تنقّل بين القنوات، وأرسل، واضبط الصوت بدقة دون كسر تدفقك.",
+      "deviceAlt": "جهاز محمول Sonoran Radio يعرض عناصر التحكم بالقناة",
+      "heading": "راديوك. على بُعد لمسة واحدة.",
+      "highlights": {
+        "actions": {
+          "description": "ضع وضع الذكاء الاصطناعي ولوحة النغمة والتراكبات على سطح المكتب على لوحة التحكم الخاصة بك، أو استخدم الإجراءات مع راديو FiveM داخل اللعبة.",
+          "title": "المزيد من إجراءات الراديو"
+        },
+        "audio": {
+          "description": "استخدم الأقراص المدعومة لضبط الراديو والقناة والمؤثرات ومستوى صوت الذكاء الاصطناعي.",
+          "title": "اضبط صوتك"
+        },
+        "channelShortcuts": {
+          "description": "انتقل بين القنوات والمجموعات، أو بدّل قوائم الإرسال والمسح بلمسة.",
+          "title": "اختصارات القناة"
+        },
+        "pushToTalk": {
+          "description": "احتفظ بـ Transmit في متناول اليد وأرسل دون الرجوع إلى تطبيق الراديو.",
+          "title": "الضغط للتحدث، على زر"
+        }
+      },
+      "platformKeysDials": "المفاتيح + الأقراص",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "ميزات ستريم ديك"
+  },
   "landingPage": {
     "API_Libraries": {
       "desc": "روابط التثبيت لمكتبات Sonoran SDK الرسمية المستخدمة مع واجهة برمجة التطبيقات v2.",
       "title": "مكتبات API"
     },
+    "armaIntegrationDescription": "اربط Sonoran Radio مباشرةً بـ Arma 3 باستخدام تكاملات Arma 3.",
     "BackgroundAudio": {
       "desc": "هل ترد على مكالمة؟ يُدخل Sonoran Radio صفارات الإنذار وطلقات النار والمزيد في الوقت الفعلي مباشرةً إلى تغذية الميكروفون لديك لأقصى درجات الانغماس.",
       "title": "الصوت الخلفي"
@@ -431,6 +955,8 @@
       "desc": "أجرِ مكالمات الطوارئ إلى مركز الإرسال، كل ذلك من داخل اللعبة!",
       "title": "مكالمات الطوارئ داخل اللعبة"
     },
+    "erlcIntegrationDescription": "اربط Sonoran Radio مباشرةً بـ ER:LC باستخدام تكاملات ER:LC.",
+    "exploreIntegrations": "استكشاف التكاملات",
     "faq": {
       "free": {
         "answer": "نعم. Dispatch AI متاح بالكامل على الخطة المجانية مع أرصدة شهرية مضمّنة. تشمل الخطط المدفوعة حدود أرصدة أعلى.",
@@ -459,6 +985,34 @@
       "eyebrow": "تكامل مباشر",
       "heading": "تكاملات"
     },
+    "fivemRadioIntegration": "تكامل الراديو",
+    "gameIntegrations": "تكاملات اللعبة",
+    "games": {
+      "arma3": {
+        "description": "ابدأ بقنوات راديو مجانية وتراكب سطح مكتب لـ Arma 3. اعرض تكامل Arma مع أبراج المهام، والإطارات المرتبطة بالمخزون، وإشارة التضاريس.",
+        "headline": "راديو مجاني لفرقتك في Arma 3",
+        "name": "أرما 3",
+        "title": "راديو أرما 3 المجاني وتراكب سطح المكتب | سونوران راديو"
+      },
+      "erlc": {
+        "description": "ابدأ راديو صوتي مجاني لـ ER:LC مع طبقة سطح مكتب علوية لـ Roblox Emergency Response: Liberty County. اربط الحسابات وأضف أبراجًا افتراضية مع تغطية إشارة مباشرة.",
+        "headline": "راديو صوتي مجاني لـ ER:LC لمجتمعك",
+        "name": "ER:LC",
+        "title": "راديو صوتي وطبقة سطح المكتب مجانية لـ ER:LC | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "ابدأ مجانًا مع سكربت راديو FiveM، وتراكب سطح المكتب، ولوحة الإرسال. وصّل Sonoran Radio بخادم لعب الأدوار GTA V الخاص بك عبر تكامل FiveM.",
+        "headline": "راديو مجاني لمجتمع FiveM الخاص بك",
+        "name": "FiveM",
+        "title": "سكربت راديو FiveM ولوحة إرسالات مجانًا | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "أبقِ طاقم Star Citizen على اتصال عبر قنوات راديو مجانية، وأدوات الإرسال، وتراكب سطح مكتب بطابع خاص. نسّق الاتصالات عبر الكون.",
+        "headline": "راديو مجاني لطاقم Star Citizen الخاص بك",
+        "name": "ستار سيتيزن",
+        "title": "راديو ستار سيتزن المجاني والتراكب | سونوران راديو"
+      }
+    },
     "hero": {
       "subtitle": "تحدّث في قنوات راديو واقعية، خصّص تأثيرات صوتك، وتواصل بسلاسة مع ميزات داخل اللعبة لتجربة غامرة حقًا.",
       "title": "تبدأ اتصالات الراديو الأفضل هنا"
@@ -476,6 +1030,7 @@
     "meta": {
       "audienceType": "اللاعبون ومديرو المجتمع",
       "description": "برنامج اتصال لاسلكي واقعي لـ FiveM وER:LC وArma 3 ومجتمعات لعب الأدوار على حد سواء.",
+      "imageAlt": "لوحة إرسال Sonoran Radio وتراكب الراديو لسطح المكتب",
       "keywords": "راديو سونوران، راديو الألعاب، راديو FiveM، راديو ER:LC، راديو Arma 3، اتصالات لعب الأدوار، برنامج الإرسال، تراكب راديو سطح المكتب، راديو FiveM مجاني، راديو ER:LC مجاني",
       "ogTitle": "سونوران راديو - اتصالات راديو الألعاب",
       "productName": "Sonoran Radio",
@@ -511,6 +1066,7 @@
       "dispatchAdmin": "لوحة الإرسال والإدارة",
       "integrations": "تكاملات"
     },
+    "softwareIntegrations": "تكاملات البرامج",
     "Sonoran_CAD": {
       "desc": "تتيح هذه الإضافة لعملاء Sonoran Radio ربط الراديو مع Sonoran CAD. اعرض حالة وحدتك، ومعلومات مكالمات الإرسال، وفعّل حالة الذعر، والمزيد!",
       "title": "سونوران CAD"
@@ -524,6 +1080,7 @@
       "title": "ستريم ديك"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "استكشف Sonoran Studio",
       "description": "حوّل نشاط الراديو المباشر إلى طبقات بث وإضاءة ذكية تفاعلية وأتمتة بدون استخدام اليدين.",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -594,7 +1151,15 @@
     "serverHosting": "استضافة الخادم"
   },
   "management": {
-    "forceJoinAsOwner": "انضمام قسري كمالك"
+    "eventType": "نوع الحدث",
+    "forceJoinAsOwner": "انضمام قسري كمالك",
+    "forceLeave": "مغادرة قسرية",
+    "payloadJson": "JSON الحمولة",
+    "pushEventDiagnostic": "تشخيص حدث الدفع",
+    "pushUrl": "عنوان دفع البيانات",
+    "sendTestPushEvent": "إرسال حدث دفع تجريبي",
+    "storedRoomPushUrl": "عنوان URL للدفع المخزن للغرفة",
+    "timeout": "انتهاء المهلة (مللي ثانية)"
   },
   "managementPage": {
     "searchTitle": "بحث المجتمع",
@@ -607,6 +1172,8 @@
       "apiInfoTitle": "معلومات API",
       "communityApiKeyField": "مفتاح API للمجتمع",
       "communityLogs": "سجلات المجتمع",
+      "communityLogsEmpty": "لم يتم العثور على سجلات",
+      "communityLogsLoading": "جارٍ تحميل السجلات...",
       "logAccount": "مصدر (الحساب)",
       "logContent": "المحتوى",
       "logDate": "التاريخ",
@@ -647,9 +1214,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "إضافة زر",
+      "addLayout": "إضافة تخطيط",
       "addScreen": "إضافة شاشة",
       "addVariant": "أضف هذا البديل",
       "addVehicleOverride": "إضافة تجاوز للمركبة",
+      "aircraftLayout": "تخطيط الطائرات",
       "armaBlufor": "مثال BLUFOR",
       "armaExamples": "أمثلة ARMA 3",
       "armaItemClassNames": "أسماء فئات عناصر ARMA",
@@ -670,6 +1239,8 @@
       "deleteFrame": "حذف الإطار",
       "duplicateVehicleName": "يمكن أن يحتوي اسم كل مركبة على تجاوز واحد فقط.",
       "editHint": "اسحب للتحريك · Ctrl + اسحب لتغيير الحجم · انقر بزر الفأرة الأيمن على زر للإزالة",
+      "fit": "ملاءمة",
+      "fitRadioToCanvas": "ملاءمة الراديو للوحة",
       "frameBodyImage": "صورة جسم الإطار",
       "frameLabel": "تسمية الإطار",
       "frameName": "اسم الإطار",
@@ -678,6 +1249,10 @@
       "importFromSkin": "استيراد من FiveM (skin.json)",
       "importNoFramesFound": "لم يتم العثور على إطارات تحتوي على body.width و screen.",
       "label": "تسمية",
+      "migratedFramesReadOnly": "تظل إطارات FiveM المُرحَّلة متاحة في Free. قم بالترقية إلى Pro لتحرير هذا الإطار أو استبدال صوره.",
+      "migratedFramesReset": "لا يمكن إعادة تعيين إطارات FiveM المُرحَّلة إلا مع Pro.",
+      "moveLayoutEarlier": "انقل التخطيط أبكر",
+      "moveLayoutLater": "انقل التخطيط لاحقًا",
       "newFrame": "إطار جديد",
       "noneFound": "لم يتم العثور على إطارات تراكب لهذه المجموعة.",
       "overrideFramesRequired": "اختر إطارًا واحدًا على الأقل لكل تجاوز مركبة.",
@@ -715,12 +1290,17 @@
         "onFoot": "على الأقدام",
         "vehicle": "مركبة"
       },
+      "vehicleClasses": "فئات المركبات",
+      "vehicleClassesHint": "امسح التحديد لمطابقة جميع فئات المركبات. التخطيطات الأقدم لها الأولوية.",
+      "vehicleLayout": "تخطيط المركبة",
       "vehicleName": "اسم مركبة ER:LC",
       "vehicleNameRequired": "أدخل اسم مركبة لكل تجاوز.",
       "vehicleOverrideHint": "تطابق أسماء المركبات تمامًا، مع تجاهل الأحرف الكبيرة والمسافات في البداية أو النهاية. في إطار سطح المكتب، فعّل اكتشاف مركبات ER:LC لاستخدام إطار خاص بمركبة عند توفر اسم مركبة واحد.",
       "visibilityHint": "اختر إطارات سطح المكتب الافتراضية لحالة المشي أو عندما لا يتطابق أي اسم مركبة. تتجاوز المركبات الإطارات المحددة تلقائيًا عندما يجد اكتشاف مركبات ER:LC اسمًا مطابقًا.",
       "visibilityTitle": "ظهور الإطار",
-      "visibleFrames": "الإطارات المرئية"
+      "visibleFrames": "الإطارات المرئية",
+      "zoomIn": "تكبير",
+      "zoomOut": "صغّر"
     },
     "customizeMenu": {
       "ai": "الذكاء الاصطناعي",
@@ -1106,13 +1686,19 @@
       "approveBtn": "موافقة",
       "ban": "حظر",
       "banBtn": "حظر",
+      "banConfirm": "أنت على وشك حظر {count} عضو(أعضاء) بشكل دائم. لن يتمكنوا من الانضمام مرة أخرى، ولكن يمكن إلغاء حظرهم.",
       "cannotModifyPermsOfMyself": "لا يمكنني تعديل أذوناتي الخاصة",
+      "communityAccess": "وصول المجتمع",
+      "communityAccessDescription": "يوافق على العضو للوصول الأساسي إلى Sonoran Radio. لا يمنح أي أذونات إدارية أو وصولًا إلى الملف الشخصي الخاص.",
+      "confirmTitle": "هل أنت متأكد؟",
       "copyDiscordId": "نسخ معرف Discord",
       "copyPermissionGeneratorId": "نسخ معرّف الإذن",
       "copyRobloxId": "نسخ معرّف Roblox",
       "discordIdCopied": "تم نسخ معرّف Discord إلى الحافظة.",
       "displayName": "اسم العرض",
+      "displayNameUpdated": "تم تحديث اسم العرض",
       "editMemberPerms": "تعديل أذونات العضو",
+      "enterDisplayName": "أدخل اسم عرض جديدًا لـ {name}",
       "errAddInvalidAccount": "اسم المستخدم المقدم غير موجود",
       "errAddUnknown": "حدث خطأ غير معروف أثناء إضافة المدير",
       "errRemoveUnknown": "حدث خطأ غير معروف أثناء إزالة المدير",
@@ -1122,17 +1708,42 @@
       "filterBanned": "محظور",
       "filterPending": "معلق",
       "kickBtn": "طرد",
+      "kickConfirm": "أنت على وشك طرد {count} عضو(أعضاء). سيتمكنون من الانضمام مرة أخرى باستخدام معرّف المجتمع.",
       "noDiscordAccountLinked": "لا يوجد لدى هذا المستخدم حساب Discord مرتبط.",
       "noRobloxAccountLinked": "لا يوجد لدى هذا المستخدم حساب Roblox مرتبط.",
       "owner": "المالك",
       "ownerHasAllPerms": "مالك المجتمع لديه جميع الأذونات",
       "paysSubscription": "يدفع الاشتراك",
       "pending": "معلق",
+      "permissionAdmin": "مسؤول",
+      "permissionAdminDescription": "يمنح صلاحيات كاملة لإدارة والوصول إلى جميع ميزات مجتمع الراديو.",
+      "permissionApproveMembers": "موافقة الأعضاء",
+      "permissionApproveMembersDescription": "يتيح الموافقة على المستخدمين المعلّقين أو رفضهم في مجتمع الراديو.",
+      "permissionBanCommunity": "حظر من المجتمع",
+      "permissionBanCommunityDescription": "يمنح الإذن بحظر الأعضاء نهائيًا من المجتمع.",
+      "permissionCallOnly": "للمكالمات فقط",
+      "permissionCallOnlyDescription": "يقيّد المستخدم بإجراء مكالمات 911 فقط. يُخفي علامة تبويب الإرسال. لا يؤثر على المسؤولين.",
+      "permissionChangeDisplayName": "تغيير اسم العرض",
+      "permissionChangeDisplayNameDescription": "يتيح للمستخدم تعديل اسم العرض الخاص به.",
       "permissionGeneratorBtn": "مولّد الأذونات",
       "permissionGeneratorId": "معرّف الإذن",
       "permissionGeneratorSubtitle": "أنشئ معرّف إذن مستخدم للاستخدام الخارجي.",
       "permissionGeneratorTitle": "مولّد الأذونات",
+      "permissionKickCommunity": "طرد من المجتمع",
+      "permissionKickCommunityDescription": "يمنح الإذن بإزالة الأعضاء من المجتمع.",
+      "permissionKickRadio": "طرد من الراديو",
+      "permissionKickRadioDescription": "يمنح إذن فصل الأعضاء من قناة راديو.",
+      "permissionManageDisplayNames": "إدارة أسماء العرض",
+      "permissionManageDisplayNamesDescription": "يسمح للمستخدم بتعديل أسماء العرض للأعضاء الآخرين.",
+      "permissionMoveRadioUsers": "نقل مستخدمي الراديو",
+      "permissionMoveRadioUsersDescription": "يسمح بنقل الأعضاء بين قنوات الراديو.",
+      "permissionOverrideTalkover": "تجاوز حماية الحديث",
+      "permissionOverrideTalkoverDescription": "يتيح للمستخدم تجاوز حماية التداخل عبر النقر المزدوج على زر الضغط للتحدث (PTT).",
+      "permissionPlayDispatchTones": "تشغيل نغمات الإرسال",
+      "permissionPlayDispatchTonesDescription": "يمنح الإذن بتشغيل نغمات الإرسال عبر الراديو.",
       "permissionsBtn": "الأذونات",
+      "permissionStunRadio": "تعطيل الراديو",
+      "permissionStunRadioDescription": "يسمح للمستخدمين بإيقاف مستخدم راديو آخر لمدة 30 ثانية.",
       "privateChannels": "القنوات الخاصة",
       "remove": "إزالة",
       "removeWarn": "تحذير",
@@ -1147,6 +1758,7 @@
       "title": "أعضاء المجتمع",
       "traits": "السمات",
       "unbanBtn": "إلغاء الحظر",
+      "unbanConfirm": "أنت على وشك إلغاء حظر {count} عضو(أعضاء). سيتمكنون من الانضمام مرة أخرى باستخدام معرّف المجتمع.",
       "username": "اسم المستخدم"
     },
     "membersTab": "الأعضاء",
@@ -1524,6 +2136,26 @@
     "welcome": "أهلاً",
     "welcomeTo": "مرحبًا بك في Sonoran Radio!"
   },
+  "mobiPreview": {
+    "channelName": "العمليات التكتيكية 1",
+    "citywide": "على مستوى المدينة",
+    "frameName": "معاينة الجوال",
+    "frameTitle": "إطار موبا الراديو",
+    "groupName": "ستانتون للأمن",
+    "localPreview": "معاينة محلية",
+    "modes": {
+      "distress": "استغاثة",
+      "idle": "خامل",
+      "jammed": "المشوش",
+      "receiving": "جارٍ الاستقبال",
+      "transmitting": "جارٍ الإرسال"
+    },
+    "note": "بدّل الحالات أعلاه لمعاينة مؤشرات الراديو المباشرة. تتطلب عناصر تحكم الشاشة جلسة راديو متصلة.",
+    "signal": "إشارة",
+    "speakerName": "أ. ميرسر",
+    "themePreview": "معاينة السمة",
+    "yourRadio": "جهاز الراديو الخاص بك"
+  },
   "portal": {
     "beginTitle": "ابدأ رحلتك",
     "beginYourJourney": "ابدأ رحلتك!",
@@ -1637,16 +2269,29 @@
       "enableTransmissionRecordings": "تفعيل تسجيلات الإرسال",
       "erlcHud": {
         "autoWindow": "العثور على نافذة Roblox تلقائيًا",
+        "checkPermission": "تحقق من الوصول",
         "enable": "استخدم اكتشاف الشاشة",
-        "lastReading": "آخر فحص للمؤشر",
+        "lastReading": "آخر فحص لوحدة تحكم ELS",
         "noWindows": "لم يتم العثور على نافذة Roblox. افتح ER:LC، ثم حدّث قائمة النوافذ.",
-        "privacy": "يفحص Sonoran Radio عداد السرعة في Roblox على هذا الجهاز للتبديل بين أنواع المركبات. إذا أبلغ ER:LC بوجود مركبة واحدة بالضبط مملوكة لحسابك، فيمكن أيضًا لاسمه تحديد إطار معين. لا يتم حفظ صور الشاشة أو رفعها. على macOS، قد تحتاج إلى السماح بتسجيل الشاشة والصوت النظامي لـ Sonoran Radio.",
+        "openSettings": "افتح إعدادات النظام",
+        "permissionDenied": "تم إيقاف تسجيل الشاشة في Sonoran Radio. فعّله، ثم اخرج من التطبيق بالكامل وأعد فتحه.",
+        "permissionNotDetermined": "يحتاج macOS إلى إذنك لقراءة نافذة Roblox. انقر على التحقق من الوصول لطلبه، أو فعّله في إعدادات النظام.",
+        "permissionRestricted": "تسجيل الشاشة مقيّد على هذا الـ Mac. اطلب من مسؤول Mac لديك السماح بالوصول.",
+        "permissionStepEnable": "فعّل Sonoran Radio. أثناء التطوير، فعّل Electron إذا كان هذا هو التطبيق الذي يدرجه macOS.",
+        "permissionStepOpen": "افتح إعدادات النظام → الخصوصية والأمان → تسجيل الشاشة والصوت النظامي (تسجيل الشاشة في إصدارات macOS الأقدم).",
+        "permissionStepRestart": "أغلق Sonoran Radio بالكامل وأعد فتحه بعد تغيير الوصول.",
+        "permissionTitle": "السماح بتسجيل الشاشة",
+        "permissionUnknown": "تعذر على Sonoran Radio التحقق من إذن تسجيل الشاشة. تحقّق من إعدادات النظام، ثم اخرج من التطبيق بالكامل وأعد فتحه.",
+        "privacy": "يفحص Sonoran Radio وحدة تحكم ELS في أسفل اليمين على هذا الجهاز للتبديل بين أنواع المركبات. يجب أن تكون وحدة التحكم مرئية؛ المركبات التي لا تحتوي عليها تستخدم تخطيط المشاة. يمكن أن تكون أضواء الطوارئ قيد التشغيل أو الإيقاف. صور الشاشة لا يتم حفظها أو رفعها.",
+        "readingElsAbsent": "لم يتم العثور على وحدة تحكم ELS",
+        "readingElsFound": "تم العثور على وحدة تحكم ELS",
         "readingGaugeAbsent": "المؤشر غير موجود",
         "readingGaugeFound": "المؤشر موجود",
         "readingUncertain": "تطابق غير مؤكد",
         "readingUnreadable": "نافذة Roblox غير قابلة للقراءة",
         "readingWaiting": "في انتظار التقاط Roblox",
         "refreshWindows": "تحديث نوافذ Roblox",
+        "settingsOpenFailed": "تعذر فتح إعدادات النظام. افتحها يدويًا باتباع الخطوات أعلاه.",
         "status": "حالة الكشف",
         "statusChecking": "جارٍ التحقق من نافذة Roblox",
         "statusDisabled": "إيقاف",
@@ -1654,7 +2299,7 @@
         "statusInVehicle": "داخل مركبة",
         "statusLooking": "جارٍ البحث عن نافذة Roblox",
         "statusOnFoot": "على الأقدام",
-        "statusPermissionDenied": "تم رفض إذن تسجيل الشاشة",
+        "statusPermissionDenied": "مطلوب إذن لتسجيل الشاشة",
         "statusUnknown": "تعذّر تحديد حالة المركبة",
         "title": "اكتشاف مركبة ER:LC",
         "vehicleAmbiguous": "وجد ER:LC عدة أسماء مركبات مملوكة ولا يمكنه تحديد تجاوز إطار خاص باسم.",
@@ -1739,6 +2384,8 @@
       "audioMode": "وضع الصوت",
       "audioRecording": "تسجيل صوتي",
       "broadcastTo": "بث إلى",
+      "channel": "القناة",
+      "channelGroup": "مجموعة القناة",
       "count": "العدد",
       "deleteStack": "حذف المكدس",
       "generate": "إنشاء",
@@ -1749,6 +2396,7 @@
       "newTone": "نغمة جديدة",
       "noSavedStacks": "لا توجد حزم محفوظة بعد.",
       "noTones": "لا نغمات",
+      "ok": "حسنًا",
       "playStack": "تشغيل المكدس (نقرتان)",
       "preview": "معاينة",
       "recording": "تسجيل",
@@ -1763,7 +2411,11 @@
       "speechToText": "تحويل الكلام إلى نص",
       "speed": "السرعة",
       "stack": "تكديس",
+      "stackNameRequired": "اسم المكدس مطلوب.",
+      "stackNeedsTones": "أضف النغمات إلى المجموعة قبل الحفظ.",
+      "stopPlayback": "إيقاف التشغيل",
       "subtitle": "تخصيص نغمات الإرسال لمجتمعك",
+      "temporaryTtsError": "فشل في إعداد نغمة TTS مؤقتة.",
       "title": "لوحة النغمات",
       "toneLabel": "تسمية النغمة",
       "tonesTab": "النغمات",
@@ -1827,6 +2479,17 @@
     "checkSpam": "تأكد من التحقق من مجلد البريد غير المرغوب فيه إذا لم تتمكن من العثور على البريد الإلكتروني.",
     "emailPreferencesDesc": "أرسل إليّ الإعلانات المهمة والتحديثات والعروض الترويجية عبر البريد الإلكتروني.",
     "verifyPassword": "تأكيد كلمة المرور"
+  },
+  "socials": {
+    "community": "المجتمع",
+    "connectWithUs": "تواصل معنا",
+    "followUs": "تابعنا",
+    "instagramDescription": "أبرز المنتجات وتحديثات الفريق",
+    "joinDiscord": "انضم إلى Discord",
+    "joinDiscordDescription": "احصل على الإعلانات والدعم وتحديثات المجتمع ومناقشات المنتج في مكان واحد.",
+    "joinDiscordTitle": "انضم إلى ديسكورد Sonoran Software",
+    "tiktokDescription": "تحديثات قصيرة من فريق سونوران",
+    "youtubeDescription": "أدلة، عروض توضيحية، وإصدارات"
   },
   "splash": {
     "feats": "اكتمل مع مراسلة نصية بين الأفراد ودمج Sonoran CAD\n      يضع Sonoran Radio أجهزة اتصالات متكاملة الميزات\n      مباشرة في أيدي أفراد اللعبة والمُرسلين. جرّبه\n      مجانًا اليوم!",

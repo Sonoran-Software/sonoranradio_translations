@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "Povolit analytiku používání",
+    "deleteAccountError": "Při mazání vašeho účtu došlo k chybě.",
+    "deleteAccountMessage": "Opravdu chcete trvale smazat svůj účet?",
+    "deleteAccountSuccess": "Účet byl úspěšně smazán.",
+    "deleteAccountTitle": "Smazat účet",
     "noServers": "Žádné Servery",
+    "privacyPolicy": "Zásady ochrany osobních údajů",
     "serversDesc": "Zde můžete zobrazit všechny komunity Sonoran Radio, které vlastníte nebo spravujete",
     "serversTitle": "Vaše Servery",
     "tokenCopied": "Tajný klíč byl zkopírován do schránky!",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "Tento kód je TAJNÝ a neměl by být s nikým sdílen!",
     "tokenInputLabel": "Váš přihlašovací tajný údaj",
     "tokenLoadBtn": "Klikněte pro načtení",
-    "tokenTitle": "Rádiový přihlašovací tajný údaj"
+    "tokenTitle": "Rádiový přihlašovací tajný údaj",
+    "usageAnalyticsDescription": "Sdílejte omezené používání aplikace se Sonoran Software a Google Analytics. Nepoužívá se to pro reklamu ani sledování napříč aplikacemi.",
+    "usageAnalyticsTitle": "Analytika používání"
+  },
+  "analyticsConsent": {
+    "allow": "Povolit",
+    "description": "Povolit omezené analytické údaje o používání pro zlepšení aplikace. Žádná reklama ani sledování napříč aplikacemi.",
+    "notNow": "Teď ne",
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "title": "Pomozte vylepšit Sonoran Radio"
   },
   "authMember": {
     "errLeave": "Při opouštění komunity došlo k neočekávané chybě.",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "Už má aktivní předplatné",
+    "billingPortalUnavailable": "Fakturační portál je k dispozici po načtení předplatných.",
     "changeServer": "Změnit server",
     "changeSvDialog": {
       "errSave": "Při změně předplatného došlo k neočekávané chybě",
@@ -45,6 +61,8 @@
       "title": "Změnit předplatné",
       "transfer": "Jste si jisti, že chcete převést toto předplatné na jiný server?"
     },
+    "contactSupport": "Kontaktovat podporu",
+    "description": "Spravujte předplatná, přiřazujte je ke komunitám Radio a aktualizujte fakturaci prostřednictvím Stripe.",
     "errCheck": "Při kontrole vašeho předplatného došlo k neočekávané chybě.",
     "isUnauthorized": "Předplatná nelze použít pro neautorizované servery",
     "modifySub": "Upravit Předplatné",
@@ -64,7 +82,10 @@
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio a FiveM hosting v jednom balíčku.",
       "oneLearnMore": "Zjistit více o Sonoran One",
       "plus": "Plus Plán ($14.99/měsíc)",
+      "plusDescription": "Více kapacity a přizpůsobení pro aktivní komunity.",
       "pro": "Pro Plán ($19.99/měsíc)",
+      "proDescription": "Odemkněte neomezené škálování a pokročilé funkce rádia.",
+      "professionalSetup": "Profesionální pomoc s nastavením pro vaši komunitu.",
       "quarterly": "Čtvrtletně",
       "studio": "Komunitní licence Sonoran Studio",
       "studioDescription": "Chytré osvětlení a streamovací widgety pro vaši komunitu. Součástí Sonoran One.",
@@ -73,26 +94,106 @@
       "studioQuarterlyPrice": "6,00 $/měs.",
       "title": "Nové Předplatné"
     },
+    "noBillingPortalUrl": "URL fakturačního portálu zatím není k dispozici.",
     "noServerAssociated": "Žádný přidružený server",
+    "openBillingPortal": "Otevřít fakturační portál",
+    "paymentCenter": "Platební centrum",
+    "pricingCompare": {
+      "backgroundAudio": "Zvuk na pozadí ve hře",
+      "bestValue": "Nejvýhodnější",
+      "bigDaddyAnimations": "Animace rádia Big-Daddy",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio a bezplatný FiveM hosting v jednom předplatném.",
+      "choosePlan": "Vyberte {name}",
+      "chooseSonoranOne": "Vybrat Sonoran One",
+      "communitySoundEffects": "Zvukové efekty pro celou komunitu",
+      "comparePlans": "Porovnat plány",
+      "connectedUsers": "Připojení uživatelé",
+      "customCommunityId": "Vlastní ID komunity",
+      "customDomain": "Vlastní doména",
+      "customVoiceEffects": "Vlastní hlasové efekty",
+      "description": "Všechny placené tarify jsou k dispozici měsíčně nebo čtvrtletně. Čtvrtletní předplatné zahrnuje 25% slevu.",
+      "desktopOverlayFrames": "Překryvné rámy plochy",
+      "dispatchAiPrompts": "Měsíční AI výzvy Dispatche",
+      "freeCopy": "Zdarma k zkopírování",
+      "freeDescription": "Začněte se základními rádiovými nástroji pro menší komunity.",
+      "freePrompts": "~140–360",
+      "monthlyPrice": "{price}/měs",
+      "mostPopular": "Nejoblíbenější",
+      "multiServer": "Více serverů",
+      "nearbyRadioChatter": "Blízký rádiový hovor",
+      "oneDefault": "1 server",
+      "oneServer": "1 server",
+      "perUserSoundEffects": "Zvukové efekty pro každého uživatele",
+      "planFree": "Zdarma",
+      "planPlus": "Plus",
+      "planPro": "Pro",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "Přidejte přizpůsobení a více prostoru pro aktivní roleplay.",
+      "plusPrompts": "~1 400–3 600",
+      "proDescription": "Odemkněte neomezené škálování a pokročilé funkce rádia.",
+      "proPrompts": "~4,200-10,750",
+      "radioPlans": "Rádiové tarify",
+      "rocketNodeHosting": "Hostování RocketNode FiveM",
+      "saveTwentyFive": "Uložit 25%",
+      "scannersAndJammers": "Skenery a rušičky signálu",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radio Pro",
+      "sonoranStudioLicense": "Komunitní licence Sonoran Studio",
+      "tenUsers": "10",
+      "thirtyUsers": "30",
+      "threeCustom": "Neomezená vlastní",
+      "threeDefault": "3x Výchozí",
+      "transmissionLogs": "Logy přenosů",
+      "unlimited": "Neomezený",
+      "unlimitedCustom": "Neomezená vlastní"
+    },
     "setServer": "Nastavit Server",
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "Mluvte s člověkem",
     "statuses": {
       "active": "Aktivní",
       "canceled": "Zrušeno",
       "incomplete": "Neúplné",
       "incomplete_expired": "Neúplné vypršelo",
       "past_due": "Po splatnosti",
+      "trialing": "Zkušební",
       "unpaid": "Nezaplaceno"
     },
+    "subscriptionsDescription": "Zkontrolujte aktivní předplatná, přiřaďte komunity Radio a spravujte neaktivní předplatná.",
+    "subscriptionsTitle": "Vaše předplatná",
+    "subscriptionTable": {
+      "active": "Aktivní",
+      "cancelledDescription": "Zrušená a vypršená předplatná se zobrazí zde.",
+      "communityId": "ID komunity {id}",
+      "createDescription": "Vytvořte předplatné a odemkněte více funkcí rádia pro komunitu.",
+      "endDate": "Datum ukončení",
+      "inactiveCancelled": "Neaktivní / zrušeno",
+      "loading": "Načítání předplatných",
+      "loadingDescription": "Načítají se vaše nejnovější předplatná Stripe.",
+      "noActive": "Žádné aktivní předplatné",
+      "noInactive": "Žádné neaktivní předplatné",
+      "planRadioPlus": "Rádio Plus",
+      "planRadioPro": "Rádio Pro",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "Sonoran Radio",
+      "purchasedNotApplied": "Toto předplatné bylo zakoupeno, ale zatím nebylo použito pro komunitu rádia.",
+      "startDate": "Datum zahájení"
+    },
+    "supportDescription": "Naše vyhrazená podpora přes živý chat je k dispozici 7 dní v týdnu během pracovní doby. Máte otázky? Náš tým je připraven.",
+    "title": "Fakturace",
     "toPortal": "Zpět na Portál"
   },
   "common": {
     "account": "Účet",
     "actions": "Akce",
     "add": "Přidat",
+    "back": "Zpět",
     "billing": "Fakturace",
     "cancel": "Zrušit",
     "clickToCopy": "Klikněte pro zkopírování",
     "clipboard": "Zkopírováno do schránky!",
+    "close": "Ukončit",
     "communityIdField": "ID komunity",
     "confirm": "Potvrdit",
     "copy": "Kopírovat",
@@ -101,6 +202,7 @@
     "edit": "Upravit",
     "email": "E-mail",
     "help": "Nápověda",
+    "id": "ID",
     "language": "Jazyk",
     "learnMore": "Více informací",
     "limited": "Omezený",
@@ -198,6 +300,7 @@
     "joinCode": "Připojovací kód: {code}",
     "joinMission": "Připojte se ke svému serveru, vyberte roli a vstupte do mise. Vybavte se předmětem Sonoran Radio. Tvůrci misí by měli umístit signální věže/opakovače Sonoran pro pokrytí.",
     "joinTest": "Připojit se a otestovat",
+    "linkRoblox": "Propojit Roblox",
     "linkServer": "Propojit server",
     "manualServer": "Pro server hostovaný ručně zkopírujte oba modové složky na server, zkopírujte jejich soubory {extension} ze složek keys do složky {directory} na serveru a přidejte tento argument pro spuštění (upravte názvy složek):",
     "next": "Další",
@@ -214,6 +317,7 @@
     "resizeRadio": "Změnit velikost rádia",
     "resizeScreen": "Tažením změníte velikost obrazovky",
     "restartServer": "Restartujte server a zahrňte oba mody do přednastavení launcheru sdíleného s hráči. Nechte podpisy a BattlEye povolené; zjistěte přesnou chybovou zprávu, pokud je klient odmítnut.",
+    "robloxLinkDescription": "Propojte svůj účet Roblox se svým účtem Sonoran, abyste mohli v této komunitě používat rádiový signál založený na poloze.",
     "serverMods": "Nainstalujte stejné dva módy z Workshopu přes správce modů vašeho server hostingu. Načtěte oba jako běžné mody, ne jako pouze serverové mody, s CBA_A3 jako prvním.",
     "setupOverlay": "Nastavit překrytí",
     "towerSaveError": "Nelze uložit signální věže ER:LC. Vaše poslední změna byla vrácena.",
@@ -231,10 +335,32 @@
     "openGameIntegration": "Integrace hry",
     "overlayDesktopDescription": "Přizpůsobte rádio překryv pro uživatele desktopu.",
     "overlayFiveMDescription": "Přizpůsobte si herní rádio FiveM a desktopovou překryvnou vrstvu. Změny FiveM se synchronizují do pěti minut s kompatibilní verzí prostředku.",
-    "overlaySelectGame": "Zkontrolujte hru vaší komunity v Game Integration, abyste mohli používat odpovídající funkce překrytí."
+    "overlayPreview": {
+      "description": "Přizpůsobte si rádiovou překryvnou vrstvu.",
+      "done": "Hotovo",
+      "game": "Hra",
+      "localSample": "Lokální náhled · pouze ukázková data",
+      "noGame": "Není vybrána žádná hra",
+      "previewGame": "Náhled hry",
+      "saves": "{count} uložení v tomto náhledu",
+      "title": "Překrytí"
+    },
+    "overlaySelectGame": "Zkontrolujte hru vaší komunity v Game Integration, abyste mohli používat odpovídající funkce překrytí.",
+    "upgradeRadioPlan": "Upgradujte svůj Radiový plán",
+    "upgradeRadioPlanMessage": "Odemkněte více kapacity, přizpůsobení a pokročilých funkcí rádia pro tuto komunitu.",
+    "viewBilling": "Zobrazit fakturaci"
   },
   "desktopPanel": {
     "channelHotkey": "Klávesová zkratka kanálu"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "Změňte svůj mikrofon:",
+    "deviceUnavailable": "{device} není k dispozici. Vyberte jiný mikrofon.",
+    "microphoneAccessDenied": "Přístup k mikrofonu odepřen",
+    "noInputDetected": "Nebyl zjištěn žádný vstup z mikrofonu. Změňte mikrofon, pokud vás dispečink neslyší.",
+    "noMicrophoneFound": "Nebyl nalezen žádný mikrofon",
+    "selectedUnavailable": "Vybraný mikrofon není k dispozici. Vyberte jiný mikrofon.",
+    "unknownError": "Neznámá chyba"
   },
   "error404": {
     "goHome": "Jít domů",
@@ -331,7 +457,291 @@
     "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "Začněte s bezplatným rádiem pro vaši herní komunitu",
     "learnMore": "Více informací"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "Porovnat Sonoran Radio",
+      "competitorLogo": "logo {competitor}",
+      "dispatchAnywhere": "Dispečink odkudkoli",
+      "downloadAndroid": "Stáhnout Sonoran Radio pro Android",
+      "downloadIos": "Stáhnout Sonoran Radio pro iOS",
+      "downloadLinux": "Stáhnout Sonoran Radio pro Linux",
+      "downloadMacos": "Stáhnout Sonoran Radio pro MacOS",
+      "downloadWindows": "Stáhnout Sonoran Radio pro Windows",
+      "gameSelection": "Výběr hry",
+      "heroRadioAlt": "{game} Sonoran Radio desktopový overlay se vzorovými kanály",
+      "openIntegration": "Otevřít integraci {title}",
+      "sonoranRadioIntegrations": "Integrace Sonoran Radio",
+      "sonoranRadioVs": "Sonoran Radio vs {competitor}",
+      "viewGameIntegrations": "Zobrazit integrace {game}"
+    },
+    "armaCapture": {
+      "activeDishes": "Aktivní kanály",
+      "aiCanHear": "AI může slyšet přenosy",
+      "aiHearingTitle": "SONORAN RADIO · AI SLUCH",
+      "alphaOneOne": "Alfa 1-1",
+      "blockedPath": "Zablokovaná cesta · 2 km",
+      "blockedQuality": "26% kvalita",
+      "blockedTerrainMultiplier": "Násobitel blokovaného terénu",
+      "cancel": "ZRUŠIT",
+      "canDetectSpeaker": "Může detekovat mluvčího",
+      "clearPath": "Volná cesta · 2 km",
+      "clearQuality": "75% kvalita",
+      "customizationDesktopFrames": "PŘIZPŮSOBENÍ / RÁMEČKY PLOCHY",
+      "dishCount": "Počet talířů",
+      "exampleSignalPaths": "PŘÍKLADY SIGNÁLNÍCH CEST",
+      "hearingRadiusAria": "Ilustrativní dosah slyšení vysílání",
+      "illustrativeHearingRadius": "ILUSTRATIVNÍ DOSAH SLYŠENÍ",
+      "indestructible": "Ničitelný",
+      "inventoryFrame": "Položka inventáře → rám desktopu",
+      "invisibleSignalOnly": "Neviditelný (pouze signál)",
+      "itemClassNames": "Názvy tříd položek ARMA",
+      "largeRadioTower": "Velká rádiová věž",
+      "matchRadio": "Nastavte rádio, které nosíte",
+      "nearbyAi": "Blízká AI",
+      "nearbyAiDescription": "Blízké AI vás může detekovat, když používáte push-to-talk.",
+      "ok": "OK",
+      "optionalDisabled": "Volitelné · Ve výchozím stavu vypnuto",
+      "outsideHearingRange": "Mimo dosah slyšení",
+      "photoCaption": "ALTIS · VELKÁ RÁDIOVÁ VĚŽ",
+      "powered": "Napájeno",
+      "rangeDishes": "Dosah 8 km · 4 / 4 antény",
+      "relayAlpha": "Relé Alfa",
+      "repeaterModel": "Model opakovače",
+      "signalPathsAria": "Čisté a terénem blokované signální cesty",
+      "signalRange": "Dosah signálu (m)",
+      "signalTitle": "SONORAN RADIO / SIGNÁL",
+      "terrainAttenuation": "Útlum terénem",
+      "terrainChanges": "Změny terénu ovlivňují příjem",
+      "title": "SONORAN RADIO VĚŽ",
+      "transmissionHearingRange": "Dosah slyšení vysílání",
+      "transmitting": "VYSÍLÁNÍ"
+    },
+    "dispatchAi": {
+      "exampleOf": "Příklad {current} z {total}: {id}",
+      "examples": "Příklady Dispečink AI",
+      "items": {
+        "alpha": {
+          "request": "\"Velitelství, přepněte mě na Alfa tým.\"",
+          "response": "Kopíruji, přepínám vás na Alfa tým.",
+          "result": "Přepnutí týmu · Alfa tým"
+        },
+        "breach": {
+          "request": "\"Veliteli, spusť 60sekundový odpočet na vniknutí.\"",
+          "response": "Rozumím, spuštěn 60sekundový odpočet na vniknutí.",
+          "result": "Časovač narušení spuštěn · 01:00"
+        },
+        "miller": {
+          "request": "\"Příkaz, přepojte seržanta Millera na moji frekvenci.\"",
+          "response": "Kopíruji, přepojení seržanta Millera na vaši frekvenci.",
+          "result": "Frekvenční hovor · seržant Miller"
+        },
+        "pit": {
+          "request": "\"Dispečinku, nastav pětiminutový PIT časovač.\"",
+          "response": "Kopíruji, pětiminutový PIT časovač spuštěn.",
+          "result": "Časovač PIT spuštěn · 05:00"
+        },
+        "plate": {
+          "request": "\"Dispečinku, ukaž mi provoz s modrým sedanem, SPZ ABC123.\"",
+          "response": "Kopie, vytvořen hovor o zastavení vozidla s modrým sedanem, ABC123.",
+          "result": "Volání o dopravě · Přiřazena jednotka"
+        },
+        "platoon": {
+          "request": "\"Veliteli, přidej 1. četu do mých naskenovaných kanálů.\"",
+          "response": "Rozumím, přidávám 1. četu do vašich naskenovaných kanálů.",
+          "result": "Kanál přidán · 1. četa"
+        },
+        "robbery": {
+          "request": "\"Dispečinku, připoj mě k probíhající loupeži.\"",
+          "response": "Rozumím, připojuji vaši jednotku k probíhající loupeži.",
+          "result": "Volání o loupeži · Přiřazena jednotka"
+        },
+        "runPlate": {
+          "request": "\"Dispečinku, spusťte sestavu ABC123.\"",
+          "response": "Kopie, vyčkejte na návrat ABC123.",
+          "result": "Vyhledávání poznávací značky · Výsledky k dispozici"
+        },
+        "tacOne": {
+          "request": "\"Dispečinku, přepni mě na TAC 1.\"",
+          "response": "Kopíruji, přepínám vás na TAC 1.",
+          "result": "Přepnutí kanálu · TAC 1"
+        }
+      },
+      "next": "Další příklad Dispečink AI",
+      "previous": "Předchozí příklad Dispatch AI",
+      "radioAlt": "{game} Sonoran Radio desktopový overlay",
+      "subtitle": "Tvůj hlas. Tvůj dispečer. Připojený k Sonoran CAD.",
+      "title": "Dispečink AI"
+    },
+    "erLcMapCapture": {
+      "addPoints": "Přidat body",
+      "cancel": "Zrušit",
+      "clickTheMap": "Klikněte na mapu",
+      "closeTowerMenu": "Zavřít nabídku věže",
+      "closeZoneMenu": "Zavřít nabídku zóny",
+      "deleteTower": "Smazat věž",
+      "deleteZone": "Smazat zónu",
+      "description": "Nakonfigurujte pokrytí signálem a nouzové zóny na stejné mapě.",
+      "dragZoneHandles": "Přetažením modrých úchytů upravíte tvar zóny.",
+      "drawCircle": "Nakreslit kruh",
+      "drawPolygon": "Nakreslit polygon",
+      "editEmergencyZone": "Upravit nouzovou zónu",
+      "editTower": "Upravit věž",
+      "emergencyZones": "Nouzové zóny",
+      "finishZone": "Cílová zóna",
+      "mapAlt": "Mapa ER:LC",
+      "mapCoordinates": "Souřadnice mapy X {x} · Z {y}",
+      "mapUnits": "mapové jednotky",
+      "noEmergencyZones": "Pro tuto místnost zatím nejsou žádné nouzové zóny. Nakreslete polygon nebo kruh a přidejte jednu.",
+      "noSignalTowers": "Zatím žádné signální věže. Signál zůstává na 100 %, dokud neumisťíte věž.",
+      "placeTower": "Umístit věž",
+      "points": "body",
+      "range": "Dosah",
+      "room": "Místnost",
+      "selectCenter": "Vyberte střed",
+      "selectCircleEdge": "Vyberte okraj kruhu",
+      "setCenterEdge": "Nastavit střed a okraj",
+      "title": "Konfigurace mapy ER:LC",
+      "towerName": "Název věže",
+      "towers": "Věže",
+      "transmitChannels": "Vysílat kanály",
+      "zoneName": "Název zóny"
+    },
+    "featureCapture": {
+      "channelsGroups": "Kanály a skupiny",
+      "exportedPngData": "Exportovaná data PNG",
+      "exportPng": "Exportovat průhledné PNG",
+      "preview": "Náhled",
+      "sfxCustomization": "Přizpůsobení SFX",
+      "transmissionLogs": "Logy přenosů"
+    },
+    "gameIntegration": {
+      "integration": "Integrace"
+    },
+    "integrationCapture": {
+      "adminPermission": "Správce",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "apiGetGroupsComment": "// Získejte nakonfigurované skupiny a kanály",
+      "approveMembers": "Schválit členy",
+      "assignedUnits": "Přiřazeno: A-12, A-14",
+      "available": "DOSTUPNÉ",
+      "availableCall": "K dispozici · Hovor #1042",
+      "availableUnit": "Dostupné · A-12",
+      "callAction": "Vytvořit hovor",
+      "callActionExample": "Vytvořit hovor pro 10-50 na Main St",
+      "callInformation": "Informace o hovoru",
+      "callNumber": "Hovor #1042",
+      "channelAction": "Přepnout rádiový kanál",
+      "channelActionExample": "Přepni mě na TAC 1",
+      "communityAdmin": "Správce komunity",
+      "communityRoles": "Role komunity",
+      "connectedToRadio": "Připojeno k vaší vysílačce",
+      "countyDispatch": "Okresní dispečink",
+      "dispatchAiActions": "Akce Dispečinku AI",
+      "dispatchCall": "DISPEČINK VOLÁNÍ",
+      "dispatchOne": "DISPEČINK 1",
+      "dispatchTeam": "DISPEČINK TÝM",
+      "exampleRoleMapping": "PŘÍKLAD PŘIŘAZENÍ ROLÍ",
+      "exampleVoiceRequest": "UKÁZKOVÝ POŽADAVEK HLASU",
+      "jordanLee": "A-14 · Jordan Lee",
+      "moveRadioUsers": "Přesunout uživatele vysílačky",
+      "officialSdkLibraries": "Oficiální knihovny SDK v2",
+      "panic": "Panika",
+      "patrol": "Hlídka",
+      "permissions": "Oprávnění",
+      "permissionsStayInSync": "Oprávnění zůstávají synchronizovaná",
+      "plateAction": "Vyhledání osoby nebo registrační značky",
+      "plateActionExample": "Spustit sestavu ABC123",
+      "playDispatchTones": "Přehrávat tónyny dispečinku",
+      "respondingCall": "Reaguje · Hovor č. 1042",
+      "statusAction": "Aktualizace stavu",
+      "statusActionExample": "Nastav můj stav na dostupný",
+      "statusUpdates": "Aktualizace stavu",
+      "streamDeckAlt": "Fyzický Elgato Stream Deck MK.2 s ovládacími prvky Sonoran Radio na svých 15 LCD klávesách",
+      "trafficCollision": "Dopravní kolize",
+      "trafficLocation": "Great Ocean Highway · PSČ 3025",
+      "unitStatus": "Stav jednotky",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "Tvůj hlas. Připojený k CAD."
+    },
+    "integrationCard": {
+      "free": "ZDARMA"
+    },
+    "interactivePreview": {
+      "allClear": "Vše vyčištěno",
+      "analog": "Analog",
+      "audioLevel": "Úroveň zvuku",
+      "cancel": "Zrušit",
+      "countyDispatch": "OKRESNÍ DISPEČINK",
+      "digital": "Digitální",
+      "emsDispatch": "Dispečink EMS",
+      "fireDispatch": "Požární dispečink",
+      "fireEms": "HASIČI / ZZS",
+      "hearDifference": "Slyšte rozdíl",
+      "microphonePreviewError": "Náhled mikrofonu se nepodařilo spustit. Zkontrolujte oprávnění prohlížeče nebo zkuste ukázku.",
+      "microphonePreviewOn": "Náhled mikrofonu je zapnutý",
+      "openLibrary": "Otevřít {library} v {registry}",
+      "original": "Originál",
+      "playingSample": "Přehrávání ukázky",
+      "playSample": "Přehrát ukázku",
+      "previewPlaying": "Přehrává se náhled",
+      "previewStopped": "Náhled zastaven",
+      "previewVolume": "Náhledová hlasitost",
+      "priorityTraffic": "Prioritní provoz",
+      "publicSafety": "VEŘEJNÁ BEZPEČNOST",
+      "samplePlaybackError": "Ukázku nebylo možné přehrát. Zkuste to prosím znovu.",
+      "sampleUnavailable": "Ukázka není k dispozici",
+      "startingPreview": "Spouštění náhledu",
+      "stopPreview": "Zastavit náhled",
+      "tonePlaybackError": "Tento tón nebylo možné přehrát. Zkuste to prosím znovu.",
+      "toneUnavailable": "Tón není k dispozici",
+      "tryMicrophone": "Vyzkoušej můj mikrofon",
+      "vocoder": "Vokodér · 3200",
+      "vocoderPreviewError": "Náhled vocoderu se nepodařilo spustit. Zkuste to prosím znovu.",
+      "voiceEffectExamples": "Příklady hlasového efektu"
+    },
+    "mobi": {
+      "active": "AKTIVNÍ",
+      "audio": "ZVUK",
+      "channelGroup": "SKUPINA KANÁLU",
+      "channels": "KANÁLY",
+      "currentSpeaker": "AKTUÁLNÍ MLUVCÍ",
+      "distress": "PÁDLO",
+      "distressSignalDetected": "ZJIŠTĚN PŘÍZNKOVÝ SIGNÁL",
+      "header": "RÁDIO // SPOJENÍ",
+      "multiChannel": "MULTI CHANNEL",
+      "multiGroup": "VÍCE SKUPIN",
+      "noActiveTransmission": "ŽÁDNÝ AKTIVNÍ PŘENOS",
+      "noLink": "ŽÁDNÝ ODKAZ",
+      "none": "ŽÁDNÝ",
+      "online": "ONLINE",
+      "priorityAlert": "PŘEDNOSTNÍ VAROVÁNÍ",
+      "quickAccess": "RYCHLÝ PŘÍSTUP",
+      "receive": "PŘÍJEM",
+      "scan": "SKENOVÁNÍ",
+      "scanList": "Seznam skenování",
+      "scannedChannel": "NASKENOVANÝ KANÁL",
+      "selectedChannel": "VYBRANÝ KANÁL",
+      "settings": "NASTAVENÍ",
+      "settingsTooltip": "Nastavení",
+      "signal": "SIGNÁL",
+      "signalFault": "PORUCHA SIGNÁLU",
+      "spectrumOffline": "SPEKTRUM OFFLINE",
+      "standby": "POHOTOVOST",
+      "temporaryLink": "DOČASNÝ ODKAZ",
+      "transmission": "PŘENOS",
+      "transmit": "VYSÍLÁNÍ",
+      "unknownChannel": "NEZNÁMÝ KANÁL",
+      "unknownGroup": "NEZNÁMÁ SKUPINA",
+      "unknownUser": "NEZNÁMÝ UŽIVATEL"
+    },
+    "tabPanel": {
+      "defaultDescription": "Zažijte plynulou koordinaci s náhradním obsahem záložky pro stav jednotek v reálném čase, sledování frekvence a správu kanálů.",
+      "defaultTitle": "Sonoran Radio",
+      "imageAlt": "Obrázek panelu karet"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "Změnit rámeček rádia",
@@ -372,11 +782,125 @@
     "title": "Import/Export JSON",
     "tooltip": "Importovat soubor JSON"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Knihovny Sonoran API",
+    "armaDescription": "Propojte Sonoran Radio přímo s Arma 3 pomocí integrace Arma 3.",
+    "back": "Zpět",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "Náhled dispečerských volání",
+        "description": "Připojte se k dispečerskému hovoru Sonoran CAD a zobrazte si detaily hovoru v rádiu.",
+        "label": "Dispečerská volání"
+      },
+      "liveMap": {
+        "alt": "Náhled živé mapy zástupný symbol",
+        "description": "Zobrazte rádiové věže pomocí živé mapy Sonoran CAD.",
+        "label": "Živá mapa"
+      },
+      "panicButton": {
+        "alt": "Náhled tlačítka paniky",
+        "description": "Přepněte svůj stav paniky v Sonoran CAD pomocí rádiového tlačítka paniky.",
+        "label": "Tlačítko paniky"
+      }
+    },
+    "comingSoon": "Již brzy.",
+    "erlcDescription": "Propojte Sonoran Radio přímo s ER:LC pomocí integrace ER:LC.",
+    "fivemDescription": "Použijte bezplatný FiveM radio skript Sonoran Radio – oficiální herní zdroj – k přidání hlasové rádia do vašeho serveru. Prozkoumejte níže uvedené integrace a poté postupujte podle {setupGuide}.",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "Ilustrace hráče Arma vysílajícího v dosahu slyšení AI spolu s nastavením slyšení modu.",
+            "description": "Nechte blízkou AI detekovat vysílající hráče s nastavitelným dosahem slyšení. K dispozici v ukázce integrace Arma.",
+            "label": "Slyšení AI"
+          },
+          "itemFrames": {
+            "alt": "Mapování tříd předmětů BLUFOR a OPFOR vedle odpovídajících rámů desktopového překrytí Sonoran Radio.",
+            "description": "Váš rádiový předmět BLUFOR nebo OPFOR vybere odpovídající desktopové překrytí. Přiřaďte vlastní předměty k rámům vaší komunity.",
+            "label": "Synchronizace inventáře s rádiem"
+          },
+          "terrainSignal": {
+            "alt": "Ilustrované pokrytí opakovače Arma zobrazující jasnou signální cestu a snížený signál za terénem.",
+            "description": "Vzdálenost a terén oslabují příjem věže. Sledujte signál v překryvném zobrazení a slyšte změnu skrze efekty kanálu.",
+            "label": "Terén a signál"
+          },
+          "towers": {
+            "alt": "Signální věž Arma s ukázkovými ovládacími prvky Zeusu pro dosah, kapacitu a výkon.",
+            "description": "Umístěte věže do Edenu nebo Zeuse. Dosah, výkon a zkáza utvářejí vaše rádiové pokrytí.",
+            "label": "Herní věže"
+          }
+        },
+        "tabsLabel": "Integrační funkce Arma 3"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "Kryt pro desktop Sonoran Radio zobrazující vysílací kanály Liberty County nad policejní scénou ER:LC.",
+            "description": "Měj své rádio nad Robloxem, zatímco hraješ. Vyber si rámeček, přepínej kanály a sleduj živý signál z věže z desktopové aplikace.",
+            "label": "Překrytí plochy"
+          },
+          "emergencyZones": {
+            "alt": "Mapa ER:LC zobrazující ukázkovou nouzovou zónu a její povolené nouzové vysílací kanály.",
+            "description": "Kreslete nouzové zóny a vyberte, které nouzové vysílací kanály jsou v každé oblasti k dispozici.",
+            "label": "Nouzové zóny"
+          },
+          "liveSignal": {
+            "alt": "Mapa ER:LC s pokrytím virtuálních vysílačů a propojenými hráči vedle překryvu Sonoran Radio zobrazujícího sílu živého signálu.",
+            "description": "Umístěte věže a utvářejte pokrytí rádiovým signálem napříč Liberty County. Když jedete, vaše překryvné zobrazení ukazuje živou sílu signálu a rádiové efekty odrážejí váš příjem.",
+            "label": "Virtuální věže"
+          }
+        },
+        "tabsLabel": "Integrační funkce ER:LC"
+      }
+    },
+    "integrationTitleSuffix": "Integrace",
+    "learnMore": "Více informací: {title}",
+    "meta": {
+      "armaDescription": "Prozkoumejte integrace Sonoran Radio pro Arma 3, včetně herních věží, synchronizace inventáře rádia, signálu podle terénu a sluchu AI.",
+      "armaTitle": "Integrace Arma 3 | Sonoran Radio",
+      "erlcDescription": "Prozkoumejte integrace Sonoran Radio pro ER:LC, včetně desktopového překryvu, virtuálních věží a nouzových zón.",
+      "erlcTitle": "Integrace ER:LC | Sonoran Radio",
+      "fivemDescription": "Použijte bezplatný FiveM radio skript Sonoran Radio, oficiální herní zdroj, k přidání hlasové rádia do vašeho serveru.",
+      "fivemTitle": "Integrace FiveM | Sonoran Radio"
+    },
+    "openDocumentation": "Otevřít dokumentaci pro {title}",
+    "registryLink": "{name} na {registry}",
+    "setupGuide": "průvodce nastavením",
+    "streamDeck": {
+      "calloutDescription": "Zobrazte dokumentaci pro více podrobností a kroky instalace pluginu.",
+      "calloutTitle": "Chcete se dozvědět více?",
+      "description": "Přesuňte své nejpoužívanější ovládací prvky Sonoran Radio na tlačítko nebo otočný ovladač Stream Deck. Přepínejte kanály, vysílejte a jemně dolaďujte zvuk, aniž byste narušili svůj tok.",
+      "deviceAlt": "Ruční zařízení Sonoran Radio zobrazující ovládání kanálů",
+      "heading": "Vaše rádio. Na jedno klepnutí.",
+      "highlights": {
+        "actions": {
+          "description": "Dejte si na svůj deck režim AI, Tone Board a desktopové překryvy, nebo používejte akce se svou herní rádiovou komunikací FiveM.",
+          "title": "Další rádiové akce"
+        },
+        "audio": {
+          "description": "Použijte podporované ovladače k úpravě rádia, kanálu, efektů a hlasitosti AI.",
+          "title": "Nastavte si audio"
+        },
+        "channelShortcuts": {
+          "description": "Přepínejte mezi kanály a skupinami nebo jedním klepnutím zapínejte a vypínejte seznamy vysílání a skenování.",
+          "title": "Zkratky kanálů"
+        },
+        "pushToTalk": {
+          "description": "Mějte přenos po ruce a vysílejte bez přepínání zpět do aplikace rádia.",
+          "title": "Stiskni pro mluvení, na klávese"
+        }
+      },
+      "platformKeysDials": "Klávesy + otočné ovladače",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Funkce Stream Deck"
+  },
   "landingPage": {
     "API_Libraries": {
       "desc": "Instalační odkazy pro oficiální knihovny Sonoran SDK používané s rozhraním API v2.",
       "title": "Knihovny API"
     },
+    "armaIntegrationDescription": "Propojte Sonoran Radio přímo s Arma 3 pomocí integrace Arma 3.",
     "BackgroundAudio": {
       "desc": "Odpovídáte na výzvu? Sonoran Radio vkládá v reálném čase sirény, výstřely a další zvuky přímo do vašeho mikrofonního vstupu pro maximální ponoření.",
       "title": "Zvuk na pozadí"
@@ -431,6 +955,8 @@
       "desc": "Volání tísňové linky na dispečink, to vše přímo ve hře!",
       "title": "Tísňová volání ve hře"
     },
+    "erlcIntegrationDescription": "Propojte Sonoran Radio přímo s ER:LC pomocí integrace ER:LC.",
+    "exploreIntegrations": "Prozkoumejte integrace",
     "faq": {
       "free": {
         "answer": "Ano. Dispatch AI je plně dostupné v bezplatném tarifu s měsíčními kredity v ceně. Placené tarify zahrnují vyšší limity kreditů.",
@@ -459,6 +985,34 @@
       "eyebrow": "Přímá integrace",
       "heading": "Integrace"
     },
+    "fivemRadioIntegration": "Integrace rádia",
+    "gameIntegrations": "Integrace hry",
+    "games": {
+      "arma3": {
+        "description": "Začněte s bezplatnými rádiovými kanály a desktopovým překryvem pro Arma 3. Vyzkoušejte integraci s Arma s misijními věžemi, rámy propojenými s inventářem a terénním signálem.",
+        "headline": "Bezplatná vysílačka pro tvůj tým v Arma 3",
+        "name": "Arma 3",
+        "title": "Bezplatné radio Arma 3 a desktopový overlay | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "Spusťte zdarma hlasové rádio ER:LC s desktopovou překryvnou vrstvou pro Roblox Emergency Response: Liberty County. Propojte účty a přidejte virtuální věže s živým pokrytím signálem.",
+        "headline": "Bezplatné ER:LC hlasové rádio pro vaši komunitu",
+        "name": "ER:LC",
+        "title": "Bezplatné ER:LC hlasové rádio a desktopový overlay | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "Začněte zdarma s FiveM rádiovým skriptem, desktopovým překryvem a dispečerským panelem. Propojte Sonoran Radio se svým GTA V roleplay serverem pomocí integrace FiveM.",
+        "headline": "Bezplatné rádio pro vaši komunitu FiveM",
+        "name": "FiveM",
+        "title": "Bezplatný FiveM rádiový skript a dispečerský panel | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "Udržte posádku Star Citizen ve spojení pomocí bezplatných rádiových kanálů, dispečerských nástrojů a tematické plochy na pozadí. Koordinujte komunikaci napříč verse.",
+        "headline": "Bezplatné rádio pro vaši posádku Star Citizen",
+        "name": "Star Citizen",
+        "title": "Bezplatné rádio a překryv pro Star Citizen | Sonoran Radio"
+      }
+    },
     "hero": {
       "subtitle": "Chatujte v realistických rádiových kanálech, přizpůsobte si hlasové efekty a bez námahy se propojte s herními funkcemi pro skutečně pohlcující zážitek.",
       "title": "Lepší rádiová komunikace začíná tady"
@@ -476,6 +1030,7 @@
     "meta": {
       "audienceType": "Hráči a community manažeři",
       "description": "Realistický software pro rádiovou komunikaci pro FiveM, ER:LC, Arma 3 a roleplay komunity.",
+      "imageAlt": "Dispečerský panel Sonoran Radio a desktopový radio overlay",
       "keywords": "Sonoran Radio, herní rádio, FiveM rádio, ER:LC rádio, Arma 3 rádio, roleplay komunikace, dispečerský software, desktopový rádiový overlay, zdarma FiveM rádio, zdarma ER:LC rádio",
       "ogTitle": "Sonoran Radio - Herní rádiová komunikace",
       "productName": "Sonoran Radio",
@@ -511,6 +1066,7 @@
       "dispatchAdmin": "Dispečerský a administrační panel",
       "integrations": "Integrace"
     },
+    "softwareIntegrations": "Softwarové integrace",
     "Sonoran_CAD": {
       "desc": "Tento plugin umožňuje zákazníkům Sonoran Radio propojit rádio se Sonoran CAD. Zobrazte stav své jednotky, informace o dispečerském hovoru, přepněte panikový režim a další!",
       "title": "Sonoran CAD"
@@ -524,6 +1080,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Prozkoumat Sonoran Studio",
       "description": "Proměňte živou rádiovou aktivitu v streamové překryvy, reaktivní chytré osvětlení a automatizace bez použití rukou.",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -594,7 +1151,15 @@
     "serverHosting": "Server hosting"
   },
   "management": {
-    "forceJoinAsOwner": "Připojit jako vlastník"
+    "eventType": "Typ události",
+    "forceJoinAsOwner": "Připojit jako vlastník",
+    "forceLeave": "Vynutit opuštění",
+    "payloadJson": "JSON payloadu",
+    "pushEventDiagnostic": "Diagnostika push události",
+    "pushUrl": "URL pro push",
+    "sendTestPushEvent": "Odeslat testovací push událost",
+    "storedRoomPushUrl": "Uložená push URL místnosti",
+    "timeout": "Časový limit (ms)"
   },
   "managementPage": {
     "searchTitle": "Hledat komunitu",
@@ -607,6 +1172,8 @@
       "apiInfoTitle": "Informace o API",
       "communityApiKeyField": "Komunitní klíč API",
       "communityLogs": "Logy komunity",
+      "communityLogsEmpty": "Nenalezeny žádné záznamy",
+      "communityLogsLoading": "Načítání záznamů...",
       "logAccount": "Účet",
       "logContent": "Obsah",
       "logDate": "Datum",
@@ -647,9 +1214,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Přidat tlačítko",
+      "addLayout": "Přidat rozvržení",
       "addScreen": "Přidat obrazovku",
       "addVariant": "Přidat tuto variantu",
       "addVehicleOverride": "Přidat přepsání vozidla",
+      "aircraftLayout": "Rozložení letadla",
       "armaBlufor": "Ukázka BLUFOR",
       "armaExamples": "Příklady ARMA 3",
       "armaItemClassNames": "Názvy tříd položek ARMA",
@@ -670,6 +1239,8 @@
       "deleteFrame": "Smazat rámec",
       "duplicateVehicleName": "Každý název vozidla může mít pouze jednu náhradu.",
       "editHint": "Přetáhněte pro přesun · Ctrl + přetažením změňte velikost · Kliknutím pravým tlačítkem na tlačítko jej odeberete",
+      "fit": "Přizpůsobit",
+      "fitRadioToCanvas": "Přizpůsobit rádio plátnu",
       "frameBodyImage": "Obrázek těla rámu",
       "frameLabel": "Popisek rámce",
       "frameName": "Název rámce",
@@ -678,6 +1249,10 @@
       "importFromSkin": "Importovat z FiveM (skin.json)",
       "importNoFramesFound": "Nebyly nalezeny žádné rámečky s body.width a screen.",
       "label": "Popisek",
+      "migratedFramesReadOnly": "Migrované snímky FiveM zůstávají k dispozici na Free. Upgradujte na Pro, abyste mohli upravit tento snímek nebo nahradit jeho obrázky.",
+      "migratedFramesReset": "Migrované rámy FiveM lze resetovat pouze s Pro.",
+      "moveLayoutEarlier": "Přesunout rozložení dříve",
+      "moveLayoutLater": "Přesunout rozložení později",
       "newFrame": "Nový rámec",
       "noneFound": "Pro tuto komunitu nebyly nalezeny žádné překryvné rámečky.",
       "overrideFramesRequired": "Vyberte alespoň jeden rámec pro každé přepsání vozidla.",
@@ -715,12 +1290,17 @@
         "onFoot": "Pěšky",
         "vehicle": "Vozidlo"
       },
+      "vehicleClasses": "Třídy vozidel",
+      "vehicleClassesHint": "Zrušte výběr, aby odpovídal všem třídám vozidel. Dřívější rozvržení mají přednost.",
+      "vehicleLayout": "Rozložení vozidla",
       "vehicleName": "Název vozidla ER:LC",
       "vehicleNameRequired": "Zadejte název vozidla pro každou náhradu.",
       "vehicleOverrideHint": "Názvy vozidel se shodují přesně, přičemž se ignoruje velikost písmen a mezery na začátku nebo na konci. V desktopovém rámečku povolte detekci vozidel ER:LC, abyste mohli použít rámeček pro konkrétní vozidlo, když je k dispozici jediný název vozidla.",
       "visibilityHint": "Vyberte výchozí rámy pro pěší pohyb nebo když se neshoduje žádný název vozidla. Přepsání vozidla vybere rámy automaticky, když detekce vozidla ER:LC najde odpovídající název.",
       "visibilityTitle": "Viditelnost rámce",
-      "visibleFrames": "Viditelné rámečky"
+      "visibleFrames": "Viditelné rámečky",
+      "zoomIn": "Přiblížit",
+      "zoomOut": "Oddálit"
     },
     "customizeMenu": {
       "ai": "AI",
@@ -1106,13 +1686,19 @@
       "approveBtn": "Schválit",
       "ban": "Zablokovat",
       "banBtn": "Zabanovat",
+      "banConfirm": "Chystáte se natrvalo zabanovat {count} člena(ů). Nebudou se moci znovu připojit, ale bude možné jim zrušit ban.",
       "cannotModifyPermsOfMyself": "Nemohu změnit svá vlastní oprávnění",
+      "communityAccess": "Přístup ke komunitě",
+      "communityAccessDescription": "Schvaluje členovi základní přístup k Sonoran Radio. Neposkytuje žádná administrátorská oprávnění ani přístup k soukromému profilu.",
+      "confirmTitle": "Jste si jisti?",
       "copyDiscordId": "Kopírovat Discord ID",
       "copyPermissionGeneratorId": "Kopírovat ID oprávnění",
       "copyRobloxId": "Kopírovat Roblox ID",
       "discordIdCopied": "ID Discordu zkopírováno do schránky.",
       "displayName": "Zobrazovaný název",
+      "displayNameUpdated": "Zobrazovaný název aktualizován",
       "editMemberPerms": "Upravit oprávnění člena",
+      "enterDisplayName": "Zadejte nové zobrazované jméno pro {name}",
       "errAddInvalidAccount": "Zadané uživatelské jméno neexistuje",
       "errAddUnknown": "Při přidávání manažera došlo k neznámé chybě",
       "errRemoveUnknown": "Při odstraňování manažera došlo k neznámé chybě",
@@ -1122,17 +1708,42 @@
       "filterBanned": "Zakázáno",
       "filterPending": "Čekající",
       "kickBtn": "Vyhodit",
+      "kickConfirm": "Chystáte se vyhodit {count} člen(a). Budou se moci připojit zpět pomocí ID komunity.",
       "noDiscordAccountLinked": "Tento uživatel nemá propojený žádný účet Discord.",
       "noRobloxAccountLinked": "Tento uživatel nemá propojený žádný účet Roblox.",
       "owner": "Vlastník",
       "ownerHasAllPerms": "Vlastník komunity má všechna oprávnění",
       "paysSubscription": "Platí předplatné",
       "pending": "Čekající",
+      "permissionAdmin": "Správce",
+      "permissionAdminDescription": "Uděluje úplná oprávnění pro správu a přístup ke všem funkcím rádiové komunity.",
+      "permissionApproveMembers": "Schválit členy",
+      "permissionApproveMembersDescription": "Umožňuje schvalovat nebo zamítat čekající uživatele v rádiové komunitě.",
+      "permissionBanCommunity": "Zákaz z komunity",
+      "permissionBanCommunityDescription": "Uděluje oprávnění trvale vyloučit členy z komunity.",
+      "permissionCallOnly": "Jen hovory",
+      "permissionCallOnlyDescription": "Omezuje uživatele pouze na volání na 911. Skrývá kartu Dispečink. Neovlivňuje administrátory.",
+      "permissionChangeDisplayName": "Změnit zobrazovaný název",
+      "permissionChangeDisplayNameDescription": "Umožňuje uživateli upravit své vlastní zobrazované jméno.",
       "permissionGeneratorBtn": "Generátor oprávnění",
       "permissionGeneratorId": "ID oprávnění",
       "permissionGeneratorSubtitle": "Vygenerujte ID uživatelského oprávnění pro externí použití.",
       "permissionGeneratorTitle": "Generátor oprávnění",
+      "permissionKickCommunity": "Vyhodit z komunity",
+      "permissionKickCommunityDescription": "Uděluje oprávnění odstranit členy z komunity.",
+      "permissionKickRadio": "Vyhodit z rádia",
+      "permissionKickRadioDescription": "Uděluje oprávnění odpojovat členy z rádiového kanálu.",
+      "permissionManageDisplayNames": "Spravovat zobrazované názvy",
+      "permissionManageDisplayNamesDescription": "Umožňuje uživateli upravovat zobrazovaná jména ostatních členů.",
+      "permissionMoveRadioUsers": "Přesunout uživatele vysílačky",
+      "permissionMoveRadioUsersDescription": "Umožňuje přesouvat členy mezi rádiovými kanály.",
+      "permissionOverrideTalkover": "Přepsání ochrany překrytí",
+      "permissionOverrideTalkoverDescription": "Umožňuje uživateli obejít ochranu proti překřikování dvojitým kliknutím na tlačítko PTT.",
+      "permissionPlayDispatchTones": "Přehrávat tónyny dispečinku",
+      "permissionPlayDispatchTonesDescription": "Uděluje oprávnění přehrávat dispečerské tóny přes rádio.",
       "permissionsBtn": "Oprávnění",
+      "permissionStunRadio": "Omráčit rádio",
+      "permissionStunRadioDescription": "Umožňuje uživatelům omráčit (zablokovat) jiného uživatele rádia na 30 s.",
       "privateChannels": "Soukromé kanály",
       "remove": "Odebrat",
       "removeWarn": "Varování",
@@ -1147,6 +1758,7 @@
       "title": "Komunitní členové",
       "traits": "Vlastnosti",
       "unbanBtn": "Zrušit ban",
+      "unbanConfirm": "Chystáte se zrušit ban {count} člena(ů). Budou se moci znovu připojit pomocí ID komunity.",
       "username": "Uživatelské jméno"
     },
     "membersTab": "Členové",
@@ -1524,6 +2136,26 @@
     "welcome": "Vítejte",
     "welcomeTo": "Vítejte v Sonoran Radio!"
   },
+  "mobiPreview": {
+    "channelName": "OPERACE TAC 1",
+    "citywide": "CELOMĚSTSKÉ",
+    "frameName": "Mobilní náhled",
+    "frameTitle": "Mobi rámeček rádia",
+    "groupName": "STANTON SECURITY",
+    "localPreview": "LOKÁLNÍ NÁHLED",
+    "modes": {
+      "distress": "PÁDLO",
+      "idle": "Nečinný",
+      "jammed": "Rušený",
+      "receiving": "Příjem",
+      "transmitting": "Vysílání"
+    },
+    "note": "Přepněte stavy výše a zobrazte náhled živých indikátorů rádia. Ovládací prvky obrazovky vyžadují připojenou rádiovou relaci.",
+    "signal": "Signál",
+    "speakerName": "A. MERCER",
+    "themePreview": "Náhled motivu",
+    "yourRadio": "VAŠE RÁDIO"
+  },
   "portal": {
     "beginTitle": "Začněte Svou Cestu",
     "beginYourJourney": "Začněte Svou Cestu!",
@@ -1637,16 +2269,29 @@
       "enableTransmissionRecordings": "Povolit záznamy přenosu",
       "erlcHud": {
         "autoWindow": "Najít okno Roblox automaticky",
+        "checkPermission": "Zkontrolovat přístup",
         "enable": "Použít detekci obrazovky",
-        "lastReading": "Poslední kontrola měřidla",
+        "lastReading": "Poslední kontrola ELS řadiče",
         "noWindows": "Neblo nalezeno žádné okno Robloxu. Otevřete ER:LC a pak obnovte seznam oken.",
-        "privacy": "Sonoran Radio kontroluje na tomto zařízení rychloměr Robloxu, aby přepínal varianty vozidla. Pokud ER:LC hlásí přesně jedno vozidlo vlastněné vaším účtem, jeho název může také vybrat konkrétní rám. Snímky obrazovky se neukládají ani nenahrávají. V macOS možná budete muset povolit nahrávání obrazovky a systémového zvuku pro Sonoran Radio.",
+        "openSettings": "Otevřít systémové nastavení",
+        "permissionDenied": "Nahrávání obrazovky je pro Sonoran Radio vypnuté. Povolte ho a poté aplikaci úplně ukončete a znovu otevřete.",
+        "permissionNotDetermined": "macOS potřebuje vaše oprávnění ke čtení okna Robloxu. Klikněte na Zkontrolovat přístup, abyste o něj požádali, nebo jej povolte v Nastavení systému.",
+        "permissionRestricted": "Nahrávání obrazovky je na tomto Macu omezené. Požádejte správce Macu o povolení přístupu.",
+        "permissionStepEnable": "Povolit Sonoran Radio. Během vývoje povolte Electron, pokud je to aplikace, kterou macOS uvádí.",
+        "permissionStepOpen": "Otevřete Systémová nastavení → Soukromí a zabezpečení → Záznam obrazovky a systémového audia (Záznam obrazovky u starších verzí macOS).",
+        "permissionStepRestart": "Po změně přístupu aplikaci Sonoran Radio úplně ukončete a znovu otevřete.",
+        "permissionTitle": "Povolit nahrávání obrazovky",
+        "permissionUnknown": "Sonoran Radio nemohlo ověřit přístup k nahrávání obrazovky. Zkontrolujte Nastavení systému a potom aplikaci úplně ukončete a znovu otevřete.",
+        "privacy": "Sonoran Radio kontroluje ovladač ELS vpravo dole na tomto zařízení, aby přepínal varianty vozidel. Ovladač musí být viditelný; vozidla bez něj používají rozložení pro pěší. Nouzová světla mohou být zapnutá nebo vypnutá. Snímky obrazovky se neukládají ani nenahrávají.",
+        "readingElsAbsent": "Ovladač ELS nenalezen",
+        "readingElsFound": "Nalezen ovladač ELS",
         "readingGaugeAbsent": "Ukazatel nenalezen",
         "readingGaugeFound": "Ukazatel nalezen",
         "readingUncertain": "Nejistá shoda",
         "readingUnreadable": "Okno Roblox je nečitelné",
         "readingWaiting": "Čekání na zachycení Robloxu",
         "refreshWindows": "Obnovit okna Roblox",
+        "settingsOpenFailed": "Nepodařilo se otevřít Systémové nastavení. Otevřete je ručně pomocí výše uvedených kroků.",
         "status": "Stav detekce",
         "statusChecking": "Kontroluje se okno Roblox",
         "statusDisabled": "Vypnuto",
@@ -1654,7 +2299,7 @@
         "statusInVehicle": "Ve vozidle",
         "statusLooking": "Hledá se okno Roblox",
         "statusOnFoot": "Pěšky",
-        "statusPermissionDenied": "Povolení k nahrávání obrazovky zamítnuto",
+        "statusPermissionDenied": "Je vyžadován přístup k nahrávání obrazovky",
         "statusUnknown": "Nelze určit stav vozidla",
         "title": "Detekce vozidla ER:LC",
         "vehicleAmbiguous": "ER:LC našel více názvů vlastněných vozidel a nemůže vybrat přepsání rámce pro konkrétní název.",
@@ -1739,6 +2384,8 @@
       "audioMode": "Režim zvuku",
       "audioRecording": "Zvukový záznam",
       "broadcastTo": "Vysílat na",
+      "channel": "Kanál",
+      "channelGroup": "Skupina kanálu",
       "count": "Počet",
       "deleteStack": "Smazat zásobník",
       "generate": "Generovat",
@@ -1749,6 +2396,7 @@
       "newTone": "Nový tón",
       "noSavedStacks": "Zatím žádné uložené zásobníky.",
       "noTones": "Žádné tóny",
+      "ok": "OK",
       "playStack": "Přehrát zásobník (dvojklik)",
       "preview": "Náhled",
       "recording": "Nahrávání",
@@ -1763,7 +2411,11 @@
       "speechToText": "Řeč na text",
       "speed": "Rychlost",
       "stack": "Stoh",
+      "stackNameRequired": "Název zásobníku je povinný.",
+      "stackNeedsTones": "Před uložením přidejte tóny do zásobníku.",
+      "stopPlayback": "Zastavit přehrávání",
       "subtitle": "Přizpůsobte tóny dispečinku pro vaši komunitu",
+      "temporaryTtsError": "Nepodařilo se připravit dočasný tón TTS.",
       "title": "Tone Board",
       "toneLabel": "Tónová značka",
       "tonesTab": "Tóny",
@@ -1827,6 +2479,17 @@
     "checkSpam": "Zkontrolujte složku se spamem, pokud nemůžete e-mail najít.",
     "emailPreferencesDesc": "Posílejte mi důležitá oznámení, aktualizace a propagační nabídky.",
     "verifyPassword": "Ověřit heslo"
+  },
+  "socials": {
+    "community": "Komunita",
+    "connectWithUs": "Připojte se k nám",
+    "followUs": "Sledujte nás",
+    "instagramDescription": "Zvýraznění produktu a aktuality týmu",
+    "joinDiscord": "Připojit se k Discordu",
+    "joinDiscordDescription": "Získejte oznámení, podporu, komunitní aktualizace a diskuse o produktu na jednom místě.",
+    "joinDiscordTitle": "Připojte se k Discordu Sonoran Software",
+    "tiktokDescription": "Krátké aktuality od týmu Sonoran",
+    "youtubeDescription": "Průvodci, ukázky a vydání"
   },
   "splash": {
     "feats": "Kompletní s mezilidským textovým zasíláním zpráv a integrací Sonoran CAD\n      Sonoran Radio dává plně vybavená komunikační zařízení\n      přímo do rukou vašeho herního personálu a dispečerů. Vyzkoušejte to\n      dnes zdarma!",
