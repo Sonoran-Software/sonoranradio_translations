@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "使用状況分析を許可",
+    "deleteAccountError": "アカウントの削除中にエラーが発生しました。",
+    "deleteAccountMessage": "アカウントを完全に削除してもよろしいですか?",
+    "deleteAccountSuccess": "アカウントが正常に削除されました。",
+    "deleteAccountTitle": "アカウント削除",
     "noServers": "サーバーなし",
+    "privacyPolicy": "プライバシーポリシー",
     "serversDesc": "ここで所有または管理しているすべてのSonoran Radioコミュニティを表示できます",
     "serversTitle": "あなたのサーバー",
     "tokenCopied": "シークレットがクリップボードにコピーされました！",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "このコードは秘密であり、誰にも共有しないでください!",
     "tokenInputLabel": "あなたのログインシークレット",
     "tokenLoadBtn": "読み込みをクリック",
-    "tokenTitle": "ラジオログインシークレット"
+    "tokenTitle": "ラジオログインシークレット",
+    "usageAnalyticsDescription": "Sonoran Software と Google Analytics に限定したアプリ使用状況を共有します。これは広告やアプリ間追跡には使用されません。",
+    "usageAnalyticsTitle": "使用状況分析"
+  },
+  "analyticsConsent": {
+    "allow": "許可",
+    "description": "アプリの改善に役立てるため、制限付きの使用状況分析を許可します。広告表示やアプリをまたいだ追跡はありません。",
+    "notNow": "今はしない",
+    "privacyPolicy": "プライバシーポリシー",
+    "title": "ソノラン ラジオの改善にご協力ください"
   },
   "authMember": {
     "errLeave": "コミュニティを退出中に予期しないエラーが発生しました",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "すでに有効なサブスクリプションがあります",
+    "billingPortalUnavailable": "サブスクリプションが読み込まれた後に請求ポータルが利用可能です。",
     "changeServer": "サーバーを変更",
     "changeSvDialog": {
       "errSave": "サブスクリプションの変更中に予期しないエラーが発生しました",
@@ -45,6 +61,8 @@
       "title": "サブスクリプションを変更",
       "transfer": "このサブスクリプションを別のサーバーに移行してもよろしいですか？"
     },
+    "contactSupport": "サポートに問い合わせる",
+    "description": "サブスクリプションを管理し、Radio コミュニティに割り当て、Stripe で請求情報を更新します。",
     "errCheck": "サブスクリプションの確認中に予期しないエラーが発生しました",
     "isUnauthorized": "サブスクリプションは認証されていないサーバーには適用できません",
     "modifySub": "サブスクリプションを変更",
@@ -64,7 +82,10 @@
       "oneDescription": "Pro CAD、CMS、Radio、Sonoran Studio、FiveM ホスティングを 1 つのバンドルで。",
       "oneLearnMore": "Sonoran Oneについて詳しく見る",
       "plus": "プラスプラン ($14.99/月)",
+      "plusDescription": "アクティブなコミュニティ向けのより多い容量とカスタマイズ",
       "pro": "プロプラン ($19.99/月)",
+      "proDescription": "無制限の拡張と高度な Radio 機能を利用可能にします。",
+      "professionalSetup": "コミュニティ向けのプロフェッショナルな設定サポート。",
       "quarterly": "四半期ごと",
       "studio": "Sonoran Studio コミュニティライセンス",
       "studioDescription": "コミュニティ向けのスマート照明と配信ウィジェット。Sonoran Oneに含まれています。",
@@ -73,26 +94,106 @@
       "studioQuarterlyPrice": "$6.00/月",
       "title": "新しいサブスクリプション"
     },
+    "noBillingPortalUrl": "請求ポータル URL はまだありません。",
     "noServerAssociated": "サーバーが関連付けられていません",
+    "openBillingPortal": "請求ポータルを開く",
+    "paymentCenter": "支払いセンター",
+    "pricingCompare": {
+      "backgroundAudio": "ゲーム内バックグラウンドオーディオ",
+      "bestValue": "最もお得",
+      "bigDaddyAnimations": "ビッグダディラジオアニメーション",
+      "bundleDescription": "Pro CAD、CMS、Radio、Sonoran Studio、無料の FiveM ホスティングを 1 つのサブスクリプションで。",
+      "choosePlan": "{name}を選択",
+      "chooseSonoranOne": "Sonoran Oneを選択",
+      "communitySoundEffects": "コミュニティ全体のサウンドエフェクト",
+      "comparePlans": "プランを比較",
+      "connectedUsers": "接続中のユーザー",
+      "customCommunityId": "カスタムコミュニティ ID",
+      "customDomain": "カスタムドメイン",
+      "customVoiceEffects": "カスタム音声効果",
+      "description": "すべての有料プランは月額または四半期ごとに利用できます。四半期ごとのサブスクリプションには25%割引が含まれます。",
+      "desktopOverlayFrames": "デスクトップ オーバーレイ フレーム",
+      "dispatchAiPrompts": "Dispatch AI 月間プロンプト",
+      "freeCopy": "無料コピー",
+      "freeDescription": "小規模なコミュニティ向けの基本的なラジオツールから始めましょう。",
+      "freePrompts": "約140～360",
+      "monthlyPrice": "{price}/月",
+      "mostPopular": "最も人気",
+      "multiServer": "マルチサーバー",
+      "nearbyRadioChatter": "近くのラジオの雑談",
+      "oneDefault": "1 サーバー",
+      "oneServer": "1 サーバー",
+      "perUserSoundEffects": "ユーザーごとのサウンドエフェクト",
+      "planFree": "無料",
+      "planPlus": "プラス",
+      "planPro": "プロ",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "カスタマイズを追加して、アクティブなロールプレイのための余裕を増やす。",
+      "plusPrompts": "約1,400-3,600",
+      "proDescription": "無制限の拡張と高度な Radio 機能を利用可能にします。",
+      "proPrompts": "約4,200-10,750",
+      "radioPlans": "ラジオ プラン",
+      "rocketNodeHosting": "RocketNode FiveMホスティング",
+      "saveTwentyFive": "25% 削減",
+      "scannersAndJammers": "スキャナーと 信号ジャマー",
+      "sonoranCadPro": "ソノラン CAD Pro",
+      "sonoranCmsPro": "ソノラン CMS Pro",
+      "sonoranRadioPro": "ソノラン ラジオ Pro",
+      "sonoranStudioLicense": "Sonoran Studio コミュニティライセンス",
+      "tenUsers": "10",
+      "thirtyUsers": "30人",
+      "threeCustom": "無制限カスタム",
+      "threeDefault": "3x デフォルト",
+      "transmissionLogs": "送信ログ",
+      "unlimited": "無制限",
+      "unlimitedCustom": "無制限カスタム"
+    },
     "setServer": "サーバーを設定",
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "人 と 話す",
     "statuses": {
       "active": "有効",
       "canceled": "キャンセル済み",
       "incomplete": "不完全",
       "incomplete_expired": "不完全期限切れ",
       "past_due": "支払期限超過",
+      "trialing": "試用中",
       "unpaid": "未払い"
     },
+    "subscriptionsDescription": "アクティブなサブスクリプションを確認し、Radio コミュニティを割り当て、非アクティブなサブスクリプションを管理します。",
+    "subscriptionsTitle": "あなたのサブスクリプション",
+    "subscriptionTable": {
+      "active": "有効",
+      "cancelledDescription": "キャンセル済みで期限切れのサブスクリプションがここに表示されます。",
+      "communityId": "コミュニティ ID {id}",
+      "createDescription": "コミュニティ向けの さらに多くの Radio 機能を解除するためにサブスクリプションを作成します。",
+      "endDate": "終了日",
+      "inactiveCancelled": "無効 / キャンセル済み",
+      "loading": "サブスクリプションを読み込み中",
+      "loadingDescription": "最新の Stripe サブスクリプションを取得しています。",
+      "noActive": "有効なサブスクリプションはありません",
+      "noInactive": "無効なサブスクリプションはありません",
+      "planRadioPlus": "ラジオ Plus",
+      "planRadioPro": "ラジオ Pro",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "ソノラン ラジオ",
+      "purchasedNotApplied": "このサブスクリプションは購入済みですが、まだ Radio コミュニティに適用されていません。",
+      "startDate": "開始日"
+    },
+    "supportDescription": "専任のライブチャットサポートは営業時間内で週7日ご利用いただけます。ご質問ですか? 当チームが待機しています。",
+    "title": "請求",
     "toPortal": "ポータルに戻る"
   },
   "common": {
     "account": "アカウント",
     "actions": "アクション",
     "add": "追加",
+    "back": "戻る",
     "billing": "請求",
     "cancel": "キャンセル",
     "clickToCopy": "コピーをクリック",
     "clipboard": "クリップボードにコピーしました！",
+    "close": "閉じる",
     "communityIdField": "コミュニティ ID",
     "confirm": "確認",
     "copy": "コピー",
@@ -101,6 +202,7 @@
     "edit": "編集",
     "email": "メール",
     "help": "ヘルプ",
+    "id": "ID",
     "language": "言語",
     "learnMore": "さらに学ぶ",
     "limited": "制限付き",
@@ -198,6 +300,7 @@
     "joinCode": "参加コード: {code}",
     "joinMission": "サーバーに参加し、役割を選択して、ミッションに入ります。Sonoran Radioアイテムを装備してください。ミッション制作者は、カバレッジのために Sonoran 信号塔/リピーターを配置してください。",
     "joinTest": "参加してテスト",
+    "linkRoblox": "Robloxをリンク",
     "linkServer": "サーバーをリンク",
     "manualServer": "手動でホストするサーバーの場合、両方の mod フォルダーをサーバーにコピーし、それぞれの keys フォルダーから {extension} ファイルをサーバーの {directory} フォルダーにコピーし、次の起動引数を追加してください（フォルダー名は調整してください）:",
     "next": "次へ",
@@ -214,6 +317,7 @@
     "resizeRadio": "ラジオのサイズを変更",
     "resizeScreen": "ドラッグして画面サイズを変更",
     "restartServer": "サーバーを再起動して、プレイヤーと共有するランチャープリセットに両方の mod を含めてください。署名と BattlEye は有効のままにし、クライアントが拒否された場合は正確なキックメッセージを調査してください。",
+    "robloxLinkDescription": "このコミュニティで位置情報ベースの無線信号を使用するには、RobloxアカウントをSonoranアカウントにリンクしてください。",
     "serverMods": "サーバーのホストの mod マネージャーから同じ 2 つの Workshop mod をインストールします。両方を通常の mod として読み込み、server-only mod ではなく、CBA_A3 を先にします。",
     "setupOverlay": "オーバーレイを設定する",
     "towerSaveError": "ER:LC 信号塔を保存できませんでした。最後の変更は元に戻されました。",
@@ -231,10 +335,32 @@
     "openGameIntegration": "ゲーム統合",
     "overlayDesktopDescription": "デスクトップ ユーザー向けに ラジオ オーバーレイをカスタマイズします。",
     "overlayFiveMDescription": "FiveM のゲーム内ラジオとデスクトップオーバーレイをカスタマイズします。FiveM の変更は、互換性のあるリソースバージョンで5分以内に同期されます。",
-    "overlaySelectGame": "Game Integration でコミュニティのゲームを確認して、対応するオーバーレイ機能を使ってください。"
+    "overlayPreview": {
+      "description": "ラジオオーバーレイをカスタマイズしてください。",
+      "done": "完了",
+      "game": "ゲーム",
+      "localSample": "ローカルプレビュー・サンプルデータのみ",
+      "noGame": "ゲームが選択されていません",
+      "previewGame": "ゲームをプレビュー",
+      "saves": "このプレビューの{count}件の保存",
+      "title": "オーバーレイ"
+    },
+    "overlaySelectGame": "Game Integration でコミュニティのゲームを確認して、対応するオーバーレイ機能を使ってください。",
+    "upgradeRadioPlan": "Radio プランをアップグレード",
+    "upgradeRadioPlanMessage": "このコミュニティ向けのより多い容量、カスタマイズ、および高度な Radio 機能を解放",
+    "viewBilling": "請求を表示"
   },
   "desktopPanel": {
     "channelHotkey": "チャンネル ホットキー"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "マイクを変更:",
+    "deviceUnavailable": "{device} は使用できません。別のマイクを選択してください。",
+    "microphoneAccessDenied": "マイクへのアクセスが拒否されました",
+    "noInputDetected": "マイク入力が検出されませんでした。指令があなたの声を聞き取れない場合は、マイクを変更してください。",
+    "noMicrophoneFound": "マイクが見つかりません",
+    "selectedUnavailable": "選択したマイクは使用できません。別のマイクを選択してください。",
+    "unknownError": "不明なエラー"
   },
   "error404": {
     "goHome": "ホームへ戻る",
@@ -335,7 +461,291 @@
     "sonoranRadioPolymap": "ソノラン ラジオ ポリマップ"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "ゲームコミュニティ向けの無料ラジオを始める",
     "learnMore": "詳細を学ぶ"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "ソノラン ラジオを比較",
+      "competitorLogo": "{competitor} ロゴ",
+      "dispatchAnywhere": "ディスパッチ Anywhere",
+      "downloadAndroid": "Android 用の Sonoran Radio をダウンロード",
+      "downloadIos": "iOS 用の Sonoran Radio をダウンロード",
+      "downloadLinux": "Linux 用の Sonoran Radio をダウンロード",
+      "downloadMacos": "MacOS 用の Sonoran Radio をダウンロード",
+      "downloadWindows": "Windows 用の Sonoran Radio をダウンロード",
+      "gameSelection": "ゲーム選択",
+      "heroRadioAlt": "{game} Sonoran Radio デスクトップオーバーレイ サンプル チャンネル付き",
+      "openIntegration": "{title} 統合を開く",
+      "sonoranRadioIntegrations": "ソノラン ラジオの統合",
+      "sonoranRadioVs": "ソノラン ラジオ 対 {competitor}",
+      "viewGameIntegrations": "{game}の統合を見る"
+    },
+    "armaCapture": {
+      "activeDishes": "有効な皿",
+      "aiCanHear": "AIは通信を聞き取れます",
+      "aiHearingTitle": "ソノラン ラジオ · AI ヒアリング",
+      "alphaOneOne": "アルファ 1-1",
+      "blockedPath": "通行止めのルート · 2 km",
+      "blockedQuality": "26% 品質",
+      "blockedTerrainMultiplier": "遮断地形倍率",
+      "cancel": "キャンセル",
+      "canDetectSpeaker": "話者を検出できます",
+      "clearPath": "進路を確保 · 2 km",
+      "clearQuality": "75% 品質",
+      "customizationDesktopFrames": "カスタマイズ / デスクトップ フレーム",
+      "dishCount": "皿数",
+      "exampleSignalPaths": "サンプル信号経路",
+      "hearingRadiusAria": "説明用送信受信半径",
+      "illustrativeHearingRadius": "説明用受信半径",
+      "indestructible": "壊れない",
+      "inventoryFrame": "インベントリアイテム → デスクトップフレーム",
+      "invisibleSignalOnly": "不可視（信号のみ）",
+      "itemClassNames": "ARMA アイテム クラス名",
+      "largeRadioTower": "大型ラジオ塔",
+      "matchRadio": "携帯している 無線機 に合わせる",
+      "nearbyAi": "近くの AI",
+      "nearbyAiDescription": "近くのAIは、プッシュトゥトークを使っている間にあなたを検出できます。",
+      "ok": "OK",
+      "optionalDisabled": "任意 ・ デフォルトで無効",
+      "outsideHearingRange": "聞こえる範囲外",
+      "photoCaption": "アルティス・大型ラジオ塔",
+      "powered": "電源オン",
+      "rangeDishes": "8 km 範囲 · 4 / 4 ディッシュ",
+      "relayAlpha": "中継アルファ",
+      "repeaterModel": "リピーターモデル",
+      "signalPathsAria": "クリアな信号経路と地形で遮られた信号経路",
+      "signalRange": "信号範囲 (m)",
+      "signalTitle": "ソノラン ラジオ / シグナル",
+      "terrainAttenuation": "地形減衰",
+      "terrainChanges": "地形変化で受信",
+      "title": "ソノラン ラジオ タワー",
+      "transmissionHearingRange": "送信受信範囲",
+      "transmitting": "送信中"
+    },
+    "dispatchAi": {
+      "exampleOf": "例 {current} / {total}: {id}",
+      "examples": "ディスパッチ AI の例",
+      "items": {
+        "alpha": {
+          "request": "\"了解、Alpha Squad に切り替えてください。\"",
+          "response": "了解、Alpha Squad に切り替えます。",
+          "result": "Squad switch · Alpha Squad"
+        },
+        "breach": {
+          "request": "\"コマンド、60秒の ブリーチ タイマーを開始して。\"",
+          "response": "コピー、60秒の ブリーチ タイマーが開始されました。",
+          "result": "ブリーチタイマー開始 · 01:00"
+        },
+        "miller": {
+          "request": "\"コマンド、ミラー軍曹を私の周波数にプッシュして。\"",
+          "response": "コピー、ミラー軍曹をあなたの周波数にプッシュ中。",
+          "result": "周波数プッシュ・ミラー軍曹"
+        },
+        "pit": {
+          "request": "「ディスパッチ、5分のPITタイマーを設定。」",
+          "response": "コピー、5分のPITタイマーを開始しました。",
+          "result": "PITタイマー開始 · 05:00"
+        },
+        "plate": {
+          "request": "\"ディスパッチ、青いセダン、ナンバープレート ABC123 で交通対応中、現在地を教えて。\"",
+          "response": "コピー、青い セダン、ABC123 で 交通停止 通報 を 作成 しました。",
+          "result": "交通通報・担当部隊割り当て済み"
+        },
+        "platoon": {
+          "request": "「コマンド、スキャンしたチャンネルに第1分隊を追加。」",
+          "response": "コピー、スキャンしたチャンネルに第1分隊を追加します。",
+          "result": "チャンネルが追加されました · 第1小隊"
+        },
+        "robbery": {
+          "request": "「通信指令、強盗進行中の現場に私を向かわせてください。」",
+          "response": "了解、強盗進行中の現場にあなたの部隊を向かわせます。",
+          "result": "強盗通報・担当部隊割り当て済み"
+        },
+        "runPlate": {
+          "request": "\"ディスパッチ、プレート ABC123 を実行。\"",
+          "response": "了解、ABC123の復帰を待て。",
+          "result": "ナンバープレート検索・結果あり"
+        },
+        "tacOne": {
+          "request": "「Dispatch、TAC 1 に切り替えて。」",
+          "response": "了解、TAC 1 に切り替えます。",
+          "result": "チャンネル切り替え · TAC 1"
+        }
+      },
+      "next": "次の ディスパッチ AI の例",
+      "previous": "前の Dispatch AI の例",
+      "radioAlt": "{game} Sonoran Radio デスクトップオーバーレイ",
+      "subtitle": "あなたの声。あなたのディスパッチャー。Sonoran CADに接続。",
+      "title": "ディスパッチ AI"
+    },
+    "erLcMapCapture": {
+      "addPoints": "ポイントを追加",
+      "cancel": "キャンセル",
+      "clickTheMap": "マップをクリック",
+      "closeTowerMenu": "タワーメニューを閉じる",
+      "closeZoneMenu": "ゾーンメニューを閉じる",
+      "deleteTower": "塔を削除",
+      "deleteZone": "ゾーンを削除",
+      "description": "同じ地図上で通信範囲と緊急ゾーンを設定します。",
+      "dragZoneHandles": "青いハンドルをドラッグしてゾーンの形を編集します。",
+      "drawCircle": "円を描く",
+      "drawPolygon": "ポリゴンを描画",
+      "editEmergencyZone": "緊急ゾーンを編集",
+      "editTower": "塔を編集",
+      "emergencyZones": "緊急ゾーン",
+      "finishZone": "終了ゾーン",
+      "mapAlt": "ER:LC マップ",
+      "mapCoordinates": "マップ X {x} · Z {y}",
+      "mapUnits": "マップ ユニット",
+      "noEmergencyZones": "この部屋にはまだ緊急ゾーンがありません。ポリゴンまたは円を描いて追加してください。",
+      "noSignalTowers": "まだ信号塔はありません。塔を設置するまで、信号は100%のままです。",
+      "placeTower": "タワーを設置",
+      "points": "ポイント",
+      "range": "範囲",
+      "room": "ルーム",
+      "selectCenter": "中心を選択",
+      "selectCircleEdge": "円の端を選択",
+      "setCenterEdge": "中央 と エッジ を設定",
+      "title": "ER:LC マップ設定",
+      "towerName": "塔名",
+      "towers": "タワー",
+      "transmitChannels": "送信チャンネル",
+      "zoneName": "ゾーン名"
+    },
+    "featureCapture": {
+      "channelsGroups": "チャンネルとグループ",
+      "exportedPngData": "エクスポートされた PNG データ",
+      "exportPng": "透明 PNG をエクスポート",
+      "preview": "プレビュー",
+      "sfxCustomization": "SFXカスタマイズ",
+      "transmissionLogs": "送信ログ"
+    },
+    "gameIntegration": {
+      "integration": "統合"
+    },
+    "integrationCapture": {
+      "adminPermission": "管理者",
+      "alexMorgan": "A-12・アレックス モーガン",
+      "apiGetGroupsComment": "// 設定済みのグループとチャンネルを取得",
+      "approveMembers": "メンバーを承認",
+      "assignedUnits": "割り当て済み: A-12, A-14",
+      "available": "利用可能",
+      "availableCall": "利用可能・通話 #1042",
+      "availableUnit": "利用可能 ・ A-12",
+      "callAction": "通話を作成",
+      "callActionExample": "Main St で 10-50 の通話を作成",
+      "callInformation": "通話情報",
+      "callNumber": "通話 #1042",
+      "channelAction": "メイン チャンネルに切り替える",
+      "channelActionExample": "TAC 1に切り替えて",
+      "communityAdmin": "コミュニティ 管理者",
+      "communityRoles": "コミュニティ ロール",
+      "connectedToRadio": "あなたの無線機に接続",
+      "countyDispatch": "郡ディスパッチ",
+      "dispatchAiActions": "ディスパッチ AI アクション",
+      "dispatchCall": "ディスパッチ コール",
+      "dispatchOne": "ディスパッチ 1",
+      "dispatchTeam": "ディスパッチ チーム",
+      "exampleRoleMapping": "役割マッピング例",
+      "exampleVoiceRequest": "サンプル 音声 リクエスト",
+      "jordanLee": "A-14・Jordan Lee",
+      "moveRadioUsers": "ラジオユーザーを移動",
+      "officialSdkLibraries": "公式 v2 SDK ライブラリ",
+      "panic": "パニック",
+      "patrol": "パトロール",
+      "permissions": "権限",
+      "permissionsStayInSync": "権限は同期したまま",
+      "plateAction": "人物またはナンバープレート検索",
+      "plateActionExample": "プレート ABC123 を実行",
+      "playDispatchTones": "ディスパッチトーンを再生",
+      "respondingCall": "応答中 ・ 通話 #1042",
+      "statusAction": "ステータス更新",
+      "statusActionExample": "自分のステータスをavailableに設定",
+      "statusUpdates": "ステータス更新",
+      "streamDeckAlt": "15個のLCDキーにSonoran Radioの操作が表示された物理的なElgato Stream Deck MK.2",
+      "trafficCollision": "交通事故",
+      "trafficLocation": "グレート・オーシャン・ハイウェイ ・ 郵便番号 3025",
+      "unitStatus": "ユニット状態",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "あなたの声。CADに接続。"
+    },
+    "integrationCard": {
+      "free": "無料"
+    },
+    "interactivePreview": {
+      "allClear": "オールクリア",
+      "analog": "アナログ",
+      "audioLevel": "オーディオレベル",
+      "cancel": "キャンセル",
+      "countyDispatch": "郡ディスパッチ",
+      "digital": "デジタル",
+      "emsDispatch": "EMS ディスパッチ",
+      "fireDispatch": "消防ディスパッチ",
+      "fireEms": "消防 / EMS",
+      "hearDifference": "違いを聞く",
+      "microphonePreviewError": "マイクプレビューを開始できませんでした。ブラウザの許可を確認するか、サンプルを試してください。",
+      "microphonePreviewOn": "マイクプレビューはオンです",
+      "openLibrary": "{library} を {registry} で開く",
+      "original": "オリジナル",
+      "playingSample": "サンプルを再生中",
+      "playSample": "サンプルを再生",
+      "previewPlaying": "プレビュー再生中",
+      "previewStopped": "プレビューを停止しました",
+      "previewVolume": "プレビュー音量",
+      "priorityTraffic": "優先通信",
+      "publicSafety": "公的安全",
+      "samplePlaybackError": "サンプルを再生できませんでした。もう一度お試しください。",
+      "sampleUnavailable": "サンプルは利用できません",
+      "startingPreview": "プレビューを開始しています",
+      "stopPreview": "プレビューを停止",
+      "tonePlaybackError": "このトーンを再生できませんでした。もう一度お試しください。",
+      "toneUnavailable": "トーンは利用できません",
+      "tryMicrophone": "マイクを試す",
+      "vocoder": "ボコーダー・3200",
+      "vocoderPreviewError": "ボコーダープレビューを開始できませんでした。もう一度お試しください。",
+      "voiceEffectExamples": "音声効果の例"
+    },
+    "mobi": {
+      "active": "有効",
+      "audio": "オーディオ",
+      "channelGroup": "チャンネル グループ",
+      "channels": "チャンネル",
+      "currentSpeaker": "現在の話者",
+      "distress": "遭難",
+      "distressSignalDetected": "遭難信号を検出しました",
+      "header": "ラジオ // 通信",
+      "multiChannel": "マルチ チャンネル",
+      "multiGroup": "マルチ グループ",
+      "noActiveTransmission": "送信なし",
+      "noLink": "リンクなし",
+      "none": "なし",
+      "online": "オンライン",
+      "priorityAlert": "緊急 優先 アラート",
+      "quickAccess": "クイックアクセス",
+      "receive": "受信",
+      "scan": "スキャン",
+      "scanList": "スキャンリスト",
+      "scannedChannel": "スキャン済みチャンネル",
+      "selectedChannel": "選択中 の チャンネル",
+      "settings": "設定",
+      "settingsTooltip": "設定",
+      "signal": "信号",
+      "signalFault": "信号障害",
+      "spectrumOffline": "スペクトラム オフライン",
+      "standby": "待機",
+      "temporaryLink": "一時リンク",
+      "transmission": "送信",
+      "transmit": "送信",
+      "unknownChannel": "不明なチャンネル",
+      "unknownGroup": "不明なグループ",
+      "unknownUser": "不明なユーザー"
+    },
+    "tabPanel": {
+      "defaultDescription": "placeholder タブコンテンツで、リアルタイムのユニット状況、周波数監視、チャンネル管理をシームレスに連携して体験できます。",
+      "defaultTitle": "ソノラン ラジオ",
+      "imageAlt": "タブパネル画像"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "ラジオフレームを変更",
@@ -376,11 +786,125 @@
     "title": "JSONインポート/エクスポート",
     "tooltip": "JSONファイルをインポート"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Sonoran API ライブラリ",
+    "armaDescription": "Sonoran Radio を Arma 3 Integrations で Arma 3 に直接接続します。",
+    "back": "戻る",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "ディスパッチ コール プレビュー",
+        "description": "Sonoran CAD の出動通話に参加し、ラジオで通話の詳細を表示します。",
+        "label": "ディスパッチ コール"
+      },
+      "liveMap": {
+        "alt": "プレースホルダー ライブマップのプレビュー",
+        "description": "Sonoran CAD ライブマップで無線塔を表示します。",
+        "label": "ライブマップ"
+      },
+      "panicButton": {
+        "alt": "パニックボタン プレビュー",
+        "description": "ラジオのパニックボタンで Sonoran CAD のパニック状態を切り替えます。",
+        "label": "パニックボタン"
+      }
+    },
+    "comingSoon": "近日公開。",
+    "erlcDescription": "Sonoran Radio を ER:LC Integrations で ER:LC に直接接続します。",
+    "fivemDescription": "Sonoran Radioの無料FiveMラジオスクリプト—公式のゲーム内リソース—を使って、サーバーに音声ラジオを導入しましょう。以下の連携を確認し、{setupGuide}に従ってください。",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "AIの聞こえの範囲内で送信しているArmaプレイヤーと、MODの聞こえ設定のイラスト",
+            "description": "近くの AI が送信中のプレイヤーを検知し、聞き取り範囲を調整できます。Arma 統合プレビューで利用できます。",
+            "label": "AI 聴覚"
+          },
+          "itemFrames": {
+            "alt": "BLUFOR と OPFOR のアイテムクラスマッピングと、それに対応する Sonoran Radio デスクトップオーバーレイフレーム。",
+            "description": "あなたの BLUFOR または OPFOR の無線アイテムは、それに対応するデスクトップオーバーレイを選択します。カスタムアイテムをコミュニティのフレームにマッピングします。",
+            "label": "インベントリ ラジオ同期"
+          },
+          "terrainSignal": {
+            "alt": "図解された Arma リピーターの通信範囲で、明瞭な信号経路と地形の後ろで減衰した信号を示しています。",
+            "description": "距離と地形がタワーの受信を弱めます。オーバーレイの信号を見て、チャネル エフェクトで変化を聞いてください。",
+            "label": "地形＆信号"
+          },
+          "towers": {
+            "alt": "Armaの信号塔。範囲、容量、電力の例のZeusコントロール付き。",
+            "description": "Eden または Zeus にタワーを配置。範囲、出力、破壊が、あなたの無線カバレッジを形作る。",
+            "label": "ゲーム内タワー"
+          }
+        },
+        "tabsLabel": "Arma 3 統合機能"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "Sonoran Radioのデスクトップオーバーレイで、ER:LCの警察シーン上にLiberty Countyの指令チャンネルを表示している。",
+            "description": "Roblox をプレイ中でも、ラジオを最前面に表示しておけます。フレームを選び、チャンネルを切り替え、デスクトップアプリからライブのタワー信号を追跡できます。",
+            "label": "デスクトップ オーバーレイ"
+          },
+          "emergencyZones": {
+            "alt": "ER:LC のマップに、サンプルの緊急ゾーンと許可された緊急送信チャンネルを表示。",
+            "description": "緊急ゾーンを描画し、各エリアで利用可能な緊急送信チャンネルを選択します。",
+            "label": "緊急ゾーン"
+          },
+          "liveSignal": {
+            "alt": "仮想タワーのカバレッジとリンクしたプレイヤーを備えたER:LC マップ、Sonoran Radio のオーバーレイでライブの信号強度を表示",
+            "description": "塔を設置して Liberty County 全域のラジオ通信範囲を調整します。運転中は、オーバーレイにリアルタイムの信号強度が表示され、ラジオの効果が受信状況を反映します。",
+            "label": "仮想タワー"
+          }
+        },
+        "tabsLabel": "ER:LC 統合機能"
+      }
+    },
+    "integrationTitleSuffix": "統合",
+    "learnMore": "詳細を学ぶ: {title}",
+    "meta": {
+      "armaDescription": "Arma 3向けのSonoran Radio連携を探索してください。ゲーム内のタワー、インベントリのラジオ同期、地形信号、AIの聴覚を含みます。",
+      "armaTitle": "Arma 3 Integrations | Sonoran Radio",
+      "erlcDescription": "ER:LC 用の Sonoran Radio 連携を探索。デスクトップオーバーレイ、バーチャルタワー、緊急ゾーンを含みます。",
+      "erlcTitle": "ER:LC 統合 | Sonoran Radio",
+      "fivemDescription": "Sonoran Radioの無料FiveMラジオスクリプト、公式のゲーム内リソースを使って、サーバーに音声ラジオを導入しましょう。",
+      "fivemTitle": "FiveM 統合 | Sonoran Radio"
+    },
+    "openDocumentation": "{title} のドキュメントを開く",
+    "registryLink": "{name} の {registry} 上",
+    "setupGuide": "セットアップ ガイド",
+    "streamDeck": {
+      "calloutDescription": "ドキュメントを表示して、詳細とプラグインのインストール手順をご確認ください。",
+      "calloutTitle": "もっと学びたいですか？",
+      "description": "よく使う Sonoran Radio の操作を Stream Deck のキーやダイヤルに割り当てましょう。チャンネルの移動、送信、音声の微調整を、流れを止めずに行えます。",
+      "deviceAlt": "チャンネルコントロールを表示している Sonoran Radio ハンドヘルドデバイス",
+      "heading": "あなたのラジオ。ワンタッチで。",
+      "highlights": {
+        "actions": {
+          "description": "AIモード、Tone Board、デスクトップオーバーレイをdeckに入れるか、FiveMのゲーム内ラジオとアクションを使ってください。",
+          "title": "さらに多くのラジオ操作"
+        },
+        "audio": {
+          "description": "対応しているダイヤルを使用して、ラジオ、チャンネル、エフェクト、AI の音量を調整します。",
+          "title": "オーディオを調整"
+        },
+        "channelShortcuts": {
+          "description": "チャンネルとグループを移動したり、タップで送信リストとスキャンリストを切り替えたりできます。",
+          "title": "チャンネル ショートカット"
+        },
+        "pushToTalk": {
+          "description": "送信を手元に置いて、ラジオアプリに戻らずに送信できます。",
+          "title": "プッシュトゥトーク、キー上"
+        }
+      },
+      "platformKeysDials": "キー＋ダイヤル",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Stream Deck の機能"
+  },
   "landingPage": {
     "API_Libraries": {
       "desc": "v2 APIで使用する公式Sonoran SDKライブラリのインストールリンク。",
       "title": "API ライブラリ"
     },
+    "armaIntegrationDescription": "Sonoran Radio を Arma 3 Integrations で Arma 3 に直接接続します。",
     "BackgroundAudio": {
       "desc": "通話に応答中ですか? Sonoran Radioは、サイレン、銃声などをリアルタイムで直接マイク入力に注入し、究極の没入感を実現します。",
       "title": "バックグラウンドオーディオ"
@@ -435,6 +959,8 @@
       "desc": "ゲーム内からすべて、緊急通報をディスパッチへ！",
       "title": "ゲーム内緊急通話"
     },
+    "erlcIntegrationDescription": "Sonoran Radio を ER:LC Integrations で ER:LC に直接接続します。",
+    "exploreIntegrations": "統合を探す",
     "faq": {
       "free": {
         "answer": "はい。Dispatch AI は無料プランで完全にご利用いただけ、毎月のクレジットも含まれています。有料プランでは、より高いクレジット上限が含まれます。",
@@ -463,6 +989,34 @@
       "eyebrow": "直接統合",
       "heading": "統合"
     },
+    "fivemRadioIntegration": "ラジオ統合",
+    "gameIntegrations": "ゲーム統合",
+    "games": {
+      "arma3": {
+        "description": "Arma 3 用の無料のラジオチャンネルとデスクトップオーバーレイから始められます。ミッションタワー、インベントリ連動フレーム、地形信号で Arma 連携をプレビューできます。",
+        "headline": "Arma 3 の分隊向け無料ラジオ",
+        "name": "Arma 3",
+        "title": "無料 Arma 3 ラジオ＆デスクトップオーバーレイ | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "Roblox Emergency Response: Liberty County 用のデスクトップオーバーレイ付きで、無料の ER:LC 音声ラジオを開始します。アカウントをリンクして、ライブの電波カバー付きの仮想タワーを追加します。",
+        "headline": "コミュニティ向けの無料 ER:LC ボイスラジオ",
+        "name": "ER:LC",
+        "title": "無料 ER:LC ボイス ラジオ & デスクトップ オーバーレイ | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "FiveMラジオスクリプト、デスクトップオーバーレイ、dispatchパネルで無料で始めましょう。Sonoran RadioをFiveM連携でGTA Vロールプレイサーバーに接続します。",
+        "headline": "FiveMコミュニティ向けの無料ラジオ",
+        "name": "FiveM",
+        "title": "無料の FiveM 無線スクリプト ＆ ディスパッチパネル | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "無料のラジオ チャンネル、ディスパッチ ツール、テーマ付きデスクトップ オーバーレイで、Star Citizen のクルーをつないでおきましょう。宇宙全体で通信を調整できます。",
+        "headline": "Star Citizen のクルー向けの無料無線",
+        "name": "Star Citizen",
+        "title": "無料 Star Citizen ラジオ＆オーバーレイ | Sonoran Radio"
+      }
+    },
     "hero": {
       "subtitle": "リアルなラジオチャンネルでチャットし、ボイスエフェクトをカスタマイズし、ゲーム内機能とシームレスに連携して、真に没入感のある体験を。",
       "title": "より良い無線通信はここから始まる"
@@ -480,6 +1034,7 @@
     "meta": {
       "audienceType": "ゲーマーとコミュニティマネージャー",
       "description": "FiveM、ER:LC、Arma 3、ロールプレイコミュニティ向けのリアルな無線通信ソフトウェア。",
+      "imageAlt": "Sonoran Radio ディスパッチパネルとデスクトップラジオオーバーレイ",
       "keywords": "Sonoran Radio、ゲーム用ラジオ、FiveM ラジオ、ER:LC ラジオ、Arma 3 ラジオ、ロールプレイ通信用、ディスパッチソフトウェア、デスクトップラジオオーバーレイ、無料 FiveM ラジオ、無料 ER:LC ラジオ",
       "ogTitle": "ソノラン ラジオ - ゲーミング ラジオ通信",
       "productName": "ソノラン ラジオ",
@@ -515,6 +1070,7 @@
       "dispatchAdmin": "ディスパッチとAdminパネル",
       "integrations": "統合"
     },
+    "softwareIntegrations": "ソフトウェア統合",
     "Sonoran_CAD": {
       "desc": "このプラグインを使用すると、Sonoran Radio のお客様はラジオを Sonoran CAD に接続できます。ユニットのステータス、ディスパッチ通話情報を表示し、パニックを切り替えるなどできます!",
       "title": "Sonoran CAD"
@@ -528,6 +1084,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Sonoran Studio を探索",
       "description": "ライブの ラジオ アクティビティを配信オーバーレイ、反応型スマート照明、ハンズフリーのオートメーションに変えます。",
       "eyebrow": "ソノラン ラジオ + Sonoran Studio",
@@ -598,7 +1155,15 @@
     "serverHosting": "サーバーホスティング"
   },
   "management": {
-    "forceJoinAsOwner": "所有者として強制参加"
+    "eventType": "イベントタイプ",
+    "forceJoinAsOwner": "所有者として強制参加",
+    "forceLeave": "強制退出",
+    "payloadJson": "ペイロード JSON",
+    "pushEventDiagnostic": "プッシュ イベント 診断",
+    "pushUrl": "プッシュ URL",
+    "sendTestPushEvent": "テストプッシュイベントを送信",
+    "storedRoomPushUrl": "保存済みルーム プッシュ URL",
+    "timeout": "タイムアウト（ms）"
   },
   "managementPage": {
     "searchTitle": "コミュニティを検索",
@@ -611,6 +1176,8 @@
       "apiInfoTitle": "API情報",
       "communityApiKeyField": "コミュニティ API キー",
       "communityLogs": "コミュニティ ログ",
+      "communityLogsEmpty": "ログが見つかりません",
+      "communityLogsLoading": "ログを読み込み中...",
       "logAccount": "ソース（アカウント）",
       "logContent": "コンテンツ",
       "logDate": "日付",
@@ -651,9 +1218,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "ボタンを追加",
+      "addLayout": "レイアウトを追加",
       "addScreen": "画面を追加",
       "addVariant": "このバリアントを追加",
       "addVehicleOverride": "車両上書きを追加",
+      "aircraftLayout": "航空機レイアウト",
       "armaBlufor": "BLUFOR 例",
       "armaExamples": "ARMA 3 例",
       "armaItemClassNames": "ARMA アイテム クラス名",
@@ -674,6 +1243,8 @@
       "deleteFrame": "フレームを削除",
       "duplicateVehicleName": "各車両名には、上書き設定を 1 つだけ設定できます。",
       "editHint": "ドラッグして移動 · Ctrl + ドラッグしてサイズ変更 · ボタンを右クリックして削除",
+      "fit": "フィット",
+      "fitRadioToCanvas": "ラジオをキャンバスに合わせる",
       "frameBodyImage": "フレーム ボディ画像",
       "frameLabel": "フレーム ラベル",
       "frameName": "フレーム名",
@@ -682,6 +1253,10 @@
       "importFromSkin": "FiveM からインポート (skin.json)",
       "importNoFramesFound": "body.width と screen を持つフレームは見つかりませんでした。",
       "label": "ラベル",
+      "migratedFramesReadOnly": "移行されたFiveMフレームはFreeで引き続き利用できます。Proにアップグレードすると、このフレームを編集するか、その画像を置き換えられます。",
+      "migratedFramesReset": "移行されたFiveMフレームはProでのみリセットできます。",
+      "moveLayoutEarlier": "レイアウトを前へ移動",
+      "moveLayoutLater": "レイアウトを後ろへ移動",
       "newFrame": "新しいフレーム",
       "noneFound": "このコミュニティ用のオーバーレイフレームは見つかりませんでした。",
       "overrideFramesRequired": "各車両の上書きに少なくとも1つのフレームを選択してください。",
@@ -719,6 +1294,8 @@
         "onFoot": "徒歩",
         "vehicle": "車両"
       },
+      "vehicleClasses": "車両 クラス",
+      "vehicleClassesHint": "選択を解除してすべての車両クラスに一致させます。前のレイアウトが優先されます。",
       "vehicleClassNames": {
         "boats": "ボート",
         "commercial": "商用",
@@ -745,12 +1322,15 @@
         "utility": "ユーティリティ",
         "vans": "バン"
       },
+      "vehicleLayout": "車両レイアウト",
       "vehicleName": "ER:LC 車両名",
       "vehicleNameRequired": "各上書き設定に車両名を入力してください。",
       "vehicleOverrideHint": "車両名は、先頭または末尾の大文字小文字とスペースを無視して完全に一致します。デスクトップ フレームでは、ER:LC 車両検出を有効にして、単一の車両名が使用可能な場合に車両固有のフレームを使用します。",
       "visibilityHint": "徒歩時または一致する車両名がない場合のデフォルト デスクトップ フレームを選択してください。ER:LC の車両検出で一致する名前が見つかると、車両オーバーライドがフレームを自動選択します。",
       "visibilityTitle": "フレームの可視性",
-      "visibleFrames": "表示フレーム"
+      "visibleFrames": "表示フレーム",
+      "zoomIn": "拡大",
+      "zoomOut": "縮小"
     },
     "customizeMenu": {
       "ai": "AI",
@@ -1136,13 +1716,19 @@
       "approveBtn": "承認",
       "ban": "BAN",
       "banBtn": "BAN",
+      "banConfirm": "{count}人のメンバーを永久にBANしようとしています。再参加できなくなりますが、BAN解除はできます。",
       "cannotModifyPermsOfMyself": "自分の権限は変更できません",
+      "communityAccess": "コミュニティ アクセス",
+      "communityAccessDescription": "メンバーに基本的な Sonoran Radio アクセスを承認します。管理権限やプライベートプロフィールへのアクセスは付与されません。",
+      "confirmTitle": "よろしいですか？",
       "copyDiscordId": "Discord IDをコピー",
       "copyPermissionGeneratorId": "権限IDをコピー",
       "copyRobloxId": "Roblox ID をコピー",
       "discordIdCopied": "Discord ID をクリップボードにコピーしました。",
       "displayName": "表示名",
+      "displayNameUpdated": "表示名を更新しました",
       "editMemberPerms": "メンバー権限を編集",
+      "enterDisplayName": "{name} の新しい表示名を入力",
       "errAddInvalidAccount": "指定されたユーザー名は存在しません",
       "errAddUnknown": "管理者の追加中に不明なエラーが発生しました",
       "errRemoveUnknown": "管理者の削除中に不明なエラーが発生しました",
@@ -1152,17 +1738,42 @@
       "filterBanned": "利用禁止",
       "filterPending": "保留中",
       "kickBtn": "キック",
+      "kickConfirm": "{count} 人のメンバーをキックしようとしています。彼らはコミュニティ ID で再参加できます。",
       "noDiscordAccountLinked": "このユーザーには Discord アカウントがリンクされていません。",
       "noRobloxAccountLinked": "このユーザーには Roblox アカウントがリンクされていません。",
       "owner": "所有者",
       "ownerHasAllPerms": "コミュニティのオーナーはすべての権限を持っています",
       "paysSubscription": "サブスクリプションを支払う",
       "pending": "保留中",
+      "permissionAdmin": "管理者",
+      "permissionAdminDescription": "無線コミュニティのすべての機能を管理し、アクセスするための完全な権限を付与します。",
+      "permissionApproveMembers": "メンバーを承認",
+      "permissionApproveMembersDescription": "ラジオコミュニティで保留中のユーザーを承認または拒否できます。",
+      "permissionBanCommunity": "コミュニティから禁止",
+      "permissionBanCommunityDescription": "コミュニティからメンバーを永久に BAN する権限を付与します。",
+      "permissionCallOnly": "通話のみ",
+      "permissionCallOnlyDescription": "ユーザーを911通話のみに制限します。Dispatchタブを非表示にします。Adminsには影響しません。",
+      "permissionChangeDisplayName": "表示名を変更",
+      "permissionChangeDisplayNameDescription": "ユーザーが自分の表示名を変更できるようにします。",
       "permissionGeneratorBtn": "権限ジェネレーター",
       "permissionGeneratorId": "権限ID",
       "permissionGeneratorSubtitle": "外部使用向けのユーザー権限IDを生成します。",
       "permissionGeneratorTitle": "権限ジェネレーター",
+      "permissionKickCommunity": "コミュニティから追放",
+      "permissionKickCommunityDescription": "コミュニティからメンバーを削除する権限を付与します。",
+      "permissionKickRadio": "ラジオから追放",
+      "permissionKickRadioDescription": "メンバーをラジオチャンネルから切断する権限を付与します。",
+      "permissionManageDisplayNames": "表示名を管理",
+      "permissionManageDisplayNamesDescription": "他のメンバーの表示名を変更できるようにします。",
+      "permissionMoveRadioUsers": "ラジオユーザーを移動",
+      "permissionMoveRadioUsersDescription": "メンバーをラジオチャンネル間で移動できるようにします。",
+      "permissionOverrideTalkover": "Talkover保護オーバーライド",
+      "permissionOverrideTalkoverDescription": "ユーザーは PTT ボタンをダブルクリックしてトークオーバー保護を解除できます。",
+      "permissionPlayDispatchTones": "ディスパッチトーンを再生",
+      "permissionPlayDispatchTonesDescription": "無線でディスパッチトーンを再生する権限を付与します。",
       "permissionsBtn": "権限",
+      "permissionStunRadio": "スタン ラジオ",
+      "permissionStunRadioDescription": "ユーザーが他のラジオユーザーを30秒間スタン（ロックアウト）できるようにします。",
       "privateChannels": "プライベートチャンネル",
       "remove": "削除",
       "removeWarn": "警告",
@@ -1177,6 +1788,7 @@
       "title": "コミュニティメンバー",
       "traits": "特性",
       "unbanBtn": "BAN解除",
+      "unbanConfirm": "{count}人のメンバーのBAN解除をしようとしています。彼らはコミュニティ ID で再参加できます。",
       "username": "ユーザー名"
     },
     "membersTab": "メンバー",
@@ -1554,6 +2166,26 @@
     "welcome": "ようこそ",
     "welcomeTo": "Sonoran Radioへようこそ!"
   },
+  "mobiPreview": {
+    "channelName": "作戦 TAC 1",
+    "citywide": "シティワイド",
+    "frameName": "Mobi Preview",
+    "frameTitle": "Mobi Radio Frame",
+    "groupName": "STANTON SECURITY",
+    "localPreview": "ローカルプレビュー",
+    "modes": {
+      "distress": "遭難",
+      "idle": "待機中",
+      "jammed": "ジャミング中",
+      "receiving": "受信中",
+      "transmitting": "送信中"
+    },
+    "note": "上の状態を切り替えてライブのラジオインジケーターをプレビューしてください。画面操作には接続されたラジオセッションが必要です。",
+    "signal": "信号",
+    "speakerName": "A. マーサー",
+    "themePreview": "テーマプレビュー",
+    "yourRadio": "あなたのラジオ"
+  },
   "portal": {
     "beginTitle": "旅を始める",
     "beginYourJourney": "旅を始める！",
@@ -1678,16 +2310,29 @@
       "enableTransmissionRecordings": "送信録音を有効にする",
       "erlcHud": {
         "autoWindow": "Roblox ウィンドウを自動的に見つける",
+        "checkPermission": "アクセスを確認",
         "enable": "画面検出を使用",
-        "lastReading": "最後のゲージ確認",
+        "lastReading": "最後の ELS コントローラー確認",
         "noWindows": "Robloxウィンドウが見つかりませんでした。ER:LCを開いて、ウィンドウ一覧を更新してください。",
-        "privacy": "Sonoran Radio はこのデバイスの Roblox スピードメーターを確認して、車両バリアントを切り替えます。ER:LC があなたのアカウント所有車両をちょうど 1 台と報告する場合、その名前で特定のフレームも選択できます。画面画像は保存もアップロードもされません。macOS では、Sonoran Radio に対して Screen & System Audio Recording を許可する必要がある場合があります。",
+        "openSettings": "システム設定を開く",
+        "permissionDenied": "Sonoran Radio の画面収録はオフになっています。有効にしてから、アプリを完全に終了して再度開いてください。",
+        "permissionNotDetermined": "macOS は Roblox ウィンドウを読み取るための許可が必要です。アクセスを確認 をクリックして要求するか、システム設定 で有効にしてください。",
+        "permissionRestricted": "この Mac では画面収録が制限されています。Mac の管理者にアクセスを許可するよう依頼してください。",
+        "permissionStepEnable": "Sonoran Radio を有効にします。開発中は、macOS に表示されるアプリが Electron である場合は Electron を有効にします。",
+        "permissionStepOpen": "システム設定 → プライバシーとセキュリティ → 画面とシステムオーディオの収録（古い macOS バージョンでは画面収録）を開いてください。",
+        "permissionStepRestart": "アクセスを変更した後、Sonoran Radio を完全に終了して再度開いてください。",
+        "permissionTitle": "画面録画を許可",
+        "permissionUnknown": "Sonoran Radio は画面収録アクセスを確認できませんでした。システム設定を確認し、その後アプリを完全に終了して再度開いてください。",
+        "privacy": "Sonoran Radio は、このデバイスの右下の ELS コントローラを確認して車両バリアントを切り替えます。コントローラは表示されている必要があります。これがない車両は徒歩レイアウトを使用します。緊急灯はオンでもオフでもかまいません。画面画像は保存もアップロードもされません。",
+        "readingElsAbsent": "ELS コントローラーが見つかりませんでした",
+        "readingElsFound": "ELS コントローラーが見つかりました",
         "readingGaugeAbsent": "ゲージが見つかりません",
         "readingGaugeFound": "ゲージが見つかりました",
         "readingUncertain": "不確かな一致",
         "readingUnreadable": "Roblox ウィンドウは読み取れません",
         "readingWaiting": "Roblox のキャプチャを待機中",
         "refreshWindows": "Roblox ウィンドウを更新",
+        "settingsOpenFailed": "システム設定を開けませんでした。上記の手順で手動で開いてください。",
         "status": "検知状態",
         "statusChecking": "Roblox ウィンドウを確認中",
         "statusDisabled": "オフ",
@@ -1695,7 +2340,7 @@
         "statusInVehicle": "車両内",
         "statusLooking": "Roblox ウィンドウを検索中",
         "statusOnFoot": "徒歩",
-        "statusPermissionDenied": "画面録画の許可が拒否されました",
+        "statusPermissionDenied": "画面録画へのアクセスが必要",
         "statusUnknown": "車両状態を判定できません",
         "title": "ER:LC 車両検出",
         "vehicleAmbiguous": "ER:LC は複数の所有車両名を検出したため、名前固有のフレームオーバーライドを選択できません。",
@@ -1780,6 +2425,8 @@
       "audioMode": "オーディオモード",
       "audioRecording": "オーディオ録音",
       "broadcastTo": "放送先",
+      "channel": "チャンネル",
+      "channelGroup": "チャンネル グループ",
       "count": "件数",
       "deleteStack": "スタックを削除",
       "generate": "生成",
@@ -1790,6 +2437,7 @@
       "newTone": "新しいトーン",
       "noSavedStacks": "保存済みのスタックはまだありません。",
       "noTones": "トーンなし",
+      "ok": "OK",
       "playStack": "スタックを再生（ダブルクリック）",
       "preview": "プレビュー",
       "recording": "録音",
@@ -1804,7 +2452,11 @@
       "speechToText": "音声入力",
       "speed": "速度",
       "stack": "スタック",
+      "stackNameRequired": "スタック名は必須です。",
+      "stackNeedsTones": "保存する前にスタックにトーンを追加してください。",
+      "stopPlayback": "再生を停止",
       "subtitle": "コミュニティ用のディスパッチトーンをカスタマイズ",
+      "temporaryTtsError": "一時的な TTS トーンの準備に失敗しました。",
       "title": "トーンボード",
       "toneLabel": "トーンラベル",
       "tonesTab": "トーン",
@@ -1868,6 +2520,17 @@
     "checkSpam": "メールが見つからない場合は、迷惑メールフォルダを確認してください。",
     "emailPreferencesDesc": "重要なお知らせ、更新情報、キャンペーンをメールで受け取る。",
     "verifyPassword": "パスワードを確認"
+  },
+  "socials": {
+    "community": "コミュニティ",
+    "connectWithUs": "私たちとつながる",
+    "followUs": "フォローしてください",
+    "instagramDescription": "製品のハイライトとチームの最新情報",
+    "joinDiscord": "Discord に参加",
+    "joinDiscordDescription": "お知らせ、サポート、コミュニティ更新、製品ディスカッションを1か所で",
+    "joinDiscordTitle": "Sonoran SoftwareのDiscordに参加",
+    "tiktokDescription": "ソノラン チームからの短い更新",
+    "youtubeDescription": "ガイド、デモ、リリース"
   },
   "splash": {
     "feats": "対人テキストメッセージと Sonoran CAD\n      連携を備えた Sonoran Radio は、フル機能の通信デバイスを\n      ゲーム内の人員とディスパッチャーの手に直接届けます。今すぐ\n      無料でお試しください!",

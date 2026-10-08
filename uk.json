@@ -1,17 +1,125 @@
 {
+  "account": {
+    "allowUsageAnalytics": "Дозволити аналітику використання",
+    "deleteAccountError": "Під час видалення вашого облікового запису сталася помилка.",
+    "deleteAccountMessage": "Ви впевнені, що хочете назавжди видалити свій обліковий запис?",
+    "deleteAccountSuccess": "Обліковий запис успішно видалено.",
+    "deleteAccountTitle": "Видалити обліковий запис",
+    "privacyPolicy": "Політика конфіденційності",
+    "usageAnalyticsDescription": "Діліться обмеженими даними про використання застосунку з Sonoran Software і Google Analytics. Це не використовується для реклами або відстеження між застосунками.",
+    "usageAnalyticsTitle": "Аналітика використання"
+  },
+  "analyticsConsent": {
+    "allow": "Дозволити",
+    "description": "Дозволити обмежену аналітику використання, щоб допомогти покращити додаток. Без реклами чи відстеження між додатками.",
+    "notNow": "Не зараз",
+    "privacyPolicy": "Політика конфіденційності",
+    "title": "Допоможіть покращити Sonoran Radio"
+  },
   "billing": {
+    "billingPortalUnavailable": "Портал виставлення рахунків доступний після завантаження підписок.",
+    "contactSupport": "Зв’язатися з підтримкою",
+    "description": "Керуйте підписками, призначайте їх спільнотам Radio та оновлюйте оплату через Stripe.",
     "newSubDialog": {
       "billedQuarterly": "Оплата {price} щоквартально",
       "billingCycle": "Платіжний цикл",
       "monthly": "Щомісяця",
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio та FiveM-хостинг в одному пакеті.",
+      "plusDescription": "Більше можливостей і налаштувань для активних спільнот.",
+      "proDescription": "Відкрийте необмежене масштабування та розширені функції Radio.",
+      "professionalSetup": "Професійна допомога з налаштуванням для вашої спільноти.",
       "quarterly": "Щоквартально",
       "studio": "Ліцензія спільноти Sonoran Studio",
       "studioDescription": "Розумне освітлення та стрім-віджети для вашої спільноти. Входить до Sonoran One.",
       "studioPrice": "$7.99/міс",
       "studioQuarterlyBilled": "$18.00",
       "studioQuarterlyPrice": "$6.00/міс"
-    }
+    },
+    "noBillingPortalUrl": "URL білінгового порталу ще недоступна.",
+    "openBillingPortal": "Відкрити платіжний портал",
+    "paymentCenter": "Центр платежів",
+    "pricingCompare": {
+      "backgroundAudio": "Фоновий звук у грі",
+      "bestValue": "Найкраща пропозиція",
+      "bigDaddyAnimations": "Радіоанімації Big-Daddy",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio та безкоштовний FiveM-хостинг в одній підписці.",
+      "choosePlan": "Виберіть {name}",
+      "chooseSonoranOne": "Обрати Sonoran One",
+      "communitySoundEffects": "Звукові ефекти для всього спільноти",
+      "comparePlans": "Порівняти плани",
+      "connectedUsers": "Підключені користувачі",
+      "customCommunityId": "Власний ID спільноти",
+      "customDomain": "Користувацький домен",
+      "customVoiceEffects": "Користувацькі голосові ефекти",
+      "description": "Усі платні плани доступні щомісячно або щоквартально. Щоквартальні підписки включають знижку 25%.",
+      "desktopOverlayFrames": "Накладки робочого столу",
+      "dispatchAiPrompts": "Щомісячні запити Dispatch AI",
+      "freeCopy": "Безкоштовна копія",
+      "freeDescription": "Почніть із базових радіоінструментів для менших спільнот.",
+      "freePrompts": "~140-360",
+      "monthlyPrice": "{price}/міс",
+      "mostPopular": "Найпопулярніше",
+      "multiServer": "Багатосерверний",
+      "nearbyRadioChatter": "Поблизу радіопереговори",
+      "oneDefault": "1 сервер",
+      "oneServer": "1 сервер",
+      "perUserSoundEffects": "Звукові ефекти для кожного користувача",
+      "planFree": "Безкоштовно",
+      "planPlus": "Плюс",
+      "planPro": "Профі",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "Додайте налаштування та більше простору для активної рольової гри.",
+      "plusPrompts": "~1,400-3,600",
+      "proDescription": "Відкрийте необмежене масштабування та розширені функції Radio.",
+      "proPrompts": "~4,200-10,750",
+      "radioPlans": "Радіоплани",
+      "rocketNodeHosting": "Хостинг RocketNode FiveM",
+      "saveTwentyFive": "Заощадьте 25%",
+      "scannersAndJammers": "Сканери та глушники сигналу",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radio Pro",
+      "sonoranStudioLicense": "Ліцензія спільноти Sonoran Studio",
+      "tenUsers": "10",
+      "thirtyUsers": "30",
+      "threeCustom": "Безлімітний власний",
+      "threeDefault": "3x За замовчуванням",
+      "transmissionLogs": "Журнали передачі",
+      "unlimited": "Безлімітний",
+      "unlimitedCustom": "Безлімітний власний"
+    },
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "Поспілкуватися з людиною",
+    "statuses": {
+      "trialing": "На пробному періоді"
+    },
+    "subscriptionsDescription": "Переглядайте активні підписки, призначайте спільноти Radio та керуйте неактивними підписками.",
+    "subscriptionsTitle": "Ваші підписки",
+    "subscriptionTable": {
+      "active": "Активна",
+      "cancelledDescription": "Скасовані та термін дії яких минув підписки з’являтимуться тут.",
+      "communityId": "ID спільноти {id}",
+      "createDescription": "Створіть підписку, щоб відкрити більше функцій Radio для спільноти.",
+      "endDate": "Дата завершення",
+      "inactiveCancelled": "Неактивна / Скасована",
+      "loading": "Завантаження підписок",
+      "loadingDescription": "Отримання ваших останніх підписок Stripe.",
+      "noActive": "Немає активних підписок",
+      "noInactive": "Немає неактивних підписок",
+      "planRadioPlus": "Radio Plus",
+      "planRadioPro": "Radio Pro",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "Sonoran Radio",
+      "purchasedNotApplied": "Цю підписку придбано, але ще не застосовано до спільноти Radio.",
+      "startDate": "Дата початку"
+    },
+    "supportDescription": "Наша спеціалізована служба підтримки в живому чаті доступна 7 днів на тиждень у робочі години. Маєте запитання? Наша команда на зв’язку.",
+    "title": "Платіж"
+  },
+  "common": {
+    "back": "Назад",
+    "close": "Закрити",
+    "id": "ID"
   },
   "communitySetup": {
     "aiHearing": "ШІ може чути радіопередачі",
@@ -78,6 +186,7 @@
     "joinCode": "Код приєднання: {code}",
     "joinMission": "Приєднайтеся до свого сервера, виберіть роль і увійдіть у місію. Оснастіть предмет Sonoran Radio. Автори місій повинні розміщувати сигнальні вежі/ретранслятори Sonoran для покриття.",
     "joinTest": "Приєднатися й протестувати",
+    "linkRoblox": "Підключити Roblox",
     "linkServer": "Прив'язати сервер",
     "manualServer": "Для сервера, розміщеного вручну, скопіюйте обидві папки модів на сервер, скопіюйте їхні файли {extension} з папок keys до папки {directory} сервера та додайте цей аргумент запуску (за потреби змініть назви папок):",
     "next": "Далі",
@@ -94,6 +203,7 @@
     "resizeRadio": "Змінити розмір радіо",
     "resizeScreen": "Перетягніть, щоб змінити розмір екрана",
     "restartServer": "Перезапустіть сервер і включіть обидва моди в пресет лаунчера, яким ділитеся з гравцями. Залиште підписи та BattlEye увімкненими; перевірте точне повідомлення про викидання, якщо клієнта відхилено.",
+    "robloxLinkDescription": "Прив’яжіть свій обліковий запис Roblox до свого облікового запису Sonoran, щоб використовувати радіосигнал на основі місця розташування в цій спільноті.",
     "serverMods": "Встановіть ті самі два моди Workshop через менеджер модів вашого хостинг-провайдера сервера. Завантажте обидва як звичайні моди, а не лише серверні моди, з CBA_A3 першим.",
     "setupOverlay": "Налаштувати накладку",
     "towerSaveError": "Не вдалося зберегти сигнальні вежі ER:LC. Вашу останню зміну було скасовано.",
@@ -107,7 +217,29 @@
     "openGameIntegration": "Інтеграція з грою",
     "overlayDesktopDescription": "Налаштуйте радіо-накладку для користувачів настільних ПК.",
     "overlayFiveMDescription": "Налаштуйте своє внутрішньоігрове радіо FiveM і накладку для робочого столу. Зміни FiveM синхронізуються протягом п'яти хвилин із сумісною версією ресурсу.",
-    "overlaySelectGame": "Перевірте гру вашої спільноти в Game Integration, щоб використовувати відповідні функції накладання."
+    "overlayPreview": {
+      "description": "Налаштуйте накладку радіо.",
+      "done": "Готово",
+      "game": "Гра",
+      "localSample": "Локальний попередній перегляд · лише зразкові дані",
+      "noGame": "Гру не вибрано",
+      "previewGame": "Попередній перегляд гри",
+      "saves": "{count} збережень у цьому попередньому перегляді",
+      "title": "Накладка"
+    },
+    "overlaySelectGame": "Перевірте гру вашої спільноти в Game Integration, щоб використовувати відповідні функції накладання.",
+    "upgradeRadioPlan": "Оновіть свій радіотариф",
+    "upgradeRadioPlanMessage": "Розблокуйте більше можливостей, налаштувань і розширених функцій Radio для цієї спільноти.",
+    "viewBilling": "Переглянути рахунок"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "Змініть мікрофон:",
+    "deviceUnavailable": "{device} недоступний. Виберіть інший мікрофон.",
+    "microphoneAccessDenied": "Доступ до мікрофона заборонено",
+    "noInputDetected": "Не виявлено вхідного сигналу з мікрофона. Змініть мікрофон, якщо диспетчер не чує вас.",
+    "noMicrophoneFound": "Мікрофон не знайдено",
+    "selectedUnavailable": "Вибраний мікрофон недоступний. Виберіть інший мікрофон.",
+    "unknownError": "Невідома помилка"
   },
   "fivemView": {
     "forceGuestAccessDenied": "У вас немає доступу до гостьового радіо. Запитайте доступ у адміністратора сервера.",
@@ -115,12 +247,412 @@
     "guestLoginFailed": "Гостьове радіо не вдалося запустити. Спробуйте ще раз або зверніться по допомогу до адміністратора сервера.",
     "retryGuestLogin": "Повторити гостьове з’єднання"
   },
+  "getStartedButton": {
+    "bottomCtaTitle": "Почніть із безкоштовного радіо для вашої ігрової спільноти"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "Порівняти Sonoran Radio",
+      "competitorLogo": "логотип {competitor}",
+      "dispatchAnywhere": "Диспетчер будь-де",
+      "downloadAndroid": "Завантажте Sonoran Radio для Android",
+      "downloadIos": "Завантажте Sonoran Radio для iOS",
+      "downloadLinux": "Завантажте Sonoran Radio для Linux",
+      "downloadMacos": "Завантажте Sonoran Radio для MacOS",
+      "downloadWindows": "Завантажте Sonoran Radio для Windows",
+      "gameSelection": "Вибір гри",
+      "heroRadioAlt": "{game} Накладення для ПК Sonoran Radio з прикладами каналів",
+      "openIntegration": "Відкрити інтеграцію {title}",
+      "sonoranRadioIntegrations": "Інтеграції Sonoran Radio",
+      "sonoranRadioVs": "Sonoran Radio проти {competitor}",
+      "viewGameIntegrations": "Переглянути інтеграції {game}"
+    },
+    "armaCapture": {
+      "activeDishes": "Активні страви",
+      "aiCanHear": "ШІ може чути передачі",
+      "aiHearingTitle": "SONORAN RADIO · ШТУЧНЕ ЧУТТЯ",
+      "alphaOneOne": "Альфа 1-1",
+      "blockedPath": "Заблокований шлях · 2 км",
+      "blockedQuality": "26% якості",
+      "blockedTerrainMultiplier": "Множник заблокованої місцевості",
+      "cancel": "СКАСУВАТИ",
+      "canDetectSpeaker": "Може виявляти мовця",
+      "clearPath": "Вільний шлях · 2 км",
+      "clearQuality": "75% якості",
+      "customizationDesktopFrames": "НАЛАШТУВАННЯ / РАМИ ДЛЯ РОБОЧОГО СТОЛУ",
+      "dishCount": "Кількість тарілок",
+      "exampleSignalPaths": "ПРИКЛАДИ ШЛЯХІВ СИГНАЛУ",
+      "hearingRadiusAria": "Ілюстративний радіус чутності передачі",
+      "illustrativeHearingRadius": "ІЛЮСТРАТИВНИЙ РАДІУС ЧУТНОСТІ",
+      "indestructible": "Незнищенний",
+      "inventoryFrame": "Предмет інвентарю → рамка для робочого столу",
+      "invisibleSignalOnly": "Невидимий (лише сигнал)",
+      "itemClassNames": "Назви класів предметів ARMA",
+      "largeRadioTower": "ВЕЛИКА РАДІОВЕЖА",
+      "matchRadio": "Підберіть радіо, яке ви носите",
+      "nearbyAi": "AI поблизу",
+      "nearbyAiDescription": "AI поблизу може виявити вас, коли ви використовуєте натискання-щоб-говорити.",
+      "ok": "Гаразд",
+      "optionalDisabled": "Необов’язково · Вимкнено за замовчуванням",
+      "outsideHearingRange": "Поза межами чутності",
+      "photoCaption": "АЛТІС · ВЕЛИКА РАДІОВЕЖА",
+      "powered": "Живлення",
+      "rangeDishes": "Діапазон 8 км · 4 / 4 тарілки",
+      "relayAlpha": "Реле Альфа",
+      "repeaterModel": "Модель ретранслятора",
+      "signalPathsAria": "Чіткі та заблоковані рельєфом шляхи сигналу",
+      "signalRange": "Діапазон сигналу (м)",
+      "signalTitle": "SONORAN RADIO / СИГНАЛ",
+      "terrainAttenuation": "Затухання на місцевості",
+      "terrainChanges": "Зміни місцевості впливають на прийом",
+      "title": "SONORAN RADIO ВЕЖА",
+      "transmissionHearingRange": "Діапазон чутності передачі",
+      "transmitting": "ПЕРЕДАЧА"
+    },
+    "dispatchAi": {
+      "exampleOf": "Приклад {current} з {total}: {id}",
+      "examples": "Приклади AI-диспетчера",
+      "items": {
+        "alpha": {
+          "request": "\"Командо, перемкніть мене до Alpha Squad.\"",
+          "response": "Прийняв, перевожу вас до Alpha Squad.",
+          "result": "Перемикання загону · Alpha Squad"
+        },
+        "breach": {
+          "request": "\"Командо, запусти таймер на прорив на 60 секунд.\"",
+          "response": "Прийняв, таймер на прорив на 60 секунд запущено.",
+          "result": "Таймер проникнення запущено · 01:00"
+        },
+        "miller": {
+          "request": "\"Командо, натисніть Сержанта Міллера на мою частоту.\"",
+          "response": "Копія, натискаю Сержанта Міллера на вашу частоту.",
+          "result": "Натиснення частоти · Сержант Міллер"
+        },
+        "pit": {
+          "request": "\"Диспетчер, встановіть PIT-таймер на п'ять хвилин.\"",
+          "response": "Прийнято, п'ятихвилинний PIT-таймер запущено.",
+          "result": "Таймер PIT запущено · 05:00"
+        },
+        "plate": {
+          "request": "\"Диспетчер, повідомте моє місцезнаходження на патрулюванні з синім седаном, номер ABC123.\"",
+          "response": "Копіювати, створено виклик про зупинку руху із синім седаном, ABC123.",
+          "result": "Виклик про дорожній рух · Підрозділ призначено"
+        },
+        "platoon": {
+          "request": "\"Командо, додай 1-й взвод до моїх просканованих каналів.\"",
+          "response": "Копіюю, додаю 1-й взвод до ваших просканованих каналів.",
+          "result": "Канал додано · 1-й взвод"
+        },
+        "robbery": {
+          "request": "\"Диспетчер, приєднай мене до пограбування, що триває.\"",
+          "response": "Прийняв, приєдную ваш підрозділ до пограбування, що триває.",
+          "result": "Виклик про пограбування · Підрозділ призначено"
+        },
+        "runPlate": {
+          "request": "\"Диспетчер, пробий номерний знак ABC123.\"",
+          "response": "Прийом, очікуйте повернення ABC123.",
+          "result": "Пошук номерних знаків · Результати доступні"
+        },
+        "tacOne": {
+          "request": "\"Dispatch, перемкни мене на TAC 1.\"",
+          "response": "Прийняв, перевожу вас на TAC 1.",
+          "result": "Перемикання каналу · TAC 1"
+        }
+      },
+      "next": "Наступний приклад Dispatch AI",
+      "previous": "Попередній приклад Dispatch AI",
+      "radioAlt": "{game} Накладення для ПК Sonoran Radio",
+      "subtitle": "Ваш голос. Ваш диспетчер. Підключено до Sonoran CAD.",
+      "title": "AI-диспетчер"
+    },
+    "erLcMapCapture": {
+      "addPoints": "Додати бали",
+      "cancel": "Скасувати",
+      "clickTheMap": "Натисніть карту",
+      "closeTowerMenu": "Закрити меню вежі",
+      "closeZoneMenu": "Закрити меню зони",
+      "deleteTower": "Видалити вежу",
+      "deleteZone": "Видалити зону",
+      "description": "Налаштуйте покриття сигналу та зони надзвичайних ситуацій на одній карті.",
+      "dragZoneHandles": "Перетягніть сині маркери, щоб редагувати форму зони.",
+      "drawCircle": "Намалювати коло",
+      "drawPolygon": "Намалювати багатокутник",
+      "editEmergencyZone": "Редагувати аварійну зону",
+      "editTower": "Редагувати вежу",
+      "emergencyZones": "Аварійні зони",
+      "finishZone": "Фінішна зона",
+      "mapAlt": "Мапа ER:LC",
+      "mapCoordinates": "Карта X {x} · Z {y}",
+      "mapUnits": "одиниці карти",
+      "noEmergencyZones": "Для цієї кімнати ще немає зон надзвичайної ситуації. Намалюйте багатокутник або коло, щоб додати одну.",
+      "noSignalTowers": "Ще немає веж сигналу. Сигнал лишається на 100% доки ви не встановите вежу.",
+      "placeTower": "Встановити вежу",
+      "points": "бали",
+      "range": "Діапазон",
+      "room": "Кімната",
+      "selectCenter": "Виберіть центр",
+      "selectCircleEdge": "Виберіть край кола",
+      "setCenterEdge": "Встановити центр і край",
+      "title": "Конфігурація мапи ER:LC",
+      "towerName": "Назва вежі",
+      "towers": "Вежі",
+      "transmitChannels": "Передати канали",
+      "zoneName": "Назва зони"
+    },
+    "featureCapture": {
+      "channelsGroups": "Канали й групи",
+      "exportedPngData": "Експортовані дані PNG",
+      "exportPng": "Експортувати прозорий PNG",
+      "preview": "Попередній перегляд",
+      "sfxCustomization": "Налаштування SFX",
+      "transmissionLogs": "Журнали передачі"
+    },
+    "gameIntegration": {
+      "integration": "Інтеграція"
+    },
+    "integrationCapture": {
+      "adminPermission": "Адмін",
+      "alexMorgan": "A-12 · Алекс Морган",
+      "apiGetGroupsComment": "// Отримати налаштовані групи та канали",
+      "approveMembers": "Підтвердити учасників",
+      "assignedUnits": "Призначено: A-12, A-14",
+      "available": "ДОСТУПНО",
+      "availableCall": "Доступно · Виклик №1042",
+      "availableUnit": "ДОСТУПНО · A-12",
+      "callAction": "Створити виклик",
+      "callActionExample": "Створити виклик про 10-50 на Головній вул",
+      "callInformation": "Інформація про виклик",
+      "callNumber": "Виклик №1042",
+      "channelAction": "Перемкнути радіоканал",
+      "channelActionExample": "Перемкни мене на TAC 1",
+      "communityAdmin": "Адміністратор спільноти",
+      "communityRoles": "Ролі спільноти",
+      "connectedToRadio": "Підключено до вашої рації",
+      "countyDispatch": "Районна диспетчерська",
+      "dispatchAiActions": "Дії AI-диспетчера",
+      "dispatchCall": "ДИСПЕТЧЕРСЬКИЙ ВИКЛИК",
+      "dispatchOne": "ДИСПЕТЧЕР 1",
+      "dispatchTeam": "ДИСПЕТЧЕРСЬКА КОМАНДА",
+      "exampleRoleMapping": "ПРИКЛАД ВІДОБРАЖЕННЯ РОЛЕЙ",
+      "exampleVoiceRequest": "ПРИКЛАД ЗАПИТУ ГОЛОСУ",
+      "jordanLee": "A-14 · Джордан Лі",
+      "moveRadioUsers": "Перемістити користувачів радіо",
+      "officialSdkLibraries": "Офіційні бібліотеки SDK v2",
+      "panic": "Тривога",
+      "patrol": "Патруль",
+      "permissions": "Дозволи",
+      "permissionsStayInSync": "Дозволи синхронізуються",
+      "plateAction": "Пошук особи або номерного знака",
+      "plateActionExample": "Пробий номерний знак ABC123",
+      "playDispatchTones": "Відтворювати сигнали диспетчера",
+      "respondingCall": "Відповідає · Виклик #1042",
+      "statusAction": "Оновлення статусу",
+      "statusActionExample": "Встановити мій статус на доступний",
+      "statusUpdates": "Оновлення статусу",
+      "streamDeckAlt": "Фізичний Elgato Stream Deck MK.2 з елементами керування Sonoran Radio на його 15 LCD клавішах",
+      "trafficCollision": "Дорожньо-транспортна пригода",
+      "trafficLocation": "Велике океанське шосе · Поштовий 3025",
+      "unitStatus": "Статус підрозділу",
+      "xmit": "Передача",
+      "yourVoiceConnectedToCad": "Ваш голос. Підключено до CAD."
+    },
+    "integrationCard": {
+      "free": "БЕЗКОШТОВНО"
+    },
+    "interactivePreview": {
+      "allClear": "Відбій",
+      "analog": "Аналоговий",
+      "audioLevel": "Рівень звуку",
+      "cancel": "Скасувати",
+      "countyDispatch": "РАЙОННА ДИСПЕТЧЕРСЬКА",
+      "digital": "Цифровий",
+      "emsDispatch": "Диспетчер EMS",
+      "fireDispatch": "Диспетчер пожежних служб",
+      "fireEms": "ПОЖЕЖНА ОХОРОНА / ШВИДКА ДОПОМОГА",
+      "hearDifference": "Почуйте різницю",
+      "microphonePreviewError": "Не вдалося запустити попередній перегляд мікрофона. Перевірте дозвіл браузера або спробуйте зразок.",
+      "microphonePreviewOn": "Попередній перегляд мікрофона увімкнено",
+      "openLibrary": "Відкрити {library} у {registry}",
+      "original": "Оригінал",
+      "playingSample": "Відтворення зразка",
+      "playSample": "Відтворити зразок",
+      "previewPlaying": "Попередній перегляд відтворюється",
+      "previewStopped": "Попередній перегляд зупинено",
+      "previewVolume": "Гучність попереднього перегляду",
+      "priorityTraffic": "Пріоритетний трафік",
+      "publicSafety": "ГРОМАДСЬКА БЕЗПЕКА",
+      "samplePlaybackError": "Не вдалося відтворити зразок. Спробуйте ще раз.",
+      "sampleUnavailable": "Зразок недоступний",
+      "startingPreview": "Запуск попереднього перегляду",
+      "stopPreview": "Зупинити попередній перегляд",
+      "tonePlaybackError": "Не вдалося відтворити цей тон. Спробуйте ще раз.",
+      "toneUnavailable": "Тон недоступний",
+      "tryMicrophone": "Спробувати мій мікрофон",
+      "vocoder": "Вокодер · 3200",
+      "vocoderPreviewError": "Не вдалося запустити попередній перегляд вокодера. Спробуйте ще раз.",
+      "voiceEffectExamples": "Приклади голосових ефектів"
+    },
+    "mobi": {
+      "active": "АКТИВНА",
+      "audio": "АУДІО",
+      "channelGroup": "ГРУПА КАНАЛІВ",
+      "channels": "КАНАЛИ",
+      "currentSpeaker": "ПОТОЧНИЙ ГОВОРЕЦЬ",
+      "distress": "СИГНАЛ ЛИХА",
+      "distressSignalDetected": "ВИЯВЛЕНО СИГНАЛ ЛИХА",
+      "header": "РАДІО // ЗВ'ЯЗОК",
+      "multiChannel": "КІЛЬКА КАНАЛІВ",
+      "multiGroup": "КІЛЬКА ГРУП",
+      "noActiveTransmission": "Немає активної передачі",
+      "noLink": "НЕМАЄ ЗВ’ЯЗКУ",
+      "none": "НЕМАЄ",
+      "online": "ОНЛАЙН",
+      "priorityAlert": "ТЕРМІНОВЕ СПОВІЩЕННЯ",
+      "quickAccess": "ШВИДКИЙ ДОСТУП",
+      "receive": "ОТРИМАТИ",
+      "scan": "СКАНУВАТИ",
+      "scanList": "Список сканування",
+      "scannedChannel": "ПРОСКАНОВАНИЙ КАНАЛ",
+      "selectedChannel": "ОБРАНИЙ КАНАЛ",
+      "settings": "НАЛАШТУВАННЯ",
+      "settingsTooltip": "Налаштування",
+      "signal": "СИГНАЛ",
+      "signalFault": "ПОМИЛКА СИГНАЛУ",
+      "spectrumOffline": "СПЕКТР НЕ В ОФЛАЙНІ",
+      "standby": "Очікування",
+      "temporaryLink": "Тимчасове посилання",
+      "transmission": "ПЕРЕДАЧА",
+      "transmit": "ПЕРЕДАЧА",
+      "unknownChannel": "НЕВІДОМИЙ КАНАЛ",
+      "unknownGroup": "НЕВІДОМА ГРУПА",
+      "unknownUser": "НЕВІДОМИЙ КОРИСТУВАЧ"
+    },
+    "tabPanel": {
+      "defaultDescription": "Відчуйте безперебійну координацію з текстом вкладки-заповнювачем для статусу підрозділів у реальному часі, моніторингу частот і керування каналами.",
+      "defaultTitle": "Sonoran Radio",
+      "imageAlt": "Зображення панелі вкладок"
+    }
+  },
   "hotkeys": {
     "changeRadioFrame": "Змінити кадр радіо",
     "nextRadioFrame": "Наступний кадр радіо",
     "previousRadioFrame": "Попередній радіокадр"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Бібліотеки API Sonoran",
+    "armaDescription": "Підключіть Sonoran Radio безпосередньо до Arma 3 за допомогою інтеграцій Arma 3.",
+    "back": "Назад",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "Попередній перегляд диспетчерських викликів",
+        "description": "Підключайтеся до диспетчерського виклику Sonoran CAD і переглядайте деталі виклику в рації.",
+        "label": "ДИСПЕТЧЕРСЬКІ ВИКЛИКИ"
+      },
+      "liveMap": {
+        "alt": "Попередній перегляд живої карти-заповнювача",
+        "description": "Переглядайте радіовежі за допомогою живої мапи Sonoran CAD.",
+        "label": "Жива карта"
+      },
+      "panicButton": {
+        "alt": "Попередній перегляд кнопки тривоги",
+        "description": "Перемикайте свій статус паніки Sonoran CAD за допомогою радіокнопки паніки.",
+        "label": "Кнопка тривоги"
+      }
+    },
+    "comingSoon": "Незабаром.",
+    "erlcDescription": "Підключіть Sonoran Radio безпосередньо до ER:LC за допомогою інтеграцій ER:LC.",
+    "fivemDescription": "Використовуйте безплатний FiveM радіосценарій Sonoran Radio—офіційний ігровий ресурс—щоб додати голосове радіо на ваш сервер. Перегляньте інтеграції нижче, потім дотримуйтесь {setupGuide}.",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "Ілюстрація гравця Arma, який передає в межах радіуса чутності AI, поруч із налаштуваннями чутності мода.",
+            "description": "Дозвольте найближчому ШІ виявляти гравців, що передають, із регульованим радіусом чутності. Доступно в попередньому перегляді інтеграції Arma.",
+            "label": "Слух ШІ"
+          },
+          "itemFrames": {
+            "alt": "Відображення класів предметів BLUFOR і OPFOR поруч із відповідними рамками десктопного оверлею Sonoran Radio.",
+            "description": "Ваш радіоелемент BLUFOR або OPFOR вибирає відповідне настільне накладення. Призначайте власні предмети рамкам вашої спільноти.",
+            "label": "Синхронізація радіо інвентарю"
+          },
+          "terrainSignal": {
+            "alt": "Ілюстроване покриття ретранслятора Arma, що показує чіткий шлях сигналу та ослаблений сигнал за рельєфом.",
+            "description": "Відстань і рельєф послаблюють прийом вежі. Стежте за сигналом на своєму оверлеї та чуйте зміни через ефекти каналу.",
+            "label": "Рельєф і сигнал"
+          },
+          "towers": {
+            "alt": "Сигнальна вежа Arma з прикладом елементів керування Zeus для дальності, місткості та потужності.",
+            "description": "Розміщуйте вежі в Eden або Zeus. Діапазон, потужність і руйнування формують ваше радіопокриття.",
+            "label": "Ігрові вежі"
+          }
+        },
+        "tabsLabel": "Функції інтеграції Arma 3"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "Накладка робочого столу Sonoran Radio, що показує канали диспетчерської Liberty County поверх поліцейської сцени ER:LC.",
+            "description": "Тримайте радіо поверх Roblox, поки граєте. Виберіть рамку, перемикайте канали та стежте за живим сигналом вежі з десктопного застосунку.",
+            "label": "Накладка робочого столу"
+          },
+          "emergencyZones": {
+            "alt": "Карта ER:LC, що показує приклад зони надзвичайної ситуації та дозволені для неї канали екстреної передачі.",
+            "description": "Малюйте зони надзвичайних ситуацій і вибирайте, які канали екстреної передачі доступні в кожній зоні.",
+            "label": "Аварійні зони"
+          },
+          "liveSignal": {
+            "alt": "Карта ER:LC з віртуальним покриттям вежі та пов’язаними гравцями поруч із накладкою Sonoran Radio, що показує потужність сигналу в реальному часі.",
+            "description": "Розміщуйте вежі, щоб формувати радіопокриття по всьому Liberty County. Коли ви їдете, ваш оверлей показує потужність сигналу в реальному часі, а радіоефекти відображають ваш прийом.",
+            "label": "Віртуальні вежі"
+          }
+        },
+        "tabsLabel": "Функції інтеграції ER:LC"
+      }
+    },
+    "integrationTitleSuffix": "Інтеграція",
+    "learnMore": "Дізнатися більше: {title}",
+    "meta": {
+      "armaDescription": "Досліджуйте інтеграції Sonoran Radio для Arma 3, зокрема ігрові вежі, синхронізацію радіо з інвентарем, сигнал на місцевості та слух ШІ.",
+      "armaTitle": "Інтеграції Arma 3 | Sonoran Radio",
+      "erlcDescription": "Ознайомтеся з інтеграціями Sonoran Radio для ER:LC, зокрема з накладкою для ПК, віртуальними вежами та зонами надзвичайних ситуацій.",
+      "erlcTitle": "Інтеграції ER:LC | Sonoran Radio",
+      "fivemDescription": "Використовуйте безплатний FiveM радіосценарій Sonoran Radio, офіційний ігровий ресурс, щоб додати голосове радіо на ваш сервер.",
+      "fivemTitle": "Інтеграції FiveM | Sonoran Radio"
+    },
+    "openDocumentation": "Відкрити документацію для {title}",
+    "registryLink": "{name} у {registry}",
+    "setupGuide": "посібник із налаштування",
+    "streamDeck": {
+      "calloutDescription": "Перегляньте документацію, щоб дізнатися більше та кроки встановлення плагіна.",
+      "calloutTitle": "Хочете дізнатися більше?",
+      "description": "Виносьте найуживаніші елементи керування Sonoran Radio на клавішу або регулятор Stream Deck. Перемикайте канали, передавайте й точно налаштовуйте аудіо, не збиваючи свій ритм.",
+      "deviceAlt": "Портативний пристрій Sonoran Radio з елементами керування каналами",
+      "heading": "Твоя рація. Один дотик — і вона поруч.",
+      "highlights": {
+        "actions": {
+          "description": "Додайте режим AI, Tone Board і накладення для робочого столу на свою панель або використовуйте дії з внутрішньоігровим радіо FiveM.",
+          "title": "Більше радіо дій"
+        },
+        "audio": {
+          "description": "Використовуйте підтримувані регулятори, щоб налаштувати радіо, канал, ефекти та гучність ШІ.",
+          "title": "Налаштуйте своє аудіо"
+        },
+        "channelShortcuts": {
+          "description": "Перемикайтеся між каналами й групами або вмикайте й вимикайте списки передачі та сканування одним дотиком.",
+          "title": "Швидкі команди каналу"
+        },
+        "pushToTalk": {
+          "description": "Тримайте transmit під рукою та надсилайте без повернення до радіо-додатка.",
+          "title": "Натискання для розмови, на клавішу"
+        }
+      },
+      "platformKeysDials": "Клавіші + регулятори",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Функції Stream Deck"
+  },
   "landingPage": {
+    "armaIntegrationDescription": "Підключіть Sonoran Radio безпосередньо до Arma 3 за допомогою інтеграцій Arma 3.",
     "developers": {
       "button": "Ознайомитися з інструментами для розробників",
       "description": "Створюйте власні інтеграції для будь-якої гри за допомогою безкоштовних API, бібліотек з відкритим кодом і AI-плагінів.",
@@ -129,6 +661,8 @@
       "titlePrefix": "Ми",
       "titleSuffix": "Розробники."
     },
+    "erlcIntegrationDescription": "Підключіть Sonoran Radio безпосередньо до ER:LC за допомогою інтеграцій ER:LC.",
+    "exploreIntegrations": "Переглянути інтеграції",
     "faq": {
       "free": {
         "answer": "Так. Dispatch AI повністю доступний у безкоштовному тарифі з включеними щомісячними кредитами. Платні тарифи включають вищі ліміти кредитів."
@@ -137,14 +671,47 @@
     "fivem": {
       "heading": "Інтеграції"
     },
+    "fivemRadioIntegration": "Радіоінтеграція",
+    "gameIntegrations": "Інтеграції з грою",
+    "games": {
+      "arma3": {
+        "description": "Почніть із безкоштовних радіоканалів і настільного оверлею для Arma 3. Перегляньте інтеграцію Arma з місійними вежами, кадрами, пов’язаними з інвентарем, і сигналом місцевості.",
+        "headline": "Безкоштовна рація для вашого загону Arma 3",
+        "name": "Arma 3",
+        "title": "Безкоштовне радіо Arma 3 і накладення для ПК | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "Запустіть безкоштовне голосове радіо ER:LC з настільним оверлеєм для Roblox Emergency Response: Liberty County. Пов’яжіть облікові записи та додайте віртуальні вежі з живим покриттям сигналу.",
+        "headline": "Безкоштовне голосове радіо ER:LC для вашої спільноти",
+        "name": "ER:LC",
+        "title": "Безкоштовне ER:LC голосове радіо й накладення для ПК | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "Почніть безкоштовно з FiveM radio script, desktop overlay та dispatch panel. Підключіть Sonoran Radio до вашого GTA V roleplay сервера за допомогою FiveM integration.",
+        "headline": "Безкоштовне радіо для вашої спільноти FiveM",
+        "name": "FiveM",
+        "title": "Безкоштовний скрипт радіо для FiveM і панель диспетчера | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "Залишайте свою команду Star Citizen на зв’язку з безплатними радіоканалами, інструментами диспетчеризації та тематичним накладенням для робочого столу. Координуйте зв’язок у всесвіті.",
+        "headline": "Безкоштовне радіо для вашої команди Star Citizen",
+        "name": "Star Citizen",
+        "title": "Безкоштовне радіо Star Citizen і оверлей | Sonoran Radio"
+      }
+    },
     "Jammers": {
       "desc": "Налаштуйте власні ігрові предмети, щоб глушити найближчі радіосигнали!",
       "title": "Глушники"
     },
+    "meta": {
+      "imageAlt": "Панель диспетчера Sonoran Radio та накладення для ПК радіо"
+    },
     "Scanners": {
       "desc": "Ігрові сканери дозволяють вам і тим, хто поруч, слухати радіоефір!"
     },
+    "softwareIntegrations": "Програмні інтеграції",
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Досліджуйте Sonoran Studio",
       "description": "Перетворюйте живу радіоактивність на накладки стріму, реактивне розумне освітлення та автоматизації без рук.",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -175,11 +742,27 @@
       "widgetTitle": "Час відповіді Sonoran Support"
     }
   },
+  "management": {
+    "eventType": "Тип події",
+    "forceLeave": "Примусово вийти",
+    "payloadJson": "JSON корисного навантаження",
+    "pushEventDiagnostic": "Діагностика події натискання",
+    "pushUrl": "URL для push",
+    "sendTestPushEvent": "Надіслати тестову подію push",
+    "storedRoomPushUrl": "Збережена URL-адреса push для кімнати",
+    "timeout": "Час очікування (мс)"
+  },
   "manageServer": {
+    "admin": {
+      "communityLogsEmpty": "Журналів не знайдено",
+      "communityLogsLoading": "Завантаження журналів..."
+    },
     "customizeDesktopFrames": {
+      "addLayout": "Додати макет",
       "addScreen": "Додати екран",
       "addVariant": "Додати цей варіант",
       "addVehicleOverride": "Додати перевизначення транспортного засобу",
+      "aircraftLayout": "Розташування літака",
       "armaBlufor": "Приклад BLUFOR",
       "armaExamples": "Приклади ARMA 3",
       "armaItemClassNames": "Назви класів предметів ARMA",
@@ -195,8 +778,14 @@
       "deleteFrame": "Видалити рамку",
       "duplicateVehicleName": "Кожна назва транспортного засобу може мати лише одне перевизначення.",
       "editHint": "Перетягніть, щоб перемістити · Ctrl + перетягніть, щоб змінити розмір · Клацніть правою кнопкою миші кнопку, щоб видалити",
+      "fit": "Підігнати",
+      "fitRadioToCanvas": "Підігнати радіо до полотна",
       "frameName": "Назва рамки",
       "importNoFramesFound": "Рамок із body.width і screen не знайдено.",
+      "migratedFramesReadOnly": "Перенесені рамки FiveM залишаються доступними у Free. Оновіть до Pro, щоб редагувати цю рамку або замінити її зображення.",
+      "migratedFramesReset": "Скинути перенесені рамки FiveM можна лише з Pro.",
+      "moveLayoutEarlier": "Перемістити макет раніше",
+      "moveLayoutLater": "Перемістити макет пізніше",
       "noneFound": "Не знайдено накладних рамок для цього спільноти.",
       "overrideFramesRequired": "Виберіть щонайменше одну рамку для кожного перевизначення транспортного засобу.",
       "removeVariant": "Видалити цей варіант",
@@ -222,6 +811,8 @@
         "onFoot": "Пішки",
         "vehicle": "Транспортний засіб"
       },
+      "vehicleClasses": "Класи транспортних засобів",
+      "vehicleClassesHint": "Очистіть вибір, щоб відповідали всі класи транспортних засобів. Ранніші макети мають пріоритет.",
       "vehicleClassNames": {
         "boats": "Човни",
         "commercial": "Комерційні",
@@ -248,12 +839,15 @@
         "utility": "Службовий",
         "vans": "Фургони"
       },
+      "vehicleLayout": "Розташування транспорту",
       "vehicleName": "Назва транспортного засобу ER:LC",
       "vehicleNameRequired": "Введіть назву транспортного засобу для кожного перевизначення.",
       "vehicleOverrideHint": "Назви транспортних засобів мають точно збігатися, без урахування регістру та пробілів на початку або в кінці. У desktop frame увімкніть виявлення транспортних засобів ER:LC, щоб використовувати frame для конкретного транспортного засобу, коли доступна одна назва транспортного засобу.",
       "visibilityHint": "Виберіть стандартні рамки робочого столу для перебування пішки або коли жодна назва транспортного засобу не збігається. Перевизначення транспортних засобів автоматично вибирає рамки, коли виявлення транспортного засобу ER:LC знаходить відповідну назву.",
       "visibilityTitle": "Видимість рамки",
-      "visibleFrames": "Видимі рамки"
+      "visibleFrames": "Видимі рамки",
+      "zoomIn": "Збільшити",
+      "zoomOut": "Віддалити"
     },
     "customizeMenu": {
       "overlay": "Накладка"
@@ -464,12 +1058,44 @@
       }
     },
     "members": {
+      "banConfirm": "Ви збираєтеся назавжди забанити {count} учасника(ів). Вони не зможуть знову приєднатися, але їх можна розбанити.",
+      "communityAccess": "Доступ спільноти",
+      "communityAccessDescription": "Схвалює учасника для базового доступу до Sonoran Radio. Не надає жодних адміністративних дозволів або доступу до приватного профілю.",
+      "confirmTitle": "Ви впевнені?",
       "copyDiscordId": "Скопіювати ID Discord",
       "copyRobloxId": "Скопіювати Roblox ID",
       "discordIdCopied": "Discord ID скопійовано в буфер обміну.",
+      "displayNameUpdated": "Ім'я відображення оновлено",
+      "enterDisplayName": "Введіть нове ім’я для відображення для {name}",
+      "kickConfirm": "Ви збираєтеся вигнати {count} учасника(ів). Вони зможуть приєднатися знову за допомогою ID спільноти.",
       "noDiscordAccountLinked": "У цього користувача не прив’язано обліковий запис Discord.",
       "noRobloxAccountLinked": "У цього користувача не прив’язано обліковий запис Roblox.",
-      "robloxIdCopied": "Roblox ID скопійовано в буфер обміну."
+      "permissionAdmin": "Адмін",
+      "permissionAdminDescription": "Надає повні дозволи на керування й доступ до всіх функцій радіоспільноти.",
+      "permissionApproveMembers": "Підтвердити учасників",
+      "permissionApproveMembersDescription": "Дозволяє схвалювати або відхиляти користувачів, що очікують, у радіоспільноті.",
+      "permissionBanCommunity": "Забанити в спільноті",
+      "permissionBanCommunityDescription": "Надає дозвіл на постійне блокування учасників зі спільноти.",
+      "permissionCallOnly": "Лише дзвінки",
+      "permissionCallOnlyDescription": "Обмежує користувача лише дзвінками 911. Приховує вкладку Dispatch. Не впливає на адміністраторів.",
+      "permissionChangeDisplayName": "Змінити відображуване ім'я",
+      "permissionChangeDisplayNameDescription": "Дозволяє користувачу змінювати своє відображуване ім'я.",
+      "permissionKickCommunity": "Вигнати зі спільноти",
+      "permissionKickCommunityDescription": "Надає дозвіл на видалення учасників із спільноти.",
+      "permissionKickRadio": "Видалити з радіо",
+      "permissionKickRadioDescription": "Надає дозвіл від’єднувати учасників від радіоканалу.",
+      "permissionManageDisplayNames": "Керувати відображуваними іменами",
+      "permissionManageDisplayNamesDescription": "Дозволяє користувачу змінювати відображувані імена інших учасників.",
+      "permissionMoveRadioUsers": "Перемістити користувачів радіо",
+      "permissionMoveRadioUsersDescription": "Дозволяє переміщувати учасників між радіоканалами.",
+      "permissionOverrideTalkover": "Скасувати захист від одночасних розмов",
+      "permissionOverrideTalkoverDescription": "Дозволяє користувачу обходити захист від перебивання, двічі клацнувши кнопку PTT.",
+      "permissionPlayDispatchTones": "Відтворювати сигнали диспетчера",
+      "permissionPlayDispatchTonesDescription": "Надає дозвіл на відтворення диспетчерських тонів через радіо.",
+      "permissionStunRadio": "Оглушення радіо",
+      "permissionStunRadioDescription": "Дозволяє користувачам оглушити (заблокувати) іншого радіокористувача на 30 с.",
+      "robloxIdCopied": "Roblox ID скопійовано в буфер обміну.",
+      "unbanConfirm": "Ви збираєтеся розбанити {count} учасника(ів). Вони зможуть знову приєднатися за допомогою ID спільноти."
     },
     "serverInfo": {
       "cadPrompts": {
@@ -508,6 +1134,26 @@
       }
     }
   },
+  "mobiPreview": {
+    "channelName": "ОПЕРАЦІЇ TAC 1",
+    "citywide": "МІСЬКИЙ",
+    "frameName": "Mobi Preview",
+    "frameTitle": "Рамка Mobi Radio",
+    "groupName": "СТЕНТОН СЕК'ЮРІТІ",
+    "localPreview": "ЛОКАЛЬНИЙ ПЕРЕГЛЯД",
+    "modes": {
+      "distress": "СИГНАЛ ЛИХА",
+      "idle": "Бездіяльність",
+      "jammed": "Заглушено",
+      "receiving": "Отримання",
+      "transmitting": "Передача"
+    },
+    "note": "Перемикайте стани вище, щоб переглянути живі індикатори радіо. Елементи керування екрана потребують підключеного радіосеансу.",
+    "signal": "Сигнал",
+    "speakerName": "А. МЕРСЕР",
+    "themePreview": "Попередній перегляд теми",
+    "yourRadio": "ВАШ РАДІО"
+  },
   "radio": {
     "customScreen": {
       "disconnected": "Від’єднано",
@@ -528,16 +1174,29 @@
       "dispatchAiSpeechRecognitionLocal": "Локально (швидше, без використання транскрипції)",
       "erlcHud": {
         "autoWindow": "Автоматично знаходити вікно Roblox",
+        "checkPermission": "Перевірити доступ",
         "enable": "Використовувати виявлення екрана",
-        "lastReading": "Остання перевірка приладу",
+        "lastReading": "Остання перевірка контролера ELS",
         "noWindows": "Вікно Roblox не знайдено. Відкрийте ER:LC, потім оновіть список вікон.",
-        "privacy": "Sonoran Radio перевіряє спідометр Roblox на цьому пристрої, щоб перемикати варіанти транспортних засобів. Якщо ER:LC повідомляє рівно про один транспортний засіб, що належить вашому обліковому запису, його назва також може вибрати конкретну рамку. Зображення екрана не зберігаються і не завантажуються. На macOS вам може знадобитися дозволити Screen & System Audio Recording для Sonoran Radio.",
+        "openSettings": "Відкрити системні налаштування",
+        "permissionDenied": "Запис екрана вимкнено для Sonoran Radio. Увімкніть його, потім повністю закрийте й знову відкрийте застосунок.",
+        "permissionNotDetermined": "macOS потребує вашого дозволу, щоб читати вікно Roblox. Натисніть Перевірити доступ, щоб запросити його, або увімкніть його в Системних параметрах.",
+        "permissionRestricted": "Запис екрана обмежено на цьому Mac. Попросіть адміністратора Mac дозволити доступ.",
+        "permissionStepEnable": "Увімкнути Sonoran Radio. Під час розробки увімкніть Electron, якщо саме його macOS показує як застосунок.",
+        "permissionStepOpen": "Відкрийте Системні налаштування → Конфіденційність і безпека → Запис екрана та системного аудіо (Запис екрана в старіших версіях macOS).",
+        "permissionStepRestart": "Повністю закрийте і знову відкрийте Sonoran Radio після зміни доступу.",
+        "permissionTitle": "Дозволити запис екрана",
+        "permissionUnknown": "Sonoran Radio не вдалося перевірити доступ до запису екрана. Перевірте налаштування системи, потім повністю закрийте й знову відкрийте застосунок.",
+        "privacy": "Sonoran Radio перевіряє нижній правий ELS-контролер на цьому пристрої, щоб перемикати варіанти транспортних засобів. Контролер має бути видимим; для транспортних засобів без нього використовується наземне компонування. Аварійні вогні можуть бути увімкнені або вимкнені. Зображення екрана не зберігаються і не завантажуються.",
+        "readingElsAbsent": "Контролер ELS не знайдено",
+        "readingElsFound": "Знайдено контролер ELS",
         "readingGaugeAbsent": "Шкалу не знайдено",
         "readingGaugeFound": "Шкалу знайдено",
         "readingUncertain": "Невідповідність під час зчитування",
         "readingUnreadable": "Вікно Roblox не читається",
         "readingWaiting": "Очікування захоплення Roblox",
         "refreshWindows": "Оновити вікна Roblox",
+        "settingsOpenFailed": "Не вдалося відкрити Системні параметри. Відкрийте їх вручну, використовуючи наведені вище кроки.",
         "status": "Статус виявлення",
         "statusChecking": "Перевірка вікна Roblox",
         "statusDisabled": "Вимкнено",
@@ -545,7 +1204,7 @@
         "statusInVehicle": "У транспортному засобі",
         "statusLooking": "Пошук вікна Roblox",
         "statusOnFoot": "Пішки",
-        "statusPermissionDenied": "Доступ до запису екрана заборонено",
+        "statusPermissionDenied": "Потрібен доступ до запису екрана",
         "statusUnknown": "Неможливо визначити стан транспортного засобу",
         "title": "Виявлення транспортних засобів ER:LC",
         "vehicleAmbiguous": "ER:LC знайшов кілька назв власних транспортних засобів і не може вибрати перевизначення рамки для конкретної назви.",
@@ -560,6 +1219,26 @@
       },
       "recentAiResponseLabel": "Відповідь ШІ",
       "sameAsPanelLanguage": "Як у мові панелі"
+    },
+    "toneBoard": {
+      "channel": "Канал",
+      "channelGroup": "Група каналів",
+      "ok": "Гаразд",
+      "stackNameRequired": "Потрібно вказати назву стека.",
+      "stackNeedsTones": "Додайте тони до стека перед збереженням.",
+      "stopPlayback": "Зупинити відтворення",
+      "temporaryTtsError": "Не вдалося підготувати тимчасовий TTS-тон."
     }
+  },
+  "socials": {
+    "community": "Спільнота",
+    "connectWithUs": "Зв’яжіться з нами",
+    "followUs": "Підписуйтесь на нас",
+    "instagramDescription": "Переваги продукту та оновлення команди",
+    "joinDiscord": "Приєднатися до Discord",
+    "joinDiscordDescription": "Отримуйте оголошення, підтримку, оновлення спільноти та обговорення продукту в одному місці.",
+    "joinDiscordTitle": "Приєднуйтеся до Discord Sonoran Software",
+    "tiktokDescription": "Короткі оновлення від команди Sonoran",
+    "youtubeDescription": "Посібники, демо та релізи"
   }
 }

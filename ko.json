@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "사용량 분석 허용",
+    "deleteAccountError": "계정을 삭제하는 동안 오류가 발생했습니다.",
+    "deleteAccountMessage": "계정을 영구적으로 삭제하시겠습니까?",
+    "deleteAccountSuccess": "계정이 성공적으로 삭제되었습니다.",
+    "deleteAccountTitle": "계정 삭제",
     "noServers": "서버 없음",
+    "privacyPolicy": "개인정보 처리방침",
     "serversDesc": "여기에서 소유하거나 관리하는 모든 Sonoran Radio 커뮤니티를 볼 수 있습니다",
     "serversTitle": "당신의 서버",
     "tokenCopied": "비밀이 클립보드에 복사됨!",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "이 코드는 비밀이며 누구와도 공유하면 안 됩니다!",
     "tokenInputLabel": "귀하의 Login Secret",
     "tokenLoadBtn": "불러오려면 클릭",
-    "tokenTitle": "Radio Login Secret"
+    "tokenTitle": "Radio Login Secret",
+    "usageAnalyticsDescription": "Sonoran Software 및 Google Analytics와 제한된 앱 사용 데이터를 공유합니다. 이는 광고 또는 앱 간 추적에 사용되지 않습니다.",
+    "usageAnalyticsTitle": "사용량 분석"
+  },
+  "analyticsConsent": {
+    "allow": "허용",
+    "description": "앱 개선을 돕기 위해 제한된 사용 분석을 허용합니다. 광고 또는 앱 간 추적은 없습니다.",
+    "notNow": "지금은 아님",
+    "privacyPolicy": "개인정보 처리방침",
+    "title": "소노란 라디오 개선에 도움을 주세요"
   },
   "authMember": {
     "errLeave": "커뮤니티를 나가는 중 예상치 못한 오류가 발생했습니다.",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "이미 활성 구독이 있습니다",
+    "billingPortalUnavailable": "구독이 로드된 후에 결제 포털을 사용할 수 있습니다.",
     "changeServer": "서버 변경",
     "changeSvDialog": {
       "errSave": "구독 변경 중 예상치 못한 오류가 발생했습니다.",
@@ -45,6 +61,8 @@
       "title": "구독 변경",
       "transfer": "이 구독을 다른 서버로 이전하시겠습니까?"
     },
+    "contactSupport": "지원팀에 문의",
+    "description": "구독을 관리하고, Radio 커뮤니티에 할당하고, Stripe를 통해 결제를 업데이트합니다.",
     "errCheck": "구독을 확인하는 동안 예상치 못한 오류가 발생했습니다.",
     "isUnauthorized": "구독은 권한이 없는 서버에 적용할 수 없습니다",
     "modifySub": "구독 수정",
@@ -64,7 +82,10 @@
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio, 그리고 FiveM 호스팅을 하나의 번들로.",
       "oneLearnMore": "Sonoran One에 대해 더 알아보기",
       "plus": "플러스 플랜 ($14.99/월)",
+      "plusDescription": "활성 커뮤니티를 위한 더 많은 용량과 사용자 지정.",
       "pro": "프로 플랜 ($19.99/월)",
+      "proDescription": "무제한 확장과 고급 Radio 기능을 잠금 해제하세요.",
+      "professionalSetup": "커뮤니티를 위한 전문 설정 지원.",
       "quarterly": "분기별",
       "studio": "소노란 Studio 커뮤니티 라이선스",
       "studioDescription": "커뮤니티를 위한 Smart lighting 및 stream 위젯 Sonoran One에 포함됩니다.",
@@ -73,26 +94,106 @@
       "studioQuarterlyPrice": "$6.00/월",
       "title": "새 구독"
     },
+    "noBillingPortalUrl": "아직 청구 포털 URL이 없습니다.",
     "noServerAssociated": "연결된 서버 없음",
+    "openBillingPortal": "결제 포털 열기",
+    "paymentCenter": "결제 센터",
+    "pricingCompare": {
+      "backgroundAudio": "인게임 배경 오디오",
+      "bestValue": "최고 가치",
+      "bigDaddyAnimations": "빅 대디 라디오 애니메이션",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio, 그리고 무료 FiveM 호스팅을 하나의 구독으로.",
+      "choosePlan": "{name} 선택",
+      "chooseSonoranOne": "소노란 원 선택",
+      "communitySoundEffects": "커뮤니티 전체 음향 효과",
+      "comparePlans": "플랜 비교",
+      "connectedUsers": "연결된 사용자",
+      "customCommunityId": "커스텀 커뮤니티 ID",
+      "customDomain": "커스텀 도메인",
+      "customVoiceEffects": "맞춤 음성 효과",
+      "description": "모든 유료 요금제는 월간 또는 분기별로 이용할 수 있습니다. 분기별 구독에는 25% 할인이 포함됩니다.",
+      "desktopOverlayFrames": "데스크톱 오버레이 프레임",
+      "dispatchAiPrompts": "디스패치 AI 월간 프롬프트",
+      "freeCopy": "무료 복사",
+      "freeDescription": "더 작은 커뮤니티를 위한 핵심 무전 도구로 시작하세요.",
+      "freePrompts": "~140-360",
+      "monthlyPrice": "{price}/월",
+      "mostPopular": "가장 인기 있는",
+      "multiServer": "멀티 서버",
+      "nearbyRadioChatter": "근처 무전 대화",
+      "oneDefault": "서버 1개",
+      "oneServer": "서버 1개",
+      "perUserSoundEffects": "사용자별 사운드 효과",
+      "planFree": "무료",
+      "planPlus": "플러스",
+      "planPro": "Pro",
+      "planSonoranOne": "소노란 원",
+      "plusDescription": "커스터마이징과 더 많은 활동적 역할놀이 공간을 추가하세요.",
+      "plusPrompts": "약 1,400-3,600",
+      "proDescription": "무제한 확장과 고급 Radio 기능을 잠금 해제하세요.",
+      "proPrompts": "약 4,200-10,750",
+      "radioPlans": "라디오 요금제",
+      "rocketNodeHosting": "RocketNode FiveM 호스팅",
+      "saveTwentyFive": "25% 저장",
+      "scannersAndJammers": "스캐너와 신호 재머",
+      "sonoranCadPro": "소노란 CAD Pro",
+      "sonoranCmsPro": "소노란 CMS Pro",
+      "sonoranRadioPro": "소노란 라디오 Pro",
+      "sonoranStudioLicense": "소노란 Studio 커뮤니티 라이선스",
+      "tenUsers": "10명",
+      "thirtyUsers": "30",
+      "threeCustom": "무제한 맞춤",
+      "threeDefault": "3x 기본",
+      "transmissionLogs": "전송 로그",
+      "unlimited": "무제한",
+      "unlimitedCustom": "무제한 맞춤"
+    },
     "setServer": "서버 설정",
+    "sonoranOne": "소노란 원",
+    "speakWithHuman": "사람과 대화하기",
     "statuses": {
       "active": "활성",
       "canceled": "취소됨",
       "incomplete": "미완료",
       "incomplete_expired": "미완료 만료",
       "past_due": "연체",
+      "trialing": "체험 중",
       "unpaid": "미납"
     },
+    "subscriptionsDescription": "활성 구독을 검토하고, Radio 커뮤니티를 할당하고, 비활성 구독을 관리합니다.",
+    "subscriptionsTitle": "회원님의 구독",
+    "subscriptionTable": {
+      "active": "활성",
+      "cancelledDescription": "취소되고 만료된 구독이 여기에 표시됩니다.",
+      "communityId": "커뮤니티 ID {id}",
+      "createDescription": "커뮤니티를 위한 더 많은 라디오 기능을 잠금 해제하려면 구독을 생성하세요.",
+      "endDate": "종료 날짜",
+      "inactiveCancelled": "비활성 / 취소됨",
+      "loading": "구독 불러오는 중",
+      "loadingDescription": "최신 Stripe 구독을 가져오는 중입니다.",
+      "noActive": "활성 구독 없음",
+      "noInactive": "비활성 구독 없음",
+      "planRadioPlus": "라디오 Plus",
+      "planRadioPro": "라디오 Pro",
+      "planSonoranOne": "소노란 원",
+      "planSonoranRadio": "소노란 라디오",
+      "purchasedNotApplied": "이 구독은 구매되었지만 아직 Radio 커뮤니티에 적용되지 않았습니다.",
+      "startDate": "시작 날짜"
+    },
+    "supportDescription": "전담 실시간 채팅 지원이 영업 시간 동안 주 7일 제공됩니다. 질문이 있으신가요? 저희 팀이 대기 중입니다.",
+    "title": "결제",
     "toPortal": "포털로 돌아가기"
   },
   "common": {
     "account": "계정",
     "actions": "작업",
     "add": "추가",
+    "back": "뒤로",
     "billing": "결제",
     "cancel": "취소",
     "clickToCopy": "복사하려면 클릭",
     "clipboard": "클립보드에 복사됨!",
+    "close": "닫기",
     "communityIdField": "커뮤니티 ID",
     "confirm": "확인",
     "copy": "복사",
@@ -101,6 +202,7 @@
     "edit": "편집",
     "email": "이메일",
     "help": "도움말",
+    "id": "ID",
     "language": "언어",
     "learnMore": "더 알아보기",
     "limited": "제한됨",
@@ -198,6 +300,7 @@
     "joinCode": "참여 코드: {code}",
     "joinMission": "서버에 참여하고, 역할을 선택한 다음, 미션에 들어가세요. Sonoran Radio 아이템을 장착하세요. 미션 제작자는 커버리지를 위해 Sonoran 신호탑/중계기를 배치해야 합니다.",
     "joinTest": "참여하고 테스트",
+    "linkRoblox": "Roblox 연결",
     "linkServer": "서버 연결",
     "manualServer": "수동 호스팅 서버의 경우 두 모드 폴더를 모두 서버에 복사하고, 각 키 폴더에서 {extension} 파일을 서버의 {directory} 폴더로 복사한 다음, 이 시작 인수를 추가하세요(폴더 이름 조정):",
     "next": "다음",
@@ -214,6 +317,7 @@
     "resizeRadio": "라디오 크기 조절",
     "resizeScreen": "드래그하여 화면 크기 조절",
     "restartServer": "서버를 다시 시작하고 플레이어와 공유하는 런처 프리셋에 두 모드 모두 포함하세요. 서명과 BattlEye는 활성화된 상태로 유지하고, 클라이언트가 거부되면 정확한 킥 메시지를 조사하세요.",
+    "robloxLinkDescription": "이 커뮤니티에서 위치 기반 라디오 신호를 사용하려면 Roblox 계정을 Sonoran 계정에 연결하세요.",
     "serverMods": "서버 호스트의 모드 관리자를 통해 같은 두 개의 Workshop 모드를 설치하세요. 두 모드를 모두 서버 전용 모드가 아닌 일반 모드로 불러오고, CBA_A3 를 먼저 로드하세요.",
     "setupOverlay": "오버레이 설정",
     "towerSaveError": "ER:LC 신호 타워를 저장할 수 없습니다. 마지막 변경 사항이 되돌려졌습니다.",
@@ -231,10 +335,32 @@
     "openGameIntegration": "게임 통합",
     "overlayDesktopDescription": "데스크톱 사용자를 위한 라디오 오버레이를 사용자 지정하세요.",
     "overlayFiveMDescription": "FiveM 게임 내 라디오와 데스크톱 오버레이를 사용자 지정하세요. FiveM 변경 사항은 호환되는 리소스 버전에서 5분 이내에 동기화됩니다.",
-    "overlaySelectGame": "Game Integration에서 커뮤니티의 게임을 확인하여 맞는 오버레이 기능을 사용하세요."
+    "overlayPreview": {
+      "description": "라디오 오버레이를 사용자 지정하세요.",
+      "done": "완료",
+      "game": "게임",
+      "localSample": "로컬 미리보기 · 샘플 데이터만",
+      "noGame": "게임이 선택되지 않음",
+      "previewGame": "게임 미리 보기",
+      "saves": "이 미리 보기에서 {count}개의 저장",
+      "title": "오버레이"
+    },
+    "overlaySelectGame": "Game Integration에서 커뮤니티의 게임을 확인하여 맞는 오버레이 기능을 사용하세요.",
+    "upgradeRadioPlan": "라디오 요금제를 업그레이드하세요",
+    "upgradeRadioPlanMessage": "이 커뮤니티를 위한 더 많은 용량, 사용자 지정, 고급 Radio 기능을 잠금 해제하세요.",
+    "viewBilling": "결제 보기"
   },
   "desktopPanel": {
     "channelHotkey": "채널 단축키"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "마이크를 변경하세요:",
+    "deviceUnavailable": "{device}를 사용할 수 없습니다. 다른 마이크를 선택하세요.",
+    "microphoneAccessDenied": "마이크 접근 거부됨",
+    "noInputDetected": "마이크 입력이 감지되지 않았습니다. 배정 담당자가 당신의 목소리를 들을 수 없으면 마이크를 바꾸세요.",
+    "noMicrophoneFound": "마이크를 찾을 수 없음",
+    "selectedUnavailable": "선택한 마이크를 사용할 수 없습니다. 다른 마이크를 선택하세요.",
+    "unknownError": "알 수 없는 오류"
   },
   "error404": {
     "goHome": "홈으로 이동",
@@ -335,7 +461,291 @@
     "sonoranRadioPolymap": "소노란 라디오 폴리맵"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "게이밍 커뮤니티를 위한 무료 라디오로 시작하기",
     "learnMore": "더 알아보기"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "소노란 라디오 비교",
+      "competitorLogo": "{competitor} 로고",
+      "dispatchAnywhere": "디스패치 Anywhere",
+      "downloadAndroid": "Android용 Sonoran Radio 다운로드",
+      "downloadIos": "iOS용 Sonoran Radio 다운로드",
+      "downloadLinux": "Linux용 Sonoran Radio 다운로드",
+      "downloadMacos": "MacOS용 Sonoran Radio 다운로드",
+      "downloadWindows": "Windows용 Sonoran Radio 다운로드",
+      "gameSelection": "게임 선택",
+      "heroRadioAlt": "{game} Sonoran Radio 데스크톱 오버레이 샘플 채널 포함",
+      "openIntegration": "{title} 통합 열기",
+      "sonoranRadioIntegrations": "소노란 라디오 통합",
+      "sonoranRadioVs": "소노란 라디오 대 {competitor}",
+      "viewGameIntegrations": "{game} 통합 보기"
+    },
+    "armaCapture": {
+      "activeDishes": "활성 요리",
+      "aiCanHear": "AI는 전송을 들을 수 있습니다",
+      "aiHearingTitle": "소노란 라디오 · AI 청취",
+      "alphaOneOne": "알파 1-1",
+      "blockedPath": "차단된 경로 · 2 km",
+      "blockedQuality": "품질 26%",
+      "blockedTerrainMultiplier": "차단된 지형 배율",
+      "cancel": "취소",
+      "canDetectSpeaker": "화자를 감지할 수 있음",
+      "clearPath": "경로 확보 · 2 km",
+      "clearQuality": "품질 75%",
+      "customizationDesktopFrames": "커스터마이징 / 데스크톱 프레임",
+      "dishCount": "접시 개수",
+      "exampleSignalPaths": "예시 신호 경로",
+      "hearingRadiusAria": "예시적인 송신 청취 반경",
+      "illustrativeHearingRadius": "예시적인 청취 반경",
+      "indestructible": "파괴 불가",
+      "inventoryFrame": "인벤토리 아이템 → 데스크톱 프레임",
+      "invisibleSignalOnly": "보이지 않음 (신호만)",
+      "itemClassNames": "ARMA 아이템 클래스 이름",
+      "largeRadioTower": "대형 무전탑",
+      "matchRadio": "휴대하는 라디오와 맞추기",
+      "nearbyAi": "주변 AI",
+      "nearbyAiDescription": "근처 AI는 푸시 투 토크를 사용하는 동안 여러분을 감지할 수 있습니다.",
+      "ok": "확인",
+      "optionalDisabled": "선택 사항 · 기본적으로 비활성화됨",
+      "outsideHearingRange": "청취 범위 밖",
+      "photoCaption": "알티스 · 대형 무전탑",
+      "powered": "전원 공급됨",
+      "rangeDishes": "8 km 범위 · 4 / 4 접시",
+      "relayAlpha": "릴레이 알파",
+      "repeaterModel": "중계기 모델",
+      "signalPathsAria": "맑은 신호 경로와 지형 차단 신호 경로",
+      "signalRange": "신호 범위 (m)",
+      "signalTitle": "소노란 라디오 / 신호",
+      "terrainAttenuation": "지형 감쇠",
+      "terrainChanges": "지형 변화 수신",
+      "title": "소노란 라디오 타워",
+      "transmissionHearingRange": "송신 청취 범위",
+      "transmitting": "송신 중"
+    },
+    "dispatchAi": {
+      "exampleOf": "예시 {current}/{total}: {id}",
+      "examples": "Dispatch AI 예시",
+      "items": {
+        "alpha": {
+          "request": "\"Command, Alpha Squad로 전환해줘.\"",
+          "response": "복사, Alpha Squad로 전환합니다.",
+          "result": "분대 전환 · Alpha Squad"
+        },
+        "breach": {
+          "request": "\"명령, 60초 동안 침입 타이머를 시작해.\"",
+          "response": "복사, 60초 침입 타이머가 시작됐어.",
+          "result": "브리치 타이머 시작 · 01:00"
+        },
+        "miller": {
+          "request": "\"지휘부, 밀러 상사를 내 주파수로 푸시해 줘.\"",
+          "response": "복사 완료, 밀러 상사를 당신의 주파수로 푸시 중입니다.",
+          "result": "주파수 푸시 · 밀러 상사"
+        },
+        "pit": {
+          "request": "\"디스패치, 5분 PIT 타이머 설정해 줘.\"",
+          "response": "복사, 5분 PIT 타이머 시작됨.",
+          "result": "PIT 타이머 시작 · 05:00"
+        },
+        "plate": {
+          "request": "\"디스패치, 파란 세단 ABC123 번호판 차량 교통 상황 나와 있는지 확인해 줘.\"",
+          "response": "복사, 파란 세단, ABC123으로 교통 정차 호출을 생성했습니다.",
+          "result": "교통 신고 · 배정된 부대"
+        },
+        "platoon": {
+          "request": "\"커맨드, 내 스캔 채널에 1소대를 추가해 주세요.\"",
+          "response": "복사 완료, 스캔한 채널에 1소대를 추가합니다.",
+          "result": "채널이 추가됨 · 1st Platoon"
+        },
+        "robbery": {
+          "request": "\"디스패치, 진행 중인 강도 사건에 저를 연결해 주세요.\"",
+          "response": "복사, 진행 중인 강도 사건에 귀하의 부대를 연결합니다.",
+          "result": "강도 신고 · 배정된 부대"
+        },
+        "runPlate": {
+          "request": "\"디스패치, 판 ABC123 실행.\"",
+          "response": "복사, ABC123의 복귀를 대기해라.",
+          "result": "번호판 검색 · 결과 이용 가능"
+        },
+        "tacOne": {
+          "request": "\"디스패치, 나를 TAC 1 로 전환해줘.\"",
+          "response": "복사, TAC 1로 전환합니다.",
+          "result": "채널 전환 · TAC 1"
+        }
+      },
+      "next": "다음 Dispatch AI 예시",
+      "previous": "이전 Dispatch AI 예시",
+      "radioAlt": "{game} Sonoran Radio 데스크톱 오버레이",
+      "subtitle": "당신의 음성. 당신의 디스패처. Sonoran CAD에 연결됨.",
+      "title": "디스패치 AI"
+    },
+    "erLcMapCapture": {
+      "addPoints": "포인트 추가",
+      "cancel": "취소",
+      "clickTheMap": "지도를 클릭",
+      "closeTowerMenu": "타워 메뉴 닫기",
+      "closeZoneMenu": "존 메뉴 닫기",
+      "deleteTower": "타워 삭제",
+      "deleteZone": "구역 삭제",
+      "description": "신호 범위와 비상 구역을 같은 지도에서 설정하세요.",
+      "dragZoneHandles": "파란색 핸들을 드래그하여 영역 모양을 수정하세요.",
+      "drawCircle": "원 그리기",
+      "drawPolygon": "다각형 그리기",
+      "editEmergencyZone": "비상 구역 편집",
+      "editTower": "타워 편집",
+      "emergencyZones": "비상 구역",
+      "finishZone": "종료 구역",
+      "mapAlt": "ER:LC 맵",
+      "mapCoordinates": "맵 X {x} · Z {y}",
+      "mapUnits": "지도 단위",
+      "noEmergencyZones": "이 방에는 아직 비상 구역이 없습니다. 다각형이나 원을 그려 추가하세요.",
+      "noSignalTowers": "아직 신호 타워가 없습니다. 타워를 배치하기 전까지 신호는 100%로 유지됩니다.",
+      "placeTower": "타워 배치",
+      "points": "포인트",
+      "range": "범위",
+      "room": "방",
+      "selectCenter": "센터 선택",
+      "selectCircleEdge": "원의 가장자리를 선택",
+      "setCenterEdge": "중앙 및 가장자리 설정",
+      "title": "ER:LC 지도 구성",
+      "towerName": "타워 이름",
+      "towers": "타워",
+      "transmitChannels": "송신 채널",
+      "zoneName": "구역 이름"
+    },
+    "featureCapture": {
+      "channelsGroups": "채널 및 그룹",
+      "exportedPngData": "내보낸 PNG 데이터",
+      "exportPng": "투명한 PNG 내보내기",
+      "preview": "미리 보기",
+      "sfxCustomization": "SFX 맞춤",
+      "transmissionLogs": "전송 로그"
+    },
+    "gameIntegration": {
+      "integration": "통합"
+    },
+    "integrationCapture": {
+      "adminPermission": "관리자",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "apiGetGroupsComment": "// 구성된 그룹과 채널 가져오기",
+      "approveMembers": "멤버 승인",
+      "assignedUnits": "할당됨: A-12, A-14",
+      "available": "사용 가능",
+      "availableCall": "사용 가능 · 통화 #1042",
+      "availableUnit": "사용 가능 · A-12",
+      "callAction": "통화 만들기",
+      "callActionExample": "Main St에서 10-50에 대한 통화를 생성",
+      "callInformation": "통화 정보",
+      "callNumber": "통화 #1042",
+      "channelAction": "라디오 채널 전환",
+      "channelActionExample": "나를 TAC 1 로 전환해줘",
+      "communityAdmin": "커뮤니티 관리자",
+      "communityRoles": "커뮤니티 역할",
+      "connectedToRadio": "당신의 무전에 연결됨",
+      "countyDispatch": "카운티 디스패치",
+      "dispatchAiActions": "디스패치 AI 작업",
+      "dispatchCall": "디스패치 콜",
+      "dispatchOne": "디스패치 1",
+      "dispatchTeam": "디스패치 팀",
+      "exampleRoleMapping": "예시 역할 매핑",
+      "exampleVoiceRequest": "예시 음성 요청",
+      "jordanLee": "A-14 · Jordan Lee",
+      "moveRadioUsers": "라디오 사용자 이동",
+      "officialSdkLibraries": "공식 v2 SDK 라이브러리",
+      "panic": "패닉",
+      "patrol": "순찰",
+      "permissions": "권한",
+      "permissionsStayInSync": "권한은 동기화됨",
+      "plateAction": "사람 또는 차량 번호판 조회",
+      "plateActionExample": "판 ABC123 실행",
+      "playDispatchTones": "디스패치 톤 재생",
+      "respondingCall": "응답 중 · 호출 #1042",
+      "statusAction": "상태 업데이트",
+      "statusActionExample": "내 상태를 사용 가능으로 설정",
+      "statusUpdates": "상태 업데이트",
+      "streamDeckAlt": "15개의 LCD 키에 Sonoran Radio 컨트롤이 있는 물리적 Elgato Stream Deck MK.2",
+      "trafficCollision": "교통 충돌",
+      "trafficLocation": "그레이트 오션 하이웨이 · 포스털 3025",
+      "unitStatus": "부대 상태",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "당신의 음성. CAD에 연결됨."
+    },
+    "integrationCard": {
+      "free": "무료"
+    },
+    "interactivePreview": {
+      "allClear": "완전 이상 없음",
+      "analog": "아날로그",
+      "audioLevel": "오디오 레벨",
+      "cancel": "취소",
+      "countyDispatch": "카운티 디스패치",
+      "digital": "디지털",
+      "emsDispatch": "EMS 디스패치",
+      "fireDispatch": "소방 디스패치",
+      "fireEms": "소방 / EMS",
+      "hearDifference": "차이를 들어보세요",
+      "microphonePreviewError": "마이크 미리보기를 시작할 수 없습니다. 브라우저 권한을 확인하거나 샘플을 시도하세요.",
+      "microphonePreviewOn": "마이크 미리보기가 켜져 있습니다",
+      "openLibrary": "{library}을 {registry}에서 열기",
+      "original": "원본",
+      "playingSample": "샘플 재생 중",
+      "playSample": "샘플 재생",
+      "previewPlaying": "미리 보기 재생 중",
+      "previewStopped": "미리 보기 중지됨",
+      "previewVolume": "미리 보기 볼륨",
+      "priorityTraffic": "우선 통신",
+      "publicSafety": "공공 안전",
+      "samplePlaybackError": "샘플을 재생할 수 없습니다. 다시 시도해 주세요.",
+      "sampleUnavailable": "샘플을 사용할 수 없음",
+      "startingPreview": "미리 보기 시작 중",
+      "stopPreview": "미리 보기 중지",
+      "tonePlaybackError": "이 톤을 재생할 수 없습니다. 다시 시도해 주세요.",
+      "toneUnavailable": "톤을 사용할 수 없음",
+      "tryMicrophone": "내 마이크 사용해 보기",
+      "vocoder": "보코더 · 3200",
+      "vocoderPreviewError": "보코더 미리보기를 시작할 수 없습니다. 다시 시도해 주세요.",
+      "voiceEffectExamples": "음성 효과 예시"
+    },
+    "mobi": {
+      "active": "활성",
+      "audio": "오디오",
+      "channelGroup": "채널 그룹",
+      "channels": "채널",
+      "currentSpeaker": "현재 스피커",
+      "distress": "디스트레스",
+      "distressSignalDetected": "조난 신호 감지됨",
+      "header": "라디오 // 통신",
+      "multiChannel": "멀티 채널",
+      "multiGroup": "다중 그룹",
+      "noActiveTransmission": "활성 전송 없음",
+      "noLink": "링크 없음",
+      "none": "없음",
+      "online": "온라인",
+      "priorityAlert": "우선 경보",
+      "quickAccess": "빠른 액세스",
+      "receive": "수신",
+      "scan": "스캔",
+      "scanList": "스캔 목록",
+      "scannedChannel": "스캔한 채널",
+      "selectedChannel": "선택된 채널",
+      "settings": "설정",
+      "settingsTooltip": "설정",
+      "signal": "신호",
+      "signalFault": "신호 오류",
+      "spectrumOffline": "스펙트럼 오프라인",
+      "standby": "대기",
+      "temporaryLink": "임시 링크",
+      "transmission": "전송",
+      "transmit": "송신",
+      "unknownChannel": "알 수 없는 채널",
+      "unknownGroup": "알 수 없는 그룹",
+      "unknownUser": "알 수 없는 사용자"
+    },
+    "tabPanel": {
+      "defaultDescription": "실시간 부대 상태, 주파수 모니터링, 채널 관리를 위한 placeholder 탭 콘텐츠로 매끄러운 조율을 경험하세요.",
+      "defaultTitle": "소노란 라디오",
+      "imageAlt": "탭 패널 이미지"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "라디오 프레임 변경",
@@ -376,11 +786,125 @@
     "title": "JSON 가져오기/내보내기",
     "tooltip": "JSON 파일 가져오기"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Sonoran API 라이브러리",
+    "armaDescription": "Sonoran Radio를 Arma 3 통합으로 Arma 3에 직접 연결하세요.",
+    "back": "뒤로",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "디스패치 콜 미리보기",
+        "description": "Sonoran CAD 디스패치 호출에 연결하여 라디오에서 호출 세부 정보를 확인하세요.",
+        "label": "디스패치 콜"
+      },
+      "liveMap": {
+        "alt": "자리표시자 라이브 맵 미리보기",
+        "description": "Sonoran CAD 라이브 맵에서 무선 타워를 확인하세요.",
+        "label": "라이브 맵"
+      },
+      "panicButton": {
+        "alt": "패닉 버튼 미리보기",
+        "description": "라디오 긴급 버튼으로 Sonoran CAD 긴급 상태를 전환하세요.",
+        "label": "패닉 버튼"
+      }
+    },
+    "comingSoon": "곧 공개됩니다.",
+    "erlcDescription": "Sonoran Radio를 ER:LC 통합으로 ER:LC에 직접 연결하세요.",
+    "fivemDescription": "Sonoran Radio의 무료 FiveM 라디오 스크립트—공식 게임 내 리소스를 사용하여 서버에 음성 라디오를 도입하세요. 아래 통합 항목을 살펴본 다음 {setupGuide}를 따르세요.",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "AI 청취 반경 안에서 전송 중인 Arma 플레이어와 모드의 청취 설정 일러스트.",
+            "description": "근처 AI가 송신 중인 플레이어를 감지하게 하세요, 조절 가능한 청취 범위로. Arma 통합 미리 보기에서 사용할 수 있습니다.",
+            "label": "AI 청력"
+          },
+          "itemFrames": {
+            "alt": "일치하는 Sonoran Radio 데스크톱 오버레이 프레임 옆의 BLUFOR 및 OPFOR 아이템 클래스 매핑.",
+            "description": "당신의 BLUFOR 또는 OPFOR 라디오 아이템은 일치하는 데스크톱 오버레이를 선택합니다. 커스텀 아이템을 커뮤니티의 프레임에 매핑하세요.",
+            "label": "인벤토리 라디오 동기화"
+          },
+          "terrainSignal": {
+            "alt": "지형 뒤에서 감소한 신호와 선명한 신호 경로를 보여주는 Arma 중계기 커버리지 일러스트.",
+            "description": "거리와 지형은 타워 수신을 약하게 합니다. 오버레이의 신호를 확인하고 채널 효과를 통해 변화를 들어 보세요.",
+            "label": "지형 및 신호"
+          },
+          "towers": {
+            "alt": "범위, 수용 인원, 전력용 예시 Zeus 컨트롤이 있는 Arma 신호 탑.",
+            "description": "Eden 또는 Zeus에 타워를 배치하세요. 범위, 출력, 파괴가 라디오 커버리지를 만듭니다.",
+            "label": "게임 내 타워"
+          }
+        },
+        "tabsLabel": "ARMA 3 통합 기능"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "ER:LC 경찰 현장 위에 Liberty County 디스패치 채널이 표시된 Sonoran Radio 데스크톱 오버레이.",
+            "description": "Roblox를 플레이하는 동안 라디오를 항상 위에 두세요. 프레임을 선택하고, 채널을 바꾸고, 데스크톱 앱에서 실시간 타워 신호를 따라가세요.",
+            "label": "데스크톱 오버레이"
+          },
+          "emergencyZones": {
+            "alt": "ER:LC 지도는 샘플 비상 구역과 허용된 비상 송신 채널을 보여줍니다.",
+            "description": "비상 구역을 그리고 각 구역에서 사용할 수 있는 비상 송신 채널을 선택하세요.",
+            "label": "비상 구역"
+          },
+          "liveSignal": {
+            "alt": "가상 타워 범위와 연결된 플레이어가 있는 ER:LC 지도, Sonoran Radio 오버레이 옆에 실시간 신호 강도를 표시",
+            "description": "타워를 배치하여 Liberty County 전역의 라디오 커버리지를 조정하세요. 운전하는 동안 오버레이에 실시간 신호 강도가 표시되고 라디오 효과는 수신 상태를 반영합니다.",
+            "label": "가상 타워"
+          }
+        },
+        "tabsLabel": "ER:LC 통합 기능"
+      }
+    },
+    "integrationTitleSuffix": "통합",
+    "learnMore": "더 알아보기: {title}",
+    "meta": {
+      "armaDescription": "Arma 3용 Sonoran Radio 연동을 살펴보세요. 게임 내 타워, 인벤토리 라디오 동기화, 지형 신호, AI 청각을 포함합니다.",
+      "armaTitle": "Arma 3 통합 | Sonoran Radio",
+      "erlcDescription": "ER:LC를 위한 Sonoran Radio 연동을 살펴보세요, 데스크톱 오버레이, 가상 타워, 긴급 구역을 포함합니다.",
+      "erlcTitle": "ER:LC 통합 | Sonoran Radio",
+      "fivemDescription": "Sonoran Radio의 무료 FiveM 라디오 스크립트, 공식 게임 내 리소스를 사용하여 서버에 음성 라디오를 도입하세요.",
+      "fivemTitle": "FiveM 통합 | Sonoran Radio"
+    },
+    "openDocumentation": "{title}에 대한 문서 열기",
+    "registryLink": "{name}에서 {registry}",
+    "setupGuide": "설정 가이드",
+    "streamDeck": {
+      "calloutDescription": "문서를 확인하여 더 자세한 내용과 플러그인 설치 단계를 알아보세요.",
+      "calloutTitle": "더 알아보고 싶으신가요?",
+      "description": "가장 자주 사용하는 Sonoran Radio 컨트롤을 Stream Deck 키나 다이얼에 가져오세요. 흐름을 끊지 않고 채널을 이동하고, 송신하고, 오디오를 세밀하게 조정하세요.",
+      "deviceAlt": "채널 컨트롤을 표시하는 Sonoran Radio 휴대용 기기",
+      "heading": "당신의 라디오. 한 번의 터치로 바로.",
+      "highlights": {
+        "actions": {
+          "description": "AI 모드, Tone Board, 데스크톱 오버레이를 데크에 넣거나 FiveM 게임 내 라디오와 함께 액션을 사용하세요.",
+          "title": "더 많은 라디오 작업"
+        },
+        "audio": {
+          "description": "지원되는 다이얼을 사용해 라디오, 채널, 효과, AI 볼륨을 조절하세요.",
+          "title": "오디오를 맞추세요"
+        },
+        "channelShortcuts": {
+          "description": "채널과 그룹 사이를 이동하거나 탭으로 송신 및 스캔 목록을 전환하세요.",
+          "title": "채널 단축키"
+        },
+        "pushToTalk": {
+          "description": "전송을 손쉽게 유지하고 라디오 앱으로 다시 전환하지 않고 보내세요.",
+          "title": "키로 누르면 송신"
+        }
+      },
+      "platformKeysDials": "키 + 다이얼",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Stream Deck 기능"
+  },
   "landingPage": {
     "API_Libraries": {
       "desc": "v2 API와 함께 사용하는 공식 Sonoran SDK 라이브러리용 설치 링크.",
       "title": "API 라이브러리"
     },
+    "armaIntegrationDescription": "Sonoran Radio를 Arma 3 통합으로 Arma 3에 직접 연결하세요.",
     "BackgroundAudio": {
       "desc": "통화에 응답 중인가요? Sonoran Radio는 실시간 사이렌, 총성 등 더 많은 소리를 마이크 피드에 직접 주입해 최고의 몰입감을 제공합니다.",
       "title": "배경 오디오"
@@ -435,6 +959,8 @@
       "desc": "게임 내에서 모두 긴급 통화를 발신 센터로 연결하세요!",
       "title": "게임 내 비상 호출"
     },
+    "erlcIntegrationDescription": "Sonoran Radio를 ER:LC 통합으로 ER:LC에 직접 연결하세요.",
+    "exploreIntegrations": "통합 살펴보기",
     "faq": {
       "free": {
         "answer": "네. Dispatch AI는 무료 플랜에서 포함된 월간 크레딧과 함께 완전히 이용 가능합니다. 유료 플랜에는 더 높은 크레딧 한도가 포함됩니다.",
@@ -463,6 +989,34 @@
       "eyebrow": "직접 통합",
       "heading": "통합"
     },
+    "fivemRadioIntegration": "라디오 통합",
+    "gameIntegrations": "게임 통합",
+    "games": {
+      "arma3": {
+        "description": "Arma 3용 무료 라디오 채널과 데스크톱 오버레이로 시작하세요. 미션 타워, 인벤토리 연동 프레임, 지형 신호로 Arma 연동을 미리 살펴보세요.",
+        "headline": "Arma 3 분대를 위한 무료 라디오",
+        "name": "아르마 3",
+        "title": "무료 Arma 3 무전기 & 데스크톱 오버레이 | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "Roblox Emergency Response: Liberty County용 데스크톱 오버레이가 있는 무료 ER:LC 음성 라디오를 시작하세요. 계정을 연결하고 실시간 신호 커버리지가 있는 가상 타워를 추가하세요.",
+        "headline": "커뮤니티를 위한 무료 ER:LC 음성 라디오",
+        "name": "ER:LC",
+        "title": "무료 ER:LC 음성 무전기 & 데스크톱 오버레이 | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "FiveM 라디오 스크립트, 데스크톱 오버레이, 디스패치 패널로 무료로 시작하세요. FiveM 통합으로 Sonoran Radio를 GTA V 역할극 서버에 연결하세요.",
+        "headline": "FiveM 커뮤니티를 위한 무료 라디오",
+        "name": "FiveM",
+        "title": "무료 FiveM 라디오 스크립트 및 디스패치 패널 | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "무료 라디오 채널, 디스패치 도구, 테마 데스크톱 오버레이로 Star Citizen 크루와 계속 연결하세요. verse 전역에서 통신을 조율하세요.",
+        "headline": "Star Citizen 승무원을 위한 무료 라디오",
+        "name": "스타 시티즌",
+        "title": "무료 Star Citizen 라디오 및 오버레이 | Sonoran Radio"
+      }
+    },
     "hero": {
       "subtitle": "현실감 있는 라디오 채널에서 채팅하고, 음성 효과를 맞춤 설정하고, 게임 내 기능과 손쉽게 연결해 진정으로 몰입감 있는 경험을 누리세요.",
       "title": "더 나은 radio comms는 여기서 시작됩니다"
@@ -480,6 +1034,7 @@
     "meta": {
       "audienceType": "게이머와 커뮤니티 관리자",
       "description": "FiveM, ER:LC, Arma 3, 그리고 롤플레이 커뮤니티를 위한 현실적인 무전 통신 소프트웨어.",
+      "imageAlt": "Sonoran Radio 디스패치 패널 및 데스크톱 라디오 오버레이",
       "keywords": "소노란 라디오, 게임 라디오, FiveM 라디오, ER:LC 라디오, Arma 3 라디오, 롤플레이 통신, 디스패치 소프트웨어, 데스크톱 라디오 오버레이, 무료 FiveM 라디오, 무료 ER:LC 라디오",
       "ogTitle": "소노란 라디오 - 게이밍 라디오 통신",
       "productName": "소노란 라디오",
@@ -515,6 +1070,7 @@
       "dispatchAdmin": "디스패치 및 Admin 패널",
       "integrations": "통합"
     },
+    "softwareIntegrations": "소프트웨어 통합",
     "Sonoran_CAD": {
       "desc": "이 플러그인을 사용하면 Sonoran Radio 고객이 무전을 Sonoran CAD와 연결할 수 있습니다. 부대 상태를 확인하고, 출동 호출 정보를 보고, 패닉을 토글하는 등 다양한 기능을 사용할 수 있습니다!",
       "title": "Sonoran CAD"
@@ -528,6 +1084,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Sonoran Studio 둘러보기",
       "description": "실시간 라디오 활동을 스트림 오버레이, 반응형 스마트 조명, 핸즈프리 자동화로 바꾸세요.",
       "eyebrow": "소노란 라디오 + Sonoran Studio",
@@ -598,7 +1155,15 @@
     "serverHosting": "서버 호스팅"
   },
   "management": {
-    "forceJoinAsOwner": "소유자로 강제 참여"
+    "eventType": "이벤트 유형",
+    "forceJoinAsOwner": "소유자로 강제 참여",
+    "forceLeave": "강제 나가기",
+    "payloadJson": "페이로드 JSON",
+    "pushEventDiagnostic": "푸시 이벤트 진단",
+    "pushUrl": "푸시 URL",
+    "sendTestPushEvent": "테스트 푸시 이벤트 보내기",
+    "storedRoomPushUrl": "저장된 룸 푸시 URL",
+    "timeout": "타임아웃 (ms)"
   },
   "managementPage": {
     "searchTitle": "커뮤니티 검색",
@@ -611,6 +1176,8 @@
       "apiInfoTitle": "API 정보",
       "communityApiKeyField": "커뮤니티 API 키",
       "communityLogs": "커뮤니티 로그",
+      "communityLogsEmpty": "로그를 찾을 수 없음",
+      "communityLogsLoading": "로그를 불러오는 중...",
       "logAccount": "Source (Account)",
       "logContent": "내용",
       "logDate": "날짜",
@@ -651,9 +1218,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "버튼 추가",
+      "addLayout": "레이아웃 추가",
       "addScreen": "화면 추가",
       "addVariant": "이 변형 추가",
       "addVehicleOverride": "차량 오버라이드 추가",
+      "aircraftLayout": "항공기 레이아웃",
       "armaBlufor": "BLUFOR 예시",
       "armaExamples": "ARMA 3 예시",
       "armaItemClassNames": "ARMA 아이템 클래스 이름",
@@ -674,6 +1243,8 @@
       "deleteFrame": "프레임 삭제",
       "duplicateVehicleName": "각 차량 이름에는 하나의 재정의만 있을 수 있습니다.",
       "editHint": "드래그하여 이동 · Ctrl + 드래그하여 크기 조절 · 버튼을 마우스 오른쪽 버튼으로 클릭하여 제거",
+      "fit": "맞춤",
+      "fitRadioToCanvas": "캔버스에 라디오 맞추기",
       "frameBodyImage": "프레임 바디 이미지",
       "frameLabel": "프레임 레이블",
       "frameName": "프레임 이름",
@@ -682,6 +1253,10 @@
       "importFromSkin": "FiveM (skin.json)에서 가져오기",
       "importNoFramesFound": "body.width와 screen이 있는 프레임이 없습니다.",
       "label": "레이블",
+      "migratedFramesReadOnly": "이전된 FiveM 프레임은 Free에서 계속 사용할 수 있습니다. 이 프레임을 편집하거나 이미지를 교체하려면 Pro로 업그레이드하세요.",
+      "migratedFramesReset": "마이그레이션된 FiveM 프레임은 Pro에서만 재설정할 수 있습니다.",
+      "moveLayoutEarlier": "레이아웃을 더 일찍 이동",
+      "moveLayoutLater": "레이아웃을 나중에 이동",
       "newFrame": "새 프레임",
       "noneFound": "이 커뮤니티에 대한 오버레이 프레임을 찾을 수 없음.",
       "overrideFramesRequired": "각 차량 오버라이드마다 최소 하나의 프레임을 선택하세요.",
@@ -719,6 +1294,8 @@
         "onFoot": "도보",
         "vehicle": "차량"
       },
+      "vehicleClasses": "차량 클래스",
+      "vehicleClassesHint": "선택을 지워 모든 차량 클래스를 일치시키세요. 이전 레이아웃이 우선합니다.",
       "vehicleClassNames": {
         "boats": "보트",
         "commercial": "상용",
@@ -745,12 +1322,15 @@
         "utility": "유틸리티",
         "vans": "밴"
       },
+      "vehicleLayout": "차량 레이아웃",
       "vehicleName": "ER:LC 차량 이름",
       "vehicleNameRequired": "각 재정의에 차량 이름을 입력하세요.",
       "vehicleOverrideHint": "차량 이름은 대소문자와 앞뒤 공백을 무시하고 정확히 일치합니다. desktop frame에서 차량 이름이 하나만 제공될 때 차량별 frame을 사용하려면 ER:LC 차량 감지를 활성화하세요.",
       "visibilityHint": "도보 중이거나 일치하는 차량 이름이 없을 때 사용할 기본 데스크톱 프레임을 선택하세요. ER:LC 차량 감지에서 일치하는 이름을 찾으면 차량 재정의가 프레임을 자동으로 선택합니다.",
       "visibilityTitle": "프레임 가시성",
-      "visibleFrames": "표시 프레임"
+      "visibleFrames": "표시 프레임",
+      "zoomIn": "확대",
+      "zoomOut": "축소"
     },
     "customizeMenu": {
       "ai": "AI",
@@ -1136,13 +1716,19 @@
       "approveBtn": "승인",
       "ban": "차단",
       "banBtn": "차단",
+      "banConfirm": "{count}명의 회원을 영구적으로 차단하려고 합니다. 다시 참여할 수 없지만, 차단 해제는 가능합니다.",
       "cannotModifyPermsOfMyself": "내 권한은 수정할 수 없습니다",
+      "communityAccess": "커뮤니티 액세스",
+      "communityAccessDescription": "구성원에게 기본 Sonoran Radio 접근을 승인합니다. 관리 권한이나 개인 프로필 접근은 부여하지 않습니다.",
+      "confirmTitle": "확실합니까?",
       "copyDiscordId": "Discord ID 복사",
       "copyPermissionGeneratorId": "권한 ID 복사",
       "copyRobloxId": "Roblox ID 복사",
       "discordIdCopied": "Discord ID가 클립보드에 복사됨.",
       "displayName": "표시 이름",
+      "displayNameUpdated": "표시 이름 업데이트됨",
       "editMemberPerms": "멤버 권한 편집",
+      "enterDisplayName": "{name}의 새 표시 이름을 입력하세요",
       "errAddInvalidAccount": "제공된 사용자 이름이 존재하지 않습니다",
       "errAddUnknown": "관리자 추가 중 알 수 없는 오류가 발생했습니다",
       "errRemoveUnknown": "관리자 제거 중 알 수 없는 오류가 발생했습니다",
@@ -1152,17 +1738,42 @@
       "filterBanned": "차단됨",
       "filterPending": "대기 중",
       "kickBtn": "추방",
+      "kickConfirm": "{count}명(들)을 내보내려 합니다. 그들은 커뮤니티 ID로 다시 참여할 수 있습니다.",
       "noDiscordAccountLinked": "이 사용자는 연결된 Discord 계정이 없습니다.",
       "noRobloxAccountLinked": "이 사용자는 연결된 Roblox 계정이 없습니다.",
       "owner": "소유자",
       "ownerHasAllPerms": "커뮤니티 소유자는 모든 권한을 가지고 있습니다",
       "paysSubscription": "구독 결제",
       "pending": "대기 중",
+      "permissionAdmin": "관리자",
+      "permissionAdminDescription": "라디오 커뮤니티의 모든 기능을 관리하고 접근할 수 있는 전체 권한을 부여합니다.",
+      "permissionApproveMembers": "멤버 승인",
+      "permissionApproveMembersDescription": "라디오 커뮤니티에서 대기 중인 사용자를 승인하거나 거부할 수 있습니다.",
+      "permissionBanCommunity": "커뮤니티에서 차단",
+      "permissionBanCommunityDescription": "커뮤니티에서 멤버를 영구적으로 차단할 수 있는 권한을 부여합니다.",
+      "permissionCallOnly": "통화 전용",
+      "permissionCallOnlyDescription": "사용자를 911 전화만 걸 수 있도록 제한합니다. Dispatch 탭을 숨깁니다. Admins에는 영향을 주지 않습니다.",
+      "permissionChangeDisplayName": "표시 이름 변경",
+      "permissionChangeDisplayNameDescription": "사용자가 자신의 표시 이름을 수정할 수 있습니다.",
       "permissionGeneratorBtn": "권한 생성기",
       "permissionGeneratorId": "권한 ID",
       "permissionGeneratorSubtitle": "외부 사용을 위한 사용자 권한 ID를 생성합니다.",
       "permissionGeneratorTitle": "권한 생성기",
+      "permissionKickCommunity": "커뮤니티에서 추방",
+      "permissionKickCommunityDescription": "커뮤니티에서 멤버를 제거할 수 있는 권한을 부여합니다.",
+      "permissionKickRadio": "라디오에서 추방",
+      "permissionKickRadioDescription": "멤버를 라디오 채널에서 연결 해제할 수 있는 권한을 부여합니다.",
+      "permissionManageDisplayNames": "표시 이름 관리",
+      "permissionManageDisplayNamesDescription": "다른 멤버의 표시 이름을 수정할 수 있습니다.",
+      "permissionMoveRadioUsers": "라디오 사용자 이동",
+      "permissionMoveRadioUsersDescription": "라디오 채널 간 멤버 이동을 허용합니다.",
+      "permissionOverrideTalkover": "토크오버 보호 재정의",
+      "permissionOverrideTalkoverDescription": "사용자가 PTT 버튼을 두 번 클릭하여 talkover 보호를 무시할 수 있도록 합니다.",
+      "permissionPlayDispatchTones": "디스패치 톤 재생",
+      "permissionPlayDispatchTonesDescription": "무전기로 디스패치 톤을 재생할 수 있는 권한을 부여합니다.",
       "permissionsBtn": "권한",
+      "permissionStunRadio": "스턴 라디오",
+      "permissionStunRadioDescription": "사용자가 다른 라디오 사용자를 30초 동안 기절시켜(잠금) 사용할 수 없게 합니다.",
       "privateChannels": "비공개 채널",
       "remove": "제거",
       "removeWarn": "경고",
@@ -1177,6 +1788,7 @@
       "title": "커뮤니티 멤버",
       "traits": "특성",
       "unbanBtn": "차단 해제",
+      "unbanConfirm": "{count}명의 회원을 차단 해제하려고 합니다. 커뮤니티 ID로 다시 참여할 수 있습니다.",
       "username": "사용자 이름"
     },
     "membersTab": "멤버",
@@ -1554,6 +2166,26 @@
     "welcome": "환영합니다",
     "welcomeTo": "Sonoran Radio에 오신 것을 환영합니다!"
   },
+  "mobiPreview": {
+    "channelName": "작전 전술 1",
+    "citywide": "시 전역",
+    "frameName": "Mobi Preview",
+    "frameTitle": "Mobi 라디오 프레임",
+    "groupName": "스탠턴 보안",
+    "localPreview": "로컬 미리 보기",
+    "modes": {
+      "distress": "디스트레스",
+      "idle": "대기",
+      "jammed": "재머됨",
+      "receiving": "수신 중",
+      "transmitting": "송신 중"
+    },
+    "note": "위의 상태를 전환하여 실시간 라디오 표시기를 미리 보세요. 화면 컨트롤을 사용하려면 연결된 라디오 세션이 필요합니다.",
+    "signal": "신호",
+    "speakerName": "A. MERCER",
+    "themePreview": "테마 미리 보기",
+    "yourRadio": "당신의 라디오"
+  },
   "portal": {
     "beginTitle": "여정을 시작하세요",
     "beginYourJourney": "여정을 시작하세요!",
@@ -1678,16 +2310,29 @@
       "enableTransmissionRecordings": "송신 녹음 사용",
       "erlcHud": {
         "autoWindow": "Roblox 창을 자동으로 찾기",
+        "checkPermission": "접근 권한 확인",
         "enable": "화면 감지 사용",
-        "lastReading": "마지막 계기 확인",
+        "lastReading": "마지막 ELS 컨트롤러 점검",
         "noWindows": "Roblox 창을 찾을 수 없습니다. ER:LC를 연 다음 창 목록을 새로고침하세요.",
-        "privacy": "Sonoran Radio는 이 기기의 Roblox 속도계를 확인하여 차량 변형을 전환합니다. ER:LC가 계정이 소유한 차량을 정확히 하나 보고하면 해당 이름으로 특정 프레임도 선택할 수 있습니다. 화면 이미지는 저장되거나 업로드되지 않습니다. macOS에서는 Sonoran Radio에 Screen & System Audio Recording을 허용해야 할 수 있습니다.",
+        "openSettings": "시스템 설정 열기",
+        "permissionDenied": "Sonoran Radio의 화면 녹화가 꺼져 있습니다. 이를 활성화한 다음 앱을 완전히 종료하고 다시 여세요.",
+        "permissionNotDetermined": "macOS는 Roblox 창을 읽기 위한 권한이 필요합니다. 권한을 요청하려면 Check access를 클릭하거나 System Settings에서 활성화하세요.",
+        "permissionRestricted": "이 Mac에서는 화면 녹화가 제한되어 있습니다. Mac 관리자에게 접근을 허용해 달라고 요청하세요.",
+        "permissionStepEnable": "Sonoran Radio를 활성화합니다. 개발 중에는 macOS에 앱으로 표시되는 경우 Electron을 활성화합니다.",
+        "permissionStepOpen": "시스템 설정 → 개인 정보 보호 및 보안 → 화면 및 시스템 오디오 녹음(이전 macOS 버전에서는 화면 녹화).",
+        "permissionStepRestart": "액세스 변경 후 Sonoran Radio를 완전히 종료하고 다시 여세요.",
+        "permissionTitle": "화면 녹화 허용",
+        "permissionUnknown": "Sonoran Radio가 화면 녹화 접근 권한을 확인할 수 없습니다. 시스템 설정을 확인한 다음 앱을 완전히 종료하고 다시 여세요.",
+        "privacy": "Sonoran Radio는 이 기기의 오른쪽 아래 ELS 컨트롤러를 확인하여 차량 변형을 전환합니다. 컨트롤러는 보이도록 설정되어 있어야 하며, 컨트롤러가 없는 차량은 도보 레이아웃을 사용합니다. 비상등은 켜져 있거나 꺼져 있을 수 있습니다. 화면 이미지는 저장되거나 업로드되지 않습니다.",
+        "readingElsAbsent": "ELS 컨트롤러를 찾지 못했습니다",
+        "readingElsFound": "ELS 컨트롤러를 찾았습니다",
         "readingGaugeAbsent": "게이지를 찾을 수 없음",
         "readingGaugeFound": "게이지를 찾을 수 있음",
         "readingUncertain": "불확실한 일치",
         "readingUnreadable": "Roblox 창을 읽을 수 없음",
         "readingWaiting": "Roblox 캡처 대기 중",
         "refreshWindows": "Roblox 창 새로고침",
+        "settingsOpenFailed": "시스템 설정을 열 수 없습니다. 위의 단계를 사용해 수동으로 여세요.",
         "status": "감지 상태",
         "statusChecking": "Roblox 창 확인 중",
         "statusDisabled": "끔",
@@ -1695,7 +2340,7 @@
         "statusInVehicle": "차량 안",
         "statusLooking": "Roblox 창 찾는 중",
         "statusOnFoot": "도보",
-        "statusPermissionDenied": "화면 녹화 권한이 거부되었습니다",
+        "statusPermissionDenied": "화면 녹화 접근 필요",
         "statusUnknown": "차량 상태를 확인할 수 없음",
         "title": "ER:LC 차량 감지",
         "vehicleAmbiguous": "ER:LC에서 여러 소유 차량 이름을 찾았으며 이름별 프레임 오버라이드를 선택할 수 없습니다.",
@@ -1780,6 +2425,8 @@
       "audioMode": "오디오 모드",
       "audioRecording": "오디오 녹음",
       "broadcastTo": "방송 대상",
+      "channel": "채널",
+      "channelGroup": "채널 그룹",
       "count": "개수",
       "deleteStack": "스택 삭제",
       "generate": "생성",
@@ -1790,6 +2437,7 @@
       "newTone": "새 톤",
       "noSavedStacks": "저장된 스택이 아직 없습니다.",
       "noTones": "톤 없음",
+      "ok": "확인",
       "playStack": "스택 재생(더블 클릭)",
       "preview": "미리 보기",
       "recording": "녹음",
@@ -1804,7 +2452,11 @@
       "speechToText": "음성을 텍스트로 변환",
       "speed": "속도",
       "stack": "스택",
+      "stackNameRequired": "스택 이름이 필요합니다.",
+      "stackNeedsTones": "저장하기 전에 스택에 톤을 추가하세요.",
+      "stopPlayback": "재생 중지",
       "subtitle": "커뮤니티를 위한 디스패치 톤 커스터마이징",
+      "temporaryTtsError": "임시 TTS 톤을 준비하지 못했습니다.",
       "title": "톤 보드",
       "toneLabel": "톤 레이블",
       "tonesTab": "톤",
@@ -1868,6 +2520,17 @@
     "checkSpam": "이메일을 찾을 수 없으면 스팸 폴더를 확인하세요.",
     "emailPreferencesDesc": "중요한 공지, 업데이트, 프로모션을 이메일로 보내주세요.",
     "verifyPassword": "비밀번호 확인"
+  },
+  "socials": {
+    "community": "커뮤니티",
+    "connectWithUs": "저희와 연결",
+    "followUs": "팔로우하세요",
+    "instagramDescription": "제품 하이라이트와 팀 업데이트",
+    "joinDiscord": "Discord에 참여",
+    "joinDiscordDescription": "공지, 지원, 커뮤니티 업데이트, 제품 토론을 한곳에서 받아보세요.",
+    "joinDiscordTitle": "Sonoran Software Discord에 참가하기",
+    "tiktokDescription": "소노란 팀의 짧은 소식",
+    "youtubeDescription": "가이드, 데모, 그리고 릴리스"
   },
   "splash": {
     "feats": "대인 간 문자 메시지와 Sonoran CAD\n      통합을 갖춘 Sonoran Radio는 완전한 기능의 통신 장치를\n      게임 내 인원과 디스패처의 손에 직접 쥐여 줍니다. 지금\n      무료로 사용해 보세요!",

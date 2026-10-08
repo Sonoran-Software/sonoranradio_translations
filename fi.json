@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "Salli käyttöanalytiikka",
+    "deleteAccountError": "Tilisi poistamisessa tapahtui virhe.",
+    "deleteAccountMessage": "Haluatko varmasti poistaa tilisi pysyvästi?",
+    "deleteAccountSuccess": "Tili poistettu onnistuneesti.",
+    "deleteAccountTitle": "Poista tili",
     "noServers": "Ei Palvelimia",
+    "privacyPolicy": "Tietosuojakäytäntö",
     "serversDesc": "Täällä voit tarkastella kaikkia Sonoran Radio -yhteisöjä, joita omistat tai hallinnoit",
     "serversTitle": "Palvelimesi",
     "tokenCopied": "Salaisuus on kopioitu leikepöydällesi!",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "Tämä koodi on SALAINEN, eikä sitä saa jakaa kenenkään kanssa!",
     "tokenInputLabel": "Kirjautumissalaisuutesi",
     "tokenLoadBtn": "Klikkaa ladataksesi",
-    "tokenTitle": "Kirjautumissalaisuus"
+    "tokenTitle": "Kirjautumissalaisuus",
+    "usageAnalyticsDescription": "Jaa rajoitettu sovelluksen käyttö Sonoran Softwarelle ja Google Analyticsille. Tätä ei käytetä mainontaan tai sovellusten väliseen seurannan.",
+    "usageAnalyticsTitle": "Käyttöanalytiikka"
+  },
+  "analyticsConsent": {
+    "allow": "Salli",
+    "description": "Salli rajoitettu käyttöanalytiikka sovelluksen parantamiseksi. Ei mainontaa eikä sovellusten välistä seurantaa.",
+    "notNow": "Ei nyt",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "title": "Auta parantamaan Sonoran Radioa"
   },
   "authMember": {
     "errLeave": "Yhteisöstä poistumisessa tapahtui odottamaton virhe.",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "On jo aktiivinen tilaus",
+    "billingPortalUnavailable": "Laskutusportaali on käytettävissä, kun tilaukset ovat latautuneet.",
     "changeServer": "Vaihda palvelin",
     "changeSvDialog": {
       "errSave": "Tilauksen muuttamisessa tapahtui odottamaton virhe",
@@ -45,6 +61,8 @@
       "title": "Vaihda Tilaus",
       "transfer": "Oletko varma, että haluat siirtää tämän tilauksen toiselle palvelimelle?"
     },
+    "contactSupport": "Ota yhteyttä tukeen",
+    "description": "Hallitse tilauksia, määritä ne Radio-yhteisöihin ja päivitä laskutus Stripen kautta.",
     "errCheck": "Tilauksesi tarkistuksessa tapahtui odottamaton virhe",
     "isUnauthorized": "Tilauksia ei voida käyttää valtuuttamattomille palvelimille",
     "modifySub": "Muokkaa tilausta",
@@ -64,7 +82,10 @@
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio ja FiveM-hosting yhdessä paketissa.",
       "oneLearnMore": "Lue lisää Sonoran Onesta",
       "plus": "Plus-suunnitelma ($14.99/kk)",
+      "plusDescription": "Lisää kapasiteettia ja muokattavuutta aktiivisille yhteisöille.",
       "pro": "Pro-suunnitelma ($19.99/kk)",
+      "proDescription": "Avaa rajaton skaala ja edistyneet Radio-ominaisuudet.",
+      "professionalSetup": "Ammatillinen asennusapu yhteisöllesi.",
       "quarterly": "Neljännesvuosittain",
       "studio": "Sonoran Studio -yhteisölisenssi",
       "studioDescription": "Älykäs valaistus ja striimauswidgetit yhteisöllesi. Sisältyy Sonoran Oneen.",
@@ -73,34 +94,106 @@
       "studioQuarterlyPrice": "6,00 $/kk",
       "title": "Uusi Tilaus"
     },
+    "noBillingPortalUrl": "Laskutusportaalin URL-osoitetta ei ole vielä saatavilla.",
     "noServerAssociated": "Ei palvelinta yhdistetty",
+    "openBillingPortal": "Avaa laskutusportaali",
+    "paymentCenter": "Maksukeskus",
     "pricingCompare": {
+      "backgroundAudio": "Pelin taustaääni",
+      "bestValue": "Paras vastine",
+      "bigDaddyAnimations": "Big-Daddy Radio Animaatiot",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio ja ilmainen FiveM-hosting yhdessä tilauksessa.",
+      "choosePlan": "Valitse {name}",
+      "chooseSonoranOne": "Valitse Sonoran One",
+      "communitySoundEffects": "Koko yhteisön äänitehosteet",
+      "comparePlans": "Vertaile suunnitelmia",
+      "connectedUsers": "Yhdistetyt käyttäjät",
+      "customCommunityId": "Mukautettu yhteisön tunnus",
+      "customDomain": "Mukautettu verkkotunnus",
+      "customVoiceEffects": "Mukautetut äänitehosteet",
+      "description": "Kaikki maksulliset tilaukset ovat saatavilla kuukausittain tai neljännesvuosittain. Neljännesvuosittaisiin tilauksiin sisältyy 25% alennus.",
+      "desktopOverlayFrames": "Työpöydän peittokehykset",
+      "dispatchAiPrompts": "Dispatch AI:n kuukausittaiset kehotteet",
+      "freeCopy": "Ilmainen kopio",
+      "freeDescription": "Aloita perusradiotyökaluilla pienemmille yhteisöille.",
+      "freePrompts": "~140-360",
       "monthlyPrice": "{price}/kk",
+      "mostPopular": "Suosituin",
       "multiServer": "Monipalvelin",
-      "planFree": "Ilmainen"
+      "nearbyRadioChatter": "Lähellä oleva radiokeskustelu",
+      "oneDefault": "1 Palvelin",
+      "oneServer": "1 Palvelin",
+      "perUserSoundEffects": "Käyttäjäkohtaiset äänitehosteet",
+      "planFree": "Ilmainen",
+      "planPlus": "Plus",
+      "planPro": "Ammattilainen",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "Lisää mukauttamista ja enemmän tilaa aktiiviseen roolipelaamiseen.",
+      "plusPrompts": "~1 400–3 600",
+      "proDescription": "Avaa rajaton skaala ja edistyneet Radio-ominaisuudet.",
+      "proPrompts": "~4,200-10,750",
+      "radioPlans": "Radiopakettit",
+      "rocketNodeHosting": "RocketNode FiveM -hosting",
+      "saveTwentyFive": "Säästä 25%",
+      "scannersAndJammers": "Skannerit ja signaalihäirintälaitteet",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radio Pro",
+      "sonoranStudioLicense": "Sonoran Studio -yhteisölisenssi",
+      "tenUsers": "10",
+      "thirtyUsers": "30",
+      "threeCustom": "Rajoittamaton mukautettu",
+      "threeDefault": "3x Oletus",
+      "transmissionLogs": "Lähetyslokit",
+      "unlimited": "Rajoittamaton",
+      "unlimitedCustom": "Rajoittamaton mukautettu"
     },
     "setServer": "Aseta Palvelin",
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "Puhu ihmisen kanssa",
     "statuses": {
       "active": "Aktiivinen",
       "canceled": "Peruutettu",
       "incomplete": "Epätäydellinen",
       "incomplete_expired": "Epätäydellinen vanhentunut",
       "past_due": "Erääntynyt",
+      "trialing": "Kokeilu",
       "unpaid": "Maksamaton"
     },
+    "subscriptionsDescription": "Tarkastele aktiivisia tilauksia, määritä Radio-yhteisöjä ja hallinnoi inaktiivisia tilauksia.",
+    "subscriptionsTitle": "Tilauksesi",
     "subscriptionTable": {
-      "inactiveCancelled": "Passiivinen / peruutettu"
+      "active": "Aktiivinen",
+      "cancelledDescription": "Peruutetut ja vanhentuneet tilaukset näkyvät täällä.",
+      "communityId": "Yhteisön tunnus {id}",
+      "createDescription": "Luo tilaus avataksesi lisää radio-ominaisuuksia yhteisölle.",
+      "endDate": "Päättymispäivä",
+      "inactiveCancelled": "Passiivinen / peruutettu",
+      "loading": "Ladataan tilauksia",
+      "loadingDescription": "Noudetaan uusimpia Stripe-tilauksiasi.",
+      "noActive": "Ei aktiivisia tilauksia",
+      "noInactive": "Ei passiivisia tilauksia",
+      "planRadioPlus": "Radio Plus",
+      "planRadioPro": "Radio Pro",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "Sonoran Radio",
+      "purchasedNotApplied": "Tämä tilaus on ostettu, mutta sitä ei ole vielä otettu käyttöön Radio-yhteisössä.",
+      "startDate": "Aloituspäivä"
     },
+    "supportDescription": "Erillinen live-chat-tukemme on käytettävissä 7 päivää viikossa aukioloaikoina. Onko sinulla kysyttävää? Tiimimme on valmiina.",
+    "title": "Laskutus",
     "toPortal": "Takaisin portaaliin"
   },
   "common": {
     "account": "Tili",
     "actions": "Toiminnot",
     "add": "Lisää",
+    "back": "Takaisin",
     "billing": "Laskutus",
     "cancel": "Peruuta",
     "clickToCopy": "Klikkaa kopioidaksesi",
     "clipboard": "Kopioitu leikepöydälle!",
+    "close": "Sulje",
     "communityIdField": "Yhteisön tunnus",
     "confirm": "Vahvista",
     "copy": "Kopioi",
@@ -109,6 +202,7 @@
     "edit": "Muokkaa",
     "email": "Sähköposti",
     "help": "Ohje",
+    "id": "ID",
     "language": "Kieli",
     "learnMore": "Lisätietoja",
     "limited": "Rajoitettu",
@@ -206,6 +300,7 @@
     "joinCode": "Liittymiskoodi: {code}",
     "joinMission": "Liity palvelimellesi, valitse rooli ja siirry tehtävään. Varusta Sonoran Radio -esine. Tehtävän tekijöiden tulisi sijoittaa Sonoran-signaalitornit/toistimet kattavuutta varten.",
     "joinTest": "Liity ja testaa",
+    "linkRoblox": "Yhdistä Roblox",
     "linkServer": "Linkitä Palvelin",
     "manualServer": "Manuaalisesti ylläpidetylle palvelimelle kopioi molemmat modikansiot palvelimelle, kopioi niiden {extension}-tiedostot niiden keys-kansioista palvelimen {directory}-kansioon ja lisää tämä käynnistysargumentti (säädä kansioiden nimet):",
     "next": "Seuraava",
@@ -222,6 +317,7 @@
     "resizeRadio": "Muuta radion kokoa",
     "resizeScreen": "Vedä muuttaaksesi näytön kokoa",
     "restartServer": "Käynnistä palvelin uudelleen ja sisällytä molemmat modit pelaajien kanssa jaettuun launcher-esiasetukseen. Pidä allekirjoitukset ja BattlEye käytössä; selvitä tarkka potkuviesti, jos asiakas hylätään.",
+    "robloxLinkDescription": "Linkitä Roblox-tilisi Sonoran-tiliisi, jotta voit käyttää sijaintiin perustuvaa radiosignaalia tässä yhteisössä.",
     "serverMods": "Asenna samat kaksi Workshop-modia palvelimesi isännän modinhallinnan kautta. Lataa molemmat tavallisina modeina, ei vain palvelinmodeina, ja CBA_A3 ensin.",
     "setupOverlay": "Määritä päällekkäisikkuna",
     "towerSaveError": "ER:LC-signaalitornien tallentaminen ei onnistu. Viimeisin muutoksesi palautettiin.",
@@ -240,12 +336,31 @@
     "overlayDesktopDescription": "Mukauta radiopeittokuva työpöytäkäyttäjille.",
     "overlayFiveMDescription": "Mukauta FiveM-pelin sisäistä radiota ja työpöytäpeittokuvaa. FiveM-muutokset synkronoituvat viiden minuutin kuluessa yhteensopivan resurssiversion kanssa.",
     "overlayPreview": {
-      "saves": "{count} tallennusta tässä esikatselussa"
+      "description": "Mukauta radiosi päällekkäisnäkymä.",
+      "done": "Valmis",
+      "game": "Peli",
+      "localSample": "Paikallinen esikatselu · vain esimerkkitietoja",
+      "noGame": "Peliä ei valittu",
+      "previewGame": "Esikatsele peliä",
+      "saves": "{count} tallennusta tässä esikatselussa",
+      "title": "päällekkäisikkuna"
     },
-    "overlaySelectGame": "Tarkista yhteisösi peli Game Integrationissa käyttääksesi vastaavia overlay-ominaisuuksia."
+    "overlaySelectGame": "Tarkista yhteisösi peli Game Integrationissa käyttääksesi vastaavia overlay-ominaisuuksia.",
+    "upgradeRadioPlan": "Päivitä Radio-tilauksesi",
+    "upgradeRadioPlanMessage": "Avaa enemmän kapasiteettia, muokattavuutta ja edistyneitä Radio-ominaisuuksia tälle yhteisölle.",
+    "viewBilling": "Näytä laskutus"
   },
   "desktopPanel": {
     "channelHotkey": "Kanavan pikanäppäin"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "Vaihda mikrofonisi:",
+    "deviceUnavailable": "{device} ei ole käytettävissä. Valitse toinen mikrofoni.",
+    "microphoneAccessDenied": "Mikrofonin käyttö estetty",
+    "noInputDetected": "Mikrofonin tuloa ei havaittu. Vaihda mikrofoniasi, jos päivystys ei kuule sinua.",
+    "noMicrophoneFound": "Mikrofonia ei löytynyt",
+    "selectedUnavailable": "Valittu mikrofoni ei ole käytettävissä. Valitse toinen mikrofoni.",
+    "unknownError": "Tuntematon virhe"
   },
   "error404": {
     "goHome": "Siirry kotiin",
@@ -346,16 +461,290 @@
     "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "Aloita ilmaisella radiolla peliyhteisöllesi",
     "learnMore": "Lisätietoja"
   },
   "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "Vertaile Sonoran Radioa",
+      "competitorLogo": "{competitor}n logo",
+      "dispatchAnywhere": "Lähetys missä tahansa",
+      "downloadAndroid": "Lataa Sonoran Radio Androidille",
+      "downloadIos": "Lataa Sonoran Radio iOSille",
+      "downloadLinux": "Lataa Sonoran Radio Linuxille",
+      "downloadMacos": "Lataa Sonoran Radio MacOSille",
+      "downloadWindows": "Lataa Sonoran Radio Windowsille",
+      "gameSelection": "Pelin valinta",
+      "heroRadioAlt": "{game} Sonoran Radio -työpöytäpeitto esimerkkikanavilla",
+      "openIntegration": "Avaa {title} -integraatio",
+      "sonoranRadioIntegrations": "Sonoran Radio -integraatiot",
+      "sonoranRadioVs": "Sonoran Radio vs {competitor}",
+      "viewGameIntegrations": "Näytä {game}-integraatiot"
+    },
+    "armaCapture": {
+      "activeDishes": "Aktiiviset astiat",
+      "aiCanHear": "Tekoäly voi kuulla lähetykset",
+      "aiHearingTitle": "SONORAN RADIO · AI KUULO",
+      "alphaOneOne": "Alfa 1-1",
+      "blockedPath": "Estetty reitti · 2 km",
+      "blockedQuality": "26 % laatu",
+      "blockedTerrainMultiplier": "Estyneen maaston kerroin",
+      "cancel": "PERUUTA",
+      "canDetectSpeaker": "Voi havaita puhujan",
+      "clearPath": "Selvä reitti · 2 km",
+      "clearQuality": "75 % laatu",
+      "customizationDesktopFrames": "MUOKKAUS / TYÖPÖYDÄN KEHYKSET",
+      "dishCount": "Annosmäärä",
+      "exampleSignalPaths": "ESIMERKKI SIGNAALIREITIT",
+      "hearingRadiusAria": "Havainnollistava lähetyksen kuuloalue",
+      "illustrativeHearingRadius": "HAVAINNOLLINEN KUULOALUE",
+      "indestructible": "Tuhoutumaton",
+      "inventoryFrame": "Inventaarion kohde → työpöytäkehys",
+      "invisibleSignalOnly": "Näkymätön (vain signaali)",
+      "itemClassNames": "ARMA-tuotteiden luokkanimet",
+      "largeRadioTower": "Suuri radiotorni",
+      "matchRadio": "Yhdistä kantamasi radio",
+      "nearbyAi": "Lähellä oleva tekoäly",
+      "nearbyAiDescription": "Lähellä oleva AI voi havaita sinut, kun käytät push-to-talkia.",
+      "ok": "OK",
+      "optionalDisabled": "Valinnainen · Poistettu käytöstä oletusarvoisesti",
+      "outsideHearingRange": "Kuuloalueen ulkopuolella",
+      "photoCaption": "ALTIS · SUURI RADIOTORNI",
+      "powered": "Virta päällä",
+      "rangeDishes": "8 km kantama · 4 / 4 lautasta",
+      "relayAlpha": "Välitä Alfa",
+      "repeaterModel": "Toistinmalli",
+      "signalPathsAria": "Selkeät ja maaston estämät signaalireitit",
+      "signalRange": "Signaalialue (m)",
+      "signalTitle": "SONORAN RADIO / SIGNAALI",
+      "terrainAttenuation": "Maaston vaimennus",
+      "terrainChanges": "Maaston muutokset kuuluvuudessa",
+      "title": "SONORAN RADIO TOWER",
+      "transmissionHearingRange": "Lähetyksen kuuloalue",
+      "transmitting": "LÄHETTÄÄ"
+    },
+    "dispatchAi": {
+      "exampleOf": "Esimerkki {current}/{total}: {id}",
+      "examples": "Lähetys-AI-esimerkit",
+      "items": {
+        "alpha": {
+          "request": "\"Komento, vaihda minut Alpha-joukkoon.\"",
+          "response": "Kopioi, vaihdan sinut Alpha-joukkoon.",
+          "result": "Joukkueen vaihto · Alpha-joukko"
+        },
+        "breach": {
+          "request": "\"Komento, käynnistä murtumislaskuri 60 sekunniksi.\"",
+          "response": "Kopio, 60 sekunnin murtumislaskuri käynnistetty.",
+          "result": "Murron ajastin käynnistetty · 01:00"
+        },
+        "miller": {
+          "request": "\"Komento, työnnä kersantti Miller minun taajuudelleni.\"",
+          "response": "Kopioi, työntämässä kersantti Milleriä taajuudellesi.",
+          "result": "Taajuuspainike · Kersantti Miller"
+        },
+        "pit": {
+          "request": "\"Dispatch, aseta PIT-ajastimeksi viisi minuuttia.\"",
+          "response": "Kopio, viiden minuutin PIT-ajastin käynnistetty.",
+          "result": "PIT-ajastin käynnistetty · 05:00"
+        },
+        "plate": {
+          "request": "\"Dispatch, näytä minut liikenteessä sinisen sedanin kanssa, rekisterikilpi ABC123.\"",
+          "response": "Kopioi, luotiin liikennepysäytyspuhelu sinisestä sedanista, ABC123.",
+          "result": "Liikenneilmoitus · Yksikkö määrätty"
+        },
+        "platoon": {
+          "request": "\"Komento, lisää 1. komppania skannattuihin kanaviini.\"",
+          "response": "Kopio, lisätään 1. komppania skannattuihin kanaviisi.",
+          "result": "Kanava lisätty · 1. ryhmä"
+        },
+        "robbery": {
+          "request": "\"Dispatch, liitä minut meneillään olevaan ryöstöön.\"",
+          "response": "Kopio, liitän yksikkösi meneillään olevaan ryöstöön.",
+          "result": "Ryöstöilmoitus · Yksikkö määrätty"
+        },
+        "runPlate": {
+          "request": "\"Dispatch, aja rekisterikilpi ABC123.\"",
+          "response": "Kopioi, valmiina paluuseen ABC123:lla.",
+          "result": "Rekisterikilven haku · Tuloksia saatavilla"
+        },
+        "tacOne": {
+          "request": "\"Dispatch, vaihda minut TAC 1:een.\"",
+          "response": "Kopioi, vaihdan sinut TAC 1:lle.",
+          "result": "Kanavan vaihto · TAC 1"
+        }
+      },
+      "next": "Seuraava Lähetys-AI-esimerkki",
+      "previous": "Edellinen Dispatch AI -esimerkki",
+      "radioAlt": "{game} Sonoran Radio -työpöytäpeitto",
+      "subtitle": "Äänesi. Lähettäjäsi. Yhdistetty Sonoran CADiin.",
+      "title": "Lähetys-AI"
+    },
+    "erLcMapCapture": {
+      "addPoints": "Lisää pisteitä",
+      "cancel": "Peruuta",
+      "clickTheMap": "Klikkaa karttaa",
+      "closeTowerMenu": "Sulje tornivalikko",
+      "closeZoneMenu": "Sulje vyöhykevalikko",
+      "deleteTower": "Poista torni",
+      "deleteZone": "Poista alue",
+      "description": "Määritä signaalin kattavuus ja hätäalueet samalla kartalla.",
+      "dragZoneHandles": "Vedä sinisiä kahvoja muokataksesi alueen muotoa.",
+      "drawCircle": "Piirrä ympyrä",
+      "drawPolygon": "Piirrä monikulmio",
+      "editEmergencyZone": "Muokkaa hätäaluetta",
+      "editTower": "Muokkaa tornia",
+      "emergencyZones": "Hätäalueet",
+      "finishZone": "Viimeistelyalue",
+      "mapAlt": "ER:LC-kartta",
+      "mapCoordinates": "Kartta X {x} · Z {y}",
+      "mapUnits": "karttayksiköt",
+      "noEmergencyZones": "Tässä huoneessa ei vielä ole hätäalueita. Piirrä monikulmio tai ympyrä lisätäksesi sellaisen.",
+      "noSignalTowers": "Ei vielä signaalitorneja. Signaali pysyy 100%:ssa, kunnes sijoitat tornin.",
+      "placeTower": "Aseta torni",
+      "points": "pistettä",
+      "range": "Kantama",
+      "room": "Huone",
+      "selectCenter": "Valitse keskipiste",
+      "selectCircleEdge": "Valitse ympyrän reuna",
+      "setCenterEdge": "Aseta keskipiste ja reuna",
+      "title": "ER:LC-kartan konfigurointi",
+      "towerName": "Tornin nimi",
+      "towers": "Tornit",
+      "transmitChannels": "LÄHETÄ KANAVAT",
+      "zoneName": "Vyöhykkeen nimi"
+    },
+    "featureCapture": {
+      "channelsGroups": "Kanavat ja ryhmät",
+      "exportedPngData": "Viety PNG-data",
+      "exportPng": "Vie läpinäkyvä PNG",
+      "preview": "Esikatselu",
+      "sfxCustomization": "Äänitehosteiden Mukauttaminen",
+      "transmissionLogs": "Lähetyslokit"
+    },
+    "gameIntegration": {
+      "integration": "Integraatio"
+    },
+    "integrationCapture": {
+      "adminPermission": "Ylläpitäjä",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "apiGetGroupsComment": "// Hae määritetyt ryhmät ja kanavat",
+      "approveMembers": "Hyväksy jäsenet",
+      "assignedUnits": "Määritetty: A-12, A-14",
+      "available": "SAATAVILLA",
+      "availableCall": "Saatavilla · Puhelu #1042",
+      "availableUnit": "SAATAVILLA · A-12",
+      "callAction": "Luo puhelu",
+      "callActionExample": "Luo puhelu 10-50:lle Main St:lle",
+      "callInformation": "Puhelun tiedot",
+      "callNumber": "Puhelu #1042",
+      "channelAction": "Vaihda radiokanava",
+      "channelActionExample": "Vaihda minut TAC 1:een",
+      "communityAdmin": "Yhteisön ylläpitäjä",
+      "communityRoles": "Yhteisön roolit",
+      "connectedToRadio": "Yhdistetty radioosi",
+      "countyDispatch": "Maakunnan hälytyskeskus",
+      "dispatchAiActions": "Lähetys-AI-toiminnot",
+      "dispatchCall": "LÄHETYS PUHELU",
+      "dispatchOne": "LÄHETYS 1",
+      "dispatchTeam": "Lähetystiimi",
+      "exampleRoleMapping": "ESIMERKKIROOLIEN MÄÄRITYS",
+      "exampleVoiceRequest": "ESIMERKKI ÄÄNI-PYYNTÖ",
+      "jordanLee": "A-14 · Jordan Lee",
+      "moveRadioUsers": "Siirrä radiokäyttäjiä",
+      "officialSdkLibraries": "Viralliset v2 SDK-kirjastot",
+      "panic": "Paniikki",
+      "patrol": "Partio",
+      "permissions": "Oikeudet",
+      "permissionsStayInSync": "Oikeudet pysyvät synkronoituina",
+      "plateAction": "Henkilö- tai rekisterikilven haku",
+      "plateActionExample": "Aja rekisterikilpi ABC123",
+      "playDispatchTones": "Toista hälytyssävelet",
+      "respondingCall": "Vastaus · Puhelu #1042",
+      "statusAction": "Tilapäivitykset",
+      "statusActionExample": "Aseta tilakseni käytettävissä",
+      "statusUpdates": "Tilapäivitykset",
+      "streamDeckAlt": "Fyysinen Elgato Stream Deck MK.2 Sonoran Radio -ohjaimilla sen 15 LCD-näppäimessä",
+      "trafficCollision": "Liikenneonnettomuus",
+      "trafficLocation": "Great Ocean Highway · Postinumero 3025",
+      "unitStatus": "Yksikön tila",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "Äänesi. Yhdistetty CADiin."
+    },
+    "integrationCard": {
+      "free": "ILMAINEN"
+    },
     "interactivePreview": {
+      "allClear": "Kaikki selvää",
+      "analog": "Analoginen",
       "audioLevel": "Äänitaso",
-      "startingPreview": "Esikatselu käynnistyy"
+      "cancel": "Peruuta",
+      "countyDispatch": "MAAKUNNAN HÄLYTYSKESKUS",
+      "digital": "Digitaalinen",
+      "emsDispatch": "EMS-lähetys",
+      "fireDispatch": "Palolähetys",
+      "fireEms": "PELASTUS / ENSIHOITO",
+      "hearDifference": "Kuule ero",
+      "microphonePreviewError": "Mikrofonin esikatselua ei voitu käynnistää. Tarkista selaimen lupa tai yritä esimerkkiä.",
+      "microphonePreviewOn": "Mikrofonin esikatselu on päällä",
+      "openLibrary": "Avaa {library} {registry}ssä",
+      "original": "Alkuperäinen",
+      "playingSample": "Toistaa näytettä",
+      "playSample": "Toista näyte",
+      "previewPlaying": "Esikatselu käynnissä",
+      "previewStopped": "Esikatselu pysäytetty",
+      "previewVolume": "Esikatselun äänenvoimakkuus",
+      "priorityTraffic": "Ensisijainen liikenne",
+      "publicSafety": "JULKINEN TURVALLISUUS",
+      "samplePlaybackError": "Esimerkkiä ei voitu toistaa. Yritä uudelleen.",
+      "sampleUnavailable": "Esimerkki ei saatavilla",
+      "startingPreview": "Esikatselu käynnistyy",
+      "stopPreview": "Lopeta esikatselu",
+      "tonePlaybackError": "Tätä ääntä ei voitu toistaa. Yritä uudelleen.",
+      "toneUnavailable": "Sävy ei saatavilla",
+      "tryMicrophone": "Testaa mikrofonini",
+      "vocoder": "Vokooderi · 3200",
+      "vocoderPreviewError": "Vocoderin esikatselua ei voitu käynnistää. Yritä uudelleen.",
+      "voiceEffectExamples": "Äänitehosteen esimerkit"
     },
     "mobi": {
+      "active": "AKTIIVINEN",
+      "audio": "ÄÄNI",
+      "channelGroup": "KANAVARYHMÄ",
+      "channels": "KANAVAT",
+      "currentSpeaker": "NYKYINEN PUHUJA",
       "distress": "HÄTÄ",
-      "scan": "SKANNAA"
+      "distressSignalDetected": "HÄTÄSIGNAALI HAVAITTU",
+      "header": "RADIO // YHTEYDET",
+      "multiChannel": "USEITA KANAVIA",
+      "multiGroup": "USEITA RYHMIÄ",
+      "noActiveTransmission": "EI AKTIIVISTA LÄHETYSTÄ",
+      "noLink": "EI YHTEYTTÄ",
+      "none": "EI MITÄÄN",
+      "online": "VERKOSSA",
+      "priorityAlert": "TÄRKEYSLYHÄTYS",
+      "quickAccess": "PIKASIIRTYMINEN",
+      "receive": "VASTAANOTA",
+      "scan": "SKANNAA",
+      "scanList": "Skannauslista",
+      "scannedChannel": "SKANNATTU KANAVA",
+      "selectedChannel": "VALITTU KANAVA",
+      "settings": "ASETUKSET",
+      "settingsTooltip": "Asetukset",
+      "signal": "SIGNAALI",
+      "signalFault": "SIGNAALIVIKA",
+      "spectrumOffline": "SPEKTRI POISSA VERKOSTA",
+      "standby": "VALMIUSTILA",
+      "temporaryLink": "VÄLIAIKAINEN LINKKI",
+      "transmission": "LÄHETYS",
+      "transmit": "LÄHETÄ",
+      "unknownChannel": "TUNTEMATON KANAVA",
+      "unknownGroup": "TUNTEMATON RYHMÄ",
+      "unknownUser": "TUNNISTAMATON KÄYTTÄJÄ"
+    },
+    "tabPanel": {
+      "defaultDescription": "Koe saumaton koordinointi paikkamerkkivälilehden sisällöllä reaaliaikaiseen yksikkötilan seurantaan, taajuuksien valvontaan ja kanavien hallintaan.",
+      "defaultTitle": "Sonoran Radio",
+      "imageAlt": "Välilehtipaneelin kuva"
     }
   },
   "hotkeys": {
@@ -398,24 +787,124 @@
     "tooltip": "Tuo JSON-tiedosto"
   },
   "integrationPages": {
+    "apiLibrariesAria": "Sonoran API-kirjastot",
+    "armaDescription": "Yhdistä Sonoran Radio suoraan Arma 3:een Arma 3 -integraatioilla.",
+    "back": "Takaisin",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "LÄHETYS PUHELUIDEN ESIKATSELU",
+        "description": "Liity Sonoran CAD:n hälytyskeskuskutsuun ja tarkastele puhelun tietoja radiossa.",
+        "label": "LÄHETYS PUHELUT"
+      },
+      "liveMap": {
+        "alt": "Paikkamerkki Live Map -esikatselu",
+        "description": "Näe radiotornit Sonoran CADin live-kartalla.",
+        "label": "Reaaliaikainen kartta"
+      },
+      "panicButton": {
+        "alt": "Paniikkipainikkeen esikatselu",
+        "description": "Vaihda Sonoran CAD -paniikkitilasi radio-paniikkipainikkeella.",
+        "label": "Paniikkipainike"
+      }
+    },
+    "comingSoon": "Tulossa pian.",
+    "erlcDescription": "Yhdistä Sonoran Radio suoraan ER:LC:hen ER:LC-integraatioilla.",
+    "fivemDescription": "Käytä Sonoran Radion ilmaista FiveM-radiokomentosarjaa—virallista peliresurssia—tuodaksesi ääniradion palvelimellesi. Tutustu alla oleviin integraatioihin ja seuraa sitten {setupGuide}.",
     "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "Kuva Arma-pelaajasta lähettämässä AI-kuuloalueen sisällä, sekä modin kuuloasetukset.",
+            "description": "Anna lähellä olevien AI:n havaita lähettäviä pelaajia säädettävällä kuuloalueella. Saatavilla Arma-integraation esikatselussa.",
+            "label": "AI-kuulo"
+          },
+          "itemFrames": {
+            "alt": "BLUFOR- ja OPFOR-esineiden luokkakartoitukset niiden vastaavia Sonoran Radio -työpöytäpeittokuvakehyksiä vasten.",
+            "description": "BLUFOR- tai OPFOR-radioesineesi valitsee sitä vastaavan työpöytäpeittokuvan. Määritä omat esineesi yhteisösi kehyksiin.",
+            "label": "Varaston radiosynkronointi"
+          },
+          "terrainSignal": {
+            "alt": "Kuvitettu Arma-toistimen peitto, joka näyttää selkeän signaalireitin ja heikentyneen signaalin maaston takana.",
+            "description": "Etäisyys ja maasto heikentävät tornin vastaanottoa. Tarkkaile käyttöliittymän signaalia ja kuule muutos kanavatehosteiden kautta.",
+            "label": "Maasto ja signaali"
+          },
+          "towers": {
+            "alt": "Arma-signaalitorni, jossa esimerkin Zeus-hallintalaitteet kantamalle, kapasiteetille ja teholle.",
+            "description": "Sijoita torneja Edeniin tai Zeukseen. Kantama, teho ja tuho muovaavat radiopeittoasi.",
+            "label": "Pelin sisäiset tornit"
+          }
+        },
+        "tabsLabel": "Arma 3 -integraation ominaisuudet"
+      },
       "erlc": {
         "features": {
           "desktopOverlay": {
-            "description": "Pidä radio Robloxin päällä pelatessasi. Valitse kehys, vaihda kanavia ja seuraa live-tornisignaalia työpöytäsovelluksesta."
+            "alt": "Sonoran Radio -työpöytäpeittokuva, joka näyttää Liberty Countyn hälytyskanavat ER:LC-poliisikohtauksen päällä.",
+            "description": "Pidä radio Robloxin päällä pelatessasi. Valitse kehys, vaihda kanavia ja seuraa live-tornisignaalia työpöytäsovelluksesta.",
+            "label": "Työpöytäkysely"
           },
           "emergencyZones": {
-            "description": "Piirrä hätäalueet ja valitse, mitkä hätäviestikanavat ovat käytettävissä kullakin alueella."
+            "alt": "ER:LC-kartta, joka näyttää esimerkin hätäalueesta ja sen sallitut hätälähetyskanavat.",
+            "description": "Piirrä hätäalueet ja valitse, mitkä hätäviestikanavat ovat käytettävissä kullakin alueella.",
+            "label": "Hätäalueet"
+          },
+          "liveSignal": {
+            "alt": "ER:LC-kartta, jossa on virtuaalisen tornin kuuluvuusalue ja linkitetyt pelaajat Sonoran Radio -peittokuvan vieressä näyttämässä reaaliaikaista signaalin voimakkuutta.",
+            "description": "Aseta radiomastoja muokataksesi radiopeittoa Liberty Countyssa. Ajaessasi päällekkäisnäkymä näyttää reaaliaikaisen signaalin voimakkuuden, ja radioefektit heijastavat vastaanottoasi.",
+            "label": "Virtuaaliset tornit"
           }
-        }
+        },
+        "tabsLabel": "ER:LC-integraation ominaisuudet"
       }
-    }
+    },
+    "integrationTitleSuffix": "Integraatio",
+    "learnMore": "Lisätietoja: {title}",
+    "meta": {
+      "armaDescription": "Tutustu Sonoran Radion integraatioihin Arma 3:lle, mukaan lukien pelin sisäiset tornit, inventaarion radion synkronointi, maaston signaali ja tekoälyn kuulo.",
+      "armaTitle": "Arma 3 -integraatiot | Sonoran Radio",
+      "erlcDescription": "Tutustu Sonoran Radion integraatioihin ER:LC:lle, mukaan lukien työpöydän päällekkäisnäkymä, virtuaalitornit ja hätäalueet.",
+      "erlcTitle": "ER:LC-integraatiot | Sonoran Radio",
+      "fivemDescription": "Käytä Sonoran Radion ilmaista FiveM-radiokomentosarjaa, virallista peliresurssia, tuodaksesi ääniradion palvelimellesi.",
+      "fivemTitle": "FiveM-integraatiot | Sonoran Radio"
+    },
+    "openDocumentation": "Avaa dokumentaatio kohteelle {title}",
+    "registryLink": "{name} palvelussa {registry}",
+    "setupGuide": "asennusopas",
+    "streamDeck": {
+      "calloutDescription": "Katso dokumentaatio saadaksesi lisätietoja ja laajennuksen asennusvaiheet.",
+      "calloutTitle": "Haluatko lisätietoja?",
+      "description": "Tuo useimmin käyttämäsi Sonoran Radio -säätimet Stream Deckin näppäimeen tai valitsimeen. Vaihda kanavien välillä, lähetä ja hienosäädä ääntä ilman, että virtasi katkeaa.",
+      "deviceAlt": "Sonoran Radio -käsilaite, jossa näkyy kanavasäätimet",
+      "heading": "Radio. Yhden kosketuksen päässä.",
+      "highlights": {
+        "actions": {
+          "description": "Laita AI-tila, Tone Board ja työpöytäkaiutukset deckiisi tai käytä toimintoja FiveM-pelin sisäisen radion kanssa.",
+          "title": "Lisää radiotoimintoja"
+        },
+        "audio": {
+          "description": "Säädä radiota, kanavaa, tehosteita ja AI-ääntä tuetuilla säätimillä.",
+          "title": "Säädä ääniasetuksesi"
+        },
+        "channelShortcuts": {
+          "description": "Siirry kanavien ja ryhmien välillä tai vaihda lähetys- ja skannauslistoja napautuksella.",
+          "title": "Kanavan pikavalinnat"
+        },
+        "pushToTalk": {
+          "description": "Pidä lähetä lähellä ja lähetä ilman, että vaihdat takaisin radio­sovellukseen.",
+          "title": "Paina puhuaksesi, näppäimeen"
+        }
+      },
+      "platformKeysDials": "Näppäimet + säätimet",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Stream Deckin ominaisuudet"
   },
   "landingPage": {
     "API_Libraries": {
       "desc": "Asennuslinkit virallisille Sonoran SDK -kirjastoille, joita käytetään v2 API:n kanssa.",
       "title": "API-kirjastot"
     },
+    "armaIntegrationDescription": "Yhdistä Sonoran Radio suoraan Arma 3:een Arma 3 -integraatioilla.",
     "BackgroundAudio": {
       "desc": "Vastaatko puheluun? Sonoran Radio tuo reaaliaikaiset sireenit, laukaukset ja многое suoraan mikrofoniisi äärimmäistä uppoutumista varten.",
       "title": "Taustaääni"
@@ -471,6 +960,7 @@
       "title": "Pelinsisäiset hätäpuhelut"
     },
     "erlcIntegrationDescription": "Yhdistä Sonoran Radio suoraan ER:LC:hen ER:LC-integraatioilla.",
+    "exploreIntegrations": "Tutustu integraatioihin",
     "faq": {
       "free": {
         "answer": "Kyllä. Dispatch AI on täysin käytettävissä Free-sopimuksessa mukana tulevilla kuukausittaisilla krediiteillä. Maksullisiin sopimuksiin sisältyy korkeammat krediittirajat.",
@@ -499,9 +989,32 @@
       "eyebrow": "Suora integraatio",
       "heading": "Integraatiot"
     },
+    "fivemRadioIntegration": "Radio-integraatio",
+    "gameIntegrations": "Peli-integraatiot",
     "games": {
+      "arma3": {
+        "description": "Aloita ilmaisilla radiokanavilla ja työpöytäpeittokuvalla Arma 3:lle. Esikatsele Arma-integraatiota tehtävätorneilla, inventaarioon linkitetyillä kehyksillä ja maastosignaalilla.",
+        "headline": "Ilmainen radio Arma 3 -ryhmällesi",
+        "name": "Arma 3",
+        "title": "Ilmainen Arma 3 -radio ja työpöytäpeitto | Sonoran Radio"
+      },
       "erlc": {
-        "name": "ER:LC"
+        "description": "Aloita ilmainen ER:LC-ääniradio työpöytäpeittokuvalla Roblox Emergency Response: Liberty Countyyn. Yhdistä tilit ja lisää virtuaalisia torneja reaaliaikaisella signaalikatteella.",
+        "headline": "Ilmainen ER:LC-radioäänesi yhteisöllesi",
+        "name": "ER:LC",
+        "title": "Ilmainen ER:LC-puhe-radio ja työpöytäpeitto | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "Aloita ilmaiseksi FiveM-radio skriptillä, työpöytäpeittokuvalla ja hälytyspaneelilla. Yhdistä Sonoran Radio GTA V -roolipelipalvelimeesi FiveM-integraation avulla.",
+        "headline": "Ilmainen radio FiveM-yhteisöllesi",
+        "name": "FiveM",
+        "title": "Ilmainen FiveM-radiokäsikirjoitus ja hälytyspaneeli | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "Pidä Star Citizen -miehistösi yhteydessä ilmaisilla radiokanavilla, hälytystyökaluilla ja teemalla varustetulla työpöytäpeittokuvalla. Koordinoi viestintää ympäri verseä.",
+        "headline": "Ilmainen radio Star Citizen -miehistöllesi",
+        "name": "Star Citizen",
+        "title": "Ilmainen Star Citizen -radio ja overlay | Sonoran Radio"
       }
     },
     "hero": {
@@ -521,6 +1034,7 @@
     "meta": {
       "audienceType": "Pelaajat ja yhteisömanagerit",
       "description": "Realistinen radioviestintäohjelmisto FiveM:lle, ER:LC:lle, Arma 3:lle ja roolipelayhteisöille.",
+      "imageAlt": "Sonoran Radio -lähetyspaneeli ja työpöytäpeitto",
       "keywords": "Sonoran Radio, peliradio, FiveM-radio, ER:LC-radio, Arma 3 -radio, roolipeliviestintä, hälytysohjelmisto, työpöydän radiooverlay, ilmainen FiveM-radio, ilmainen ER:LC-radio",
       "ogTitle": "Sonoran Radio - Pelaamisen radioviestintä",
       "productName": "Sonoran Radio",
@@ -556,6 +1070,7 @@
       "dispatchAdmin": "Lähetys- ja hallintapaneeli",
       "integrations": "Integraatiot"
     },
+    "softwareIntegrations": "Ohjelmistointegraatiot",
     "Sonoran_CAD": {
       "desc": "Tämä lisäosa mahdollistaa Sonoran Radio -asiakkaiden yhdistää radion Sonoran CADiin. Näytä yksikkösi tila, hälytyksen kutsutiedot, vaihda hälytys päälle tai pois, ja paljon muuta!",
       "title": "Sonoran CAD"
@@ -569,6 +1084,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Tutustu Sonoran Studioon",
       "description": "Muunna reaaliaikainen radiotoiminta suoratoiston päällekkäisnäkymiksi, reaktiiviseksi älyvalaistukseksi ja kädet vapaiksi automaatioiksi.",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -639,7 +1155,15 @@
     "serverHosting": "Palvelinhosting"
   },
   "management": {
-    "forceJoinAsOwner": "Pakota liittyminen omistajana"
+    "eventType": "Tapahtuman tyyppi",
+    "forceJoinAsOwner": "Pakota liittyminen omistajana",
+    "forceLeave": "Pakota poistuminen",
+    "payloadJson": "Hyötykuorman JSON",
+    "pushEventDiagnostic": "Puskutapahtuman diagnostiikka",
+    "pushUrl": "Push-URL",
+    "sendTestPushEvent": "Lähetä testipush-tapahtuma",
+    "storedRoomPushUrl": "Tallennettu huoneen push-URL",
+    "timeout": "Aikakatkaisu (ms)"
   },
   "managementPage": {
     "searchTitle": "Etsi yhteisö",
@@ -652,6 +1176,8 @@
       "apiInfoTitle": "API-tiedot",
       "communityApiKeyField": "Yhteisön API-avain",
       "communityLogs": "Yhteisön lokit",
+      "communityLogsEmpty": "Ei lokimerkintöjä löytynyt",
+      "communityLogsLoading": "Ladataan lokeja...",
       "logAccount": "Tili (tili)",
       "logContent": "Sisältö",
       "logDate": "Päivämäärä",
@@ -692,9 +1218,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Lisää painike",
+      "addLayout": "Lisää asettelu",
       "addScreen": "Lisää näyttö",
       "addVariant": "Lisää tämä muunnelma",
       "addVehicleOverride": "Lisää ajoneuvon ohitus",
+      "aircraftLayout": "Ilma-aluksen asettelu",
       "armaBlufor": "BLUFOR-esimerkki",
       "armaExamples": "ARMA 3 -esimerkit",
       "armaItemClassNames": "ARMA-tuotteiden luokkanimet",
@@ -715,6 +1243,8 @@
       "deleteFrame": "Poista kehys",
       "duplicateVehicleName": "Kullakin ajoneuvon nimellä voi olla vain yksi korvaus.",
       "editHint": "Vedä siirtääksesi · Ctrl + vedä muuttaaksesi kokoa · Napsauta painiketta hiiren kakkospainikkeella poistaaksesi",
+      "fit": "Sovita",
+      "fitRadioToCanvas": "Sovita radio kankaalle",
       "frameBodyImage": "Kehyksen kehokuva",
       "frameLabel": "Kehyksen nimi",
       "frameName": "Kehyksen nimi",
@@ -723,6 +1253,10 @@
       "importFromSkin": "Tuo FiveM:stä (skin.json)",
       "importNoFramesFound": "Ei kehyksiä, joissa olisi body.width ja screen, löytynyt.",
       "label": "Nimi",
+      "migratedFramesReadOnly": "Siirretyt FiveM-kehykset pysyvät saatavilla Free-versiossa. Päivitä Prohon, jos haluat muokata tätä kehystä tai vaihtaa sen kuvat.",
+      "migratedFramesReset": "Siirretyt FiveM-kehykset voidaan nollata vain Prolla.",
+      "moveLayoutEarlier": "Siirrä asettelua aiemmaksi",
+      "moveLayoutLater": "Siirrä asettelua myöhemmin",
       "newFrame": "Uusi kehys",
       "noneFound": "Tälle yhteisölle ei löytynyt päällekkäiskehyksiä.",
       "overrideFramesRequired": "Valitse vähintään yksi kehys jokaista ajoneuvon ohitusta varten.",
@@ -760,6 +1294,8 @@
         "onFoot": "Jalankulkutila",
         "vehicle": "Ajoneuvo"
       },
+      "vehicleClasses": "Ajoneuvoluokat",
+      "vehicleClassesHint": "Tyhjennä valinta, jotta kaikki ajoneuvoluokat täsmäävät. Aikaisemmat asettelut menevät edelle.",
       "vehicleClassNames": {
         "boats": "Veneet",
         "commercial": "Kaupallinen",
@@ -786,12 +1322,15 @@
         "utility": "Hyötyajoneuvo",
         "vans": "Pakettiautot"
       },
+      "vehicleLayout": "Ajoneuvon asettelu",
       "vehicleName": "ER:LC-ajoneuvon nimi",
       "vehicleNameRequired": "Anna jokaiselle korvaukselle ajoneuvon nimi.",
       "vehicleOverrideHint": "Ajoneuvojen nimet täsmäävät täsmälleen, kirjainkoolla ja alun tai lopun välilyönneillä ei ole väliä. Ota työpöytäkehyksessä käyttöön ER:LC:n ajoneuvon tunnistus käyttääksesi ajoneuvokohtaista kehystä, kun käytettävissä on vain yksi ajoneuvon nimi.",
       "visibilityHint": "Valitse oletustyöpöytäkehykset jalan liikuttaessa tai kun mikään ajoneuvon nimi ei täsmää. Ajoneuvojen ohitukset valitsevat kehykset automaattisesti, kun ER:LC:n ajoneuvon tunnistus löytää vastaavan nimen.",
       "visibilityTitle": "Kehyksen näkyvyys",
-      "visibleFrames": "Näkyvät kehykset"
+      "visibleFrames": "Näkyvät kehykset",
+      "zoomIn": "Lähennä",
+      "zoomOut": "Loitonna"
     },
     "customizeMenu": {
       "ai": "Tekoäly",
@@ -1177,13 +1716,19 @@
       "approveBtn": "Hyväksy",
       "ban": "Estä",
       "banBtn": "Estä",
+      "banConfirm": "Olet estämässä pysyvästi {count} jäsentä. He eivät voi liittyä uudelleen, mutta esto voidaan poistaa.",
       "cannotModifyPermsOfMyself": "En voi muuttaa omia käyttöoikeuksiani",
+      "communityAccess": "Yhteisön käyttöoikeus",
+      "communityAccessDescription": "Hyväksyy jäsenen perus Sonoran Radio -käyttöoikeuteen. Ei myönnä hallintaoikeuksia eikä pääsyä yksityiseen profiiliin.",
+      "confirmTitle": "Oletko varma?",
       "copyDiscordId": "Kopioi Discord ID",
       "copyPermissionGeneratorId": "Kopioi oikeuden tunnus",
       "copyRobloxId": "Kopioi Roblox-tunnus",
       "discordIdCopied": "Discord-tunnus kopioitu leikepöydälle.",
       "displayName": "Näyttönimi",
+      "displayNameUpdated": "Näyttönimi päivitetty",
       "editMemberPerms": "Muokkaa jäsenen oikeuksia",
+      "enterDisplayName": "Anna uusi näyttönimi käyttäjälle {name}",
       "errAddInvalidAccount": "Annettua käyttäjänimeä ei ole olemassa",
       "errAddUnknown": "Tuntematon virhe lisättäessä hallinnoitsijaa",
       "errRemoveUnknown": "Tuntematon virhe poistettaessa hallinnoitsijaa",
@@ -1193,17 +1738,42 @@
       "filterBanned": "Estetty",
       "filterPending": "Odottaa",
       "kickBtn": "Poista",
+      "kickConfirm": "Olet poistamassa {count} jäsenen/jäsenten oikeudet. He voivat liittyä takaisin yhteisön tunnuksella.",
       "noDiscordAccountLinked": "Tähän käyttäjään ei ole linkitetty Discord-tiliä.",
       "noRobloxAccountLinked": "Tähän käyttäjään ei ole linkitetty Roblox-tiliä.",
       "owner": "Omistaja",
       "ownerHasAllPerms": "Yhteisön omistajalla on kaikki käyttöoikeudet",
       "paysSubscription": "Maksaa tilauksen",
       "pending": "Odottaa",
+      "permissionAdmin": "Ylläpitäjä",
+      "permissionAdminDescription": "Antaa täydet oikeudet hallita ja käyttää kaikkia radioyhteisön ominaisuuksia.",
+      "permissionApproveMembers": "Hyväksy jäsenet",
+      "permissionApproveMembersDescription": "Sallii radioyhteisön odottavien käyttäjien hyväksymisen tai hylkäämisen.",
+      "permissionBanCommunity": "Yhteisöstä estäminen",
+      "permissionBanCommunityDescription": "Antaa luvan estää jäseniä pysyvästi yhteisöstä.",
+      "permissionCallOnly": "Vain puhelut",
+      "permissionCallOnlyDescription": "Rajoittaa käyttäjän soittamaan vain 911-puheluja. Piilottaa Dispatch-välilehden. Ei vaikuta ylläpitäjiin.",
+      "permissionChangeDisplayName": "Vaihda näyttönimi",
+      "permissionChangeDisplayNameDescription": "Mahdollistaa käyttäjän muokata omaa näyttönimeään.",
       "permissionGeneratorBtn": "Oikeusgeneraattori",
       "permissionGeneratorId": "Oikeuden tunnus",
       "permissionGeneratorSubtitle": "Luo käyttäjän käyttöoikeustunnus ulkoiseen käyttöön.",
       "permissionGeneratorTitle": "Oikeusgeneraattori",
+      "permissionKickCommunity": "Yhteisöstä poistaminen",
+      "permissionKickCommunityDescription": "Antaa luvan poistaa jäseniä yhteisöstä.",
+      "permissionKickRadio": "Poista radiosta",
+      "permissionKickRadioDescription": "Myöntää luvan erottaa jäseniä radiokanavalta.",
+      "permissionManageDisplayNames": "Hallitse näyttönimiä",
+      "permissionManageDisplayNamesDescription": "Sallii käyttäjän muokata muiden jäsenten näyttönimiä.",
+      "permissionMoveRadioUsers": "Siirrä radiokäyttäjiä",
+      "permissionMoveRadioUsersDescription": "Sallii jäsenten siirtämisen radio-kanavien välillä.",
+      "permissionOverrideTalkover": "Puheenläpäisyn suojauksen ohitus",
+      "permissionOverrideTalkoverDescription": "Sallii käyttäjän ohittaa puheensisyötön suojaus kaksoisnapsauttamalla PTT-painikettaan.",
+      "permissionPlayDispatchTones": "Toista hälytyssävelet",
+      "permissionPlayDispatchTonesDescription": "Antaa luvan toistaa hälytysäänet radion kautta.",
       "permissionsBtn": "Oikeudet",
+      "permissionStunRadio": "Radio tainnutus",
+      "permissionStunRadioDescription": "Sallii käyttäjien lamauttaa (estää käytön) toisen radiokäyttäjän 30 s ajaksi.",
       "privateChannels": "Yksityiset kanavat",
       "remove": "Poista",
       "removeWarn": "Varoitus",
@@ -1218,6 +1788,7 @@
       "title": "Yhteisön jäsenet",
       "traits": "Piirteet",
       "unbanBtn": "Poista porttikielto",
+      "unbanConfirm": "Olet poistamassa {count} jäsenen/jäsenten eston. He voivat liittyä uudelleen yhteisön tunnuksella.",
       "username": "Käyttäjänimi"
     },
     "membersTab": "Jäsenet",
@@ -1595,6 +2166,26 @@
     "welcome": "Tervetuloa",
     "welcomeTo": "Tervetuloa Sonoran Radioon!"
   },
+  "mobiPreview": {
+    "channelName": "OPERAATIOT TAC 1",
+    "citywide": "KAUPUNGINLAAJUINEN",
+    "frameName": "Mobi-esikatselu",
+    "frameTitle": "Mobi radiokehys",
+    "groupName": "STANTONIN TURVALLISUUS",
+    "localPreview": "LOKALISOITU ESIKATSELU",
+    "modes": {
+      "distress": "HÄTÄ",
+      "idle": "Jouten",
+      "jammed": "Häiritty",
+      "receiving": "Vastaanotetaan",
+      "transmitting": "Lähettää"
+    },
+    "note": "Vaihda yllä olevia tiloja esikatellaksesi reaaliaikaisia radioilmaisimia. Näytön ohjaimet vaativat yhdistetyn radiokeskustelun.",
+    "signal": "Signaali",
+    "speakerName": "A. MERCER",
+    "themePreview": "Teeman esikatselu",
+    "yourRadio": "SINUN RADIO"
+  },
   "portal": {
     "beginTitle": "Aloita Matkasi",
     "beginYourJourney": "Aloita matkasi!",
@@ -1719,16 +2310,29 @@
       "enableTransmissionRecordings": "Ota lähetyksen tallennus käyttöön",
       "erlcHud": {
         "autoWindow": "Etsi Roblox-ikkuna automaattisesti",
+        "checkPermission": "Tarkista käyttöoikeus",
         "enable": "Käytä näytöntunnistusta",
-        "lastReading": "Viimeinen mittarin tarkistus",
+        "lastReading": "Viimeisin ELS-ohjaimen tarkistus",
         "noWindows": "Roblox-ikkunaa ei löytynyt. Avaa ER:LC ja päivitä sitten ikkunoiden luettelo.",
-        "privacy": "Sonoran Radio tarkistaa tämän laitteen Roblox-nopeusmittarin vaihtaakseen ajoneuvovariaatioita. Jos ER:LC ilmoittaa, että tililläsi on tasan yksi ajoneuvo, sen nimi voi myös valita tietyn rungon. Näyttökuvia ei tallenneta eikä ladata. macOS:ssa sinun on ehkä sallittava Näytön ja järjestelmän äänen tallennus Sonoran Radiolle.",
+        "openSettings": "Avaa järjestelmäasetukset",
+        "permissionDenied": "Näytön tallennus on pois käytöstä Sonoran Radiolle. Ota se käyttöön, sitten lopeta sovellus kokonaan ja avaa se uudelleen.",
+        "permissionNotDetermined": "macOS tarvitsee luvan lukea Roblox-ikkunaa. Pyydä lupa napsauttamalla Tarkista käyttöoikeus tai ota se käyttöön Järjestelmäasetuksissa.",
+        "permissionRestricted": "Näytön tallennus on rajoitettu tällä Macilla. Pyydä Macin ylläpitäjää sallimaan käyttöoikeus.",
+        "permissionStepEnable": "Ota Sonoran Radio käyttöön. Kehityksen aikana ota Electron käyttöön, jos macOS listaa sen sovellukseksi.",
+        "permissionStepOpen": "Avaa Järjestelmäasetukset → Tietosuoja ja turvallisuus → Näytön ja järjestelmän äänitallennus (Näytön tallennus vanhemmissa macOS-versioissa).",
+        "permissionStepRestart": "Sulje Sonoran Radio kokonaan ja avaa uudelleen käyttöoikeuden muuttamisen jälkeen.",
+        "permissionTitle": "Salli näytön tallennus",
+        "permissionUnknown": "Sonoran Radio ei voinut vahvistaa näytön tallennuksen käyttöoikeutta. Tarkista Järjestelmäasetukset ja sulje sitten appi kokonaan ja avaa se uudelleen.",
+        "privacy": "Sonoran Radio tarkistaa tämän laitteen oikean alakulman ELS-ohjaimen vaihtaakseen ajoneuvoversioita. Ohjaimen on oltava näkyvissä; ajoneuvoissa ilman sitä käytetään jalkaisin-näkymää. Hätävalot voivat olla päällä tai pois päältä. Näyttökuvia ei tallenneta eikä ladata.",
+        "readingElsAbsent": "ELS-ohjainta ei löydy",
+        "readingElsFound": "ELS-ohjain löydetty",
         "readingGaugeAbsent": "Mittaria ei löydy",
         "readingGaugeFound": "Mittari löytyi",
         "readingUncertain": "Epävarma vastaavuus",
         "readingUnreadable": "Roblox-ikkunaa ei voida lukea",
         "readingWaiting": "Odotetaan Roblox-kaappausta",
         "refreshWindows": "Päivitä Roblox-ikkunat",
+        "settingsOpenFailed": "Järjestelmäasetuksia ei voitu avata. Avaa ne manuaalisesti yllä olevien vaiheiden avulla.",
         "status": "Havaitsemistila",
         "statusChecking": "Tarkistetaan Roblox-ikkunaa",
         "statusDisabled": "Pois",
@@ -1736,7 +2340,7 @@
         "statusInVehicle": "Ajoneuvossa",
         "statusLooking": "Etsitään Roblox-ikkunaa",
         "statusOnFoot": "Jalankulkutila",
-        "statusPermissionDenied": "Näytön tallennusoikeus evätty",
+        "statusPermissionDenied": "Näytön tallennuksen käyttöoikeus vaaditaan",
         "statusUnknown": "Ajoneuvon tilaa ei voida määrittää",
         "title": "ER:LC-ajoneuvontunnistus",
         "vehicleAmbiguous": "ER:LC löysi useita omistettuja ajoneuvojen nimiä eikä voi valita nimen mukaista kehyskorvausta.",
@@ -1821,6 +2425,8 @@
       "audioMode": "Äänitila",
       "audioRecording": "Äänitallennus",
       "broadcastTo": "Lähetä kohteeseen",
+      "channel": "Kanava",
+      "channelGroup": "Kanavaryhmä",
       "count": "Määrä",
       "deleteStack": "Poista pino",
       "generate": "Luo",
@@ -1831,6 +2437,7 @@
       "newTone": "Uusi sävy",
       "noSavedStacks": "Ei vielä tallennettuja pinoja.",
       "noTones": "Ei ääniä",
+      "ok": "OK",
       "playStack": "Toista pino (kaksoisnapsauta)",
       "preview": "Esikatselu",
       "recording": "Tallennus",
@@ -1845,7 +2452,11 @@
       "speechToText": "Puheesta Tekstiksi",
       "speed": "Nopeus",
       "stack": "Pino",
+      "stackNameRequired": "Pinon nimi vaaditaan.",
+      "stackNeedsTones": "Lisää äänet pinoon ennen tallentamista.",
+      "stopPlayback": "Lopeta toisto",
       "subtitle": "Mukauta yhteisösi lähetyssävelet",
+      "temporaryTtsError": "Tilapäisen TTS-sävyn valmistelu epäonnistui.",
       "title": "Säveltaulu",
       "toneLabel": "Sävelen etiketti",
       "tonesTab": "Sävyt",
@@ -1909,6 +2520,17 @@
     "checkSpam": "Varmista, että tarkistat roskapostikansion, jos et löydä sähköpostia.",
     "emailPreferencesDesc": "Lähetä minulle tärkeitä ilmoituksia, päivityksiä ja tarjouksia.",
     "verifyPassword": "Vahvista salasana"
+  },
+  "socials": {
+    "community": "Yhteisö",
+    "connectWithUs": "Yhdistä kanssamme",
+    "followUs": "Seuraa meitä",
+    "instagramDescription": "Tuotteen kohokohdat ja tiimipäivitykset",
+    "joinDiscord": "Liity Discordiin",
+    "joinDiscordDescription": "Saat ilmoitukset, tuen, yhteisöpäivitykset ja tuoteaiheiset keskustelut yhdessä paikassa.",
+    "joinDiscordTitle": "Liity Sonoran Softwaren Discordiin",
+    "tiktokDescription": "Lyhyitä päivityksiä Sonoran-tiimiltä",
+    "youtubeDescription": "Oppaat, demot ja julkaisut"
   },
   "splash": {
     "feats": "Täydennä henkilöstön välisellä tekstiviestinnällä ja Sonoran CAD\n      -integraatiolla, Sonoran Radio tuo monipuoliset viestintälaitteet\n      suoraan pelinsisäisten henkilöstön ja päivystäjien käsiin. Kokeile sitä\n      ilmaiseksi tänään!",

@@ -1,17 +1,125 @@
 {
+  "account": {
+    "allowUsageAnalytics": "允許使用分析",
+    "deleteAccountError": "刪除您的帳戶時發生錯誤。",
+    "deleteAccountMessage": "您確定要永久刪除您的帳號嗎？",
+    "deleteAccountSuccess": "帳號已成功刪除。",
+    "deleteAccountTitle": "刪除帳號",
+    "privacyPolicy": "隱私政策",
+    "usageAnalyticsDescription": "與 Sonoran Software 和 Google Analytics 分享有限的應用程式使用情況。這不會用於廣告或跨應用程式追蹤。",
+    "usageAnalyticsTitle": "使用分析"
+  },
+  "analyticsConsent": {
+    "allow": "允許",
+    "description": "允許有限的使用分析以協助改善此應用程式。無廣告或跨應用程式追蹤。",
+    "notNow": "暫不",
+    "privacyPolicy": "隱私政策",
+    "title": "協助改善 Sonoran Radio"
+  },
   "billing": {
+    "billingPortalUnavailable": "訂閱載入後可使用帳單入口網站。",
+    "contactSupport": "聯絡支援",
+    "description": "管理訂閱，指派至 Radio 社群，並透過 Stripe 更新帳單。",
     "newSubDialog": {
       "billedQuarterly": "按季收費 {price}",
       "billingCycle": "帳單週期",
       "monthly": "每月",
       "oneDescription": "Pro CAD、CMS、Radio、Sonoran Studio 和 FiveM 主機託管整合於一個套裝。",
+      "plusDescription": "更多 容量 與 自訂 適用於 活躍 社群。",
+      "proDescription": "解鎖無限擴展與進階 Radio 功能。",
+      "professionalSetup": "為您的社群提供 專業設定協助。",
       "quarterly": "每季",
       "studio": "Sonoran Studio 社群授權",
       "studioDescription": "智慧燈光和串流小工具，適用於您的社群。包含於 Sonoran One。",
       "studioPrice": "$7.99/月",
       "studioQuarterlyBilled": "$18.00",
       "studioQuarterlyPrice": "US$6.00/月"
-    }
+    },
+    "noBillingPortalUrl": "尚未提供帳單入口網站 URL。",
+    "openBillingPortal": "開啟帳單入口網站",
+    "paymentCenter": "付款中心",
+    "pricingCompare": {
+      "backgroundAudio": "遊戲內背景音訊",
+      "bestValue": "最划算",
+      "bigDaddyAnimations": "大爸爸 無線電 動畫",
+      "bundleDescription": "Pro CAD、CMS、Radio、Sonoran Studio 和免費 FiveM 主機託管整合於一個訂閱。",
+      "choosePlan": "選擇 {name}",
+      "chooseSonoranOne": "選擇 Sonoran One",
+      "communitySoundEffects": "全社群音效",
+      "comparePlans": "比較方案",
+      "connectedUsers": "已連線用戶",
+      "customCommunityId": "自訂社群 ID",
+      "customDomain": "自訂網域",
+      "customVoiceEffects": "自訂語音效果",
+      "description": "所有付費方案皆可按月或按季購買。按季訂閱可享 25% 折扣。",
+      "desktopOverlayFrames": "桌面覆蓋框架",
+      "dispatchAiPrompts": "Dispatch AI 每月提示詞",
+      "freeCopy": "免費副本",
+      "freeDescription": "從核心電台工具開始，適用於較小的社群。",
+      "freePrompts": "約 140-360",
+      "monthlyPrice": "{price}/月",
+      "mostPopular": "最受歡迎",
+      "multiServer": "多伺服器",
+      "nearbyRadioChatter": "附近的 無線電 閒聊",
+      "oneDefault": "1 伺服器",
+      "oneServer": "1 伺服器",
+      "perUserSoundEffects": "每位使用者音效",
+      "planFree": "免費",
+      "planPlus": "加值",
+      "planPro": "專業版",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "新增自訂功能和更多空間供活躍角色扮演。",
+      "plusPrompts": "約 1,400-3,600",
+      "proDescription": "解鎖無限擴展與進階 Radio 功能。",
+      "proPrompts": "約 4,200-10,750",
+      "radioPlans": "電台方案",
+      "rocketNodeHosting": "RocketNode FiveM 主機代管",
+      "saveTwentyFive": "省 25%",
+      "scannersAndJammers": "掃描器和訊號干擾器",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radio Pro",
+      "sonoranStudioLicense": "Sonoran Studio 社群授權",
+      "tenUsers": "10",
+      "thirtyUsers": "30",
+      "threeCustom": "無限自訂",
+      "threeDefault": "3 倍預設",
+      "transmissionLogs": "傳輸記錄",
+      "unlimited": "無限",
+      "unlimitedCustom": "無限自訂"
+    },
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "與真人交談",
+    "statuses": {
+      "trialing": "試用中"
+    },
+    "subscriptionsDescription": "查看有效訂閱，指派 Radio 社群，並管理無效訂閱。",
+    "subscriptionsTitle": "您的訂閱",
+    "subscriptionTable": {
+      "active": "啟用中",
+      "cancelledDescription": "已取消且已過期的訂閱將顯示在此處。",
+      "communityId": "社群 ID {id}",
+      "createDescription": "建立訂閱以解鎖更多社群的 Radio 功能。",
+      "endDate": "結束日期",
+      "inactiveCancelled": "未啟用 / 已取消",
+      "loading": "正在載入訂閱",
+      "loadingDescription": "正在擷取您最新的 Stripe 訂閱。",
+      "noActive": "沒有啟用的訂閱",
+      "noInactive": "沒有停用的訂閱",
+      "planRadioPlus": "加強版",
+      "planRadioPro": "專業版",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "Sonoran Radio",
+      "purchasedNotApplied": "此訂閱已購買，但尚未套用至任何 Radio 社群。",
+      "startDate": "開始日期"
+    },
+    "supportDescription": "我們專屬的即時聊天支援於營業時間內每週 7 天提供服務。有問題嗎？我們的團隊隨時待命。",
+    "title": "帳單"
+  },
+  "common": {
+    "back": "返回",
+    "close": "關閉",
+    "id": "ID"
   },
   "communitySetup": {
     "aiHearing": "AI 可以聽到無線電傳輸",
@@ -78,6 +186,7 @@
     "joinCode": "加入代碼：{code}",
     "joinMission": "加入你的伺服器，選擇一個角色，並進入任務。裝備一個 Sonoran Radio 道具。任務製作者應放置 Sonoran 訊號塔／中繼器以涵蓋覆蓋範圍。",
     "joinTest": "加入並測試",
+    "linkRoblox": "連結 Roblox",
     "linkServer": "連結伺服器",
     "manualServer": "對於手動架設的伺服器，將兩個模組資料夾都複製到伺服器，將它們在 key 資料夾中的 {extension} 檔案複製到伺服器的 {directory} 資料夾，並加入這個啟動參數（調整資料夾名稱）：",
     "next": "下一步",
@@ -94,6 +203,7 @@
     "resizeRadio": "調整收音機大小",
     "resizeScreen": "拖曳以調整螢幕大小",
     "restartServer": "重新啟動伺服器，並將兩個模組都包含在與玩家共享的啟動器預設中。保留簽章和 BattlEye 啟用；如果客戶端被拒絕，請調查確切的踢出訊息。",
+    "robloxLinkDescription": "將你的 Roblox 帳號連結到你的 Sonoran 帳號，以在此社群中使用基於位置的無線電訊號。",
     "serverMods": "透過你的伺服器主機的模組管理器安裝相同的兩個 Workshop 模組。將兩者都作為一般模組載入，不要作為僅限伺服器的模組，並且先載入 CBA_A3。",
     "setupOverlay": "設定覆蓋層",
     "towerSaveError": "無法儲存 ER:LC 訊號塔。您上次的變更已還原。",
@@ -107,7 +217,29 @@
     "openGameIntegration": "遊戲 整合",
     "overlayDesktopDescription": "為桌面使用者自訂收音機覆蓋層。",
     "overlayFiveMDescription": "自訂你的 FiveM 遊戲內無線電和桌面覆蓋層。FiveM 變更會在五分鐘內與相容的資源版本同步。",
-    "overlaySelectGame": "在遊戲整合中檢查你的社群遊戲，以使用相符的覆蓋功能。"
+    "overlayPreview": {
+      "description": "自訂你的無線電疊層。",
+      "done": "完成",
+      "game": "遊戲",
+      "localSample": "本地預覽 · 僅供範例資料",
+      "noGame": "未選擇遊戲",
+      "previewGame": "預覽遊戲",
+      "saves": "此預覽中有 {count} 個儲存",
+      "title": "覆蓋層"
+    },
+    "overlaySelectGame": "在遊戲整合中檢查你的社群遊戲，以使用相符的覆蓋功能。",
+    "upgradeRadioPlan": "升級您的無線電方案",
+    "upgradeRadioPlanMessage": "解鎖 更多 容量、 自訂 與 進階 Radio 功能，適用於 此 社群。",
+    "viewBilling": "查看帳單"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "更改您的麥克風：",
+    "deviceUnavailable": "{device} 無法使用。請選擇另一個麥克風。",
+    "microphoneAccessDenied": "麥克風存取遭拒",
+    "noInputDetected": "未偵測到麥克風輸入。如果調度無法聽見你，請更換你的麥克風。",
+    "noMicrophoneFound": "找不到麥克風",
+    "selectedUnavailable": "所選麥克風無法使用。請選擇另一個麥克風。",
+    "unknownError": "未知錯誤"
   },
   "fivemView": {
     "forceGuestAccessDenied": "你沒有訪客無線電的存取權限。請向伺服器管理員申請存取。",
@@ -115,12 +247,412 @@
     "guestLoginFailed": "訪客無線電無法啟動。重試或請求伺服器管理員協助。",
     "retryGuestLogin": "重試訪客連線"
   },
+  "getStartedButton": {
+    "bottomCtaTitle": "開始使用適用於你的遊戲社群的免費 無線電"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "比較 Sonoran Radio",
+      "competitorLogo": "{competitor} 標誌",
+      "dispatchAnywhere": "隨處派遣",
+      "downloadAndroid": "下載 Sonoran Radio 適用於 Android",
+      "downloadIos": "下載 Sonoran Radio 適用於 iOS",
+      "downloadLinux": "下載 Sonoran Radio 適用於 Linux",
+      "downloadMacos": "下載 Sonoran Radio 適用於 MacOS",
+      "downloadWindows": "下載 Sonoran Radio 適用於 Windows",
+      "gameSelection": "遊戲選擇",
+      "heroRadioAlt": "{game} Sonoran Radio 桌面覆蓋含示範頻道",
+      "openIntegration": "開啟 {title} 整合",
+      "sonoranRadioIntegrations": "Sonoran Radio 整合",
+      "sonoranRadioVs": "Sonoran Radio 對比 {competitor}",
+      "viewGameIntegrations": "查看 {game} 整合"
+    },
+    "armaCapture": {
+      "activeDishes": "啟用中的菜色",
+      "aiCanHear": "AI 可以聽到傳輸",
+      "aiHearingTitle": "SONORAN RADIO · AI 聽覺",
+      "alphaOneOne": "Alpha 1-1",
+      "blockedPath": "封鎖路徑 · 2 公里",
+      "blockedQuality": "26% 品質",
+      "blockedTerrainMultiplier": "阻擋地形倍數",
+      "cancel": "取消",
+      "canDetectSpeaker": "可偵測揚聲器",
+      "clearPath": "清除路線 · 2 km",
+      "clearQuality": "75% 品質",
+      "customizationDesktopFrames": "自訂／桌面框架",
+      "dishCount": "碟子數量",
+      "exampleSignalPaths": "範例訊號路徑",
+      "hearingRadiusAria": "示意性傳輸接收範圍",
+      "illustrativeHearingRadius": "示意性接收範圍",
+      "indestructible": "無法摧毀",
+      "inventoryFrame": "庫存項目 → 桌面框架",
+      "invisibleSignalOnly": "隱形（僅訊號）",
+      "itemClassNames": "ARMA 物品類別名稱",
+      "largeRadioTower": "大型無線電塔",
+      "matchRadio": "配對你攜帶的無線電",
+      "nearbyAi": "附近 AI",
+      "nearbyAiDescription": "附近 AI 可在你使用按鍵通話時偵測到你。",
+      "ok": "確定",
+      "optionalDisabled": "可選 · 預設停用",
+      "outsideHearingRange": "超出聽覺範圍",
+      "photoCaption": "ALTIS · 大型無線電塔",
+      "powered": "已啟用",
+      "rangeDishes": "8 公里範圍 · 4 / 4 碟",
+      "relayAlpha": "中繼 Alpha",
+      "repeaterModel": "中繼器型號",
+      "signalPathsAria": "清晰與地形阻擋的訊號路徑",
+      "signalRange": "訊號範圍（m）",
+      "signalTitle": "SONORAN RADIO / 訊號",
+      "terrainAttenuation": "地形衰減",
+      "terrainChanges": "地形變化接收",
+      "title": "SONORAN RADIO TOWER",
+      "transmissionHearingRange": "傳輸接收範圍",
+      "transmitting": "傳送中"
+    },
+    "dispatchAi": {
+      "exampleOf": "範例 {current} / {total}：{id}",
+      "examples": "派遣 AI 範例",
+      "items": {
+        "alpha": {
+          "request": "「指揮部，切換我到 Alpha Squad。」",
+          "response": "收到，切換到 Alpha Squad。",
+          "result": "小隊切換 · Alpha Squad"
+        },
+        "breach": {
+          "request": "「指令，將破門計時器設為 60 秒。」",
+          "response": "收到，60 秒破門計時器已開始。",
+          "result": "破門計時器已開始 · 01:00"
+        },
+        "miller": {
+          "request": "「指揮中心，將米勒中士推送到我的頻率。」",
+          "response": "收到，將米勒中士推送到你的頻率。",
+          "result": "頻率推送 · 米勒中士"
+        },
+        "pit": {
+          "request": "「Dispatch，設定五分鐘 PIT 計時器。」",
+          "response": "收到，五分鐘 PIT 計時器已開始。",
+          "result": "PIT 計時器已開始 · 05:00"
+        },
+        "plate": {
+          "request": "\"調度，我在路況上找一輛藍色轎車，車牌 ABC123。\"",
+          "response": "已複製，已建立一則有關藍色轎車 ABC123 的交通攔停呼叫。",
+          "result": "交通報案 · 已指派單位"
+        },
+        "platoon": {
+          "request": "「指揮，將第 1 排加入我的已掃描頻道。」",
+          "response": "已複製，將第 1 排加入你的已掃描頻道。",
+          "result": "頻道已新增 · 第 1 排"
+        },
+        "robbery": {
+          "request": "\"調度，將我加入進行中的搶劫。\"",
+          "response": "收到，將您的單位加入進行中的搶劫。",
+          "result": "搶劫報案 · 已指派單位"
+        },
+        "runPlate": {
+          "request": "「調度，查詢車牌 ABC123。」",
+          "response": "收到，待命接收 ABC123 回傳。",
+          "result": "車牌搜尋·可用結果"
+        },
+        "tacOne": {
+          "request": "\"調度，將我切換到 TAC 1。\"",
+          "response": "收到，切換到 TAC 1。",
+          "result": "頻道切換 · TAC 1"
+        }
+      },
+      "next": "下一個 Dispatch AI 範例",
+      "previous": "上一個 Dispatch AI 範例",
+      "radioAlt": "{game} Sonoran Radio 桌面覆蓋",
+      "subtitle": "你的聲音。你的調度員。連接到 Sonoran CAD。",
+      "title": "派遣 AI"
+    },
+    "erLcMapCapture": {
+      "addPoints": "新增點數",
+      "cancel": "取消",
+      "clickTheMap": "點擊地圖",
+      "closeTowerMenu": "關閉塔台選單",
+      "closeZoneMenu": "關閉區域選單",
+      "deleteTower": "刪除塔台",
+      "deleteZone": "刪除區域",
+      "description": "在同一張地圖上設定訊號覆蓋範圍和緊急區域。",
+      "dragZoneHandles": "拖曳藍色把手以編輯區域形狀。",
+      "drawCircle": "畫圓圈",
+      "drawPolygon": "繪製多邊形",
+      "editEmergencyZone": "編輯緊急區域",
+      "editTower": "編輯塔台",
+      "emergencyZones": "緊急區域",
+      "finishZone": "終點區域",
+      "mapAlt": "ER:LC 地圖",
+      "mapCoordinates": "地圖 X {x} · Z {y}",
+      "mapUnits": "地圖單位",
+      "noEmergencyZones": "此房間尚無緊急區域。繪製多邊形或圓形以新增一個。",
+      "noSignalTowers": "尚無訊號塔。訊號會維持在 100% 直到你放置一座訊號塔。",
+      "placeTower": "放置塔台",
+      "points": "點數",
+      "range": "範圍",
+      "room": "房間",
+      "selectCenter": "選擇中心",
+      "selectCircleEdge": "選擇圓形邊緣",
+      "setCenterEdge": "設定中心與邊緣",
+      "title": "ER:LC 地圖設定",
+      "towerName": "塔台名稱",
+      "towers": "塔樓",
+      "transmitChannels": "傳送頻道",
+      "zoneName": "區域名稱"
+    },
+    "featureCapture": {
+      "channelsGroups": "頻道 與 群組",
+      "exportedPngData": "已匯出的 PNG 資料",
+      "exportPng": "匯出透明 PNG",
+      "preview": "預覽",
+      "sfxCustomization": "音效自訂",
+      "transmissionLogs": "傳輸記錄"
+    },
+    "gameIntegration": {
+      "integration": "整合"
+    },
+    "integrationCapture": {
+      "adminPermission": "管理員",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "apiGetGroupsComment": "// 取得已設定的群組和頻道",
+      "approveMembers": "核准成員",
+      "assignedUnits": "已指派：A-12, A-14",
+      "available": "可用",
+      "availableCall": "可用 · 通話 #1042",
+      "availableUnit": "可用 · A-12",
+      "callAction": "建立通話",
+      "callActionExample": "建立一個 Main St 上的 10-50 通話",
+      "callInformation": "通話資訊",
+      "callNumber": "通話 #1042",
+      "channelAction": "切換無線電頻道",
+      "channelActionExample": "將我切換到 TAC 1",
+      "communityAdmin": "社群管理員",
+      "communityRoles": "社群角色",
+      "connectedToRadio": "連接到你的無線電",
+      "countyDispatch": "郡調度中心",
+      "dispatchAiActions": "派遣 AI 動作",
+      "dispatchCall": "派遣 通話",
+      "dispatchOne": "派遣 1",
+      "dispatchTeam": "派遣團隊",
+      "exampleRoleMapping": "範例角色對應",
+      "exampleVoiceRequest": "範例語音請求",
+      "jordanLee": "A-14 · Jordan Lee",
+      "moveRadioUsers": "移動 無線 使用者",
+      "officialSdkLibraries": "官方 v2 SDK 函式庫",
+      "panic": "恐慌",
+      "patrol": "巡邏",
+      "permissions": "權限",
+      "permissionsStayInSync": "權限保持同步",
+      "plateAction": "人員或車牌查詢",
+      "plateActionExample": "查詢車牌 ABC123",
+      "playDispatchTones": "播放派遣音調",
+      "respondingCall": "回應中 · 通話 #1042",
+      "statusAction": "狀態更新",
+      "statusActionExample": "將我的狀態設為可用",
+      "statusUpdates": "狀態更新",
+      "streamDeckAlt": "帶有 Sonoran Radio 控制的實體 Elgato Stream Deck MK.2，配備 15 個 LCD 鍵",
+      "trafficCollision": "交通碰撞",
+      "trafficLocation": "大洋公路 · 郵政編號 3025",
+      "unitStatus": "單位狀態",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "你的聲音。連接到 CAD。"
+    },
+    "integrationCard": {
+      "free": "免費"
+    },
+    "interactivePreview": {
+      "allClear": "一切清楚",
+      "analog": "類比",
+      "audioLevel": "音訊等級",
+      "cancel": "取消",
+      "countyDispatch": "郡調度中心",
+      "digital": "數位",
+      "emsDispatch": "EMS 派遣",
+      "fireDispatch": "消防 派遣",
+      "fireEms": "消防 / 救護",
+      "hearDifference": "聽聽差別",
+      "microphonePreviewError": "麥克風預覽無法啟動。請檢查瀏覽器權限或嘗試範例。",
+      "microphonePreviewOn": "麥克風預覽已開啟",
+      "openLibrary": "在 {registry} 上開啟 {library}",
+      "original": "原始",
+      "playingSample": "播放 範例 中",
+      "playSample": "播放 範例",
+      "previewPlaying": "預覽播放中",
+      "previewStopped": "預覽已停止",
+      "previewVolume": "預覽音量",
+      "priorityTraffic": "優先通訊",
+      "publicSafety": "公共安全",
+      "samplePlaybackError": "範例無法播放。請再試一次。",
+      "sampleUnavailable": "範例不可用",
+      "startingPreview": "開始預覽",
+      "stopPreview": "停止預覽",
+      "tonePlaybackError": "此音調無法播放。請再試一次。",
+      "toneUnavailable": "音調不可用",
+      "tryMicrophone": "試用我的麥克風",
+      "vocoder": "聲碼器 · 3200",
+      "vocoderPreviewError": "Vocoder 預覽無法啟動。請再試一次。",
+      "voiceEffectExamples": "語音效果範例"
+    },
+    "mobi": {
+      "active": "啟用中",
+      "audio": "音訊",
+      "channelGroup": "頻道 群組",
+      "channels": "頻道",
+      "currentSpeaker": "目前講話者",
+      "distress": "求救",
+      "distressSignalDetected": "偵測到求救訊號",
+      "header": "無線電 // 通訊",
+      "multiChannel": "多個頻道",
+      "multiGroup": "多個群組",
+      "noActiveTransmission": "無活動傳輸",
+      "noLink": "無連線",
+      "none": "無",
+      "online": "線上",
+      "priorityAlert": "優先警報",
+      "quickAccess": "快速存取",
+      "receive": "接收",
+      "scan": "掃描",
+      "scanList": "掃描清單",
+      "scannedChannel": "掃描的頻道",
+      "selectedChannel": "已選取頻道",
+      "settings": "設定",
+      "settingsTooltip": "設定",
+      "signal": "訊號",
+      "signalFault": "訊號故障",
+      "spectrumOffline": "SPECTRUM 離線",
+      "standby": "待機",
+      "temporaryLink": "臨時連結",
+      "transmission": "傳輸",
+      "transmit": "傳送",
+      "unknownChannel": "未知頻道",
+      "unknownGroup": "未知群組",
+      "unknownUser": "未知使用者"
+    },
+    "tabPanel": {
+      "defaultDescription": "透過預留位置分頁內容體驗無縫協調，用於即時單位狀態、頻率監控與頻道管理。",
+      "defaultTitle": "Sonoran Radio",
+      "imageAlt": "分頁面板圖片"
+    }
+  },
   "hotkeys": {
     "changeRadioFrame": "變更 電台 畫面",
     "nextRadioFrame": "下一個 電台 畫面",
     "previousRadioFrame": "上一個無線電畫面"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Sonoran API 程式庫",
+    "armaDescription": "使用 Arma 3 整合將 Sonoran Radio 直接連接到 Arma 3。",
+    "back": "返回",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "派遣 通話 預覽",
+        "description": "將自己附加到 Sonoran CAD 派遣通話並在電台中查看通話詳細資訊。",
+        "label": "派遣 通話"
+      },
+      "liveMap": {
+        "alt": "預留位置 即時地圖 預覽",
+        "description": "在 Sonoran CAD 即時地圖上查看 無線電塔。",
+        "label": "即時地圖"
+      },
+      "panicButton": {
+        "alt": "緊急按鈕預覽",
+        "description": "使用無線電緊急按鈕切換你的 Sonoran CAD 緊急狀態。",
+        "label": "緊急按鈕"
+      }
+    },
+    "comingSoon": "即將推出。",
+    "erlcDescription": "使用 ER:LC 整合將 Sonoran Radio 直接連接到 ER:LC。",
+    "fivemDescription": "使用 Sonoran Radio 的免費 FiveM 無線電腳本—官方遊戲內資源—將語音無線電帶入您的伺服器。探索下方的整合，然後遵循 {setupGuide}。",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "Arma 玩家在 AI 聽覺半徑內傳輸的插圖，旁邊是模組的聽覺設定。",
+            "description": "讓附近的 AI 偵測正在傳輸的玩家，並可調整聽覺範圍。可在 Arma 整合預覽中使用。",
+            "label": "AI 聽覺"
+          },
+          "itemFrames": {
+            "alt": "BLUFOR 和 OPFOR 物品類別對應，位於其對應的 Sonoran Radio 桌面覆蓋框架旁。",
+            "description": "你的 BLUFOR 或 OPFOR 無線電物品會選擇其對應的桌面覆蓋。將自訂物品對應到你的社群框架。",
+            "label": "庫存 無線電 同步"
+          },
+          "terrainSignal": {
+            "alt": "示意圖 Arma 中繼器覆蓋範圍，顯示清晰的訊號路徑與地形後方減弱的訊號。",
+            "description": "距離和地形會削弱基地台接收。注意你的覆蓋層訊號，並透過頻道效果聽見變化。",
+            "label": "地形 與 訊號"
+          },
+          "towers": {
+            "alt": "一個 Arma 訊號塔，帶有範例 Zeus 控制，用於範圍、容量和電力。",
+            "description": "在 Eden 或 Zeus 中放置塔台。範圍、功率和破壞塑造你的電台覆蓋範圍。",
+            "label": "遊戲內高塔"
+          }
+        },
+        "tabsLabel": "Arma 3 整合功能"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "Sonoran Radio 桌面覆蓋顯示 Liberty County 派遣頻道，位於 ER:LC 警察場景上方。",
+            "description": "在你遊玩時，讓你的無線電顯示在 Roblox 上方。選擇一個框架，切換頻道，並從桌面應用程式追蹤即時塔台訊號。",
+            "label": "桌面覆蓋層"
+          },
+          "emergencyZones": {
+            "alt": "ER:LC 地圖，顯示一個範例緊急區域及其允許的緊急傳輸頻道。",
+            "description": "繪製緊急區域，並選擇每個區域可用的緊急傳輸頻道。",
+            "label": "緊急區域"
+          },
+          "liveSignal": {
+            "alt": "ER:LC 地圖，具虛擬塔台覆蓋與連結玩家，旁有 Sonoran Radio 疊層顯示即時訊號強度。",
+            "description": "放置塔台以塑造 Liberty County 的電台覆蓋範圍。當你駕駛時，你的疊加顯示即時訊號強度，電台效果會反映你的接收狀況。",
+            "label": "虛擬塔台"
+          }
+        },
+        "tabsLabel": "ER:LC 整合功能"
+      }
+    },
+    "integrationTitleSuffix": "整合",
+    "learnMore": "了解更多：{title}",
+    "meta": {
+      "armaDescription": "探索 Sonoran Radio 在 Arma 3 的整合功能，包括遊戲內塔台、庫存無線電同步、地形訊號，以及 AI 聽覺。",
+      "armaTitle": "Arma 3 整合 | Sonoran Radio",
+      "erlcDescription": "探索 Sonoran Radio 在 ER:LC 的整合，包括桌面覆蓋層、虛擬塔台和緊急區域。",
+      "erlcTitle": "ER:LC 整合 | Sonoran Radio",
+      "fivemDescription": "使用 Sonoran Radio 的免費 FiveM 無線電腳本，官方遊戲內資源，將語音無線電帶入您的伺服器。",
+      "fivemTitle": "FiveM 整合 | Sonoran Radio"
+    },
+    "openDocumentation": "開啟 {title} 的說明文件",
+    "registryLink": "{name} 於 {registry}",
+    "setupGuide": "設定指南",
+    "streamDeck": {
+      "calloutDescription": "查看文件以取得更多詳細資訊和外掛程式安裝步驟。",
+      "calloutTitle": "想要了解更多嗎？",
+      "description": "將你最常用的 Sonoran Radio 控制帶到 Stream Deck 的按鍵或旋鈕上。切換頻道、傳輸，並精細調整音訊，不卡斷你的操作流程。",
+      "deviceAlt": "Sonoran Radio 手持裝置顯示頻道控制",
+      "heading": "你的無線電。 一按即達。",
+      "highlights": {
+        "actions": {
+          "description": "將 AI 模式、音調面板和桌面覆蓋層放到你的 deck 上，或在 FiveM 遊戲內無線電中使用動作。",
+          "title": "更多無線電動作"
+        },
+        "audio": {
+          "description": "使用支援的旋鈕調整無線電、頻道、效果和 AI 音量。",
+          "title": "調整你的 音訊"
+        },
+        "channelShortcuts": {
+          "description": "透過點按在頻道和群組之間移動，或切換發射和掃描清單。",
+          "title": "頻道捷徑"
+        },
+        "pushToTalk": {
+          "description": "將發射保持在手邊，無需切換回無線電應用程式即可傳送。",
+          "title": "按鍵通話"
+        }
+      },
+      "platformKeysDials": "按鍵 + 轉盤",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Stream Deck 功能"
+  },
   "landingPage": {
+    "armaIntegrationDescription": "使用 Arma 3 整合將 Sonoran Radio 直接連接到 Arma 3。",
     "developers": {
       "button": "探索 開發者 工具",
       "description": "使用免費 API、開源程式庫和 AI 外掛程式為任何遊戲建立自訂整合。",
@@ -129,6 +661,8 @@
       "titlePrefix": "我們",
       "titleSuffix": "開發者。"
     },
+    "erlcIntegrationDescription": "使用 ER:LC 整合將 Sonoran Radio 直接連接到 ER:LC。",
+    "exploreIntegrations": "探索 整合",
     "faq": {
       "free": {
         "answer": "是。Dispatch AI 在免費方案中可完整使用，並包含每月點數。付費方案則提供更高的點數上限。"
@@ -137,14 +671,47 @@
     "fivem": {
       "heading": "整合"
     },
+    "fivemRadioIntegration": "Radio 整合",
+    "gameIntegrations": "遊戲 整合",
+    "games": {
+      "arma3": {
+        "description": "從免費電台頻道和 Arma 3 的桌面覆蓋開始。預覽帶有任務塔、與物品欄連動框架和地形訊號的 Arma 整合。",
+        "headline": "Arma 3 小隊的免費對講",
+        "name": "Arma 3",
+        "title": "免費《Arma 3》無線電與 桌面覆蓋 | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "開始免費 ER:LC 語音無線電，搭配適用於 Roblox Emergency Response: Liberty County 的桌面覆蓋層。連結帳號並新增具有即時訊號覆蓋的虛擬塔台。",
+        "headline": "為你的社群提供免費 ER:LC 語音 無線電",
+        "name": "ER:LC",
+        "title": "免費 ER:LC 語音無線電與 桌面覆蓋 | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "使用 FiveM 電台腳本、桌面覆蓋與派遣面板免費開始。將 Sonoran Radio 與您的 GTA V 角色扮演伺服器透過 FiveM 整合連接。",
+        "headline": "為你的 FiveM 社群提供免費 無線電",
+        "name": "FiveM",
+        "title": "免費 FiveM 電台腳本與調度面板 | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "用免費電台頻道、派遣工具和主題桌面覆蓋層，讓你的《Star Citizen》船員保持連線。跨越整個 verse 協調通訊。",
+        "headline": "為你的 Star Citizen 隊伍提供免費無線電",
+        "name": "星際公民",
+        "title": "免費《Star Citizen》無線電與疊加層 | Sonoran Radio"
+      }
+    },
     "Jammers": {
       "desc": "設定自訂遊戲內物品以干擾附近的無線電訊號！",
       "title": "干擾器"
     },
+    "meta": {
+      "imageAlt": "Sonoran Radio 派遣面板和桌面電台覆蓋"
+    },
     "Scanners": {
       "desc": "遊戲內掃描器可讓你和附近的其他人收聽無線電通訊！"
     },
+    "softwareIntegrations": "軟體整合",
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "探索 Sonoran Studio",
       "description": "將即時無線電活動轉換為串流疊加、反應式智慧照明和免持自動化。",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -175,11 +742,27 @@
       "widgetTitle": "Sonoran 支援回應時間"
     }
   },
+  "management": {
+    "eventType": "事件類型",
+    "forceLeave": "強制離開",
+    "payloadJson": "酬載 JSON",
+    "pushEventDiagnostic": "推送事件診斷",
+    "pushUrl": "推送 URL",
+    "sendTestPushEvent": "傳送測試推播事件",
+    "storedRoomPushUrl": "已儲存房間推送 URL",
+    "timeout": "逾時（毫秒）"
+  },
   "manageServer": {
+    "admin": {
+      "communityLogsEmpty": "找不到記錄",
+      "communityLogsLoading": "正在載入記錄..."
+    },
     "customizeDesktopFrames": {
+      "addLayout": "新增版面配置",
       "addScreen": "新增畫面",
       "addVariant": "新增此變體",
       "addVehicleOverride": "新增車輛覆寫",
+      "aircraftLayout": "飛機版面",
       "armaBlufor": "BLUFOR 範例",
       "armaExamples": "ARMA 3 範例",
       "armaItemClassNames": "ARMA 物品類別名稱",
@@ -195,8 +778,14 @@
       "deleteFrame": "刪除框架",
       "duplicateVehicleName": "每個載具名稱只能有一個覆寫。",
       "editHint": "拖曳以移動 · Ctrl + 拖曳以調整大小 · 右鍵點擊按鈕以移除",
+      "fit": "符合",
+      "fitRadioToCanvas": "將電台調整至畫布",
       "frameName": "框架名稱",
       "importNoFramesFound": "找不到具有 body.width 和 screen 的框架。",
+      "migratedFramesReadOnly": "已遷移的 FiveM 框架仍可在 Free 中使用。升級至 Pro 以編輯此框架或替換其圖片。",
+      "migratedFramesReset": "已遷移的 FiveM 框架只能透過 Pro 重設。",
+      "moveLayoutEarlier": "提前移動版面配置",
+      "moveLayoutLater": "稍後移動版面配置",
       "noneFound": "此社群未找到任何疊加框架。",
       "overrideFramesRequired": "每個車輛覆寫至少選擇一個框架。",
       "removeVariant": "移除此變體",
@@ -222,6 +811,8 @@
         "onFoot": "步行模式",
         "vehicle": "車輛"
       },
+      "vehicleClasses": "車輛類別",
+      "vehicleClassesHint": "清除選取以符合所有車輛類別。較早的版面配置具有優先順序。",
       "vehicleClassNames": {
         "boats": "船隻",
         "commercial": "商用",
@@ -248,12 +839,15 @@
         "utility": "多用途車",
         "vans": "廂型車"
       },
+      "vehicleLayout": "車輛佈局",
       "vehicleName": "ER:LC 車輛名稱",
       "vehicleNameRequired": "為每個覆寫輸入一個載具名稱。",
       "vehicleOverrideHint": "車輛名稱需完全相符，忽略大小寫與開頭或結尾的空格。在桌面框架中，啟用 ER:LC 車輛偵測，當可用單一車輛名稱時使用特定車輛框架。",
       "visibilityHint": "為徒步或當沒有車輛名稱符合時選擇預設桌面框架。當 ER:LC 車輛偵測找到相符名稱時，車輛覆寫會自動選擇框架。",
       "visibilityTitle": "框架可見性",
-      "visibleFrames": "可見框架"
+      "visibleFrames": "可見框架",
+      "zoomIn": "放大",
+      "zoomOut": "縮小"
     },
     "customizeMenu": {
       "overlay": "覆蓋層"
@@ -464,12 +1058,44 @@
       }
     },
     "members": {
+      "banConfirm": "您即將永久封鎖 {count} 名成員。他們將無法重新加入，但可以解除封鎖。",
+      "communityAccess": "社群存取",
+      "communityAccessDescription": "核准成員的基本 Sonoran Radio 存取。不授予任何管理權限或私人個人檔案存取。",
+      "confirmTitle": "您確定嗎？",
       "copyDiscordId": "複製 Discord ID",
       "copyRobloxId": "複製 Roblox ID",
       "discordIdCopied": "Discord ID 已複製到剪貼簿。",
+      "displayNameUpdated": "顯示名稱已更新",
+      "enterDisplayName": "為 {name} 輸入新的顯示名稱",
+      "kickConfirm": "您即將踢出 {count} 位成員。他們將能夠使用社群 ID 重新加入。",
       "noDiscordAccountLinked": "此使用者未連結 Discord 帳號。",
       "noRobloxAccountLinked": "此使用者未連結 Roblox 帳號。",
-      "robloxIdCopied": "Roblox ID 已複製到剪貼簿。"
+      "permissionAdmin": "管理員",
+      "permissionAdminDescription": "授予完整權限以管理及存取無線電社群的所有功能。",
+      "permissionApproveMembers": "核准成員",
+      "permissionApproveMembersDescription": "允許核准或拒絕收音機社群中的待處理使用者。",
+      "permissionBanCommunity": "將社群封禁",
+      "permissionBanCommunityDescription": "授予永久將成員從社群中封鎖的權限。",
+      "permissionCallOnly": "僅限通話",
+      "permissionCallOnlyDescription": "限制使用者只能撥打 911 電話。隱藏 派遣 分頁。不影響管理員。",
+      "permissionChangeDisplayName": "變更顯示名稱",
+      "permissionChangeDisplayNameDescription": "允許使用者修改自己的顯示名稱。",
+      "permissionKickCommunity": "將社群踢出",
+      "permissionKickCommunityDescription": "授予從社群中移除成員的權限。",
+      "permissionKickRadio": "將其從 電台 踢出",
+      "permissionKickRadioDescription": "授予將成員從 無線電 頻道中斷線的權限。",
+      "permissionManageDisplayNames": "管理顯示名稱",
+      "permissionManageDisplayNamesDescription": "允許使用者修改其他成員的顯示名稱。",
+      "permissionMoveRadioUsers": "移動 無線 使用者",
+      "permissionMoveRadioUsersDescription": "允許在無線電頻道之間移動成員。",
+      "permissionOverrideTalkover": "覆蓋插話保護",
+      "permissionOverrideTalkoverDescription": "允許使用者透過連點其 PTT 按鈕來覆蓋對講保護。",
+      "permissionPlayDispatchTones": "播放派遣音調",
+      "permissionPlayDispatchTonesDescription": "允許透過無線電播放派遣音調。",
+      "permissionStunRadio": "暫停無線電",
+      "permissionStunRadioDescription": "允許使用者使另一位無線電使用者暫時無法使用 30 秒。",
+      "robloxIdCopied": "Roblox ID 已複製到剪貼簿。",
+      "unbanConfirm": "您即將解除封鎖 {count} 位成員。他們將能夠使用社群 ID 重新加入。"
     },
     "serverInfo": {
       "cadPrompts": {
@@ -508,6 +1134,26 @@
       }
     }
   },
+  "mobiPreview": {
+    "channelName": "作戰戰術 1",
+    "citywide": "全城",
+    "frameName": "Mobi 預覽",
+    "frameTitle": "Mobi 電台 框架",
+    "groupName": "STANTON SECURITY",
+    "localPreview": "本地預覽",
+    "modes": {
+      "distress": "求救",
+      "idle": "閒置",
+      "jammed": "受干擾",
+      "receiving": "接收中",
+      "transmitting": "傳送中"
+    },
+    "note": "切換上方狀態以預覽即時 無線電 指示器。畫面控制需要已連線的 無線電 工作階段。",
+    "signal": "訊號",
+    "speakerName": "A. MERCER",
+    "themePreview": "主題預覽",
+    "yourRadio": "你的 無線電"
+  },
   "radio": {
     "customScreen": {
       "disconnected": "已中斷連線",
@@ -528,16 +1174,29 @@
       "dispatchAiSpeechRecognitionLocal": "本地（更快，無轉錄用量）",
       "erlcHud": {
         "autoWindow": "自動尋找 Roblox 視窗",
+        "checkPermission": "檢查存取權限",
         "enable": "使用螢幕偵測",
-        "lastReading": "上次儀表檢查",
+        "lastReading": "最後 ELS 控制器檢查",
         "noWindows": "找不到 Roblox 視窗。請開啟 ER:LC，然後重新整理視窗清單。",
-        "privacy": "Sonoran Radio 會檢查此裝置上的 Roblox 速度計來切換車輛變體。如果 ER:LC 回報你的帳號正好擁有一輛車，該名稱也可用來選擇特定的畫面框架。螢幕影像不會被儲存或上傳。在 macOS 上，你可能需要允許 Sonoran Radio 進行螢幕與系統音訊錄製。",
+        "openSettings": "開啟系統設定",
+        "permissionDenied": "Sonoran Radio 的螢幕錄製已關閉。請啟用它，然後完全結束並重新開啟 App。",
+        "permissionNotDetermined": "macOS 需要您的許可才能讀取 Roblox 視窗。點擊「檢查存取權」以提出請求，或在「系統設定」中啟用。",
+        "permissionRestricted": "此 Mac 上的螢幕錄製受限。請向你的 Mac 管理員要求允許存取。",
+        "permissionStepEnable": "啟用 Sonoran Radio。開發期間，如果 macOS 列出的是 Electron，請啟用 Electron。",
+        "permissionStepOpen": "打開系統設定 → 隱私權與安全性 → 螢幕與系統音訊錄製（較舊版本的 macOS 上為螢幕錄製）。",
+        "permissionStepRestart": "變更權限後，請完全退出並重新開啟 Sonoran Radio。",
+        "permissionTitle": "允許螢幕錄製",
+        "permissionUnknown": "Sonoran Radio 無法驗證螢幕錄製存取權。請檢查系統設定，然後完全結束並重新開啟 App。",
+        "privacy": "Sonoran Radio 會檢查此裝置右下角的 ELS 控制器以切換載具變體。控制器必須可見；沒有它的載具會使用徒步版面配置。緊急燈可開或關。畫面影像不會被儲存或上傳。",
+        "readingElsAbsent": "找不到 ELS 控制器",
+        "readingElsFound": "找到 ELS 控制器",
         "readingGaugeAbsent": "未找到儀表",
         "readingGaugeFound": "已找到儀表",
         "readingUncertain": "不確定的匹配",
         "readingUnreadable": "Roblox 視窗無法讀取",
         "readingWaiting": "等待 Roblox 擷取",
         "refreshWindows": "重新整理 Roblox 視窗",
+        "settingsOpenFailed": "無法開啟 系統設定。請依照上述步驟手動開啟。",
         "status": "偵測狀態",
         "statusChecking": "檢查 Roblox 視窗",
         "statusDisabled": "關閉",
@@ -545,7 +1204,7 @@
         "statusInVehicle": "在車輛中",
         "statusLooking": "尋找 Roblox 視窗",
         "statusOnFoot": "步行",
-        "statusPermissionDenied": "螢幕錄製權限遭拒",
+        "statusPermissionDenied": "需要螢幕錄製存取權",
         "statusUnknown": "無法判斷載具狀態",
         "title": "ER:LC 車輛偵測",
         "vehicleAmbiguous": "ER:LC 找到多個已擁有的車輛名稱，且無法選擇特定名稱的框架覆寫。",
@@ -560,6 +1219,26 @@
       },
       "recentAiResponseLabel": "AI 回應",
       "sameAsPanelLanguage": "與面板語言相同"
+    },
+    "toneBoard": {
+      "channel": "頻道",
+      "channelGroup": "頻道 群組",
+      "ok": "確定",
+      "stackNameRequired": "需要堆疊名稱。",
+      "stackNeedsTones": "在儲存前將音調加入堆疊。",
+      "stopPlayback": "停止播放",
+      "temporaryTtsError": "暫時 TTS 音調準備失敗。"
     }
+  },
+  "socials": {
+    "community": "社群",
+    "connectWithUs": "與我們聯繫",
+    "followUs": "追蹤我們",
+    "instagramDescription": "產品亮點和團隊更新",
+    "joinDiscord": "加入 Discord",
+    "joinDiscordDescription": "在一個地方取得公告、支援、社群更新和產品討論。",
+    "joinDiscordTitle": "加入 Sonoran Software 的 Discord",
+    "tiktokDescription": "來自 Sonoran 團隊的簡短更新",
+    "youtubeDescription": "指南、示範和版本發布"
   }
 }
