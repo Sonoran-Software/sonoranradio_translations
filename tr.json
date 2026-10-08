@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "Kullanım analitiğine izin ver",
+    "deleteAccountError": "Hesabınız silinirken bir hata oluştu.",
+    "deleteAccountMessage": "Hesabınızı kalıcı olarak silmek istediğinizden emin misiniz?",
+    "deleteAccountSuccess": "Hesap başarıyla silindi.",
+    "deleteAccountTitle": "Hesabı Sil",
     "noServers": "Sunucular Yok",
+    "privacyPolicy": "Gizlilik politikası",
     "serversDesc": "Burada sahip olduğunuz veya yönettiğiniz tüm Sonoran Radio topluluklarını görüntüleyebilirsiniz",
     "serversTitle": "Sunucularınız",
     "tokenCopied": "Gizli anahtar panonuza kopyalandı!",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "Bu kod GİZLİDİR ve hiç kimseyle paylaşılmamalıdır!",
     "tokenInputLabel": "Giriş Sırrınız",
     "tokenLoadBtn": "Yüklemek için tıklayın",
-    "tokenTitle": "Radyo Giriş Sırrı"
+    "tokenTitle": "Radyo Giriş Sırrı",
+    "usageAnalyticsDescription": "Sınırlı uygulama kullanımını Sonoran Software ve Google Analytics ile paylaşın. Bu reklam veya uygulamalar arası izleme için kullanılmaz.",
+    "usageAnalyticsTitle": "Kullanım analitiği"
+  },
+  "analyticsConsent": {
+    "allow": "İzin Ver",
+    "description": "Uygulamayı geliştirmeye yardımcı olmak için sınırlı kullanım analitiğine izin verin. Reklam yok veya uygulamalar arası izleme yok.",
+    "notNow": "Şimdi değil",
+    "privacyPolicy": "Gizlilik politikası",
+    "title": "Sonoran Radyo'yu geliştirmeye yardım edin"
   },
   "authMember": {
     "errLeave": "Topluluktan ayrılırken beklenmedik bir hata oluştu.",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "Zaten aktif bir aboneliği var",
+    "billingPortalUnavailable": "Faturalandırma portalı abonelikler yüklendikten sonra kullanılabilir.",
     "changeServer": "Sunucuyu Değiştir",
     "changeSvDialog": {
       "errSave": "Abonelik değiştirilirken beklenmedik bir hata oluştu",
@@ -45,6 +61,8 @@
       "title": "Aboneliği Değiştir",
       "transfer": "Bu aboneliği başka bir sunucuya aktarmak istediğinizden emin misiniz?"
     },
+    "contactSupport": "Destekle İletişime Geç",
+    "description": "Abonelikleri yönet, onları Radyo topluluklarına ata ve faturalamayı Stripe üzerinden güncelle.",
     "errCheck": "Aboneliğiniz kontrol edilirken beklenmedik bir hata oluştu",
     "isUnauthorized": "Abonelikler yetkisiz sunuculara uygulanamaz",
     "modifySub": "Aboneliği Değiştir",
@@ -64,7 +82,10 @@
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio ve FiveM barındırma tek pakette.",
       "oneLearnMore": "Sonoran One hakkında daha fazla bilgi edinin",
       "plus": "Plus Planı (14,99$/ay)",
+      "plusDescription": "Aktif topluluklar için daha fazla kapasite ve özelleştirme.",
       "pro": "Pro Planı (19,99$/ay)",
+      "proDescription": "Sınırsız ölçek ve gelişmiş Radyo özelliklerinin kilidini açın.",
+      "professionalSetup": "Topluluğunuz için profesyonel kurulum desteği.",
       "quarterly": "Üç aylık",
       "studio": "Sonoran Studio Topluluk Lisansı",
       "studioDescription": "Topluluğunuz için akıllı aydınlatma ve yayın widget'ları. Sonoran One ile birlikte.",
@@ -73,26 +94,106 @@
       "studioQuarterlyPrice": "$6,00/ay",
       "title": "Yeni Abonelik"
     },
+    "noBillingPortalUrl": "Henüz kullanılabilir bir faturalandırma portalı URL'si yok.",
     "noServerAssociated": "Sunucu İlişkilendirilmedi",
+    "openBillingPortal": "Faturalama Portalını Aç",
+    "paymentCenter": "Ödeme Merkezi",
+    "pricingCompare": {
+      "backgroundAudio": "Oyun İçi Arka Plan Sesi",
+      "bestValue": "En İyi Değer",
+      "bigDaddyAnimations": "Big-Daddy Radyo Animasyonları",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio ve ücretsiz FiveM barındırma tek abonelikte.",
+      "choosePlan": "{name} Seçin",
+      "chooseSonoranOne": "Sonoran One'ı Seçin",
+      "communitySoundEffects": "Topluluk genelinde ses efektleri",
+      "comparePlans": "Planları Karşılaştır",
+      "connectedUsers": "Bağlı kullanıcılar",
+      "customCommunityId": "Özel topluluk Kimliği",
+      "customDomain": "Özel Alan Adı",
+      "customVoiceEffects": "Özel ses efektleri",
+      "description": "Tüm ücretli planlar aylık veya üç aylık olarak mevcuttur. Üç aylık abonelikler %25 indirim içerir.",
+      "desktopOverlayFrames": "Masaüstü kaplama çerçeveleri",
+      "dispatchAiPrompts": "Dispatch AI aylık istemleri",
+      "freeCopy": "Ücretsiz kopya",
+      "freeDescription": "Küçük topluluklar için temel radyo araçlarıyla başlayın.",
+      "freePrompts": "~140-360",
+      "monthlyPrice": "{price}/ay",
+      "mostPopular": "En Popüler",
+      "multiServer": "Çok sunuculu",
+      "nearbyRadioChatter": "Yakındaki Radyo Konuşmaları",
+      "oneDefault": "1 sunucu",
+      "oneServer": "1 sunucu",
+      "perUserSoundEffects": "Kullanıcı başına ses efektleri",
+      "planFree": "Ücretsiz",
+      "planPlus": "Plus",
+      "planPro": "Pro",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "Özelleştirme ekle ve aktif rol yapma için daha fazla alan.",
+      "plusPrompts": "~1.400-3.600",
+      "proDescription": "Sınırsız ölçek ve gelişmiş Radyo özelliklerinin kilidini açın.",
+      "proPrompts": "~4.200-10.750",
+      "radioPlans": "Radyo Planları",
+      "rocketNodeHosting": "RocketNode FiveM barındırma",
+      "saveTwentyFive": "%25 Kaydet",
+      "scannersAndJammers": "Tarayıcılar ve sinyal karıştırıcılar",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radyo Pro",
+      "sonoranStudioLicense": "Sonoran Studio Topluluk Lisansı",
+      "tenUsers": "10",
+      "thirtyUsers": "30",
+      "threeCustom": "Sınırsız Özel",
+      "threeDefault": "3x Varsayılan",
+      "transmissionLogs": "İletim Kayıtları",
+      "unlimited": "Sınırsız",
+      "unlimitedCustom": "Sınırsız Özel"
+    },
     "setServer": "Sunucu Ayarla",
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "Bir insanla konuşun",
     "statuses": {
       "active": "Aktif",
       "canceled": "İptal edildi",
       "incomplete": "Tamamlanmamış",
       "incomplete_expired": "Tamamlanmamış Süresi Dolmuş",
       "past_due": "Vadesi Geçmiş",
+      "trialing": "Deneme sürecinde",
       "unpaid": "Ödenmedi"
     },
+    "subscriptionsDescription": "Etkin abonelikleri incele, Radyo toplulukları ata ve etkin olmayan abonelikleri yönet.",
+    "subscriptionsTitle": "Abonelikleriniz",
+    "subscriptionTable": {
+      "active": "Aktif",
+      "cancelledDescription": "İptal edilen ve süresi dolan abonelikler burada görünecek.",
+      "communityId": "Topluluk Kimliği {id}",
+      "createDescription": "Daha fazla Radyo özelliğinin kilidini açmak için bir abonelik oluşturun.",
+      "endDate": "Bitiş Tarihi",
+      "inactiveCancelled": "Pasif / İptal edildi",
+      "loading": "Abonelikler yükleniyor",
+      "loadingDescription": "En son Stripe abonelikleriniz alınıyor.",
+      "noActive": "Aktif abonelik yok",
+      "noInactive": "Etkin olmayan abonelik yok",
+      "planRadioPlus": "Radyo Plus",
+      "planRadioPro": "Radyo Pro",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "Sonoran Radyo",
+      "purchasedNotApplied": "Bu abonelik satın alındı ancak henüz bir Radyo topluluğuna uygulanmadı.",
+      "startDate": "Başlangıç Tarihi"
+    },
+    "supportDescription": "Özel canlı sohbet desteğimiz hafta içi iş saatleri içinde haftanın 7 günü hizmetinizdedir. Sorularınız mı var? Ekibimiz hazır bekliyor.",
+    "title": "Faturalandırma",
     "toPortal": "Portala Dön"
   },
   "common": {
     "account": "Hesap",
     "actions": "Eylemler",
     "add": "Ekle",
+    "back": "Geri",
     "billing": "Faturalandırma",
     "cancel": "İptal",
     "clickToCopy": "Kopyalamak için tıklayın",
     "clipboard": "Panoya kopyalandı!",
+    "close": "Kapat",
     "communityIdField": "Topluluk Kimliği",
     "confirm": "Onayla",
     "copy": "Kopyala",
@@ -101,6 +202,7 @@
     "edit": "Düzenle",
     "email": "E-posta",
     "help": "Yardım",
+    "id": "ID",
     "language": "Dil",
     "learnMore": "Daha Fazla Öğren",
     "limited": "Sınırlı",
@@ -198,6 +300,7 @@
     "joinCode": "Katılım kodu: {code}",
     "joinMission": "Sunucuna katıl, bir rol seç ve göreve gir. Bir Sonoran Radio öğesi kuşan. Görev oluşturucular kapsama için Sonoran sinyal kuleleri/tekrarlayıcılar yerleştirmelidir.",
     "joinTest": "Katıl ve test et",
+    "linkRoblox": "Roblox'u Bağla",
     "linkServer": "Sunucu Bağla",
     "manualServer": "Elle barındırılan bir sunucu için, her iki mod klasörünü de sunucuya kopyalayın, onların {extension} dosyalarını key klasörlerinden sunucunun {directory} klasörüne kopyalayın ve şu başlangıç bağımsız değişkenini ekleyin (klasör adlarını ayarlayın):",
     "next": "Sonraki",
@@ -214,6 +317,7 @@
     "resizeRadio": "Radyoyu yeniden boyutlandır",
     "resizeScreen": "Ekranı yeniden boyutlandırmak için sürükleyin",
     "restartServer": "Sunucuyu yeniden başlatın ve her iki modu da oyuncularla paylaşılan başlatıcı ön ayarına ekleyin. İmzaları ve BattlEye'ı etkin bırakın; bir istemci reddedilirse tam kick mesajını inceleyin.",
+    "robloxLinkDescription": "Bu toplulukta konuma dayalı radyo sinyalini kullanmak için Roblox hesabınızı Sonoran hesabınıza bağlayın.",
     "serverMods": "Aynı iki Workshop modunu sunucu barındırıcınızın mod yöneticisi üzerinden kurun. Her ikisini de yalnızca sunucu modu olarak değil, normal mod olarak yükleyin, önce CBA_A3 olacak şekilde.",
     "setupOverlay": "Katmanı kur",
     "towerSaveError": "ER:LC sinyal kuleleri kaydedilemedi. Son değişikliğiniz geri alındı.",
@@ -231,10 +335,32 @@
     "openGameIntegration": "Oyun Entegrasyonu",
     "overlayDesktopDescription": "Masaüstü kullanıcılar için radyo kaplamasını özelleştirin.",
     "overlayFiveMDescription": "FiveM oyun içi radyonuzu ve masaüstü kaplamanızı özelleştirin. FiveM değişiklikleri uyumlu bir kaynak sürümüyle beş dakika içinde eşitlenir.",
-    "overlaySelectGame": "Eşleşen kaplama özelliklerini kullanmak için Topluluk oyununuzu Game Integration'da kontrol edin."
+    "overlayPreview": {
+      "description": "Radyo kaplamanızı özelleştirin.",
+      "done": "Tamam",
+      "game": "Oyun",
+      "localSample": "Yerel önizleme · yalnızca örnek veriler",
+      "noGame": "Oyun seçilmedi",
+      "previewGame": "Oyunu önizleme",
+      "saves": "Bu önizlemede {count} kayıt",
+      "title": "Katman"
+    },
+    "overlaySelectGame": "Eşleşen kaplama özelliklerini kullanmak için Topluluk oyununuzu Game Integration'da kontrol edin.",
+    "upgradeRadioPlan": "Radyo planınızı yükseltin",
+    "upgradeRadioPlanMessage": "Bu topluluk için daha fazla kapasite, özelleştirme ve gelişmiş Radyo özelliklerinin kilidini açın.",
+    "viewBilling": "Faturalandırmayı Görüntüle"
   },
   "desktopPanel": {
     "channelHotkey": "Kanal Kısayolu"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "Mikrofonunu değiştir:",
+    "deviceUnavailable": "{device} kullanılamıyor. Başka bir mikrofon seçin.",
+    "microphoneAccessDenied": "Mikrofon erişimi reddedildi",
+    "noInputDetected": "Mikrofon girişi algılanmadı. Sevk merkezi sizi duyamıyorsa mikrofonunuzu değiştirin.",
+    "noMicrophoneFound": "Mikrofon bulunamadı",
+    "selectedUnavailable": "Seçili mikrofon kullanılamıyor. Başka bir mikrofon seçin.",
+    "unknownError": "Bilinmeyen Hata"
   },
   "error404": {
     "goHome": "Ana sayfaya git",
@@ -335,7 +461,291 @@
     "sonoranRadioPolymap": "Sonoran Radyo Polymap"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "Oyun topluluğunuz için ücretsiz radyoyla başlayın",
     "learnMore": "Daha Fazla Öğren"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "Sonoran Radyoyu Karşılaştır",
+      "competitorLogo": "{competitor} logosu",
+      "dispatchAnywhere": "Çağrıyı Her Yerde Yap",
+      "downloadAndroid": "Android için Sonoran Radio'yu İndir",
+      "downloadIos": "iOS için Sonoran Radio'yu İndir",
+      "downloadLinux": "Linux için Sonoran Radio'yu İndir",
+      "downloadMacos": "MacOS için Sonoran Radio'yu İndir",
+      "downloadWindows": "Windows için Sonoran Radio'yu İndir",
+      "gameSelection": "Oyun seçimi",
+      "heroRadioAlt": "{game} Sonoran Radio örnek kanallarla masaüstü kaplaması",
+      "openIntegration": "{title} entegrasyonunu aç",
+      "sonoranRadioIntegrations": "Sonoran Radio entegrasyonları",
+      "sonoranRadioVs": "Sonoran Radyo vs {competitor}",
+      "viewGameIntegrations": "{game} entegrasyonlarını görüntüle"
+    },
+    "armaCapture": {
+      "activeDishes": "Aktif tabaklar",
+      "aiCanHear": "Yapay zeka yayınları duyabilir",
+      "aiHearingTitle": "SONORAN RADYO · YAPAY ZEKA İŞİTME",
+      "alphaOneOne": "Alfa 1-1",
+      "blockedPath": "Engellenen yol · 2 km",
+      "blockedQuality": "%26 kalite",
+      "blockedTerrainMultiplier": "Engellenen arazi çarpanı",
+      "cancel": "İPTAL",
+      "canDetectSpeaker": "Konuşmacıyı algılayabilir",
+      "clearPath": "Açık yol · 2 km",
+      "clearQuality": "%75 kalite",
+      "customizationDesktopFrames": "ÖZELLEŞTİRME / MASAÜSTÜ ÇERÇEVELERİ",
+      "dishCount": "Tabak sayısı",
+      "exampleSignalPaths": "ÖRNEK SİNYAL YOLLARI",
+      "hearingRadiusAria": "İllüstratif iletim duyma yarıçapı",
+      "illustrativeHearingRadius": "İLLÜSTRATİF DUYMA YARIÇAPI",
+      "indestructible": "Yok edilemez",
+      "inventoryFrame": "Envanter öğesi → masaüstü çerçevesi",
+      "invisibleSignalOnly": "Görünmez (yalnızca sinyal)",
+      "itemClassNames": "ARMA Öğe Sınıf Adları",
+      "largeRadioTower": "BÜYÜK RADYO KULESİ",
+      "matchRadio": "Taşıdığın radyoyla eşleştir",
+      "nearbyAi": "Yakındaki Yapay Zeka",
+      "nearbyAiDescription": "Yakındaki yapay zeka, bas-konuş kullanırken sizi algılayabilir.",
+      "ok": "Tamam",
+      "optionalDisabled": "İsteğe bağlı · Varsayılan olarak devre dışı",
+      "outsideHearingRange": "İşitme menzili dışında",
+      "photoCaption": "ALTIS · BÜYÜK RADYO KULESİ",
+      "powered": "Güçlü",
+      "rangeDishes": "8 km menzil · 4 / 4 çanak",
+      "relayAlpha": "Aktarım Alfa",
+      "repeaterModel": "Tekrarlayıcı modeli",
+      "signalPathsAria": "Açık ve arazi tarafından engellenen sinyal yolları",
+      "signalRange": "Sinyal menzili (m)",
+      "signalTitle": "SONORAN RADIO / SİNYAL",
+      "terrainAttenuation": "Arazi zayıflaması",
+      "terrainChanges": "Arazi değişikliklerinin alınması",
+      "title": "SONORAN RADYO KULESİ",
+      "transmissionHearingRange": "İletim duyma aralığı",
+      "transmitting": "İLETİLİYOR"
+    },
+    "dispatchAi": {
+      "exampleOf": "{current}/{total} örneği: {id}",
+      "examples": "Çağrı Yapay Zeka örnekleri",
+      "items": {
+        "alpha": {
+          "request": "\"Komut, beni Alpha Squad'a aktar.\"",
+          "response": "Kopya, sizi Alpha Squad'a aktarıyorum.",
+          "result": "Squad geçişi · Alpha Squad"
+        },
+        "breach": {
+          "request": "\"Komut, 60 saniyelik bir ihlal zamanlayıcısı başlat.\"",
+          "response": "Kopya, 60 saniyelik ihlal zamanlayıcısı başlatıldı.",
+          "result": "İhlal zamanlayıcısı başlatıldı · 01:00"
+        },
+        "miller": {
+          "request": "\"Komuta, Çavuş Miller'ı frekansıma gönder.\"",
+          "response": "Kopyalayın, Çavuş Miller'ı frekansınıza gönderiyorum.",
+          "result": "Frekans gönderimi · Çavuş Miller"
+        },
+        "pit": {
+          "request": "\"Dispatch, beş dakika için bir PIT zamanlayıcısı ayarla.\"",
+          "response": "Kopya, beş dakikalık PIT zamanlayıcısı başlatıldı.",
+          "result": "PIT zamanlayıcısı başlatıldı · 05:00"
+        },
+        "plate": {
+          "request": "\"Dispatch, mavi bir sedanla trafikte olduğumu göster, plaka ABC123.\"",
+          "response": "Kopyala, mavi bir sedan, ABC123 ile bir trafik durdurma çağrısı oluşturuldu.",
+          "result": "Trafik ihbarı · Birim atandı"
+        },
+        "platoon": {
+          "request": "\"Komut, 1. Müfrezeyi taradığım kanallara ekle.\"",
+          "response": "Kopyala, taranan kanallarına 1. Müfrezeyi ekliyorum.",
+          "result": "Kanal eklendi · 1. Takım"
+        },
+        "robbery": {
+          "request": "\"Anlaşıldı, devam eden soyguna beni bağla.\"",
+          "response": "Anlaşıldı, biriminizi devam eden soyguna bağlıyorum.",
+          "result": "Soygun ihbarı · Birim atandı"
+        },
+        "runPlate": {
+          "request": "\"Merkez, ABC123 plakayı çalıştır.\"",
+          "response": "Kopya, ABC123'ün dönüşü için beklemede kalın.",
+          "result": "Plaka arama · Sonuçlar mevcut"
+        },
+        "tacOne": {
+          "request": "\"Dispatch, beni TAC 1'e geçir.\"",
+          "response": "Kopya, sizi TAC 1'e aktarıyorum.",
+          "result": "Kanal değişimi · TAC 1"
+        }
+      },
+      "next": "Sonraki Çağrı Yapay Zeka örneği",
+      "previous": "Önceki Dispatch AI örneği",
+      "radioAlt": "{game} Sonoran Radio masaüstü kaplaması",
+      "subtitle": "Sesiniz. Sevk görevlisi. Sonoran CAD’ye bağlı.",
+      "title": "Çağrı Yapay Zeka"
+    },
+    "erLcMapCapture": {
+      "addPoints": "Puan Ekle",
+      "cancel": "İptal",
+      "clickTheMap": "Haritaya tıkla",
+      "closeTowerMenu": "Kule menüsünü kapat",
+      "closeZoneMenu": "Bölge menüsünü kapat",
+      "deleteTower": "Kuleyi Sil",
+      "deleteZone": "Bölgeyi Sil",
+      "description": "Sinyal kapsamasını ve acil durum bölgelerini aynı haritada yapılandırın.",
+      "dragZoneHandles": "Bölge şeklini düzenlemek için mavi tutamaçları sürükleyin.",
+      "drawCircle": "Daire Çiz",
+      "drawPolygon": "Çokgen Çiz",
+      "editEmergencyZone": "Acil Durum Bölgesini Düzenle",
+      "editTower": "Kuleyi Düzenle",
+      "emergencyZones": "Acil Durum Bölgeleri",
+      "finishZone": "Bitiş Bölgesi",
+      "mapAlt": "ER:LC haritası",
+      "mapCoordinates": "Harita X {x} · Z {y}",
+      "mapUnits": "harita birimleri",
+      "noEmergencyZones": "Bu oda için henüz acil durum bölgesi yok. Bir tane eklemek için bir poligon veya daire çizin.",
+      "noSignalTowers": "Henüz sinyal kulesi yok. Bir kule yerleştirene kadar sinyal %100 kalır.",
+      "placeTower": "Kuleyi Yerleştir",
+      "points": "puanlar",
+      "range": "Menzil",
+      "room": "Oda",
+      "selectCenter": "Ortayı seçin",
+      "selectCircleEdge": "Çember kenarını seçin",
+      "setCenterEdge": "Merkez ve Kenarı Ayarla",
+      "title": "ER:LC Harita Yapılandırması",
+      "towerName": "Kule adı",
+      "towers": "Kuleler",
+      "transmitChannels": "İletim kanalları",
+      "zoneName": "Bölge adı"
+    },
+    "featureCapture": {
+      "channelsGroups": "Kanallar ve Gruplar",
+      "exportedPngData": "Dışa aktarılan PNG verisi",
+      "exportPng": "Şeffaf PNG dışa aktar",
+      "preview": "Önizleme",
+      "sfxCustomization": "SFX Özelleştirme",
+      "transmissionLogs": "İletim Kayıtları"
+    },
+    "gameIntegration": {
+      "integration": "Entegrasyon"
+    },
+    "integrationCapture": {
+      "adminPermission": "Yönetici",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "apiGetGroupsComment": "// Yapılandırılmış grupları ve kanalları al",
+      "approveMembers": "Üyeleri Onayla",
+      "assignedUnits": "Atandı: A-12, A-14",
+      "available": "KULLANILABİLİR",
+      "availableCall": "Kullanılabilir · Arama #1042",
+      "availableUnit": "KULLANILABİLİR · A-12",
+      "callAction": "Bir çağrı oluştur",
+      "callActionExample": "Main St'de 10-50 için bir çağrı oluşturun",
+      "callInformation": "Çağrı bilgisi",
+      "callNumber": "Arama #1042",
+      "channelAction": "Radyo kanalını değiştir",
+      "channelActionExample": "Beni TAC 1'e geçir",
+      "communityAdmin": "Topluluk Yöneticisi",
+      "communityRoles": "Topluluk rolleri",
+      "connectedToRadio": "Radyonuza bağlı",
+      "countyDispatch": "İlçe Çağırma",
+      "dispatchAiActions": "Çağrı Yapay Zeka eylemleri",
+      "dispatchCall": "ÇAĞIRMA ÇAĞRISI",
+      "dispatchOne": "ÇAĞIRMA 1",
+      "dispatchTeam": "ÇAĞIRMA EKİBİ",
+      "exampleRoleMapping": "ÖRNEK ROL EŞLEMESİ",
+      "exampleVoiceRequest": "ÖRNEK SES İSTEĞİ",
+      "jordanLee": "A-14 · Jordan Lee",
+      "moveRadioUsers": "Radyo Kullanıcılarını Taşı",
+      "officialSdkLibraries": "Resmi v2 SDK kitaplıkları",
+      "panic": "Panik",
+      "patrol": "Devriye",
+      "permissions": "İzinler",
+      "permissionsStayInSync": "İzinler senkronize kalır",
+      "plateAction": "Kişi veya plaka araması",
+      "plateActionExample": "ABC123 plakayı çalıştır",
+      "playDispatchTones": "Sevk Tonlarını Çal",
+      "respondingCall": "Yanıt veriliyor · Arama #1042",
+      "statusAction": "Durum güncellemeleri",
+      "statusActionExample": "Durumumu uygun olarak ayarla",
+      "statusUpdates": "Durum güncellemeleri",
+      "streamDeckAlt": "15 LCD tuşunda Sonoran Radio kontrolleri bulunan fiziksel Elgato Stream Deck MK.2",
+      "trafficCollision": "Trafik çarpışması",
+      "trafficLocation": "Great Ocean Highway · 3025 Posta",
+      "unitStatus": "Birim durumu",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "Sesiniz. CAD’ye bağlı."
+    },
+    "integrationCard": {
+      "free": "ÜCRETSİZ"
+    },
+    "interactivePreview": {
+      "allClear": "Her şey temiz",
+      "analog": "Analog",
+      "audioLevel": "Ses seviyesi",
+      "cancel": "İptal",
+      "countyDispatch": "İLÇE ÇAĞIRMA",
+      "digital": "Dijital",
+      "emsDispatch": "EMS Çağırma",
+      "fireDispatch": "İtfaiye Çağırma",
+      "fireEms": "İTFAİYE / AMBULANS",
+      "hearDifference": "Farkı duyun",
+      "microphonePreviewError": "Mikrofon önizlemesi başlatılamadı. Tarayıcı iznini kontrol edin veya örneği deneyin.",
+      "microphonePreviewOn": "Mikrofon önizlemesi açık",
+      "openLibrary": "{library}'i {registry}'de Aç",
+      "original": "Orijinal",
+      "playingSample": "Örnek çalınıyor",
+      "playSample": "Örnek çal",
+      "previewPlaying": "Önizleme oynatılıyor",
+      "previewStopped": "Önizleme durduruldu",
+      "previewVolume": "Önizleme sesi",
+      "priorityTraffic": "Öncelikli Trafik",
+      "publicSafety": "KAMU GÜVENLİĞİ",
+      "samplePlaybackError": "Örnek oynatılamadı. Lütfen tekrar deneyin.",
+      "sampleUnavailable": "Örnek kullanılamıyor",
+      "startingPreview": "Önizleme Başlatılıyor",
+      "stopPreview": "Önizlemeyi Durdur",
+      "tonePlaybackError": "Bu ton oynatılamadı. Lütfen tekrar deneyin.",
+      "toneUnavailable": "Ton kullanılamıyor",
+      "tryMicrophone": "Mikrofonumu dene",
+      "vocoder": "Vokoder · 3200",
+      "vocoderPreviewError": "Vokoder önizlemesi başlatılamadı. Lütfen tekrar deneyin.",
+      "voiceEffectExamples": "Ses efekti örnekleri"
+    },
+    "mobi": {
+      "active": "AKTİF",
+      "audio": "SES",
+      "channelGroup": "KANAL GRUBU",
+      "channels": "KANALLAR",
+      "currentSpeaker": "GÜNCEL KONUŞMACI",
+      "distress": "TEHLİKE",
+      "distressSignalDetected": "TEHLİKE SİNYALİ ALGILANDI",
+      "header": "RADYO // HABERLEŞME",
+      "multiChannel": "ÇOK KANALLI",
+      "multiGroup": "BİRDEN FAZLA GRUP",
+      "noActiveTransmission": "AKTİF YAYIN YOK",
+      "noLink": "BAĞLANTI YOK",
+      "none": "YOK",
+      "online": "ÇEVRİMİÇİ",
+      "priorityAlert": "ÖNCELİKLİ UYARI",
+      "quickAccess": "HIZLI ERİŞİM",
+      "receive": "AL",
+      "scan": "TARA",
+      "scanList": "Tarama Listesi",
+      "scannedChannel": "TARANAN KANAL",
+      "selectedChannel": "SEÇİLMİŞ KANAL",
+      "settings": "AYARLAR",
+      "settingsTooltip": "Ayarlar",
+      "signal": "SİNYAL",
+      "signalFault": "SİNYAL ARIZASI",
+      "spectrumOffline": "SPEKTRUM ÇEVRİMDIŞI",
+      "standby": "BEKLEME",
+      "temporaryLink": "GEÇİCİ BAĞLANTI",
+      "transmission": "İLETİM",
+      "transmit": "İLET",
+      "unknownChannel": "BİLİNMEYEN KANAL",
+      "unknownGroup": "BİLİNMEYEN GRUP",
+      "unknownUser": "BİLİNMEYEN KULLANICI"
+    },
+    "tabPanel": {
+      "defaultDescription": "Gerçek zamanlı birim durumu, frekans izleme ve kanal yönetimi için yer tutucu sekme içeriğiyle sorunsuz koordinasyon deneyimi yaşayın.",
+      "defaultTitle": "Sonoran Radyo",
+      "imageAlt": "Sekme paneli görseli"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "Radyo Çerçevesini Değiştir",
@@ -376,11 +786,125 @@
     "title": "JSON İçe/Dışa Aktarma",
     "tooltip": "JSON dosyası içe aktar"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Sonoran API kitaplıkları",
+    "armaDescription": "Sonoran Radio'yu Arma 3 ile doğrudan Arma 3 Entegrasyonları aracılığıyla bağlayın.",
+    "back": "Geri",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "ÇAĞIRMA ÇAĞRILARI ÖNİZLEMESİ",
+        "description": "Kendinizi bir Sonoran CAD dispatch çağrısına bağlayın ve çağrı ayrıntılarını radyoda görüntüleyin.",
+        "label": "ÇAĞIRMA ÇAĞRILARI"
+      },
+      "liveMap": {
+        "alt": "Yer Tutucu Canlı Harita önizlemesi",
+        "description": "Sonoran CAD canlı haritasıyla radyo kulelerini görüntüleyin.",
+        "label": "Canlı Harita"
+      },
+      "panicButton": {
+        "alt": "Panik Butonu Önizleme",
+        "description": "Sonoran CAD panik durumunuzu radyo panik düğmesiyle değiştirin.",
+        "label": "Panik Butonu"
+      }
+    },
+    "comingSoon": "Yakında geliyor.",
+    "erlcDescription": "Sonoran Radio'yu ER:LC ile doğrudan ER:LC Entegrasyonları aracılığıyla bağlayın.",
+    "fivemDescription": "Sesli radyoyu sunucunuza getirmek için Sonoran Radio'nun ücretsiz FiveM radyo scriptini—resmi oyun içi kaynağı—kullanın. Aşağıdaki entegrasyonları inceleyin, ardından {setupGuide} izleyin.",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "Bir Arma oyuncusunun yapay zekâ duyma yarıçapı içinde iletim yapmasının ve modun işitme ayarlarının illüstrasyonu.",
+            "description": "Yakındaki yapay zekanın, ayarlanabilir bir işitme menziliyle yayın yapan oyuncuları tespit etmesine izin verin. Arma entegrasyon önizlemesinde kullanılabilir.",
+            "label": "Yapay zeka duyma"
+          },
+          "itemFrames": {
+            "alt": "BLUFOR ve OPFOR eşya sınıfı eşlemeleri, karşılık gelen Sonoran Radio masaüstü kaplama çerçevelerinin yanında.",
+            "description": "BLUFOR veya OPFOR radyo öğeniz, eşleşen masaüstü kaplamasını seçer. Özel öğeleri topluluğunuzun çerçevelerine eşleyin.",
+            "label": "Envanter radyo senkronizasyonu"
+          },
+          "terrainSignal": {
+            "alt": "Arazi arkasında azalmış sinyal ve net bir sinyal yolu gösteren çizimli Arma tekrarlayıcı kapsaması.",
+            "description": "Mesafe ve arazi, kule alımını zayıflatır. Kaplamanızın sinyalini izleyin ve değişimi kanal efektleriyle duyun.",
+            "label": "Arazi ve sinyal"
+          },
+          "towers": {
+            "alt": "Menzil, kapasite ve güç için örnek Zeus kontrolleri olan bir Arma sinyal kulesi.",
+            "description": "Eden veya Zeus'ta kuleler yerleştirin. Menzil, güç ve yıkım, radyo kapsama alanınızı şekillendirir.",
+            "label": "Oyun içi kuleler"
+          }
+        },
+        "tabsLabel": "Arma 3 entegrasyon özellikleri"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "ER:LC polis sahnesi üzerinde Liberty County sevk kanallarını gösteren Sonoran Radio masaüstü kaplaması.",
+            "description": "Oynarken radyonu Roblox’un üstünde tut. Bir çerçeve seç, kanalları değiştir ve masaüstü uygulamasından canlı kule sinyalini takip et.",
+            "label": "Masaüstü kaplama"
+          },
+          "emergencyZones": {
+            "alt": "ER:LC haritası, örnek bir acil durum bölgesini ve izin verilen acil durum yayın kanallarını gösteriyor.",
+            "description": "Acil durum bölgeleri çizin ve her alanda hangi acil durum yayın kanallarının kullanılabilir olduğunu seçin.",
+            "label": "Acil Durum Bölgeleri"
+          },
+          "liveSignal": {
+            "alt": "Sonoran Radyo kaplamasının yanında sanal kule kapsaması ve bağlı oyuncularla canlı sinyal gücünü gösteren ER:LC haritası.",
+            "description": "Radyo kapsama alanını Liberty County genelinde şekillendirmek için kuleler yerleştirin. Sürerken, bindirmeniz canlı sinyal gücünü gösterir ve radyo efektleri alımınızı yansıtır.",
+            "label": "Sanal kuleler"
+          }
+        },
+        "tabsLabel": "ER:LC entegrasyon özellikleri"
+      }
+    },
+    "integrationTitleSuffix": "Entegrasyon",
+    "learnMore": "Daha fazla öğren: {title}",
+    "meta": {
+      "armaDescription": "Arma 3 için oyun içi kuleler, envanter radyo senkronizasyonu, arazi sinyali ve yapay zeka işitmesi dahil Sonoran Radio entegrasyonlarını keşfedin.",
+      "armaTitle": "Arma 3 Entegrasyonları | Sonoran Radio",
+      "erlcDescription": "ER:LC için masaüstü bindirme, sanal kuleler ve acil durum bölgeleri dahil Sonoran Radio entegrasyonlarını keşfedin.",
+      "erlcTitle": "ER:LC Entegrasyonları | Sonoran Radio",
+      "fivemDescription": "Sesli radyoyu sunucunuza getirmek için Sonoran Radio'nun ücretsiz FiveM radyo scriptini, resmi oyun içi kaynağı, kullanın.",
+      "fivemTitle": "FiveM Entegrasyonları | Sonoran Radio"
+    },
+    "openDocumentation": "{title} için belgeleri aç",
+    "registryLink": "{name} için {registry} üzerinde",
+    "setupGuide": "kurulum kılavuzu",
+    "streamDeck": {
+      "calloutDescription": "Daha fazla ayrıntı ve eklenti kurulum adımları için belgeleri görüntüleyin.",
+      "calloutTitle": "Daha fazla öğrenmek ister misin?",
+      "description": "En sık kullandığınız Sonoran Radio kontrollerini bir Stream Deck tuşuna veya kadranına getirin. Akışınızı bozmadan kanallar arasında geçin, yayın yapın ve sesi ince ayarlayın.",
+      "deviceAlt": "Kanalları gösteren Sonoran Radio elde cihazı",
+      "heading": "Radyonuz. Bir dokunuş ötede.",
+      "highlights": {
+        "actions": {
+          "description": "AI modunu, Tone Board'u ve masaüstü bindirmelerini deck'ine koy veya FiveM oyun içi radyonla eylemleri kullan.",
+          "title": "Daha fazla radyo eylemi"
+        },
+        "audio": {
+          "description": "Desteklenen kadranları kullanarak radyo, kanal, efektler ve AI sesini ayarlayın.",
+          "title": "Sesinizi ayarlayın"
+        },
+        "channelShortcuts": {
+          "description": "Bir dokunuşla kanallar ve gruplar arasında geçiş yapın veya iletim ve tarama listelerini açıp kapatın.",
+          "title": "Kanal kısayolları"
+        },
+        "pushToTalk": {
+          "description": "Aktarmayı el altında tutun ve radyo uygulamasına geri dönmeden gönderin.",
+          "title": "Bas-konuş, bir tuşta"
+        }
+      },
+      "platformKeysDials": "Tuşlar + kadranlar",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Stream Deck özellikleri"
+  },
   "landingPage": {
     "API_Libraries": {
       "desc": "v2 API ile kullanılan resmi Sonoran SDK kitaplıkları için kurulum bağlantıları.",
       "title": "API Kitaplıkları"
     },
+    "armaIntegrationDescription": "Sonoran Radio'yu Arma 3 ile doğrudan Arma 3 Entegrasyonları aracılığıyla bağlayın.",
     "BackgroundAudio": {
       "desc": "Bir çağrıya mı yanıt veriyorsunuz? Sonoran Radio, en üst düzey sürükleyicilik için gerçek zamanlı sirenleri, silah seslerini ve daha fazlasını doğrudan mikrofon akışınıza enjekte eder.",
       "title": "Arka Plan Sesi"
@@ -435,6 +959,8 @@
       "desc": "Acil durum çağrıları yapın, hepsi oyun içinden!",
       "title": "Oyun İçi Acil Çağrılar"
     },
+    "erlcIntegrationDescription": "Sonoran Radio'yu ER:LC ile doğrudan ER:LC Entegrasyonları aracılığıyla bağlayın.",
+    "exploreIntegrations": "Entegrasyonları Keşfet",
     "faq": {
       "free": {
         "answer": "Evet. Dispatch AI, aylık krediler dahil olmak üzere Ücretsiz planda tamamen kullanılabilir. Ücretli planlar daha yüksek kredi limitleri içerir.",
@@ -463,6 +989,34 @@
       "eyebrow": "Doğrudan Entegrasyon",
       "heading": "Entegrasyonlar"
     },
+    "fivemRadioIntegration": "Radyo Entegrasyonu",
+    "gameIntegrations": "Oyun Entegrasyonları",
+    "games": {
+      "arma3": {
+        "description": "Ücretsiz radyo kanalları ve Arma 3 için bir masaüstü kaplamasıyla başlayın. Görev kuleleri, envanter bağlantılı çerçeveler ve arazi sinyaliyle Arma entegrasyonunu önizleyin.",
+        "headline": "Arma 3 ekibiniz için ücretsiz radyo",
+        "name": "Arma 3",
+        "title": "Ücretsiz Arma 3 Radyo & Masaüstü Yerleşimi | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "Roblox Emergency Response: Liberty County için masaüstü kaplamasıyla ücretsiz ER:LC sesli radyosunu başlatın. Hesapları bağlayın ve canlı sinyal kapsamasıyla sanal kuleler ekleyin.",
+        "headline": "Topluluğunuz için ücretsiz ER:LC sesli radyo",
+        "name": "ER:LC",
+        "title": "Ücretsiz ER:LC Sesli Radyo & Masaüstü Yerleşimi | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "FiveM radyo scripti, masaüstü kaplaması ve sevk paneli ile ücretsiz başlayın. Sonoran Radio'yu FiveM entegrasyonu ile GTA V roleplay sunucunuza bağlayın.",
+        "headline": "FiveM topluluğunuz için ücretsiz radyo",
+        "name": "FiveM",
+        "title": "Ücretsiz FiveM Radyo Scripti ve Sevk Paneli | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "Star Citizen ekibini ücretsiz radyo kanalları, sevk araçları ve temalı bir masaüstü kaplamasıyla bağlantıda tutun. Verse boyunca iletişimi koordine edin.",
+        "headline": "Star Citizen ekibiniz için ücretsiz telsiz",
+        "name": "Star Citizen",
+        "title": "Ücretsiz Star Citizen Radyo ve Kaplama | Sonoran Radio"
+      }
+    },
     "hero": {
       "subtitle": "Gerçekçi radyo kanallarında sohbet edin, ses efektlerinizi özelleştirin ve gerçekten sürükleyici bir deneyim için oyun içi özelliklerle zahmetsizce bağlantı kurun.",
       "title": "Daha iyi radyo iletişimi burada başlar"
@@ -480,6 +1034,7 @@
     "meta": {
       "audienceType": "Oyuncular ve Topluluk Yöneticileri",
       "description": "FiveM, ER:LC, Arma 3 ve rol yapma toplulukları için gerçekçi radyo iletişim yazılımı.",
+      "imageAlt": "Sonoran Radio sevk paneli ve masaüstü radyo kaplaması",
       "keywords": "Sonoran Radio, oyun radyosu, FiveM radyosu, ER:LC radyosu, Arma 3 radyosu, roleplay iletişimi, dispatch yazılımı, masaüstü radyo kaplaması, ücretsiz FiveM radyosu, ücretsiz ER:LC radyosu",
       "ogTitle": "Sonoran Radio - Oyun Radyo İletişimi",
       "productName": "Sonoran Radyo",
@@ -515,6 +1070,7 @@
       "dispatchAdmin": "Çağrı Merkezi ve Yönetim Paneli",
       "integrations": "Entegrasyonlar"
     },
+    "softwareIntegrations": "Yazılım Entegrasyonları",
     "Sonoran_CAD": {
       "desc": "Bu eklenti, Sonoran Radio müşterilerinin radyoyu Sonoran CAD ile bağlamasına olanak tanır. Birim durumunuzu, sevk çağrısı bilgilerini görüntüleyin, panik durumunu açıp kapatın ve daha fazlasını yapın!",
       "title": "Sonoran CAD"
@@ -528,6 +1084,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Sonoran Studio’yu keşfet",
       "description": "Canlı radyo etkinliğini yayın kaplamalarına, tepkisel akıllı aydınlatmaya ve eller serbest otomasyonlara dönüştürün.",
       "eyebrow": "Sonoran Radyo + Sonoran Studio",
@@ -598,7 +1155,15 @@
     "serverHosting": "Sunucu Barındırma"
   },
   "management": {
-    "forceJoinAsOwner": "Sahip Olarak Zorla Katıl"
+    "eventType": "Etkinlik türü",
+    "forceJoinAsOwner": "Sahip Olarak Zorla Katıl",
+    "forceLeave": "Zorla Ayrıl",
+    "payloadJson": "Yük JSON'u",
+    "pushEventDiagnostic": "İtme Olayı Tanılama",
+    "pushUrl": "Push URL",
+    "sendTestPushEvent": "Test İtme Olayı Gönder",
+    "storedRoomPushUrl": "Kayıtlı oda push URL'si",
+    "timeout": "Zaman aşımı (ms)"
   },
   "managementPage": {
     "searchTitle": "Topluluk Ara",
@@ -611,6 +1176,8 @@
       "apiInfoTitle": "API Bilgisi",
       "communityApiKeyField": "Topluluk API Anahtarı",
       "communityLogs": "Topluluk Kayıtları",
+      "communityLogsEmpty": "Kayıt bulunamadı",
+      "communityLogsLoading": "Günlükler yükleniyor...",
       "logAccount": "Kaynak (Hesap)",
       "logContent": "İçerik",
       "logDate": "Tarih",
@@ -651,9 +1218,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Düğme Ekle",
+      "addLayout": "Düzen ekle",
       "addScreen": "Ekran ekle",
       "addVariant": "Bu varyantı ekle",
       "addVehicleOverride": "Araç geçersiz kılma ekle",
+      "aircraftLayout": "Hava aracı düzeni",
       "armaBlufor": "BLUFOR Örneği",
       "armaExamples": "ARMA 3 Örnekleri",
       "armaItemClassNames": "ARMA Öğe Sınıf Adları",
@@ -674,6 +1243,8 @@
       "deleteFrame": "Çerçeveyi sil",
       "duplicateVehicleName": "Her araç adı yalnızca bir geçersiz kılmaya sahip olabilir.",
       "editHint": "Taşımak için sürükle · Yeniden boyutlandırmak için Ctrl + sürükle · Kaldırmak için bir düğmeye sağ tıkla",
+      "fit": "Sığdır",
+      "fitRadioToCanvas": "Radyoyu tuvale sığdır",
       "frameBodyImage": "Çerçeve Gövde Görseli",
       "frameLabel": "Çerçeve Etiketi",
       "frameName": "Çerçeve adı",
@@ -682,6 +1253,10 @@
       "importFromSkin": "FiveM'den içe aktar (skin.json)",
       "importNoFramesFound": "body.width ve screen içeren çerçeve bulunamadı.",
       "label": "Etiket",
+      "migratedFramesReadOnly": "Taşınan FiveM çerçeveleri Free'de kullanılabilir kalır. Bu çerçeveyi düzenlemek veya görüntülerini değiştirmek için Pro'ya yükseltin.",
+      "migratedFramesReset": "Taşınan FiveM çerçeveleri yalnızca Pro ile sıfırlanabilir.",
+      "moveLayoutEarlier": "Düzeni daha erken taşı",
+      "moveLayoutLater": "Düzeni sonra taşı",
       "newFrame": "Yeni Çerçeve",
       "noneFound": "Bu topluluk için kaplama çerçevesi bulunamadı.",
       "overrideFramesRequired": "Her araç geçersiz kılma için en az bir çerçeve seçin.",
@@ -719,6 +1294,8 @@
         "onFoot": "Yaya",
         "vehicle": "Araç"
       },
+      "vehicleClasses": "Araç sınıfları",
+      "vehicleClassesHint": "Tüm araç sınıflarıyla eşleşmesi için seçimi temizleyin. Daha önceki düzenler önceliklidir.",
       "vehicleClassNames": {
         "boats": "Botlar",
         "commercial": "Ticari",
@@ -745,12 +1322,15 @@
         "utility": "Hizmet",
         "vans": "Minibüsler"
       },
+      "vehicleLayout": "Araç düzeni",
       "vehicleName": "ER:LC araç adı",
       "vehicleNameRequired": "Her geçersiz kılma için bir araç adı girin.",
       "vehicleOverrideHint": "Araç adları, büyük/küçük harf ve baştaki ya da sondaki boşluklar yok sayılarak birebir eşleşir. Masaüstü çerçevesinde, tek bir araç adı mevcut olduğunda araca özel bir çerçeve kullanmak için ER:LC araç algılamayı etkinleştirin.",
       "visibilityHint": "Yaya iken veya araç adı eşleşmediğinde varsayılan masaüstü çerçevelerini seçin. Araç geçersiz kılmaları, ER:LC araç algılaması eşleşen bir ad bulduğunda çerçeveleri otomatik olarak seçer.",
       "visibilityTitle": "Çerçeve görünürlüğü",
-      "visibleFrames": "Görünür çerçeveler"
+      "visibleFrames": "Görünür çerçeveler",
+      "zoomIn": "Yakınlaştır",
+      "zoomOut": "Uzaklaştır"
     },
     "customizeMenu": {
       "ai": "Yapay Zeka",
@@ -1136,13 +1716,19 @@
       "approveBtn": "Onayla",
       "ban": "Yasakla",
       "banBtn": "Yasakla",
+      "banConfirm": "{count} üye(yi) kalıcı olarak yasaklamak üzeresiniz. Yeniden katılamayacaklar, ancak yasakları kaldırılabilir.",
       "cannotModifyPermsOfMyself": "Kendi izinlerimi değiştiremem",
+      "communityAccess": "Topluluk Erişimi",
+      "communityAccessDescription": "Üyeye temel Sonoran Radio erişimi onayı verir. Yönetim izinleri veya özel profil erişimi sağlamaz.",
+      "confirmTitle": "Emin misin?",
       "copyDiscordId": "Discord ID'yi Kopyala",
       "copyPermissionGeneratorId": "İzin Kimliğini Kopyala",
       "copyRobloxId": "Roblox Kimliğini Kopyala",
       "discordIdCopied": "Discord ID panoya kopyalandı.",
       "displayName": "Ekran Adı",
+      "displayNameUpdated": "Ekran Adı Güncellendi",
       "editMemberPerms": "Üye İzinlerini Düzenle",
+      "enterDisplayName": "{name} için yeni bir görünen ad girin",
       "errAddInvalidAccount": "Sağlanan kullanıcı adı mevcut değil",
       "errAddUnknown": "Yönetici eklenirken bilinmeyen bir hata oluştu",
       "errRemoveUnknown": "Yönetici kaldırılırken bilinmeyen bir hata oluştu",
@@ -1152,17 +1738,42 @@
       "filterBanned": "Yasaklandı",
       "filterPending": "Beklemede",
       "kickBtn": "At",
+      "kickConfirm": "{count} üye(yi) atmak üzeresiniz. Topluluk kimliğiyle tekrar katılabilecekler.",
       "noDiscordAccountLinked": "Bu kullanıcının bağlı bir Discord hesabı yok.",
       "noRobloxAccountLinked": "Bu kullanıcının bağlı bir Roblox hesabı yok.",
       "owner": "Sahip",
       "ownerHasAllPerms": "Topluluk sahibi tüm izinlere sahiptir",
       "paysSubscription": "Aboneliği Ödeyen",
       "pending": "Beklemede",
+      "permissionAdmin": "Yönetici",
+      "permissionAdminDescription": "Radyo topluluğunun tüm özelliklerini yönetmek ve erişmek için tam izinler verir.",
+      "permissionApproveMembers": "Üyeleri Onayla",
+      "permissionApproveMembersDescription": "Radyo topluluğundaki bekleyen kullanıcıları onaylamaya veya reddetmeye izin verir.",
+      "permissionBanCommunity": "Topluluktan Yasakla",
+      "permissionBanCommunityDescription": "Üyeleri topluluktan kalıcı olarak yasaklama izni verir.",
+      "permissionCallOnly": "Sadece Arama",
+      "permissionCallOnlyDescription": "Kullanıcıyı yalnızca 911 aramaları yapacak şekilde sınırlar. Dispatch sekmesini gizler. Adminleri etkilemez.",
+      "permissionChangeDisplayName": "Ekran Adını Değiştir",
+      "permissionChangeDisplayNameDescription": "Kullanıcının kendi görünen adını değiştirmesini sağlar.",
       "permissionGeneratorBtn": "İzin Oluşturucu",
       "permissionGeneratorId": "İzin Kimliği",
       "permissionGeneratorSubtitle": "Harici kullanım için bir kullanıcı izin kimliği oluşturun.",
       "permissionGeneratorTitle": "İzin Oluşturucu",
+      "permissionKickCommunity": "Topluluktan At",
+      "permissionKickCommunityDescription": "Üyeleri topluluktan kaldırma izni verir.",
+      "permissionKickRadio": "Radyodan At",
+      "permissionKickRadioDescription": "Üyelerin bir radyo kanalından bağlantısını kesme izni verir.",
+      "permissionManageDisplayNames": "Görünen İsimleri Yönet",
+      "permissionManageDisplayNamesDescription": "Kullanıcının diğer üyelerin görünen adlarını değiştirmesine izin verir.",
+      "permissionMoveRadioUsers": "Radyo Kullanıcılarını Taşı",
+      "permissionMoveRadioUsersDescription": "Üyelerin radyo kanalları arasında taşınmasına izin verir.",
+      "permissionOverrideTalkover": "Konuşma Çaprazlama Korumasını Geçersiz Kıl",
+      "permissionOverrideTalkoverDescription": "Kullanıcının PTT düğmesine çift tıklayarak konuşma üstüne konuşma korumasını aşmasına izin verir.",
+      "permissionPlayDispatchTones": "Sevk Tonlarını Çal",
+      "permissionPlayDispatchTonesDescription": "Radyodan sevk sesleri çalma izni verir.",
       "permissionsBtn": "İzinler",
+      "permissionStunRadio": "Şok Radyo",
+      "permissionStunRadioDescription": "Kullanıcıların başka bir radyo kullanıcısını 30 sn boyunca stunlamasına (kilitlemesine) izin verir.",
       "privateChannels": "Özel Kanallar",
       "remove": "Kaldır",
       "removeWarn": "Uyarı",
@@ -1177,6 +1788,7 @@
       "title": "Topluluk Üyeleri",
       "traits": "Özellikler",
       "unbanBtn": "Yasağını kaldır",
+      "unbanConfirm": "{count} üye(yi) yasağını kaldırmak üzeresiniz. Topluluk kimliğiyle yeniden katılabilecekler.",
       "username": "Kullanıcı Adı"
     },
     "membersTab": "Üyeler",
@@ -1554,6 +2166,26 @@
     "welcome": "Hoş geldiniz",
     "welcomeTo": "Sonoran Radio'ya hoş geldiniz!"
   },
+  "mobiPreview": {
+    "channelName": "OPERASYONLAR TAC 1",
+    "citywide": "ŞEHİR GENELİ",
+    "frameName": "Mobi Önizleme",
+    "frameTitle": "Mobi Radyo Çerçevesi",
+    "groupName": "STANTON GÜVENLİK",
+    "localPreview": "YEREL ÖNİZLEME",
+    "modes": {
+      "distress": "TEHLİKE",
+      "idle": "Boşta",
+      "jammed": "Karıştı",
+      "receiving": "Alınıyor",
+      "transmitting": "İletiliyor"
+    },
+    "note": "Canlı radyo göstergelerini önizlemek için yukarıdaki durumları değiştirin. Ekran kontrolleri bağlı bir radyo oturumu gerektirir.",
+    "signal": "Sinyal",
+    "speakerName": "A. MERCER",
+    "themePreview": "Tema önizleme",
+    "yourRadio": "RADYONUZ"
+  },
   "portal": {
     "beginTitle": "Yolculuğunuza Başlayın",
     "beginYourJourney": "Yolculuğunuza Başlayın!",
@@ -1678,16 +2310,29 @@
       "enableTransmissionRecordings": "İletim kayıtlarını etkinleştir",
       "erlcHud": {
         "autoWindow": "Roblox penceresini otomatik olarak bul",
+        "checkPermission": "Erişimi kontrol et",
         "enable": "Ekran algılamayı kullan",
-        "lastReading": "Son gösterge kontrolü",
+        "lastReading": "Son ELS denetleyici kontrolü",
         "noWindows": "Roblox penceresi bulunamadı. ER:LC'yi açın, ardından pencere listesini yenileyin.",
-        "privacy": "Sonoran Radio, araç varyantlarını değiştirmek için bu cihazdaki Roblox hız göstergesini kontrol eder. ER:LC hesabınızın tam olarak bir araca sahip olduğunu bildirirse, adı belirli bir çerçeve de seçebilir. Ekran görüntüleri kaydedilmez veya yüklenmez. macOS'ta, Sonoran Radio için Screen & System Audio Recording iznini vermeniz gerekebilir.",
+        "openSettings": "Sistem Ayarlarını Aç",
+        "permissionDenied": "Ekran Kaydı Sonoran Radio için kapalı. Etkinleştir, ardından uygulamayı tamamen kapatıp yeniden aç.",
+        "permissionNotDetermined": "macOS'un Roblox penceresini okuması için izninize ihtiyacı var. Bunu istemek için Erişimi kontrol et'e tıklayın ya da Sistem Ayarları'nda etkinleştirin.",
+        "permissionRestricted": "Ekran Kaydı bu Mac'te kısıtlı. Erişime izin vermesi için Mac yöneticinize başvurun.",
+        "permissionStepEnable": "Sonoran Radio'yu etkinleştir. Geliştirme sırasında, macOS'un uygulama olarak listeliyorsa Electron'u etkinleştir.",
+        "permissionStepOpen": "Sistem Ayarları'nı Açın → Gizlilik ve Güvenlik → Ekran ve Sistem Sesini Kaydetme (eski macOS sürümlerinde Ekran Kaydı).",
+        "permissionStepRestart": "Erişimi değiştirdikten sonra Sonoran Radio uygulamasını tamamen kapatıp yeniden açın.",
+        "permissionTitle": "Ekran Kaydına İzin Ver",
+        "permissionUnknown": "Sonoran Radio Ekran Kaydı erişimini doğrulayamıyor. Sistem Ayarlarını kontrol edin, ardından uygulamadan tamamen çıkıp yeniden açın.",
+        "privacy": "Sonoran Radio bu cihazdaki alt sağ ELS denetleyicisini araç varyantları arasında geçiş yapmak için kontrol eder. Denetleyici görünür olmalıdır; onda olmayan araçlar yaya düzenini kullanır. Acil durum ışıkları açık veya kapalı olabilir. Ekran görüntüleri kaydedilmez veya yüklenmez.",
+        "readingElsAbsent": "ELS denetleyicisi bulunamadı",
+        "readingElsFound": "ELS denetleyicisi bulundu",
         "readingGaugeAbsent": "Gösterge bulunamadı",
         "readingGaugeFound": "Gösterge bulundu",
         "readingUncertain": "Belirsiz eşleşme",
         "readingUnreadable": "Roblox penceresi okunamıyor",
         "readingWaiting": "Roblox yakalanması bekleniyor",
         "refreshWindows": "Roblox pencerelerini yenile",
+        "settingsOpenFailed": "Sistem Ayarları açılamadı. Yukarıdaki adımları kullanarak elle açın.",
         "status": "Algılama durumu",
         "statusChecking": "Roblox penceresi kontrol ediliyor",
         "statusDisabled": "Kapalı",
@@ -1695,7 +2340,7 @@
         "statusInVehicle": "Araçta",
         "statusLooking": "Roblox penceresi aranıyor",
         "statusOnFoot": "Yaya",
-        "statusPermissionDenied": "Ekran kaydı izni reddedildi",
+        "statusPermissionDenied": "Ekran kaydı erişimi gerekli",
         "statusUnknown": "Araç durumu belirlenemiyor",
         "title": "ER:LC araç algılama",
         "vehicleAmbiguous": "ER:LC birden fazla sahip olunan araç adı buldu ve ada özel bir çerçeve geçersiz kılmasını seçemedi.",
@@ -1780,6 +2425,8 @@
       "audioMode": "Ses Modu",
       "audioRecording": "Ses Kaydı",
       "broadcastTo": "Şuraya Yayınla",
+      "channel": "Kanal",
+      "channelGroup": "Kanal Grubu",
       "count": "Sayım",
       "deleteStack": "Yığını Sil",
       "generate": "Oluştur",
@@ -1790,6 +2437,7 @@
       "newTone": "Yeni Ton",
       "noSavedStacks": "Henüz kaydedilmiş yığın yok.",
       "noTones": "Ton Yok",
+      "ok": "Tamam",
       "playStack": "Yığını Oynat (Çift Tıklama)",
       "preview": "Önizleme",
       "recording": "Kayıt",
@@ -1804,7 +2452,11 @@
       "speechToText": "Konuşmadan Metne",
       "speed": "Hız",
       "stack": "Yığın",
+      "stackNameRequired": "Yığın adı gereklidir.",
+      "stackNeedsTones": "Kaydetmeden önce yığına tonlar ekleyin.",
+      "stopPlayback": "Yürütmeyi durdur",
       "subtitle": "Topluluğunuz için çağrı tonlarını özelleştirin",
+      "temporaryTtsError": "Geçici TTS tonu hazırlanamadı.",
       "title": "Ton Tahtası",
       "toneLabel": "Ton Etiketi",
       "tonesTab": "Tonlar",
@@ -1868,6 +2520,17 @@
     "checkSpam": "E-postayı bulamıyorsanız spam klasörünüzü kontrol ettiğinizden emin olun.",
     "emailPreferencesDesc": "Bana önemli duyurular, güncellemeler ve promosyonlar hakkında e-posta gönderin.",
     "verifyPassword": "Şifreyi Doğrula"
+  },
+  "socials": {
+    "community": "Topluluk",
+    "connectWithUs": "Bizimle Bağlanın",
+    "followUs": "Bizi Takip Edin",
+    "instagramDescription": "Ürün öne çıkanları ve ekip güncellemeleri",
+    "joinDiscord": "Discord'a Katıl",
+    "joinDiscordDescription": "Duyuruları, desteği, topluluk güncellemelerini ve ürün tartışmalarını tek bir yerde alın.",
+    "joinDiscordTitle": "Sonoran Software Discord'una Katıl",
+    "tiktokDescription": "Sonoran ekibinden kısa güncellemeler",
+    "youtubeDescription": "Rehberler, demolar ve sürümler"
   },
   "splash": {
     "feats": "Kişiler arası metin mesajlaşması ve Sonoran CAD\n      entegrasyonu ile tamamlanan Sonoran Radio, tam özellikli iletişim cihazlarını\n      doğrudan oyun içi personelinizin ve sevk görevlilerinizin ellerine verir. Bugün\n      ücretsiz deneyin!",

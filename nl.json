@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "Gebruiksanalyse toestaan",
+    "deleteAccountError": "Er is een fout opgetreden bij het verwijderen van je account.",
+    "deleteAccountMessage": "Weet je zeker dat je je account permanent wilt verwijderen?",
+    "deleteAccountSuccess": "Account succesvol verwijderd.",
+    "deleteAccountTitle": "Account verwijderen",
     "noServers": "Geen Servers",
+    "privacyPolicy": "Privacybeleid",
     "serversDesc": "Hier kunt u alle Sonoran Radio-gemeenschappen bekijken die u bezit of beheert",
     "serversTitle": "Uw Servers",
     "tokenCopied": "Het geheim is gekopieerd naar je klembord!",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "Deze code is GEHEIM en mag met niemand worden gedeeld!",
     "tokenInputLabel": "Uw inloggeheim",
     "tokenLoadBtn": "Klik om te laden",
-    "tokenTitle": "Radio Login Geheim"
+    "tokenTitle": "Radio Login Geheim",
+    "usageAnalyticsDescription": "Deel beperkt app-gebruik met Sonoran Software en Google Analytics. Dit wordt niet gebruikt voor advertenties of tracking tussen apps.",
+    "usageAnalyticsTitle": "Gebruiksanalyse"
+  },
+  "analyticsConsent": {
+    "allow": "Toestaan",
+    "description": "Sta beperkte gebruiksanalyses toe om de app te helpen verbeteren. Geen advertenties of tracking tussen apps.",
+    "notNow": "Niet nu",
+    "privacyPolicy": "Privacybeleid",
+    "title": "Help Sonoran Radio te verbeteren"
   },
   "authMember": {
     "errLeave": "Er heeft zich een onverwachte fout voorgedaan bij het verlaten van de community.",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "Heeft al een actief abonnement",
+    "billingPortalUnavailable": "Het factureringsportaal is beschikbaar nadat de abonnementen zijn geladen.",
     "changeServer": "Server wijzigen",
     "changeSvDialog": {
       "errSave": "Er heeft zich een onverwachte fout voorgedaan bij het wijzigen van het abonnement",
@@ -45,6 +61,8 @@
       "title": "Wijzig Abonnement",
       "transfer": "Weet je zeker dat je dit abonnement naar een andere server wilt overzetten?"
     },
+    "contactSupport": "Contact opnemen met ondersteuning",
+    "description": "Beheer abonnementen, wijs ze toe aan Radio-gemeenschappen en werk de facturering bij via Stripe.",
     "errCheck": "Er heeft zich een onverwachte fout voorgedaan tijdens het controleren van je abonnement",
     "isUnauthorized": "Abonnementen kunnen niet worden toegepast op niet-geautoriseerde servers",
     "modifySub": "Abonnement Wijzigen",
@@ -64,7 +82,10 @@
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio en FiveM-hosting in één bundel.",
       "oneLearnMore": "Meer informatie over Sonoran One",
       "plus": "Plus-abonnement (€14,99/mnd)",
+      "plusDescription": "Meer capaciteit en aanpassingsmogelijkheden voor actieve communities.",
       "pro": "Pro-abonnement (€19,99/mnd)",
+      "proDescription": "Ontgrendel onbeperkte schaal en geavanceerde Radio-functies.",
+      "professionalSetup": "Professionele installatiehulp voor je community.",
       "quarterly": "Per kwartaal",
       "studio": "Sonoran Studio Communitylicentie",
       "studioDescription": "Slimme verlichting en streamwidgets voor je community. Inbegrepen bij Sonoran One.",
@@ -73,26 +94,106 @@
       "studioQuarterlyPrice": "$6,00/maand",
       "title": "Nieuw Abonnement"
     },
+    "noBillingPortalUrl": "Er is nog geen URL voor het facturatieportaal beschikbaar.",
     "noServerAssociated": "Geen server gekoppeld",
+    "openBillingPortal": "Open facturatieportaal",
+    "paymentCenter": "Betalingscentrum",
+    "pricingCompare": {
+      "backgroundAudio": "Achtergrondaudio in game",
+      "bestValue": "Beste prijs-kwaliteitverhouding",
+      "bigDaddyAnimations": "Big-Daddy Radio-animaties",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio en gratis FiveM-hosting in één abonnement.",
+      "choosePlan": "Kies {name}",
+      "chooseSonoranOne": "Kies Sonoran One",
+      "communitySoundEffects": "Geluidseffecten voor de hele community",
+      "comparePlans": "Plannen vergelijken",
+      "connectedUsers": "Verbonden gebruikers",
+      "customCommunityId": "Aangepaste community-ID",
+      "customDomain": "Aangepast domein",
+      "customVoiceEffects": "Aangepaste stemeffecten",
+      "description": "Alle betaalde abonnementen zijn beschikbaar per maand of per kwartaal. Kwartaalabonnementen bevatten 25% korting.",
+      "desktopOverlayFrames": "Bureaubladoverlayframes",
+      "dispatchAiPrompts": "Dispatch AI maandelijkse prompts",
+      "freeCopy": "Gratis kopie",
+      "freeDescription": "Begin met de kernradiohulpmiddelen voor kleinere communities.",
+      "freePrompts": "~140-360",
+      "monthlyPrice": "{price}/mnd",
+      "mostPopular": "Meest populair",
+      "multiServer": "Multi-server",
+      "nearbyRadioChatter": "Nabijgelegen radiogepraat",
+      "oneDefault": "1 server",
+      "oneServer": "1 server",
+      "perUserSoundEffects": "Geluidseffecten per gebruiker",
+      "planFree": "Gratis",
+      "planPlus": "Plus",
+      "planPro": "Pro",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "Voeg aanpassing toe en meer ruimte voor actieve rollenspel.",
+      "plusPrompts": "~1.400-3.600",
+      "proDescription": "Ontgrendel onbeperkte schaal en geavanceerde Radio-functies.",
+      "proPrompts": "~4.200-10.750",
+      "radioPlans": "Radio-abonnementen",
+      "rocketNodeHosting": "RocketNode FiveM-hosting",
+      "saveTwentyFive": "Bespaar 25%",
+      "scannersAndJammers": "Scanners en signaaljammers",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radio Pro",
+      "sonoranStudioLicense": "Sonoran Studio Communitylicentie",
+      "tenUsers": "10",
+      "thirtyUsers": "30",
+      "threeCustom": "Onbeperkt op maat",
+      "threeDefault": "3x Standaard",
+      "transmissionLogs": "Transmissielogs",
+      "unlimited": "Onbeperkt",
+      "unlimitedCustom": "Onbeperkt op maat"
+    },
     "setServer": "Server Instellen",
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "Spreek met een persoon",
     "statuses": {
       "active": "Actief",
       "canceled": "Geannuleerd",
       "incomplete": "Onvolledig",
       "incomplete_expired": "Onvolledig verlopen",
       "past_due": "Achterstallig",
+      "trialing": "Proefperiode",
       "unpaid": "Onbetaald"
     },
+    "subscriptionsDescription": "Bekijk actieve abonnementen, wijs Radio-gemeenschappen toe en beheer inactieve abonnementen.",
+    "subscriptionsTitle": "Uw abonnementen",
+    "subscriptionTable": {
+      "active": "Actief",
+      "cancelledDescription": "Geannuleerde en verlopen abonnementen worden hier weergegeven.",
+      "communityId": "Community ID {id}",
+      "createDescription": "Maak een abonnement aan om meer Radio-functies voor een community te ontgrendelen.",
+      "endDate": "Einddatum",
+      "inactiveCancelled": "Inactief / Geannuleerd",
+      "loading": "Abonnementen laden",
+      "loadingDescription": "Je nieuwste Stripe-abonnementen worden opgehaald.",
+      "noActive": "Geen actieve abonnementen",
+      "noInactive": "Geen inactieve abonnementen",
+      "planRadioPlus": "Radio Plus",
+      "planRadioPro": "Radio Pro",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "Sonoran Radio",
+      "purchasedNotApplied": "Dit abonnement is aangeschaft maar nog niet toegepast op een Radio-community.",
+      "startDate": "Startdatum"
+    },
+    "supportDescription": "Onze toegewijde live chat-ondersteuning is 7 dagen per week beschikbaar tijdens kantooruren. Heb je vragen? Ons team staat klaar.",
+    "title": "Facturatie",
     "toPortal": "Terug naar Portaal"
   },
   "common": {
     "account": "Account",
     "actions": "Acties",
     "add": "Toevoegen",
+    "back": "Terug",
     "billing": "Facturatie",
     "cancel": "Annuleren",
     "clickToCopy": "Klik om te kopiëren",
     "clipboard": "Gekopieerd naar klembord!",
+    "close": "Sluiten",
     "communityIdField": "Community ID",
     "confirm": "Bevestigen",
     "copy": "Kopiëren",
@@ -101,6 +202,7 @@
     "edit": "Bewerken",
     "email": "E-mail",
     "help": "Help",
+    "id": "ID",
     "language": "Taal",
     "learnMore": "Meer leren",
     "limited": "Beperkt",
@@ -198,6 +300,7 @@
     "joinCode": "Deelcode: {code}",
     "joinMission": "Sluit je aan bij je server, selecteer een rol en ga de missie in. Rust een Sonoran Radio-item uit. Missiemakers moeten Sonoran-signaaltorens/repeaters plaatsen voor dekking.",
     "joinTest": "Doe mee en test",
+    "linkRoblox": "Koppel Roblox",
     "linkServer": "Server koppelen",
     "manualServer": "Voor een handmatig gehoste server, kopieer beide modmappen naar de server, kopieer hun {extension}-bestanden uit hun keys-mappen naar de {directory}-map van de server en voeg dit opstartargument toe (pas mapnamen aan):",
     "next": "Volgende",
@@ -214,6 +317,7 @@
     "resizeRadio": "Radioformaat wijzigen",
     "resizeScreen": "Sleep om schermgrootte aan te passen",
     "restartServer": "Start de server opnieuw op en neem beide mods op in het launcher-preset dat met spelers wordt gedeeld. Laat handtekeningen en BattlEye ingeschakeld; onderzoek het exacte kickbericht als een client wordt geweigerd.",
+    "robloxLinkDescription": "Koppel je Roblox-account aan je Sonoran-account om in deze community locatiegebaseerd radiosignaal te gebruiken.",
     "serverMods": "Installeer dezelfde twee Workshop-mods via de modmanager van je serverhost. Laad beide als gewone mods, niet als server-only mods, met CBA_A3 eerst.",
     "setupOverlay": "Overlay instellen",
     "towerSaveError": "Kan ER:LC-signaaltorens niet opslaan. Je laatste wijziging is teruggedraaid.",
@@ -231,10 +335,32 @@
     "openGameIntegration": "Spelintegratie",
     "overlayDesktopDescription": "Pas de radio-overlay aan voor desktopgebruikers.",
     "overlayFiveMDescription": "Pas je FiveM in-game radio en desktop overlay aan. FiveM-wijzigingen synchroniseren binnen vijf minuten met een compatibele resourceversie.",
-    "overlaySelectGame": "Controleer het spel van je community in Game Integration om de bijpassende overlayfuncties te gebruiken."
+    "overlayPreview": {
+      "description": "Pas je radio-overlay aan.",
+      "done": "Klaar",
+      "game": "Spel",
+      "localSample": "Lokale voorbeeldweergave · alleen voorbeeldgegevens",
+      "noGame": "Geen spel geselecteerd",
+      "previewGame": "Spelvoorbeeld",
+      "saves": "{count} opgeslagen in deze voorbeeldweergave",
+      "title": "Overlay"
+    },
+    "overlaySelectGame": "Controleer het spel van je community in Game Integration om de bijpassende overlayfuncties te gebruiken.",
+    "upgradeRadioPlan": "Upgrade je Radio-abonnement",
+    "upgradeRadioPlanMessage": "Ontgrendel meer capaciteit, aanpassingsmogelijkheden en geavanceerde Radio-functies voor deze community.",
+    "viewBilling": "Facturatie bekijken"
   },
   "desktopPanel": {
     "channelHotkey": "Kanaalsneltoets"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "Verander je microfoon:",
+    "deviceUnavailable": "{device} is niet beschikbaar. Kies een andere microfoon.",
+    "microphoneAccessDenied": "Toegang tot microfoon geweigerd",
+    "noInputDetected": "Geen microfooningang gedetecteerd. Verander je microfoon als dispatch je niet kan horen.",
+    "noMicrophoneFound": "Geen microfoon gevonden",
+    "selectedUnavailable": "Geselecteerde microfoon is niet beschikbaar. Kies een andere microfoon.",
+    "unknownError": "Onbekende fout"
   },
   "error404": {
     "goHome": "Ga naar start",
@@ -335,7 +461,291 @@
     "sonoranRadioPolymap": "Sonoran Radio Polymap"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "Begin met een gratis radio voor je gaming-community",
     "learnMore": "Meer leren"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "Vergelijk Sonoran Radio",
+      "competitorLogo": "logo van {competitor}",
+      "dispatchAnywhere": "Dispatch overal",
+      "downloadAndroid": "Download Sonoran Radio voor Android",
+      "downloadIos": "Download Sonoran Radio voor iOS",
+      "downloadLinux": "Download Sonoran Radio voor Linux",
+      "downloadMacos": "Download Sonoran Radio voor MacOS",
+      "downloadWindows": "Download Sonoran Radio voor Windows",
+      "gameSelection": "Spelselectie",
+      "heroRadioAlt": "{game} Sonoran Radio desktop-overlay met voorbeeldkanalen",
+      "openIntegration": "Open {title} integratie",
+      "sonoranRadioIntegrations": "Sonoran Radio-integraties",
+      "sonoranRadioVs": "Sonoran Radio vs {competitor}",
+      "viewGameIntegrations": "Bekijk {game}-integraties"
+    },
+    "armaCapture": {
+      "activeDishes": "Actieve gerechten",
+      "aiCanHear": "AI kan uitzendingen horen",
+      "aiHearingTitle": "SONORAN RADIO · AI-HOREN",
+      "alphaOneOne": "Alpha 1-1",
+      "blockedPath": "Geblokkeerd pad · 2 km",
+      "blockedQuality": "26% kwaliteit",
+      "blockedTerrainMultiplier": "Geblokkeerde terreinvuldeler",
+      "cancel": "ANNULEREN",
+      "canDetectSpeaker": "Kan de spreker detecteren",
+      "clearPath": "Vrije route · 2 km",
+      "clearQuality": "75% kwaliteit",
+      "customizationDesktopFrames": "AANPASSING / BUREAUBLADFRAMES",
+      "dishCount": "Schotel aantal",
+      "exampleSignalPaths": "VOORBEELD SIGNAALPADEN",
+      "hearingRadiusAria": "Illustratieve transmissie-ontvangststraal",
+      "illustrativeHearingRadius": "ILLUSTRATIEVE ONTVANGSTRAAL",
+      "indestructible": "Onverwoestbaar",
+      "inventoryFrame": "Voorwerp in inventaris → desktopframe",
+      "invisibleSignalOnly": "Onzichtbaar (alleen signaal)",
+      "itemClassNames": "ARMA itemklassennamen",
+      "largeRadioTower": "Grote radiotoren",
+      "matchRadio": "Stem de radio die je draagt af",
+      "nearbyAi": "AI in de buurt",
+      "nearbyAiDescription": "Nearby AI kan je detecteren terwijl je push-to-talk gebruikt.",
+      "ok": "OK",
+      "optionalDisabled": "Optioneel · Standaard uitgeschakeld",
+      "outsideHearingRange": "Buiten gehoorsbereik",
+      "photoCaption": "ALTIS · GROTE RADIOTOREN",
+      "powered": "Ingeschakeld",
+      "rangeDishes": "Bereik van 8 km · 4 / 4 schotels",
+      "relayAlpha": "Relay Alpha",
+      "repeaterModel": "Repeatermodel",
+      "signalPathsAria": "Vrije en door terrein geblokkeerde signaalpaden",
+      "signalRange": "Signaalbereik (m)",
+      "signalTitle": "SONORAN RADIO / SIGNAAL",
+      "terrainAttenuation": "Terreinverzwakking",
+      "terrainChanges": "Terreinveranderingen ontvangen",
+      "title": "SONORAN RADIOTOREN",
+      "transmissionHearingRange": "Transmissie-ontvangstbereik",
+      "transmitting": "VERZENDEN"
+    },
+    "dispatchAi": {
+      "exampleOf": "Voorbeeld {current} van {total}: {id}",
+      "examples": "Dispatch AI-voorbeelden",
+      "items": {
+        "alpha": {
+          "request": "\"Command, schakel mij over naar Alpha Squad.\"",
+          "response": "Kopie, ik schakel je over naar Alpha Squad.",
+          "result": "Overstap ploeg · Alpha Squad"
+        },
+        "breach": {
+          "request": "\"Command, start een inbraak-timer voor 60 seconden.\"",
+          "response": "Copy, 60-seconden inbraaktimer gestart.",
+          "result": "Inbraaktimer gestart · 01:00"
+        },
+        "miller": {
+          "request": "\"Command, push Sergeant Miller naar mijn frequentie.\"",
+          "response": "Kopie, Sergeant Miller naar je frequentie pushen.",
+          "result": "Frequentiepush · Sergeant Miller"
+        },
+        "pit": {
+          "request": "\"Dispatch, zet een PIT-timer op voor vijf minuten.\"",
+          "response": "Begrepen, PIT-timer van vijf minuten gestart.",
+          "result": "PIT-timer gestart · 05:00"
+        },
+        "plate": {
+          "request": "\"Dispatch, zet mij op verkeer met een blauwe sedan, kenteken ABC123.\"",
+          "response": "Kopie, verkeersstopmelding aangemaakt met een blauwe sedan, ABC123.",
+          "result": "Verkeersmelding · Eenheid toegewezen"
+        },
+        "platoon": {
+          "request": "\"Commando, voeg 1e Peloton toe aan mijn gescande kanalen.\"",
+          "response": "Kopie, 1e Peloton toevoegen aan je gescande kanalen.",
+          "result": "Kanaal toegevoegd · 1e peloton"
+        },
+        "robbery": {
+          "request": "\"Dispatch, koppel mij aan de lopende overval.\"",
+          "response": "Kopie, uw eenheid wordt gekoppeld aan de lopende overval.",
+          "result": "Overvalmelding · Eenheid toegewezen"
+        },
+        "runPlate": {
+          "request": "\"Dispatch, voer de plaat ABC123 uit.\"",
+          "response": "Begrepen, stand-by voor de terugkeer van ABC123.",
+          "result": "Kentekenzoekopdracht · Resultaten beschikbaar"
+        },
+        "tacOne": {
+          "request": "\"Dispatch, zet me op TAC 1.\"",
+          "response": "Kopie, ik schakel je over naar TAC 1.",
+          "result": "Kanaal wisselen · TAC 1"
+        }
+      },
+      "next": "Volgende Dispatch AI-voorbeeld",
+      "previous": "Eerder Dispatch AI-voorbeeld",
+      "radioAlt": "{game} Sonoran Radio desktop-overlay",
+      "subtitle": "Jouw stem. Jouw centralist. Verbonden met Sonoran CAD.",
+      "title": "Dispatch AI"
+    },
+    "erLcMapCapture": {
+      "addPoints": "Punten toevoegen",
+      "cancel": "Annuleren",
+      "clickTheMap": "Klik op de kaart",
+      "closeTowerMenu": "Sluit torenmenu",
+      "closeZoneMenu": "Sluit zonemenu",
+      "deleteTower": "Toren verwijderen",
+      "deleteZone": "Zone verwijderen",
+      "description": "Configureer signaaldekking en noodzones op dezelfde kaart.",
+      "dragZoneHandles": "Sleep de blauwe handvatten om de vorm van de zone te bewerken.",
+      "drawCircle": "Teken cirkel",
+      "drawPolygon": "Teken veelhoek",
+      "editEmergencyZone": "Noodzone bewerken",
+      "editTower": "Toren bewerken",
+      "emergencyZones": "Noodzones",
+      "finishZone": "Finishzone",
+      "mapAlt": "ER:LC-kaart",
+      "mapCoordinates": "Kaart X {x} · Z {y}",
+      "mapUnits": "kaarteenheden",
+      "noEmergencyZones": "Nog geen noodzones voor deze kamer. Teken een veelhoek of cirkel om er een toe te voegen.",
+      "noSignalTowers": "Nog geen signaaltorens. Signaal blijft op 100% totdat je een toren plaatst.",
+      "placeTower": "Plaats toren",
+      "points": "punten",
+      "range": "Bereik",
+      "room": "Room",
+      "selectCenter": "Selecteer het centrum",
+      "selectCircleEdge": "Selecteer de cirkelrand",
+      "setCenterEdge": "Stel midden en rand in",
+      "title": "ER:LC Kaartconfiguratie",
+      "towerName": "Torennaam",
+      "towers": "Torenen",
+      "transmitChannels": "Kanalen verzenden",
+      "zoneName": "Zonenaam"
+    },
+    "featureCapture": {
+      "channelsGroups": "Kanalen & groepen",
+      "exportedPngData": "Geëxporteerde PNG-gegevens",
+      "exportPng": "Transparante PNG exporteren",
+      "preview": "Voorbeeld",
+      "sfxCustomization": "SFX Maatwerk",
+      "transmissionLogs": "Transmissielogs"
+    },
+    "gameIntegration": {
+      "integration": "integratie"
+    },
+    "integrationCapture": {
+      "adminPermission": "Beheerder",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "apiGetGroupsComment": "// Geconfigureerde groepen en kanalen ophalen",
+      "approveMembers": "Leden goedkeuren",
+      "assignedUnits": "Toegewezen: A-12, A-14",
+      "available": "BESCHIKBAAR",
+      "availableCall": "Beschikbaar · Oproep #1042",
+      "availableUnit": "Beschikbaar · A-12",
+      "callAction": "Een oproep maken",
+      "callActionExample": "Maak een oproep voor een 10-50 op Main St",
+      "callInformation": "Oproepinformatie",
+      "callNumber": "Oproep #1042",
+      "channelAction": "Wissel radiokanaal",
+      "channelActionExample": "Zet me op TAC 1",
+      "communityAdmin": "Communitybeheerder",
+      "communityRoles": "Gemeenschapsrollen",
+      "connectedToRadio": "Verbonden met je radio",
+      "countyDispatch": "Districtsdistributie",
+      "dispatchAiActions": "Dispatch AI-acties",
+      "dispatchCall": "DISPATCH CALL",
+      "dispatchOne": "DISPATCH 1",
+      "dispatchTeam": "Dispatch-team",
+      "exampleRoleMapping": "VOORBEELD ROLMAPPING",
+      "exampleVoiceRequest": "VOORBEELD VOICE REQUEST",
+      "jordanLee": "A-14 · Jordan Lee",
+      "moveRadioUsers": "Radiogebruikers verplaatsen",
+      "officialSdkLibraries": "Officiële v2 SDK-bibliotheken",
+      "panic": "Paniek",
+      "patrol": "Patrouille",
+      "permissions": "Permissies",
+      "permissionsStayInSync": "Permissies blijven gesynchroniseerd",
+      "plateAction": "Persoon- of kentekenopzoeking",
+      "plateActionExample": "Voer een plaat ABC123 uit",
+      "playDispatchTones": "Dispatchtonen afspelen",
+      "respondingCall": "Antwoord · Oproep #1042",
+      "statusAction": "Statusupdates",
+      "statusActionExample": "Zet mijn status op beschikbaar",
+      "statusUpdates": "Statusupdates",
+      "streamDeckAlt": "Fysieke Elgato Stream Deck MK.2 met Sonoran Radio-bediening op de 15 LCD-toetsen",
+      "trafficCollision": "Verkeersbotsing",
+      "trafficLocation": "Great Ocean Highway · Postcode 3025",
+      "unitStatus": "Eenheidsstatus",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "Jouw stem. Verbonden met CAD."
+    },
+    "integrationCard": {
+      "free": "GRATIS"
+    },
+    "interactivePreview": {
+      "allClear": "Alles vrij",
+      "analog": "Analoog",
+      "audioLevel": "Audiovlak",
+      "cancel": "Annuleren",
+      "countyDispatch": "DISTRICTSDISPATCH",
+      "digital": "Digitaal",
+      "emsDispatch": "EMS-dispatch",
+      "fireDispatch": "Brandweer-dispatch",
+      "fireEms": "BRANDWEER / AMBULANCE",
+      "hearDifference": "Hoor het verschil",
+      "microphonePreviewError": "Microfoonvoorbeeld kon niet worden gestart. Controleer browsermachtiging of probeer het voorbeeld.",
+      "microphonePreviewOn": "Microfoonvoorbeeld is aan",
+      "openLibrary": "Open {library} in {registry}",
+      "original": "Origineel",
+      "playingSample": "Voorbeeld wordt afgespeeld",
+      "playSample": "Voorbeeld afspelen",
+      "previewPlaying": "Voorbeeld afspelen",
+      "previewStopped": "Voorbeeld gestopt",
+      "previewVolume": "Voorvertoningsvolume",
+      "priorityTraffic": "Verkeer met prioriteit",
+      "publicSafety": "OPENBARE VEILIGHEID",
+      "samplePlaybackError": "Het voorbeeld kon niet worden afgespeeld. Probeer het opnieuw.",
+      "sampleUnavailable": "Voorbeeld niet beschikbaar",
+      "startingPreview": "Voorbeeld starten",
+      "stopPreview": "Voorbeeld stoppen",
+      "tonePlaybackError": "Deze toon kon niet worden afgespeeld. Probeer het opnieuw.",
+      "toneUnavailable": "Toon niet beschikbaar",
+      "tryMicrophone": "Test mijn microfoon",
+      "vocoder": "Vocoder · 3200",
+      "vocoderPreviewError": "Voorbeeld van vocoder kon niet worden gestart. Probeer het opnieuw.",
+      "voiceEffectExamples": "Voorbeelden van stemeffecten"
+    },
+    "mobi": {
+      "active": "ACTIEF",
+      "audio": "AUDIO",
+      "channelGroup": "KANAALGROEP",
+      "channels": "KANALEN",
+      "currentSpeaker": "HUIDIGE SPREKER",
+      "distress": "NOOD",
+      "distressSignalDetected": "NOODSIGNAAL GEDETECTEERD",
+      "header": "RADIO // COMMS",
+      "multiChannel": "MEERDERE KANALEN",
+      "multiGroup": "MEERDERE GEPEN",
+      "noActiveTransmission": "GEEN ACTIEVE UITZENDING",
+      "noLink": "GEEN VERBINDING",
+      "none": "GEEN",
+      "online": "ONLINE",
+      "priorityAlert": "PRIORITEITSALARM",
+      "quickAccess": "SNELLE TOEGANG",
+      "receive": "ONTVANGEN",
+      "scan": "SCAN",
+      "scanList": "Scanlijst",
+      "scannedChannel": "GESCANDE KANAAL",
+      "selectedChannel": "GESELECTEERD KANAAL",
+      "settings": "INSTELLINGEN",
+      "settingsTooltip": "Instellingen",
+      "signal": "SIGNAAL",
+      "signalFault": "SIGNAALFOUT",
+      "spectrumOffline": "SPECTRUM OFFLINE",
+      "standby": "STAND-BY",
+      "temporaryLink": "TIJDELIJKE LINK",
+      "transmission": "UITZENDING",
+      "transmit": "VERZENDEN",
+      "unknownChannel": "ONBEKEND KANAAL",
+      "unknownGroup": "ONBEKENDE GROEP",
+      "unknownUser": "ONBEKENDE GEBRUIKER"
+    },
+    "tabPanel": {
+      "defaultDescription": "Ervaar naadloze coördinatie met plaatsaanduidingstabinhoud voor realtime eenheidsstatus, frequentiebewaking en kanaalbeheer.",
+      "defaultTitle": "Sonoran Radio",
+      "imageAlt": "Afbeelding van het tabbladpaneel"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "Wijzig radiokader",
@@ -376,11 +786,125 @@
     "title": "JSON import/export",
     "tooltip": "JSON-bestand importeren"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Sonoran API-bibliotheken",
+    "armaDescription": "Verbind Sonoran Radio rechtstreeks met Arma 3 met de Arma 3-integraties.",
+    "back": "Terug",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "Preview van dispatchoproepen",
+        "description": "Koppel jezelf aan een Sonoran CAD-dispatchoproep en bekijk de oproepdetails in de radio.",
+        "label": "Dispatchoproepen"
+      },
+      "liveMap": {
+        "alt": "Plaatsvervanger Live Map voorbeeld",
+        "description": "Bekijk de radiotorens met de Sonoran CAD-livekaart.",
+        "label": "Live kaart"
+      },
+      "panicButton": {
+        "alt": "Paniekknop-voorbeeld",
+        "description": "Schakel je Sonoran CAD paniekstatus in of uit met de radio paniekknop.",
+        "label": "Paniekknop"
+      }
+    },
+    "comingSoon": "Binnenkort beschikbaar.",
+    "erlcDescription": "Verbind Sonoran Radio rechtstreeks met ER:LC met de ER:LC-integraties.",
+    "fivemDescription": "Gebruik Sonoran Radio's gratis FiveM-radioscript—de officiële in-game resource—om spraakradio naar je server te brengen. Bekijk de integraties hieronder en volg daarna de {setupGuide}.",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "Illustratie van een Arma-speler die uitzendt binnen een AI-gehoorradius, naast de hoorinstellingen van de mod.",
+            "description": "Laat nabijgelegen AI uitzenden spelers detecteren, met een instelbaar hoorbereik. Beschikbaar in de Arma-integratiepreview.",
+            "label": "AI-gehoor"
+          },
+          "itemFrames": {
+            "alt": "BLUFOR- en OPFOR-itemklassekoppelingen naast hun bijbehorende Sonoran Radio-bureaubladoverlayframes.",
+            "description": "Uw BLUFOR- of OPFOR-radiovoorwerp selecteert de bijbehorende desktopoverlay. Koppel aangepaste voorwerpen aan de frames van uw community.",
+            "label": "Voorraad radio-synchronisatie"
+          },
+          "terrainSignal": {
+            "alt": "Geïllustreerde Arma-repeaterdekking met een duidelijk signaalpad en verminderd signaal achter terrein.",
+            "description": "Afstand en terrein verzwakken de torenontvangst. Let op het signaal van je overlay en hoor de verandering via kanaaleffecten.",
+            "label": "Terrein & signaal"
+          },
+          "towers": {
+            "alt": "Een Arma-signaaltoren met voorbeeld Zeus-bediening voor bereik, capaciteit en vermogen.",
+            "description": "Plaats torens in Eden of Zeus. Bereik, vermogen en vernietiging bepalen je radio-dekking.",
+            "label": "Towers in de game"
+          }
+        },
+        "tabsLabel": "ARMA 3-integratiefuncties"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "Sonoran Radio-desktopoverlay die Liberty County-dispatchkanalen toont over een ER:LC-politie-scène.",
+            "description": "Houd je radio boven Roblox terwijl je speelt. Kies een frame, wissel van kanaal en volg live het torensignaal vanuit de desktop-app.",
+            "label": "Bureaubladoverlay"
+          },
+          "emergencyZones": {
+            "alt": "ER:LC-kaart met een voorbeeld van een noodzone en de toegestane noodzendkanalen.",
+            "description": "Teken noodzones en kies welke noodzendkanalen in elk gebied beschikbaar zijn.",
+            "label": "Noodzones"
+          },
+          "liveSignal": {
+            "alt": "ER:LC-kaart met virtuele torendekking en gekoppelde spelers naast een Sonoran Radio-overlay met live signaalsterkte.",
+            "description": "Plaats zendmasten om de radiodekking in Liberty County vorm te geven. Terwijl je rijdt, toont je overlay de live signaalsterkte en weerspiegelen radio-effecten je ontvangst.",
+            "label": "Virtuele masten"
+          }
+        },
+        "tabsLabel": "ER:LC-integratiefuncties"
+      }
+    },
+    "integrationTitleSuffix": "integratie",
+    "learnMore": "Meer weten: {title}",
+    "meta": {
+      "armaDescription": "Ontdek Sonoran Radio-integraties voor Arma 3, inclusief torens in de game, radiosynchronisatie van inventaris, terreinsignaal en AI-gehoor.",
+      "armaTitle": "Arma 3-integraties | Sonoran Radio",
+      "erlcDescription": "Ontdek Sonoran Radio-integraties voor ER:LC, waaronder de desktop-overlay, virtuele torens en noodzones.",
+      "erlcTitle": "ER:LC-integraties | Sonoran Radio",
+      "fivemDescription": "Gebruik Sonoran Radio's gratis FiveM-radioscript, de officiële in-game resource, om spraakradio naar je server te brengen.",
+      "fivemTitle": "FiveM-integraties | Sonoran Radio"
+    },
+    "openDocumentation": "Open documentatie voor {title}",
+    "registryLink": "{name} op {registry}",
+    "setupGuide": "installatiegids",
+    "streamDeck": {
+      "calloutDescription": "Bekijk de documentatie voor meer details en stappen voor het installeren van de plugin.",
+      "calloutTitle": "Meer weten?",
+      "description": "Breng je meestgebruikte Sonoran Radio-bedieningen naar een Stream Deck-toets of draaiknop. Navigeer door kanalen, zend uit en stem audio nauwkeurig af zonder je flow te onderbreken.",
+      "deviceAlt": "Sonoran Radio-handapparaat met kanaalbediening",
+      "heading": "Jouw radio. Eén aanraking verwijderd.",
+      "highlights": {
+        "actions": {
+          "description": "Zet AI-modus, Tone Board en desktop-overlays op je deck, of gebruik acties met je FiveM in-game radio.",
+          "title": "Meer radio-acties"
+        },
+        "audio": {
+          "description": "Gebruik ondersteunde draaiknoppen om radio, kanaal, effecten en AI-volume aan te passen.",
+          "title": "Stem je audio af"
+        },
+        "channelShortcuts": {
+          "description": "Verplaats tussen kanalen en groepen, of schakel zend- en scanlijsten met een tik.",
+          "title": "Kanaalsnelkoppelingen"
+        },
+        "pushToTalk": {
+          "description": "Houd transmit dichtbij en zend zonder terug te schakelen naar de radio-app.",
+          "title": "Push-to-talk, op een toets"
+        }
+      },
+      "platformKeysDials": "Toetsen + draaiknoppen",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Stream Deck-functies"
+  },
   "landingPage": {
     "API_Libraries": {
       "desc": "Installatielinks voor de officiële Sonoran SDK-bibliotheken die worden gebruikt met de v2-API.",
       "title": "API-bibliotheken"
     },
+    "armaIntegrationDescription": "Verbind Sonoran Radio rechtstreeks met Arma 3 met de Arma 3-integraties.",
     "BackgroundAudio": {
       "desc": "Reageren op een oproep? Sonoran Radio voegt realtime sirenes, geweerschoten en meer rechtstreeks toe aan je microfoonfeed voor de ultieme onderdompeling.",
       "title": "Achtergrond Audio"
@@ -435,6 +959,8 @@
       "desc": "Doe noodoproepen naar de meldkamer, allemaal vanuit de game!",
       "title": "In-game noodoproepen"
     },
+    "erlcIntegrationDescription": "Verbind Sonoran Radio rechtstreeks met ER:LC met de ER:LC-integraties.",
+    "exploreIntegrations": "Verken integraties",
     "faq": {
       "free": {
         "answer": "Ja. Dispatch AI is volledig beschikbaar in het Gratis plan met inbegrepen maandelijkse credits. Betaalde abonnementen bevatten hogere creditlimieten.",
@@ -463,6 +989,34 @@
       "eyebrow": "Directe integratie",
       "heading": "Integraties"
     },
+    "fivemRadioIntegration": "Radio-integratie",
+    "gameIntegrations": "Spelintegraties",
+    "games": {
+      "arma3": {
+        "description": "Begin met gratis radiokanalen en een desktop-overlay voor Arma 3. Bekijk een voorbeeld van de Arma-integratie met missie torens, inventarisgekoppelde frames en terreinsignaal.",
+        "headline": "Gratis radio voor je Arma 3-squad",
+        "name": "Arma 3",
+        "title": "Gratis Arma 3-radio & desktop-overlay | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "Start gratis ER:LC-stemradio met een desktop-overlay voor Roblox Emergency Response: Liberty County. Koppel accounts en voeg virtuele torens toe met live signaaldekking.",
+        "headline": "Gratis ER:LC-stemradio voor je community",
+        "name": "ER:LC",
+        "title": "Gratis ER:LC stemradio & desktop-overlay | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "Begin gratis met een FiveM-radioscript, desktopoverlay en dispatchpaneel. Koppel Sonoran Radio aan je GTA V-roleplayserver met de FiveM-integratie.",
+        "headline": "Gratis radio voor je FiveM-community",
+        "name": "FiveM",
+        "title": "Gratis FiveM-radio-script & dispatchpaneel | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "Houd je Star Citizen-bemanning verbonden met gratis radiokanalen, dispatchtools en een thematische desktopoverlay. Coördineer communicatie door het verse heen.",
+        "headline": "Gratis radio voor je Star Citizen-bemanning",
+        "name": "Star Citizen",
+        "title": "Gratis Star Citizen-radio & overlay | Sonoran Radio"
+      }
+    },
     "hero": {
       "subtitle": "Chat in realistische radiokanalen, pas je voice-effecten aan en verbind moeiteloos met in-game functies voor een echt meeslepende ervaring.",
       "title": "Betere radiocommunicatie begint hier"
@@ -480,6 +1034,7 @@
     "meta": {
       "audienceType": "Gamers en communitymanagers",
       "description": "Realistische radiocommunicatiesoftware voor FiveM, ER:LC, Arma 3 en roleplaygemeenschappen.",
+      "imageAlt": "Sonoran Radio dispatchpaneel en desktop radio-overlay",
       "keywords": "Sonoran Radio, gamingradio, FiveM-radio, ER:LC-radio, Arma 3-radio, roleplaycommunicatie, dispatchsoftware, desktop radio-overlay, gratis FiveM-radio, gratis ER:LC-radio",
       "ogTitle": "Sonoran Radio - Gaming-radiocommunicatie",
       "productName": "Sonoran Radio",
@@ -515,6 +1070,7 @@
       "dispatchAdmin": "Dispatch- en Adminpaneel",
       "integrations": "Integraties"
     },
+    "softwareIntegrations": "Software-integraties",
     "Sonoran_CAD": {
       "desc": "Met deze plugin kunnen Sonoran Radio-klanten de radio verbinden met Sonoran CAD. Bekijk je eenheidsstatus, dispatchoproepinformatie, schakel een paniek in en meer!",
       "title": "Sonoran CAD"
@@ -528,6 +1084,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Ontdek Sonoran Studio",
       "description": "Zet live radio-activiteit om in streamoverlays, reactieve slimme verlichting en handsfree automatiseringen.",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -598,7 +1155,15 @@
     "serverHosting": "Serverhosting"
   },
   "management": {
-    "forceJoinAsOwner": "Als eigenaar forceren om deel te nemen"
+    "eventType": "Evenementtype",
+    "forceJoinAsOwner": "Als eigenaar forceren om deel te nemen",
+    "forceLeave": "Gedwongen verlaten",
+    "payloadJson": "Payload JSON",
+    "pushEventDiagnostic": "Push-evenementdiagnostiek",
+    "pushUrl": "Push-URL",
+    "sendTestPushEvent": "Test pushgebeurtenis verzenden",
+    "storedRoomPushUrl": "Opgeslagen room push-URL",
+    "timeout": "Time-out (ms)"
   },
   "managementPage": {
     "searchTitle": "Zoek community",
@@ -611,6 +1176,8 @@
       "apiInfoTitle": "API-info",
       "communityApiKeyField": "Community API-sleutel",
       "communityLogs": "Communitylogboeken",
+      "communityLogsEmpty": "Geen logs gevonden",
+      "communityLogsLoading": "Logboeken laden...",
       "logAccount": "Bron (Account)",
       "logContent": "Inhoud",
       "logDate": "Datum",
@@ -651,9 +1218,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Knop toevoegen",
+      "addLayout": "Lay-out toevoegen",
       "addScreen": "Scherm toevoegen",
       "addVariant": "Voeg deze variant toe",
       "addVehicleOverride": "Voertuigoverschrijving toevoegen",
+      "aircraftLayout": "Vliegtuigindeling",
       "armaBlufor": "BLUFOR-voorbeeld",
       "armaExamples": "ARMA 3-voorbeelden",
       "armaItemClassNames": "ARMA itemklassennamen",
@@ -674,6 +1243,8 @@
       "deleteFrame": "Venster verwijderen",
       "duplicateVehicleName": "Elke voertuignaam kan maar één overschrijving hebben.",
       "editHint": "Sleep om te verplaatsen · Ctrl + slepen om te vergroten of verkleinen · Rechtsklik op een knop om te verwijderen",
+      "fit": "Passend maken",
+      "fitRadioToCanvas": "Pas radio aan canvas aan",
       "frameBodyImage": "Kaderachtergrondafbeelding",
       "frameLabel": "Framelabel",
       "frameName": "Framenaam",
@@ -682,6 +1253,10 @@
       "importFromSkin": "Importeren vanuit FiveM (skin.json)",
       "importNoFramesFound": "Geen frames met body.width en scherm gevonden.",
       "label": "Label",
+      "migratedFramesReadOnly": "Gemiigreerde FiveM-frames blijven beschikbaar op Free. Upgrade naar Pro om dit frame te bewerken of de afbeeldingen ervan te vervangen.",
+      "migratedFramesReset": "Gemigreerde FiveM-frames kunnen alleen worden gereset met Pro.",
+      "moveLayoutEarlier": "Lay-out eerder verplaatsen",
+      "moveLayoutLater": "Lay-out later verplaatsen",
       "newFrame": "Nieuw frame",
       "noneFound": "Geen overlayframes gevonden voor deze community.",
       "overrideFramesRequired": "Selecteer voor elke voertuigoverschrijving ten minste één frame.",
@@ -719,6 +1294,8 @@
         "onFoot": "Te voet",
         "vehicle": "Voertuig"
       },
+      "vehicleClasses": "Voertuigklassen",
+      "vehicleClassesHint": "Wis de selectie om alle voertuigklassen te laten overeenkomen. Eerdere indelingen hebben voorrang.",
       "vehicleClassNames": {
         "boats": "Boten",
         "commercial": "Commercieel",
@@ -745,12 +1322,15 @@
         "utility": "Hulpprogramma",
         "vans": "Bestelwagens"
       },
+      "vehicleLayout": "Voertuigindeling",
       "vehicleName": "ER:LC voertuignaam",
       "vehicleNameRequired": "Voer voor elke overschrijving een voertuignaam in.",
       "vehicleOverrideHint": "Voertuignamen komen exact overeen, hoofdletters en spaties aan het begin of einde genegeerd. Schakel in het desktopframe ER:LC-voertuigherkenning in om een voertuigspecifiek frame te gebruiken wanneer een enkele voertuignaam beschikbaar is.",
       "visibilityHint": "Kies standaard desktopframes voor wanneer je te voet bent of wanneer geen voertuignaam overeenkomt. Voertuigoverschrijvingen selecteren automatisch frames wanneer ER:LC-voertuigdetectie een overeenkomende naam vindt.",
       "visibilityTitle": "Framezichtbaarheid",
-      "visibleFrames": "Zichtbare frames"
+      "visibleFrames": "Zichtbare frames",
+      "zoomIn": "Inzoomen",
+      "zoomOut": "Uitzoomen"
     },
     "customizeMenu": {
       "ai": "AI",
@@ -1136,13 +1716,19 @@
       "approveBtn": "Goedkeuren",
       "ban": "Verbannen",
       "banBtn": "Verbannen",
+      "banConfirm": "Je staat op het punt om {count} lid/lidleden permanent te verbannen. Zij kunnen niet opnieuw deelnemen, maar kunnen weer worden gedeblokkeerd.",
       "cannotModifyPermsOfMyself": "Kan mijn eigen machtigingen niet wijzigen",
+      "communityAccess": "Communitytoegang",
+      "communityAccessDescription": "Keurt het lid goed voor basis Sonoran Radio-toegang. Geeft geen beheerdersrechten of toegang tot een privéprofiel.",
+      "confirmTitle": "Weet je het zeker?",
       "copyDiscordId": "Discord-ID kopiëren",
       "copyPermissionGeneratorId": "Permissie-ID kopiëren",
       "copyRobloxId": "Roblox-ID kopiëren",
       "discordIdCopied": "Discord-ID gekopieerd naar klembord.",
       "displayName": "Weergavenaam",
+      "displayNameUpdated": "Weergavenaam bijgewerkt",
       "editMemberPerms": "Lidmachtigingen bewerken",
+      "enterDisplayName": "Voer een nieuwe weergavenaam in voor {name}",
       "errAddInvalidAccount": "De opgegeven gebruikersnaam bestaat niet",
       "errAddUnknown": "Er is een onbekende fout opgetreden bij het toevoegen van de beheerder",
       "errRemoveUnknown": "Er is een onbekende fout opgetreden bij het verwijderen van de beheerder",
@@ -1152,17 +1738,42 @@
       "filterBanned": "Verbannen",
       "filterPending": "In Afwachting",
       "kickBtn": "Verwijderen",
+      "kickConfirm": "Je staat op het punt {count} lid/lidstaten te verwijderen. Ze kunnen opnieuw deelnemen met de community-ID.",
       "noDiscordAccountLinked": "Deze gebruiker heeft geen gekoppeld Discord-account.",
       "noRobloxAccountLinked": "Deze gebruiker heeft geen gekoppeld Roblox-account.",
       "owner": "Eigenaar",
       "ownerHasAllPerms": "De eigenaar van de community heeft alle rechten",
       "paysSubscription": "Betaalt Abonnement",
       "pending": "In Afwachting",
+      "permissionAdmin": "Beheerder",
+      "permissionAdminDescription": "Geeft volledige rechten om alle functies van de radiogemeenschap te beheren en te gebruiken.",
+      "permissionApproveMembers": "Leden goedkeuren",
+      "permissionApproveMembersDescription": "Maakt het goedkeuren of afwijzen van wachtende gebruikers in de radiocommunity mogelijk.",
+      "permissionBanCommunity": "Verbannen uit community",
+      "permissionBanCommunityDescription": "Geeft toestemming om leden permanent uit de community te verbannen.",
+      "permissionCallOnly": "Alleen bellen",
+      "permissionCallOnlyDescription": "Beperkt de gebruiker tot alleen 911-oproepen. Verbergt het tabblad Dispatch. Heeft geen invloed op beheerders.",
+      "permissionChangeDisplayName": "Wijzig weergavenaam",
+      "permissionChangeDisplayNameDescription": "Hiermee kan de gebruiker zijn eigen weergavenaam wijzigen.",
       "permissionGeneratorBtn": "Permissie-generator",
       "permissionGeneratorId": "Permissie-ID",
       "permissionGeneratorSubtitle": "Genereer een gebruikersmachtigings-ID voor extern gebruik.",
       "permissionGeneratorTitle": "Permissie-generator",
+      "permissionKickCommunity": "Verwijderen uit community",
+      "permissionKickCommunityDescription": "Geeft toestemming om leden uit de community te verwijderen.",
+      "permissionKickRadio": "Verwijderen van radio",
+      "permissionKickRadioDescription": "Geeft toestemming om leden van een radiokanaal te verwijderen.",
+      "permissionManageDisplayNames": "Weergavenamen beheren",
+      "permissionManageDisplayNamesDescription": "Hiermee kan de gebruiker de weergavenamen van andere leden wijzigen.",
+      "permissionMoveRadioUsers": "Radiogebruikers verplaatsen",
+      "permissionMoveRadioUsersDescription": "Maakt het mogelijk leden tussen radiokanalen te verplaatsen.",
+      "permissionOverrideTalkover": "Overpraat Bescherming Overschrijven",
+      "permissionOverrideTalkoverDescription": "Hiermee kan de gebruiker talkoverbeveiliging overschrijven door dubbel te klikken op de PTT-knop.",
+      "permissionPlayDispatchTones": "Dispatchtonen afspelen",
+      "permissionPlayDispatchTonesDescription": "Geeft toestemming om dispatch-tonen via de radio af te spelen.",
       "permissionsBtn": "Permissies",
+      "permissionStunRadio": "Radio verdoven",
+      "permissionStunRadioDescription": "Hiermee kunnen gebruikers een andere radio-gebruiker 30s lang verdoffen (blokkeren).",
       "privateChannels": "Privé Kanalen",
       "remove": "Verwijderen",
       "removeWarn": "Waarschuwing",
@@ -1177,6 +1788,7 @@
       "title": "Communityleden",
       "traits": "Eigenschappen",
       "unbanBtn": "Deblokkeren",
+      "unbanConfirm": "Je staat op het punt om {count} lid/lidleden te ontbannen. Ze kunnen opnieuw deelnemen met de community-ID.",
       "username": "Gebruikersnaam"
     },
     "membersTab": "Leden",
@@ -1554,6 +2166,26 @@
     "welcome": "Welkom",
     "welcomeTo": "Welkom bij Sonoran Radio!"
   },
+  "mobiPreview": {
+    "channelName": "OPERATIES TAC 1",
+    "citywide": "STADSBREED",
+    "frameName": "Mobi-voorbeeld",
+    "frameTitle": "Mobi Radioframe",
+    "groupName": "STANTON BEVEILIGING",
+    "localPreview": "LOKAAL VOORBEELD",
+    "modes": {
+      "distress": "NOOD",
+      "idle": "Inactief",
+      "jammed": "Gestoord",
+      "receiving": "Ontvangen",
+      "transmitting": "Versturen"
+    },
+    "note": "Zet de statussen hierboven om de live radio-indicatoren te bekijken. Schermbediening vereist een verbonden radiosessie.",
+    "signal": "Signaal",
+    "speakerName": "A. MERCER",
+    "themePreview": "Themavoorbeeld",
+    "yourRadio": "JOUW RADIO"
+  },
   "portal": {
     "beginTitle": "Begin je Reize",
     "beginYourJourney": "Begin je reis!",
@@ -1678,16 +2310,29 @@
       "enableTransmissionRecordings": "Zendingsopnamen inschakelen",
       "erlcHud": {
         "autoWindow": "Roblox-venster automatisch zoeken",
+        "checkPermission": "Toegang controleren",
         "enable": "Gebruik schermdetectie",
-        "lastReading": "Laatste metercontrole",
+        "lastReading": "Laatste ELS-controllercontrole",
         "noWindows": "Geen Roblox-venster gevonden. Open ER:LC en vernieuw daarna de vensterlijst.",
-        "privacy": "Sonoran Radio controleert de Roblox snelheidsmeter op dit apparaat om voertuigvarianten te wisselen. Als ER:LC exact één voertuig meldt dat eigendom is van uw account, kan de naam ook een specifiek frame selecteren. Schermbeelden worden niet opgeslagen of geüpload. Op macOS moet u mogelijk Scherm- en systeemaudio-opname toestaan voor Sonoran Radio.",
+        "openSettings": "Systeeminstellingen openen",
+        "permissionDenied": "Schermopname is uitgeschakeld voor Sonoran Radio. Schakel het in, sluit de app daarna volledig af en open deze opnieuw.",
+        "permissionNotDetermined": "macOS heeft je toestemming nodig om het Roblox-venster te lezen. Klik op Toegang controleren om dit aan te vragen, of schakel het in bij Systeeminstellingen.",
+        "permissionRestricted": "Schermopname is beperkt op deze Mac. Vraag uw Mac-beheerder om toegang toe te staan.",
+        "permissionStepEnable": "Sonoran Radio inschakelen. Schakel tijdens ontwikkeling Electron in als dat de app is die macOS weergeeft.",
+        "permissionStepOpen": "Open Systeeminstellingen → Privacy en beveiliging → Scherm- en systeemaudio-opname (Schermopname op oudere macOS-versies).",
+        "permissionStepRestart": "Sluit Sonoran Radio volledig af en open het opnieuw nadat je de toegang hebt gewijzigd.",
+        "permissionTitle": "Schermopname toestaan",
+        "permissionUnknown": "Sonoran Radio kon Schermopname-toegang niet verifiëren. Controleer Systeeminstellingen en sluit de app vervolgens volledig af en open deze opnieuw.",
+        "privacy": "Sonoran Radio controleert de ELS-controller rechtsonder op dit apparaat om voertuigvarianten te wisselen. De controller moet zichtbaar zijn; voertuigen zonder deze gebruiken de on-foot lay-out. Noodverlichting kan aan of uit zijn. Schermbeelden worden niet opgeslagen of geüpload.",
+        "readingElsAbsent": "ELS-controller niet gevonden",
+        "readingElsFound": "ELS-controller gevonden",
         "readingGaugeAbsent": "Meter niet gevonden",
         "readingGaugeFound": "Meter gevonden",
         "readingUncertain": "Onzekere match",
         "readingUnreadable": "Roblox-venster onleesbaar",
         "readingWaiting": "Wachten op Roblox-opname",
         "refreshWindows": "Roblox-vensters verversen",
+        "settingsOpenFailed": "Systeeminstellingen konden niet worden geopend. Open ze handmatig met de bovenstaande stappen.",
         "status": "Detectiestatus",
         "statusChecking": "Roblox-venster controleren",
         "statusDisabled": "Uit",
@@ -1695,7 +2340,7 @@
         "statusInVehicle": "In een voertuig",
         "statusLooking": "Roblox-venster zoeken",
         "statusOnFoot": "Te voet",
-        "statusPermissionDenied": "Schermopname toestemming geweigerd",
+        "statusPermissionDenied": "Schermopname-toegang vereist",
         "statusUnknown": "Kan de voertuigstatus niet bepalen",
         "title": "ER:LC-voertuigdetectie",
         "vehicleAmbiguous": "ER:LC heeft meerdere eigendom voertuignamen gevonden en kan geen naam-specifieke frame-overschrijving selecteren.",
@@ -1780,6 +2425,8 @@
       "audioMode": "Audiomodus",
       "audioRecording": "Audio-opname",
       "broadcastTo": "Uitzenden naar",
+      "channel": "Kanaal",
+      "channelGroup": "Kanaalgroep",
       "count": "Aantal",
       "deleteStack": "Verwijder stapel",
       "generate": "Genereer",
@@ -1790,6 +2437,7 @@
       "newTone": "Nieuwe toon",
       "noSavedStacks": "Nog geen opgeslagen stapels.",
       "noTones": "Geen tonen",
+      "ok": "OK",
       "playStack": "Speel stapel af (dubbelklik)",
       "preview": "Voorbeeld",
       "recording": "Opname",
@@ -1804,7 +2452,11 @@
       "speechToText": "Spraak-naar-tekst",
       "speed": "Snelheid",
       "stack": "Stapelen",
+      "stackNameRequired": "Stapelnaam is vereist.",
+      "stackNeedsTones": "Voeg tonen toe aan de stapel voordat je opslaat.",
+      "stopPlayback": "Afspelen stoppen",
       "subtitle": "Pas dispatchtonen aan voor je community",
+      "temporaryTtsError": "Tijdelijke TTS-toon voorbereiden mislukt.",
       "title": "Toonpaneel",
       "toneLabel": "Toonlabel",
       "tonesTab": "Tonen",
@@ -1868,6 +2520,17 @@
     "checkSpam": "Controleer ook je spammap als je de e-mail niet kunt vinden.",
     "emailPreferencesDesc": "Stuur me belangrijke aankondigingen, updates en promoties per e-mail.",
     "verifyPassword": "Wachtwoord bevestigen"
+  },
+  "socials": {
+    "community": "Community",
+    "connectWithUs": "Verbinden met ons",
+    "followUs": "Volg ons",
+    "instagramDescription": "Producthoogtepunten en teamupdates",
+    "joinDiscord": "Word lid van Discord",
+    "joinDiscordDescription": "Ontvang aankondigingen, ondersteuning, community-updates en productdiscussies op één plek.",
+    "joinDiscordTitle": "Word lid van de Sonoran Software Discord",
+    "tiktokDescription": "Korte updates van het Sonoran-team",
+    "youtubeDescription": "Gidsen, demo's en releases"
   },
   "splash": {
     "feats": "Volledige interpersoonlijke tekstberichten en Sonoran CAD\n      integratie maken van Sonoran Radio volwaardige communicatiemiddelen\n      direct beschikbaar in de handen van je in-game personeel en centralisten. Probeer het\n      vandaag nog gratis!",
