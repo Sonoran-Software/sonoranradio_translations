@@ -109,6 +109,12 @@
     "overlayFiveMDescription": "自訂你的 FiveM 遊戲內無線電和桌面覆蓋層。FiveM 變更會在五分鐘內與相容的資源版本同步。",
     "overlaySelectGame": "在遊戲整合中檢查你的社群遊戲，以使用相符的覆蓋功能。"
   },
+  "fivemView": {
+    "forceGuestAccessDenied": "你沒有訪客無線電的存取權限。請向伺服器管理員申請存取。",
+    "guestConnectionLost": "訪客 無線電 連線 已中斷。",
+    "guestLoginFailed": "訪客無線電無法啟動。重試或請求伺服器管理員協助。",
+    "retryGuestLogin": "重試訪客連線"
+  },
   "hotkeys": {
     "changeRadioFrame": "變更 電台 畫面",
     "nextRadioFrame": "下一個 電台 畫面",
@@ -215,6 +221,32 @@
         "aircraft": "飛機",
         "onFoot": "步行模式",
         "vehicle": "車輛"
+      },
+      "vehicleClassNames": {
+        "boats": "船隻",
+        "commercial": "商用",
+        "compacts": "小型車",
+        "coupes": "雙門跑車",
+        "cycles": "腳踏車",
+        "emergency": "緊急",
+        "helicopters": "直升機",
+        "industrial": "工業",
+        "military": "軍事",
+        "motorcycles": "機車",
+        "muscle": "肌肉車",
+        "offRoad": "越野",
+        "openWheel": "開放式輪圈",
+        "other": "其他",
+        "planes": "飛機",
+        "sedans": "房車",
+        "service": "服務",
+        "sports": "運動型",
+        "sportsClassics": "經典跑車",
+        "super": "超級",
+        "suvs": "運動型多用途車",
+        "trains": "火車",
+        "utility": "多用途車",
+        "vans": "廂型車"
       },
       "vehicleName": "ER:LC 車輛名稱",
       "vehicleNameRequired": "為每個覆寫輸入一個載具名稱。",
@@ -477,6 +509,17 @@
     }
   },
   "radio": {
+    "customScreen": {
+      "disconnected": "已中斷連線",
+      "multiChannel": "多個頻道",
+      "multiGroup": "多個群組",
+      "noGroup": "無群組",
+      "panicAlert": "恐慌警報",
+      "scan": "掃描",
+      "temporaryChannel": "臨時頻道",
+      "unknownChannel": "未知頻道",
+      "unknownGroup": "未知群組"
+    },
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "此語言不可用。請聯絡我們的支援團隊。",
       "dispatchAiSpeechRecognition": "英語語音辨識",

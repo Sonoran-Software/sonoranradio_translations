@@ -1,6 +1,12 @@
 {
   "account": {
+    "allowUsageAnalytics": "Permitir analíticas de uso",
+    "deleteAccountError": "Ocurrió un error al eliminar tu cuenta.",
+    "deleteAccountMessage": "¿Seguro que quieres eliminar tu cuenta permanentemente?",
+    "deleteAccountSuccess": "Cuenta eliminada correctamente.",
+    "deleteAccountTitle": "Eliminar cuenta",
     "noServers": "No Hay Servidores",
+    "privacyPolicy": "Política de privacidad",
     "serversDesc": "Aquí puedes ver todas las comunidades de Sonoran Radio que posees o gestionas",
     "serversTitle": "Tus Servidores",
     "tokenCopied": "¡El secreto se ha copiado al portapapeles!",
@@ -8,7 +14,16 @@
     "tokenDescWarning": "¡Este código es SECRETO y no debe compartirse con nadie!",
     "tokenInputLabel": "Tu secreto de inicio de sesión",
     "tokenLoadBtn": "Haz clic para cargar",
-    "tokenTitle": "Secreto de inicio de sesión por radio"
+    "tokenTitle": "Secreto de inicio de sesión por radio",
+    "usageAnalyticsDescription": "Compartir el uso limitado de la app con Sonoran Software y Google Analytics. Esto no se usa para publicidad ni para seguimiento entre aplicaciones.",
+    "usageAnalyticsTitle": "Analíticas de uso"
+  },
+  "analyticsConsent": {
+    "allow": "Permitir",
+    "description": "Permitir analíticas de uso limitadas para ayudar a mejorar la app. Sin publicidad ni seguimiento entre apps.",
+    "notNow": "Ahora no",
+    "privacyPolicy": "Política de privacidad",
+    "title": "Ayuda a mejorar Sonoran Radio"
   },
   "authMember": {
     "errLeave": "Ocurrió un error inesperado al salir de la comunidad.",
@@ -29,6 +44,7 @@
   },
   "billing": {
     "alreadyActiveSub": "Ya tiene una suscripción activa",
+    "billingPortalUnavailable": "El portal de facturación está disponible después de que se carguen las suscripciones.",
     "changeServer": "Cambiar servidor",
     "changeSvDialog": {
       "errSave": "Ocurrió un error inesperado al cambiar la suscripción",
@@ -45,6 +61,8 @@
       "title": "Cambiar Suscripción",
       "transfer": "¿Estás seguro de que deseas transferir esta suscripción a otro servidor?"
     },
+    "contactSupport": "Contactar con soporte",
+    "description": "Gestiona suscripciones, asígnalas a comunidades de Radio y actualiza la facturación mediante Stripe.",
     "errCheck": "Ocurrió un error inesperado al verificar tu suscripción",
     "isUnauthorized": "Las suscripciones no se pueden aplicar a servidores no autorizados",
     "modifySub": "Modificar suscripción",
@@ -64,7 +82,10 @@
       "oneDescription": "Pro CAD, CMS, Radio, Sonoran Studio y alojamiento FiveM en un solo paquete.",
       "oneLearnMore": "Más información sobre Sonoran One",
       "plus": "Plan Plus ($14.99/mes)",
+      "plusDescription": "Más capacidad y personalización para comunidades activas.",
       "pro": "Plan Pro ($19.99/mes)",
+      "proDescription": "Desbloquea escala ilimitada y funciones avanzadas de Radio.",
+      "professionalSetup": "Asistencia de configuración profesional para tu comunidad.",
       "quarterly": "Trimestral",
       "studio": "Licencia comunitaria de Sonoran Studio",
       "studioDescription": "Iluminación inteligente y widgets de streaming para tu comunidad. Incluido con Sonoran One.",
@@ -73,26 +94,106 @@
       "studioQuarterlyPrice": "6,00 $/mes",
       "title": "Nueva Suscripción"
     },
+    "noBillingPortalUrl": "Aún no hay ninguna URL del portal de facturación disponible.",
     "noServerAssociated": "Ningún servidor asociado",
+    "openBillingPortal": "Abrir portal de facturación",
+    "paymentCenter": "Centro de pagos",
+    "pricingCompare": {
+      "backgroundAudio": "Audio de fondo del juego",
+      "bestValue": "Mejor relación calidad-precio",
+      "bigDaddyAnimations": "Animaciones de Big-Daddy Radio",
+      "bundleDescription": "Pro CAD, CMS, Radio, Sonoran Studio y alojamiento gratuito de FiveM en una sola suscripción.",
+      "choosePlan": "Elige {name}",
+      "chooseSonoranOne": "Elige Sonoran One",
+      "communitySoundEffects": "Efectos de sonido para toda la comunidad",
+      "comparePlans": "Comparar planes",
+      "connectedUsers": "Usuarios conectados",
+      "customCommunityId": "ID de comunidad personalizado",
+      "customDomain": "Dominio personalizado",
+      "customVoiceEffects": "Efectos de voz personalizados",
+      "description": "Todos los planes de pago están disponibles mensualmente o trimestralmente. Las suscripciones trimestrales incluyen un descuento del 25%.",
+      "desktopOverlayFrames": "Marcos de superposición de escritorio",
+      "dispatchAiPrompts": "Prompts mensuales de IA de Dispatch",
+      "freeCopy": "Copia gratis",
+      "freeDescription": "Empieza con las herramientas de radio básicas para comunidades pequeñas.",
+      "freePrompts": "~140-360",
+      "monthlyPrice": "{price}/mes",
+      "mostPopular": "Más popular",
+      "multiServer": "Multiservidor",
+      "nearbyRadioChatter": "Charla de radio cercana",
+      "oneDefault": "1 servidor",
+      "oneServer": "1 servidor",
+      "perUserSoundEffects": "Efectos de sonido por usuario",
+      "planFree": "Gratis",
+      "planPlus": "Plus",
+      "planPro": "Pro",
+      "planSonoranOne": "Sonoran One",
+      "plusDescription": "Añade personalización y más espacio para roleplay activo.",
+      "plusPrompts": "~1.400-3.600",
+      "proDescription": "Desbloquea escala ilimitada y funciones avanzadas de Radio.",
+      "proPrompts": "~4.200-10.750",
+      "radioPlans": "Planes de radio",
+      "rocketNodeHosting": "hosting de RocketNode para FiveM",
+      "saveTwentyFive": "Ahorra un 25%",
+      "scannersAndJammers": "Escáneres y bloqueadores de señal",
+      "sonoranCadPro": "Sonoran CAD Pro",
+      "sonoranCmsPro": "Sonoran CMS Pro",
+      "sonoranRadioPro": "Sonoran Radio Pro",
+      "sonoranStudioLicense": "Licencia comunitaria de Sonoran Studio",
+      "tenUsers": "10",
+      "thirtyUsers": "30",
+      "threeCustom": "Personalizado ilimitado",
+      "threeDefault": "3x Predeterminado",
+      "transmissionLogs": "Registros de transmisión",
+      "unlimited": "Ilimitado",
+      "unlimitedCustom": "Personalizado ilimitado"
+    },
     "setServer": "Establecer Servidor",
+    "sonoranOne": "Sonoran One",
+    "speakWithHuman": "Hablar con una persona",
     "statuses": {
       "active": "Activo",
       "canceled": "Cancelado",
       "incomplete": "Incompleto",
       "incomplete_expired": "Incompleto caducado",
       "past_due": "Vencido",
+      "trialing": "En período de prueba",
       "unpaid": "Pendiente de pago"
     },
+    "subscriptionsDescription": "Revisa suscripciones activas, asigna comunidades de Radio y gestiona suscripciones inactivas.",
+    "subscriptionsTitle": "Tus suscripciones",
+    "subscriptionTable": {
+      "active": "Activo",
+      "cancelledDescription": "Las suscripciones canceladas y caducadas aparecerán aquí.",
+      "communityId": "ID de comunidad {id}",
+      "createDescription": "Crea una suscripción para desbloquear más funciones de Radio para una comunidad.",
+      "endDate": "Fecha de fin",
+      "inactiveCancelled": "Inactivo / Cancelado",
+      "loading": "Cargando suscripciones",
+      "loadingDescription": "Obteniendo tus últimas suscripciones de Stripe.",
+      "noActive": "No hay suscripciones activas",
+      "noInactive": "No hay suscripciones inactivas",
+      "planRadioPlus": "Radio Plus",
+      "planRadioPro": "Radio Pro",
+      "planSonoranOne": "Sonoran One",
+      "planSonoranRadio": "Sonoran Radio",
+      "purchasedNotApplied": "Esta suscripción se ha comprado, pero aún no se ha aplicado a ninguna comunidad de radio.",
+      "startDate": "Fecha de inicio"
+    },
+    "supportDescription": "Nuestro servicio de atención por chat en vivo está disponible 7 días a la semana en horario laboral. ¿Tienes preguntas? Nuestro equipo está a tu disposición.",
+    "title": "Facturación",
     "toPortal": "Volver al Portal"
   },
   "common": {
     "account": "Cuenta",
     "actions": "Acciones",
     "add": "Añadir",
+    "back": "Atrás",
     "billing": "Facturación",
     "cancel": "Cancelar",
     "clickToCopy": "Haz clic para copiar",
     "clipboard": "¡Copiado al portapapeles!",
+    "close": "Cerrar",
     "communityIdField": "ID de comunidad",
     "confirm": "Confirmar",
     "copy": "Copiar",
@@ -101,6 +202,7 @@
     "edit": "Editar",
     "email": "Correo electrónico",
     "help": "Ayuda",
+    "id": "ID",
     "language": "Idioma",
     "learnMore": "Aprender más",
     "limited": "Limitado",
@@ -198,6 +300,7 @@
     "joinCode": "Código de acceso: {code}",
     "joinMission": "Únete a tu servidor, selecciona un rol y entra en la misión. Equipa un objeto Sonoran Radio. Los creadores de misiones deberían colocar torres/repetidores de señal Sonoran para dar cobertura.",
     "joinTest": "Unirse y probar",
+    "linkRoblox": "Vincular Roblox",
     "linkServer": "Vincular Servidor",
     "manualServer": "Para un servidor alojado manualmente, copia ambas carpetas de mods al servidor, copia sus archivos {extension} de sus carpetas keys en la carpeta {directory} del servidor, y añade este argumento de inicio (ajusta los nombres de las carpetas):",
     "next": "Siguiente",
@@ -214,6 +317,7 @@
     "resizeRadio": "Redimensionar radio",
     "resizeScreen": "Arrastra para cambiar el tamaño de la pantalla",
     "restartServer": "Reinicia el servidor e incluye ambos mods en el ajuste preestablecido del lanzador compartido con los jugadores. Mantén las firmas y BattlEye activado; investiga el mensaje exacto de expulsión si se rechaza a un cliente.",
+    "robloxLinkDescription": "Vincula tu cuenta de Roblox a tu cuenta de Sonoran para usar la señal de radio basada en la ubicación en esta comunidad.",
     "serverMods": "Instala los mismos dos mods de Workshop a través del gestor de mods de tu host del servidor. Carga ambos como mods normales, no como mods solo para servidor, con CBA_A3 primero.",
     "setupOverlay": "Configurar la superposición",
     "towerSaveError": "No se han podido guardar las torres de señal de ER:LC. Tu último cambio se ha revertido.",
@@ -231,10 +335,32 @@
     "openGameIntegration": "Integración de juego",
     "overlayDesktopDescription": "Personaliza la superposición de radio para usuarios de escritorio.",
     "overlayFiveMDescription": "Personaliza tu radio dentro del juego y la superposición de escritorio de FiveM. Los cambios de FiveM se sincronizan en cinco minutos con una versión de recurso compatible.",
-    "overlaySelectGame": "Comprueba el juego de tu comunidad en Integración de juegos para usar las funciones de superposición correspondientes."
+    "overlayPreview": {
+      "description": "Personaliza tu superposición de radio.",
+      "done": "Hecho",
+      "game": "Juego",
+      "localSample": "Vista previa local · solo datos de muestra",
+      "noGame": "Ningún juego seleccionado",
+      "previewGame": "Vista previa del juego",
+      "saves": "{count} guardados en esta vista previa",
+      "title": "superposición"
+    },
+    "overlaySelectGame": "Comprueba el juego de tu comunidad en Integración de juegos para usar las funciones de superposición correspondientes.",
+    "upgradeRadioPlan": "Mejora tu plan de Radio",
+    "upgradeRadioPlanMessage": "Desbloquea más capacidad, personalización y funciones avanzadas de Radio para esta comunidad.",
+    "viewBilling": "Ver facturación"
   },
   "desktopPanel": {
     "channelHotkey": "Atajo de canal"
+  },
+  "emergencyCall": {
+    "changeMicrophone": "Cambia tu micrófono:",
+    "deviceUnavailable": "{device} no está disponible. Elige otro micrófono.",
+    "microphoneAccessDenied": "Acceso al micrófono denegado",
+    "noInputDetected": "No se ha detectado entrada de micrófono. Cambia tu micrófono si la central no puede oírte.",
+    "noMicrophoneFound": "No se ha encontrado ningún micrófono",
+    "selectedUnavailable": "El micrófono seleccionado no está disponible. Elige otro micrófono.",
+    "unknownError": "Error desconocido"
   },
   "error404": {
     "goHome": "Ir a inicio",
@@ -319,19 +445,307 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Ve a {link} en tu navegador para iniciar sesión",
+    "forceGuestAccessDenied": "No tienes acceso a la radio de invitado. Pide acceso a un administrador del servidor.",
+    "guestConnectionLost": "Se ha perdido la conexión de radio de invitado.",
     "guestLogin": "Inicio de sesión de invitado",
+    "guestLoginFailed": "No se pudo iniciar la radio de invitado. Reintenta o pide ayuda a un administrador del servidor.",
     "guestLoginInstruction": "Iniciar sesión como invitado",
     "loginWithAccount": "Inicio de sesión de cuenta",
     "loginWithCode": "Iniciar sesión con código",
     "openLinkButton": "Enlace",
     "refresh": "Actualizar",
+    "retryGuestLogin": "Reintentar conexión como invitado",
     "unlink": "Desvincular"
   },
   "geoZoneViewer": {
     "sonoranRadioPolymap": "Polimapa de radio de Sonora"
   },
   "getStartedButton": {
+    "bottomCtaTitle": "Empieza con una radio gratis para tu comunidad de juegos",
     "learnMore": "Aprender más"
+  },
+  "homepage": {
+    "accessibility": {
+      "compareSonoranRadio": "Comparar Sonoran Radio",
+      "competitorLogo": "logotipo de {competitor}",
+      "dispatchAnywhere": "Despacho en cualquier lugar",
+      "downloadAndroid": "Descargar Sonoran Radio para Android",
+      "downloadIos": "Descargar Sonoran Radio para iOS",
+      "downloadLinux": "Descargar Sonoran Radio para Linux",
+      "downloadMacos": "Descargar Sonoran Radio para MacOS",
+      "downloadWindows": "Descargar Sonoran Radio para Windows",
+      "gameSelection": "Selección de juego",
+      "heroRadioAlt": "Superposición de escritorio de Sonoran Radio con canales de muestra para {game}",
+      "openIntegration": "Abrir integración {title}",
+      "sonoranRadioIntegrations": "Integraciones de Sonoran Radio",
+      "sonoranRadioVs": "Sonoran Radio vs {competitor}",
+      "viewGameIntegrations": "Ver integraciones de {game}"
+    },
+    "armaCapture": {
+      "activeDishes": "Platos activos",
+      "aiCanHear": "La IA puede oír transmisiones",
+      "aiHearingTitle": "SONORAN RADIO · AUDICIÓN IA",
+      "alphaOneOne": "Alfa 1-1",
+      "blockedPath": "Ruta bloqueada · 2 km",
+      "blockedQuality": "calidad del 26%",
+      "blockedTerrainMultiplier": "Multiplicador de terreno bloqueado",
+      "cancel": "CANCELAR",
+      "canDetectSpeaker": "Puede detectar al hablante",
+      "clearPath": "Camino despejado · 2 km",
+      "clearQuality": "calidad del 75%",
+      "customizationDesktopFrames": "PERSONALIZACIÓN / MARCOS DE ESCRITORIO",
+      "dishCount": "Cantidad de platos",
+      "exampleSignalPaths": "EJEMPLOS DE RECORRIDOS DE SEÑAL",
+      "hearingRadiusAria": "Radio ilustrativo de escucha de transmisión",
+      "illustrativeHearingRadius": "RADIO ILUSTRATIVO DE ESCUCHA",
+      "indestructible": "Indestructible",
+      "inventoryFrame": "Elemento de inventario → marco de escritorio",
+      "invisibleSignalOnly": "Invisible (solo señal)",
+      "itemClassNames": "Nombres de clase de objeto ARMA",
+      "largeRadioTower": "GRAN TORRE DE RADIO",
+      "matchRadio": "Empareja la radio que llevas",
+      "nearbyAi": "IA cercana",
+      "nearbyAiDescription": "La IA cercana puede detectarte mientras usas pulsar para hablar.",
+      "ok": "Vale",
+      "optionalDisabled": "Opcional · Deshabilitado de forma predeterminada",
+      "outsideHearingRange": "Fuera del alcance auditivo",
+      "photoCaption": "ALTIS · GRAN TORRE DE RADIO",
+      "powered": "Encendido",
+      "rangeDishes": "alcance de 8 km · 4 / 4 platos",
+      "relayAlpha": "Relevo Alfa",
+      "repeaterModel": "Modelo de repetidor",
+      "signalPathsAria": "Rutas de señal despejadas y bloqueadas por el terreno",
+      "signalRange": "Alcance de la señal (m)",
+      "signalTitle": "SONORAN RADIO / SEÑAL",
+      "terrainAttenuation": "Atenuación del terreno",
+      "terrainChanges": "Cambios de terreno en la recepción",
+      "title": "TORRE DE SONORAN RADIO",
+      "transmissionHearingRange": "Radio de escucha de transmisión",
+      "transmitting": "TRANSMITIENDO"
+    },
+    "dispatchAi": {
+      "exampleOf": "Ejemplo {current} de {total}: {id}",
+      "examples": "Ejemplos de Despacho IA",
+      "items": {
+        "alpha": {
+          "request": "\"Cambio, cámbiame a Alpha Squad.\"",
+          "response": "Copiado, cambiándote a Alpha Squad.",
+          "result": "Cambio de escuadra · Alpha Squad"
+        },
+        "breach": {
+          "request": "\"Mando, inicia un temporizador de brecha de 60 segundos.\"",
+          "response": "Recibido, temporizador de brecha de 60 segundos iniciado.",
+          "result": "Temporizador de brecha iniciado · 01:00"
+        },
+        "miller": {
+          "request": "\"Mando, pulsa al Sargento Miller a mi frecuencia.\"",
+          "response": "Copia, pulsando al Sargento Miller a tu frecuencia.",
+          "result": "Frecuencia pulsar · Sargento Miller"
+        },
+        "pit": {
+          "request": "\"Central, pon un temporizador PIT de cinco minutos.\"",
+          "response": "Copiado, temporizador PIT de cinco minutos iniciado.",
+          "result": "Temporizador PIT iniciado · 05:00"
+        },
+        "plate": {
+          "request": "\"Central, indícame que estoy patrullando el tráfico con un sedán azul, matrícula ABC123.\"",
+          "response": "Copia, creada una llamada de parada de tráfico con un sedán azul, ABC123.",
+          "result": "Aviso de tráfico · Unidad asignada"
+        },
+        "platoon": {
+          "request": "\"Comando, añade 1.er Pelotón a mis canales escaneados.\"",
+          "response": "Copiado, añadiendo 1.er Pelotón a tus canales escaneados.",
+          "result": "Canal añadido · 1.er pelotón"
+        },
+        "robbery": {
+          "request": "\"Despliegue, asígame al robo en curso.\"",
+          "response": "Copiado, adjuntando tu unidad al robo en curso.",
+          "result": "Aviso de robo · Unidad asignada"
+        },
+        "runPlate": {
+          "request": "\"Dispatch, ejecuta la placa ABC123.\"",
+          "response": "Copiado, en espera de la respuesta de ABC123.",
+          "result": "Búsqueda de matrícula · Resultados disponibles"
+        },
+        "tacOne": {
+          "request": "\"Despacho, cámbiame a TAC 1.\"",
+          "response": "Copiado, cambiándote a TAC 1.",
+          "result": "Cambio de canal · TAC 1"
+        }
+      },
+      "next": "Siguiente ejemplo de Despacho IA",
+      "previous": "Ejemplo anterior de Dispatch AI",
+      "radioAlt": "Superposición de escritorio de Sonoran Radio para {game}",
+      "subtitle": "Tu voz. Tu despachador. Conectada al Sonoran CAD.",
+      "title": "Despacho IA"
+    },
+    "erLcMapCapture": {
+      "addPoints": "Añadir puntos",
+      "cancel": "Cancelar",
+      "clickTheMap": "Haz clic en el mapa",
+      "closeTowerMenu": "Cerrar menú de torre",
+      "closeZoneMenu": "Cerrar menú de zona",
+      "deleteTower": "Eliminar torre",
+      "deleteZone": "Eliminar zona",
+      "description": "Configura la cobertura de señal y las zonas de emergencia en el mismo mapa.",
+      "dragZoneHandles": "Arrastra los tiradores azules para editar la forma de la zona.",
+      "drawCircle": "Dibujar círculo",
+      "drawPolygon": "Dibujar polígono",
+      "editEmergencyZone": "Editar zona de emergencia",
+      "editTower": "Editar torre",
+      "emergencyZones": "Zonas de emergencia",
+      "finishZone": "Zona de llegada",
+      "mapAlt": "Mapa de ER:LC",
+      "mapCoordinates": "Mapa X {x} · Z {y}",
+      "mapUnits": "unidades del mapa",
+      "noEmergencyZones": "Todavía no hay zonas de emergencia para esta sala. Dibuja un polígono o un círculo para añadir una.",
+      "noSignalTowers": "Todavía no hay torres de señal. La señal se mantiene al 100% hasta que coloques una torre.",
+      "placeTower": "Colocar torre",
+      "points": "puntos",
+      "range": "Alcance",
+      "room": "Sala",
+      "selectCenter": "Selecciona el centro",
+      "selectCircleEdge": "Selecciona el borde del círculo",
+      "setCenterEdge": "Establecer centro y borde",
+      "title": "Configuración del mapa de ER:LC",
+      "towerName": "Nombre de la torre",
+      "towers": "Torres",
+      "transmitChannels": "Transmitir canales",
+      "zoneName": "Nombre de la zona"
+    },
+    "featureCapture": {
+      "channelsGroups": "Canales y grupos",
+      "exportedPngData": "Datos PNG exportados",
+      "exportPng": "Exportar PNG transparente",
+      "preview": "Vista previa",
+      "sfxCustomization": "Personalización de Efectos de Sonido",
+      "transmissionLogs": "Registros de transmisión"
+    },
+    "gameIntegration": {
+      "integration": "Integración"
+    },
+    "integrationCapture": {
+      "adminPermission": "Admin",
+      "alexMorgan": "A-12 · Alex Morgan",
+      "apiGetGroupsComment": "// Obtener los grupos y canales configurados",
+      "approveMembers": "Aprobar miembros",
+      "assignedUnits": "Asignadas: A-12, A-14",
+      "available": "DISPONIBLE",
+      "availableCall": "Disponible · Llamada #1042",
+      "availableUnit": "Disponible · A-12",
+      "callAction": "Crear una llamada",
+      "callActionExample": "Crear una llamada para un 10-50 en Main St",
+      "callInformation": "Información de llamada",
+      "callNumber": "Llamada #1042",
+      "channelAction": "Cambiar canal de radio",
+      "channelActionExample": "Cámbiame a TAC 1",
+      "communityAdmin": "Administrador de la comunidad",
+      "communityRoles": "Roles de la comunidad",
+      "connectedToRadio": "Conectado a tu radio",
+      "countyDispatch": "Despacho del condado",
+      "dispatchAiActions": "Acciones de Despacho IA",
+      "dispatchCall": "LLAMADA DE DESPACHO",
+      "dispatchOne": "DESPACHO 1",
+      "dispatchTeam": "Equipo de despacho",
+      "exampleRoleMapping": "MUESTRA DE ASIGNACIÓN DE ROLES",
+      "exampleVoiceRequest": "SOLICITUD DE VOZ DE EJEMPLO",
+      "jordanLee": "A-14 · Jordan Lee",
+      "moveRadioUsers": "Mover usuarios de radio",
+      "officialSdkLibraries": "Librerías oficiales del SDK v2",
+      "panic": "Pánico",
+      "patrol": "Patrulla",
+      "permissions": "Permisos",
+      "permissionsStayInSync": "Los permisos se mantienen sincronizados",
+      "plateAction": "Búsqueda de persona o matrícula",
+      "plateActionExample": "Ejecutar una placa ABC123",
+      "playDispatchTones": "Reproducir tonos de despacho",
+      "respondingCall": "Respondiendo · Llamada #1042",
+      "statusAction": "Actualizaciones de estado",
+      "statusActionExample": "Pon mi estado en disponible",
+      "statusUpdates": "Actualizaciones de estado",
+      "streamDeckAlt": "Elgato Stream Deck MK.2 físico con controles de Sonoran Radio en sus 15 teclas LCD",
+      "trafficCollision": "Colisión de tráfico",
+      "trafficLocation": "Great Ocean Highway · Postal 3025",
+      "unitStatus": "Estado de la unidad",
+      "xmit": "XMIT",
+      "yourVoiceConnectedToCad": "Tu voz. Conectada al CAD."
+    },
+    "integrationCard": {
+      "free": "GRATIS"
+    },
+    "interactivePreview": {
+      "allClear": "Todo despejado",
+      "analog": "Analógica",
+      "audioLevel": "Nivel de audio",
+      "cancel": "Cancelar",
+      "countyDispatch": "DESPACHO DEL CONDADO",
+      "digital": "digital",
+      "emsDispatch": "Despacho de emergencias",
+      "fireDispatch": "Despacho de bomberos",
+      "fireEms": "BOMBEROS / SAMU",
+      "hearDifference": "Escucha la diferencia",
+      "microphonePreviewError": "No se pudo iniciar la vista previa del micrófono. Comprueba el permiso del navegador o prueba la muestra.",
+      "microphonePreviewOn": "La vista previa del micrófono está activada",
+      "openLibrary": "Abrir {library} en {registry}",
+      "original": "Original",
+      "playingSample": "Reproduciendo muestra",
+      "playSample": "Reproducir muestra",
+      "previewPlaying": "Vista previa en reproducción",
+      "previewStopped": "Vista previa detenida",
+      "previewVolume": "Volumen de vista previa",
+      "priorityTraffic": "Tráfico prioritario",
+      "publicSafety": "SEGURIDAD PÚBLICA",
+      "samplePlaybackError": "No se pudo reproducir la muestra. Vuelve a intentarlo.",
+      "sampleUnavailable": "Muestra no disponible",
+      "startingPreview": "Iniciando vista previa",
+      "stopPreview": "Detener vista previa",
+      "tonePlaybackError": "No se pudo reproducir este tono. Vuelve a intentarlo.",
+      "toneUnavailable": "Tono no disponible",
+      "tryMicrophone": "Prueba mi micrófono",
+      "vocoder": "Vocoder · 3200",
+      "vocoderPreviewError": "No se pudo iniciar la vista previa del vocoder. Vuelve a intentarlo.",
+      "voiceEffectExamples": "Ejemplos de efecto de voz"
+    },
+    "mobi": {
+      "active": "ACTIVO",
+      "audio": "AUDIO",
+      "channelGroup": "GRUPO DE CANALES",
+      "channels": "CANALES",
+      "currentSpeaker": "ALTAVOZ ACTUAL",
+      "distress": "SOCORRO",
+      "distressSignalDetected": "SEÑAL DE EMERGENCIA DETECTADA",
+      "header": "RADIO // COMMS",
+      "multiChannel": "CANAL MÚLTIPLE",
+      "multiGroup": "GRUPOS MÚLTIPLES",
+      "noActiveTransmission": "SIN TRANSMISIÓN ACTIVA",
+      "noLink": "SIN ENLACE",
+      "none": "NINGUNO",
+      "online": "EN LÍNEA",
+      "priorityAlert": "ALERTA PRIORITARIA",
+      "quickAccess": "ACCESO RÁPIDO",
+      "receive": "RECIBIR",
+      "scan": "ESCANEAR",
+      "scanList": "Lista de escaneo",
+      "scannedChannel": "CANAL ESCANEADO",
+      "selectedChannel": "CANAL SELECCIONADO",
+      "settings": "CONFIGURACIONES",
+      "settingsTooltip": "Configuraciones",
+      "signal": "SEÑAL",
+      "signalFault": "FALLO DE SEÑAL",
+      "spectrumOffline": "ESPECTRO SIN CONEXIÓN",
+      "standby": "EN ESPERA",
+      "temporaryLink": "ENLACE TEMPORAL",
+      "transmission": "TRANSMISIÓN",
+      "transmit": "TRANSMITIR",
+      "unknownChannel": "CANAL DESCONOCIDO",
+      "unknownGroup": "GRUPO DESCONOCIDO",
+      "unknownUser": "USUARIO DESCONOCIDO"
+    },
+    "tabPanel": {
+      "defaultDescription": "Experimenta una coordinación fluida con contenido de pestaña de marcador de posición para el estado de la unidad en tiempo real, la monitorización de frecuencias y la gestión de canales.",
+      "defaultTitle": "Sonoran Radio",
+      "imageAlt": "Imagen del panel de pestañas"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "Cambiar marco de radio",
@@ -372,11 +786,125 @@
     "title": "Importación/Exportación de JSON",
     "tooltip": "Importar archivo JSON"
   },
+  "integrationPages": {
+    "apiLibrariesAria": "Bibliotecas API de Sonoran",
+    "armaDescription": "Conecta Sonoran Radio directamente a Arma 3 con las integraciones de Arma 3.",
+    "back": "Atrás",
+    "cadFeatures": {
+      "dispatchCalls": {
+        "alt": "Vista previa de llamadas de despacho",
+        "description": "Únete a una llamada de despacho de Sonoran CAD y consulta los detalles de la llamada en la radio.",
+        "label": "Llamadas de despacho"
+      },
+      "liveMap": {
+        "alt": "Vista previa del mapa en directo de marcador de posición",
+        "description": "Ver las torres de radio con el mapa en vivo de Sonoran CAD.",
+        "label": "Mapa en vivo"
+      },
+      "panicButton": {
+        "alt": "Vista previa del botón de pánico",
+        "description": "Activa o desactiva tu estado de pánico de Sonoran CAD con el botón de pánico de radio.",
+        "label": "Botón de pánico"
+      }
+    },
+    "comingSoon": "Próximamente.",
+    "erlcDescription": "Conecta Sonoran Radio directamente a ER:LC con las integraciones de ER:LC.",
+    "fivemDescription": "Usa el script de radio gratuito para FiveM de Sonoran Radio—el recurso oficial dentro del juego—para llevar la radio de voz a tu servidor. Explora las integraciones a continuación, luego sigue la {setupGuide}.",
+    "gameFeatures": {
+      "arma": {
+        "features": {
+          "aiHearing": {
+            "alt": "Ilustración de un jugador de Arma transmitiendo dentro del radio de audición de la IA, junto con los ajustes de audición del mod.",
+            "description": "Permite que la IA cercana detecte a los jugadores que transmiten, con un alcance de audición ajustable. Disponible en la vista previa de la integración de Arma.",
+            "label": "audición de IA"
+          },
+          "itemFrames": {
+            "alt": "Mapeos de clases de objetos BLUFOR y OPFOR junto a sus marcos de superposición de escritorio de Sonoran Radio correspondientes.",
+            "description": "Tu objeto de radio BLUFOR u OPFOR selecciona su superposición de escritorio correspondiente. Asigna objetos personalizados a los marcos de tu comunidad.",
+            "label": "Sincronización de radio del inventario"
+          },
+          "terrainSignal": {
+            "alt": "Cobertura ilustrada del repetidor de Arma que muestra una ruta de señal clara y una señal reducida detrás del terreno.",
+            "description": "La distancia y el terreno debilitan la recepción de la torre. Vigila la señal de tu superposición y escucha el cambio a través de los efectos del canal.",
+            "label": "Terreno y señal"
+          },
+          "towers": {
+            "alt": "Una torre de señales de Arma con controles de Zeus de ejemplo para alcance, capacidad y potencia.",
+            "description": "Coloca torres en Eden o Zeus. El alcance, la potencia y la destrucción moldean la cobertura de tu radio.",
+            "label": "Torres del juego"
+          }
+        },
+        "tabsLabel": "Funciones de integración de Arma 3"
+      },
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "alt": "Superposición de escritorio de Sonoran Radio mostrando canales de despacho del condado de Liberty sobre una escena policial de ER:LC.",
+            "description": "Mantén tu radio encima de Roblox mientras juegas. Elige un marco, cambia de canal y sigue la señal en vivo de la torre desde la app de escritorio.",
+            "label": "Superposición de escritorio"
+          },
+          "emergencyZones": {
+            "alt": "Mapa de ER:LC que muestra una zona de emergencia de ejemplo y sus canales de transmisión de emergencia permitidos.",
+            "description": "Dibuja zonas de emergencia y elige qué canales de transmisión de emergencia están disponibles en cada área.",
+            "label": "Zonas de emergencia"
+          },
+          "liveSignal": {
+            "alt": "Mapa de ER:LC con cobertura de torre virtual y jugadores vinculados junto a una superposición de Sonoran Radio que muestra la intensidad de la señal en directo.",
+            "description": "Coloca torres para dar forma a la cobertura de radio por Liberty County. Mientras conduces, tu superposición muestra la intensidad de la señal en vivo y los efectos de radio reflejan tu recepción.",
+            "label": "Torres virtuales"
+          }
+        },
+        "tabsLabel": "Funciones de integración de ER:LC"
+      }
+    },
+    "integrationTitleSuffix": "Integración",
+    "learnMore": "Aprender más: {title}",
+    "meta": {
+      "armaDescription": "Explora las integraciones de Sonoran Radio para Arma 3, incluyendo torres dentro del juego, sincronización de radio de inventario, señal del terreno y audición de la IA.",
+      "armaTitle": "Integraciones de Arma 3 | Sonoran Radio",
+      "erlcDescription": "Explora las integraciones de Sonoran Radio para ER:LC, incluido el overlay de escritorio, las torres virtuales y las zonas de emergencia.",
+      "erlcTitle": "Integraciones de ER:LC | Sonoran Radio",
+      "fivemDescription": "Usa el script de radio gratuito para FiveM de Sonoran Radio, el recurso oficial dentro del juego, para llevar la radio de voz a tu servidor.",
+      "fivemTitle": "Integraciones de FiveM | Sonoran Radio"
+    },
+    "openDocumentation": "Abrir la documentación de {title}",
+    "registryLink": "{name} en {registry}",
+    "setupGuide": "guía de configuración",
+    "streamDeck": {
+      "calloutDescription": "Consulta la documentación para obtener más detalles y los pasos de instalación del plugin.",
+      "calloutTitle": "¿Quieres saber más?",
+      "description": "Lleva tus controles de Sonoran Radio más usados a una tecla o dial de Stream Deck. Muévete por los canales, transmite y ajusta el audio sin romper tu ritmo.",
+      "deviceAlt": "Dispositivo portátil de Sonoran Radio mostrando controles de canal",
+      "heading": "Tu radio. A un toque.",
+      "highlights": {
+        "actions": {
+          "description": "Pon el modo IA, Tone Board y superposiciones de escritorio en tu deck, o usa acciones con tu radio del juego FiveM.",
+          "title": "Más acciones de radio"
+        },
+        "audio": {
+          "description": "Usa los diales compatibles para ajustar la radio, el canal, los efectos y el volumen de la IA.",
+          "title": "Ajusta tu audio"
+        },
+        "channelShortcuts": {
+          "description": "Muévete entre canales y grupos, o alterna las listas de transmisión y escaneo con un toque.",
+          "title": "Atajos de canal"
+        },
+        "pushToTalk": {
+          "description": "Mantén transmit a mano y envía sin volver a cambiar a la app de radio.",
+          "title": "Pulsar para hablar, en una tecla"
+        }
+      },
+      "platformKeysDials": "Teclas + diales",
+      "platformWindowsMacos": "Windows + macOS"
+    },
+    "streamDeckFeaturesAria": "Funciones de Stream Deck"
+  },
   "landingPage": {
     "API_Libraries": {
       "desc": "Enlaces de instalación para las bibliotecas oficiales del SDK de Sonoran usadas con la API v2.",
       "title": "Bibliotecas API"
     },
+    "armaIntegrationDescription": "Conecta Sonoran Radio directamente a Arma 3 con las integraciones de Arma 3.",
     "BackgroundAudio": {
       "desc": "¿Respondiendo a una llamada? Sonoran Radio inyecta sirenas en tiempo real, disparos y más directamente en tu entrada de micrófono para una inmersión máxima.",
       "title": "Audio de fondo"
@@ -431,6 +959,8 @@
       "desc": "¡Haz llamadas de emergencia a la central, todo desde el juego!",
       "title": "Llamadas de emergencia en el juego"
     },
+    "erlcIntegrationDescription": "Conecta Sonoran Radio directamente a ER:LC con las integraciones de ER:LC.",
+    "exploreIntegrations": "Explorar integraciones",
     "faq": {
       "free": {
         "answer": "Sí. Dispatch AI está totalmente disponible en el plan Gratis con créditos mensuales incluidos. Los planes de pago incluyen límites de crédito más altos.",
@@ -459,6 +989,34 @@
       "eyebrow": "Integración directa",
       "heading": "Integraciones"
     },
+    "fivemRadioIntegration": "Integración de radio",
+    "gameIntegrations": "Integraciones de juego",
+    "games": {
+      "arma3": {
+        "description": "Empieza con canales de radio gratuitos y una superposición de escritorio para Arma 3. Previsualiza la integración de Arma con torres de misión, marcos vinculados al inventario y señal del terreno.",
+        "headline": "Radio gratis para tu escuadrón de Arma 3",
+        "name": "Arma 3",
+        "title": "Radio y superposición de escritorio gratuitos para Arma 3 | Sonoran Radio"
+      },
+      "erlc": {
+        "description": "Inicia gratis la radio de voz ER:LC con una superposición de escritorio para Roblox Emergency Response: Liberty County. Vincula cuentas y añade torres virtuales con cobertura de señal en vivo.",
+        "headline": "Radio de voz gratuita para ER:LC para tu comunidad",
+        "name": "ER:LC",
+        "title": "Radio de voz y superposición de escritorio gratuitos para ER:LC | Sonoran Radio"
+      },
+      "fivem": {
+        "description": "Empieza gratis con un script de radio para FiveM, una superposición de escritorio y un panel de despacho. Conecta Sonoran Radio a tu servidor de roleplay de GTA V con la integración de FiveM.",
+        "headline": "Radio gratis para tu comunidad de FiveM",
+        "name": "FiveM",
+        "title": "Script de radio de FiveM y panel de despacho gratis | Sonoran Radio"
+      },
+      "starCitizen": {
+        "description": "Mantén a tu tripulación de Star Citizen conectada con canales de radio gratis, herramientas de despacho y una superposición de escritorio temática. Coordina las comunicaciones por todo el universo.",
+        "headline": "Radio gratis para tu tripulación de Star Citizen",
+        "name": "Star Citizen",
+        "title": "Radio y superposición gratis para Star Citizen | Sonoran Radio"
+      }
+    },
     "hero": {
       "subtitle": "Chatea en canales de radio realistas, personaliza tus efectos de voz y conéctate sin esfuerzo con funciones del juego para una experiencia realmente inmersiva.",
       "title": "Las mejores comunicaciones de radio empiezan aquí"
@@ -476,6 +1034,7 @@
     "meta": {
       "audienceType": "Jugadores y gestores de comunidad",
       "description": "Software de comunicación por radio realista para FiveM, ER:LC, Arma 3 y comunidades de roleplay por igual.",
+      "imageAlt": "Panel de despacho de Sonoran Radio y superposición de radio de escritorio",
       "keywords": "Radio de Sonoran, radio para gaming, radio para FiveM, radio para ER:LC, radio para Arma 3, comunicaciones de roleplay, software de despacho, superposición de radio de escritorio, radio gratis para FiveM, radio gratis para ER:LC",
       "ogTitle": "Sonoran Radio - Comunicaciones de radio para gaming",
       "productName": "Sonoran Radio",
@@ -511,6 +1070,7 @@
       "dispatchAdmin": "Panel de Despacho y Administración",
       "integrations": "Integraciones"
     },
+    "softwareIntegrations": "Integraciones de software",
     "Sonoran_CAD": {
       "desc": "Este complemento permite a los clientes de Sonoran Radio conectar la radio con Sonoran CAD. Consulta el estado de tu unidad, la información de las llamadas de despacho, activa una emergencia y mucho más!",
       "title": "Sonoran CAD"
@@ -524,6 +1084,7 @@
       "title": "Stream Deck"
     },
     "studio": {
+      "brand": "Sonoran Studio",
       "cta": "Explora Sonoran Studio",
       "description": "Convierte la actividad de radio en directo en superposiciones de stream, iluminación inteligente reactiva y automatizaciones manos libres.",
       "eyebrow": "Sonoran Radio + Sonoran Studio",
@@ -594,7 +1155,15 @@
     "serverHosting": "Alojamiento de servidor"
   },
   "management": {
-    "forceJoinAsOwner": "Forzar unirse como propietario"
+    "eventType": "Tipo de evento",
+    "forceJoinAsOwner": "Forzar unirse como propietario",
+    "forceLeave": "Expulsar",
+    "payloadJson": "JSON de carga útil",
+    "pushEventDiagnostic": "Diagnóstico de eventos push",
+    "pushUrl": "URL de push",
+    "sendTestPushEvent": "Enviar evento push de prueba",
+    "storedRoomPushUrl": "URL de empuje de sala almacenada",
+    "timeout": "Tiempo de espera (ms)"
   },
   "managementPage": {
     "searchTitle": "Buscar comunidad",
@@ -607,6 +1176,8 @@
       "apiInfoTitle": "Información de API",
       "communityApiKeyField": "Clave API de la comunidad",
       "communityLogs": "Registros de comunidad",
+      "communityLogsEmpty": "No se encontraron registros",
+      "communityLogsLoading": "Cargando registros...",
       "logAccount": "Cuenta",
       "logContent": "Contenido",
       "logDate": "Fecha",
@@ -647,9 +1218,11 @@
     },
     "customizeDesktopFrames": {
       "addButton": "Añadir botón",
+      "addLayout": "Añadir diseño",
       "addScreen": "Añadir pantalla",
       "addVariant": "Añadir esta variante",
       "addVehicleOverride": "Añadir anulación de vehículo",
+      "aircraftLayout": "Distribución de aeronave",
       "armaBlufor": "Ejemplo BLUFOR",
       "armaExamples": "Ejemplos de ARMA 3",
       "armaItemClassNames": "Nombres de clase de objeto ARMA",
@@ -670,6 +1243,8 @@
       "deleteFrame": "Eliminar marco",
       "duplicateVehicleName": "Cada nombre de vehículo solo puede tener un único reemplazo.",
       "editHint": "Arrastra para mover · Ctrl + arrastra para cambiar el tamaño · Haz clic derecho en un botón para eliminar",
+      "fit": "Ajustar",
+      "fitRadioToCanvas": "Ajustar radio al lienzo",
       "frameBodyImage": "Imagen del cuerpo del marco",
       "frameLabel": "Etiqueta del marco",
       "frameName": "Nombre del marco",
@@ -678,6 +1253,10 @@
       "importFromSkin": "Importar desde FiveM (skin.json)",
       "importNoFramesFound": "No se han encontrado marcos con body.width y screen.",
       "label": "Etiqueta",
+      "migratedFramesReadOnly": "Los marcos de FiveM migrados siguen disponibles en Free. Mejora a Pro para editar este marco o reemplazar sus imágenes.",
+      "migratedFramesReset": "Los marcos de FiveM migrados solo se pueden restablecer con Pro.",
+      "moveLayoutEarlier": "Mover diseño más temprano",
+      "moveLayoutLater": "Mover diseño más tarde",
       "newFrame": "Nuevo marco",
       "noneFound": "No se han encontrado marcos superpuestos para esta comunidad.",
       "overrideFramesRequired": "Selecciona al menos un marco para cada anulación de vehículo.",
@@ -715,12 +1294,43 @@
         "onFoot": "A pie",
         "vehicle": "Vehículo"
       },
+      "vehicleClasses": "Clases de vehículos",
+      "vehicleClassesHint": "Borra la selección para coincidir con todas las clases de vehículos. Los diseños anteriores tienen prioridad.",
+      "vehicleClassNames": {
+        "boats": "Barcos",
+        "commercial": "Comercial",
+        "compacts": "Compactos",
+        "coupes": "Coupés",
+        "cycles": "Ciclos",
+        "emergency": "Emergencia",
+        "helicopters": "Helicópteros",
+        "industrial": "Industrial",
+        "military": "Militar",
+        "motorcycles": "Motocicletas",
+        "muscle": "Musculoso",
+        "offRoad": "Todoterreno",
+        "openWheel": "Monoplaza",
+        "other": "Otro",
+        "planes": "Aviones",
+        "sedans": "Berlinas",
+        "service": "Servicio",
+        "sports": "Deportivos",
+        "sportsClassics": "Clásicos deportivos",
+        "super": "Super",
+        "suvs": "SUV",
+        "trains": "Trenes",
+        "utility": "Utilidad",
+        "vans": "Furgonetas"
+      },
+      "vehicleLayout": "Diseño de vehículo",
       "vehicleName": "Nombre del vehículo de ER:LC",
       "vehicleNameRequired": "Introduce un nombre de vehículo para cada reemplazo.",
       "vehicleOverrideHint": "Los nombres de los vehículos coinciden exactamente, ignorando mayúsculas y espacios al inicio o al final. En el marco de escritorio, activa la detección de vehículos de ER:LC para usar un marco específico del vehículo cuando haya disponible un solo nombre de vehículo.",
       "visibilityHint": "Elige los marcos de escritorio predeterminados para ir a pie o cuando no coincida ningún nombre de vehículo. Las anulaciones de vehículo seleccionan marcos automáticamente cuando la detección de vehículos de ER:LC encuentra un nombre coincidente.",
       "visibilityTitle": "Visibilidad del marco",
-      "visibleFrames": "Marcos visibles"
+      "visibleFrames": "Marcos visibles",
+      "zoomIn": "Acercar",
+      "zoomOut": "Alejar"
     },
     "customizeMenu": {
       "ai": "IA",
@@ -1106,13 +1716,19 @@
       "approveBtn": "Aprobar",
       "ban": "Prohibir",
       "banBtn": "Prohibir",
+      "banConfirm": "Estás a punto de expulsar permanentemente a {count} miembro(s). No podrán volver a unirse, pero se les podrá levantar el baneo.",
       "cannotModifyPermsOfMyself": "No puedo modificar mis propios permisos",
+      "communityAccess": "Acceso a la comunidad",
+      "communityAccessDescription": "Aprueba al miembro para acceso básico a Sonoran Radio. No otorga permisos administrativos ni acceso al perfil privado.",
+      "confirmTitle": "¿Estás seguro?",
       "copyDiscordId": "Copiar ID de Discord",
       "copyPermissionGeneratorId": "Copiar ID del permiso",
       "copyRobloxId": "Copiar ID de Roblox",
       "discordIdCopied": "ID de Discord copiado al portapapeles.",
       "displayName": "Nombre para mostrar",
+      "displayNameUpdated": "Nombre para mostrar actualizado",
       "editMemberPerms": "Editar permisos del miembro",
+      "enterDisplayName": "Introduce un nuevo nombre para mostrar para {name}",
       "errAddInvalidAccount": "El nombre de usuario proporcionado no existe",
       "errAddUnknown": "Ocurrió un error desconocido al añadir al gerente",
       "errRemoveUnknown": "Ocurrió un error desconocido al eliminar al gerente",
@@ -1122,17 +1738,42 @@
       "filterBanned": "Bloqueado",
       "filterPending": "Pendiente",
       "kickBtn": "Expulsar",
+      "kickConfirm": "Estás a punto de expulsar a {count} miembro(s). Podrán volver a unirse con el ID de la comunidad.",
       "noDiscordAccountLinked": "Este usuario no tiene ninguna cuenta de Discord vinculada.",
       "noRobloxAccountLinked": "Este usuario no tiene ninguna cuenta de Roblox vinculada.",
       "owner": "Propietario",
       "ownerHasAllPerms": "El propietario de la comunidad tiene todos los permisos",
       "paysSubscription": "Paga la suscripción",
       "pending": "Pendiente",
+      "permissionAdmin": "Admin",
+      "permissionAdminDescription": "Concede permisos completos para administrar y acceder a todas las funciones de la comunidad de radio.",
+      "permissionApproveMembers": "Aprobar miembros",
+      "permissionApproveMembersDescription": "Permite aprobar o rechazar a los usuarios pendientes en la comunidad de radio.",
+      "permissionBanCommunity": "Expulsar de la comunidad",
+      "permissionBanCommunityDescription": "Otorga permiso para expulsar permanentemente a miembros de la comunidad.",
+      "permissionCallOnly": "Solo llamadas",
+      "permissionCallOnlyDescription": "Restringe al usuario a realizar solo llamadas al 911. Oculta la pestaña de Despacho. No afecta a los administradores.",
+      "permissionChangeDisplayName": "Cambiar nombre para mostrar",
+      "permissionChangeDisplayNameDescription": "Permite al usuario modificar su propio nombre visible.",
       "permissionGeneratorBtn": "Generador de permisos",
       "permissionGeneratorId": "ID del permiso",
       "permissionGeneratorSubtitle": "Generar un ID de permiso de usuario para uso externo.",
       "permissionGeneratorTitle": "Generador de permisos",
+      "permissionKickCommunity": "Expulsar de la comunidad",
+      "permissionKickCommunityDescription": "Otorga permiso para expulsar miembros de la comunidad.",
+      "permissionKickRadio": "Expulsar de la radio",
+      "permissionKickRadioDescription": "Concede permiso para desconectar a miembros de un canal de radio.",
+      "permissionManageDisplayNames": "Gestionar nombres para mostrar",
+      "permissionManageDisplayNamesDescription": "Permite al usuario modificar los nombres visibles de otros miembros.",
+      "permissionMoveRadioUsers": "Mover usuarios de radio",
+      "permissionMoveRadioUsersDescription": "Permite mover miembros entre canales de radio.",
+      "permissionOverrideTalkover": "Anulación de protección de hablar sobre",
+      "permissionOverrideTalkoverDescription": "Permite al usuario anular la protección de interrupción pulsando dos veces su botón PTT.",
+      "permissionPlayDispatchTones": "Reproducir tonos de despacho",
+      "permissionPlayDispatchTonesDescription": "Concede permiso para reproducir tonos de despacho por la radio.",
       "permissionsBtn": "Permisos",
+      "permissionStunRadio": "Aturdir radio",
+      "permissionStunRadioDescription": "Permite a los usuarios aturdir (bloquear) a otro usuario de radio durante 30 s.",
       "privateChannels": "Canales privados",
       "remove": "Eliminar",
       "removeWarn": "Aviso",
@@ -1147,6 +1788,7 @@
       "title": "Miembros de la comunidad",
       "traits": "Rasgos",
       "unbanBtn": "Desbloquear",
+      "unbanConfirm": "Estás a punto de quitar el baneo a {count} miembro(s). Podrán volver a unirse con el ID de la comunidad.",
       "username": "Nombre de usuario"
     },
     "membersTab": "Miembros",
@@ -1524,6 +2166,26 @@
     "welcome": "Bienvenido",
     "welcomeTo": "¡Bienvenido a Sonoran Radio!"
   },
+  "mobiPreview": {
+    "channelName": "OPERACIONES TAC 1",
+    "citywide": "CIUDAD ENTERA",
+    "frameName": "Vista previa móvil",
+    "frameTitle": "Marco de radio Mobi",
+    "groupName": "SEGURIDAD STANTON",
+    "localPreview": "VISTA PREVIA LOCAL",
+    "modes": {
+      "distress": "SOCORRO",
+      "idle": "Inactivo",
+      "jammed": "Atascado",
+      "receiving": "Recibiendo",
+      "transmitting": "Transmitiendo"
+    },
+    "note": "Cambia los estados anteriores para previsualizar los indicadores de radio en vivo. Los controles de pantalla requieren una sesión de radio conectada.",
+    "signal": "Señal",
+    "speakerName": "A. MERCER",
+    "themePreview": "Vista previa del tema",
+    "yourRadio": "TU RADIO"
+  },
   "portal": {
     "beginTitle": "Comienza tu viaje",
     "beginYourJourney": "¡Comienza tu viaje!",
@@ -1589,6 +2251,17 @@
     "channelList": "Lista de Canales",
     "configureChannel": "Configurar {0}",
     "connect": "Conectar",
+    "customScreen": {
+      "disconnected": "Desconectado",
+      "multiChannel": "Canales múltiples",
+      "multiGroup": "Grupos múltiples",
+      "noGroup": "Sin grupo",
+      "panicAlert": "Alerta de pánico",
+      "scan": "Escaneo",
+      "temporaryChannel": "Canal temporal",
+      "unknownChannel": "Canal desconocido",
+      "unknownGroup": "Grupo desconocido"
+    },
     "hiddenChannel": "Canal oculto (Visible para ti)",
     "listenScan": "Escuchar {0}",
     "microphonePTT": "Micrófono PTT",
@@ -1637,16 +2310,29 @@
       "enableTransmissionRecordings": "Activar grabaciones de transmisión",
       "erlcHud": {
         "autoWindow": "Encontrar la ventana de Roblox automáticamente",
+        "checkPermission": "Comprobar acceso",
         "enable": "Usar detección de pantalla",
-        "lastReading": "Última comprobación del indicador",
+        "lastReading": "Última comprobación del controlador ELS",
         "noWindows": "No se ha encontrado ninguna ventana de Roblox. Abre ER:LC y luego actualiza la lista de ventanas.",
-        "privacy": "Sonoran Radio comprueba el velocímetro de Roblox en este dispositivo para cambiar las variantes del vehículo. Si ER:LC informa de exactamente un vehículo propiedad de tu cuenta, su nombre también puede seleccionar un marco específico. Las imágenes de pantalla no se guardan ni se suben. En macOS, puede que tengas que permitir la grabación de pantalla y audio del sistema para Sonoran Radio.",
+        "openSettings": "Abrir ajustes del sistema",
+        "permissionDenied": "La grabación de pantalla está desactivada para Sonoran Radio. Actívala y luego cierra por completo y vuelve a abrir la app.",
+        "permissionNotDetermined": "macOS necesita tu permiso para leer la ventana de Roblox. Haz clic en Comprobar acceso para solicitarlo, o actívalo en Ajustes del Sistema.",
+        "permissionRestricted": "La grabación de pantalla está restringida en este Mac. Pide a tu administrador de Mac que permita el acceso.",
+        "permissionStepEnable": "Activar Sonoran Radio. Durante el desarrollo, activa Electron si es la app que macOS muestra.",
+        "permissionStepOpen": "Abre Ajustes del sistema → Privacidad y seguridad → Grabación de pantalla y de audio del sistema (Grabación de pantalla en versiones anteriores de macOS).",
+        "permissionStepRestart": "Cierra completamente y vuelve a abrir Sonoran Radio después de cambiar el acceso.",
+        "permissionTitle": "Permitir grabación de pantalla",
+        "permissionUnknown": "Sonoran Radio no pudo verificar el acceso a la grabación de pantalla. Comprueba la Configuración del sistema y luego cierra completamente y vuelve a abrir la app.",
+        "privacy": "Sonoran Radio comprueba el controlador ELS de la esquina inferior derecha en este dispositivo para cambiar variantes del vehículo. El controlador debe ser visible; los vehículos sin él usan el diseño a pie. Las luces de emergencia pueden estar encendidas o apagadas. Las imágenes de la pantalla no se guardan ni se suben.",
+        "readingElsAbsent": "Controlador ELS no encontrado",
+        "readingElsFound": "Controlador ELS encontrado",
         "readingGaugeAbsent": "Indicador no encontrado",
         "readingGaugeFound": "Indicador encontrado",
         "readingUncertain": "Coincidencia incierta",
         "readingUnreadable": "Ventana de Roblox ilegible",
         "readingWaiting": "Esperando captura de Roblox",
         "refreshWindows": "Actualizar ventanas de Roblox",
+        "settingsOpenFailed": "No se pudieron abrir los Ajustes del sistema. Ábrelos manualmente siguiendo los pasos anteriores.",
         "status": "Estado de detección",
         "statusChecking": "Comprobando ventana de Roblox",
         "statusDisabled": "Desactivado",
@@ -1654,7 +2340,7 @@
         "statusInVehicle": "En un vehículo",
         "statusLooking": "Buscando ventana de Roblox",
         "statusOnFoot": "A pie",
-        "statusPermissionDenied": "Permiso de grabación de pantalla denegado",
+        "statusPermissionDenied": "Se requiere acceso a la grabación de pantalla",
         "statusUnknown": "No se puede determinar el estado del vehículo",
         "title": "Detección de vehículos ER:LC",
         "vehicleAmbiguous": "ER:LC encontró varios nombres de vehículos propios y no puede seleccionar una sustitución de marco específica para un nombre.",
@@ -1739,6 +2425,8 @@
       "audioMode": "Modo de audio",
       "audioRecording": "Grabación de audio",
       "broadcastTo": "Emitir a",
+      "channel": "Canal",
+      "channelGroup": "Grupo de canales",
       "count": "Cuenta",
       "deleteStack": "Eliminar pila",
       "generate": "Generar",
@@ -1749,6 +2437,7 @@
       "newTone": "Nuevo tono",
       "noSavedStacks": "Todavía no hay pilas guardadas.",
       "noTones": "Sin tonos",
+      "ok": "Vale",
       "playStack": "Reproducir pila (doble clic)",
       "preview": "Vista previa",
       "recording": "Grabación",
@@ -1763,7 +2452,11 @@
       "speechToText": "Voz a texto",
       "speed": "Velocidad",
       "stack": "Apilar",
+      "stackNameRequired": "Se requiere el nombre de la pila.",
+      "stackNeedsTones": "Añade tonos a la pila antes de guardar.",
+      "stopPlayback": "Detener reproducción",
       "subtitle": "Personaliza tonos de despacho para tu comunidad",
+      "temporaryTtsError": "No se pudo preparar el tono TTS temporal.",
       "title": "Tabla de Tonos",
       "toneLabel": "Etiqueta de tono",
       "tonesTab": "Tonos",
@@ -1827,6 +2520,17 @@
     "checkSpam": "Asegúrate de revisar tu carpeta de spam si no encuentras el correo electrónico.",
     "emailPreferencesDesc": "Envíame anuncios, actualizaciones y promociones importantes por correo electrónico.",
     "verifyPassword": "Verificar contraseña"
+  },
+  "socials": {
+    "community": "Comunidad",
+    "connectWithUs": "Conecta con nosotros",
+    "followUs": "Síguenos",
+    "instagramDescription": "Aspectos destacados del producto y novedades del equipo",
+    "joinDiscord": "Únete a Discord",
+    "joinDiscordDescription": "Recibe anuncios, soporte, novedades de la comunidad y debates sobre el producto en un solo lugar.",
+    "joinDiscordTitle": "Únete al Discord de Sonoran Software",
+    "tiktokDescription": "Breves actualizaciones del equipo de Sonoran",
+    "youtubeDescription": "Guías, demos y lanzamientos"
   },
   "splash": {
     "feats": "Con mensajería de texto entre personas e integración con Sonoran CAD\n      Sonoran Radio pone dispositivos de comunicaciones con todas las funciones\n      directamente en manos de tu personal y de tus despachadores en el juego. Pruébalo\n      gratis hoy mismo!",
