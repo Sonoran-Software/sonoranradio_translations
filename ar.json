@@ -445,12 +445,16 @@
   },
   "fivemView": {
     "browserLoginInstruction": "اذهب إلى {link} في متصفحك لتسجيل الدخول",
+    "forceGuestAccessDenied": "لا يمكنك الوصول إلى راديو الضيف. اطلب من مسؤول الخادم منحك صلاحية الوصول.",
+    "guestConnectionLost": "فُقد اتصال راديو الضيف.",
     "guestLogin": "تسجيل دخول الضيف",
+    "guestLoginFailed": "تعذّر بدء راديو الضيف. أعد المحاولة أو اطلب المساعدة من مسؤول الخادم.",
     "guestLoginInstruction": "تسجيل الدخول كضيف",
     "loginWithAccount": "تسجيل الدخول إلى الحساب",
     "loginWithCode": "تسجيل الدخول بالرمز",
     "openLinkButton": "ربط",
     "refresh": "تحديث",
+    "retryGuestLogin": "أعد محاولة اتصال الضيف",
     "unlink": "فصل"
   },
   "geoZoneViewer": {

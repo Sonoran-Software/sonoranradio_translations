@@ -74,6 +74,11 @@
       "title": "Uusi Tilaus"
     },
     "noServerAssociated": "Ei palvelinta yhdistetty",
+    "pricingCompare": {
+      "monthlyPrice": "{price}/kk",
+      "multiServer": "Monipalvelin",
+      "planFree": "Ilmainen"
+    },
     "setServer": "Aseta Palvelin",
     "statuses": {
       "active": "Aktiivinen",
@@ -82,6 +87,9 @@
       "incomplete_expired": "Epätäydellinen vanhentunut",
       "past_due": "Erääntynyt",
       "unpaid": "Maksamaton"
+    },
+    "subscriptionTable": {
+      "inactiveCancelled": "Passiivinen / peruutettu"
     },
     "toPortal": "Takaisin portaaliin"
   },
@@ -231,6 +239,9 @@
     "openGameIntegration": "Peli-integraatio",
     "overlayDesktopDescription": "Mukauta radiopeittokuva työpöytäkäyttäjille.",
     "overlayFiveMDescription": "Mukauta FiveM-pelin sisäistä radiota ja työpöytäpeittokuvaa. FiveM-muutokset synkronoituvat viiden minuutin kuluessa yhteensopivan resurssiversion kanssa.",
+    "overlayPreview": {
+      "saves": "{count} tallennusta tässä esikatselussa"
+    },
     "overlaySelectGame": "Tarkista yhteisösi peli Game Integrationissa käyttääksesi vastaavia overlay-ominaisuuksia."
   },
   "desktopPanel": {
@@ -319,12 +330,16 @@
   },
   "fivemView": {
     "browserLoginInstruction": "Siirry selaimessasi osoitteeseen {link} kirjautuaksesi",
+    "forceGuestAccessDenied": "Sinulla ei ole pääsyä vierasradioon. Pyydä käyttöoikeutta palvelimen ylläpitäjältä.",
+    "guestConnectionLost": "Vierasradioyhteys katkesi.",
     "guestLogin": "Vieras­kirjautuminen",
+    "guestLoginFailed": "Vierasradio ei voinut käynnistyä. Yritä uudelleen tai pyydä apua palvelimen ylläpitäjältä.",
     "guestLoginInstruction": "Kirjaudu vieraana",
     "loginWithAccount": "Tilille kirjautuminen",
     "loginWithCode": "Kirjaudu koodilla",
     "openLinkButton": "Linkki",
     "refresh": "Päivitä",
+    "retryGuestLogin": "Yritä uudelleen vieras yhteyttä",
     "unlink": "Poista linkitys"
   },
   "geoZoneViewer": {
@@ -332,6 +347,16 @@
   },
   "getStartedButton": {
     "learnMore": "Lisätietoja"
+  },
+  "homepage": {
+    "interactivePreview": {
+      "audioLevel": "Äänitaso",
+      "startingPreview": "Esikatselu käynnistyy"
+    },
+    "mobi": {
+      "distress": "HÄTÄ",
+      "scan": "SKANNAA"
+    }
   },
   "hotkeys": {
     "changeRadioFrame": "Vaihda radiokehys",
@@ -371,6 +396,20 @@
     "placeholder": "Liitä JSON tähän",
     "title": "JSON-tuonti/vienti",
     "tooltip": "Tuo JSON-tiedosto"
+  },
+  "integrationPages": {
+    "gameFeatures": {
+      "erlc": {
+        "features": {
+          "desktopOverlay": {
+            "description": "Pidä radio Robloxin päällä pelatessasi. Valitse kehys, vaihda kanavia ja seuraa live-tornisignaalia työpöytäsovelluksesta."
+          },
+          "emergencyZones": {
+            "description": "Piirrä hätäalueet ja valitse, mitkä hätäviestikanavat ovat käytettävissä kullakin alueella."
+          }
+        }
+      }
+    }
   },
   "landingPage": {
     "API_Libraries": {
@@ -431,6 +470,7 @@
       "desc": "Soita hätäpuhelut hälytyskeskukseen, kaikki pelin sisällä!",
       "title": "Pelinsisäiset hätäpuhelut"
     },
+    "erlcIntegrationDescription": "Yhdistä Sonoran Radio suoraan ER:LC:hen ER:LC-integraatioilla.",
     "faq": {
       "free": {
         "answer": "Kyllä. Dispatch AI on täysin käytettävissä Free-sopimuksessa mukana tulevilla kuukausittaisilla krediiteillä. Maksullisiin sopimuksiin sisältyy korkeammat krediittirajat.",
@@ -458,6 +498,11 @@
       "description": "Yhdistä Sonoran Radio suoraan GTA FiveM:ään FiveM-integraatiolla. Katso kaikki erityisominaisuudet, joihin pääsee käsiksi FiveM:ssä integraation kautta.",
       "eyebrow": "Suora integraatio",
       "heading": "Integraatiot"
+    },
+    "games": {
+      "erlc": {
+        "name": "ER:LC"
+      }
     },
     "hero": {
       "subtitle": "Keskustele realistisissa radiokanavissa, muokkaa ääniefektejäsi ja yhdistä vaivattomasti pelin sisäisiin ominaisuuksiin aidosti mukaansatempaavaa kokemusta varten.",
@@ -714,6 +759,32 @@
         "aircraft": "Ilma-alus",
         "onFoot": "Jalankulkutila",
         "vehicle": "Ajoneuvo"
+      },
+      "vehicleClassNames": {
+        "boats": "Veneet",
+        "commercial": "Kaupallinen",
+        "compacts": "Pienet henkilöautot",
+        "coupes": "Coupet",
+        "cycles": "Kaksipyöräiset",
+        "emergency": "Hätä",
+        "helicopters": "Helikopterit",
+        "industrial": "Teollinen",
+        "military": "Sotilas",
+        "motorcycles": "Moottoripyörät",
+        "muscle": "Lihasautot",
+        "offRoad": "Maastoajoneuvo",
+        "openWheel": "Avopyöräinen",
+        "other": "Muut",
+        "planes": "Lentokoneet",
+        "sedans": "Sedanit",
+        "service": "Palvelu",
+        "sports": "Urheilu",
+        "sportsClassics": "Urheiluautojen klassikot",
+        "super": "Super",
+        "suvs": "katumaasturit",
+        "trains": "Junat",
+        "utility": "Hyötyajoneuvo",
+        "vans": "Pakettiautot"
       },
       "vehicleName": "ER:LC-ajoneuvon nimi",
       "vehicleNameRequired": "Anna jokaiselle korvaukselle ajoneuvon nimi.",
@@ -1589,6 +1660,17 @@
     "channelList": "Kanavalista",
     "configureChannel": "Määritä {0}",
     "connect": "Yhdistä",
+    "customScreen": {
+      "disconnected": "Yhteys katkaistu",
+      "multiChannel": "Useita kanavia",
+      "multiGroup": "Useita ryhmiä",
+      "noGroup": "Ei ryhmää",
+      "panicAlert": "Paniikkihälytys",
+      "scan": "Skannaa",
+      "temporaryChannel": "Väliaikainen kanava",
+      "unknownChannel": "Tuntematon kanava",
+      "unknownGroup": "Tuntematon ryhmä"
+    },
     "hiddenChannel": "Piilotettu kanava (näkyy sinulle)",
     "listenScan": "Kuuntele {0}",
     "microphonePTT": "Mikrofoni PTT",

@@ -109,6 +109,12 @@
     "overlayFiveMDescription": "Pas je FiveM in-game radio en desktopoverlay aan. FiveM-wijzigingen synchroniseren binnen vijf minuten met een compatibele resourceversie.",
     "overlaySelectGame": "Controleer je community’s game in Game Integration om de overeenkomstige overlayfuncties te gebruiken."
   },
+  "fivemView": {
+    "forceGuestAccessDenied": "Je hebt geen toegang tot gastentoestel. Vraag een serverbeheerder om toegang.",
+    "guestConnectionLost": "Gast radioverbinding verbroken.",
+    "guestLoginFailed": "Gastentoestel kon niet opstarten. Probeer opnieuw of vraag een serverbeheerder om hulp.",
+    "retryGuestLogin": "Opnieuw gastverbinding proberen"
+  },
   "hotkeys": {
     "changeRadioFrame": "Wijzig radiokader",
     "nextRadioFrame": "Volgend radiokader",
@@ -215,6 +221,32 @@
         "aircraft": "Vliegtuigen",
         "onFoot": "Te voet",
         "vehicle": "Voertuig"
+      },
+      "vehicleClassNames": {
+        "boats": "Boten",
+        "commercial": "Commercieel",
+        "compacts": "Compacte wagens",
+        "coupes": "Coupés",
+        "cycles": "Fietsen",
+        "emergency": "Noodgeval",
+        "helicopters": "Helikopters",
+        "industrial": "Industrieel",
+        "military": "Militair",
+        "motorcycles": "Motorfietsen",
+        "muscle": "Spierauto",
+        "offRoad": "Terreinwagen",
+        "openWheel": "Open wiel",
+        "other": "Andere",
+        "planes": "Vliegtuigen",
+        "sedans": "Sedans",
+        "service": "Dienst",
+        "sports": "Sport",
+        "sportsClassics": "Sportklassiekers",
+        "super": "Super",
+        "suvs": "SUV's",
+        "trains": "Treinen",
+        "utility": "Nutsvoertuig",
+        "vans": "Bestelwagens"
       },
       "vehicleName": "ER:LC-voertuignaam",
       "vehicleNameRequired": "Voer voor elke overschrijving een voertuignaam in.",
@@ -477,6 +509,17 @@
     }
   },
   "radio": {
+    "customScreen": {
+      "disconnected": "Verbroken",
+      "multiChannel": "Meerdere kanalen",
+      "multiGroup": "Meerdere groepen",
+      "noGroup": "Geen groep",
+      "panicAlert": "Paniekmelding",
+      "scan": "Scan",
+      "temporaryChannel": "Tijdelijk kanaal",
+      "unknownChannel": "Onbekend kanaal",
+      "unknownGroup": "Onbekende groep"
+    },
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Niet beschikbaar voor deze taal. Neem contact op met ons supportteam.",
       "dispatchAiSpeechRecognition": "Engelse spraakherkenning",

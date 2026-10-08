@@ -109,6 +109,12 @@
     "overlayFiveMDescription": "自定义你的 FiveM 游戏内电台和桌面覆盖层。兼容的资源版本下，FiveM 更改会在五分钟内同步。",
     "overlaySelectGame": "在 Game Integration 中检查你的社区游戏，以使用匹配的叠加层功能。"
   },
+  "fivemView": {
+    "forceGuestAccessDenied": "你没有访客电台的访问权限。请向服务器管理员申请访问。",
+    "guestConnectionLost": "访客无线电连接已丢失。",
+    "guestLoginFailed": "访客电台无法启动。请重试，或向服务器管理员寻求帮助。",
+    "retryGuestLogin": "重试访客连接"
+  },
   "hotkeys": {
     "changeRadioFrame": "更改 电台 帧",
     "nextRadioFrame": "下一个 电台 帧",
@@ -215,6 +221,32 @@
         "aircraft": "飞机",
         "onFoot": "步行",
         "vehicle": "载具"
+      },
+      "vehicleClassNames": {
+        "boats": "船只",
+        "commercial": "商用",
+        "compacts": "紧凑型车",
+        "coupes": "双门轿跑车",
+        "cycles": "自行车",
+        "emergency": "应急",
+        "helicopters": "直升机",
+        "industrial": "工业",
+        "military": "军事",
+        "motorcycles": "摩托车",
+        "muscle": "肌肉车",
+        "offRoad": "越野",
+        "openWheel": "开放式轮式",
+        "other": "其他",
+        "planes": "飞机",
+        "sedans": "轿车",
+        "service": "服务",
+        "sports": "运动",
+        "sportsClassics": "运动经典",
+        "super": "超级",
+        "suvs": "运动型多功能车",
+        "trains": "火车",
+        "utility": "实用型",
+        "vans": "厢式货车"
       },
       "vehicleName": "ER:LC 载具名称",
       "vehicleNameRequired": "为每个覆盖项输入一个车辆名称。",
@@ -477,6 +509,17 @@
     }
   },
   "radio": {
+    "customScreen": {
+      "disconnected": "已断开连接",
+      "multiChannel": "多个频道",
+      "multiGroup": "多个群组",
+      "noGroup": "无组",
+      "panicAlert": "紧急求助警报",
+      "scan": "扫描",
+      "temporaryChannel": "临时频道",
+      "unknownChannel": "未知频道",
+      "unknownGroup": "未知组"
+    },
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "此语言不可用。请联系我们的支持团队。",
       "dispatchAiSpeechRecognition": "英语语音识别",

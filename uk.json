@@ -109,6 +109,12 @@
     "overlayFiveMDescription": "Налаштуйте своє внутрішньоігрове радіо FiveM і накладку для робочого столу. Зміни FiveM синхронізуються протягом п'яти хвилин із сумісною версією ресурсу.",
     "overlaySelectGame": "Перевірте гру вашої спільноти в Game Integration, щоб використовувати відповідні функції накладання."
   },
+  "fivemView": {
+    "forceGuestAccessDenied": "У вас немає доступу до гостьового радіо. Запитайте доступ у адміністратора сервера.",
+    "guestConnectionLost": "Гостьове радіоз'єднання втрачено.",
+    "guestLoginFailed": "Гостьове радіо не вдалося запустити. Спробуйте ще раз або зверніться по допомогу до адміністратора сервера.",
+    "retryGuestLogin": "Повторити гостьове з’єднання"
+  },
   "hotkeys": {
     "changeRadioFrame": "Змінити кадр радіо",
     "nextRadioFrame": "Наступний кадр радіо",
@@ -215,6 +221,32 @@
         "aircraft": "Літак",
         "onFoot": "Пішки",
         "vehicle": "Транспортний засіб"
+      },
+      "vehicleClassNames": {
+        "boats": "Човни",
+        "commercial": "Комерційні",
+        "compacts": "Компактні",
+        "coupes": "Купе",
+        "cycles": "Велосипеди",
+        "emergency": "Аварійний",
+        "helicopters": "Гелікоптери",
+        "industrial": "Промисловий",
+        "military": "Військові",
+        "motorcycles": "Мотоцикли",
+        "muscle": "М’язовий",
+        "offRoad": "Позашляховий",
+        "openWheel": "Відкриті колеса",
+        "other": "Інше",
+        "planes": "Літаки",
+        "sedans": "Седани",
+        "service": "Службовий",
+        "sports": "Спортивні",
+        "sportsClassics": "Спортивна класика",
+        "super": "Супер",
+        "suvs": "Позашляховики",
+        "trains": "Потяги",
+        "utility": "Службовий",
+        "vans": "Фургони"
       },
       "vehicleName": "Назва транспортного засобу ER:LC",
       "vehicleNameRequired": "Введіть назву транспортного засобу для кожного перевизначення.",
@@ -477,6 +509,17 @@
     }
   },
   "radio": {
+    "customScreen": {
+      "disconnected": "Від’єднано",
+      "multiChannel": "Кілька каналів",
+      "multiGroup": "Кілька груп",
+      "noGroup": "Немає групи",
+      "panicAlert": "Тривожне сповіщення",
+      "scan": "Сканувати",
+      "temporaryChannel": "Тимчасовий канал",
+      "unknownChannel": "Невідомий канал",
+      "unknownGroup": "Невідома група"
+    },
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Недоступно для цієї мови. Будь ласка, зверніться до нашої служби підтримки.",
       "dispatchAiSpeechRecognition": "Розпізнавання англійської мови",
