@@ -1,4 +1,28 @@
 {
+  "reforger": {
+    "localTestBanner": "LOCAL REFORGER TEST BUILD: Reforger telemetry uses your existing ARMA 3 community's saved settings. Community type stays ARMA 3 until the backend rollout; this is not the production app.",
+    "installTitle": "Arma Reforger installation",
+    "installCaption": "Four steps for your server and players",
+    "installMod": "Install the Reforger mod",
+    "requirements": "Every player and the server need the same Sonoran Radio Reforger addon. Players need Arma Reforger for Windows. No CBA, ACRE, or TFAR dependency is required.",
+    "workshop": "Sonoran Radio Reforger Workshop",
+    "unpublished": "The Workshop listing is not published yet. Use the test addon package from your administrator, extract SonoranRadio into C:\\SonoranRadio\\ReforgerMods, and use these Steam launch options.",
+    "serverInstall": "Install the same addon on the server. Published addons use the Reforger Workshop ID in game.mods; unpublished test addons use the local-addon launch below.",
+    "localServerWarning": "Local-addon mode ignores JSON passwords, player limits, A2S, listing, and security settings. Use localhost/trusted LAN only. Do not combine -config with -addons.",
+    "desktopInstall": "Open the matching Sonoran Radio desktop app, join this community, connect, and use the top Overlay tab. The bundled bridge starts automatically when enabled by the community.",
+    "openCompanion": "Open desktop companion",
+    "downloadDesktop": "Get the desktop app",
+    "browserCompanion": "Browser Radio requires the Windows desktop companion on this PC. If the button does not open it, install the matching desktop app and launch it once. Allow local-network access if asked. The game mod cannot start an installed app itself.",
+    "displayMode": "Use borderless/windowed display. This Reforger launch option keeps the game updating while the overlay has focus:",
+    "joinTest": "Carry a US/Soviet handheld or backpack radio. Place Sonoran relays/towers and test frame switching, signal audio, proximity speech, and AI hearing with a helper.",
+    "bridge": "Enable Arma Reforger bridge",
+    "bridgeHelp": "Community-wide setting. The desktop app starts its bundled bridge; disabling this stops signal, item mapping, proximity speech, and AI hearing.",
+    "signal": "Arma Reforger signal integration",
+    "signalHelp": "Use Sonoran tower signal for audio quality. This community-wide policy has no per-user or in-game override.",
+    "aiHearingHelp": "Enabled by default for the whole community. Updated clients refresh policy within 30 seconds and stale/disconnected clients stop exposing transmissions. No in-game override.",
+    "itemMappings": "Reforger radio prefab IDs",
+    "itemMappingsHelp": "Enter radio prefab GUIDs (16 hexadecimal characters), one per entry. The bridge reports the carried radio's prefab ID; matching is case-insensitive."
+  },
   "account": {
     "allowUsageAnalytics": "Allow usage analytics",
     "deleteAccountError": "An error occurred while deleting your account.",
@@ -174,6 +198,7 @@
     "gameLabel": "Community game",
     "games": {
       "ARMA3": "ARMA 3",
+      "REFORGER": "Arma Reforger",
       "ERLC": "ER:LC",
       "FIVEM": "FiveM",
       "OTHER": "Other",
