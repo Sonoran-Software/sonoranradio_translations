@@ -1191,6 +1191,8 @@
       "unknownChannel": "Unknown channel",
       "unknownGroup": "Unknown group"
     },
+    "panic": "Panic",
+    "panicCadSyncFailed": "Radio panic changed, but syncing panic to CAD failed. Check the CAD link and ensure your CAD unit is on duty.",
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Not available for this language. Please contact our support team.",
       "dispatchAiSpeechRecognition": "English speech recognition",

@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Apri overlay",
     "openInNewWindow": "Apri in una nuova finestra",
     "openUserList": "Apri overlay elenco utenti",
+    "panic": "Panico",
+    "panicCadSyncFailed": "Il panico radio è cambiato, ma la sincronizzazione del panico con il CAD non è riuscita. Controlla il collegamento CAD e assicurati che la tua unità CAD sia in servizio.",
     "recvFreq": "RICEV: {0}MHz",
     "scanList": "Lista Scansioni",
     "selectServer": "Seleziona Server",

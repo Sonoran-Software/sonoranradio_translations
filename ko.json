@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "오버레이 열기",
     "openInNewWindow": "새 창에서 열기",
     "openUserList": "사용자 목록 오버레이 열기",
+    "panic": "패닉",
+    "panicCadSyncFailed": "Radio 패닉이 변경되었지만 CAD로 패닉 동기화에 실패했습니다. CAD 링크를 확인하고 CAD 장비가 근무 중인지 확인하세요.",
     "recvFreq": "수신: {0}MHz",
     "scanList": "스캔 목록",
     "selectServer": "서버 선택",

@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Overlay openen",
     "openInNewWindow": "Openen in nieuw venster",
     "openUserList": "Gebruikerslijst-overlay openen",
+    "panic": "Paniek",
+    "panicCadSyncFailed": "Radio paniek gewijzigd, maar synchroniseren van paniek naar CAD is mislukt. Controleer de CAD-verbinding en zorg ervoor dat uw CAD-eenheid in dienst is.",
     "recvFreq": "ONTV: {0}MHz",
     "scanList": "Scanlijst",
     "selectServer": "Server Selecteren",

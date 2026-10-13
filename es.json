@@ -1166,6 +1166,8 @@
       "unknownChannel": "Canal desconocido",
       "unknownGroup": "Grupo desconocido"
     },
+    "panic": "Pánico",
+    "panicCadSyncFailed": "El pánico de radio cambió, pero no se pudo sincronizar el pánico con el CAD. Revisa el enlace del CAD y asegúrate de que tu unidad CAD esté en servicio.",
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "No disponible para este idioma. Ponte en contacto con nuestro equipo de soporte.",
       "dispatchAiSpeechRecognition": "Reconocimiento de voz en inglés",

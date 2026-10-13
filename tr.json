@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Katmanı Aç",
     "openInNewWindow": "Yeni Pencerede Aç",
     "openUserList": "Kullanıcı Listesi Katmanını Aç",
+    "panic": "Panik",
+    "panicCadSyncFailed": "Radyo paniği değiştirildi, ancak paniğin CAD ile senkronizasyonu başarısız oldu. CAD bağlantısını kontrol edin ve CAD biriminizin görevde olduğundan emin olun.",
     "recvFreq": "ALICI: {0}MHz",
     "scanList": "Tarama Listesi",
     "selectServer": "Sunucu Seç",

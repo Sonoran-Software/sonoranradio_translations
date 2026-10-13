@@ -1166,6 +1166,8 @@
       "unknownChannel": "未知频道",
       "unknownGroup": "未知组"
     },
+    "panic": "紧急求助",
+    "panicCadSyncFailed": "无线电紧急状态已更改，但同步到 CAD 失败。请检查 CAD 连接，并确保您的 CAD 设备处于值班状态。",
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "此语言不可用。请联系我们的支持团队。",
       "dispatchAiSpeechRecognition": "英语语音识别",

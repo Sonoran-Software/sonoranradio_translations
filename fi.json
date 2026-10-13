@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Avaa päällekkäisikkuna",
     "openInNewWindow": "Avaa uuteen ikkunaan",
     "openUserList": "Avaa käyttäjälista -päällekkäisikkuna",
+    "panic": "Paniikki",
+    "panicCadSyncFailed": "Radiohälytys muuttui, mutta hälytyksen synkronointi CAD:iin epäonnistui. Tarkista CAD-yhteys ja varmista, että CAD-yksikkösi on päivystyksessä.",
     "recvFreq": "VASTAANOTTO: {0}MHz",
     "scanList": "Skannauslista",
     "selectServer": "Valitse Palvelin",
