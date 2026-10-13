@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Otevřít překrytí",
     "openInNewWindow": "Otevřít v novém okně",
     "openUserList": "Otevřít překrytí seznamu uživatelů",
+    "panic": "Panika",
+    "panicCadSyncFailed": "Radio panika se změnila, ale synchronizace paniky s CAD selhala. Zkontrolujte propojení s CAD a ujistěte se, že je vaše CAD jednotka ve službě.",
     "recvFreq": "PŘÍJEM: {0} MHz",
     "scanList": "Seznam Skenování",
     "selectServer": "Vybrat Server",

@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "فتح الطبقة",
     "openInNewWindow": "افتح في نافذة جديدة",
     "openUserList": "فتح طبقة قائمة المستخدمين",
+    "panic": "ذعر",
+    "panicCadSyncFailed": "تم تغيير حالة الذعر اللاسلكي، لكن فشلت مزامنة الذعر مع CAD. تحقق من رابط CAD وتأكد من أن وحدة CAD لديك في الخدمة.",
     "recvFreq": "الاستقبال: {0}MHz",
     "scanList": "قائمة المسح",
     "selectServer": "اختر الخادم",

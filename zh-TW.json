@@ -1166,6 +1166,8 @@
       "unknownChannel": "未知頻道",
       "unknownGroup": "未知群組"
     },
+    "panic": "恐慌",
+    "panicCadSyncFailed": "無線電緊急狀態已變更，但將緊急狀態同步至 CAD 失敗。請檢查 CAD 連結並確認您的 CAD 裝置處於值勤狀態。",
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "此語言不可用。請聯絡我們的支援團隊。",
       "dispatchAiSpeechRecognition": "英語語音辨識",

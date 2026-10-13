@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "打开覆盖层",
     "openInNewWindow": "在新窗口中打开",
     "openUserList": "打开用户列表覆盖层",
+    "panic": "恐慌",
+    "panicCadSyncFailed": "电台紧急呼叫已更改，但同步到 CAD 失败。请检查 CAD 连接，并确保您的 CAD 设备处于执勤状态。",
     "recvFreq": "接收: {0}MHz",
     "scanList": "扫描列表",
     "selectServer": "选择服务器",

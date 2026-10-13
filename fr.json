@@ -2273,6 +2273,8 @@
     "openInDesktopFrame": "Ouvrir la superposition",
     "openInNewWindow": "Ouvrir dans une nouvelle fenêtre",
     "openUserList": "Ouvrir la superposition de la liste des utilisateurs",
+    "panic": "Panique",
+    "panicCadSyncFailed": "La panique radio a changé, mais la synchronisation de la panique avec le CAD a échoué. Vérifiez le lien CAD et assurez-vous que votre unité CAD est en service.",
     "recvFreq": "RECEPTION: {0}MHz",
     "scanList": "Liste de scan",
     "selectServer": "Sélectionner le serveur",

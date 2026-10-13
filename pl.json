@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Otwórz nakładkę",
     "openInNewWindow": "Otwórz w nowym oknie",
     "openUserList": "Otwórz nakładkę listy użytkowników",
+    "panic": "Panika",
+    "panicCadSyncFailed": "Zmieniono panikę radia, ale synchronizacja paniki z CAD nie powiodła się. Sprawdź połączenie z CAD i upewnij się, że Twoja jednostka CAD jest na służbie.",
     "recvFreq": "ODB: {0}MHz",
     "scanList": "Lista skanowania",
     "selectServer": "Wybierz serwer",

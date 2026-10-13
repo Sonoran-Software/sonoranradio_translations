@@ -1166,6 +1166,8 @@
       "unknownChannel": "Onbekend kanaal",
       "unknownGroup": "Onbekende groep"
     },
+    "panic": "Paniek",
+    "panicCadSyncFailed": "Radio-paniek gewijzigd, maar synchroniseren van paniek met CAD is mislukt. Controleer de CAD-verbinding en zorg ervoor dat uw CAD-eenheid in dienst is.",
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Niet beschikbaar voor deze taal. Neem contact op met ons supportteam.",
       "dispatchAiSpeechRecognition": "Engelse spraakherkenning",
