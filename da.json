@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Åbn overlejring",
     "openInNewWindow": "Åbn i nyt vindue",
     "openUserList": "Åbn brugerlisten-overlejring",
+    "panic": "Panik",
+    "panicCadSyncFailed": "Radiopanik blev ændret, men synkronisering af panik til CAD mislykkedes. Tjek CAD-forbindelsen, og sørg for, at din CAD-enhed er på vagt.",
     "recvFreq": "RECV: {0}MHz",
     "scanList": "Scanliste",
     "selectServer": "Vælg Server",

@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "オーバーレイを開く",
     "openInNewWindow": "新しいウィンドウで開く",
     "openUserList": "ユーザーリストオーバーレイを開く",
+    "panic": "パニック",
+    "panicCadSyncFailed": "無線のパニックは変更されましたが、CADへのパニック同期に失敗しました。CADリンクを確認し、CADユニットが勤務中であることを確認してください。",
     "recvFreq": "受信: {0}MHz",
     "scanList": "スキャンリスト",
     "selectServer": "サーバーを選択",

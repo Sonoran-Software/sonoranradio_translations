@@ -1166,6 +1166,8 @@
       "unknownChannel": "Невідомий канал",
       "unknownGroup": "Невідома група"
     },
+    "panic": "Тривога",
+    "panicCadSyncFailed": "Радіопаніку змінено, але синхронізація паніки з CAD не вдалася. Перевірте підключення до CAD і переконайтеся, що ваш CAD-блок на чергуванні.",
     "settingsDialog": {
       "dispatchAiLanguageTtsUnavailable": "Недоступно для цієї мови. Будь ласка, зверніться до нашої служби підтримки.",
       "dispatchAiSpeechRecognition": "Розпізнавання англійської мови",

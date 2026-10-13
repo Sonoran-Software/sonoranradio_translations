@@ -2270,6 +2270,8 @@
     "openInDesktopFrame": "Öppna overlay",
     "openInNewWindow": "Öppna i nytt fönster",
     "openUserList": "Öppna användarlista-overlay",
+    "panic": "Panik",
+    "panicCadSyncFailed": "Radionödläget ändrades, men synkningen av nödläget till CAD misslyckades. Kontrollera CAD-anslutningen och säkerställ att din CAD-enhet är i tjänst.",
     "recvFreq": "MOTTAG: {0}MHz",
     "scanList": "Söklista",
     "selectServer": "Välj server",
