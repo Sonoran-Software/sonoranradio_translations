@@ -980,13 +980,21 @@
       "desc": "Sonoran Radio is partnered with Big Daddy Scripts to offer a FREE copy of their radio animations script!",
       "title": "Big-Daddy Radio Animations"
     },
-    "Custom_Voice_Effects": {
-      "desc": "Customize digital and analog style voice effects for your community!",
-      "title": "Custom Voice Effects"
+    "Cloud_Configurations": {
+      "desc": "Customizing your radio has never been easier, with live updates from our easy-to-use configuration panel.",
+      "title": "Cloud Configurations"
     },
     "configurations": {
       "desc": "Configure signal loss in tunnels, underground locations, and much more with live updates from our easy-to-use configuration panel!",
       "title": "Configurations"
+    },
+    "Customizable_SFX": {
+      "desc": "Configure signal loss in tunnels, underground locations, and more!",
+      "title": "Customizable SFX"
+    },
+    "Custom_Voice_Effects": {
+      "desc": "Customize digital and analog style voice effects for your community!",
+      "title": "Custom Voice Effects"
     },
     "Desktop_Overlay": {
       "desc": "The desktop overlay allows you to view your radio on top of any game on Windows and OSX for an immersive experience.",
