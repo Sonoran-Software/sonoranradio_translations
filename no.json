@@ -487,7 +487,7 @@
     "audioChangedOrWasInterruptedReleaseThe": "Lyden ble endret eller ble avbrutt. Slipp knappen; koble til radioen igjen hvis lyden ikke kommer tilbake.",
     "blueparrottSetup": "Koble til for å bruke Parrott-knappen for PTT.",
     "bluetoothDevice": "Bluetooth-tilbehør",
-    "bluetoothSetup": "Koble tilbehøret ditt i enhetsinnstillingene, og finn det deretter nedenfor.",
+    "bluetoothSetup": "Slå på tilbehøret ditt, par det i enhetsinnstillingene hvis nødvendig, og finn det deretter nedenfor.",
     "bluetoothUnavailable": "Bluetooth er utilgjengelig",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT eksperimentell · Falconclaw-kandidat",
     "buttonAssignedHoldToTalkWhileThe": "{button} tildelt. Lukk innstillinger, og hold deretter inne for å snakke.",

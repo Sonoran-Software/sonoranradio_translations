@@ -487,7 +487,7 @@
     "audioChangedOrWasInterruptedReleaseThe": "Ääni vaihtui tai keskeytyi. Vapauta painike; yhdistä radio uudelleen, jos ääni ei palaudu.",
     "blueparrottSetup": "Yhdistä käyttääksesi Parrott-painiketta PTT:hen.",
     "bluetoothDevice": "Bluetooth-laite",
-    "bluetoothSetup": "Parita lisävarusteesi laitteen asetuksissa, sitten löydä se alta.",
+    "bluetoothSetup": "Kytke lisävarusteesi päälle, muodosta pariliitos laitteen asetuksissa tarvittaessa, sitten löydä se alta.",
     "bluetoothUnavailable": "Bluetooth ei ole käytettävissä",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT:n kokeellinen · Falconclaw-ehdokas",
     "buttonAssignedHoldToTalkWhileThe": "{button} määritetty. Sulje asetukset ja pidä painettuna puhuaksesi.",

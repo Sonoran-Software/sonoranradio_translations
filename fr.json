@@ -487,7 +487,7 @@
     "audioChangedOrWasInterruptedReleaseThe": "L'audio a changé ou a été interrompu. Relâchez le bouton ; reconnectez la radio si l'audio ne revient pas.",
     "blueparrottSetup": "Connectez-vous pour utiliser le bouton Parrott pour le PTT.",
     "bluetoothDevice": "accessoire Bluetooth",
-    "bluetoothSetup": "Appairez votre accessoire dans les réglages de l’appareil, puis trouvez-le ci-dessous.",
+    "bluetoothSetup": "Allumez votre accessoire, appairez-le dans les réglages de l'appareil si nécessaire, puis trouvez-le ci-dessous.",
     "bluetoothUnavailable": "Bluetooth indisponible",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT expérimental · candidat Falconclaw",
     "buttonAssignedHoldToTalkWhileThe": "{button} attribué. Fermez les paramètres, puis maintenez pour parler.",

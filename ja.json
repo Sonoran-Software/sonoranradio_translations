@@ -487,7 +487,7 @@
     "audioChangedOrWasInterruptedReleaseThe": "音声が変更されたか、または中断されました。ボタンを離してください。音声が回復しない場合は、ラジオを再接続してください。",
     "blueparrottSetup": "接続して Parrott Button を PTT に使用します。",
     "bluetoothDevice": "Bluetooth アクセサリ",
-    "bluetoothSetup": "デバイス設定でアクセサリをペアリングしてから、下で見つけてください。",
+    "bluetoothSetup": "アクセサリをオンにし、必要ならデバイス設定でペアリングしてから、下で見つけてください。",
     "bluetoothUnavailable": "Bluetooth は使用できません",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT 実験版 · Falconclaw 候補",
     "buttonAssignedHoldToTalkWhileThe": "{button} に割り当て済み。設定を閉じてから、押して話してください。",
