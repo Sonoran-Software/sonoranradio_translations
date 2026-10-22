@@ -472,11 +472,11 @@
     "assignAccessoryButton": "Määritä lisävarustepainike",
     "assignKeyboardButton": "Määritä näppäimistöpainike",
     "assignmentChecksACompletePressAndRelease": "Tehtävänanto tarkistaa täydellisen painalluksen ja vapautuksen ilman lähetystä. Lähetyksillä on 60 sekunnin aikaraja. Falconclawia ja muita Zello-yhteensopivia lisävarusteita ei ole vahvistettu.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Määritys ei koskaan lähetä. Sulje asetukset ennen puhumista. Kadonnut ohjausyhteys tai heartbeat vapauttaa PTT:n. Nukkuvan PTT-Z-painikkeen herättämiseksi ja uudelleenaseistamiseksi paina ja vapauta se, sitten pidä uudelleen painettuna puhuaksesi. Yhdistä uudelleen tässä, kun olet poistunut sovelluksesta.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Määritys ei koskaan lähetä. Sulje asetukset ennen puhumista. Kadonnut ohjausyhteys tai heartbeat vapauttaa PTT:n. Jos PTT-Z-painike on unessa, herätä ja aktivoi se uudelleen painamalla ja vapauttamalla, sitten pidä taas puhuaksesi. Yhdistä uudelleen täällä, jos ohjaus katkeaa.",
     "audioChangedOrWasInterruptedReleaseThe": "Ääni vaihtui tai keskeytyi. Vapauta painike; yhdistä radio uudelleen, jos ääni ei palaudu.",
     "bluetoothUnavailable": "Bluetooth ei ole käytettävissä",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT:n kokeellinen · Falconclaw-ehdokas",
-    "buttonAssignedHoldToTalkWhileThe": "{button} määritetty. Paina puhuaksesi, kun sovellus on etualalla.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} määritetty. Sulje asetukset ja pidä painettuna puhuaksesi.",
     "buttonCheckButtonCountEventsReceivedThis": "Painiketarkistus: {button} · {count} tapahtumaa vastaanotettu. Tämä tarkistaa ohjaustapahtumat, ei ääntä.",
     "cancelAssignment": "Peru määritys",
     "checkingAccessoryProtocol": "Tarkistetaan lisälaitteen protokollaa…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "MFi PTT SDK -protokolla",
     "noCompleteButtonPressAndReleaseDetected": "Täyttä painikkeen painallusta ja vapautusta ei havaittu. Tarkista valittu tulo ja yritä uudelleen.",
     "pairAKeyboardHIDButtonInYour": "Parita näppäimistö/HID-painike laitteesi Bluetooth-asetuksissa, ja määritä se sitten tähän. Pidä painettuna puhuaksesi, kun Sonoran Radio on etualalla. Mediapainikkeet ja lisävarusteet, jotka tarvitsevat valmistajan Bluetooth-protokollan, tarvitsevat erillisen sovittimen.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Pariliitä kuulokkeen äänentoisto ja Android-sarjalisävarusteet ensin järjestelmäasetuksissa, sitten etsi ja yhdistä ohjaus tähän. Ensisijainen PTT-painike valitaan automaattisesti. Paina ja vapauta kerran asettaaksesi sen käyttöön; käytä Määritä lisävarustepainike valitaksesi toisen painikkeen. Pidä sovellus auki ja näyttö hereillä. Lukitusnäytön käyttö ei ole käytettävissä tässä esikatselussa.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Pariliitä kuulokemikrofonin ääni ja Android-sarjalisävarusteet ensin järjestelmäasetuksissa, sitten etsi ja yhdistä ohjain täällä. Ensisijainen PTT-painike valitaan automaattisesti. Paina ja vapauta kerran asettaaksesi sen valmiiksi; käytä Määritä lisävarustepainike valitaksesi toisen painikkeen. Android 2.28.13 ja uudemmat voivat säilyttää muodostetun lisävarusteyhteyden näytön ollessa pois päältä. Yhdistä ennen lukitsemista, sulje asetukset ja vapauta painike ennen kuin painat uudelleen. iOS:ssa ja vanhemmissa Android-sovellusversioissa pidä sovellus auki ja näyttö hereillä.",
     "phonePTTButtons": "Puhelimen PTT-painikkeet",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons kuuntelee määritettyjä laitepainikekomentoja, kun sovellus on avoinna. Puhelimesi painikemäppärin on lähetettävä Zello-yhteensopivia painallus-/vapautuslähetyksiä Sonoran Radioon. Tämän vaihtoehdon valitseminen ei varmista, että puhelimesi antaa nämä tapahtumat.",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons kuuntelee määritettyjen laitepainikkeiden komentoja. Puhelimesi painikemäppärin on lähetettävä Zello-yhteensopivia painallus-/vapautuslähetyksiä Sonoran Radiolle. Tämän vaihtoehdon valitseminen ei varmista, että puhelimesi antaa nämä tapahtumat.",
     "preparingBluetooth": "Valmistellaan Bluetoothia…",
     "pressAndReleaseTheAccessoryButton": "Paina ja vapauta lisävarustepainike",
     "pressAndReleaseTheExternalButtonAssignment": "Paina ja vapauta ulkoinen painike. Määritys ei lähetä.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "Radiosi mukauttaminen ei ole koskaan ollut helpompaa, sillä saat reaaliaikaisia päivityksiä helppokäyttöiseltä määrityspaneeliltamme.",
       "title": "Pilvikokoonpanot"
+    },
+    "configurations": {
+      "desc": "Konfiguroi signaalin menetys tunneleissa, maanalaisissa paikoissa ja paljon muuta reaaliaikaisilla päivityksillä helppokäyttöisestä asetuspaneelistamme!",
+      "title": "Konfiguroinnit"
     },
     "Customizable_SFX": {
       "desc": "Konfiguroi signaalin menetys tunneleissa, maanalaisissa paikoissa ja enemmän!",

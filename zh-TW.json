@@ -258,11 +258,11 @@
     "assignAccessoryButton": "指派配件按鈕",
     "assignKeyboardButton": "指派鍵盤按鈕",
     "assignmentChecksACompletePressAndRelease": "指派檢查完整按下並放開，且不傳輸。傳輸有 60 秒限制。Falconclaw 和其他 Zello 相容配件尚未驗證。",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "指派永不傳送。請先關閉設定再說話。控制連線或心跳遺失時會釋放 PTT。若 PTT-Z 按鈕進入睡眠，請按一下並放開以喚醒並重新就緒，然後再按住說話。離開應用程式後，請在此重新連線。",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "指派永不傳送。先關閉設定再說話。控制連線或心跳遺失會釋放 PTT。對於睡眠中的 PTT-Z 按鈕，按一下並放開以喚醒並重新武裝，然後再按住說話。控制中斷時在此重新連線。",
     "audioChangedOrWasInterruptedReleaseThe": "音訊已變更或中斷。放開按鈕；如果音訊沒有恢復，請重新連接無線電。",
     "bluetoothUnavailable": "Bluetooth 無法使用",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT 實驗性·Falconclaw 候選版",
-    "buttonAssignedHoldToTalkWhileThe": "{button} 已指派。應用程式在前景時按住即可通話。",
+    "buttonAssignedHoldToTalkWhileThe": "{button} 已指派。關閉設定，然後按住說話。",
     "buttonCheckButtonCountEventsReceivedThis": "按鈕檢查：{button} · 已接收 {count} 個事件。這會檢查控制事件，不是音訊。",
     "cancelAssignment": "取消指派",
     "checkingAccessoryProtocol": "檢查配件協定…",
@@ -296,9 +296,9 @@
     "mfiPTTSDKProtocol": "MFi PTT SDK 通訊協定",
     "noCompleteButtonPressAndReleaseDetected": "未偵測到完整的按鈕按下與放開。請檢查所選輸入並再試一次。",
     "pairAKeyboardHIDButtonInYour": "在你裝置的 Bluetooth 設定中配對鍵盤/HID 按鈕，然後在這裡指派。當 Sonoran Radio 在前景時，按住即可通話。需要製造商 Bluetooth 協議的媒體按鈕和配件需要獨立的轉接器。",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "先在系統設定中配對耳機音訊和 Android 序列配件，然後在此尋找並連接控制器。主要 PTT 按鈕會自動選取。按一下並放開即可啟用；使用 指派配件按鈕 選擇其他按鈕。請保持應用程式開啟並讓螢幕保持喚醒。此預覽版本不支援鎖定畫面操作。",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "先在系統設定中配對耳機音訊和 Android 序列配件，然後在這裡尋找並連接控制。主要 PTT 按鈕會自動選取。按下並放開一次以啟用它；使用 指派配件按鈕 選擇其他按鈕。Android 2.28.13 及更新版本在螢幕關閉時可保留已建立的配件連線。請在鎖定前連接，關閉設定，並在再次按下前放開按鈕。在 iOS 和較舊的 Android 應用程式版本上，請保持應用程式開啟並讓螢幕保持喚醒。",
     "phonePTTButtons": "手機 PTT 按鈕",
-    "phonePTTButtonsListensForConfiguredHardware": "電話 PTT 按鈕會在應用程式開啟時，監聽已設定的硬體按鈕指令。你的手機按鈕對應程式必須將與 Zello 相容的按下/放開廣播傳送到 Sonoran Radio。選取此選項不會驗證你的手機是否提供這些事件。",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons 會監聽已設定的硬體按鈕指令。您的手機按鈕對應器必須向 Sonoran Radio 傳送相容於 Zello 的按下／放開廣播。選擇此選項不會驗證您的手機是否提供這些事件。",
     "preparingBluetooth": "正在準備 Bluetooth…",
     "pressAndReleaseTheAccessoryButton": "按下並放開配件按鈕",
     "pressAndReleaseTheExternalButtonAssignment": "按下並放開外部按鈕。 指派不會傳送。",
@@ -720,6 +720,10 @@
   },
   "landingPage": {
     "armaIntegrationDescription": "使用 Arma 3 整合將 Sonoran Radio 直接連接到 Arma 3。",
+    "configurations": {
+      "desc": "使用我們易於使用的設定面板，即時更新來設定隧道、地下位置等更多區域的訊號遺失！",
+      "title": "設定"
+    },
     "developers": {
       "button": "探索 開發者 工具",
       "description": "使用免費 API、開源程式庫和 AI 外掛程式為任何遊戲建立自訂整合。",

@@ -472,11 +472,11 @@
     "assignAccessoryButton": "Zubehörtaste zuweisen",
     "assignKeyboardButton": "Tastaturtaste zuweisen",
     "assignmentChecksACompletePressAndRelease": "Zuordnungsprüfungen prüfen ein vollständiges Drücken und Loslassen ohne Senden. Übertragungen haben ein 60-Sekunden-Limit. Falconclaw und andere Zello-kompatible Zubehörteile wurden nicht validiert.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Zuweisung sendet nie. Einstellungen vor dem Sprechen schließen. Eine verlorene Steuerverbindung oder ein Heartbeat setzt PTT frei. Bei einer schlafenden PTT-Z-Taste drücken und loslassen, um sie zu wecken und erneut scharfzuschalten, dann zum Sprechen erneut gedrückt halten. Hier nach dem Verlassen der App erneut verbinden.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Zuordnung sendet nie. Einstellungen vor dem Sprechen schließen. Eine verlorene Steuerverbindung oder ein Heartbeat setzt PTT zurück. Bei einer schlafenden PTT-Z-Taste zum Aufwecken und erneuten Scharfstellen drücken und loslassen, dann erneut gedrückt halten, um zu sprechen. Hier erneut verbinden, wenn die Steuerverbindung abbricht.",
     "audioChangedOrWasInterruptedReleaseThe": "Audio wurde geändert oder unterbrochen. Taste loslassen; Funkgerät erneut verbinden, wenn sich das Audio nicht wiederherstellt.",
     "bluetoothUnavailable": "Bluetooth nicht verfügbar",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT experimentell · Falconclaw-Kandidat",
-    "buttonAssignedHoldToTalkWhileThe": "{button} zugewiesen. Zum Sprechen gedrückt halten, während die App im Vordergrund ist.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} zugewiesen. Einstellungen schließen, dann gedrückt halten, um zu sprechen.",
     "buttonCheckButtonCountEventsReceivedThis": "Tastenprüfung: {button} · {count} Ereignisse empfangen. Dies prüft Steuerelementereignisse, nicht Audio.",
     "cancelAssignment": "Zuordnung abbrechen",
     "checkingAccessoryProtocol": "Prüfe Zubehörprotokoll…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "MFi-PTT-SDK-Protokoll",
     "noCompleteButtonPressAndReleaseDetected": "Kein vollständiges Drücken und Loslassen der Taste erkannt. Überprüfe den ausgewählten Eingang und versuche es erneut.",
     "pairAKeyboardHIDButtonInYour": "Koppeln Sie in den Bluetooth-Einstellungen Ihres Geräts eine Tastatur/HID-Taste und weisen Sie sie dann hier zu. Zum Sprechen gedrückt halten, während Sonoran Radio im Vordergrund ist. Medientasten und Zubehör, die ein Bluetooth-Protokoll des Herstellers benötigen, brauchen einen separaten Adapter.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Kopple Headset-Audio und Android-Serienzubehör zuerst in den Systemeinstellungen, dann finde und verbinde die Steuerung hier. Die primäre PTT-Taste wird automatisch ausgewählt. Einmal drücken und loslassen, um sie zu aktivieren; verwende Zubehörtaste zuweisen, um eine andere Taste auszuwählen. Lass die App geöffnet und den Bildschirm aktiv. Bedienung bei gesperrtem Bildschirm ist in dieser Vorschau nicht verfügbar.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Kopple Headset-Audio und Android-Serienzubehör zuerst in den Systemeinstellungen, dann hier die Steuerung finden und verbinden. Die primäre PTT-Taste wird automatisch ausgewählt. Einmal drücken und loslassen, um sie scharfzuschalten; mit Zubehörtaste zuweisen eine andere Taste wählen. Android 2.28.13 und neuer kann eine bestehende Zubehörverbindung bei ausgeschaltetem Bildschirm beibehalten. Vor dem Sperren verbinden, Einstellungen schließen und die Taste loslassen, bevor du erneut drückst. Unter iOS und älteren Android-App-Versionen die App geöffnet halten und den Bildschirm aktiv lassen.",
     "phonePTTButtons": "Telefon-PTT-Tasten",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone-PTT-Tasten lauscht auf konfigurierte Hardware-Tastenbefehle, während die App geöffnet ist. Der Tasten-Mapper Ihres Telefons muss Zello-kompatible Drücken/Lösen-Broadcasts an Sonoran Radio senden. Die Auswahl dieser Option prüft nicht, ob Ihr Telefon diese Ereignisse bereitstellt.",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone-PTT-Tasten hört auf konfigurierte Hardware-Tastenbefehle. Der Tasten-Mapper deines Telefons muss Zello-kompatible Druck-/Loslassen-Broadcasts an Sonoran Radio senden. Die Auswahl dieser Option überprüft nicht, ob dein Telefon diese Ereignisse bereitstellt.",
     "preparingBluetooth": "Bluetooth wird vorbereitet…",
     "pressAndReleaseTheAccessoryButton": "Drücke die Zubehörtaste und lasse sie wieder los",
     "pressAndReleaseTheExternalButtonAssignment": "Drücken und loslassen Sie die externe Taste. Zuordnung sendet nicht.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "Die Anpassung deines Radios war noch nie einfacher, mit Live-Updates aus unserem benutzerfreundlichen Konfigurationsbereich.",
       "title": "Cloud-Konfigurationen"
+    },
+    "configurations": {
+      "desc": "Konfigurieren Sie Signalverlust in Tunneln, unterirdischen Orten und vielem mehr mit Live-Updates aus unserem einfach zu bedienenden Konfigurationsbereich!",
+      "title": "Konfigurationen"
     },
     "Customizable_SFX": {
       "desc": "Konfigurieren Sie Signalverlust in Tunneln, unterirdischen Orten und mehr!",

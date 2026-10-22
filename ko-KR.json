@@ -258,11 +258,11 @@
     "assignAccessoryButton": "액세서리 버튼 할당",
     "assignKeyboardButton": "키보드 버튼 지정",
     "assignmentChecksACompletePressAndRelease": "할당은 전송하지 않고 완전한 누름과 놓기를 확인합니다. 전송에는 60초 제한이 있습니다. Falconclaw 및 기타 Zello 호환 액세서는 검증되지 않았습니다.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "할당은 절대 전송되지 않습니다. 말하기 전에 설정을 닫으세요. 제어 연결이나 하트비트를 잃으면 PTT가 해제됩니다. 잠든 PTT-Z 버튼은 눌렀다 떼어 깨우고 다시 준비한 다음 다시 길게 눌러 말하세요. 앱을 종료한 후 여기서 다시 연결하세요.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "할당은 전송되지 않습니다. 말하기 전에 설정을 닫으세요. 제어 연결 또는 심박 신호가 끊기면 PTT가 해제됩니다. 잠든 PTT-Z 버튼은 눌렀다 놓아 깨우고 다시 준비한 다음, 다시 길게 눌러 말하세요. 제어 연결이 끊기면 여기서 다시 연결하세요.",
     "audioChangedOrWasInterruptedReleaseThe": "오디오가 변경되었거나 중단되었습니다. 버튼에서 손을 떼세요; 오디오가 복구되지 않으면 라디오를 다시 연결하세요.",
     "bluetoothUnavailable": "Bluetooth를 사용할 수 없음",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT 실험용 · Falconclaw 후보",
-    "buttonAssignedHoldToTalkWhileThe": "{button} 할당됨. 앱이 전면에 있을 때 눌러서 말하세요.",
+    "buttonAssignedHoldToTalkWhileThe": "{button}에 할당됨. 설정을 닫고 말할 때 누르세요.",
     "buttonCheckButtonCountEventsReceivedThis": "버튼 확인: {button} · {count}개 이벤트 수신됨. 이 기능은 오디오가 아니라 컨트롤 이벤트를 확인합니다.",
     "cancelAssignment": "할당 취소",
     "checkingAccessoryProtocol": "액세서리 프로토콜 확인 중…",
@@ -296,9 +296,9 @@
     "mfiPTTSDKProtocol": "MFi PTT SDK 프로토콜",
     "noCompleteButtonPressAndReleaseDetected": "완전한 버튼 누름 및 놓음이 감지되지 않았습니다. 선택한 입력을 확인하고 다시 시도하세요.",
     "pairAKeyboardHIDButtonInYour": "기기의 Bluetooth 설정에서 키보드/HID 버튼을 페어링한 다음 여기에서 할당하세요. Sonoran Radio가 포그라운드에 있을 때 누르고 말하세요. 제조업체의 Bluetooth 프로토콜이 필요한 미디어 버튼과 액세서리는 별도의 어댑터가 필요합니다.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "먼저 시스템 설정에서 헤드셋 오디오와 Android 직렬 액세서리를 페어링한 다음 여기에서 컨트롤을 찾아 연결하세요. 기본 PTT 버튼은 자동으로 선택됩니다. 한 번 누르고 놓아 활성화하세요. 다른 버튼을 선택하려면 Accessory Button 할당을 사용하세요. 앱을 열어 두고 화면이 켜진 상태를 유지하세요. 잠금 화면 작동은 이 미리 보기에서 사용할 수 없습니다.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "시스템 설정에서 먼저 헤드셋 오디오와 Android 시리얼 액세서리를 페어링한 다음 여기에서 컨트롤을 찾아 연결하세요. 기본 PTT 버튼은 자동으로 선택됩니다. 한 번 눌렀다가 놓아 준비하세요; 다른 버튼을 선택하려면 Accessory Button 할당을 사용하세요. Android 2.28.13 이상에서는 화면이 꺼진 상태에서도 설정된 액세서리 연결을 유지할 수 있습니다. 잠그기 전에 연결하고 설정을 닫은 뒤 다시 누르기 전에 버튼을 놓으세요. iOS와 이전 Android 앱 버전에서는 앱을 열어 두고 화면을 켜 둔 상태로 유지하세요.",
     "phonePTTButtons": "전화 PTT 버튼",
-    "phonePTTButtonsListensForConfiguredHardware": "전화 PTT 버튼은 앱이 열려 있는 동안 설정된 하드웨어 버튼 명령을 수신합니다. 휴대폰의 버튼 매퍼는 Zello 호환 누름/해제 브로드캐스트를 Sonoran Radio로 전송해야 합니다. 이 옵션을 선택해도 휴대폰이 해당 이벤트를 제공하는지 확인하지 않습니다.",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons는 구성된 하드웨어 버튼 명령을 감지합니다. 사용자의 휴대폰 버튼 매퍼는 Zello 호환 press/release 브로드캐스트를 Sonoran Radio에 전송해야 합니다. 이 옵션을 선택해도 휴대폰이 이러한 이벤트를 제공하는지는 확인되지 않습니다.",
     "preparingBluetooth": "블루투스 준비 중…",
     "pressAndReleaseTheAccessoryButton": "액세서리 버튼을 누르고 놓으세요",
     "pressAndReleaseTheExternalButtonAssignment": "외부 버튼을 누르고 놓으세요. 할당은 전송하지 않습니다.",
@@ -720,6 +720,10 @@
   },
   "landingPage": {
     "armaIntegrationDescription": "Arma 3 Integrations로 Sonoran Radio를 Arma 3에 직접 연결하세요.",
+    "configurations": {
+      "desc": "터널, 지하 공간 등에서의 신호 손실을 간편한 설정 패널의 실시간 업데이트로 설정하세요!",
+      "title": "설정"
+    },
     "developers": {
       "button": "개발자 도구 둘러보기",
       "description": "무료 API, 오픈 소스 라이브러리, AI 플러그인으로 어떤 게임이든 맞춤형 통합을 구축하세요.",

@@ -472,11 +472,11 @@
     "assignAccessoryButton": "アクセサリ ボタンを割り当て",
     "assignKeyboardButton": "キーボードボタンを割り当て",
     "assignmentChecksACompletePressAndRelease": "割り当ては送信せずに完全な押下と解放をチェックします。送信には60秒の制限があります。Falconclawおよびその他の Zello 対応アクセサリは検証されていません。",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "割り当ては送信しません。話す前に設定を閉じてください。制御接続またはハートビートの喪失で PTT が解除されます。スリープ中の PTT-Z ボタンは、押して放して起動し、再アームしてから、もう一度押し続けて話します。アプリを離れた後はここで再接続してください。",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "割り当ては送信しません。話す前に設定を閉じてください。制御接続またはハートビートが失われると PTT が解除されます。スリープ中の PTT-Z ボタンは、押して離して起こし、再アームしてから、もう一度押し続けて話します。制御が切断された場合はここで再接続してください。",
     "audioChangedOrWasInterruptedReleaseThe": "音声が変更されたか、または中断されました。ボタンを離してください。音声が回復しない場合は、ラジオを再接続してください。",
     "bluetoothUnavailable": "Bluetooth は使用できません",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT 実験版 · Falconclaw 候補",
-    "buttonAssignedHoldToTalkWhileThe": "{button} に割り当て済み。アプリが前面にあるときに押して話す。",
+    "buttonAssignedHoldToTalkWhileThe": "{button} に割り当て済み。設定を閉じてから、押して話してください。",
     "buttonCheckButtonCountEventsReceivedThis": "ボタンチェック: {button} · {count}件のイベントを受信しました。これはコントロールイベントを確認し、音声は確認しません。",
     "cancelAssignment": "割り当てをキャンセル",
     "checkingAccessoryProtocol": "アクセサリ プロトコルを確認しています…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "MFi PTT SDK プロトコル",
     "noCompleteButtonPressAndReleaseDetected": "完全なボタンの押下と離しが検出されませんでした。選択した入力を確認して、もう一度お試しください。",
     "pairAKeyboardHIDButtonInYour": "お使いのデバイスの Bluetooth 設定でキーボード/HID ボタンをペアリングし、ここで割り当ててください。Sonoran Radio が前面にある間は押して話します。メーカー独自の Bluetooth プロトコルが必要なメディアボタンやアクセサリには別のアダプターが必要です。",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "まずシステム設定で headset audio と Android serial accessories をペアリングし、その後ここで control を見つけて接続してください。primary PTT button は自動的に選択されます。1回押して離すと armed になります。別の button を選ぶには Assign Accessory Button を使用してください。アプリを開いたままにし、画面をスリープさせないでください。この preview では locked-screen operation は利用できません。",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "まずシステム設定でヘッドセット音声と Android シリアルアクセサリをペアリングし、その後ここでコントロールを見つけて接続してください。プライマリ PTT ボタンは自動的に選択されます。1 回押して離すとアームされます。別のボタンを選ぶにはアクセサリボタンを割り当てを使用してください。Android 2.28.13 以降では画面オフでも確立済みのアクセサリ接続を保持できます。ロックする前に接続し、設定を閉じてから、再度押す前にボタンを離してください。iOS と古い Android アプリバージョンでは、アプリを開いたままにし、画面を点灯したままにしてください。",
     "phonePTTButtons": "電話 PTT ボタン",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons は、アプリが開いている間、設定済みのハードウェアボタンコマンドを監視します。あなたの phone のボタンマッパーは、Zello と互換性のある押下/解除ブロードキャストを Sonoran Radio に送信する必要があります。このオプションを選択しても、あなたの phone がそれらのイベントを提供するかどうかは確認されません。",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons は設定済みの hardware ボタンコマンドを監視します。あなたの phone の button mapper は、Zello 対応の press/release broadcast を Sonoran Radio に送信する必要があります。このオプションを選択しても、あなたの phone がそれらのイベントを提供することは確認されません。",
     "preparingBluetooth": "Bluetoothを準備中…",
     "pressAndReleaseTheAccessoryButton": "アクセサリーボタンを押して離します",
     "pressAndReleaseTheExternalButtonAssignment": "外部ボタンを押して離します。割り当てでは送信されません。",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "ラジオのカスタマイズが、使いやすい設定パネルからのリアルタイム更新で、これまでになく簡単になりました。",
       "title": "クラウド設定"
+    },
+    "configurations": {
+      "desc": "トンネル、地下の場所などでの信号損失を簡単に使える設定パネルでリアルタイム更新しながら設定！",
+      "title": "設定"
     },
     "Customizable_SFX": {
       "desc": "トンネル、地下の場所などでの信号損失を設定！",
