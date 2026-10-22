@@ -472,11 +472,11 @@
     "assignAccessoryButton": "Toets voor accessoire toewijzen",
     "assignKeyboardButton": "Toetsenbordknop toewijzen",
     "assignmentChecksACompletePressAndRelease": "Toewijzingscontroles doen een volledige druk-en-loshandeling zonder te zenden. Transmissies hebben een limiet van 60 seconden. Falconclaw en andere Zello-compatibele accessoires zijn niet gevalideerd.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Toewijzing zendt nooit uit. Sluit instellingen voordat je spreekt. Een verloren bedieningsverbinding of heartbeat geeft PTT vrij. Voor een slapende PTT-Z-knop, druk en laat los om hem te wekken en opnieuw in te schakelen, en houd dan opnieuw ingedrukt om te praten. Maak hier opnieuw verbinding na het verlaten van de app.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Toewijzing verzendt nooit. Sluit de instellingen voordat je praat. Een verloren regelverbinding of heartbeat schakelt PTT uit. Voor een slapende PTT-Z-knop: druk en laat los om hem te wekken en opnieuw in te schakelen, houd daarna opnieuw ingedrukt om te praten. Maak hier opnieuw verbinding als de regelverbinding wegvalt.",
     "audioChangedOrWasInterruptedReleaseThe": "Audio is gewijzigd of onderbroken. Laat de knop los; sluit de radio opnieuw aan als het geluid niet terugkeert.",
     "bluetoothUnavailable": "Bluetooth niet beschikbaar",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT experimenteel · Falconclaw-kandidaat",
-    "buttonAssignedHoldToTalkWhileThe": "{button} toegewezen. Houd ingedrukt om te praten terwijl de app op de voorgrond is.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} toegewezen. Sluit instellingen, en houd vervolgens ingedrukt om te praten.",
     "buttonCheckButtonCountEventsReceivedThis": "Knopcontrole: {button} · {count} gebeurtenissen ontvangen. Dit controleert bedieningsevents, niet audio.",
     "cancelAssignment": "Toewijzing annuleren",
     "checkingAccessoryProtocol": "Accessoireprotocol controleren…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "MFi PTT SDK-protocol",
     "noCompleteButtonPressAndReleaseDetected": "Geen volledige knopdruk en loslating gedetecteerd. Controleer de geselecteerde invoer en probeer het opnieuw.",
     "pairAKeyboardHIDButtonInYour": "Koppel een toetsenbord/HID-knop in de Bluetooth-instellingen van je apparaat en wijs die hier toe. Ingedrukt houden om te praten terwijl Sonoran Radio op de voorgrond staat. Mediaknoppen en accessoires die een Bluetooth-protocol van de fabrikant nodig hebben, vereisen een aparte adapter.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Koppel eerst headsetaudio en Android-seriële accessoires in de systeeminstellingen, zoek en verbind daarna hier de bediening. De primaire PTT-knop wordt automatisch geselecteerd. Druk één keer in en laat los om hem te activeren; gebruik Toewijzen Accessoireknop om een andere knop te kiezen. Laat de app open en het scherm actief. Bediening op vergrendeld scherm is niet beschikbaar in deze preview.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Koppel audio van headset en Android-seriële accessoires eerst in de systeeminstellingen en zoek en verbind daarna de bediening hier. De primaire PTT-knop is automatisch geselecteerd. Druk één keer in en laat los om deze gereed te maken; gebruik Toewijs accessoireknop om een andere knop te kiezen. Android 2.28.13 en later kunnen een gevestigde accessoireverbinding behouden met het scherm uit. Verbind vóór het vergrendelen, sluit instellingen en laat de knop los voordat je opnieuw drukt. Op iOS en oudere Android-appversies moet de app open blijven en het scherm wakker.",
     "phonePTTButtons": "Telefoon PTT-knoppen",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT-knoppen luistert naar geconfigureerde hardwareknopcommando's terwijl de app open is. De knopmapper van je telefoon moet Zello-compatibele druk-/loszendingen naar Sonoran Radio sturen. Het selecteren van deze optie verifieert niet dat je telefoon die gebeurtenissen levert.",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons luistert naar geconfigureerde hardwareknopcommando's. De knoptoewijzer van je telefoon moet Zello-compatibele druk/los-luitzendingen naar Sonoran Radio sturen. Als je deze optie selecteert, wordt niet gecontroleerd of je telefoon deze gebeurtenissen levert.",
     "preparingBluetooth": "Bluetooth voorbereiden…",
     "pressAndReleaseTheAccessoryButton": "Druk op de accessoireknop en laat los",
     "pressAndReleaseTheExternalButtonAssignment": "Druk op de externe knop en laat los. Toewijzing verzendt niet.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "Je radio aanpassen was nog nooit zo eenvoudig, met live updates vanuit ons gebruiksvriendelijke configuratiepaneel.",
       "title": "Cloudconfiguraties"
+    },
+    "configurations": {
+      "desc": "Configureer signaalverlies in tunnels, ondergrondse locaties en nog veel meer met live updates vanuit ons eenvoudig te gebruiken configuratiepaneel!",
+      "title": "Configuraties"
     },
     "Customizable_SFX": {
       "desc": "Configureer signaalverlies in tunnels, ondergrondse locaties en meer!",

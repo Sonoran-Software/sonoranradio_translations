@@ -472,11 +472,11 @@
     "assignAccessoryButton": "Tildel tilbehørsknapp",
     "assignKeyboardButton": "Tildel tastaturknapp",
     "assignmentChecksACompletePressAndRelease": "Tildelingskontrollerer et fullstendig trykk og slipp uten å sende. Sendinger har en grense på 60 sekunder. Falconclaw og andre Zello-kompatible tilbehør er ikke validert.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Tildelingen sender aldri. Lukk innstillinger før du snakker. En tapt kontrollforbindelse eller heartbeat frigjør PTT. For en sovende PTT-Z-knapp, trykk og slipp for å vekke og aktivere den på nytt, hold deretter igjen for å snakke. Koble til igjen her etter å ha forlatt appen.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Tildelingen sender aldri. Lukk innstillinger før du snakker. En tapt kontrolltilkobling eller heartbeat frigir PTT. For en sovende PTT-Z-knapp, trykk og slipp for å vekke og klargjøre den igjen, og hold deretter igjen for å snakke. Koble til igjen her hvis kontrollen kobles fra.",
     "audioChangedOrWasInterruptedReleaseThe": "Lyden ble endret eller ble avbrutt. Slipp knappen; koble til radioen igjen hvis lyden ikke kommer tilbake.",
     "bluetoothUnavailable": "Bluetooth er utilgjengelig",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT eksperimentell · Falconclaw-kandidat",
-    "buttonAssignedHoldToTalkWhileThe": "{button} tildelt. Hold inne for å snakke mens appen er i forgrunnen.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} tildelt. Lukk innstillinger, og hold deretter inne for å snakke.",
     "buttonCheckButtonCountEventsReceivedThis": "Knappekontroll: {button} · {count} hendelser mottatt. Dette sjekker kontrollhendelser, ikke lyd.",
     "cancelAssignment": "Avbryt tildeling",
     "checkingAccessoryProtocol": "Kontrollerer tilbehørsprotokoll…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "MFi PTT SDK-protokoll",
     "noCompleteButtonPressAndReleaseDetected": "Ingen fullstendig knappetrykk og slipp registrert. Sjekk valgt inngang og prøv igjen.",
     "pairAKeyboardHIDButtonInYour": "Koble en tastatur/HID-knapp sammen i enhetens Bluetooth-innstillinger, og tilordn den her. Hold inne for å snakke mens Sonoran Radio er i forgrunnen. Medieknapper og tilbehør som trenger en produsents Bluetooth-protokoll, trenger en separat adapter.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Par headset-lyd og Android-serietilbehør i systeminnstillingene først, finn og koble til kontrollen her. Hoved-PTT-knappen er valgt automatisk. Trykk og slipp én gang for å aktivere den; bruk Tilordne tilbehørsknapp for å velge en annen knapp. La appen være åpen og skjermen våken. Betjening med låst skjerm er ikke tilgjengelig i denne forhåndsvisningen.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Koble først sammen hodetelefonlyd og Android-serietilbehør i systeminnstillingene, finn og koble deretter til kontrollen her. Hoved-PTT-knappen er valgt automatisk. Trykk og slipp én gang for å armere den; bruk Tildel tilbehørsknapp for å velge en annen knapp. Android 2.28.13 og nyere kan beholde en etablert tilbehørstilkobling med skjermen av. Koble til før du låser, lukk innstillingene, og slipp knappen før du trykker igjen. På iOS og eldre Android-appversjoner, hold appen åpen og skjermen våken.",
     "phonePTTButtons": "PTT-knapper på telefon",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT-knapper lytter etter konfigurerte maskinvareknapp-kommandoer mens appen er åpen. Knappemapperen på telefonen din må sende Zello-kompatible trykk-/slipp-broadcasts til Sonoran Radio. Å velge dette alternativet bekrefter ikke at telefonen din gir disse hendelsene.",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT-knapper lytter etter konfigurerte maskinvareknapp-kommandoer. Telefonens knappetilordner må sende Zello-kompatible trykk/slipp-kringkastinger til Sonoran Radio. Hvis du velger dette alternativet, bekreftes ikke at telefonen din gir disse hendelsene.",
     "preparingBluetooth": "Forbereder Bluetooth…",
     "pressAndReleaseTheAccessoryButton": "Trykk og slipp tilbehørsknappen",
     "pressAndReleaseTheExternalButtonAssignment": "Trykk og slipp den eksterne knappen. Oppgaven sender ikke.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "Det har aldri vært enklere å tilpasse radioen din, med direkteoppdateringer fra vårt brukervennlige konfigurasjonspanel.",
       "title": "Skykonfigurasjoner"
+    },
+    "configurations": {
+      "desc": "Konfigurer signaltap i tunneler, underjordiske steder og mye mer med liveoppdateringer fra vårt brukervennlige konfigurasjonspanel!",
+      "title": "Konfigurasjoner"
     },
     "Customizable_SFX": {
       "desc": "Konfigurer signaltap i tunneler, underjordiske steder og mer!",

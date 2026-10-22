@@ -472,11 +472,11 @@
     "assignAccessoryButton": "تعيين زر الملحق",
     "assignKeyboardButton": "تعيين زر لوحة المفاتيح",
     "assignmentChecksACompletePressAndRelease": "يتحقق التعيين من ضغطة كاملة وإفلات بدون إرسال. لدى الإرسالات حد 60 ثانية. لم يتم التحقق من ملحقات Falconclaw وغيرها المتوافقة مع Zello.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "لن ينقل التعيين أبدًا. أغلق الإعدادات قبل التحدث. يؤدي فقدان اتصال التحكم أو نبضات القلب إلى تحرير زر الضغط للتحدث. بالنسبة لزر PTT-Z النائم، اضغط وحرر لإيقاظه وإعادة تسليحه، ثم اضغط مرة أخرى للتحدث. أعد الاتصال هنا بعد مغادرة التطبيق.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "التعيين لا يرسل أبدا. أغلق الإعدادات قبل التحدث. يؤدي فقدان اتصال التحكم أو نبض القلب إلى تحرير PTT. لزر PTT-Z النائم، اضغط وحرر لإيقاظه وإعادة تسليحه، ثم اضغط مرة أخرى للتحدث. أعد الاتصال هنا إذا انقطع التحكم.",
     "audioChangedOrWasInterruptedReleaseThe": "تغير الصوت أو تم قطعه. حرر الزر؛ أعد توصيل الراديو إذا لم يتعافَ الصوت.",
     "bluetoothUnavailable": "Bluetooth غير متاح",
     "bluPTTExperimentalFalconclawCandidate": "بلو-PTT تجريبي · مرشح Falconclaw",
-    "buttonAssignedHoldToTalkWhileThe": "تم تعيين {button}. اضغط للتحدث أثناء وجود التطبيق في المقدمة.",
+    "buttonAssignedHoldToTalkWhileThe": "تم تعيين {button} أغلق الإعدادات، ثم اضغط للتحدث.",
     "buttonCheckButtonCountEventsReceivedThis": "فحص الزر: {button} · تم استلام {count} أحداث. يتحقق هذا من أحداث التحكم، وليس الصوت.",
     "cancelAssignment": "إلغاء التعيين",
     "checkingAccessoryProtocol": "جارٍ التحقق من بروتوكول الملحق…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "بروتوكول SDK لـ MFi PTT",
     "noCompleteButtonPressAndReleaseDetected": "لم يتم اكتشاف ضغط وإفلات كامل للزر. تحقق من الإدخال المحدد وحاول مرة أخرى.",
     "pairAKeyboardHIDButtonInYour": "قم بإقران زر لوحة مفاتيح/HID في إعدادات Bluetooth الخاصة بجهازك، ثم عيّنه هنا. اضغط مع الاستمرار للتحدث بينما تكون Sonoran Radio في المقدمة. أزرار الوسائط والملحقات التي تحتاج إلى بروتوكول Bluetooth الخاص بالشركة المصنِّعة تحتاج إلى محول منفصل.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "اقرن صوت سماعة الرأس وملحقات السلسلة التسلسلية Android من إعدادات النظام أولًا، ثم اعثر على التحكم هنا واتصل به. يتم تحديد زر PTT الأساسي تلقائيًا. اضغط ثم حرر مرة واحدة لتجهيزه؛ استخدم Assign Accessory Button لاختيار زر آخر. اترك التطبيق مفتوحًا والشاشة نشطة. التشغيل مع قفل الشاشة غير متاح في هذه المعاينة.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "قم بإقران صوت سماعة الرأس وملحقات Android التسلسلية في إعدادات النظام أولاً، ثم ابحث عن عنصر التحكم هنا وقم بتوصيله. يتم تحديد زر PTT الرئيسي تلقائيًا. اضغط وأفلت مرة واحدة لتجهيزه؛ استخدم تعيين زر الملحق لاختيار زر آخر. يمكن لنظام Android 2.28.13 والإصدارات الأحدث الاحتفاظ باتصال الملحق المُنشأ مع إيقاف الشاشة. قم بالتوصيل قبل القفل، وأغلق الإعدادات، وأفلت الزر قبل الضغط مرة أخرى. على iOS وإصدارات تطبيق Android الأقدم، اترك التطبيق مفتوحًا والشاشة قيد التشغيل.",
     "phonePTTButtons": "أزرار PTT للهاتف",
-    "phonePTTButtonsListensForConfiguredHardware": "تستمع أزرار PTT في الهاتف إلى أوامر أزرار الأجهزة المهيأة أثناء فتح التطبيق. يجب أن يرسل معالج تعيين الأزرار في هاتفك بثوث ضغط/إفلات متوافقة مع Zello إلى Sonoran Radio. لا يؤدي اختيار هذا الخيار إلى التحقق من أن هاتفك يوفر تلك الأحداث.",
+    "phonePTTButtonsListensForConfiguredHardware": "تستمع أزرار PTT للهاتف إلى أوامر أزرار الأجهزة المُكوَّنة. يجب أن يرسل مخصّص أزرار هاتفك بثوث الضغط/الإفلات المتوافقة مع Zello إلى Sonoran Radio. لا يؤكّد اختيار هذا الخيار أن هاتفك يوفّر تلك الأحداث.",
     "preparingBluetooth": "جارٍ إعداد البلوتوث…",
     "pressAndReleaseTheAccessoryButton": "اضغط وأفلت زر الملحق",
     "pressAndReleaseTheExternalButtonAssignment": "اضغط على الزر الخارجي ثم حرره. التعيين لا يرسل.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "لم يكن تخصيص راديوك أسهل من قبل، مع التحديثات المباشرة من لوحة التكوين سهلة الاستخدام لدينا.",
       "title": "إعدادات السحابة"
+    },
+    "configurations": {
+      "desc": "ضبط فقدان الإشارة في الأنفاق والمواقع تحت الأرض والمزيد مع تحديثات مباشرة من لوحة الإعدادات سهلة الاستخدام لدينا!",
+      "title": "الإعدادات"
     },
     "Customizable_SFX": {
       "desc": "ضبط فقدان الإشارة في الأنفاق والمواقع تحت الأرض والمزيد!",

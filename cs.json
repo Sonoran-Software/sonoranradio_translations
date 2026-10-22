@@ -472,11 +472,11 @@
     "assignAccessoryButton": "Přiřadit tlačítko příslušenství",
     "assignKeyboardButton": "Přiřadit tlačítko klávesnice",
     "assignmentChecksACompletePressAndRelease": "Kontrola přiřazení vyžaduje úplné stisknutí a uvolnění bez vysílání. Vysílání mají 60sekundový limit. Falconclaw a další příslušenství kompatibilní se Zello nebyly ověřeny.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Přiřazení nikdy nevysílá. Před mluvením zavřete nastavení. Ztracené řídicí spojení nebo heartbeat uvolní PTT. U spícího tlačítka PTT-Z stiskněte a uvolněte pro probuzení a znovu aktivování, pak znovu podržte pro mluvení. Po opuštění aplikace se znovu připojte zde.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Přiřazení nikdy nepřenáší. Před mluvením zavřete nastavení. Ztracené řídicí připojení nebo heartbeat uvolní PTT. U spícího tlačítka PTT-Z stiskněte a uvolněte pro probuzení a znovu aktivaci, pak znovu podržte pro mluvení. Znovu se připojte zde, pokud se řídicí připojení odpojí.",
     "audioChangedOrWasInterruptedReleaseThe": "Zvuk se změnil nebo byl přerušen. Uvolněte tlačítko; pokud se zvuk neobnoví, znovu připojte rádio.",
     "bluetoothUnavailable": "Bluetooth není k dispozici",
     "bluPTTExperimentalFalconclawCandidate": "Experimentální Blu-PTT · kandidát Falconclaw",
-    "buttonAssignedHoldToTalkWhileThe": "{button} přiřazeno. Pro mluvení držte, když je aplikace v popředí.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} přiřazeno. Zavřete nastavení a poté podržte pro mluvení.",
     "buttonCheckButtonCountEventsReceivedThis": "Kontrola tlačítka: {button} · {count} přijatých událostí. Toto kontroluje ovládací události, ne zvuk.",
     "cancelAssignment": "Zrušit přiřazení",
     "checkingAccessoryProtocol": "Kontrola protokolu příslušenství…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "protokol SDK MFi PTT",
     "noCompleteButtonPressAndReleaseDetected": "Nebyl zjištěn žádný úplný stisk a uvolnění tlačítka. Zkontrolujte vybraný vstup a zkuste to znovu.",
     "pairAKeyboardHIDButtonInYour": "Spárujte tlačítko klávesnice/HID v nastavení Bluetooth vašeho zařízení a pak jej sem přiřaďte. Podržte pro mluvení, když je Sonoran Radio v popředí. Mediální tlačítka a příslušenství, která vyžadují Bluetooth protokol výrobce, potřebují samostatný adaptér.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Nejprve spárujte audio headsetu a sériové příslušenství Androidu v systémovém nastavení, potom zde najděte a připojte ovládání. Primární tlačítko PTT je vybráno automaticky. Stiskněte a jednou uvolněte pro jeho aktivaci; pomocí Přiřadit tlačítko příslušenství vyberte jiné tlačítko. Nechte aplikaci otevřenou a obrazovku zapnutou. Ovládání se zamknutou obrazovkou v tomto náhledu není k dispozici.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Nejprve spárujte zvuk headsetu a sériové příslušenství Androidu v systémových nastaveních, potom zde najděte a připojte ovládání. Primární tlačítko PTT je vybráno automaticky. Stiskněte a jednou uvolněte pro jeho aktivaci; pomocí Přiřadit tlačítko příslušenství vyberte jiné tlačítko. Android 2.28.13 a novější si mohou zachovat navázané připojení příslušenství i při vypnuté obrazovce. Připojte před zamknutím, zavřete nastavení a před dalším stisknutím tlačítko uvolněte. V iOS a starších verzích aplikace pro Android nechte aplikaci otevřenou a obrazovku zapnutou.",
     "phonePTTButtons": "Tlačítka PTT na telefonu",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons naslouchá nakonfigurovaným příkazům hardwarových tlačítek, zatímco je aplikace otevřená. Mapa tlačítek ve vašem telefonu musí do Sonoran Radio posílat vysílání stisku/uvolnění kompatibilní se Zello. Výběrem této možnosti se neověří, že váš telefon tyto události poskytuje.",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons naslouchá nakonfigurovaným příkazům hardwarových tlačítek. Mapper tlačítek vašeho telefonu musí do Sonoran Radio odesílat Zello-kompatibilní vysílání stisknutí/puštění. Výběr této možnosti neověřuje, že váš telefon tato události poskytuje.",
     "preparingBluetooth": "Příprava Bluetooth…",
     "pressAndReleaseTheAccessoryButton": "Stiskněte a uvolněte tlačítko příslušenství",
     "pressAndReleaseTheExternalButtonAssignment": "Stiskněte a uvolněte externí tlačítko. Přiřazení neodesílá.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "Přizpůsobení vašeho rádia nebylo nikdy snadnější, díky živým aktualizacím z našeho snadno použitelného konfiguračního panelu.",
       "title": "Konfigurace cloudu"
+    },
+    "configurations": {
+      "desc": "Konfigurujte ztrátu signálu v tunelech, podzemních prostorech a mnohem více s živými aktualizacemi z našeho snadno použitelného konfiguračního panelu!",
+      "title": "Konfigurace"
     },
     "Customizable_SFX": {
       "desc": "Konfigurujte ztrátu signálu v tunelech, podzemních prostorech a dalších!",

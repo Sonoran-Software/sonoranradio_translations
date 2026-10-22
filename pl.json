@@ -472,11 +472,11 @@
     "assignAccessoryButton": "Przypisz przycisk akcesorium",
     "assignKeyboardButton": "Przypisz przycisk klawiatury",
     "assignmentChecksACompletePressAndRelease": "Sprawdzenie przypisania obejmuje pełne naciśnięcie i zwolnienie bez nadawania. Transmisje mają limit 60 sekund. Falconclaw i inne akcesoria zgodne z Zello nie zostały zweryfikowane.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Przypisanie nigdy nie nadaje. Zamknij ustawienia przed mówieniem. Utrata połączenia sterującego lub heartbeat zwalnia PTT. W przypadku uśpionego przycisku PTT-Z naciśnij i puść, aby go wybudzić i ponownie uzbroić, a potem przytrzymaj ponownie, aby mówić. Po wyjściu z aplikacji połącz się ponownie tutaj.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Przypisanie nigdy nie nadaje. Zamknij ustawienia przed mówieniem. Utrata połączenia sterującego lub heartbeat zwalnia PTT. W przypadku uśpionego przycisku PTT-Z naciśnij i puść, aby go obudzić i ponownie uzbroić, a potem przytrzymaj ponownie, aby mówić. Połącz ponownie tutaj, jeśli połączenie sterujące zostanie rozłączone.",
     "audioChangedOrWasInterruptedReleaseThe": "Dźwięk został zmieniony lub został przerwany. Puść przycisk; podłącz ponownie radio, jeśli dźwięk nie wróci.",
     "bluetoothUnavailable": "Bluetooth niedostępny",
     "bluPTTExperimentalFalconclawCandidate": "Eksperymentalny Blu-PTT · kandydat Falconclaw",
-    "buttonAssignedHoldToTalkWhileThe": "{button} przypisany. Przytrzymaj, aby mówić, gdy aplikacja jest na pierwszym planie.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} przypisany. Zamknij ustawienia, a następnie przytrzymaj, aby mówić.",
     "buttonCheckButtonCountEventsReceivedThis": "Sprawdzenie przycisku: {button} · odebrano {count} zdarzeń. To sprawdza zdarzenia sterujące, nie audio.",
     "cancelAssignment": "Anuluj przypisanie",
     "checkingAccessoryProtocol": "Sprawdzanie protokołu akcesorium…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "Protokół SDK MFi PTT",
     "noCompleteButtonPressAndReleaseDetected": "Nie wykryto pełnego naciśnięcia i zwolnienia przycisku. Sprawdź wybrane wejście i spróbuj ponownie.",
     "pairAKeyboardHIDButtonInYour": "Sparuj przycisk klawiatury/HID w ustawieniach Bluetooth swojego urządzenia, a następnie przypisz go tutaj. Przytrzymaj, aby mówić, gdy Sonoran Radio jest na pierwszym planie. Przyciski multimedialne i akcesoria wymagające protokołu Bluetooth producenta potrzebują osobnego adaptera.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Najpierw sparuj zestaw słuchawkowy audio i akcesoria szeregowe Android w ustawieniach systemowych, potem znajdź tutaj i połącz sterowanie. Główny przycisk PTT jest wybierany automatycznie. Naciśnij i puść raz, aby go uzbroić; użyj Przypisz przycisk akcesorium, aby wybrać inny przycisk. Trzymaj aplikację otwartą i ekran aktywny. Obsługa przy zablokowanym ekranie nie jest dostępna w tej wersji podglądowej.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Najpierw sparuj audio zestawu słuchawkowego i akcesoria szeregowe Androida w ustawieniach systemu, potem znajdź i połącz tutaj sterowanie. Główny przycisk PTT jest wybierany automatycznie. Naciśnij i puść raz, aby go uzbroić; użyj Przypisz przycisk akcesorium, aby wybrać inny przycisk. Android 2.28.13 i nowszy może zachować ustanowione połączenie z akcesorium przy wyłączonym ekranie. Połącz przed zablokowaniem, zamknij ustawienia i puść przycisk przed ponownym naciśnięciem. Na iOS i starszych wersjach aplikacji Androida trzymaj aplikację otwartą i ekran wybudzony.",
     "phonePTTButtons": "Przyciski PTT telefonu",
-    "phonePTTButtonsListensForConfiguredHardware": "Przyciski PTT telefonu nasłuchują skonfigurowanych poleceń przycisków sprzętowych, gdy aplikacja jest otwarta. Mapa przycisków w Twoim telefonie musi wysyłać zgodne z Zello transmisje naciśnięcia/zwolnienia do Sonoran Radio. Wybranie tej opcji nie sprawdza, czy Twój telefon zapewnia te zdarzenia.",
+    "phonePTTButtonsListensForConfiguredHardware": "Przyciski PTT telefonu nasłuchują skonfigurowanych poleceń przycisków sprzętowych. Mapowanie przycisków w telefonie musi wysyłać zgodne z Zello komunikaty naciśnięcia/zwolnienia do Sonoran Radio. Wybranie tej opcji nie weryfikuje, czy telefon udostępnia te zdarzenia.",
     "preparingBluetooth": "Przygotowywanie Bluetooth…",
     "pressAndReleaseTheAccessoryButton": "Naciśnij i zwolnij przycisk akcesorium",
     "pressAndReleaseTheExternalButtonAssignment": "Naciśnij i puść zewnętrzny przycisk. Przypisanie nie nadaje.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "Dostosowywanie radia nigdy nie było łatwiejsze, dzięki aktualizacjom na żywo z naszego łatwego w użyciu panelu konfiguracji.",
       "title": "Konfiguracje chmurowe"
+    },
+    "configurations": {
+      "desc": "Konfiguruj utratę sygnału w tunelach, podziemnych lokalizacjach i wielu innych miejscach dzięki aktualizacjom na żywo z naszego łatwego w użyciu panelu konfiguracji!",
+      "title": "Konfiguracje"
     },
     "Customizable_SFX": {
       "desc": "Konfiguruj utratę sygnału w tunelach, podziemnych lokalizacjach i więcej!",

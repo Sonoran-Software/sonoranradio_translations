@@ -472,11 +472,11 @@
     "assignAccessoryButton": "Aksesuar Düğmesi Ata",
     "assignKeyboardButton": "Klavye Düğmesi Ata",
     "assignmentChecksACompletePressAndRelease": "Atama, iletim olmadan tam bir basıp bırakmayı kontrol eder. İletimlerin 60 saniyelik sınırı vardır. Falconclaw ve diğer Zello uyumlu aksesuarlar doğrulanmamıştır.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Atama hiçbir zaman iletmez. Konuşmadan önce ayarları kapatın. Kaybolan bir kontrol bağlantısı veya heartbeat PTT'yi serbest bırakır. Uyuyan bir PTT-Z düğmesi için, uyandırmak ve yeniden devreye almak için basıp bırakın, sonra konuşmak için tekrar basılı tutun. Uygulamadan çıktıktan sonra buradan yeniden bağlanın.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "Atama asla iletmez. Konuşmadan önce ayarları kapatın. Kaybolan bir kontrol bağlantısı veya kalp atışı PTT'yi serbest bırakır. Uykuda bir PTT-Z düğmesi için, uyandırmak ve yeniden devreye almak için basıp bırakın, ardından konuşmak için tekrar basılı tutun. Kontrol bağlantısı kesilirse buradan yeniden bağlanın.",
     "audioChangedOrWasInterruptedReleaseThe": "Ses değişti veya kesintiye uğradı. Düğmeyi bırakın; ses düzelmezse radyoyu yeniden bağlayın.",
     "bluetoothUnavailable": "Bluetooth kullanılamıyor",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT deneysel · Falconclaw adayı",
-    "buttonAssignedHoldToTalkWhileThe": "{button} atandı. Uygulama ön plandayken konuşmak için basılı tutun.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} atandı. Ayarları kapatın, sonra konuşmak için basılı tutun.",
     "buttonCheckButtonCountEventsReceivedThis": "Düğme kontrolü: {button} · {count} olay alındı. Bu, ses değil, kontrol olaylarını denetler.",
     "cancelAssignment": "Atamayı İptal Et",
     "checkingAccessoryProtocol": "Aksesuar protokolü denetleniyor…",
@@ -510,9 +510,9 @@
     "mfiPTTSDKProtocol": "MFi PTT SDK protokolü",
     "noCompleteButtonPressAndReleaseDetected": "Tam bir düğme basma ve bırakma algılanmadı. Seçilen girişi kontrol edin ve tekrar deneyin.",
     "pairAKeyboardHIDButtonInYour": "Cihazınızın Bluetooth ayarlarında bir klavyeyi/HID düğmesini eşleştirin, ardından burada atayın. Sonoran Radio ön plandayken konuşmak için basılı tutun. Bir üreticinin Bluetooth protokolünü gerektiren medya düğmeleri ve aksesuarlar için ayrı bir adaptör gerekir.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Önce sistem ayarlarında kulaklık sesini ve Android seri aksesuarlarını eşleştirin, ardından burada kontrolü bulun ve bağlayın. Birincil PTT düğmesi otomatik olarak seçilir. Etkinleştirmek için bir kez basıp bırakın; başka bir düğme seçmek için Aksesuar Düğmesini Ata kullanın. Uygulamayı açık ve ekranı uyanık tutun. Kilit ekranı kullanımı bu önizlemede mevcut değildir.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Kulaklık sesini ve Android seri aksesuarlarını önce sistem ayarlarında eşleştirin, sonra burada kontrolü bulun ve bağlayın. Birincil PTT düğmesi otomatik olarak seçilir. Etkinleştirmek için bir kez basıp bırakın; başka bir düğme seçmek için Aksesuar Düğmesi Ata'yı kullanın. Android 2.28.13 ve sonraki sürümler, ekran kapalıyken mevcut bir aksesuar bağlantısını koruyabilir. Kilitlemeden önce bağlayın, ayarları kapatın ve yeniden basmadan önce düğmeyi bırakın. iOS ve daha eski Android uygulama sürümlerinde, uygulamayı açık ve ekranı uyanık tutun.",
     "phonePTTButtons": "Telefon PTT Düğmeleri",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons uygulama açıkken yapılandırılmış donanım düğmesi komutlarını dinler. Telefonunuzun düğme eşleyicisi Sonoran Radio'ya Zello uyumlu basma/bırakma yayınları göndermelidir. Bu seçeneği seçmek telefonunuzun bu olayları sağladığını doğrulamaz.",
+    "phonePTTButtonsListensForConfiguredHardware": "Telefon PTT Düğmeleri, yapılandırılmış donanım düğmesi komutlarını dinler. Telefonunuzun düğme eşleyicisi, Zello uyumlu basma/bırakma yayınlarını Sonoran Radio'ya göndermelidir. Bu seçeneği belirlemek, telefonunuzun bu olayları sağladığını doğrulamaz.",
     "preparingBluetooth": "Bluetooth hazırlanıyor…",
     "pressAndReleaseTheAccessoryButton": "Aksesuar düğmesine basın ve bırakın",
     "pressAndReleaseTheExternalButtonAssignment": "Harici düğmeye basın ve bırakın. Atama iletmiyor.",
@@ -983,6 +983,10 @@
     "Cloud_Configurations": {
       "desc": "Radyonuzu özelleştirmek, kullanımı kolay yapılandırma panelimizden gelen canlı güncellemelerle hiç bu kadar kolay olmamıştı.",
       "title": "Bulut Yapılandırmaları"
+    },
+    "configurations": {
+      "desc": "Tünellerde, yeraltı konumlarında ve çok daha fazlasında sinyal kaybını kolayca kullanılabilen yapılandırma panelimizden canlı güncellemelerle yapılandırın!",
+      "title": "Yapılandırmalar"
     },
     "Customizable_SFX": {
       "desc": "Tünellerde, yeraltı konumlarında ve daha fazlasında sinyal kaybını yapılandırın!",

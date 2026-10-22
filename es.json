@@ -258,11 +258,11 @@
     "assignAccessoryButton": "Asignar botón de accesorio",
     "assignKeyboardButton": "Asignar botón del teclado",
     "assignmentChecksACompletePressAndRelease": "Las comprobaciones de asignación verifican una pulsación y liberación completas sin transmitir. Las transmisiones tienen un límite de 60 segundos. Falconclaw y otros accesorios compatibles con Zello no han sido validados.",
-    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "La asignación nunca transmite. Cierra la configuración antes de hablar. Una conexión de control perdida o un latido liberan PTT. Para un botón PTT-Z en reposo, pulsa y suelta para despertarlo y rearmarlo, luego mantén pulsado de nuevo para hablar. Reconecta aquí después de salir de la app.",
+    "assignmentNeverTransmitsCloseSettingsBeforeTalking": "La asignación nunca transmite. Cierra ajustes antes de hablar. Una conexión de control perdida o un heartbeat libera PTT. Para un botón PTT-Z en reposo, pulsa y suelta para despertarlo y volver a armarlo, luego mantén pulsado otra vez para hablar. Reconecta aquí si se desconecta el control.",
     "audioChangedOrWasInterruptedReleaseThe": "El audio cambió o se interrumpió. Suelta el botón; vuelve a conectar la radio si el audio no se recupera.",
     "bluetoothUnavailable": "Bluetooth no disponible",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT experimental · candidato Falconclaw",
-    "buttonAssignedHoldToTalkWhileThe": "{button} asignado. Mantén pulsado para hablar mientras la app esté en primer plano.",
+    "buttonAssignedHoldToTalkWhileThe": "{button} asignado. Cierra ajustes, luego mantén para hablar.",
     "buttonCheckButtonCountEventsReceivedThis": "Comprobación de botón: {button} · {count} eventos recibidos. Esto comprueba eventos de control, no audio.",
     "cancelAssignment": "Cancelar asignación",
     "checkingAccessoryProtocol": "Comprobando protocolo del accesorio…",
@@ -296,9 +296,9 @@
     "mfiPTTSDKProtocol": "protocolo SDK PTT MFi",
     "noCompleteButtonPressAndReleaseDetected": "No se detectó una pulsación y liberación completas del botón. Comprueba la entrada seleccionada e inténtalo de nuevo.",
     "pairAKeyboardHIDButtonInYour": "Empareja un botón de teclado/HID en la configuración Bluetooth de tu dispositivo y luego asígnalo aquí. Mantén pulsado para hablar mientras Sonoran Radio está en primer plano. Los botones multimedia y accesorios que necesitan el protocolo Bluetooth de un fabricante requieren un adaptador independiente.",
-    "pairHeadsetAudioAndAndroidSerialAccessories": "Empareja primero el audio de los auriculares y los accesorios serie Android en los ajustes del sistema, luego encuentra y conecta aquí el control. El botón PTT principal se selecciona automáticamente. Pulsa y suelta una vez para activarlo; usa Asignar botón del accesorio para elegir otro botón. Mantén la app abierta y la pantalla encendida. El funcionamiento con la pantalla bloqueada no está disponible en esta vista previa.",
+    "pairHeadsetAudioAndAndroidSerialAccessories": "Empareja primero los accesorios de audio del auricular y del serie de Android en los ajustes del sistema, luego encuentra y conecta el control aquí. El botón principal de PTT se selecciona automáticamente. Pulsa y suelta una vez para armarlo; usa Asignar botón del accesorio para elegir otro botón. Android 2.28.13 y posteriores pueden mantener una conexión de accesorio establecida con la pantalla apagada. Conecta antes de bloquear, cierra los ajustes y suelta el botón antes de pulsarlo de nuevo. En iOS y en versiones antiguas de la app de Android, mantén la app abierta y la pantalla encendida.",
     "phonePTTButtons": "Botones PTT del teléfono",
-    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons escucha los comandos de botones de hardware configurados mientras la app está abierta. El asignador de botones de tu teléfono debe enviar transmisiones de pulsación/liberación compatibles con Zello a Sonoran Radio. Seleccionar esta opción no verifica que tu teléfono proporcione esos eventos.",
+    "phonePTTButtonsListensForConfiguredHardware": "Phone PTT Buttons escucha los comandos de botones de hardware configurados. El mapeador de botones de tu teléfono debe enviar transmisiones de pulsación/liberación compatibles con Zello a Sonoran Radio. Seleccionar esta opción no verifica que tu teléfono proporcione esos eventos.",
     "preparingBluetooth": "Preparando Bluetooth…",
     "pressAndReleaseTheAccessoryButton": "Pulse y suelte el botón accesorio",
     "pressAndReleaseTheExternalButtonAssignment": "Pulsa y suelta el botón externo. La asignación no transmite.",
@@ -720,6 +720,10 @@
   },
   "landingPage": {
     "armaIntegrationDescription": "Conecta Sonoran Radio directamente a Arma 3 con las integraciones de Arma 3.",
+    "configurations": {
+      "desc": "Configura la pérdida de señal en túneles, lugares subterráneos y mucho más con actualizaciones en vivo desde nuestro panel de configuración fácil de usar!",
+      "title": "Configuraciones"
+    },
     "developers": {
       "button": "Explorar herramientas para desarrolladores",
       "description": "Crea integraciones personalizadas para cualquier juego con APIs gratuitas, bibliotecas de código abierto y complementos de IA.",
