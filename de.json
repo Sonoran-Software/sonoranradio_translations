@@ -487,7 +487,7 @@
     "audioChangedOrWasInterruptedReleaseThe": "Audio wurde geändert oder unterbrochen. Taste loslassen; Funkgerät erneut verbinden, wenn sich das Audio nicht wiederherstellt.",
     "blueparrottSetup": "Verbinden, um die Parrott-Taste für PTT zu verwenden.",
     "bluetoothDevice": "Bluetooth-Zubehör",
-    "bluetoothSetup": "Kopple dein Zubehör in den Geräteeinstellungen, dann finde es unten.",
+    "bluetoothSetup": "Schalte dein Zubehör ein, kopple es bei Bedarf in den Geräteeinstellungen, dann finde es unten.",
     "bluetoothUnavailable": "Bluetooth nicht verfügbar",
     "bluPTTExperimentalFalconclawCandidate": "Blu-PTT experimentell · Falconclaw-Kandidat",
     "buttonAssignedHoldToTalkWhileThe": "{button} zugewiesen. Einstellungen schließen, dann gedrückt halten, um zu sprechen.",
