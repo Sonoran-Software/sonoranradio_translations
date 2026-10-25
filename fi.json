@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Vocoder-ääniesikatselu ei ole vielä saatavilla."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Jaa rajoitettu sovelluksen käyttö Sonoran Softwarelle ja Google Analyticsille. Tätä ei käytetä mainontaan tai sovellusten väliseen seurannan.",
+    "title": "Käytön ja kampanjoiden mittaus",
+    "webDescription": "Salli käyttöanalytiikka ja kampanjamittaus, mukaan lukien yhteisön luominen ja myöhemmät maksulliset päivitykset. Tämän poistaminen käytöstä lopettaa tulevan mittauksen. OpenAI:n mainosm mittaus rajoittuu kelvollisiin verkkokäynteihin."
+  },
   "memberTable": {
     "banned": "Estetty",
     "cancel": "Peruuta",

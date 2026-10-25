@@ -1337,6 +1337,11 @@
       }
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "與 Sonoran Software 和 Google Analytics 分享有限的應用程式使用情況。這不會用於廣告或跨應用程式追蹤。",
+    "title": "使用與活動衡量",
+    "webDescription": "允許使用分析和活動衡量，包括社群建立和後續付費升級。關閉此功能會停止未來的衡量。OpenAI 廣告衡量僅限符合資格的網頁造訪。"
+  },
   "mobiPreview": {
     "channelName": "作戰戰術 1",
     "citywide": "全城",

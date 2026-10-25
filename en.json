@@ -1337,6 +1337,11 @@
       }
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Share limited app usage with Sonoran Software and Google Analytics. This is not used for advertising or cross-app tracking.",
+    "title": "Usage and campaign measurement",
+    "webDescription": "Allow usage analytics and campaign measurement, including community creation and later paid upgrades. Turning this off stops future measurement. OpenAI ad measurement is limited to eligible web visits."
+  },
   "mobiPreview": {
     "channelName": "OPERATIONS TAC 1",
     "citywide": "CITYWIDE",

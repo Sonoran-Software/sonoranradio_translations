@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "ボコーダー音声プレビューはまだ利用できません。"
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Sonoran Software と Google Analytics に限定したアプリ使用状況を共有します。これは広告やアプリ間追跡には使用されません。",
+    "title": "利用状況とキャンペーン測定",
+    "webDescription": "コミュニティ作成と後の有料アップグレードを含む、使用状況分析とキャンペーン測定を許可します。これをオフにすると今後の測定は停止します。OpenAI 広告測定は対象のウェブ訪問に限定されます。"
+  },
   "memberTable": {
     "banned": "利用禁止",
     "cancel": "キャンセル",

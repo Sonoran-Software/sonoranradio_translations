@@ -1337,6 +1337,11 @@
       }
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Comparte el uso limitado de la aplicación con Sonoran Software y Google Analytics. Esto no se utiliza para publicidad ni para seguimiento entre aplicaciones.",
+    "title": "Uso y medición de campañas",
+    "webDescription": "Permitir análisis de uso y medición de campañas, incluida la creación de la comunidad y futuras actualizaciones de pago. Desactivar esto detiene la medición futura. La medición de anuncios de OpenAI está limitada a visitas web elegibles."
+  },
   "mobiPreview": {
     "channelName": "OPERACIONES TAC 1",
     "citywide": "CIUDAD",

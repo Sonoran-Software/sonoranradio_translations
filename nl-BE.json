@@ -1337,6 +1337,11 @@
       }
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Deel beperkt appgebruik met Sonoran Software en Google Analytics. Dit wordt niet gebruikt voor advertenties of tracking tussen apps.",
+    "title": "Gebruik en campagnemeting",
+    "webDescription": "Sta gebruiksanalyses en campagnemeting toe, inclusief communitycreatie en latere betaalde upgrades. Als je dit uitschakelt, stopt toekomstige meting. OpenAI-admeting is beperkt tot in aanmerking komende webbezoeken."
+  },
   "mobiPreview": {
     "channelName": "OPERATIES TAC 1",
     "citywide": "STADSBREED",

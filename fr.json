@@ -2362,6 +2362,11 @@
   "manageServer importSAPR": {
     "jsonMsg": "Collez votre configuration JSON SAPR ici"
   },
+  "measurementPreferences": {
+    "mobileDescription": "Partager l'utilisation limitée de l'application avec Sonoran Software et Google Analytics. Ceci n'est pas utilisé pour la publicité ni pour le suivi interapplications.",
+    "title": "Mesure de l'utilisation et des campagnes",
+    "webDescription": "Autoriser l'analyse d'utilisation et la mesure des campagnes, y compris la création de communauté et les mises à niveau payantes ultérieures. Désactiver cette option arrête la mesure future. La mesure des publicités OpenAI est limitée aux visites web éligibles."
+  },
   "memberTable": {
     "banned": "Banni",
     "cancel": "Annuler",

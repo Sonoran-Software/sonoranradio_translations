@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Podgląd audio wokodera jest jeszcze niedostępny."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Udostępniaj ograniczone dane o użyciu aplikacji firmie Sonoran Software i Google Analytics. Nie jest to używane do reklamy ani śledzenia między aplikacjami.",
+    "title": "Pomiar użycia i kampanii",
+    "webDescription": "Zezwalaj na analitykę użycia i pomiar kampanii, w tym tworzenie społeczności i późniejsze płatne ulepszenia. Wyłączenie tego zatrzymuje przyszły pomiar. Pomiar reklam OpenAI jest ograniczony do kwalifikujących się wizyt w sieci."
+  },
   "memberTable": {
     "banned": "Zbanowany",
     "cancel": "Anuluj",

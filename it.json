@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "L'anteprima audio del vocoder non è ancora disponibile."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Condividi l'uso limitato dell'app con Sonoran Software e Google Analytics. Questo non viene utilizzato per la pubblicità o il tracciamento tra app.",
+    "title": "Misurazione dell'utilizzo e delle campagne",
+    "webDescription": "Consenti l'analisi dell'utilizzo e la misurazione delle campagne, inclusa la creazione della community e i futuri upgrade a pagamento. Disattivando questa opzione si interrompe la misurazione futura. La misurazione pubblicitaria di OpenAI è limitata alle visite web idonee."
+  },
   "memberTable": {
     "banned": "Bannato",
     "cancel": "Annulla",

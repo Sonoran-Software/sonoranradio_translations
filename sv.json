@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Vocoder-ljudförhandsvisning är ännu inte tillgänglig."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Dela begränsad appanvändning med Sonoran Software och Google Analytics. Detta används inte för annonsering eller spårning mellan appar.",
+    "title": "Användning och kampanjmätning",
+    "webDescription": "Tillåt användningsanalys och kampanjmätning, inklusive skapande av community och senare betaluppgraderingar. Om du stänger av detta stoppas framtida mätning. OpenAI:s annonsmätning är begränsad till berättigade webb besök."
+  },
   "memberTable": {
     "banned": "Avstängd",
     "cancel": "Avbryt",

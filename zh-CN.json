@@ -1337,6 +1337,11 @@
       }
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "与 Sonoran Software 和 Google Analytics 共享有限的应用使用情况。此信息不用于广告或跨应用跟踪。",
+    "title": "使用和活动测量",
+    "webDescription": "允许使用情况分析和活动测量，包括社区创建以及后续付费升级。关闭此项将停止未来的测量。OpenAI 广告测量仅限符合条件的网页访问。"
+  },
   "mobiPreview": {
     "channelName": "行动战术 1",
     "citywide": "全城",

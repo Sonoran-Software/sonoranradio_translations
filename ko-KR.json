@@ -1337,6 +1337,11 @@
       }
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "제한된 앱 사용 정보를 Sonoran Software 및 Google Analytics와 공유합니다. 이 정보는 광고나 앱 간 추적에 사용되지 않습니다.",
+    "title": "사용량 및 캠페인 측정",
+    "webDescription": "사용량 분석 및 캠페인 측정을 허용합니다. 커뮤니티 생성 및 이후 유료 업그레이드가 포함됩니다. 이 옵션을 끄면 향후 측정이 중지됩니다. OpenAI 광고 측정은 자격이 있는 웹 방문으로 제한됩니다."
+  },
   "mobiPreview": {
     "channelName": "작전 TAC 1",
     "citywide": "전 도시",

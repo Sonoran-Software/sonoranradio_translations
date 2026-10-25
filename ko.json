@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "보코더 오디오 미리보기는 아직 사용할 수 없습니다."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Sonoran Software 및 Google Analytics와 제한된 앱 사용 데이터를 공유합니다. 이는 광고 또는 앱 간 추적에 사용되지 않습니다.",
+    "title": "사용량 및 캠페인 측정",
+    "webDescription": "사용량 분석 및 캠페인 측정을 허용합니다. 커뮤니티 생성 및 이후 유료 업그레이드를 포함합니다. 이 기능을 끄면 이후 측정이 중지됩니다. OpenAI 광고 측정은 적격한 웹 방문으로 제한됩니다."
+  },
   "memberTable": {
     "banned": "차단됨",
     "cancel": "취소",
