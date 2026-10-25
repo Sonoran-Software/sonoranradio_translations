@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Vocoder 音频预览尚不可用。"
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "与 Sonoran Software 和 Google Analytics 分享有限的应用使用情况。这不会用于广告或跨应用跟踪。",
+    "title": "使用情况和活动衡量",
+    "webDescription": "允许使用分析和活动测量，包括社区创建和后续付费升级。关闭此项将停止未来测量。OpenAI 广告测量仅限符合条件的网页访问。"
+  },
   "memberTable": {
     "banned": "已封禁",
     "cancel": "取消",

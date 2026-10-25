@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Náhled zvuku vokodéru zatím není k dispozici."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Sdílejte omezené používání aplikace se Sonoran Software a Google Analytics. Nepoužívá se to pro reklamu ani sledování napříč aplikacemi.",
+    "title": "Měření používání a kampaní",
+    "webDescription": "Povolit analýzu používání a měření kampaní, včetně vytváření komunity a pozdějších placených upgradů. Vypnutí této možnosti zastaví budoucí měření. Měření reklam OpenAI je omezeno na způsobilé webové návštěvy."
+  },
   "memberTable": {
     "banned": "Zakázáno",
     "cancel": "Zrušit",

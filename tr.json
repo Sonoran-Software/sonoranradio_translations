@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Vokoder ses önizlemesi henüz kullanılamıyor."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Sınırlı uygulama kullanımını Sonoran Software ve Google Analytics ile paylaşın. Bu reklam veya uygulamalar arası izleme için kullanılmaz.",
+    "title": "Kullanım ve kampanya ölçümü",
+    "webDescription": "Kullanım analitiğine ve kampanya ölçümüne izin ver, buna topluluk oluşturma ve daha sonra ücretli yükseltmeler dahildir. Bunu kapatmak gelecekteki ölçümü durdurur. OpenAI reklam ölçümü yalnızca uygun web ziyaretleriyle sınırlıdır."
+  },
   "memberTable": {
     "banned": "Yasaklandı",
     "cancel": "İptal",

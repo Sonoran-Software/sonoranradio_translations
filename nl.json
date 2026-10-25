@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Vocoder-audiovoorbeeld is nog niet beschikbaar."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Deel beperkt app-gebruik met Sonoran Software en Google Analytics. Dit wordt niet gebruikt voor advertenties of tracking tussen apps.",
+    "title": "Gebruik en campagnemeting",
+    "webDescription": "Sta gebruiksanalyses en campagnemeting toe, inclusief communitycreatie en latere betaalde upgrades. Door dit uit te schakelen, stopt toekomstige meting. OpenAI-admeting is beperkt tot in aanmerking komende webbezoeken."
+  },
   "memberTable": {
     "banned": "Verbannen",
     "cancel": "Annuleren",
