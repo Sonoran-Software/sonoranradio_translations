@@ -2359,6 +2359,11 @@
       "vocoderPreviewWarning": "Vocoder audio preview is not yet available."
     }
   },
+  "measurementPreferences": {
+    "mobileDescription": "Share limited app usage with Sonoran Software and Google Analytics. This is not used for advertising or cross-app tracking.",
+    "title": "Usage and campaign measurement",
+    "webDescription": "Allow usage analytics and campaign measurement, including community creation and later paid upgrades. Turning this off stops future measurement. OpenAI ad measurement is limited to eligible web visits."
+  },
   "memberTable": {
     "banned": "Banned",
     "cancel": "Cancel",
@@ -2813,10 +2818,5 @@
     "postEQ": "Post EQ",
     "preEQ": "Pre EQ",
     "vocoder": "Vocoder"
-  },
-  "measurementPreferences": {
-    "title": "Usage and campaign measurement",
-    "mobileDescription": "Share limited app usage with Sonoran Software and Google Analytics. This is not used for advertising or cross-app tracking.",
-    "webDescription": "Allow usage analytics and campaign measurement, including community creation and later paid upgrades. Turning this off stops future measurement. OpenAI ad measurement is limited to eligible web visits."
   }
 }
