@@ -985,7 +985,10 @@
       "title": "Custom Voice Effects"
     },
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Configure signal loss in tunnels, underground locations, and much more with live updates from our easy-to-use configuration panel!",
+      "previewSelector": "Configuration preview",
+      "sfx": "SFX",
       "title": "Configurations"
     },
     "Desktop_Overlay": {
