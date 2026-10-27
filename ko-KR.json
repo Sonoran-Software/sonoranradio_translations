@@ -757,7 +757,10 @@
   "landingPage": {
     "armaIntegrationDescription": "Arma 3 Integrations로 Sonoran Radio를 Arma 3에 직접 연결하세요.",
     "configurations": {
+      "cloud": "클라우드",
       "desc": "터널, 지하 공간 등에서의 신호 손실을 간편한 설정 패널의 실시간 업데이트로 설정하세요!",
+      "previewSelector": "설정 미리보기",
+      "sfx": "사운드 효과",
       "title": "설정"
     },
     "developers": {

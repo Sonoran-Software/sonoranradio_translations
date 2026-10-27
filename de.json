@@ -1021,7 +1021,10 @@
       "title": "Cloud-Konfigurationen"
     },
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Konfigurieren Sie Signalverlust in Tunneln, unterirdischen Orten und vielem mehr mit Live-Updates aus unserem einfach zu bedienenden Konfigurationsbereich!",
+      "previewSelector": "Konfigurationsvorschau",
+      "sfx": "SFX",
       "title": "Konfigurationen"
     },
     "Customizable_SFX": {

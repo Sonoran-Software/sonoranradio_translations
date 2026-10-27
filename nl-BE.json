@@ -757,7 +757,10 @@
   "landingPage": {
     "armaIntegrationDescription": "Verbind Sonoran Radio rechtstreeks met Arma 3 met de Arma 3-integraties.",
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Stel signaalverlies in tunnels, ondergrondse locaties en nog veel meer in met live updates vanuit ons gebruiksvriendelijke configuratiepaneel!",
+      "previewSelector": "Voorbeeld van configuratie",
+      "sfx": "SFX",
       "title": "Configuraties"
     },
     "developers": {

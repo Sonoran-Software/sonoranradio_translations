@@ -757,7 +757,10 @@
   "landingPage": {
     "armaIntegrationDescription": "Connect Sonoran Radio directly to Arma 3 with the Arma 3 Integrations.",
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Configure signal loss in tunnels, underground locations, and much more with live updates from our easy-to-use configuration panel!",
+      "previewSelector": "Configuration preview",
+      "sfx": "SFX",
       "title": "Configurations"
     },
     "developers": {
