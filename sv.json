@@ -1021,7 +1021,10 @@
       "title": "Molnkonfigurationer"
     },
     "configurations": {
+      "cloud": "Moln",
       "desc": "Konfigurera signalförlust i tunnlar, underjordiska platser och mycket mer med liveuppdateringar från vår lättanvända konfigurationspanel!",
+      "previewSelector": "Konfigurationsförhandsgranskning",
+      "sfx": "Ljudeffekter",
       "title": "Konfigurationer"
     },
     "Customizable_SFX": {

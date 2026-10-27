@@ -1021,7 +1021,10 @@
       "title": "Konfiguracje chmurowe"
     },
     "configurations": {
+      "cloud": "Chmura",
       "desc": "Konfiguruj utratę sygnału w tunelach, podziemnych lokalizacjach i wielu innych miejscach dzięki aktualizacjom na żywo z naszego łatwego w użyciu panelu konfiguracji!",
+      "previewSelector": "Podgląd konfiguracji",
+      "sfx": "Efekty dźwiękowe",
       "title": "Konfiguracje"
     },
     "Customizable_SFX": {

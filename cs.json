@@ -1021,7 +1021,10 @@
       "title": "Konfigurace cloudu"
     },
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Konfigurujte ztrátu signálu v tunelech, podzemních prostorech a mnohem více s živými aktualizacemi z našeho snadno použitelného konfiguračního panelu!",
+      "previewSelector": "Náhled konfigurace",
+      "sfx": "SFX",
       "title": "Konfigurace"
     },
     "Customizable_SFX": {

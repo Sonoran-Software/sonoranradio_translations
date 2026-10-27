@@ -1021,7 +1021,10 @@
       "title": "Skykonfigurasjoner"
     },
     "configurations": {
+      "cloud": "Sky",
       "desc": "Konfigurer signaltap i tunneler, underjordiske steder og mye mer med liveoppdateringer fra vårt brukervennlige konfigurasjonspanel!",
+      "previewSelector": "Konfigurasjonsforhåndsvisning",
+      "sfx": "Lydeffekter",
       "title": "Konfigurasjoner"
     },
     "Customizable_SFX": {

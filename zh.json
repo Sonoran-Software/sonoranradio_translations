@@ -1021,7 +1021,10 @@
       "title": "云配置"
     },
     "configurations": {
+      "cloud": "云端",
       "desc": "通过我们易于使用的配置面板，配置隧道、地下位置等更多场景的信号丢失，并获取实时更新！",
+      "previewSelector": "配置预览",
+      "sfx": "音效",
       "title": "配置"
     },
     "Customizable_SFX": {

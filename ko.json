@@ -1021,7 +1021,10 @@
       "title": "클라우드 구성"
     },
     "configurations": {
+      "cloud": "클라우드",
       "desc": "터널, 지하 위치 등에서 신호 손실을 쉽게 사용할 수 있는 구성 패널의 실시간 업데이트로 구성하세요!",
+      "previewSelector": "구성 미리보기",
+      "sfx": "SFX",
       "title": "구성"
     },
     "Customizable_SFX": {

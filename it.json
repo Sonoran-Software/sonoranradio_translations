@@ -1021,7 +1021,10 @@
       "title": "Configurazioni cloud"
     },
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Configura la perdita di segnale in gallerie, luoghi sotterranei e molto altro con aggiornamenti in tempo reale dal nostro pannello di configurazione facile da usare!",
+      "previewSelector": "Anteprima configurazione",
+      "sfx": "Effetti sonori",
       "title": "Configurazioni"
     },
     "Customizable_SFX": {

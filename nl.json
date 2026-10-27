@@ -1021,7 +1021,10 @@
       "title": "Cloudconfiguraties"
     },
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Configureer signaalverlies in tunnels, ondergrondse locaties en nog veel meer met live updates vanuit ons eenvoudig te gebruiken configuratiepaneel!",
+      "previewSelector": "Configuratievoorbeeld",
+      "sfx": "SFX",
       "title": "Configuraties"
     },
     "Customizable_SFX": {

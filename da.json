@@ -1021,7 +1021,10 @@
       "title": "Cloud-konfigurationer"
     },
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Konfigurer signal tab i tunneller, underjordiske steder og meget mere med live-opdateringer fra vores brugervenlige konfigurationspanel!",
+      "previewSelector": "Konfigurationsforhåndsvisning",
+      "sfx": "Lydeffekter",
       "title": "Konfigurationer"
     },
     "Customizable_SFX": {
