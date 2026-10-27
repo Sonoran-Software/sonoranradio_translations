@@ -1021,7 +1021,10 @@
       "title": "Pilvikokoonpanot"
     },
     "configurations": {
+      "cloud": "Pilvi",
       "desc": "Konfiguroi signaalin menetys tunneleissa, maanalaisissa paikoissa ja paljon muuta reaaliaikaisilla päivityksillä helppokäyttöisestä asetuspaneelistamme!",
+      "previewSelector": "Konfiguraation esikatselu",
+      "sfx": "Äänitehosteet",
       "title": "Konfiguroinnit"
     },
     "Customizable_SFX": {

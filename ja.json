@@ -1021,7 +1021,10 @@
       "title": "クラウド設定"
     },
     "configurations": {
+      "cloud": "クラウド",
       "desc": "トンネル、地下の場所などでの信号損失を簡単に使える設定パネルでリアルタイム更新しながら設定！",
+      "previewSelector": "設定プレビュー",
+      "sfx": "SFX",
       "title": "設定"
     },
     "Customizable_SFX": {

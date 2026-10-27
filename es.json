@@ -757,7 +757,10 @@
   "landingPage": {
     "armaIntegrationDescription": "Conecta Sonoran Radio directamente a Arma 3 con las integraciones de Arma 3.",
     "configurations": {
+      "cloud": "Nube",
       "desc": "Configura la pérdida de señal en túneles, lugares subterráneos y mucho más con actualizaciones en vivo desde nuestro panel de configuración fácil de usar!",
+      "previewSelector": "Vista previa de la configuración",
+      "sfx": "Efectos de sonido",
       "title": "Configuraciones"
     },
     "developers": {

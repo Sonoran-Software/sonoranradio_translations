@@ -1021,7 +1021,10 @@
       "title": "Configurations cloud"
     },
     "configurations": {
+      "cloud": "Cloud",
       "desc": "Configurez la perte de signal dans les tunnels, les lieux souterrains et bien plus encore avec des mises à jour en direct depuis notre panneau de configuration facile à utiliser !",
+      "previewSelector": "Aperçu de la configuration",
+      "sfx": "SFX",
       "title": "Configurations"
     },
     "Customizable_SFX": {

@@ -1021,7 +1021,10 @@
       "title": "Bulut Yapılandırmaları"
     },
     "configurations": {
+      "cloud": "Bulut",
       "desc": "Tünellerde, yeraltı konumlarında ve çok daha fazlasında sinyal kaybını kolayca kullanılabilen yapılandırma panelimizden canlı güncellemelerle yapılandırın!",
+      "previewSelector": "Yapılandırma önizlemesi",
+      "sfx": "Ses Efektleri",
       "title": "Yapılandırmalar"
     },
     "Customizable_SFX": {

@@ -757,7 +757,10 @@
   "landingPage": {
     "armaIntegrationDescription": "使用 Arma 3 集成功能将 Sonoran Radio 直接连接到 Arma 3。",
     "configurations": {
+      "cloud": "云端",
       "desc": "通过我们易于使用的配置面板，实时更新配置隧道、地下场所等环境中的信号丢失！",
+      "previewSelector": "配置预览",
+      "sfx": "音效",
       "title": "配置"
     },
     "developers": {

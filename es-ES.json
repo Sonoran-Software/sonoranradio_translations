@@ -1021,7 +1021,10 @@
       "title": "Configuraciones de la nube"
     },
     "configurations": {
+      "cloud": "Nube",
       "desc": "¡Configura la pérdida de señal en túneles, ubicaciones subterráneas y mucho más con actualizaciones en tiempo real desde nuestro panel de configuración fácil de usar!",
+      "previewSelector": "Vista previa de la configuración",
+      "sfx": "FX de sonido",
       "title": "Configuraciones"
     },
     "Customizable_SFX": {
