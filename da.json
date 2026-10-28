@@ -1168,6 +1168,15 @@
       "desc": "Stoppet i en færdselskontrol? Du vil høre den ægte radiotrafik, når en betjent har en aktiv radio i nærheden!",
       "title": "Hør radiotrafik i nærheden"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "Desktop-overlayet giver dig mulighed for at se din radio oven på ethvert spil på Windows og OSX for en mere fordybende oplevelse.",
+      "descriptionOverlayAi": "Overlay AI giver dig mulighed for at skabe både en brugerdefineret radio-ramme og skærm-UI med referencebilleder og en prompt. Derefter kan du forfine designet med AI eller manuelt, indtil du har færdiggjort din helt egen radio-overlay!",
+      "desktopOverlay": "Skrivebords-overlay",
+      "desktopOverlayAlt": "Sonoran Radio skrivebords-overlejringsforhåndsvisning",
+      "overlayAi": "Overlejring AI",
+      "overlayAiAlt": "Sonoran Radio overlejrings-AI-bygger forhåndsvisning",
+      "title": "Radiooverlejring"
+    },
     "scannersAndJammers": {
       "desc": "Scannere i spillet giver dig og andre i nærheden mulighed for at lytte med på radiotrafik! Eller konfigurér brugerdefinerede genstande i spillet til at jamme nærliggende radiosignaler!",
       "title": "Scannere og jammere"

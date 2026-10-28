@@ -1168,6 +1168,15 @@
       "desc": "Pysäytetty liikennevalvonnassa? Kuulet oikean radioliikenteen, kun poliisilla on aktiivinen radio lähellä!",
       "title": "Kuule lähellä oleva radiokeskustelu"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "Työpöytäpeite mahdollistaa radion katselun minkä tahansa pelin päällä Windowsissa ja OSX:ssä elämyksellistä käyttökokemusta varten.",
+      "descriptionOverlayAi": "Overlay AI:n avulla voit luoda sekä mukautetun radiokehyksen että näyttö-UI:n viitekuvien ja kehotteen avulla. Sitten voit viimeistellä suunnittelun AI:lla tai manuaalisesti, kunnes olet saanut aivan oman radio-overlayn!",
+      "desktopOverlay": "Työpöytäkysely",
+      "desktopOverlayAlt": "Sonoran Radio -työpöytäpeiton esikatselu",
+      "overlayAi": "Päällekkäisikkuna AI",
+      "overlayAiAlt": "Sonoran Radio -peittokuvan AI-rakentajan esikatselu",
+      "title": "Radio-ylikerros"
+    },
     "scannersAndJammers": {
       "desc": "Pelinsisäiset skannerit antavat sinun ja muiden lähellä olevien kuunnella radioliikennettä! Tai määritä mukautettuja pelinsisäisiä esineitä häiritsemään lähellä olevia radiosignaaleja!",
       "title": "Skannerit ja häirintälaitteet"

@@ -816,6 +816,15 @@
     "meta": {
       "imageAlt": "Sonoran Radio 派遣面板和桌面電台覆蓋"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "桌面覆蓋層可讓你在 Windows 和 OSX 上於任何遊戲之上檢視你的無線電，享受更沉浸的體驗。",
+      "descriptionOverlayAi": "Overlay AI 讓你可以使用參考圖片和提示詞建立自訂的無線電框架與螢幕 UI。接著可用 AI 或手動微調設計，直到完成你專屬的無線電覆蓋層！",
+      "desktopOverlay": "桌面覆蓋層",
+      "desktopOverlayAlt": "Sonoran Radio 桌面覆蓋預覽",
+      "overlayAi": "覆蓋層 AI",
+      "overlayAiAlt": "Sonoran Radio 覆蓋 AI 建構器預覽",
+      "title": "Radio 覆蓋層"
+    },
     "Scanners": {
       "desc": "遊戲內掃描器可讓你和附近的其他人收聽無線電通訊！"
     },

@@ -1168,6 +1168,15 @@
       "desc": "Parado numa abordagem de trânsito? Você vai ouvir a verdadeira conversa pelo rádio quando um policial tiver um rádio ativo por perto!",
       "title": "Ouça as Conversas de Rádio Próximas"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "A sobreposição da área de trabalho permite ver sua rádio sobre qualquer jogo no Windows e no OSX para uma experiência imersiva.",
+      "descriptionOverlayAi": "Overlay AI permite que você crie tanto uma moldura de rádio personalizada quanto uma interface de tela com imagens de referência e um prompt. Depois, refine o design com a IA ou manualmente até concluir seu próprio overlay de rádio!",
+      "desktopOverlay": "Sobreposição para desktop",
+      "desktopOverlayAlt": "Pré-visualização da sobreposição de desktop Sonoran Radio",
+      "overlayAi": "IA de Sobreposição",
+      "overlayAiAlt": "Pré-visualização do construtor de IA da sobreposição Sonoran Radio",
+      "title": "Sobreposição de rádio"
+    },
     "scannersAndJammers": {
       "desc": "Os scanners no jogo permitem que você e outras pessoas próximas escutem o tráfego de rádio! Ou configure itens personalizados no jogo para bloquear os sinais de rádio próximos!",
       "title": "Scanners e Bloqueadores"

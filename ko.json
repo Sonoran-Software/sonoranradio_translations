@@ -1168,6 +1168,15 @@
       "desc": "교통 단속에 걸리셨나요? 경찰관이 활성화된 무전기를 근처에 두면 실제 무전 교신을 들을 수 있습니다!",
       "title": "근처 무전 대화 듣기"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "데스크톱 오버레이를 사용하면 Windows 및 OSX에서 어떤 게임 위에도 라디오를 띄워 몰입감 있는 경험을 할 수 있습니다.",
+      "descriptionOverlayAi": "Overlay AI를 사용하면 참고 이미지와 프롬프트로 맞춤형 라디오 프레임과 화면 UI를 모두 만들 수 있습니다. 그런 다음 AI로 또는 수동으로 디자인을 다듬어 나만의 라디오 오버레이를 완성하세요!",
+      "desktopOverlay": "데스크톱 오버레이",
+      "desktopOverlayAlt": "Sonoran Radio 데스크톱 오버레이 미리보기",
+      "overlayAi": "오버레이 AI",
+      "overlayAiAlt": "Sonoran Radio 오버레이 AI 빌더 미리보기",
+      "title": "라디오 오버레이"
+    },
     "scannersAndJammers": {
       "desc": "게임 내 스캐너를 사용하면 당신과 주변의 다른 사람들이 무전 통신을 들을 수 있습니다! 또는 주변 무전 신호를 방해하도록 커스텀 게임 내 아이템을 설정할 수 있습니다!",
       "title": "스캐너와 재머"

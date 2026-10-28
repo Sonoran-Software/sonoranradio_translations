@@ -1168,6 +1168,15 @@
       "desc": "Trafik kontrolünde durduruldunuz mu? Bir memurun yakınında aktif bir telsiz olduğunda gerçek telsiz konuşmalarını duyacaksınız!",
       "title": "Yakındaki Radyo Konuşmalarını Duyun"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "Masaüstü kaplaması, sürükleyici bir deneyim için radyonuzu Windows ve OSX'te herhangi bir oyunun üstünde görüntülemenizi sağlar.",
+      "descriptionOverlayAi": "Overlay AI, referans görseller ve bir istem ile hem özel bir radyo çerçevesi hem de ekran arayüzü oluşturmanı sağlar. Ardından tasarımı AI ile veya manuel olarak, kendi radyo overlay'ini tamamlayana kadar geliştir!",
+      "desktopOverlay": "Masaüstü Kaplama",
+      "desktopOverlayAlt": "Sonoran Radio masaüstü kaplama önizlemesi",
+      "overlayAi": "Katman AI",
+      "overlayAiAlt": "Sonoran Radio kaplama AI oluşturucu önizlemesi",
+      "title": "Radyo Katmanı"
+    },
     "scannersAndJammers": {
       "desc": "Oyun içi tarayıcılar, senin ve yakındaki diğerlerinin radyo trafiğini dinlemesini sağlar! Ya da yakındaki radyo sinyallerini bozmak için özel oyun içi öğeler yapılandır!",
       "title": "Tarayıcılar ve Karıştırıcılar"
