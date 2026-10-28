@@ -1168,6 +1168,15 @@
       "desc": "Contrôlé lors d'un contrôle routier ? Vous entendrez les vraies communications radio lorsqu'un agent a une radio active à proximité !",
       "title": "Entendre les conversations radio à proximité"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "La superposition de bureau vous permet de voir votre radio au-dessus de n'importe quel jeu sur Windows et OSX pour une expérience immersive.",
+      "descriptionOverlayAi": "Overlay AI vous permet de créer à la fois un cadre radio personnalisé et une interface utilisateur d’écran avec des images de référence et une invite. Puis affinez le design avec l’IA ou manuellement jusqu’à ce que vous ayez terminé votre propre overlay radio !",
+      "desktopOverlay": "Superposition de bureau",
+      "desktopOverlayAlt": "Aperçu de la superposition de bureau Sonoran Radio",
+      "overlayAi": "Superposition IA",
+      "overlayAiAlt": "Aperçu du générateur IA de superposition Sonoran Radio",
+      "title": "Superposition radio"
+    },
     "scannersAndJammers": {
       "desc": "Les scanners en jeu vous permettent, à vous et aux autres à proximité, d'écouter les communications radio ! Ou configurez des objets en jeu personnalisés pour brouiller les signaux radio à proximité !",
       "title": "Scanners et brouilleurs"

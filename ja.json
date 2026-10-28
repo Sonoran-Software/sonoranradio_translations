@@ -1168,6 +1168,15 @@
       "desc": "交通停止で止められた？ 警官が近くでアクティブな無線を使っているときの本物の無線チャッターが聞けます！",
       "title": "近くのラジオの雑談を聞く"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "デスクトップオーバーレイを使うと、Windows と OSX の任意のゲームの上にラジオを表示して、没入感のある体験を楽しめます。",
+      "descriptionOverlayAi": "Overlay AI では、参考画像とプロンプトを使って、カスタムのラジオフレームと画面 UI の両方を作成できます。その後、AI で、または手動でデザインを洗練させ、あなただけのラジオオーバーレイを完成させましょう！",
+      "desktopOverlay": "デスクトップ オーバーレイ",
+      "desktopOverlayAlt": "Sonoran Radio デスクトップオーバーレイプレビュー",
+      "overlayAi": "オーバーレイ AI",
+      "overlayAiAlt": "Sonoran Radio オーバーレイ AI ビルダープレビュー",
+      "title": "Radioオーバーレイ"
+    },
     "scannersAndJammers": {
       "desc": "ゲーム内スキャナーを使うと、自分や周囲の人が無線通信を聞くことができます! または、周囲の無線信号を妨害するために、カスタムのゲーム内アイテムを設定できます!",
       "title": "スキャナーと ジャマー"

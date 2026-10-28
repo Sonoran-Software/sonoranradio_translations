@@ -1168,6 +1168,15 @@
       "desc": "Zatrzymany podczas kontroli drogowej? Usłyszysz prawdziwe radiowe komunikaty, gdy funkcjonariusz ma w pobliżu aktywne radio!",
       "title": "Słysz rozmowy radiowe w pobliżu"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "Nakładka na pulpit pozwala wyświetlać radio na wierzchu każdej gry w systemach Windows i OSX, zapewniając wciągające wrażenia.",
+      "descriptionOverlayAi": "Overlay AI pozwala Ci stworzyć zarówno niestandardową ramkę radia, jak i ekranowy interfejs UI za pomocą obrazów referencyjnych i promptu. Następnie dopracuj projekt z pomocą AI lub ręcznie, aż ukończysz swój własny overlay radia!",
+      "desktopOverlay": "Nakładka na pulpit",
+      "desktopOverlayAlt": "Podgląd nakładki desktopowej Sonoran Radio",
+      "overlayAi": "Nakładka AI",
+      "overlayAiAlt": "Podgląd kreatora AI nakładki Sonoran Radio",
+      "title": "Nakładka radia"
+    },
     "scannersAndJammers": {
       "desc": "Skanery w grze pozwalają tobie i innym w pobliżu podsłuchiwać ruch radiowy! Albo skonfiguruj niestandardowe przedmioty w grze, aby zakłócać pobliskie sygnały radiowe!",
       "title": "Skanery i zagłuszacze"

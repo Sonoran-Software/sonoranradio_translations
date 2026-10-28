@@ -1168,6 +1168,15 @@
       "desc": "Bei einer Verkehrskontrolle angehalten? Du hörst das echte Funkgespräch, wenn ein Beamter ein aktives Funkgerät in der Nähe hat!",
       "title": "Funkgespräche in der Nähe hören"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "Das Desktop-Overlay ermöglicht es dir, dein Radio über jedem Spiel unter Windows und OSX anzuzeigen, für ein immersives Erlebnis.",
+      "descriptionOverlayAi": "Overlay AI ermöglicht es dir, sowohl einen benutzerdefinierten Radio-Rahmen als auch eine Bildschirm-UI mit Referenzbildern und einem Prompt zu erstellen. Verfeinere dann das Design mit der KI oder manuell, bis du dein ganz eigenes Radio-Overlay fertiggestellt hast!",
+      "desktopOverlay": "Desktop-Overlay",
+      "desktopOverlayAlt": "Sonoran Radio-Desktop-Overlay-Vorschau",
+      "overlayAi": "Overlay KI",
+      "overlayAiAlt": "Sonoran Radio Overlay KI-Builder-Vorschau",
+      "title": "Funk-Overlay"
+    },
     "scannersAndJammers": {
       "desc": "Scanner im Spiel ermöglichen dir und anderen in der Nähe, den Funkverkehr mitzuhören! Oder konfiguriere benutzerdefinierte In-Game-Items, um nahegelegene Funksignale zu stören!",
       "title": "Scanner und Störsender"
