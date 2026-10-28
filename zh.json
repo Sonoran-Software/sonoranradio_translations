@@ -1168,6 +1168,15 @@
       "desc": "被交通拦停了？当警官附近有正在使用的对讲机时，你会听到真实的电台通话！",
       "title": "聆听附近的无线电闲谈"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "桌面覆盖层可让你在 Windows 和 OSX 上的任何游戏之上查看你的收音机，获得沉浸式体验。",
+      "descriptionOverlayAi": "Overlay AI 允许您通过参考图片和提示词创建自定义的无线电边框和屏幕 UI。然后使用 AI 或手动优化设计，直到完成您专属的无线电叠加层！",
+      "desktopOverlay": "桌面浮层",
+      "desktopOverlayAlt": "Sonoran Radio 桌面悬浮层预览",
+      "overlayAi": "覆盖层 AI",
+      "overlayAiAlt": "Sonoran Radio 悬浮层 AI 构建器预览",
+      "title": "电台覆盖层"
+    },
     "scannersAndJammers": {
       "desc": "游戏内扫描器让你和附近的其他人可以监听无线电通信！或者配置自定义游戏内物品来干扰附近的无线电信号！",
       "title": "扫描器和干扰器"

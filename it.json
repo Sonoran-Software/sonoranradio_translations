@@ -1168,6 +1168,15 @@
       "desc": "Fermato in un controllo stradale? Ascolterai il vero traffico radio quando un agente ha una radio attiva nelle vicinanze!",
       "title": "Ascolta i rumori radio nelle vicinanze"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "L'overlay desktop ti consente di visualizzare la tua radio sopra qualsiasi gioco su Windows e OSX per un'esperienza immersiva.",
+      "descriptionOverlayAi": "Overlay AI ti permette di creare sia una cornice radio personalizzata sia un'interfaccia schermo con immagini di riferimento e un prompt. Poi perfeziona il design con l'IA o manualmente finché non avrai completato il tuo overlay radio tutto tuo!",
+      "desktopOverlay": "Sovrapposizione desktop",
+      "desktopOverlayAlt": "Anteprima dell’overlay desktop di Sonoran Radio",
+      "overlayAi": "overlay AI",
+      "overlayAiAlt": "Anteprima del builder AI dell’overlay di Sonoran Radio",
+      "title": "Overlay radio"
+    },
     "scannersAndJammers": {
       "desc": "Gli scanner di gioco consentono a te e agli altri nelle vicinanze di ascoltare il traffico radio! Oppure configura oggetti di gioco personalizzati per disturbare i segnali radio nelle vicinanze!",
       "title": "Scanner e Jammer"

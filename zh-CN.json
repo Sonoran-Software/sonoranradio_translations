@@ -816,6 +816,15 @@
     "meta": {
       "imageAlt": "Sonoran Radio 调度面板和桌面电台覆盖层"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "桌面悬浮层可让你在 Windows 和 OSX 上的任何游戏之上查看你的无线电，带来沉浸式体验。",
+      "descriptionOverlayAi": "Overlay AI 让你可以使用参考图片和提示词创建自定义电台边框和屏幕 UI。然后通过 AI 或手动细化设计，直到完成属于你自己的电台叠加层！",
+      "desktopOverlay": "桌面叠加",
+      "desktopOverlayAlt": "Sonoran Radio 桌面覆盖层预览",
+      "overlayAi": "AI 覆盖层",
+      "overlayAiAlt": "Sonoran Radio 覆盖层 AI 构建器预览",
+      "title": "无线电覆盖层"
+    },
     "Scanners": {
       "desc": "游戏内扫描器可让你和附近的其他人收听无线电通信！"
     },

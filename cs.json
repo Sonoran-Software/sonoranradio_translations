@@ -1168,6 +1168,15 @@
       "desc": "Zastavili vás při silniční kontrole? Uslyšíte skutečný rádiový provoz, když má policista poblíž aktivní rádio!",
       "title": "Slyšte blízký rádiový hovor"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "Překryvná vrstva na ploše vám umožňuje zobrazit rádio nad jakoukoli hrou ve Windows a OS X pro pohlcující zážitek.",
+      "descriptionOverlayAi": "Overlay AI vám umožňuje vytvořit jak vlastní radio rámeček, tak UI obrazovky s referenčními obrázky a promptem. Poté design dolaďte pomocí AI nebo ručně, dokud nedokončíte svůj vlastní radio overlay!",
+      "desktopOverlay": "Překrytí plochy",
+      "desktopOverlayAlt": "Náhled desktopového overlaye Sonoran Radio",
+      "overlayAi": "AI překrytí",
+      "overlayAiAlt": "Náhled AI tvůrce overlaye Sonoran Radio",
+      "title": "Rádiové překrytí"
+    },
     "scannersAndJammers": {
       "desc": "Skenery ve hře umožňují vám i ostatním poblíž poslouchat rádiový provoz! Nebo si nastavte vlastní herní předměty, aby rušily okolní rádiové signály!",
       "title": "Skenery a rušičky"

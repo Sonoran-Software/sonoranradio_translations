@@ -816,6 +816,15 @@
     "meta": {
       "imageAlt": "Sonoran Radio 디스패치 패널 및 데스크톱 라디오 오버레이"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "데스크톱 오버레이를 사용하면 Windows와 OSX에서 어떤 게임 위에도 라디오를 표시해 몰입감 있는 경험을 할 수 있습니다.",
+      "descriptionOverlayAi": "Overlay AI를 사용하면 참조 이미지와 프롬프트로 커스텀 라디오 프레임과 화면 UI를 만들 수 있습니다. 그런 다음 AI 또는 수동으로 디자인을 다듬어 나만의 라디오 오버레이를 완성하세요!",
+      "desktopOverlay": "데스크톱 오버레이",
+      "desktopOverlayAlt": "Sonoran Radio 데스크톱 오버레이 미리보기",
+      "overlayAi": "오버레이 AI",
+      "overlayAiAlt": "Sonoran Radio 오버레이 AI 빌더 미리보기",
+      "title": "라디오 오버레이"
+    },
     "Scanners": {
       "desc": "게임 내 스캐너를 사용하면 당신과 주변의 다른 사람들이 라디오 통신을 들을 수 있습니다!"
     },

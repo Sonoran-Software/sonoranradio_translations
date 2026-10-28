@@ -1168,6 +1168,15 @@
       "desc": "Aangehouden bij een verkeerscontrole? Je hoort de echte radioverkeer wanneer een agent een actieve radio in de buurt heeft!",
       "title": "Hoor nabijgelegen radiogepraat"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "Met de desktopoverlay kun je je radio bovenop elk spel op Windows en OSX bekijken voor een meeslepende ervaring.",
+      "descriptionOverlayAi": "Overlay AI stelt je in staat om zowel een aangepast radioframe als een scherm-UI te maken met referentiebeelden en een prompt. Verfijn daarna het ontwerp met de AI of handmatig totdat je je geheel eigen radio-overlay hebt voltooid!",
+      "desktopOverlay": "Bureaubladoverlay",
+      "desktopOverlayAlt": "Sonoran Radio desktop-overlay voorbeeld",
+      "overlayAi": "Overlay AI",
+      "overlayAiAlt": "Sonoran Radio overlay AI-builder voorbeeld",
+      "title": "Radio-overlay"
+    },
     "scannersAndJammers": {
       "desc": "Scanners in de game laten jou en anderen in de buurt meeluisteren met radioverkeer! Of stel aangepaste in-game items in om radiosignalen in de buurt te blokkeren!",
       "title": "Scanners en Jammers"

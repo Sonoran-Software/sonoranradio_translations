@@ -816,6 +816,15 @@
     "meta": {
       "imageAlt": "panel de despacho de Sonoran Radio y superposición de radio de escritorio"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "La superposición de escritorio te permite ver tu radio sobre cualquier juego en Windows y OSX para una experiencia inmersiva.",
+      "descriptionOverlayAi": "Overlay AI te permite crear tanto un marco de radio personalizado como una interfaz de pantalla con imágenes de referencia y un prompt. Luego refina el diseño con la IA o manualmente hasta que hayas completado tu propio overlay de radio!",
+      "desktopOverlay": "Superposición de escritorio",
+      "desktopOverlayAlt": "vista previa de la superposición de escritorio de Sonoran Radio",
+      "overlayAi": "Superposición IA",
+      "overlayAiAlt": "vista previa del generador de IA de la superposición de Sonoran Radio",
+      "title": "Superposición de radio"
+    },
     "Scanners": {
       "desc": "¡Los escáneres del juego te permiten a ti y a otros cercanos escuchar el tráfico de radio!"
     },

@@ -1168,6 +1168,15 @@
       "desc": "¿Te han parado en un control de tráfico? ¡Oirás la conversación real por radio cuando un agente tenga una radio activa cerca!",
       "title": "Escucha la radio cercana"
     },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "La superposición de escritorio te permite ver tu radio encima de cualquier juego en Windows y OSX para una experiencia inmersiva.",
+      "descriptionOverlayAi": "Overlay AI te permite crear tanto un marco de radio personalizado como una interfaz de pantalla con imágenes de referencia y un prompt. Después refina el diseño con la IA o manualmente hasta que hayas completado tu propio overlay de radio.",
+      "desktopOverlay": "Superposición de escritorio",
+      "desktopOverlayAlt": "Vista previa de la superposición de escritorio de Sonoran Radio",
+      "overlayAi": "IA de superposición",
+      "overlayAiAlt": "Vista previa del generador de IA de superposición de Sonoran Radio",
+      "title": "superposición de radio"
+    },
     "scannersAndJammers": {
       "desc": "¡Los escáneres del juego te permiten a ti y a otros cercanos escuchar el tráfico de radio! ¡O configura objetos personalizados del juego para bloquear las señales de radio cercanas!",
       "title": "Escáneres y bloqueadores"
