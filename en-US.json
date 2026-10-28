@@ -1101,15 +1101,6 @@
     },
     "fivemRadioIntegration": "Radio Integration",
     "gameIntegrations": "Game Integrations",
-    "radioOverlay": {
-      "descriptionDesktopOverlay": "The desktop overlay allows you to view your radio on top of any game on Windows and OSX for an immersive experience.",
-      "descriptionOverlayAi" : "Overlay AI allows you to create both a custom radio frame and screen UI with reference images and a prompt. Then refine the design with the AI or manually until you have completed your very own radio overlay!", 
-      "desktopOverlay": "Desktop Overlay",
-      "desktopOverlayAlt": "Sonoran Radio desktop overlay preview",
-      "overlayAi": "Overlay AI",
-      "overlayAiAlt": "Sonoran Radio Overlay AI builder preview",
-      "title": "Radio Overlay"
-    },
     "games": {
       "arma3": {
         "description": "Start with free radio channels and a desktop overlay for Arma 3. Preview the Arma integration with mission towers, inventory-linked frames, and terrain signal.",
@@ -1176,6 +1167,15 @@
     "Radio_Chattrer": {
       "desc": "Pulled over in a traffic stop? You will hear the real radio chatter when an officer has an active radio nearby!",
       "title": "Hear Nearby Radio Chatter"
+    },
+    "radioOverlay": {
+      "descriptionDesktopOverlay": "The desktop overlay allows you to view your radio on top of any game on Windows and OSX for an immersive experience.",
+      "descriptionOverlayAi": "Overlay AI allows you to create both a custom radio frame and screen UI with reference images and a prompt. Then refine the design with the AI or manually until you have completed your very own radio overlay!",
+      "desktopOverlay": "Desktop Overlay",
+      "desktopOverlayAlt": "Sonoran Radio desktop overlay preview",
+      "overlayAi": "Overlay AI",
+      "overlayAiAlt": "Sonoran Radio Overlay AI builder preview",
+      "title": "Radio Overlay"
     },
     "scannersAndJammers": {
       "desc": "In-game scanners allow you and others nearby to listen in on radio traffic! Or configure custom in-game items to jam nearby radio signals!",
