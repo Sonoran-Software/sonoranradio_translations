@@ -647,14 +647,12 @@
     "back": "Back",
     "cadFeatures": {
       "dispatchCalls": {
-        "fivemDescription": "View your assigned Sonoran CAD call details in the FiveM radio.",
         "alt": "Dispatch Calls Preview",
         "description": "Attach yourself to a Sonoran CAD dispatch call and view the call details in the radio.",
         "label": "Dispatch Calls"
       },
       "liveMap": {
-        "fivemDescription": "Show FiveM radio towers and their coverage on the Sonoran CAD live map.",
-        "alt": "Sonoran CAD 2D FiveM map with sample units, a dispatch call, and radio towers",
+        "alt": "Placeholder Live Map preview",
         "description": "View the radio towers with the Sonoran CAD live map.",
         "label": "Live Map"
       },
