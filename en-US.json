@@ -895,15 +895,15 @@
     "back": "Back",
     "cadFeatures": {
       "dispatchCalls": {
-        "fivemDescription": "View your assigned Sonoran CAD call details in the FiveM radio.",
         "alt": "Dispatch Calls Preview",
         "description": "Attach yourself to a Sonoran CAD dispatch call and view the call details in the radio.",
+        "fivemDescription": "View your assigned Sonoran CAD call details in the FiveM radio.",
         "label": "Dispatch Calls"
       },
       "liveMap": {
-        "fivemDescription": "Show FiveM radio towers and their coverage on the Sonoran CAD live map.",
         "alt": "Sonoran CAD 2D FiveM map with sample units, a dispatch call, and radio towers",
         "description": "View the radio towers with the Sonoran CAD live map.",
+        "fivemDescription": "Show FiveM radio towers and their coverage on the Sonoran CAD live map.",
         "label": "Live Map"
       },
       "panicButton": {
@@ -1103,15 +1103,6 @@
     },
     "fivemRadioIntegration": "Radio Integration",
     "gameIntegrations": "Game Integrations",
-    "radioOverlay": {
-      "descriptionDesktopOverlay": "The desktop overlay allows you to view your radio on top of any game on Windows and OSX for an immersive experience.",
-      "descriptionOverlayAi": "Overlay AI allows you to create both a custom radio frame and screen UI with reference images and a prompt. Then refine the design with the AI or manually until you have completed your very own radio overlay!",
-      "desktopOverlay": "Desktop Overlay",
-      "desktopOverlayAlt": "Sonoran Radio desktop overlay preview",
-      "overlayAi": "Overlay AI",
-      "overlayAiAlt": "Sonoran Radio Overlay AI builder preview",
-      "title": "Radio Overlay"
-    },
     "games": {
       "arma3": {
         "description": "Start with free radio channels and a desktop overlay for Arma 3. Preview the Arma integration with mission towers, inventory-linked frames, and terrain signal.",
