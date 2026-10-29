@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "调度呼叫预览",
         "description": "将自己附加到 Sonoran CAD 调度通话并在电台中查看通话详情。",
+        "fivemDescription": "在 FiveM 电台中查看你分配的 Sonoran CAD 通话详情。",
         "label": "调度呼叫"
       },
       "liveMap": {
-        "alt": "占位符 Live Map 预览",
+        "alt": "Sonoran CAD 2D FiveM 地图，包含示例单位、调度呼叫和无线电塔",
         "description": "使用 Sonoran CAD 实时地图查看无线电塔。",
+        "fivemDescription": "在 Sonoran CAD 实时地图上显示 FiveM 无线电塔及其覆盖范围。",
         "label": "实时地图"
       },
       "panicButton": {

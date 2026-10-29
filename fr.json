@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "Aperçu des appels de répartition",
         "description": "Attachez-vous à un appel de dispatch Sonoran CAD et consultez les détails de l'appel dans la radio.",
+        "fivemDescription": "Consultez les détails de votre appel Sonoran CAD assigné dans la radio FiveM.",
         "label": "Appels de répartition"
       },
       "liveMap": {
-        "alt": "Aperçu de la carte en direct factice",
+        "alt": "Carte FiveM 2D Sonoran CAD avec unités d'exemple, un appel de dispatch et des tours radio",
         "description": "Voir les tours radio avec la carte en direct Sonoran CAD.",
+        "fivemDescription": "Afficher les tours radio FiveM et leur couverture sur la carte en direct Sonoran CAD.",
         "label": "Carte en direct"
       },
       "panicButton": {

@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "Náhled dispečerských volání",
         "description": "Připojte se k dispečerskému hovoru Sonoran CAD a zobrazte si detaily hovoru v rádiu.",
+        "fivemDescription": "Zobrazte si detaily přiřazeného hovoru Sonoran CAD v rádiu FiveM.",
         "label": "Dispečerská volání"
       },
       "liveMap": {
-        "alt": "Náhled živé mapy zástupný symbol",
+        "alt": "Sonoran CAD 2D FiveM mapa se vzorovými jednotkami, tísňovým voláním a rádiovými věžemi",
         "description": "Zobrazte rádiové věže pomocí živé mapy Sonoran CAD.",
+        "fivemDescription": "Zobrazte rádiové věže FiveM a jejich pokrytí na živé mapě Sonoran CAD.",
         "label": "Živá mapa"
       },
       "panicButton": {

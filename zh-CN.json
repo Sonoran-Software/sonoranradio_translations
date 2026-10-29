@@ -649,11 +649,13 @@
       "dispatchCalls": {
         "alt": "调度呼叫预览",
         "description": "连接到 Sonoran CAD 调度呼叫并在电台中查看呼叫详情。",
+        "fivemDescription": "在 FiveM 电台中查看你分配的 Sonoran CAD 呼叫详情。",
         "label": "调度呼叫"
       },
       "liveMap": {
-        "alt": "占位符 实时地图预览",
+        "alt": "带有示例单位、调度呼叫和无线电塔的 Sonoran CAD 2D FiveM 地图",
         "description": "通过 Sonoran CAD 实时地图查看无线电塔。",
+        "fivemDescription": "在 Sonoran CAD 实时地图上显示 FiveM 无线电塔及其覆盖范围。",
         "label": "实时地图"
       },
       "panicButton": {

@@ -649,11 +649,13 @@
       "dispatchCalls": {
         "alt": "디스패치 콜 미리보기",
         "description": "Sonoran CAD 출동 호출에 연결하고 무전기에서 호출 세부 정보를 확인하세요.",
+        "fivemDescription": "FiveM 무전기에서 할당된 Sonoran CAD 호출 세부 정보를 확인하세요.",
         "label": "디스패치 콜"
       },
       "liveMap": {
-        "alt": "자리표시자 라이브 맵 미리보기",
+        "alt": "샘플 유닛, 디스패치 콜, 무전탑이 있는 Sonoran CAD 2D FiveM 맵",
         "description": "Sonoran CAD 라이브 맵으로 무선 타워를 확인하세요.",
+        "fivemDescription": "Sonoran CAD 라이브 맵에서 FiveM 무선 타워와 그 커버리지를 확인하세요.",
         "label": "실시간 지도"
       },
       "panicButton": {

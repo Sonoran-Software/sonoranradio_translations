@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "Anteprima chiamate di soccorso",
         "description": "Collegati a una chiamata di dispatch Sonoran CAD e visualizza i dettagli della chiamata nella radio.",
+        "fivemDescription": "Visualizza i dettagli della chiamata Sonoran CAD assegnata nella radio FiveM.",
         "label": "Chiamate di soccorso"
       },
       "liveMap": {
-        "alt": "Anteprima mappa live segnaposto",
+        "alt": "mappa 2D FiveM Sonoran CAD con unità di esempio, una chiamata di dispatch e torri radio",
         "description": "Visualizza le torri radio con la mappa live di Sonoran CAD.",
+        "fivemDescription": "Mostra le torri radio FiveM e la loro copertura sulla mappa live di Sonoran CAD.",
         "label": "Mappa in tempo reale"
       },
       "panicButton": {
