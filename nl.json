@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "Preview van dispatchoproepen",
         "description": "Koppel jezelf aan een Sonoran CAD-dispatchoproep en bekijk de oproepdetails in de radio.",
+        "fivemDescription": "Bekijk de details van je toegewezen Sonoran CAD-oproep in de FiveM-radio.",
         "label": "Dispatchoproepen"
       },
       "liveMap": {
-        "alt": "Plaatsvervanger Live Map voorbeeld",
+        "alt": "Sonoran CAD 2D FiveM-kaart met voorbeeldeenheden, een dispatchoproep en radiotorens",
         "description": "Bekijk de radiotorens met de Sonoran CAD-livekaart.",
+        "fivemDescription": "Toon FiveM-radiotorens en hun dekking op de Sonoran CAD-livekaart.",
         "label": "Live kaart"
       },
       "panicButton": {

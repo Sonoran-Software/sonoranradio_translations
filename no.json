@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "DISPONER SAMTALER FORHÅNDSVISNING",
         "description": "Koble deg til et Sonoran CAD-utrykksanrop og se anropsdetaljene i radioen.",
+        "fivemDescription": "Se tildelte Sonoran CAD-anropsdetaljer i FiveM-radioen.",
         "label": "DISPONER SAMTALER"
       },
       "liveMap": {
-        "alt": "Plassholder forhåndsvisning av levende kart",
+        "alt": "Sonoran CAD 2D FiveM-kart med eksempel-enheter, en utrykning og radiotårn",
         "description": "Se radiotårnene med Sonoran CADs live-kart.",
+        "fivemDescription": "Vis FiveM-radiotårn og dekningen deres på Sonoran CADs live-kart.",
         "label": "Live-kart"
       },
       "panicButton": {

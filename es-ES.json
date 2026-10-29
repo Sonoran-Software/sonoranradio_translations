@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "Vista previa de llamadas de despacho",
         "description": "Únete a una llamada de despacho de Sonoran CAD y consulta los detalles de la llamada en la radio.",
+        "fivemDescription": "Consulta los detalles de tu llamada asignada de Sonoran CAD en la radio de FiveM.",
         "label": "Llamadas de despacho"
       },
       "liveMap": {
-        "alt": "Vista previa del mapa en directo de marcador de posición",
+        "alt": "Mapa 2D de FiveM de Sonoran CAD con unidades de ejemplo, una llamada de despacho y torres de radio",
         "description": "Ver las torres de radio con el mapa en vivo de Sonoran CAD.",
+        "fivemDescription": "Muestra las torres de radio de FiveM y su cobertura en el mapa en vivo de Sonoran CAD.",
         "label": "Mapa en vivo"
       },
       "panicButton": {

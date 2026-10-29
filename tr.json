@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "ÇAĞIRMA ÇAĞRILARI ÖNİZLEMESİ",
         "description": "Kendinizi bir Sonoran CAD dispatch çağrısına bağlayın ve çağrı ayrıntılarını radyoda görüntüleyin.",
+        "fivemDescription": "Atanmış Sonoran CAD çağrı ayrıntılarınızı FiveM radyosunda görüntüleyin.",
         "label": "ÇAĞIRMA ÇAĞRILARI"
       },
       "liveMap": {
-        "alt": "Yer Tutucu Canlı Harita önizlemesi",
+        "alt": "Örnek birimler, bir sevk çağrısı ve radyo kuleleriyle Sonoran CAD 2D FiveM haritası",
         "description": "Sonoran CAD canlı haritasıyla radyo kulelerini görüntüleyin.",
+        "fivemDescription": "FiveM radyo kulelerini ve kapsama alanlarını Sonoran CAD canlı haritasında gösterin.",
         "label": "Canlı Harita"
       },
       "panicButton": {

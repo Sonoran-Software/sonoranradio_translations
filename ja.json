@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "ディスパッチ コール プレビュー",
         "description": "Sonoran CAD の出動通話に参加し、ラジオで通話の詳細を表示します。",
+        "fivemDescription": "FiveM ラジオで割り当てられた Sonoran CAD 通話の詳細を表示します。",
         "label": "ディスパッチ コール"
       },
       "liveMap": {
-        "alt": "プレースホルダー ライブマップのプレビュー",
+        "alt": "サンプルユニット、ディスパッチコール、無線塔付きの Sonoran CAD 2D FiveM マップ",
         "description": "Sonoran CAD ライブマップで無線塔を表示します。",
+        "fivemDescription": "Sonoran CAD ライブマップで FiveM の無線塔とそのカバー範囲を表示します。",
         "label": "ライブマップ"
       },
       "panicButton": {

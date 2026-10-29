@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "UTRYCKNINGSSAMTAL FÖRHANDSVISNING",
         "description": "Anslut dig till ett Sonoran CAD-utryckningssamtal och visa samtalsdetaljerna i radion.",
+        "fivemDescription": "Visa detaljerna för ditt tilldelade Sonoran CAD-samtal i FiveM-radion.",
         "label": "UTRYCKNINGSSAMTAL"
       },
       "liveMap": {
-        "alt": "Platshållare för förhandsvisning av livekarta",
+        "alt": "Sonoran CAD 2D FiveM-karta med exempel-enheter, ett dispatch-anrop och radiotorn",
         "description": "Visa radiotornen med Sonoran CAD:s livekarta.",
+        "fivemDescription": "Visa FiveM-radiotornen och deras täckning på Sonoran CAD:s livekarta.",
         "label": "Livekarta"
       },
       "panicButton": {

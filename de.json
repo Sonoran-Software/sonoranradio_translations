@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "Einsatzrufe-Vorschau",
         "description": "Verbinde dich mit einem Sonoran CAD-Dispatch-Anruf und sieh dir die Anrufdetails im Funk an.",
+        "fivemDescription": "Sieh dir die Details deines zugewiesenen Sonoran CAD-Anrufs im FiveM-Funk an.",
         "label": "Einsatzrufe"
       },
       "liveMap": {
-        "alt": "Platzhalter-Live-Karten-Vorschau",
+        "alt": "Sonoran CAD 2D FiveM-Karte mit Beispiel-Einheiten, einem Dispatch-Einsatz und Funktürmen",
         "description": "Sehen Sie die Funktürme mit der Sonoran CAD Live-Karte.",
+        "fivemDescription": "Zeigen Sie FiveM-Funkmasten und ihre Abdeckung auf der Sonoran CAD Live-Karte.",
         "label": "Live-Karte"
       },
       "panicButton": {

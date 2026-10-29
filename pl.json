@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "Podgląd połączeń dyspozytorskich",
         "description": "Dołącz do dyspozytorskiego połączenia Sonoran CAD i wyświetl szczegóły połączenia w radiu.",
+        "fivemDescription": "Wyświetl szczegóły przypisanego połączenia Sonoran CAD w radiu FiveM.",
         "label": "Połączenia dyspozytorskie"
       },
       "liveMap": {
-        "alt": "Podgląd mapy na żywo z zastępczymi danymi",
+        "alt": "Mapa 2D Sonoran CAD FiveM z przykładowymi jednostkami, zgłoszeniem dyspozytorskim i wieżami radiowymi",
         "description": "Wyświetl wieże radiowe na żywej mapie Sonoran CAD.",
+        "fivemDescription": "Pokaż wieże radiowe FiveM i ich zasięg na żywej mapie Sonoran CAD.",
         "label": "Mapa na żywo"
       },
       "panicButton": {

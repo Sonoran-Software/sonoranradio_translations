@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "معاينة مكالمات الإرسال",
         "description": "اربط نفسك بمكالمة إرسال Sonoran CAD واعرض تفاصيل المكالمة في الراديو",
+        "fivemDescription": "اعرض تفاصيل مكالمة Sonoran CAD المخصصة لك في راديو FiveM.",
         "label": "مكالمات الإرسال"
       },
       "liveMap": {
-        "alt": "معاينة الخريطة الحية النائبة",
+        "alt": "خريطة Sonoran CAD ثنائية الأبعاد لـ FiveM مع وحدات نموذجية، ومكالمة إرسال، وأبراج راديو",
         "description": "اعرض أبراج الراديو باستخدام الخريطة المباشرة لـ Sonoran CAD.",
+        "fivemDescription": "اعرض أبراج راديو FiveM وتغطيتها على الخريطة المباشرة لـ Sonoran CAD.",
         "label": "الخريطة المباشرة"
       },
       "panicButton": {

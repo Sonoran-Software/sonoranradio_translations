@@ -897,11 +897,13 @@
       "dispatchCalls": {
         "alt": "LÄHETYS PUHELUIDEN ESIKATSELU",
         "description": "Liity Sonoran CAD:n hälytyskeskuskutsuun ja tarkastele puhelun tietoja radiossa.",
+        "fivemDescription": "Tarkastele sinulle määritetyn Sonoran CAD -kutsun tietoja FiveM-radiossa.",
         "label": "LÄHETYS PUHELUT"
       },
       "liveMap": {
-        "alt": "Paikkamerkki Live Map -esikatselu",
+        "alt": "Sonoran CAD 2D FiveM-kartta esimerkkiyksiköillä, hälytyskutsulla ja radiotorneilla",
         "description": "Näe radiotornit Sonoran CADin live-kartalla.",
+        "fivemDescription": "Näytä FiveM-radiotornit ja niiden kattavuus Sonoran CADin live-kartalla.",
         "label": "Reaaliaikainen kartta"
       },
       "panicButton": {
