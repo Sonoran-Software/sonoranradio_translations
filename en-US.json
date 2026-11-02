@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Explore Integrations",
     "faq": {
       "free": {
-        "answer": "Yes. Dispatch AI is fully available on the Free plan with included monthly credits. Paid plans include higher credit limits.",
+        "answer": "Yes! Dispatch AI is fully available on the Free plan with included monthly credits. Paid plans include higher credit limits.",
         "question": "Is Sonoran Radio free?"
       },
       "guestAccess": {
@@ -1090,9 +1090,9 @@
         "answer": "Sonoran Radio supports integrations with:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM inventories\n-Phone scripts\n-Vehicle displays\n-Big Daddy radio animations",
         "question": "What other integrations are supported?"
       },
-      "outsideFiveM": {
-        "answer": "Yes! Sonoran Radio includes standalone web, desktop, and mobile applications that allow users and dispatchers to connect for any game!",
-        "question": "Does Sonoran Radio work outside of FiveM?"
+      "otherGames": {
+        "answer": "Yes! Sonoran Radio includes standalone applications, a universal desktop overlay, and an open API to allow users and dispatchers to connect for any game.",
+        "question": "Does Sonoran Radio work with any other games?"
       },
       "title": "Frequently Asked Questions"
     },
