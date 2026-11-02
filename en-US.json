@@ -1219,6 +1219,7 @@
     },
     "support": {
       "contactButton": "Contact Support",
+      "contactShort": "Contact",
       "description": "Live chat support is available 7 days a week from real people who understand roleplay communities — with teams in the USA and UK.",
       "features": {
         "humans": "Human support",
@@ -1231,6 +1232,7 @@
       },
       "googleBadge": "Google Reviews",
       "reviewsButton": "Read Google Reviews",
+      "reviewsShort": "Reviews",
       "titleHighlight": "5-Star Support.",
       "titleLead": "Your community deserves",
       "widgetTitle": "Sonoran Support response times"
