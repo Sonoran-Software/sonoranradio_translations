@@ -1094,6 +1094,10 @@
         "answer": "Yes! Sonoran Radio includes standalone applications, a universal desktop overlay, and an open API to allow users and dispatchers to connect for any game.",
         "question": "Does Sonoran Radio work with any other games?"
       },
+      "outsideFiveM": {
+        "answer": "Yes! Sonoran Radio includes standalone web, desktop, and mobile applications that allow users and dispatchers to connect for any game!",
+        "question": "Does Sonoran Radio work outside of FiveM?"
+      },
       "title": "Frequently Asked Questions"
     },
     "fivem": {
