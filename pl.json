@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Przeglądaj integracje",
     "faq": {
       "free": {
-        "answer": "Tak. Dispatch AI jest w pełni dostępne w planie Free z dołączonymi miesięcznymi kredytami. Płatne plany obejmują wyższe limity kredytów.",
+        "answer": "Tak! Dispatch AI jest w pełni dostępne w planie Free z dołączonymi miesięcznymi kredytami. Płatne plany obejmują wyższe limity kredytów.",
         "question": "Czy Sonoran Radio jest darmowe?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio obsługuje integracje z:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-Inwentarze FiveM\n-Skrypty telefoniczne\n-Ekrany pojazdów\n-Animacje radia Big Daddy",
         "question": "Jakie inne integracje są obsługiwane?"
+      },
+      "otherGames": {
+        "answer": "Tak! Sonoran Radio zawiera samodzielne aplikacje, uniwersalny nakładkowy interfejs desktopowy i otwarte API, które pozwalają użytkownikom i dyspozytorom łączyć się dla dowolnej gry.",
+        "question": "Czy Sonoran Radio działa z jakimiś innymi grami?"
       },
       "outsideFiveM": {
         "answer": "Tak! Sonoran Radio zawiera samodzielne aplikacje webowe, desktopowe i mobilne, które pozwalają użytkownikom i dyspozytorom łączyć się dla dowolnej gry!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Kontakt z pomocą",
+      "contactShort": "Kontakt",
       "description": "Obsługa czatu na żywo jest dostępna 7 dni w tygodniu od prawdziwych ludzi, którzy rozumieją społeczności roleplay — z zespołami w USA i UK.",
       "features": {
         "humans": "Wsparcie człowieka",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Opinie Google",
       "reviewsButton": "Przeczytaj opinie Google",
+      "reviewsShort": "Opinie",
       "titleHighlight": "Wsparcie 5-gwiazdkowe.",
       "titleLead": "Twoja społeczność zasługuje",
       "widgetTitle": "Czasy reakcji wsparcia Sonoran"

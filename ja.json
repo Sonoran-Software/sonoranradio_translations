@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "統合を探す",
     "faq": {
       "free": {
-        "answer": "はい。Dispatch AI は無料プランで完全にご利用いただけ、毎月のクレジットも含まれています。有料プランでは、より高いクレジット上限が含まれます。",
+        "answer": "はい! Dispatch AI は、毎月分のクレジット込みで Free プランでも完全に利用できます。Paid プランでは、より多くのクレジット上限が含まれます。",
         "question": "Sonoran Radio は無料ですか?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio は以下との連携をサポートしています:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM インベントリ\n-電話スクリプト\n-車両ディスプレイ\n-Big Daddy radio animations",
         "question": "他にどの連携がサポートされていますか？"
+      },
+      "otherGames": {
+        "answer": "はい！Sonoran Radioには、あらゆるゲームでユーザーとディスパッチャーが接続できる、スタンドアロンアプリ、ユニバーサルなデスクトップオーバーレイ、オープンAPIがあります。",
+        "question": "Sonoran Radioは他のゲームでも使えますか？"
       },
       "outsideFiveM": {
         "answer": "はい！Sonoran Radioには、どのゲームでもユーザーとディスパッチャーが接続できる、スタンドアロンのWeb、デスクトップ、モバイルアプリがあります！",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "サポートに問い合わせる",
+      "contactShort": "お問い合わせ",
       "description": "ライブチャットサポートは、ロールプレイコミュニティを理解している実在のスタッフが 7 日間対応しています — USA と UK のチームで。",
       "features": {
         "humans": "人によるサポート",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Google レビュー",
       "reviewsButton": "Google レビューを読む",
+      "reviewsShort": "レビュー",
       "titleHighlight": "5つ星サポート。",
       "titleLead": "あなたのコミュニティは\nふさわしい",
       "widgetTitle": "Sonoran Support の応答時間"

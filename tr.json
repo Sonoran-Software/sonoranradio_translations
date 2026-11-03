@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Entegrasyonları Keşfet",
     "faq": {
       "free": {
-        "answer": "Evet. Dispatch AI, aylık krediler dahil olmak üzere Ücretsiz planda tamamen kullanılabilir. Ücretli planlar daha yüksek kredi limitleri içerir.",
+        "answer": "Evet! Dispatch AI ücretsiz planda, dahil aylık kredilerle tamamen kullanılabilir. Ücretli planlar daha yüksek kredi limitleri içerir.",
         "question": "Sonoran Radio ücretsiz mi?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio şunlarla entegrasyonları destekler:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM envanterleri\n-Telefon scriptleri\n-Araç ekranları\n-Big Daddy radyo animasyonları",
         "question": "Başka hangi entegrasyonlar destekleniyor?"
+      },
+      "otherGames": {
+        "answer": "Evet! Sonoran Radio, kullanıcıların ve sevk görevlilerinin herhangi bir oyun için bağlanmasını sağlamak üzere bağımsız uygulamalar, evrensel bir masaüstü kaplaması ve açık bir API içerir.",
+        "question": "Sonoran Radio başka oyunlarla çalışır mı?"
       },
       "outsideFiveM": {
         "answer": "Evet! Sonoran Radio, kullanıcıların ve sevk görevlilerinin herhangi bir oyun için bağlanmasını sağlayan bağımsız web, masaüstü ve mobil uygulamaları içerir!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Destekle İletişime Geç",
+      "contactShort": "İletişim",
       "description": "Canlı sohbet desteği, rol yapma topluluklarını anlayan gerçek kişilerden haftanın 7 günü kullanılabilir — ABD ve Birleşik Krallık'taki ekiplerle.",
       "features": {
         "humans": "İnsan desteği",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Google Yorumları",
       "reviewsButton": "Google Yorumlarını Oku",
+      "reviewsShort": "Yorumlar",
       "titleHighlight": "5 Yıldızlı Destek.",
       "titleLead": "Topluluğunuz hak ediyor",
       "widgetTitle": "Sonoran Destek yanıt süreleri"

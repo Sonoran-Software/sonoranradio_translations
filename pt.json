@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Explorar Integrações",
     "faq": {
       "free": {
-        "answer": "Sim. O Dispatch AI está totalmente disponível no plano Gratuito com créditos mensais incluídos. Os planos pagos incluem limites de crédito mais altos.",
+        "answer": "Sim! O Dispatch AI está totalmente disponível no plano Gratuito com créditos mensais incluídos. Os planos pagos incluem limites de créditos mais altos.",
         "question": "O Sonoran Radio é grátis?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio suporta integrações com:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-Inventários FiveM\n-Scripts de telefone\n-Displays de veículo\n-Animações de rádio Big Daddy",
         "question": "Que outras integrações são suportadas?"
+      },
+      "otherGames": {
+        "answer": "Sim! O Sonoran Radio inclui aplicativos independentes, uma sobreposição universal para desktop e uma API aberta para permitir que usuários e despachantes se conectem para qualquer jogo.",
+        "question": "O Sonoran Radio funciona com outros jogos?"
       },
       "outsideFiveM": {
         "answer": "Sim! O Sonoran Radio inclui aplicativos independentes para web, desktop e mobile que permitem que usuários e despachantes se conectem para qualquer jogo!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Contactar Suporte",
+      "contactShort": "Contato",
       "description": "O suporte por chat ao vivo está disponível 7 dias por semana com pessoas reais que entendem comunidades de roleplay — com equipes nos EUA e no Reino Unido.",
       "features": {
         "humans": "Suporte humano",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Avaliações do Google",
       "reviewsButton": "Ler avaliações do Google",
+      "reviewsShort": "Avaliações",
       "titleHighlight": "Suporte 5 estrelas.",
       "titleLead": "Sua comunidade merece",
       "widgetTitle": "Tempos de resposta do Suporte Sonoran"

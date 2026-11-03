@@ -777,7 +777,11 @@
     "exploreIntegrations": "통합 살펴보기",
     "faq": {
       "free": {
-        "answer": "네. Dispatch AI는 무료 플랜에서 포함된 월간 크레딧과 함께 완전히 이용할 수 있습니다. 유료 플랜에는 더 높은 크레딧 한도가 포함됩니다."
+        "answer": "네! Dispatch AI 는 무료 플랜에서 포함된 월간 크레딧과 함께 완전히 이용할 수 있습니다. 유료 플랜에는 더 높은 크레딧 한도가 포함됩니다."
+      },
+      "otherGames": {
+        "answer": "네! Sonoran Radio는 독립 실행형 애플리케이션, 범용 데스크톱 오버레이, 그리고 사용자가 어떤 게임에서도 사용자와 디스패처를 연결할 수 있도록 하는 개방형 API를 포함합니다.",
+        "question": "Sonoran Radio는 다른 게임에서도 작동하나요?"
       }
     },
     "fivem": {
@@ -846,6 +850,7 @@
     },
     "support": {
       "contactButton": "고객 지원 문의",
+      "contactShort": "문의",
       "description": "실시간 채팅 지원은 롤플레이 커뮤니티를 이해하는 실제 사람들로부터 연중무휴 7일 이용할 수 있습니다 — 미국과 영국에 팀이 있습니다.",
       "features": {
         "humans": "사람 지원",
@@ -858,6 +863,7 @@
       },
       "googleBadge": "Google 리뷰",
       "reviewsButton": "Google 리뷰 읽기",
+      "reviewsShort": "리뷰",
       "titleHighlight": "5성급 지원.",
       "titleLead": "귀하의 커뮤니티는 누려야 합니다",
       "widgetTitle": "Sonoran Support 응답 시간"

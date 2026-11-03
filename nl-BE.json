@@ -777,7 +777,11 @@
     "exploreIntegrations": "Ontdek integraties",
     "faq": {
       "free": {
-        "answer": "Ja. Dispatch AI is volledig beschikbaar op het Gratis abonnement met inbegrepen maandelijkse credits. Betaalde abonnementen omvatten hogere creditlimieten."
+        "answer": "Ja! Dispatch AI is volledig beschikbaar in het Gratis abonnement met inbegrepen maandelijkse credits. Betaalde abonnementen bevatten hogere kredietlimieten."
+      },
+      "otherGames": {
+        "answer": "Ja! Sonoran Radio bevat zelfstandige applicaties, een universele desktop-overlay en een open API zodat gebruikers en dispatchers voor elk spel kunnen verbinden.",
+        "question": "Werkt Sonoran Radio met andere games?"
       }
     },
     "fivem": {
@@ -846,6 +850,7 @@
     },
     "support": {
       "contactButton": "Neem contact op met ondersteuning",
+      "contactShort": "Contact opnemen",
       "description": "Live chat-ondersteuning is 7 dagen per week beschikbaar van echte mensen die rollenspelgemeenschappen begrijpen — met teams in de VS en het VK.",
       "features": {
         "humans": "Menselijke ondersteuning",
@@ -858,6 +863,7 @@
       },
       "googleBadge": "Google reviews",
       "reviewsButton": "Google reviews lezen",
+      "reviewsShort": "Reviews",
       "titleHighlight": "5-sterrenondersteuning.",
       "titleLead": "Jouw community verdient",
       "widgetTitle": "Sonoran Support responstijden"

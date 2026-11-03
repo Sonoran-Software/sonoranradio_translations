@@ -777,7 +777,11 @@
     "exploreIntegrations": "探索集成",
     "faq": {
       "free": {
-        "answer": "是。Dispatch AI 在免费方案中完全可用，并包含每月额度。付费方案包含更高的额度上限。"
+        "answer": "是！Dispatch AI 在免费套餐中完全可用，并包含每月额度。付费套餐包含更高的额度上限。"
+      },
+      "otherGames": {
+        "answer": "是的！Sonoran Radio 包括独立应用程序、通用桌面悬浮层，以及开放 API，允许用户和调度员连接到任何游戏。",
+        "question": "Sonoran Radio 是否可与其他游戏一起使用？"
       }
     },
     "fivem": {
@@ -846,6 +850,7 @@
     },
     "support": {
       "contactButton": "联系支持",
+      "contactShort": "联系",
       "description": "由真正了解角色扮演社区的客服人员提供全天候 7 天在线聊天支持——团队位于美国和英国。",
       "features": {
         "humans": "人工支持",
@@ -858,6 +863,7 @@
       },
       "googleBadge": "Google 评价",
       "reviewsButton": "阅读 Google 评价",
+      "reviewsShort": "评价",
       "titleHighlight": "五星支持。",
       "titleLead": "你的社区值得",
       "widgetTitle": "Sonoran 支持响应时间"

@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Integrationen entdecken",
     "faq": {
       "free": {
-        "answer": "Ja. Dispatch AI ist im Free-Tarif mit enthaltenen monatlichen Credits vollständig verfügbar. Bezahlte Tarife umfassen höhere Credit-Limits.",
+        "answer": "Ja! Dispatch AI ist im Free-Tarif vollständig verfügbar und enthält monatliche Credits. Bezahlte Tarife bieten höhere Credit-Limits.",
         "question": "Ist Sonoran Radio kostenlos?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio unterstützt Integrationen mit:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-Inventare\n-Telefonskripte\n-Fahrzeuganzeigen\n-Big-Daddy-Funkanimationen",
         "question": "Welche anderen Integrationen werden unterstützt?"
+      },
+      "otherGames": {
+        "answer": "Ja! Sonoran Radio umfasst eigenständige Anwendungen, ein universelles Desktop-Overlay und eine offene API, die es Nutzern und Disponenten ermöglicht, sich für jedes Spiel zu verbinden.",
+        "question": "Funktioniert Sonoran Radio mit anderen Spielen?"
       },
       "outsideFiveM": {
         "answer": "Ja! Sonoran Radio umfasst eigenständige Web-, Desktop- und Mobile-Apps, die es Nutzern und Disponenten ermöglichen, sich für jedes Spiel zu verbinden!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Support kontaktieren",
+      "contactShort": "Kontakt",
       "description": "Live-Chat-Support ist 7 Tage die Woche von echten Menschen verfügbar, die Rollenspiel-Communities verstehen — mit Teams in den USA und Großbritannien.",
       "features": {
         "humans": "Menschlicher Support",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Google-Bewertungen",
       "reviewsButton": "Google-Bewertungen lesen",
+      "reviewsShort": "Bewertungen",
       "titleHighlight": "5-Sterne-Support.",
       "titleLead": "Deine Community verdient",
       "widgetTitle": "Sonoran-Support-Reaktionszeiten"

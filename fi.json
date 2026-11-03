@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Tutustu integraatioihin",
     "faq": {
       "free": {
-        "answer": "Kyllä. Dispatch AI on täysin käytettävissä Free-sopimuksessa mukana tulevilla kuukausittaisilla krediiteillä. Maksullisiin sopimuksiin sisältyy korkeammat krediittirajat.",
+        "answer": "Kyllä! Dispatch AI on täysin käytettävissä ilmaisella suunnitelmalla, johon sisältyy kuukausittaisia krediittejä. Maksulliset suunnitelmat sisältävät suuremmat krediittirajat.",
         "question": "Onko Sonoran Radio ilmainen?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio tukee integraatioita seuraaviin:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-inventaariot\n-Puhelinskriptit\n-Ajoneuvon näytöt\n-Big Daddy -radiot animaatiot",
         "question": "Mitä muita integraatioita tuetaan?"
+      },
+      "otherGames": {
+        "answer": "Kyllä! Sonoran Radio sisältää erilliset sovellukset, yleisen työpöytäpeittokuvan ja avoimen API:n, joiden avulla käyttäjät ja päivystäjät voivat yhdistää minkä tahansa pelin kanssa.",
+        "question": "Toimiiko Sonoran Radio muiden pelien kanssa?"
       },
       "outsideFiveM": {
         "answer": "Kyllä! Sonoran Radio sisältää erilliset web-, työpöytä- ja mobiilisovellukset, joiden avulla käyttäjät ja päivystäjät voivat yhdistää minkä tahansa pelin kanssa!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Ota yhteyttä tukeen",
+      "contactShort": "Ota yhteyttä",
       "description": "Live-chat-tuki on saatavilla 7 päivää viikossa oikeilta ihmisiltä, jotka ymmärtävät roolipeliyhteisöjä — tiimeillä USA:ssa ja Isossa-Britanniassa.",
       "features": {
         "humans": "Ihmistuki",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Google-arvostelut",
       "reviewsButton": "Lue Google-arvostelut",
+      "reviewsShort": "Arvostelut",
       "titleHighlight": "5 tähden tuki.",
       "titleLead": "Yhteisösi ansaitsee",
       "widgetTitle": "Sonoran-tuen vastausajat"
