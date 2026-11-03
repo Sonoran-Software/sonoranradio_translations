@@ -777,7 +777,11 @@
     "exploreIntegrations": "Explorar integraciones",
     "faq": {
       "free": {
-        "answer": "Sí. Dispatch AI está totalmente disponible en el plan Gratis con créditos mensuales incluidos. Los planes de pago incluyen límites de crédito más altos."
+        "answer": "¡Sí! Dispatch AI está totalmente disponible en el plan Gratis con créditos mensuales incluidos. Los planes de pago incluyen límites de crédito más altos."
+      },
+      "otherGames": {
+        "answer": "¡Sí! Sonoran Radio incluye aplicaciones independientes, una superposición universal de escritorio y una API abierta para permitir que usuarios y despachadores se conecten con cualquier juego.",
+        "question": "¿Sonoran Radio funciona con otros juegos?"
       }
     },
     "fivem": {
@@ -846,6 +850,7 @@
     },
     "support": {
       "contactButton": "Contactar con soporte",
+      "contactShort": "Contactar",
       "description": "El soporte de chat en vivo está disponible los 7 días de la semana por personas reales que entienden las comunidades de roleplay — con equipos en EE. UU. y Reino Unido.",
       "features": {
         "humans": "Soporte humano",
@@ -858,6 +863,7 @@
       },
       "googleBadge": "Reseñas de Google",
       "reviewsButton": "Leer reseñas de Google",
+      "reviewsShort": "Reseñas",
       "titleHighlight": "Soporte de 5 estrellas.",
       "titleLead": "Tu comunidad merece",
       "widgetTitle": "Tiempos de respuesta de soporte de Sonoran"

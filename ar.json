@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "استكشاف التكاملات",
     "faq": {
       "free": {
-        "answer": "نعم. Dispatch AI متاح بالكامل على الخطة المجانية مع أرصدة شهرية مضمّنة. تشمل الخطط المدفوعة حدود أرصدة أعلى.",
+        "answer": "نعم! Dispatch AI متاح بالكامل في الخطة المجانية مع رصيد شهري مشمول. تتضمن الخطط المدفوعة حدود رصيد أعلى.",
         "question": "هل Sonoran Radio مجاني؟"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "يدعم Sonoran Radio التكامل مع:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM inventories\n-Phone scripts\n-Vehicle displays\n-Big Daddy radio animations",
         "question": "ما عمليات التكامل الأخرى المدعومة؟"
+      },
+      "otherGames": {
+        "answer": "نعم! تتضمن Sonoran Radio تطبيقات مستقلة، وتراكب سطح مكتب عالمي، وواجهة API مفتوحة للسماح للمستخدمين وموظفي الإرسال بالاتصال لأي لعبة.",
+        "question": "هل يعمل Sonoran Radio مع أي ألعاب أخرى؟"
       },
       "outsideFiveM": {
         "answer": "نعم! تتضمن Sonoran Radio تطبيقات ويب وسطح مكتب وموبايل مستقلة تتيح للمستخدمين وموظفي الإرسال الاتصال لأي لعبة!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "اتصل بالدعم",
+      "contactShort": "اتصل",
       "description": "يتوفر دعم الدردشة المباشرة 7 أيام في الأسبوع من أشخاص حقيقيين يفهمون مجتمعات لعب الأدوار — مع فرق في الولايات المتحدة والمملكة المتحدة.",
       "features": {
         "humans": "الدعم البشري",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "تقييمات Google",
       "reviewsButton": "قراءة تقييمات Google",
+      "reviewsShort": "التقييمات",
       "titleHighlight": "دعم خمس نجوم.",
       "titleLead": "مجتمعك يستحق",
       "widgetTitle": "أوقات استجابة دعم سونوران"

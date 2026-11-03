@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Prozkoumejte integrace",
     "faq": {
       "free": {
-        "answer": "Ano. Dispatch AI je plně dostupné v bezplatném tarifu s měsíčními kredity v ceně. Placené tarify zahrnují vyšší limity kreditů.",
+        "answer": "Ano! Dispatch AI je na bezplatném tarifu plně dostupné včetně měsíčních kreditů. Placené tarify zahrnují vyšší limity kreditů.",
         "question": "Je Sonoran Radio zdarma?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio podporuje integrace s:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM inventáři\n-telefonními skripty\n-zobrazením vozidel\n-animacemi rádia Big Daddy",
         "question": "Jaké další integrace jsou podporovány?"
+      },
+      "otherGames": {
+        "answer": "Ano! Sonoran Radio obsahuje samostatné aplikace, univerzální desktopový overlay a otevřené API, které umožňují uživatelům i dispečerům připojit se pro jakoukoli hru.",
+        "question": "Funguje Sonoran Radio s nějakými dalšími hrami?"
       },
       "outsideFiveM": {
         "answer": "Ano! Sonoran Radio obsahuje samostatné webové, desktopové a mobilní aplikace, které umožňují uživatelům i dispečerům připojit se pro jakoukoli hru!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Kontaktovat podporu",
+      "contactShort": "Kontakt",
       "description": "Podpora živého chatu je k dispozici 7 dní v týdnu od skutečných lidí, kteří rozumějí komunitám roleplay — s týmy v USA a UK.",
       "features": {
         "humans": "Lidská podpora",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Recenze Google",
       "reviewsButton": "Přečíst recenze Google",
+      "reviewsShort": "Recenze",
       "titleHighlight": "Podpora s 5 hvězdičkami.",
       "titleLead": "Vaše komunita si zaslouží",
       "widgetTitle": "Doby odezvy podpory Sonoran"

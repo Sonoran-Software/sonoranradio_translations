@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Explorar integraciones",
     "faq": {
       "free": {
-        "answer": "Sí. Dispatch AI está totalmente disponible en el plan Gratis con créditos mensuales incluidos. Los planes de pago incluyen límites de crédito más altos.",
+        "answer": "¡Sí! Dispatch AI está totalmente disponible en el plan Free con créditos mensuales incluidos. Los planes de pago incluyen límites de crédito más altos.",
         "question": "¿Sonoran Radio es gratis?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio admite integraciones con:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-Inventarios de FiveM\n-Scripts de teléfono\n-Pantallas de vehículos\n-Animaciones de radio de Big Daddy",
         "question": "¿Qué otras integraciones son compatibles?"
+      },
+      "otherGames": {
+        "answer": "¡Sí! Sonoran Radio incluye aplicaciones independientes, una superposición universal de escritorio y una API abierta para permitir que usuarios y despachadores se conecten para cualquier juego.",
+        "question": "¿Funciona Sonoran Radio con algún otro juego?"
       },
       "outsideFiveM": {
         "answer": "¡Sí! Sonoran Radio incluye aplicaciones independientes para web, escritorio y móviles que permiten a usuarios y despachadores conectarse para cualquier juego.",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Contactar con soporte",
+      "contactShort": "Contacto",
       "description": "El chat de soporte en vivo está disponible los 7 días de la semana con personas reales que entienden las comunidades de rol, con equipos en EE. UU. y Reino Unido.",
       "features": {
         "humans": "Atención humana",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Reseñas de Google",
       "reviewsButton": "Leer reseñas de Google",
+      "reviewsShort": "Reseñas",
       "titleHighlight": "Soporte de 5 estrellas.",
       "titleLead": "Tu comunidad merece",
       "widgetTitle": "Tiempos de respuesta de soporte de Sonoran"

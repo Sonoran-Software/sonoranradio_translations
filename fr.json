@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Explorer les intégrations",
     "faq": {
       "free": {
-        "answer": "Oui. Dispatch AI est entièrement disponible avec l’offre gratuite, avec des crédits mensuels inclus. Les offres payantes incluent des limites de crédits plus élevées.",
+        "answer": "Oui ! Dispatch AI est entièrement disponible avec l’offre gratuite avec des crédits mensuels inclus. Les forfaits payants incluent des limites de crédits plus élevées.",
         "question": "Sonoran Radio est-il gratuit ?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio prend en charge les intégrations avec :\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-Inventaires FiveM\n-Scripts téléphoniques\n-Écrans de véhicule\n-Animations radio Big Daddy",
         "question": "Quelles autres intégrations sont prises en charge ?"
+      },
+      "otherGames": {
+        "answer": "Oui! Sonoran Radio inclut des applications autonomes, un overlay de bureau universel et une API ouverte pour permettre aux utilisateurs et aux répartiteurs de se connecter pour n'importe quel jeu.",
+        "question": "Sonoran Radio fonctionne-t-il avec d'autres jeux ?"
       },
       "outsideFiveM": {
         "answer": "Oui! Sonoran Radio inclut des applications web, de bureau et mobiles autonomes qui permettent aux utilisateurs et aux répartiteurs de se connecter pour n'importe quel jeu!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Contacter le support",
+      "contactShort": "Contacter",
       "description": "Le support par chat en direct est disponible 7 jours sur 7 par de vraies personnes qui comprennent les communautés de jeu de rôle — avec des équipes aux États-Unis et au Royaume-Uni.",
       "features": {
         "humans": "Assistance humaine",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Avis Google",
       "reviewsButton": "Lire les avis Google",
+      "reviewsShort": "Avis",
       "titleHighlight": "Assistance 5 étoiles.",
       "titleLead": "Votre communauté mérite",
       "widgetTitle": "Délais de réponse du support Sonoran"

@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Utforska integrationer",
     "faq": {
       "free": {
-        "answer": "Ja. Dispatch AI är helt tillgängligt på gratisplanen med månatliga krediter inkluderade. Betalda planer inkluderar högre kreditgränser.",
+        "answer": "Ja! Dispatch AI är fullt tillgängligt på Free-planen med månatliga krediter inkluderade. Betalda planer inkluderar högre kreditgränser.",
         "question": "Är Sonoran Radio gratis?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio stöder integrationer med:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-inventarier\n-Telefonskript\n-Fordonsskärmar\n-Big Daddy-radioanimationer",
         "question": "Vilka andra integrationer stöds?"
+      },
+      "otherGames": {
+        "answer": "Ja! Sonoran Radio inkluderar fristående applikationer, ett universellt skrivbordsöverlägg och ett öppet API som låter användare och ledningscentraler ansluta för vilket spel som helst.",
+        "question": "Fungerar Sonoran Radio med några andra spel?"
       },
       "outsideFiveM": {
         "answer": "Ja! Sonoran Radio inkluderar fristående webb-, dator- och mobilapplikationer som låter användare och ledningscentraler ansluta för vilket spel som helst!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Kontakta supporten",
+      "contactShort": "Kontakta",
       "description": "Livechattstöd finns tillgängligt 7 dagar i veckan från riktiga människor som förstår rollspelsgemenskaper — med team i USA och Storbritannien.",
       "features": {
         "humans": "Mänsklig support",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Google-recensioner",
       "reviewsButton": "Läs Google-recensioner",
+      "reviewsShort": "Recensioner",
       "titleHighlight": "5-stjärnig support.",
       "titleLead": "Din community förtjänar",
       "widgetTitle": "Sonoran Support svarstider"

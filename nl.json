@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "Verken integraties",
     "faq": {
       "free": {
-        "answer": "Ja. Dispatch AI is volledig beschikbaar in het Gratis plan met inbegrepen maandelijkse credits. Betaalde abonnementen bevatten hogere creditlimieten.",
+        "answer": "Ja! Dispatch AI is volledig beschikbaar op het Gratis abonnement met inbegrepen maandelijkse credits. Betaalde abonnementen bevatten hogere creditlimieten.",
         "question": "Is Sonoran Radio gratis?"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio ondersteunt integraties met:\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM-inventarissen\n-Telefoonscripts\n-Voertuigdisplays\n-Big Daddy radio-animaties",
         "question": "Welke andere integraties worden ondersteund?"
+      },
+      "otherGames": {
+        "answer": "Ja! Sonoran Radio bevat zelfstandige applicaties, een universele desktopoverlay en een open API waarmee gebruikers en dispatchers kunnen verbinden voor elk spel.",
+        "question": "Werkt Sonoran Radio met andere games?"
       },
       "outsideFiveM": {
         "answer": "Ja! Sonoran Radio bevat zelfstandige web-, desktop- en mobiele applicaties waarmee gebruikers en dispatchers kunnen verbinden voor elk spel!",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "Contact opnemen met ondersteuning",
+      "contactShort": "Contact",
       "description": "Live chatondersteuning is 7 dagen per week beschikbaar van echte mensen die rollenspelgemeenschappen begrijpen — met teams in de VS en het VK.",
       "features": {
         "humans": "Menselijke ondersteuning",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Google-recensies",
       "reviewsButton": "Lees Google-recensies",
+      "reviewsShort": "Recensies",
       "titleHighlight": "5-sterrenondersteuning.",
       "titleLead": "Jouw community verdient",
       "widgetTitle": "Sonoran Support reactietijden"

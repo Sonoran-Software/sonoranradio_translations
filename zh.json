@@ -1075,7 +1075,7 @@
     "exploreIntegrations": "探索集成",
     "faq": {
       "free": {
-        "answer": "是。Dispatch AI 在免费方案中完全可用，并包含每月额度。付费方案包含更高的额度上限。",
+        "answer": "是！Dispatch AI 在免费套餐中完全可用，并包含每月积分。付费套餐包含更高的积分上限。",
         "question": "Sonoran Radio 是免费的吗？"
       },
       "guestAccess": {
@@ -1089,6 +1089,10 @@
       "integrations": {
         "answer": "Sonoran Radio 支持以下集成：\n-Sonoran CAD\n-Sonoran CMS\n-Stream Deck\n-FiveM 库存\n-电话脚本\n-车辆显示\n-Big Daddy 电台动画",
         "question": "还支持哪些其他集成？"
+      },
+      "otherGames": {
+        "answer": "是的！Sonoran Radio 包含独立应用程序、通用桌面覆盖层和开放 API，允许用户和调度员连接到任何游戏。",
+        "question": "Sonoran Radio 能用于其他游戏吗？"
       },
       "outsideFiveM": {
         "answer": "是的！Sonoran Radio 包含独立的网页、桌面和移动应用程序，允许用户和调度员连接到任何游戏！",
@@ -1219,6 +1223,7 @@
     },
     "support": {
       "contactButton": "联系支持",
+      "contactShort": "联系",
       "description": "提供实时聊天支持，每周7天都有真正了解角色扮演社区的人提供服务——团队位于美国和英国。",
       "features": {
         "humans": "人工支持",
@@ -1231,6 +1236,7 @@
       },
       "googleBadge": "Google 评价",
       "reviewsButton": "阅读 Google 评价",
+      "reviewsShort": "评价",
       "titleHighlight": "五星支持。",
       "titleLead": "你的社区值得",
       "widgetTitle": "Sonoran 支持响应时间"
