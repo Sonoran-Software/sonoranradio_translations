@@ -1401,7 +1401,7 @@
       "apiInfoHint": "커뮤니티에 초대할 때 멤버들에게 이것을 주세요",
       "apiInfoTitle": "API 정보",
       "communityApiKeyField": "커뮤니티 API 키",
-      "communityLogs": "커뮤니티 로그",
+      "communityLogs": "로그",
       "communityLogsEmpty": "로그를 찾을 수 없음",
       "communityLogsLoading": "로그를 불러오는 중...",
       "logAccount": "Source (Account)",

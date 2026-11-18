@@ -1401,7 +1401,7 @@
       "apiInfoHint": "Gi dette til medlemmene dine når du inviterer dem til fellesskapet",
       "apiInfoTitle": "API-informasjon",
       "communityApiKeyField": "Fellesskaps-API-nøkkel",
-      "communityLogs": "Fellesskapslogger",
+      "communityLogs": "Logger",
       "communityLogsEmpty": "Ingen logger funnet",
       "communityLogsLoading": "Laster logger...",
       "logAccount": "Konto",

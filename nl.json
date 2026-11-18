@@ -1401,7 +1401,7 @@
       "apiInfoHint": "Geef dit aan je leden wanneer je ze uitnodigt voor de community",
       "apiInfoTitle": "API-info",
       "communityApiKeyField": "Community API-sleutel",
-      "communityLogs": "Communitylogboeken",
+      "communityLogs": "Logboeken",
       "communityLogsEmpty": "Geen logs gevonden",
       "communityLogsLoading": "Logboeken laden...",
       "logAccount": "Bron (Account)",
