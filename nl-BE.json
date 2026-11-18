@@ -980,9 +980,20 @@
   },
   "manageServer": {
     "admin": {
+      "apiKeyUnavailable": "API-sleutel niet beschikbaar",
+      "clearLogDate": "Wis datum",
+      "communityLogs": "Logs",
       "communityLogsEmpty": "Geen logs gevonden",
-      "communityLogsLoading": "Logs laden..."
+      "communityLogsLoading": "Logs laden...",
+      "copyLogContent": "Inhoud kopiëren",
+      "dangerZone": "Gevarenzone",
+      "deleteDetail": "Verwijder deze community en zijn gegevens permanent.",
+      "noLogContent": "Geen inhoud voor dit item.",
+      "pickLogDate": "Kies een datum",
+      "transferDetail": "Geef het eigenaarschap aan een ander lid.",
+      "viewLogDetails": "Logdetails bekijken"
     },
+    "adminTab": "Beheerder",
     "customizeDesktopFrames": {
       "addLayout": "Lay-out toevoegen",
       "addScreen": "Scherm toevoegen",
@@ -1361,7 +1372,7 @@
       "saved": "Opgeslagen",
       "saveError": "Kon niet opslaan",
       "saving": "Opslaan…",
-      "setup": "Rolsynchronisatie instellen",
+      "setup": "Discord-machtigingen",
       "stunRadioDescription": "Zet de radio van een ander lid 30 seconden stil.",
       "stunRadioLabel": "Radio verdoven",
       "syncCommand": "Leden: voer {command} uit in Discord om je rechten te krijgen.",
@@ -1389,7 +1400,11 @@
       "discordIdCopied": "Discord-ID gekopieerd naar klembord.",
       "displayNameUpdated": "Weergavenaam bijgewerkt",
       "enterDisplayName": "Voer een nieuwe weergavenaam in voor {name}",
+      "inviteMembers": "Leden uitnodigen",
       "kickConfirm": "Je staat op het punt {count} lid(leden) te verwijderen. Ze zullen opnieuw kunnen deelnemen met de community-ID.",
+      "manageAccount": "Account beheren voor {username}",
+      "manageSelected": "Geselecteerde beheren ({count})",
+      "memberStatus": "Lidstatus",
       "noDiscordAccountLinked": "Deze gebruiker heeft geen Discord-account gekoppeld.",
       "noRobloxAccountLinked": "Deze gebruiker heeft geen Roblox-account gekoppeld.",
       "permissionAdmin": "Beheerder",
@@ -1417,8 +1432,11 @@
       "permissionStunRadio": "Radio verdoven",
       "permissionStunRadioDescription": "Laat gebruikers toe om een andere radio-gebruiker 30s te stunnen (blokkeren).",
       "robloxIdCopied": "Roblox-ID gekopieerd naar klembord.",
+      "searchMembers": "Zoek leden",
+      "selectedCount": "{count} leden geselecteerd",
       "unbanConfirm": "Je staat op het punt om {count} lid(lid) te ontbannen. Ze zullen opnieuw kunnen deelnemen met de community-ID."
     },
+    "pausePreview": "Pauzeren",
     "serverInfo": {
       "cadPrompts": {
         "tools": {

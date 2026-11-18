@@ -980,9 +980,20 @@
   },
   "manageServer": {
     "admin": {
+      "apiKeyUnavailable": "Clave de API no disponible",
+      "clearLogDate": "Borrar fecha",
+      "communityLogs": "Registros",
       "communityLogsEmpty": "No se encontraron registros",
-      "communityLogsLoading": "Cargando registros..."
+      "communityLogsLoading": "Cargando registros...",
+      "copyLogContent": "Copiar contenido",
+      "dangerZone": "Zona de peligro",
+      "deleteDetail": "Eliminar permanentemente esta comunidad y sus datos.",
+      "noLogContent": "No hay contenido para esta entrada.",
+      "pickLogDate": "Elige una fecha",
+      "transferDetail": "Otorgar la propiedad a otro miembro.",
+      "viewLogDetails": "Ver detalles del registro"
     },
+    "adminTab": "Administrador",
     "customizeDesktopFrames": {
       "addLayout": "Añadir diseño",
       "addScreen": "Añadir pantalla",
@@ -1361,7 +1372,7 @@
       "saved": "Guardado",
       "saveError": "No se pudo guardar",
       "saving": "Guardando…",
-      "setup": "Configurar sincronización de roles",
+      "setup": "Permisos de Discord",
       "stunRadioDescription": "Detiene la radio de otro miembro durante 30 segundos.",
       "stunRadioLabel": "Radio de aturdimiento",
       "syncCommand": "Miembros: ejecuten {command} en Discord para obtener sus permisos.",
@@ -1389,7 +1400,11 @@
       "discordIdCopied": "ID de Discord copiado al portapapeles.",
       "displayNameUpdated": "Nombre para mostrar actualizado",
       "enterDisplayName": "Introduce un nuevo nombre visible para {name}",
+      "inviteMembers": "Invitar miembros",
       "kickConfirm": "Estás a punto de expulsar a {count} miembro(s). Podrán volver a unirse con el ID de la comunidad.",
+      "manageAccount": "Administrar cuenta de {username}",
+      "manageSelected": "Gestionar seleccionados ({count})",
+      "memberStatus": "Estado del miembro",
       "noDiscordAccountLinked": "Este usuario no tiene ninguna cuenta de Discord vinculada.",
       "noRobloxAccountLinked": "Este usuario no tiene ninguna cuenta de Roblox vinculada.",
       "permissionAdmin": "Administrador",
@@ -1417,8 +1432,11 @@
       "permissionStunRadio": "Radio de aturdimiento",
       "permissionStunRadioDescription": "Permite a los usuarios aturdir (bloquear) a otro usuario de radio durante 30 s.",
       "robloxIdCopied": "ID de Roblox copiado al portapapeles.",
+      "searchMembers": "Buscar miembros",
+      "selectedCount": "{count} miembros seleccionados",
       "unbanConfirm": "Estás a punto de desbanear a {count} miembro(s). Podrán volver a unirse con el ID de la comunidad."
     },
+    "pausePreview": "Pausar",
     "serverInfo": {
       "cadPrompts": {
         "tools": {
