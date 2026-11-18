@@ -980,9 +980,20 @@
   },
   "manageServer": {
     "admin": {
+      "apiKeyUnavailable": "Ключ API недоступний",
+      "clearLogDate": "Очистити дату",
+      "communityLogs": "Журнали",
       "communityLogsEmpty": "Журналів не знайдено",
-      "communityLogsLoading": "Завантаження журналів..."
+      "communityLogsLoading": "Завантаження журналів...",
+      "copyLogContent": "Копіювати вміст",
+      "dangerZone": "Небезпечна зона",
+      "deleteDetail": "Видалити цю спільноту та її дані назавжди.",
+      "noLogContent": "Немає вмісту для цього запису.",
+      "pickLogDate": "Виберіть дату",
+      "transferDetail": "Передати право власності іншому учаснику.",
+      "viewLogDetails": "Переглянути деталі журналу"
     },
+    "adminTab": "Адмін",
     "customizeDesktopFrames": {
       "addLayout": "Додати макет",
       "addScreen": "Додати екран",
@@ -1361,7 +1372,7 @@
       "saved": "Збережено",
       "saveError": "Не вдалося зберегти",
       "saving": "Збереження…",
-      "setup": "Налаштувати синхронізацію ролей",
+      "setup": "Дозволи Discord",
       "stunRadioDescription": "Зупинити радіо іншого учасника на 30 секунд.",
       "stunRadioLabel": "Оглушення радіо",
       "syncCommand": "Учасники: виконайте {command} в Discord, щоб отримати свої дозволи.",
@@ -1389,7 +1400,11 @@
       "discordIdCopied": "Discord ID скопійовано в буфер обміну.",
       "displayNameUpdated": "Ім'я відображення оновлено",
       "enterDisplayName": "Введіть нове ім’я для відображення для {name}",
+      "inviteMembers": "Запросити учасників",
       "kickConfirm": "Ви збираєтеся вигнати {count} учасника(ів). Вони зможуть приєднатися знову за допомогою ID спільноти.",
+      "manageAccount": "Керувати обліковим записом для {username}",
+      "manageSelected": "Керувати вибраними ({count})",
+      "memberStatus": "Статус учасника",
       "noDiscordAccountLinked": "У цього користувача не прив’язано обліковий запис Discord.",
       "noRobloxAccountLinked": "У цього користувача не прив’язано обліковий запис Roblox.",
       "permissionAdmin": "Адмін",
@@ -1417,8 +1432,11 @@
       "permissionStunRadio": "Оглушення радіо",
       "permissionStunRadioDescription": "Дозволяє користувачам оглушити (заблокувати) іншого радіокористувача на 30 с.",
       "robloxIdCopied": "Roblox ID скопійовано в буфер обміну.",
+      "searchMembers": "Пошук учасників",
+      "selectedCount": "{count} учасників вибрано",
       "unbanConfirm": "Ви збираєтеся розбанити {count} учасника(ів). Вони зможуть знову приєднатися за допомогою ID спільноти."
     },
+    "pausePreview": "Пауза",
     "serverInfo": {
       "cadPrompts": {
         "tools": {

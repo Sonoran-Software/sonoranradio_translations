@@ -980,9 +980,20 @@
   },
   "manageServer": {
     "admin": {
+      "apiKeyUnavailable": "API 密钥不可用",
+      "clearLogDate": "清除日期",
+      "communityLogs": "日志",
       "communityLogsEmpty": "未找到日志",
-      "communityLogsLoading": "正在加载日志..."
+      "communityLogsLoading": "正在加载日志...",
+      "copyLogContent": "复制内容",
+      "dangerZone": "危险区域",
+      "deleteDetail": "永久删除此社区及其数据。",
+      "noLogContent": "此条目无内容。",
+      "pickLogDate": "选择日期",
+      "transferDetail": "将所有权转移给其他成员。",
+      "viewLogDetails": "查看日志详情"
     },
+    "adminTab": "管理员",
     "customizeDesktopFrames": {
       "addLayout": "添加布局",
       "addScreen": "添加屏幕",
@@ -1361,7 +1372,7 @@
       "saved": "已保存",
       "saveError": "无法保存",
       "saving": "保存中…",
-      "setup": "设置角色同步",
+      "setup": "Discord 权限",
       "stunRadioDescription": "使另一名成员的电台停止 30 秒。",
       "stunRadioLabel": "眩晕 电台",
       "syncCommand": "成员：在 Discord 中运行 {command} 以获取你的权限。",
@@ -1389,7 +1400,11 @@
       "discordIdCopied": "Discord ID 已复制到剪贴板。",
       "displayNameUpdated": "显示名称已更新",
       "enterDisplayName": "为 {name} 输入新的显示名称",
+      "inviteMembers": "邀请成员",
       "kickConfirm": "你即将踢出 {count} 名成员。他们可以使用社区 ID 重新加入。",
+      "manageAccount": "管理 {username} 的账户",
+      "manageSelected": "管理已选择的（{count}）",
+      "memberStatus": "成员状态",
       "noDiscordAccountLinked": "此用户未关联 Discord 账号。",
       "noRobloxAccountLinked": "此用户未关联 Roblox 账号。",
       "permissionAdmin": "管理员",
@@ -1417,8 +1432,11 @@
       "permissionStunRadio": "眩晕 电台",
       "permissionStunRadioDescription": "允许用户将另一位电台用户锁定 30 秒。",
       "robloxIdCopied": "Roblox ID 已复制到剪贴板。",
+      "searchMembers": "搜索成员",
+      "selectedCount": "已选择 {count} 位成员",
       "unbanConfirm": "你即将解封 {count} 名成员。他们可以使用社区 ID 重新加入。"
     },
+    "pausePreview": "暂停",
     "serverInfo": {
       "cadPrompts": {
         "tools": {

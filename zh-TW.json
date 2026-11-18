@@ -980,9 +980,20 @@
   },
   "manageServer": {
     "admin": {
+      "apiKeyUnavailable": "API 金鑰不可用",
+      "clearLogDate": "清除日期",
+      "communityLogs": "日誌",
       "communityLogsEmpty": "找不到記錄",
-      "communityLogsLoading": "正在載入記錄..."
+      "communityLogsLoading": "正在載入記錄...",
+      "copyLogContent": "複製內容",
+      "dangerZone": "危險區域",
+      "deleteDetail": "永久刪除此社群及其資料。",
+      "noLogContent": "此項目沒有內容。",
+      "pickLogDate": "選擇日期",
+      "transferDetail": "將擁有權轉移給另一位成員。",
+      "viewLogDetails": "查看日誌詳細資訊"
     },
+    "adminTab": "管理員",
     "customizeDesktopFrames": {
       "addLayout": "新增版面配置",
       "addScreen": "新增畫面",
@@ -1361,7 +1372,7 @@
       "saved": "已儲存",
       "saveError": "無法儲存",
       "saving": "儲存中…",
-      "setup": "設定角色同步",
+      "setup": "Discord 權限",
       "stunRadioDescription": "使另一名成員的 無線電 停止 30 秒。",
       "stunRadioLabel": "暫停無線電",
       "syncCommand": "成員：在 Discord 中執行 {command} 以取得你的權限。",
@@ -1389,7 +1400,11 @@
       "discordIdCopied": "Discord ID 已複製到剪貼簿。",
       "displayNameUpdated": "顯示名稱已更新",
       "enterDisplayName": "為 {name} 輸入新的顯示名稱",
+      "inviteMembers": "邀請成員",
       "kickConfirm": "您即將踢出 {count} 位成員。他們將能夠使用社群 ID 重新加入。",
+      "manageAccount": "管理 {username} 的帳號",
+      "manageSelected": "管理已選取項目 ({count})",
+      "memberStatus": "成員狀態",
       "noDiscordAccountLinked": "此使用者未連結 Discord 帳號。",
       "noRobloxAccountLinked": "此使用者未連結 Roblox 帳號。",
       "permissionAdmin": "管理員",
@@ -1417,8 +1432,11 @@
       "permissionStunRadio": "暫停無線電",
       "permissionStunRadioDescription": "允許使用者使另一位無線電使用者暫時無法使用 30 秒。",
       "robloxIdCopied": "Roblox ID 已複製到剪貼簿。",
+      "searchMembers": "搜尋成員",
+      "selectedCount": "已選取 {count} 位成員",
       "unbanConfirm": "您即將解除封鎖 {count} 位成員。他們將能夠使用社群 ID 重新加入。"
     },
+    "pausePreview": "暫停",
     "serverInfo": {
       "cadPrompts": {
         "tools": {

@@ -980,9 +980,20 @@
   },
   "manageServer": {
     "admin": {
+      "apiKeyUnavailable": "API 키를 사용할 수 없음",
+      "clearLogDate": "날짜 지우기",
+      "communityLogs": "로그",
       "communityLogsEmpty": "로그를 찾을 수 없음",
-      "communityLogsLoading": "로그를 불러오는 중..."
+      "communityLogsLoading": "로그를 불러오는 중...",
+      "copyLogContent": "내용 복사",
+      "dangerZone": "위험 구역",
+      "deleteDetail": "이 커뮤니티와 해당 데이터를 영구적으로 삭제합니다.",
+      "noLogContent": "이 항목에는 내용이 없습니다.",
+      "pickLogDate": "날짜 선택",
+      "transferDetail": "다른 멤버에게 소유권을 넘기세요.",
+      "viewLogDetails": "로그 세부 정보 보기"
     },
+    "adminTab": "관리자",
     "customizeDesktopFrames": {
       "addLayout": "레이아웃 추가",
       "addScreen": "화면 추가",
@@ -1361,7 +1372,7 @@
       "saved": "저장됨",
       "saveError": "저장할 수 없었습니다",
       "saving": "저장 중…",
-      "setup": "역할 동기화 설정",
+      "setup": "Discord 권한",
       "stunRadioDescription": "다른 멤버의 라디오를 30초 동안 중지합니다.",
       "stunRadioLabel": "스턴 라디오",
       "syncCommand": "멤버: 권한을 얻으려면 Discord에서 {command}를 실행하세요.",
@@ -1389,7 +1400,11 @@
       "discordIdCopied": "Discord ID가 클립보드에 복사되었습니다.",
       "displayNameUpdated": "표시 이름이 업데이트됨",
       "enterDisplayName": "{name}의 새 표시 이름을 입력하세요",
+      "inviteMembers": "멤버 초대",
       "kickConfirm": "{count}명의 멤버를 내보내려 합니다. 이들은 커뮤니티 ID로 다시 참여할 수 있습니다.",
+      "manageAccount": "{username}의 계정 관리",
+      "manageSelected": "선택 항목 관리 ({count})",
+      "memberStatus": "멤버 상태",
       "noDiscordAccountLinked": "이 사용자에게 연결된 Discord 계정이 없습니다.",
       "noRobloxAccountLinked": "이 사용자에게 연결된 Roblox 계정이 없습니다.",
       "permissionAdmin": "관리자",
@@ -1417,8 +1432,11 @@
       "permissionStunRadio": "스턴 라디오",
       "permissionStunRadioDescription": "사용자가 다른 라디오 사용자를 30초 동안 기절시키기(잠금)할 수 있게 합니다.",
       "robloxIdCopied": "Roblox ID가 클립보드에 복사되었습니다.",
+      "searchMembers": "구성원 검색",
+      "selectedCount": "{count}명 선택됨",
       "unbanConfirm": "{count}명의 멤버의 차단을 해제하려고 합니다. 이들은 커뮤니티 ID로 다시 가입할 수 있습니다."
     },
+    "pausePreview": "일시 중지",
     "serverInfo": {
       "cadPrompts": {
         "tools": {

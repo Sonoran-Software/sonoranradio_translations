@@ -980,9 +980,20 @@
   },
   "manageServer": {
     "admin": {
+      "apiKeyUnavailable": "API key unavailable",
+      "clearLogDate": "Clear date",
+      "communityLogs": "Logs",
       "communityLogsEmpty": "No logs found",
-      "communityLogsLoading": "Loading logs..."
+      "communityLogsLoading": "Loading logs...",
+      "copyLogContent": "Copy content",
+      "dangerZone": "Danger Zone",
+      "deleteDetail": "Permanently delete this community and its data.",
+      "noLogContent": "No content for this entry.",
+      "pickLogDate": "Pick a date",
+      "transferDetail": "Give ownership to another member.",
+      "viewLogDetails": "View log details"
     },
+    "adminTab": "Admin",
     "customizeDesktopFrames": {
       "addLayout": "Add layout",
       "addScreen": "Add screen",
@@ -1361,7 +1372,7 @@
       "saved": "Saved",
       "saveError": "Could not save",
       "saving": "Saving…",
-      "setup": "Set up role sync",
+      "setup": "Discord permissions",
       "stunRadioDescription": "Stop another member’s radio for 30 seconds.",
       "stunRadioLabel": "Stun Radio",
       "syncCommand": "Members: run {command} in Discord to get your permissions.",
@@ -1389,7 +1400,11 @@
       "discordIdCopied": "Discord ID copied to clipboard.",
       "displayNameUpdated": "Display Name Updated",
       "enterDisplayName": "Enter a new display name for {name}",
+      "inviteMembers": "Invite members",
       "kickConfirm": "You are about to kick {count} member(s). They will be able to join back with the community ID.",
+      "manageAccount": "Manage account for {username}",
+      "manageSelected": "Manage selected ({count})",
+      "memberStatus": "Member status",
       "noDiscordAccountLinked": "This user has no Discord account linked.",
       "noRobloxAccountLinked": "This user has no Roblox account linked.",
       "permissionAdmin": "Admin",
@@ -1417,8 +1432,11 @@
       "permissionStunRadio": "Stun Radio",
       "permissionStunRadioDescription": "Allows users to stun (lockout) another radio user for 30s.",
       "robloxIdCopied": "Roblox ID copied to clipboard.",
+      "searchMembers": "Search members",
+      "selectedCount": "{count} members selected",
       "unbanConfirm": "You are about to unban {count} member(s). They will be able to re-join with the community ID."
     },
+    "pausePreview": "Pause",
     "serverInfo": {
       "cadPrompts": {
         "tools": {
