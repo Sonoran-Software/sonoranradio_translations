@@ -1401,7 +1401,7 @@
       "apiInfoHint": "Donnez ceci à vos membres lors de leur invitation à la communauté",
       "apiInfoTitle": "Infos API",
       "communityApiKeyField": "Clé API de la communauté",
-      "communityLogs": "Journaux",
+      "communityLogs": "Journaux de la communauté",
       "communityLogsEmpty": "Aucun journal trouvé",
       "communityLogsLoading": "Chargement des journaux...",
       "logAccount": "Compte",

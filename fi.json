@@ -1401,7 +1401,7 @@
       "apiInfoHint": "Anna tämä jäsenillesi, kun kutsut heidät yhteisöön",
       "apiInfoTitle": "API-tiedot",
       "communityApiKeyField": "Yhteisön API-avain",
-      "communityLogs": "Lokit",
+      "communityLogs": "Yhteisön lokit",
       "communityLogsEmpty": "Ei lokimerkintöjä löytynyt",
       "communityLogsLoading": "Ladataan lokeja...",
       "logAccount": "Tili (tili)",

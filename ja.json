@@ -1401,7 +1401,7 @@
       "apiInfoHint": "コミュニティに招待する際に、これをメンバーに渡してください",
       "apiInfoTitle": "API情報",
       "communityApiKeyField": "コミュニティ API キー",
-      "communityLogs": "ログ",
+      "communityLogs": "コミュニティ ログ",
       "communityLogsEmpty": "ログが見つかりません",
       "communityLogsLoading": "ログを読み込み中...",
       "logAccount": "ソース（アカウント）",

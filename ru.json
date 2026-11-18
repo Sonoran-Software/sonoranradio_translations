@@ -1401,7 +1401,7 @@
       "apiInfoHint": "Передайте это своим участникам при приглашении их в сообщество",
       "apiInfoTitle": "Информация об API",
       "communityApiKeyField": "Ключ API сообщества",
-      "communityLogs": "Журнал",
+      "communityLogs": "Журнал сообщества",
       "communityLogsEmpty": "Журналы не найдены",
       "communityLogsLoading": "Загрузка логов...",
       "logAccount": "Источник (Аккаунт)",

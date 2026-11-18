@@ -1401,7 +1401,7 @@
       "apiInfoHint": "邀请成员加入社区时将此提供给他们",
       "apiInfoTitle": "API 信息",
       "communityApiKeyField": "社区 API 密钥",
-      "communityLogs": "日志",
+      "communityLogs": "社区日志",
       "communityLogsEmpty": "未找到日志",
       "communityLogsLoading": "正在加载日志...",
       "logAccount": "来源（账户）",
